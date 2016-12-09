@@ -1,5 +1,5 @@
 #!/bin/bash
-# call ./50-tools/desktop-files-update.sh [LL] [svn]
+# call ./50-tools/desktop-files-update.sh [LL]
 
 export LC_ALL=C
 
@@ -7,7 +7,6 @@ export LC_ALL=C
 podir=$PWD
 lang=$1
 test -n "$lang" || lang="*"
-svn=${2:-true}
 # if non-empty, only pull pot files
 pull_only=$3
 init=$4
@@ -48,17 +47,14 @@ if [ -n "$pull_only" ]; then
   echo "*** pot files updated"
   exit 0
 fi
-if [ "$svn" = svn ]; then
-  $svn ci -mupdate ./50-pot/update-desktop-files*.pot
-fi
 # enable once 13.1 is frozen
 #exit 0
 potlist=`cd 50-pot && ls -1 update-desktop-files*.pot | sed -e 's,.pot,,'`
 popd
 cd po
 incorrect=0
-svnlangs=`cd $podir && ls -1 */update-desktop-files*.po`
-for i in $svnlangs; do
+knownlangs=`cd $podir && ls -1 */update-desktop-files*.po`
+for i in $knownlangs; do
    i=`dirname $i`
    if ! test -f $i/entries.po; then
       echo "Language $i is not collected"
@@ -81,9 +77,6 @@ for i in $lang/entries.po; do
         echo "skipping \"$ilang\"; does not exist in lcn"
         continue
       }
-      # 'svn up' as late, and 'svn ci' as early as possible to avoid
-      # conflicts with active translators
-      $svn up $opodir
       for f in $potlist; do
         msgcat --no-wrap $podir/$ilang/$f.po | \
           sed -e 's,msgid "",msgid "HEADER",' | \
@@ -127,8 +120,6 @@ for i in $lang/entries.po; do
          echo $ilang/$f.po
       done
       rm $ofile
-      $svn add $opodir/update-desktop-files*.po
-      $svn ci -mupdate $opodir/update-desktop-files*.po
 done
 
 echo $dir
