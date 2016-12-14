@@ -21,7 +21,13 @@
 # SOFTWARE.
 #
 
-# call ./50-tools/desktop-files-update.sh [LL]
+#
+# This script is used to update all the *.po files in the GIT repo with new data
+# from the *.desktop files in OBS
+#
+# It can be configured through "desktop-files-update.urls", and should be called
+# from the root directory of the repo like "./50-tools/desktop-files-update.sh"
+#
 
 export LC_ALL=C
 

@@ -21,6 +21,11 @@
 # SOFTWARE.
 #
 
+#
+# This script is a dependency of "desktop-files-update.sh", and should not be
+# used directly
+#
+
 langs="af ar az be bg bn br bs ca cs cy da de el en_GB en_US eo es et eu fa"
 langs="$langs fi fr fy ga gl gu he hi hr hu id is it"
 langs="$langs ja ka km ko ku lo lt lv mk mn mr ms mt nb nds nl nn nso pa pl pt"

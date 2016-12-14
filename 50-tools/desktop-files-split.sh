@@ -20,6 +20,11 @@
 # SOFTWARE.
 #
 
+#
+# This script is a dependency of "desktop-files-update.sh", and should not be
+# used directly
+#
+
 function split_out()
 {
   sed -e "s,^#:,# :," $1 | \

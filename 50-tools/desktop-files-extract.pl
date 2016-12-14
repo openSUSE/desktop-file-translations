@@ -20,6 +20,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 #
+
+#
+# This script is a dependency of "desktop-files-update.sh", and should not be
+# used directly
+#
+
 use POSIX;
 use File::Basename;
 

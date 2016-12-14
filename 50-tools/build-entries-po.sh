@@ -21,6 +21,11 @@
 # SOFTWARE.
 #
 
+#
+# This script is used in the build process of the desktop-translations package
+# to generate entries.po files
+#
+
 rm -rf po
 mkdir po
 for file in */update-desktop-files*.po; do

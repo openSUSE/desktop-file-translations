@@ -20,6 +20,11 @@
 # SOFTWARE.
 #
 
+#
+# This script is a dependency of "desktop-files-update.sh", and should not be
+# used directly
+#
+
 url=$1
 prefix=$2
 
