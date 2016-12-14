@@ -1,5 +1,25 @@
 #!/usr/bin/perl
-
+#
+# Copyright (c) 2016 SUSE LLC
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in
+# all copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+#
 use POSIX;
 use File::Basename;
 
@@ -67,10 +87,10 @@ foreach my $file (@files)
 
 	if ( /^<<(.*)>>$/ )
 	  {
-            while(($tag, $otag) = each(%tags)) 
+            while(($tag, $otag) = each(%tags))
              {
                print_po_line("msgctxt", "$tag($DESKTOP_FILE)");
-               my $otag = 
+               my $otag =
                print_po_line("msgid", "PREFIX$prefix-$otag");
                print_po_line("msgstr", "NADA");
                print STDOUT "\n";
@@ -84,7 +104,7 @@ foreach my $file (@files)
 	    $DESKTOP_FILE=$desktopfile;
 	    $DESKTOP_FILE =~ s,.*/,,;
             # not used $DESKTOP_FILE = "$prefix-$DESKTOP_FILE" if ($prefix);
-     
+
 	    %tags = ();
 	    next;
 	  }
@@ -115,7 +135,7 @@ foreach my $file (@files)
 	  {
 	    print STDOUT "#: $desktopfile\n";
 	    my $otag=$tags{$1};
-            if ( length($otag) ) 
+            if ( length($otag) )
               {
 	        print_po_line("msgctxt", "$1($DESKTOP_FILE)");
 	        print_po_line("msgid", "PREFIX$prefix-$otag");
@@ -127,4 +147,3 @@ foreach my $file (@files)
 	  }
       }
   }
-
