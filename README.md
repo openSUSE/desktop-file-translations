@@ -18,11 +18,11 @@
 
   2. [desktop-file-translations](https://github.com/openSUSE/desktop-file-translations):
      The `.po` files in the GitHub repository are regularly updated by running
-     the `50-tools/download-desktop-files.sh` and `50-tools/update-po-files.sh`
-     scripts manually and then committing the results. The first script fetches
-     the compressed `.desktop` files from the OBS API, and the second turns them
-     into `.po` files, and merges the results into the already existing `.po`
-     files in the repository.
+     the `download-desktop-files.sh` and `update-po-files.sh` scripts manually
+     and then committing the results. The first script fetches the compressed
+     `.desktop` files from the OBS API, and the second turns them into `.po`
+     files, and merges the results into the already existing `.po` files in the
+     repository.
 
   3. [desktop-translations](https://build.opensuse.org/package/show/X11:common:Factory/desktop-translations):
      This package contains a `_service` file referring to the
@@ -37,8 +37,8 @@ intervals. You can start this process by cloning the repository.
 ```
 $ git clone git@github.com:openSUSE/desktop-file-translations.git
 ```
-Next you'll have to run the `update-po-files.sh` script, which will take some
-time, so go grab a cup of tea.
+Next you'll have to run the `download-desktop-files.sh` and `update-po-files.sh`
+scripts, which will take some time, so go grab a cup of tea.
 ```
 $ cd desktop-file-translations
 $ ./50-tools/download-desktop-files.sh
