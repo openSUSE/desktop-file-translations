@@ -29,24 +29,23 @@
 use POSIX;
 use File::Basename;
 
-my $lang=$ARGV[0] || undef;
+my $lang = $ARGV[0] || undef;
 
-sub print_po_line($$)
-  {
-    my ($ltag, $lstr) = @_;
-    my $escaped_str = $lstr;
-    $escaped_str =~ s,\\,\\\\,g;
-    $escaped_str =~ s,",\\",g;
-    print STDOUT "$ltag \"$escaped_str\"\n";
-  }
+sub print_po_line($$) {
+  my ($ltag, $lstr) = @_;
+  my $escaped_str = $lstr;
+  $escaped_str =~ s,\\,\\\\,g;
+  $escaped_str =~ s,",\\",g;
+  print STDOUT "$ltag \"$escaped_str\"\n";
+}
 
 opendir(DIR, "desktopfiles");
-@files=readdir(DIR);
-@files=sort @files;
+@files = readdir(DIR);
+@files = sort @files;
 close in;
 
-my $version=POSIX::strftime("%Y%m%d", localtime(time()));
-my $date=POSIX::strftime("%Y-%m-%d %H:%M+0000", localtime(time()));
+my $version = POSIX::strftime("%Y%m%d", localtime(time()));
+my $date = POSIX::strftime("%Y-%m-%d %H:%M+0000", localtime(time()));
 print STDOUT "msgid \"\"\n";
 print STDOUT "msgstr \"\"\n";
 print STDOUT "\"Project-Id-Version: desktop-translations $version\\n\"\n";
@@ -59,13 +58,12 @@ print STDOUT "\"Last-Translator: FULL NAME <EMAIL\@ADDRESS>\\n\"\n";
 print STDOUT "\"Language-Team: LANGUAGE <LL\@li.org>\\n\"\n";
 print STDOUT "\n";
 
-my $desktopfile="";
-my $DESKTOP_FILE="";
+my $desktopfile  = "";
+my $DESKTOP_FILE = "";
 my $prefix;
 my %tags = ();
 
-sub getprefix($)
-{
+sub getprefix($) {
   my ($dir) = @_;
 
 #  print STDERR "$dir\n";
@@ -83,73 +81,73 @@ sub getprefix($)
 
 my %seen_lines = ();
 
-foreach my $file (@files)
-  {
-    open(FILE, "desktopfiles/$file");
-    while ( <FILE> )
-      {
-	my $tag = "";
-	my $str = "";
+foreach my $file (@files) {
+  open(FILE, "desktopfiles/$file");
+  while (<FILE>) {
+    my $tag = "";
+    my $str = "";
 
-	if ( /^<<(.*)>>$/ )
-	  {
-            while(($tag, $otag) = each(%tags))
-             {
-               print_po_line("msgctxt", "$tag($DESKTOP_FILE)");
-               my $otag =
-               print_po_line("msgid", "PREFIX$prefix-$otag");
-               print_po_line("msgstr", "NADA");
-               print STDOUT "\n";
-             }
-
-	    $desktopfile=$1;
-	    $desktopfile =~ s,/*var/tmp/.*-build,,;
-            $desktopfile =~ s,.*/BUILDROOT/[^/]*,,;
-            $desktopfile =~ s,//*,/,g;
-            $prefix = getprefix(dirname($desktopfile));
-	    $DESKTOP_FILE=$desktopfile;
-	    $DESKTOP_FILE =~ s,.*/,,;
-            # not used $DESKTOP_FILE = "$prefix-$DESKTOP_FILE" if ($prefix);
-
-	    %tags = ();
-	    next;
-	  }
-
-	if ( /^(Name)=(..*)$/ || /^(GenericName)=(..*)$/ || /^(Comment)=(..*)$/ )
-	  {
-	    $tag=$1;
-	    $str=$2;
-
-	    if ( !$lang )
-	      {
-		print STDOUT "#: $desktopfile\n";
-		print_po_line("msgctxt", "$tag($DESKTOP_FILE)");
-		print_po_line("msgid", "PREFIX$prefix-$str");
-                my $key = "$tag($DESKTOP_FILE)=$str";
-                if (defined $seen_lines{$key} && $seen_lines{$key} ne $desktopfile) {
-                  #print STDERR "seen dup $seen_lines{$key} vs $desktopfile\n";
-                }
-                $seen_lines{$key} = $desktopfile;
-		print_po_line("msgstr", "");
-		print STDOUT "\n";
-	      } else {
-                $tags{$tag} = $str;
-              }
-	  }
-
-	if ( length($lang) && (/^(Name)\[$lang\]=(..*)$/ || /^(GenericName)\[$lang\]=(..*)$/ || /^(Comment)\[$lang\]=(..*)$/ ))
-	  {
-	    print STDOUT "#: $desktopfile\n";
-	    my $otag=$tags{$1};
-            if ( length($otag) )
-              {
-	        print_po_line("msgctxt", "$1($DESKTOP_FILE)");
-	        print_po_line("msgid", "PREFIX$prefix-$otag");
-  	        print_po_line("msgstr", "$2");
-	        print STDOUT "\n";
-                delete $tags{$1};
-              }
-	    next;
-	  }
+    if (/^<<(.*)>>$/) {
+      while (($tag, $otag) = each(%tags)) {
+        print_po_line("msgctxt", "$tag($DESKTOP_FILE)");
+        my $otag = print_po_line("msgid", "PREFIX$prefix-$otag");
+        print_po_line("msgstr", "NADA");
+        print STDOUT "\n";
       }
+
+      $desktopfile = $1;
+      $desktopfile =~ s,/*var/tmp/.*-build,,;
+      $desktopfile =~ s,.*/BUILDROOT/[^/]*,,;
+      $desktopfile =~ s,//*,/,g;
+      $prefix       = getprefix(dirname($desktopfile));
+      $DESKTOP_FILE = $desktopfile;
+      $DESKTOP_FILE =~ s,.*/,,;
+
+      # not used $DESKTOP_FILE = "$prefix-$DESKTOP_FILE" if ($prefix);
+
+      %tags = ();
+      next;
+    }
+
+    if (/^(Name)=(..*)$/ || /^(GenericName)=(..*)$/ || /^(Comment)=(..*)$/) {
+      $tag = $1;
+      $str = $2;
+
+      if (!$lang) {
+        print STDOUT "#: $desktopfile\n";
+        print_po_line("msgctxt", "$tag($DESKTOP_FILE)");
+        print_po_line("msgid",   "PREFIX$prefix-$str");
+        my $key = "$tag($DESKTOP_FILE)=$str";
+        if (defined $seen_lines{$key} && $seen_lines{$key} ne $desktopfile) {
+
+          #print STDERR "seen dup $seen_lines{$key} vs $desktopfile\n";
+        }
+        $seen_lines{$key} = $desktopfile;
+        print_po_line("msgstr", "");
+        print STDOUT "\n";
+      }
+      else {
+        $tags{$tag} = $str;
+      }
+    }
+
+    if (
+      length($lang)
+      && ( /^(Name)\[$lang\]=(..*)$/
+        || /^(GenericName)\[$lang\]=(..*)$/
+        || /^(Comment)\[$lang\]=(..*)$/)
+      )
+    {
+      print STDOUT "#: $desktopfile\n";
+      my $otag = $tags{$1};
+      if (length($otag)) {
+        print_po_line("msgctxt", "$1($DESKTOP_FILE)");
+        print_po_line("msgid",   "PREFIX$prefix-$otag");
+        print_po_line("msgstr",  "$2");
+        print STDOUT "\n";
+        delete $tags{$1};
+      }
+      next;
+    }
   }
+}

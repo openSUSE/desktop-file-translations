@@ -37,16 +37,15 @@ if [[ $# -eq 0 ]]; then
 fi
 dir=$1
 podir=$PWD
-cp -a 50-tools/desktop-files-* $dir
 cd $dir
 
-./desktop-files-pull.sh
+$podir/50-tools/desktop-files-pull.sh $podir
 
 #avoid loosing messages due some build service oopses
 #msgcat --use-first -o pot/entries.pot pot/entries.pot $podir/50-pot/update-desktop-fil*.pot
 msgmerge -s -o $podir/50-pot/update-desktop-files.pot pot/entries.pot pot/entries.pot
 pushd $podir
-./50-tools/desktop-files-split.sh
+$podir/50-tools/desktop-files-split.sh
 # enable once 13.1 is frozen
 #exit 0
 potlist=`cd 50-pot && ls -1 update-desktop-files*.pot | sed -e 's,.pot,,'`

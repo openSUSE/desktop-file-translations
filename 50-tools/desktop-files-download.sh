@@ -32,15 +32,15 @@
 export LC_ALL=C
 
 dir=`mktemp -d -t udf.XXXXXX`
-cp -a 50-tools/desktop-files-* $dir
+podir=$PWD
 cd $dir
 mkdir desktopfiles
 cd desktopfiles
 count=1
-cat ../desktop-files-update.urls | while read url; do
+cat $podir/50-tools/desktop-files-update.urls | while read url; do
    case "$url" in
     http*)
-      ../desktop-files-list.sh "$url" $count
+      $podir/50-tools/desktop-files-list.sh "$url" $count
       count=$(($count+1))
       ;;
    esac

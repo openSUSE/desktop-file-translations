@@ -34,9 +34,10 @@ langs="$langs ta tg th tr tt uk uz vi ven wa xh zh_CN zh_TW zu"
 
 export LC_ALL=C
 
+podir=$1
 rm -rf pot po
 mkdir pot
-perl ./desktop-files-extract.pl > pot/entries.pot
+perl $podir/50-tools/desktop-files-extract.pl > pot/entries.pot
 msguniq --use-first -s -o pot/entries.pot pot/entries.pot
 # this PREFIX magic is based on the assumption that -s sorts by msgid
 sed -i -e 's,PREFIX.-,,' pot/entries.pot
