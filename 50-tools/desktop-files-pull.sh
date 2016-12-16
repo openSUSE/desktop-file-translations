@@ -46,7 +46,7 @@ msguniq --use-first -s -o pot/entries.pot pot/entries.pot
 mkdir po
 for i in $langs; do
   mkdir po/$i
-  perl ./desktop-files-extract.pl $i > "po/$i/entries.po"
+  perl $podir/50-tools/desktop-files-extract.pl $i > "po/$i/entries.po"
   msguniq --use-first --no-wrap -s -o "po/$i/entries.po" "po/$i/entries.po"
   sed -i -e 's,PREFIX.-,,' "po/$i/entries.po"
   sed -i -e 's,msgstr "",msgstr "NADA",' "po/$i/entries.po"
