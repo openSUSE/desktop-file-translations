@@ -34,6 +34,26 @@ urls[1]='https://api.opensuse.org/public/build/openSUSE:Leap:42.2:NonFree/standa
 
 export LC_ALL=C
 
+function desktop_files_list() {
+  url=$1
+  prefix=$2
+
+  tfile=`mktemp`
+  curl -k -s -n $url > $tfile
+  echo "listing directory $url"
+  config=`mktemp`
+  grep '<entry' $tfile | cut -d\" -f2 | while read line; do
+    #echo "listing $url/$line/$line.desktopfile"
+    echo "url = \"$url/$line/$line.desktopfiles\"" >> "$config"
+    echo "output = \"$prefix-$line.desktopfiles\"" >> "$config"
+  done
+  curl -s -k -n -K $config
+  rm $tfile $config
+  egrep -l '<status code="40.">' *.desktopfiles | xargs --no-run-if-empty rm
+
+  rm -f $tfile
+}
+
 dir=`mktemp -d -t udf.XXXXXX`
 podir=$PWD
 cd $dir
@@ -41,12 +61,8 @@ mkdir desktopfiles
 cd desktopfiles
 count=1
 for url in "${urls[@]}"; do
-   case "$url" in
-    http*)
-      $podir/50-tools/desktop-files-list.sh "$url" $count
-      count=$(($count+1))
-      ;;
-   esac
+    desktop_files_list "$url" $count
+    count=$(($count+1))
 done
 
 # Special cleanup rules written by coolo
