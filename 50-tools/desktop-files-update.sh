@@ -72,8 +72,25 @@ done
 #avoid loosing messages due some build service oopses
 #msgcat --use-first -o pot/entries.pot pot/entries.pot $podir/50-pot/update-desktop-fil*.pot
 msgmerge -s -o $podir/50-pot/update-desktop-files.pot pot/entries.pot pot/entries.pot
+
+function split_out() {
+  sed -e "s,^#:,# :," $1 | \
+    msggrep -C -e "$3" -o - | \
+    sed -e "s,^# :,#:," | msgcat -s -o $2 -
+
+  sed -e "s,^#:,# :," $1 | \
+    msggrep -v -C -e "$3" -o - | \
+    sed -e "s,^# :,#:," | msgcat -s -o $1.new - && mv $1.new $1
+}
+
 pushd $podir
-$podir/50-tools/desktop-files-split.sh
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-yast.pot "applications/YaST2"
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-directories.pot "desktop-directories"
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-screensavers.pot '[sS]creen[sS]aver'
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-kde.pot "/kde"
+split_out 50-pot/update-desktop-files-kde.pot 50-pot/update-desktop-files-kde-services.pot "/service"
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-apps.pot "/share/applications/"
+split_out 50-pot/update-desktop-files.pot 50-pot/update-desktop-files-mimelnk.pot share/mimelnk
 # enable once 13.1 is frozen
 #exit 0
 potlist=`cd 50-pot && ls -1 update-desktop-files*.pot | sed -e 's,.pot,,'`
