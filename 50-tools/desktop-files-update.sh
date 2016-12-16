@@ -29,6 +29,12 @@
 # "./50-tools/desktop-files-update.sh /tmp/some-download-directory"
 #
 
+langs="af ar az be bg bn br bs ca cs cy da de el en_GB en_US eo es et eu fa"
+langs="$langs fi fr fy ga gl gu he hi hr hu id is it"
+langs="$langs ja ka km ko ku lo lt lv mk mn mr ms mt nb nds nl nn nso pa pl pt"
+langs="$langs pt_BR ro ru rw se si sk sl sr sr@latin sv"
+langs="$langs ta tg th tr tt uk uz vi ven wa xh zh_CN zh_TW zu"
+
 export LC_ALL=C
 
 if [[ $# -eq 0 ]]; then
@@ -39,7 +45,29 @@ dir=$1
 podir=$PWD
 cd $dir
 
-$podir/50-tools/desktop-files-pull.sh $podir
+rm -rf pot po
+mkdir pot
+perl $podir/50-tools/desktop-files-extract.pl > pot/entries.pot
+msguniq --use-first -s -o pot/entries.pot pot/entries.pot
+# this PREFIX magic is based on the assumption that -s sorts by msgid
+sed -i -e 's,PREFIX.-,,' pot/entries.pot
+msguniq --use-first -s -o pot/entries.pot pot/entries.pot
+
+mkdir po
+for i in $langs; do
+  mkdir po/$i
+  perl $podir/50-tools/desktop-files-extract.pl $i > "po/$i/entries.po"
+  msguniq --use-first --no-wrap -s -o "po/$i/entries.po" "po/$i/entries.po"
+  sed -i -e 's,PREFIX.-,,' "po/$i/entries.po"
+  sed -i -e 's,msgstr "",msgstr "NADA",' "po/$i/entries.po"
+  msguniq --use-first --no-wrap -s -o "po/$i/entries.po" "po/$i/entries.po"
+  sed -i -e 's,msgstr "NADA",msgstr "",' "po/$i/entries.po"
+done
+
+# Check format
+find po -name \*.po | while read i ; do
+  msgfmt -o /dev/null --check-format "$i" || true
+done
 
 #avoid loosing messages due some build service oopses
 #msgcat --use-first -o pot/entries.pot pot/entries.pot $podir/50-pot/update-desktop-fil*.pot
