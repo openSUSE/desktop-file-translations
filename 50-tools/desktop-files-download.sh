@@ -29,6 +29,9 @@
 # "./50-tools/desktop-files-download.sh"
 #
 
+urls[0]='https://api.opensuse.org/public/build/openSUSE:Leap:42.2/standard/x86_64'
+urls[1]='https://api.opensuse.org/public/build/openSUSE:Leap:42.2:NonFree/standard/x86_64'
+
 export LC_ALL=C
 
 dir=`mktemp -d -t udf.XXXXXX`
@@ -37,7 +40,7 @@ cd $dir
 mkdir desktopfiles
 cd desktopfiles
 count=1
-cat $podir/50-tools/desktop-files-update.urls | while read url; do
+for url in "${urls[@]}"; do
    case "$url" in
     http*)
       $podir/50-tools/desktop-files-list.sh "$url" $count
