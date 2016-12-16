@@ -46,8 +46,7 @@ $ ./50-tools/update-po-files.sh /tmp/some-download-directory
 ```
 The `.po` files should now be updated, but the changes have not been committed
 yet. You can use your normal Git workflow to resolve any merge conflicts that
-might have been created while you were waiting for `update-po-files.sh` to
-finish.
+might have been created while you were waiting for the scripts to finish.
 ```
 $ git commit -a -m 'updated .po files with new data from OBS'
 $ git push origin master
