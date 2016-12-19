@@ -41,8 +41,9 @@ Next you'll have to run the `download-desktop-files.sh` and `update-po-files.sh`
 scripts, which will take some time, so go grab a cup of tea.
 ```
 $ cd desktop-file-translations
-$ ./50-tools/download-desktop-files.sh
+$ ./50-tools/download-desktop-files.sh /tmp/some-download-directory
 $ ./50-tools/update-po-files.sh /tmp/some-download-directory
+$ rm -rf /tmp/some-download-directory
 ```
 The `.po` files should now be updated, but the changes have not been committed
 yet. You can use your normal Git workflow to resolve any merge conflicts that

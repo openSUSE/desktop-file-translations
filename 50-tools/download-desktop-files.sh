@@ -26,7 +26,7 @@
 #
 # It can be configured through "desktop-files-update.urls", and should be called
 # from the root directory of the repo like
-# "./50-tools/desktop-files-download.sh"
+# "./50-tools/desktop-files-download.sh /tmp/some-download-directory"
 #
 
 urls[0]='https://api.opensuse.org/public/build/openSUSE:Leap:42.2/standard/x86_64'
@@ -54,10 +54,15 @@ function desktop_files_list() {
   rm -f $tfile
 }
 
-dir=`mktemp -d -t udf.XXXXXX`
+if [[ $# -eq 0 ]]; then
+    echo 'A target directory is required.'
+    exit 0
+fi
+dir=$1
 podir=$PWD
+rm -rf $dir
+mkdir -p "$dir/desktopfiles"
 cd $dir
-mkdir desktopfiles
 cd desktopfiles
 count=1
 for url in "${urls[@]}"; do
