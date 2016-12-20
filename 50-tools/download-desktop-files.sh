@@ -70,14 +70,5 @@ for url in "${urls[@]}"; do
     count=$(($count+1))
 done
 
-# Special cleanup rules written by coolo
-rm -f *-MPlayer.desktopfiles
-rm -f *-yast2-taotie.desktopfiles
-rm -f sled-*
-rm -rf *-susehelp.desktopfiles
-for i in *-k*3*; do
-   mv $i zz-$i
-done
-
 echo "Files have been downloaded into the directory '$dir'.";
 exit 0;

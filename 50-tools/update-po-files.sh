@@ -45,6 +45,17 @@ dir=$1
 podir=$PWD
 cd $dir
 
+# Special cleanup rules written by coolo
+cd desktopfiles
+rm -f *-MPlayer.desktopfiles
+rm -f *-yast2-taotie.desktopfiles
+rm -f sled-*
+rm -rf *-susehelp.desktopfiles
+for i in *-k*3*; do
+   mv $i zz-$i
+done
+cd ..
+
 rm -rf pot po
 mkdir pot
 perl $podir/50-tools/extract-po-files.pl > pot/entries.pot
