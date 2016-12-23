@@ -37,11 +37,16 @@ intervals. You can start this process by cloning the repository.
 ```
 $ git clone git@github.com:openSUSE/desktop-file-translations.git
 ```
+A few Perl modules are required too.
+```
+$ zypper in perl-Mojolicious
+$ zypper in perl-Term-ProgressBar
+```
 Next you'll have to run the `download-desktop-files.sh` and `update-po-files.sh`
 scripts, which will take some time, so go grab a cup of tea.
 ```
 $ cd desktop-file-translations
-$ ./50-tools/download-desktop-files.sh /tmp/some-download-directory
+$ ./50-tools/download-desktop-files.pl /tmp/some-download-directory
 $ ./50-tools/update-po-files.sh /tmp/some-download-directory
 $ rm -rf /tmp/some-download-directory
 ```
@@ -53,3 +58,12 @@ $ git commit -a -m 'updated .po files with new data from OBS'
 $ git push origin master
 ```
 Or just send a pull request on GitHub.
+
+## Development
+
+The tests for the the tools in the `50-tools` directory are written in Perl, and
+can be run with `prove`.
+```
+$ cd desktop-file-translations
+$ prove 50-tools/t/
+```

@@ -45,6 +45,9 @@ dir=$1
 podir=$PWD
 cd $dir
 
+script=`realpath $0`
+scriptdir=`dirname $script`
+
 # Special cleanup rules written by coolo
 cd desktopfiles
 rm -f *-MPlayer.desktopfiles
@@ -58,7 +61,7 @@ cd ..
 
 rm -rf pot po
 mkdir pot
-perl $podir/50-tools/extract-po-files.pl > pot/entries.pot
+perl $scriptdir/extract-po-files.pl > pot/entries.pot
 msguniq --use-first -s -o pot/entries.pot pot/entries.pot
 # this PREFIX magic is based on the assumption that -s sorts by msgid
 sed -i -e 's,PREFIX.-,,' pot/entries.pot
@@ -67,7 +70,7 @@ msguniq --use-first -s -o pot/entries.pot pot/entries.pot
 mkdir po
 for i in $langs; do
   mkdir po/$i
-  perl $podir/50-tools/extract-po-files.pl $i > "po/$i/entries.po"
+  perl $scriptdir/extract-po-files.pl $i > "po/$i/entries.po"
   msguniq --use-first --no-wrap -s -o "po/$i/entries.po" "po/$i/entries.po"
   sed -i -e 's,PREFIX.-,,' "po/$i/entries.po"
   sed -i -e 's,msgstr "",msgstr "NADA",' "po/$i/entries.po"
