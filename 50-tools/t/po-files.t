@@ -23,21 +23,23 @@ use Mojo::Base -strict;
 
 use Test::More;
 use File::Basename 'basename';
-use File::Copy 'cp';
-use File::Path 'mkpath';
+use File::Copy 'copy';
+use File::Path 'make_path';
 use File::Spec::Functions qw(catdir catfile);
 use File::Temp 'tempdir';
 use FindBin;
 use Mojo::Util qw(files slurp);
 
 my $dir = tempdir CLEANUP => 1;
-mkpath catdir($dir, 'desktopfiles');
+make_path catdir($dir, 'desktopfiles');
 my @files = map { basename $_} files catdir($FindBin::Bin, 'desktopfiles');
-cp catfile($FindBin::Bin, 'desktopfiles', $_), catfile($dir, 'desktopfiles', $_)
+copy catfile($FindBin::Bin, 'desktopfiles', $_),
+  catfile($dir, 'desktopfiles', $_)
   for @files;
-mkpath catdir($dir, '50-pot');
+make_path catdir($dir, '50-pot');
 @files = map { basename $_} files catdir($FindBin::Bin, '50-pot');
-cp catfile($FindBin::Bin, '50-pot', $_), catfile($dir, '50-pot', $_) for @files;
+copy catfile($FindBin::Bin, '50-pot', $_), catfile($dir, '50-pot', $_)
+  for @files;
 chdir $dir;
 my $before = slurp catfile($dir, '50-pot', 'update-desktop-files.pot');
 qx{$FindBin::Bin/../update-po-files.sh $dir};

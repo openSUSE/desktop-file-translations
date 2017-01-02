@@ -23,7 +23,7 @@ package SUSE::DesktopFileDownloader;
 use Mojo::Base -base;
 
 use Carp 'croak';
-use File::Path 'mkpath';
+use File::Path 'make_path';
 use File::Spec::Functions qw(catdir catfile);
 use Mojo::IOLoop;
 use Mojo::UserAgent;
@@ -38,7 +38,7 @@ sub download {
   my ($self, $target) = @_;
 
   my $path = catdir $target, 'desktopfiles';
-  mkpath $path or croak qq{Can't make directory "$path": $!} unless -d $path;
+  make_path $path or croak qq{Can't make directory "$path": $!} unless -d $path;
 
   my $i = 1;
   $self->_download($path, $_, $i++) for @{$self->urls};

@@ -53,6 +53,6 @@ ok -f $blender, 'file exists';
 like slurp($blender), qr/Modelador 3D/, 'right content';
 my $firefox = catfile $dir, 'desktopfiles', '1-MozillaFirefox.desktopfiles';
 ok -f $firefox, 'file exists';
-like slurp($blender), qr/Web Browser/, 'right content';
+like slurp($firefox), qr/Web Browser/, 'right content';
 
 done_testing;
