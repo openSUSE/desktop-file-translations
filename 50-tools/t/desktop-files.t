@@ -46,6 +46,7 @@ get '/' => {text => $entries};
 my $downloader = SUSE::DesktopFileDownloader->new(urls => ['/'], silent => 1);
 $downloader->ua->server->app(app);
 
+# Download a few files into a target directory
 my $dir = tempdir CLEANUP => 1;
 $downloader->download($dir);
 my $blender = catfile $dir, 'desktopfiles', '1-blender.desktopfiles';
