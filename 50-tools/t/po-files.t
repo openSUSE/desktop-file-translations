@@ -39,25 +39,29 @@ for my $subdir (qw(desktopfiles 50-pot de es)) {
     for @files;
 }
 
+# Test helpers
+sub slurp_dir { slurp catfile($dir, @_) }
+sub text_like   { like shift,   qr/\Q@{[shift()]}\E/, shift }
+sub text_unlike { unlike shift, qr/\Q@{[shift()]}\E/, shift }
+
 # Process files from download directory
 chdir $dir;
-my $slurp = sub { slurp catfile($dir, @_) };
 my $before = {
-  all     => $slurp->('50-pot', 'update-desktop-files.pot'),
-  apps    => $slurp->('50-pot', 'update-desktop-files-apps.pot'),
-  all_de  => $slurp->('de',     'update-desktop-files.po'),
-  apps_de => $slurp->('de',     'update-desktop-files-apps.po'),
-  mime_de => $slurp->('de',     'update-desktop-files-mimelnk.po'),
-  all_es  => $slurp->('es',     'update-desktop-files.po')
+  all     => slurp_dir('50-pot', 'update-desktop-files.pot'),
+  apps    => slurp_dir('50-pot', 'update-desktop-files-apps.pot'),
+  all_de  => slurp_dir('de',     'update-desktop-files.po'),
+  apps_de => slurp_dir('de',     'update-desktop-files-apps.po'),
+  mime_de => slurp_dir('de',     'update-desktop-files-mimelnk.po'),
+  all_es  => slurp_dir('es',     'update-desktop-files.po')
 };
 qx{$FindBin::Bin/../update-po-files.sh $dir};
 my $after = {
-  all     => $slurp->('50-pot', 'update-desktop-files.pot'),
-  apps    => $slurp->('50-pot', 'update-desktop-files-apps.pot'),
-  all_de  => $slurp->('de',     'update-desktop-files.po'),
-  apps_de => $slurp->('de',     'update-desktop-files-apps.po'),
-  mime_de => $slurp->('de',     'update-desktop-files-mimelnk.po'),
-  all_es  => $slurp->('es',     'update-desktop-files.po')
+  all     => slurp_dir('50-pot', 'update-desktop-files.pot'),
+  apps    => slurp_dir('50-pot', 'update-desktop-files-apps.pot'),
+  all_de  => slurp_dir('de',     'update-desktop-files.po'),
+  apps_de => slurp_dir('de',     'update-desktop-files-apps.po'),
+  mime_de => slurp_dir('de',     'update-desktop-files-mimelnk.po'),
+  all_es  => slurp_dir('es',     'update-desktop-files.po')
 };
 isnt $before->{all}, $after->{all}, '"update-desktop-files.pot" file changed';
 isnt $before->{apps}, $after->{apps},
@@ -68,10 +72,6 @@ isnt $before->{apps_de}, $after->{apps_de},
   '"de/update-desktop-files-apps.po" file changed';
 isnt $before->{mime_de}, $after->{mime_de},
   '"de/update-desktop-files-mimelnk.po" file changed';
-
-# Test helpers
-sub text_like   { like shift,   qr/\Q@{[shift()]}\E/, shift }
-sub text_unlike { unlike shift, qr/\Q@{[shift()]}\E/, shift }
 
 # "update-desktop-files.pot"
 text_like $before->{all}, <<'EOF', 'contains snippet';
