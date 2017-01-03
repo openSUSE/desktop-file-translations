@@ -72,6 +72,8 @@ isnt $before->{apps_de}, $after->{apps_de},
   '"de/update-desktop-files-apps.po" file changed';
 isnt $before->{mime_de}, $after->{mime_de},
   '"de/update-desktop-files-mimelnk.po" file changed';
+isnt $before->{all_es}, $after->{all_es},
+  '"es/update-desktop-files.po" file changed';
 
 # "update-desktop-files.pot"
 text_like $before->{all}, <<'EOF', 'contains snippet';
