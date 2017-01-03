@@ -23,10 +23,14 @@
 
 #
 # This script is used to update all the *.po files in the Git repo with new data
-# downloaded by "download-desktop-files.sh"
+# downloaded by "download-desktop-files.pl"
 #
-# It should be called from the root directory of the repo like
-# "./50-tools/update-po-files.sh /tmp/some-download-directory"
+# It should be called from the root directory of the repo
+#
+#   $ ./50-tools/update-po-files.sh /tmp/some-download-directory
+#
+# There is a lot of legacy code below that might not be covered by tests yet, so
+# be very careful when making changes
 #
 
 langs="af ar az be bg bn br bs ca cs cy da de el en_GB en_US eo es et eu fa"

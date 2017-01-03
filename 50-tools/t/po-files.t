@@ -30,41 +30,159 @@ use File::Temp 'tempdir';
 use FindBin;
 use Mojo::Util qw(files slurp);
 
-# Prepare the download sirectory
+# Prepare the download directory
 my $dir = tempdir CLEANUP => 1;
-make_path catdir($dir, 'desktopfiles');
-my @files = map { basename $_} files catdir($FindBin::Bin, 'desktopfiles');
-copy catfile($FindBin::Bin, 'desktopfiles', $_),
-  catfile($dir, 'desktopfiles', $_)
-  for @files;
-make_path catdir($dir, '50-pot');
-@files = map { basename $_} files catdir($FindBin::Bin, '50-pot');
-copy catfile($FindBin::Bin, '50-pot', $_), catfile($dir, '50-pot', $_)
-  for @files;
-make_path catdir($dir, 'de');
-@files = map { basename $_} files catdir($FindBin::Bin, 'de');
-copy catfile($FindBin::Bin, 'de', $_), catfile($dir, 'de', $_) for @files;
+for my $subdir (qw(desktopfiles 50-pot de es)) {
+  make_path catdir($dir, $subdir);
+  my @files = map { basename $_} files catdir($FindBin::Bin, $subdir);
+  copy catfile($FindBin::Bin, $subdir, $_), catfile($dir, $subdir, $_)
+    for @files;
+}
 
 # Process files from download directory
 chdir $dir;
-my $all_before = slurp catfile($dir, '50-pot', 'update-desktop-files.pot');
-my $apps_before
-  = slurp catfile($dir, '50-pot', 'update-desktop-files-apps.pot');
-my $all_de_before = slurp catfile($dir, 'de', 'update-desktop-files.po');
+my $slurp = sub { slurp catfile($dir, @_) };
+my $before = {
+  all     => $slurp->('50-pot', 'update-desktop-files.pot'),
+  apps    => $slurp->('50-pot', 'update-desktop-files-apps.pot'),
+  all_de  => $slurp->('de',     'update-desktop-files.po'),
+  apps_de => $slurp->('de',     'update-desktop-files-apps.po'),
+  mime_de => $slurp->('de',     'update-desktop-files-mimelnk.po'),
+  all_es  => $slurp->('es',     'update-desktop-files.po')
+};
 qx{$FindBin::Bin/../update-po-files.sh $dir};
-my $all_after = slurp catfile($dir, '50-pot', 'update-desktop-files.pot');
-isnt $all_before, $all_after, 'file changed';
-my $apps_after = slurp catfile($dir, '50-pot', 'update-desktop-files-apps.pot');
-isnt $apps_before, $apps_after, 'file changed';
-my $all_de_after = slurp catfile($dir, 'de', 'update-desktop-files.po');
-isnt $all_de_before, $all_de_after, 'file changed';
+my $after = {
+  all     => $slurp->('50-pot', 'update-desktop-files.pot'),
+  apps    => $slurp->('50-pot', 'update-desktop-files-apps.pot'),
+  all_de  => $slurp->('de',     'update-desktop-files.po'),
+  apps_de => $slurp->('de',     'update-desktop-files-apps.po'),
+  mime_de => $slurp->('de',     'update-desktop-files-mimelnk.po'),
+  all_es  => $slurp->('es',     'update-desktop-files.po')
+};
+isnt $before->{all}, $after->{all}, '"update-desktop-files.pot" file changed';
+isnt $before->{apps}, $after->{apps},
+  '"update-desktop-files-apps.pot" file changed';
+isnt $before->{all_de}, $after->{all_de},
+  '"de/update-desktop-files.po" file changed';
+isnt $before->{apps_de}, $after->{apps_de},
+  '"de/update-desktop-files-apps.po" file changed';
+isnt $before->{mime_de}, $after->{mime_de},
+  '"de/update-desktop-files-mimelnk.po" file changed';
 
-# Results
-like $all_de_after, qr/msgctxt "GenericName\(firefox\.desktop\)"/,
-  'msgctxt has been added';
-like $all_de_after, qr/msgid "Web Browser"/, 'msgid has been added';
-like $all_de_after, qr/msgctxt "Name\(x-blend\.desktop\)"/,
-  'msgctxt has been added';
-like $all_de_after, qr/msgid "blender"/, 'msgid has been added';
+# Test helpers
+sub text_like   { like shift,   qr/\Q@{[shift()]}\E/, shift }
+sub text_unlike { unlike shift, qr/\Q@{[shift()]}\E/, shift }
+
+# "update-desktop-files.pot"
+text_like $before->{all}, <<'EOF', 'contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr ""
+EOF
+text_unlike $after->{all}, <<'EOF', 'no longer contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr ""
+EOF
+text_like $after->{all}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr ""
+EOF
+
+# "update-desktop-files-apps.pot"
+text_like $before->{apps}, <<'EOF', 'contains snippet';
+msgctxt "Comment(xcowhelp.desktop)"
+msgid " A help for cowsay"
+msgstr ""
+EOF
+text_unlike $after->{apps}, <<'EOF', 'no longer contains snippet';
+msgctxt "Comment(xcowhelp.desktop)"
+msgid " A help for cowsay"
+msgstr ""
+EOF
+text_like $after->{apps}, <<'EOF', 'contains snippet';
+msgctxt "Name(x-blend.desktop)"
+msgid "blender"
+msgstr ""
+EOF
+text_like $after->{apps}, <<'EOF', 'contains snippet';
+msgctxt "GenericName(firefox.desktop)"
+msgid "Web Browser"
+msgstr ""
+EOF
+text_like $after->{apps}, <<'EOF', 'contains snippet';
+msgctxt "GenericName(impress.desktop)"
+msgid "Presentation"
+msgstr ""
+EOF
+
+# "de/update-desktop-files.po"
+text_like $before->{all_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr "Fenstermanager im Stil von Windows 95, OS/2 und Motif"
+EOF
+text_unlike $after->{all_de}, <<'EOF', 'no longer contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr "Fenstermanager im Stil von Windows 95, OS/2 und Motif"
+EOF
+text_like $after->{all_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME Erweiterung"
+EOF
+
+# "de/update-desktop-files-apps.po"
+text_like $before->{apps_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(xcowhelp.desktop)"
+msgid " A help for cowsay"
+msgstr ""
+EOF
+text_unlike $after->{apps_de}, <<'EOF', 'no longer contains snippet';
+msgctxt "Comment(xcowhelp.desktop)"
+msgid " A help for cowsay"
+msgstr ""
+EOF
+text_like $after->{apps_de}, <<'EOF', 'contains snippet';
+msgctxt "GenericName(xsltfilter.desktop)"
+msgid "XSLT based filters"
+msgstr "XSLT basierte Filter"
+EOF
+
+# "de/update-desktop-files-mimelnk.po"
+text_like $before->{mime_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME Erweiterung"
+EOF
+text_like $after->{mime_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME Erweiterung"
+EOF
+text_like $after->{mime_de}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr ""
+EOF
+
+# "es/update-desktop-files.po"
+text_like $before->{all_es}, <<'EOF', 'contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr "Un administrador de ventanas similar a Win95-OS/2-Motif"
+EOF
+text_unlike $after->{all_es}, <<'EOF', 'no longer contains snippet';
+msgctxt "Comment(icewm.desktop)"
+msgid "A Windows 95-OS/2-Motif-like window manager"
+msgstr "Un administrador de ventanas similar a Win95-OS/2-Motif"
+EOF
+text_like $after->{all_es}, <<'EOF', 'contains snippet';
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr ""
+EOF
 
 done_testing;

@@ -37,6 +37,7 @@ push @{app->static->paths}, catfile($FindBin::Bin, 'desktopfiles');
 my $entries = <<EOF;
 <directory>
   <entry name="blender" />
+  <entry name="libreoffice" />
   <entry name="MozillaFirefox" />
   <entry name="SomeMissingFile" />
 <directory>
@@ -52,6 +53,9 @@ $downloader->download($dir);
 my $blender = catfile $dir, 'desktopfiles', '1-blender.desktopfiles';
 ok -f $blender, 'file exists';
 like slurp($blender), qr/Modelador 3D/, 'right content';
+my $office = catfile $dir, 'desktopfiles', '1-libreoffice.desktopfiles';
+ok -f $office, 'file exists';
+like slurp($office), qr/Presentazione/, 'right content';
 my $firefox = catfile $dir, 'desktopfiles', '1-MozillaFirefox.desktopfiles';
 ok -f $firefox, 'file exists';
 like slurp($firefox), qr/Web Browser/, 'right content';

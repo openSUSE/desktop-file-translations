@@ -25,6 +25,8 @@
 # This script is used in the build process of the desktop-translations package
 # to generate entries.po files
 #
+# The code below has no tests yet, so be very careful when making changes
+#
 
 rm -rf po
 mkdir po
