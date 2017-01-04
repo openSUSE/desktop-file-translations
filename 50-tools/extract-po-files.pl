@@ -25,6 +25,9 @@
 # This script is a dependency of "desktop-files-update.sh", and should not be
 # used directly
 #
+# There is a lot of legacy code below that might not be covered by tests yet, so
+# be very careful when making changes
+#
 
 use POSIX;
 use File::Basename;

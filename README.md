@@ -28,7 +28,7 @@
      This package contains a `_service` file referring to the
      `desktop-file-translations` GitHub repository, and uses the script
      `50-tools/build-entries-po.sh` to turn the `.po` files from the repository
-     into `.mo` files that can be installed with openSUSE.
+     into `entries.po` files that can be installed with openSUSE.
 
 ## Updating the .po files
 

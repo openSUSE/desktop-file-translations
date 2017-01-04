@@ -39,10 +39,17 @@ for my $subdir (qw(desktopfiles 50-pot de es)) {
     for @files;
 }
 
-# Test helpers
 sub slurp_dir { slurp catfile($dir, @_) }
-sub text_like   { like shift,   qr/\Q@{[shift()]}\E/, shift }
-sub text_unlike { unlike shift, qr/\Q@{[shift()]}\E/, shift }
+
+sub text_like {
+  local $Test::Builder::Level = $Test::Builder::Level + 1;
+  like shift, qr/\Q@{[shift()]}\E/, shift;
+}
+
+sub text_unlike {
+  local $Test::Builder::Level = $Test::Builder::Level + 1;
+  unlike shift, qr/\Q@{[shift()]}\E/, shift;
+}
 
 # Process files from download directory
 chdir $dir;
@@ -76,6 +83,7 @@ isnt $before->{all_es}, $after->{all_es},
   '"es/update-desktop-files.po" file changed';
 
 # "update-desktop-files.pot"
+text_like $before->{all}, '"Language: \n"', 'contains snippet';
 text_like $before->{all}, <<'EOF', 'contains snippet';
 msgctxt "Comment(icewm.desktop)"
 msgid "A Windows 95-OS/2-Motif-like window manager"
@@ -93,6 +101,7 @@ msgstr ""
 EOF
 
 # "update-desktop-files-apps.pot"
+text_like $before->{apps}, '"Language: \n"', 'contains snippet';
 text_like $before->{apps}, <<'EOF', 'contains snippet';
 msgctxt "Comment(xcowhelp.desktop)"
 msgid " A help for cowsay"
@@ -120,6 +129,7 @@ msgstr ""
 EOF
 
 # "de/update-desktop-files.po"
+text_like $before->{all_de}, '"Language: de\n"', 'contains snippet';
 text_like $before->{all_de}, <<'EOF', 'contains snippet';
 msgctxt "Comment(icewm.desktop)"
 msgid "A Windows 95-OS/2-Motif-like window manager"
@@ -137,6 +147,7 @@ msgstr "%PRODUCTNAME Erweiterung"
 EOF
 
 # "de/update-desktop-files-apps.po"
+text_like $before->{apps_de}, '"Language: de\n"', 'contains snippet';
 text_like $before->{apps_de}, <<'EOF', 'contains snippet';
 msgctxt "Comment(xcowhelp.desktop)"
 msgid " A help for cowsay"
@@ -154,6 +165,7 @@ msgstr "XSLT basierte Filter"
 EOF
 
 # "de/update-desktop-files-mimelnk.po"
+text_like $before->{mime_de}, '"Language: de\n"', 'contains snippet';
 text_like $before->{mime_de}, <<'EOF', 'contains snippet';
 msgctxt "Comment(libreoffice-extension.desktop)"
 msgid "%PRODUCTNAME Extension"
@@ -171,6 +183,7 @@ msgstr ""
 EOF
 
 # "es/update-desktop-files.po"
+text_like $before->{all_es}, '"Language: es\n"', 'contains snippet';
 text_like $before->{all_es}, <<'EOF', 'contains snippet';
 msgctxt "Comment(icewm.desktop)"
 msgid "A Windows 95-OS/2-Motif-like window manager"
