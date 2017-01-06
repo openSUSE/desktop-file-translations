@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.ru\n"
 "Report-Msgid-Bugs-To: translation@suse.de\n"
-"POT-Creation-Date: 2016-10-05 11:36+0000\n"
+"POT-Creation-Date: 2017-01-06 17:13+0000\n"
 "PO-Revision-Date: 2016-10-25 23:33+0300\n"
 "Last-Translator: Aleksandr Melentev <minton@opensuse.org>\n"
 "Language-Team: Russian <opensuse-translation-ru@opensuse.org>\n"
@@ -19,8 +19,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
-"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Lokalize 2.0\n"
 
 #: /usr/share/xsessions/icewm.desktop
@@ -149,16 +149,6 @@ msgstr "Кэш паролей для неинтерактивных cron-зад�
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Уведомления о календарных событиях"
-
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "Name(z-dispcalGUI-apply-profiles.desktop)"
-msgid "Calibration Loader"
-msgstr "Загрузчик калибровки"
-
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "GenericName(z-dispcalGUI-apply-profiles.desktop)"
-msgid "Calibration and ICC Profile Loader"
-msgstr "Загрузчик профилей ICC и калибровки"
 
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop
 msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
@@ -535,8 +525,6 @@ msgid "Hillside"
 msgstr "Холмы"
 
 #: /usr/share/xsessions/icewm-session.desktop
-#| msgctxt "Name(xfce.desktop)"
-#| msgid "Xfce Session"
 msgctxt "Name(icewm-session.desktop)"
 msgid "IceWM Session"
 msgstr "Сеанс IceWM"
@@ -656,11 +644,6 @@ msgctxt "Name(lxqt.desktop)"
 msgid "LXQt Desktop"
 msgstr "Рабочий стол LXQt"
 
-#: /etc/xdg/autostart/lxqt-powermanagement.desktop
-msgctxt "Name(lxqt-powermanagement.desktop)"
-msgid "LXQt Powermanagement"
-msgstr "Управление питанием LXQt"
-
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop
 msgctxt "Comment(mate-user-share-obexftp.desktop)"
 msgid "Launch Personal File Sharing if enabled"
@@ -703,8 +686,8 @@ msgstr "Войти прямо в EpyMC"
 
 #: /usr/share/xsessions/enlightenment.desktop
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.2)"
-msgstr "Войти используя Enlightenment (Версия 0.21.2)"
+msgid "Log in using Enlightenment (Version 0.21.3)"
+msgstr "Войти используя Enlightenment (Версия 0.21.3)"
 
 #: /usr/share/xsessions/mate.desktop
 msgctxt "Name(mate.desktop)"
@@ -926,6 +909,11 @@ msgctxt "Comment(lxpolkit.desktop)"
 msgid "Policykit Authentication Agent"
 msgstr "Агент аутентификации PolicyKit"
 
+#: /etc/xdg/autostart/lxqt-powermanagement.desktop
+msgctxt "Name(lxqt-powermanagement.desktop)"
+msgid "Power Management"
+msgstr ""
+
 #: /etc/xdg/autostart/powerdevil.desktop
 msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
@@ -970,11 +958,6 @@ msgstr "Загрузчик профилей"
 msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr "Предоставляет напоминания о необходимости сделать перерыв"
-
-#: /etc/xdg/autostart/lxqt-ptbatterysystemtray-autostart.desktop
-msgctxt "Name(lxqt-ptbatterysystemtray-autostart.desktop)"
-msgid "PtBatterySystemTray"
-msgstr "ПtбатареиCистема поднос"
 
 #: /etc/xdg/autostart/pulseaudio.desktop
 msgctxt "Name(pulseaudio.desktop)"
@@ -1071,11 +1054,6 @@ msgctxt "Name(light-locker.desktop)"
 msgid "Screen Locker"
 msgstr "Блокировщик экрана"
 
-#: /etc/xdg/autostart/lxqt-screenlocker.desktop
-msgctxt "Name(lxqt-screenlocker.desktop)"
-msgid "Screen Locker"
-msgstr "Блокировщик экрана"
-
 #: /etc/xdg/autostart/seahorse-sharing.desktop
 msgctxt "Name(seahorse-sharing.desktop)"
 msgid "Seahorse Sharing Daemon"
@@ -1090,15 +1068,6 @@ msgstr "Служба безопасного хранения"
 msgctxt "Comment(gsynaptics-init.desktop)"
 msgid "Set your touchpad preferences"
 msgstr "Настройка тачпада"
-
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "Comment(z-dispcalGUI-apply-profiles.desktop)"
-msgid ""
-"Sets ICC profiles and loads calibration curves for all configured display "
-"devices"
-msgstr ""
-"Задаёт профили ICC и загружает калибровочные кривые для всех настроенных "
-"мониторов"
 
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop
 msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
@@ -1519,13 +1488,7 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "Обои openSUSE по умолчанию"
 
-#: /etc/xdg/autostart/lxqt-qxkb-autostart.desktop
-msgctxt "Name(lxqt-qxkb-autostart.desktop)"
-msgid "qxkb"
-msgstr "qxkб"
-
 #: /usr/share/autostart/synaptiks_autostart.desktop
 msgctxt "Name(synaptiks_autostart.desktop)"
 msgid "synaptiks"
 msgstr "synaptiks"
-
