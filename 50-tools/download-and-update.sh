@@ -30,7 +30,7 @@
 # needs to be able to commit changes
 #
 
-branch=automation
+branch=master
 cache=/tmp/desktop-file-cache
 message='new data from upstream'
 
