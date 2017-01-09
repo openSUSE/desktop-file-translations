@@ -18,11 +18,11 @@
 
   2. [desktop-file-translations](https://github.com/openSUSE/desktop-file-translations):
      The `.po` files in the GitHub repository are regularly updated by running
-     the `download-desktop-files.sh` and `update-po-files.sh` scripts manually
-     and then committing the results. The first script fetches the compressed
-     `.desktop` files from the OBS API, and the second turns them into `.po`
-     files, and merges the results into the already existing `.po` files in the
-     repository.
+     the `50-tools/download-desktop-files.pl` and `50-tools/update-po-files.sh`
+     scripts and then committing the results. The first script fetches the
+     compressed `.desktop` files from the OBS API, and the second turns them
+     into `.po` files, and merges the results into the already existing `.po`
+     files in the repository.
 
   3. [desktop-translations](https://build.opensuse.org/package/show/X11:common:Factory/desktop-translations):
      This package contains a `_service` file referring to the
@@ -30,10 +30,12 @@
      `50-tools/build-entries-po.sh` to turn the `.po` files from the repository
      into `entries.po` files that can be installed with openSUSE.
 
-## Updating the .po files
+## Updating the .po files automatically
 
-The `.po` files in this repository need to be updated manually in regular
-intervals. You can start this process by cloning the repository.
+The `.po` files in this repository need to be updated in regular intervals, this
+process can be automated with `50-tools/download-and-update.sh`. First you need
+to set up a user with the permission to commit to the repository, and then you
+can clone it.
 ```
 $ git clone git@github.com:openSUSE/desktop-file-translations.git
 ```
@@ -42,8 +44,24 @@ A few Perl modules are required too.
 $ zypper in perl-Mojolicious
 $ zypper in perl-Term-ProgressBar
 ```
-Next you'll have to run the `download-desktop-files.sh` and `update-po-files.sh`
-scripts, which will take some time, so go grab a cup of tea.
+Then just create a crontab entry that runs `50-tools/download-and-update.sh` in
+regular intervals from your cloned repository.
+
+## Updating the .po files manually
+
+The `.po` files in this repository can also be updated manually. You can start
+this process by cloning the repository.
+```
+$ git clone git@github.com:openSUSE/desktop-file-translations.git
+```
+A few Perl modules are required too.
+```
+$ zypper in perl-Mojolicious
+$ zypper in perl-Term-ProgressBar
+```
+Next you'll have to run the `50-tools/download-desktop-files.pl` and
+`50-tools/update-po-files.sh` scripts, which will take some time, so go grab a
+cup of tea.
 ```
 $ cd desktop-file-translations
 $ ./50-tools/download-desktop-files.pl /tmp/some-download-directory
@@ -61,8 +79,8 @@ Or just send a pull request on GitHub.
 
 ## Development
 
-The tests for the the tools in the `50-tools` directory are written in Perl, and
-can be run with `prove`.
+The tests for the the tools in the `50-tools` directory are written in Perl and
+located in `50-tools/t`, you can run them with `prove`.
 ```
 $ cd desktop-file-translations
 $ prove 50-tools/t/

@@ -21,6 +21,15 @@
 # SOFTWARE.
 #
 
+#
+# This script is used to automate the process of downloading .desktop files,
+# updating .po files, and committing new data to the Git repo
+#
+# It can be called from anywhere, but requires a clone of the repo
+# "https://github.com/openSUSE/desktop-file-translations", and the current user
+# needs to be able to commit changes
+#
+
 branch=automation
 cache=/tmp/desktop-file-cache
 message='new data from upstream'
@@ -50,9 +59,9 @@ while true; do
   case "$count" in
     "0	"*)
       echo "We are ahead, pushing new data."
-	    git push origin $branch
+      git push origin $branch
       break
-	  ;;
+    ;;
     *)
       exit 1
       echo "We are behind, resetting to try again."
