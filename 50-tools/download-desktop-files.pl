@@ -31,8 +31,8 @@ use SUSE::DesktopFileDownloader;
 
 # Add or remove projects here
 my @urls = (
-  'https://api.opensuse.org/public/build/openSUSE:Leap:42.2/standard/x86_64',
-  'https://api.opensuse.org/public/build/openSUSE:Leap:42.2:NonFree/standard/x86_64'
+  'https://api.opensuse.org/public/build/openSUSE:Leap:42.3/standard/x86_64',
+  'https://api.opensuse.org/public/build/openSUSE:Leap:42.3:NonFree/standard/x86_64'
 );
 
 my $downloader = SUSE::DesktopFileDownloader->new(urls => \@urls);
