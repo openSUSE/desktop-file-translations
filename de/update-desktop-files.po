@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files 10.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-10-05 11:36+0000\n"
+"POT-Creation-Date: 2017-01-09 14:14+0000\n"
 "PO-Revision-Date: 2014-10-13 20:45+0200\n"
 "Last-Translator: Hendrik Woltersdorf <hendrikw@arcor.de>\n"
 "Language-Team: German <opensuse-translation-de@opensuse.org>\n"
@@ -29,7 +29,7 @@ msgstr "Fenstermanager im Stil von Windows 95, OS/2 und Motif"
 #: /etc/xdg/autostart/lxqt-compton.desktop
 msgctxt "Comment(lxqt-compton.desktop)"
 msgid "A X compositor"
-msgstr ""
+msgstr "Kompositionsmanager für X11"
 
 #: /etc/xdg/autostart/glipper-autostart.desktop
 msgctxt "Comment(glipper-autostart.desktop)"
@@ -148,16 +148,6 @@ msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Benachrichtigungen über Kalenderereignisse"
 
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "Name(z-dispcalGUI-apply-profiles.desktop)"
-msgid "Calibration Loader"
-msgstr "Kalibrierungs-Lader"
-
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "GenericName(z-dispcalGUI-apply-profiles.desktop)"
-msgid "Calibration and ICC Profile Loader"
-msgstr "Kalibrierungs- und ICC-Profil-Lader"
-
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop
 msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
 msgid "Calibration and ICC Profile Loader"
@@ -231,7 +221,7 @@ msgstr "Komplette Konfigurationsdateien"
 #: /etc/xdg/autostart/lxqt-compton.desktop
 msgctxt "Name(lxqt-compton.desktop)"
 msgid "Compton (X Compositor)"
-msgstr ""
+msgstr "Compton (X11 Kompositionsmanager)"
 
 #: /usr/share/autoinstall/modules/general.desktop
 msgctxt "GenericName(general.desktop)"
@@ -312,7 +302,7 @@ msgstr "Deepwired"
 #: /etc/xdg/autostart/lxqt-desktop.desktop
 msgctxt "Name(lxqt-desktop.desktop)"
 msgid "Desktop"
-msgstr ""
+msgstr "Arbeitsfläche"
 
 #: /usr/share/xsessions/e16-session.desktop
 msgctxt "Name(e16-session.desktop)"
@@ -493,7 +483,7 @@ msgstr "Glipper"
 #: /etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop
 msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 msgid "Global Keyboard Shortcuts"
-msgstr ""
+msgstr "Globale Kurzbefehle"
 
 #: /usr/share/wallpapers/Green.jpg.desktop
 msgctxt "Name(Green.jpg.desktop)"
@@ -656,12 +646,7 @@ msgstr ""
 #: /usr/share/xsessions/lxqt.desktop
 msgctxt "Name(lxqt.desktop)"
 msgid "LXQt Desktop"
-msgstr ""
-
-#: /etc/xdg/autostart/lxqt-powermanagement.desktop
-msgctxt "Name(lxqt-powermanagement.desktop)"
-msgid "LXQt Powermanagement"
-msgstr ""
+msgstr "LXQt Arbeitsumgebung"
 
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop
 msgctxt "Comment(mate-user-share-obexftp.desktop)"
@@ -696,7 +681,7 @@ msgstr "LeechCraft-Session mit dem Fenstermanager konfiguriert über Fenet"
 #: /usr/share/xsessions/lxqt.desktop
 msgctxt "Comment(lxqt.desktop)"
 msgid "Lightweight Qt Desktop"
-msgstr ""
+msgstr "Leichtgewichtige Qt Arbeitsumgebung"
 
 #: /usr/share/xsessions/epymc_xsession.desktop
 msgctxt "Comment(epymc_xsession.desktop)"
@@ -705,8 +690,8 @@ msgstr ""
 
 #: /usr/share/xsessions/enlightenment.desktop
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.2)"
-msgstr "Anmelden und Enlightenment verwenden (Version 0.21.2)"
+msgid "Log in using Enlightenment (Version 0.21.3)"
+msgstr "Anmelden und Enlightenment verwenden (Version 0.21.3)"
 
 #: /usr/share/xsessions/mate.desktop
 msgctxt "Name(mate.desktop)"
@@ -766,7 +751,7 @@ msgstr "Notizen"
 #: /etc/xdg/autostart/lxqt-notifications.desktop
 msgctxt "Name(lxqt-notifications.desktop)"
 msgid "Notification Daemon"
-msgstr ""
+msgstr "Benachrichtigungsdaemon"
 
 #: /usr/share/wallpapers/curvy2.png.desktop
 msgctxt "Name(curvy2.png.desktop)"
@@ -816,7 +801,7 @@ msgstr "PackageKit Aktualisierungsapplet"
 #: /etc/xdg/autostart/lxqt-panel.desktop
 msgctxt "Name(lxqt-panel.desktop)"
 msgid "Panel"
-msgstr ""
+msgstr "Bedienfeld"
 
 #: /usr/share/wallpapers/NatureSeries008.jpg.desktop
 msgctxt "Name(NatureSeries008.jpg.desktop)"
@@ -921,12 +906,17 @@ msgstr "PolicyKit-Legitimationsagent für die MATE-Arbeitsumgebung"
 #: /etc/xdg/autostart/lxqt-policykit-agent.desktop
 msgctxt "Name(lxqt-policykit-agent.desktop)"
 msgid "PolicyKit Handler"
-msgstr ""
+msgstr "PolicyKit-Steuerung"
 
 #: /etc/xdg/autostart/lxpolkit.desktop
 msgctxt "Comment(lxpolkit.desktop)"
 msgid "Policykit Authentication Agent"
 msgstr ""
+
+#: /etc/xdg/autostart/lxqt-powermanagement.desktop
+msgctxt "Name(lxqt-powermanagement.desktop)"
+msgid "Power Management"
+msgstr "LXQt-Energieverwaltung"
 
 #: /etc/xdg/autostart/powerdevil.desktop
 msgctxt "Name(powerdevil.desktop)"
@@ -973,11 +963,6 @@ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr ""
 
-#: /etc/xdg/autostart/lxqt-ptbatterysystemtray-autostart.desktop
-msgctxt "Name(lxqt-ptbatterysystemtray-autostart.desktop)"
-msgid "PtBatterySystemTray"
-msgstr "PtBatterySystemTray"
-
 #: /etc/xdg/autostart/pulseaudio.desktop
 msgctxt "Name(pulseaudio.desktop)"
 msgid "PulseAudio Sound System"
@@ -986,7 +971,7 @@ msgstr "PulseAudio Sound System"
 #: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop
 msgctxt "Name(lxqt-qlipper-autostart.desktop)"
 msgid "Qlipper"
-msgstr ""
+msgstr "Zwischenablage"
 
 #: /usr/share/wallpapers/NatureSeries005.jpg.desktop
 msgctxt "Name(NatureSeries005.jpg.desktop)"
@@ -1021,7 +1006,7 @@ msgstr "Roccat Ereignissteuerung"
 #: /etc/xdg/autostart/lxqt-runner.desktop
 msgctxt "Name(lxqt-runner.desktop)"
 msgid "Runner"
-msgstr ""
+msgstr "Anwendungsstarter"
 
 #: /usr/share/xsessions/sle-classic.desktop
 msgctxt "Name(sle-classic.desktop)"
@@ -1073,11 +1058,6 @@ msgctxt "Name(light-locker.desktop)"
 msgid "Screen Locker"
 msgstr "Bildschirmsperre"
 
-#: /etc/xdg/autostart/lxqt-screenlocker.desktop
-msgctxt "Name(lxqt-screenlocker.desktop)"
-msgid "Screen Locker"
-msgstr ""
-
 #: /etc/xdg/autostart/seahorse-sharing.desktop
 msgctxt "Name(seahorse-sharing.desktop)"
 msgid "Seahorse Sharing Daemon"
@@ -1092,15 +1072,6 @@ msgstr "Sicherheitsdienst"
 msgctxt "Comment(gsynaptics-init.desktop)"
 msgid "Set your touchpad preferences"
 msgstr "Touchpad-Einstellungen konfigurieren"
-
-#: /etc/xdg/autostart/z-dispcalGUI-apply-profiles.desktop
-msgctxt "Comment(z-dispcalGUI-apply-profiles.desktop)"
-msgid ""
-"Sets ICC profiles and loads calibration curves for all configured display "
-"devices"
-msgstr ""
-"Setzt ICC-Profile und lädt Kalibrierungskurven für alle konfigurierten "
-"Anzeigegeräte"
 
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop
 msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
@@ -1443,7 +1414,7 @@ msgstr "Wolf"
 #: /etc/xdg/autostart/lxqt-compton.desktop
 msgctxt "GenericName(lxqt-compton.desktop)"
 msgid "X compositor"
-msgstr ""
+msgstr "X11 Kompositionsmanager"
 
 #: /etc/xdg/autostart/xiccd.desktop
 msgctxt "Name(xiccd.desktop)"
@@ -1525,11 +1496,6 @@ msgstr "Adressbuch-Migration"
 msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSE Standard"
-
-#: /etc/xdg/autostart/lxqt-qxkb-autostart.desktop
-msgctxt "Name(lxqt-qxkb-autostart.desktop)"
-msgid "qxkb"
-msgstr ""
 
 #: /usr/share/autostart/synaptiks_autostart.desktop
 msgctxt "Name(synaptiks_autostart.desktop)"
