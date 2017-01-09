@@ -41,6 +41,10 @@ cd $scriptdir/..
 # Download and cache .desktop files
 rm -r $cache
 ./50-tools/download-desktop-files.pl -j 4 $cache
+if [ $? -ne 0 ]; then
+  echo "Download failed."
+  exit 1
+fi
 
 while true; do
 
