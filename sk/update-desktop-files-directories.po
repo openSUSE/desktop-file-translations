@@ -1,20 +1,19 @@
-# translation of update-desktop-files-directories.po to Slovak
-# Ladislav Michnovič <lmichnovic@suse.cz>, 2007.
-# Rastislav Krupansky <ra100@atlas.sk>, 2008.
+# Ladislav Michnovič <lmichnovic@suse.cz>, 2007, 2008.
 # Rastislav Krupanský <rastislav.krupansky@gmail.com>, 2009.
+# Ferdinand Galko <galko.ferdinand@gmail.com>, 2015, 2017.
 msgid ""
 msgstr ""
-"Project-Id-Version: update-desktop-files-directories\n"
-"POT-Creation-Date: 2011-08-26 13:59+0000\n"
-"PO-Revision-Date: 2009-09-17 18:34+0200\n"
-"Last-Translator: Rastislav Krupansk <rastislav.krupansky@gmail.com>\n"
-"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"Project-Id-Version: collect-desktop-files 9.0.1\n"
+"POT-Creation-Date: 2015-10-01 14:51+0000\n"
+"PO-Revision-Date: 2017-01-28 19:39+0100\n"
+"Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
+"Language-Team: Slovak <opensuse-translation-sk@opensuse.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.0\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-Language: Slovak\n"
 "X-Poedit-Country: SLOVAKIA\n"
 
@@ -24,6 +23,9 @@ msgid "3D"
 msgstr "3D"
 
 #: /usr/share/desktop-directories/kde-utilities-accessibility.directory
+#: /usr/share/kde4/services/kcmaccess.desktop
+#: /usr/share/kde4/services/settings-accessibility.desktop
+#, fuzzy
 msgctxt "Comment(kde-utilities-accessibility.directory)"
 msgid "Accessibility"
 msgstr "Prístupnosť"
@@ -79,6 +81,9 @@ msgid "Appearance & Themes"
 msgstr "Vzhľad a témy"
 
 #: /usr/share/desktop-directories/X-GNOME-Menu-Applications.directory
+#: /usr/share/kde4/apps/konqsidebartng/virtual_folders/services/applications.desktop
+#: /usr/share/kde4/services/plasma-runner-services.desktop
+#, fuzzy
 msgctxt "Comment(X-GNOME-Menu-Applications.directory)"
 msgid "Applications"
 msgstr "Aplikácie"
@@ -174,11 +179,19 @@ msgid "CD/DVD Tools"
 msgstr "CD/DVD nástroje"
 
 #: /usr/share/desktop-directories/suse-utility-calculator.directory
+#: /usr/share/kde4/services/plasma-runner-calculator.desktop
+#, fuzzy
 msgctxt "Name(suse-utility-calculator.directory)"
 msgid "Calculator"
 msgstr "Kalkulačka"
 
 #: /usr/share/desktop-directories/suse-office-calendar.directory
+#: /usr/share/kde4/services/kresources/kcal_manager.desktop
+#: /usr/share/kde4/services/kipiplugin_calendar.desktop
+#: /usr/share/kde4/services/kontact/korganizerplugin.desktop
+#: /usr/share/kde4/services/plasma-applet-calendar.desktop
+#: /usr/share/kde4/services/plasma-dataengine-calendar.desktop
+#, fuzzy
 msgctxt "Name(suse-office-calendar.directory)"
 msgid "Calendar"
 msgstr "Kalendár"
@@ -279,6 +292,8 @@ msgid "Desktop accessories"
 msgstr "Príslušenstvo pracovnej plochy"
 
 #: /usr/share/desktop-directories/kde-development.directory
+#: /usr/share/kde4/services/plasma-sal-development.desktop
+#, fuzzy
 msgctxt "Name(kde-development.directory)"
 msgid "Development"
 msgstr "Vývoj"
@@ -294,6 +309,11 @@ msgid "Dial-Up"
 msgstr "Vytáčané pripojenie Dial-Up"
 
 #: /usr/share/desktop-directories/suse-office-dictionary.directory
+#: /usr/share/kde4/services/plasma-dataengine-dict.desktop
+#: /usr/share/kde4/services/plasma-dict-default.desktop
+#: /usr/share/kde4/services/plasma-runner-dictionary.desktop
+#: /usr/share/kde4/services/plasma-runner-dictionary_config.desktop
+#, fuzzy
 msgctxt "Name(suse-office-dictionary.directory)"
 msgid "Dictionary"
 msgstr "Slovník"
@@ -314,6 +334,8 @@ msgid "E-Mail"
 msgstr "E-mail"
 
 #: /usr/share/desktop-directories/suse-utility-editor.directory
+#: /usr/share/kde4/services/knote_config_editor.desktop
+#, fuzzy
 msgctxt "Name(suse-utility-editor.directory)"
 msgid "Editor"
 msgstr "Editor"
@@ -329,6 +351,8 @@ msgid "Editors"
 msgstr "Editory"
 
 #: /usr/share/desktop-directories/Education.directory
+#: /usr/share/kde4/services/plasma-sal-education.desktop
+#, fuzzy
 msgctxt "Name(Education.directory)"
 msgid "Education"
 msgstr "Vzdelávanie"
@@ -364,6 +388,8 @@ msgid "File"
 msgstr "Súbor"
 
 #: /usr/share/desktop-directories/suse-system-filemanager.directory
+#: /usr/share/kde4/services/kdevfilemanager.desktop
+#, fuzzy
 msgctxt "Name(suse-system-filemanager.directory)"
 msgid "File Manager"
 msgstr "Správca súborov"
@@ -389,6 +415,8 @@ msgid "GUI Designer"
 msgstr "Používateľské rozhranie"
 
 #: /usr/share/desktop-directories/Game.directory
+#: /usr/share/kde4/services/plasma-sal-games.desktop
+#, fuzzy
 msgctxt "Name(Game.directory)"
 msgid "Games"
 msgstr "Hry"
@@ -424,6 +452,8 @@ msgid "Geography"
 msgstr "Zemepis"
 
 #: /usr/share/desktop-directories/Graphics.directory
+#: /usr/share/kde4/services/plasma-sal-graphics.desktop
+#, fuzzy
 msgctxt "Name(Graphics.directory)"
 msgid "Graphics"
 msgstr "Grafika"
@@ -449,6 +479,8 @@ msgid "Ham Radio"
 msgstr "Ham rádio"
 
 #: /usr/share/desktop-directories/Hardware.directory
+#: /usr/share/kde4/services/settings-hardware.desktop
+#, fuzzy
 msgctxt "Name(Hardware.directory)"
 msgid "Hardware"
 msgstr "Hardvér"
@@ -499,6 +531,8 @@ msgid "Integrated Environment"
 msgstr "Vývojové prostredie"
 
 #: /usr/share/desktop-directories/Network.directory
+#: /usr/share/kde4/services/plasma-sal-internet.desktop
+#, fuzzy
 msgctxt "Name(Network.directory)"
 msgid "Internet"
 msgstr "Internet"
@@ -574,6 +608,10 @@ msgid "Medicine"
 msgstr "Lekárstvo"
 
 #: /usr/share/desktop-directories/suse-yast-misc.directory
+#: /usr/share/kde4/services/kjots_config_misc.desktop
+#: /usr/share/kde4/services/kmail_config_misc.desktop
+#: /usr/share/kde4/services/knote_config_misc.desktop
+#, fuzzy
 msgctxt "Name(suse-yast-misc.directory)"
 msgid "Misc"
 msgstr "Rôzne"
@@ -604,6 +642,9 @@ msgid "More Programs"
 msgstr "Ďalšie programy"
 
 #: /usr/share/desktop-directories/kde-multimedia.directory
+#: /usr/share/kde4/services/plasma-sal-multimedia.desktop
+#: /usr/share/kde4/services/settings-audio-and-video.desktop
+#, fuzzy
 msgctxt "Name(kde-multimedia.directory)"
 msgid "Multimedia"
 msgstr "Multimédiá"
@@ -629,6 +670,9 @@ msgid "Music"
 msgstr "Hudba"
 
 #: /usr/share/desktop-directories/suse-system-network.directory
+#: /usr/share/kde4/services/knote_config_network.desktop
+#: /usr/share/kde4/services/kresources/kabc/net.desktop
+#, fuzzy
 msgctxt "Name(suse-system-network.directory)"
 msgid "Network"
 msgstr "Sieť"
@@ -659,6 +703,8 @@ msgid "Novell AppArmor"
 msgstr "Bezpečnosť a používatelia"
 
 #: /usr/share/desktop-directories/Office.directory
+#: /usr/share/kde4/services/plasma-sal-office.desktop
+#, fuzzy
 msgctxt "Name(Office.directory)"
 msgid "Office"
 msgstr "Kancelária"
@@ -759,6 +805,9 @@ msgid "Programs for Internet access such as web and email"
 msgstr "Programy pre prístup k internetu, ako je www a e-mail"
 
 #: /usr/share/desktop-directories/suse-development-design.directory
+#: /usr/share/kde4/services/calligra/planpart.desktop
+#: /usr/share/kde4/services/calligra/planworkpart.desktop
+#, fuzzy
 msgctxt "Name(suse-development-design.directory)"
 msgid "Project Management"
 msgstr "Správa projektov"
@@ -854,9 +903,11 @@ msgid "Screen saver demos"
 msgstr "Ukážky šetričov obrazovky"
 
 #: /usr/share/desktop-directories/suse-system-security.directory
+#: /usr/share/kde4/services/kmail_config_security.desktop
+#, fuzzy
 msgctxt "Name(suse-system-security.directory)"
 msgid "Security"
-msgstr "Bezpečnosť"
+msgstr "Zabezpečenie"
 
 #: /usr/share/desktop-directories/suse-settings-security.directory
 msgctxt "Name(suse-settings-security.directory)"
@@ -884,6 +935,8 @@ msgid "Service Configuration"
 msgstr "Nastaviť službu"
 
 #: /usr/share/desktop-directories/kde-settingsmenu.directory
+#: /usr/share/kde4/services/kmsettings.desktop
+#, fuzzy
 msgctxt "Name(kde-settingsmenu.directory)"
 msgid "Settings"
 msgstr "Nastavenia"
@@ -939,6 +992,9 @@ msgid "Sports"
 msgstr "Športy"
 
 #: /usr/share/desktop-directories/suse-office-spreadsheet.directory
+#: /usr/share/kde4/services/calligra/sheetspart.desktop
+#: /usr/share/kde4/services/calligra/keximigrate_spreadsheet.desktop
+#, fuzzy
 msgctxt "Name(suse-office-spreadsheet.directory)"
 msgid "Spreadsheet"
 msgstr "Tabuľkový procesor"
@@ -949,6 +1005,8 @@ msgid "Sync"
 msgstr "Synchronizácia"
 
 #: /usr/share/desktop-directories/System.directory
+#: /usr/share/kde4/services/plasma-sal-system.desktop
+#, fuzzy
 msgctxt "Name(System.directory)"
 msgid "System"
 msgstr "Systém"
@@ -974,6 +1032,8 @@ msgid "System"
 msgstr "Systém"
 
 #: /usr/share/desktop-directories/suse-settings-system.directory
+#: /usr/share/kde4/services/settings-system-administration.desktop
+#, fuzzy
 msgctxt "Name(suse-settings-system.directory)"
 msgid "System Administration"
 msgstr "Správa systému"
@@ -1104,6 +1164,8 @@ msgid "Usenet News Reader"
 msgstr "Klient diskusných skupín"
 
 #: /usr/share/desktop-directories/kde-utilities.directory
+#: /usr/share/kde4/services/plasma-sal-utility.desktop
+#, fuzzy
 msgctxt "Comment(kde-utilities.directory)"
 msgid "Utilities"
 msgstr "Nástroje"
@@ -1159,6 +1221,8 @@ msgid "Warehouse"
 msgstr "Dátové sklady"
 
 #: /usr/share/desktop-directories/suse-internet-webbrowser.directory
+#: /usr/share/kde4/services/plasma-applet-webbrowser.desktop
+#, fuzzy
 msgctxt "Name(suse-internet-webbrowser.directory)"
 msgid "Web Browser"
 msgstr "Webový prehliadač"
