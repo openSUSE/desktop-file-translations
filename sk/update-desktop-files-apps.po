@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2015-10-01 14:51+0000\n"
-"PO-Revision-Date: 2017-02-03 18:34+0100\n"
+"PO-Revision-Date: 2017-02-04 11:51+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation-sk@opensuse.org>\n"
 "Language: sk\n"
@@ -692,6 +692,8 @@ msgstr "Pristupuje, organizuje a sprístupňuje fotografie"
 #: /usr/share/applications/cinnamon-settings-universal-access.desktop
 #: /usr/share/kde4/services/kcmaccess.desktop
 #: /usr/share/kde4/services/settings-accessibility.desktop
+#: /usr/share/desktop-directories/kde-utilities-accessibility.directory
+#: /usr/share/desktop-directories/suse-utility-accessibility.directory
 #, fuzzy
 msgctxt "Name(cinnamon-settings-universal-access.desktop)"
 msgid "Accessibility"
@@ -1346,9 +1348,11 @@ msgid "Backlight"
 msgstr ""
 
 #: /usr/share/applications/backintime-qt4-root.desktop
+#: /usr/share/desktop-directories/suse-system-backup.directory
+#, fuzzy
 msgctxt "GenericName(backintime-qt4-root.desktop)"
 msgid "Backup"
-msgstr ""
+msgstr "Záloha"
 
 #: /usr/share/applications/backintime-qt4.desktop
 msgctxt "GenericName(backintime-qt4.desktop)"
@@ -3669,9 +3673,13 @@ msgid "Desklets"
 msgstr "Desklety"
 
 #: /usr/share/applications/cinnamon-settings-desktop.desktop
+#: /usr/share/desktop-directories/kde-utilities-desktop.directory
+#: /usr/share/desktop-directories/suse-settings-desktop.directory
+#: /usr/share/desktop-directories/suse-utility-desktop.directory
+#, fuzzy
 msgctxt "Name(cinnamon-settings-desktop.desktop)"
 msgid "Desktop"
-msgstr "Pracovná plocha"
+msgstr "Plocha"
 
 #: /usr/share/applications/pcmanfm-qt-desktop-pref.desktop
 msgctxt "Name(pcmanfm-qt-desktop-pref.desktop)"
@@ -4149,9 +4157,11 @@ msgid "Document Viewer"
 msgstr "Prehliadač dokumentov"
 
 #: /usr/share/applications/colorhug-docs.desktop
+#: /usr/share/desktop-directories/suse-documentation.directory
+#, fuzzy
 msgctxt "GenericName(colorhug-docs.desktop)"
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentácia"
 
 #: /usr/share/applications/zeal.desktop
 msgctxt "GenericName(zeal.desktop)"
@@ -6535,9 +6545,11 @@ msgid "IRC Chat"
 msgstr "IRC Chat"
 
 #: /usr/share/applications/hexchat.desktop
+#: /usr/share/desktop-directories/suse-internet-ircclient.directory
+#, fuzzy
 msgctxt "GenericName(hexchat.desktop)"
 msgid "IRC Client"
-msgstr ""
+msgstr "Klient IRC"
 
 #: /usr/share/applications/irssi.desktop
 msgctxt "GenericName(irssi.desktop)"
@@ -9431,6 +9443,8 @@ msgid "Mumble"
 msgstr ""
 
 #: /usr/share/applications/epymc.desktop
+#: /usr/share/desktop-directories/suse-edutainment-music.directory
+#: /usr/share/desktop-directories/suse-multimedia-music.directory
 #, fuzzy
 #| msgctxt "Name(gnome-music.desktop)"
 #| msgid "Music"
@@ -9628,6 +9642,7 @@ msgstr ""
 #: /usr/share/applications/cinnamon-network-panel.desktop
 #: /usr/share/kde4/services/knote_config_network.desktop
 #: /usr/share/kde4/services/kresources/kabc/net.desktop
+#: /usr/share/desktop-directories/suse-system-network.directory
 #, fuzzy
 msgctxt "Name(cinnamon-network-panel.desktop)"
 msgid "Network"
@@ -10060,6 +10075,9 @@ msgstr "Získajte dlaždicu 2048"
 
 #: /usr/share/applications/startcenter.desktop
 #: /usr/share/kde4/services/plasma-sal-office.desktop
+#: /usr/share/desktop-directories/Office.directory
+#: /usr/share/desktop-directories/kde-office.directory
+#: /usr/share/desktop-directories/suse-office.directory
 #, fuzzy
 msgctxt "GenericName(startcenter.desktop)"
 msgid "Office"
@@ -11222,6 +11240,7 @@ msgstr ""
 
 #: /usr/share/applications/impress.desktop
 #: /usr/share/applications/kde4/stage.desktop
+#: /usr/share/desktop-directories/suse-office-presentation.directory
 #, fuzzy
 msgctxt "GenericName(impress.desktop)"
 msgid "Presentation"
@@ -11367,6 +11386,8 @@ msgstr ""
 #: /usr/share/kde4/services/calligra/planworkpart.desktop
 #: /usr/share/applications/kde4/plan.desktop
 #: /usr/share/applications/kde4/planwork.desktop
+#: /usr/share/desktop-directories/suse-development-design.directory
+#: /usr/share/desktop-directories/suse-office-projectmanagement.directory
 #, fuzzy
 msgctxt "GenericName(planner.desktop)"
 msgid "Project Management"
@@ -12307,6 +12328,8 @@ msgid "Scanner"
 msgstr ""
 
 #: /usr/share/applications/xsane.desktop
+#: /usr/share/desktop-directories/suse-graphics-scanning.directory
+#, fuzzy
 msgctxt "GenericName(xsane.desktop)"
 msgid "Scanning"
 msgstr "Skenovanie"
@@ -12760,6 +12783,8 @@ msgstr ""
 
 #: /usr/share/applications/gnome-control-center.desktop
 #: /usr/share/kde4/services/kmsettings.desktop
+#: /usr/share/desktop-directories/kde-settingsmenu.directory
+#: /usr/share/desktop-directories/suse-settingsmenu.directory
 #, fuzzy
 msgctxt "Name(gnome-control-center.desktop)"
 msgid "Settings"
@@ -13091,6 +13116,9 @@ msgid "SnoreSettings"
 msgstr ""
 
 #: /usr/share/applications/org.gnome.Software.desktop
+#: /usr/share/desktop-directories/suse-yast-software.directory
+#: /usr/share/desktop-directories/yast-gnome-software.directory
+#, fuzzy
 msgctxt "Name(org.gnome.Software.desktop)"
 msgid "Software"
 msgstr "Softvér"
@@ -13849,6 +13877,8 @@ msgid "Temporarily deactivate the screensaver and sleep mode"
 msgstr ""
 
 #: /usr/share/applications/lxterminal.desktop
+#: /usr/share/desktop-directories/suse-system-shell.directory
+#, fuzzy
 msgctxt "GenericName(lxterminal.desktop)"
 msgid "Terminal"
 msgstr "Terminál"
@@ -14684,6 +14714,8 @@ msgid ""
 msgstr ""
 
 #: /usr/share/applications/xfig.desktop
+#: /usr/share/desktop-directories/suse-graphics-vectorgraphics.directory
+#, fuzzy
 msgctxt "GenericName(xfig.desktop)"
 msgid "Vector Drawing"
 msgstr "Vektorová kreslenie"
@@ -14739,9 +14771,11 @@ msgid "Video Editor"
 msgstr "Editor videa"
 
 #: /usr/share/applications/xine.desktop
+#: /usr/share/desktop-directories/suse-multimedia-videoplayer.directory
+#, fuzzy
 msgctxt "Comment(xine.desktop)"
 msgid "Video Player"
-msgstr "Video prehrávač"
+msgstr "Prehrávač videa"
 
 #: /usr/share/applications/org.kde.dragonplayer.desktop
 msgctxt "GenericName(org.kde.dragonplayer.desktop)"
@@ -15021,6 +15055,8 @@ msgid "Voice chat on Ventrilo 3.x servers"
 msgstr ""
 
 #: /usr/share/applications/pavucontrol.desktop
+#: /usr/share/desktop-directories/suse-multimedia-audiomixer.directory
+#, fuzzy
 msgctxt "GenericName(pavucontrol.desktop)"
 msgid "Volume Control"
 msgstr "Ovládanie hlasitosti"
@@ -15106,6 +15142,8 @@ msgstr "Web"
 #: /usr/share/kde4/services/plasma-applet-webbrowser.desktop
 #: /usr/share/applications/kde4/konqbrowser.desktop
 #: /usr/share/applications/kde4/rekonq.desktop
+#: /usr/share/desktop-directories/suse-internet-webbrowser.directory
+#: /usr/share/desktop-directories/suse-settings-webbrowsing.directory
 #, fuzzy
 msgctxt "Comment(firefox.desktop)"
 msgid "Web Browser"
@@ -15172,6 +15210,8 @@ msgid "Web Development Editor"
 msgstr ""
 
 #: /usr/share/applications/seamonkey-composer.desktop
+#: /usr/share/desktop-directories/suse-internet-webdevelopment.directory
+#, fuzzy
 msgctxt "GenericName(seamonkey-composer.desktop)"
 msgid "Web Page Creation"
 msgstr "Tvorba WWW stránok"
