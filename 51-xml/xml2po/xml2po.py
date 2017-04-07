@@ -77,6 +77,39 @@ TRANSLATABLE_ELEMENTS = {'appstream':
                          }
 
 
+# For each basename (of a PO/POT file) this contains various regexes to match the file path.
+FILENAME_PATTERNS = {'update-desktop-files-yast':
+                     [
+                         # Not YaST2/ to also pick up YaST.desktop
+                         re.compile("/usr/share/applications/YaST.*\\.desktop")
+                     ],
+                     'update-desktop-files-directories':
+                     [
+                         re.compile("/usr/share/desktop-directories/.*\\.directory")
+                     ],
+                     'update-desktop-files-screensavers':
+                     [
+                         re.compile("/usr/share/applications/[sS]creen[sS]aver.*\\.desktop")
+                     ],
+                     'update-desktop-files-kde-services':  # Comes before -kde -> higher priority
+                     [
+                         re.compile("/usr/share/kde.*/services/\\.desktop")
+                     ],
+                     'update-desktop-files-kde':
+                     [
+                         re.compile("/usr/share/kde.*\\.desktop")
+                     ],
+                     'update-desktop-files':
+                     [
+                         re.compile("/usr/share/applications/.*\\.desktop")
+                     ],
+                     'polkitactions-freedesktop':
+                     [
+                         re.compile("/usr/share/polkit-1/actions/org\\.freedesktop.*\\.policy")
+                     ],
+                     }
+
+
 def getFileType(filepath):
     """
     Based on the filepath, return the type of the file.
@@ -166,23 +199,40 @@ def gettextQuote(string):
     return '"{}"'.format(string.replace('"', '\\"'))
 
 
-def gettextDateTime(when):
+def gettextDateTimeUTC(when):
     """
     Formats when to be used in PO headers.
     """
 
-    return when.strftime("%Y-%m-%d %H:%M%z")
+    return when.strftime("%Y-%m-%d %H:%M+0000")
 
 
-def generateGettextFiles(lang_info, basename):
+def gettextFilename(translation, ctxt, type):
+    """
+    Returns the basename of the gettext PO/POT file that should contain the
+    translation translation with context ctxt of type type.
+    It searches through FILENAME_PATTERNS and if it does not find a match,
+    return the type as a fallback.
+    """
+
+    for filename, patterns in FILENAME_PATTERNS.items():
+        for pattern in patterns:
+            if pattern.match(translation['file']):
+                return filename
+
+    return type
+
+
+def generateGettextFiles(lang_info, type, timestamp=datetime.utcnow()):
     """
     Gets output of extractXMLLangInfo (lang_info),
     returns dict of filenames and (header, content that needs to be appended).
-    basename is the basename of the generated PO and POT files
+    type is the type of the files the lang_info is extracted from.
     """
 
     files = {}
     for ctxt, value in lang_info.items():
+        basename = gettextFilename(value, ctxt, type)
         pot_filename = basename + ".pot"
         if pot_filename not in files:
             header = """msgid ""
@@ -191,7 +241,7 @@ msgstr ""
 "POT-Creation-Date: {}\\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"
-"Content-Transfer-Encoding: 8bit\\n"\n\n""".format(gettextDateTime(datetime.now()))
+"Content-Transfer-Encoding: 8bit\\n"\n\n""".format(gettextDateTimeUTC(timestamp))
             files[pot_filename] = {'header': header, 'content': ""}
 
         translation_header = "#: {}:{}\n".format(value['file'], value['line'])
@@ -216,8 +266,8 @@ msgstr ""
 "Language: \\n"
 "MIME-Version: 1.0\\n"
 "Content-Type: text/plain; charset=UTF-8\\n"
-"Content-Transfer-Encoding: 8bit\\n"\n\n""".format(gettextDateTime(datetime.now()),
-                                                   gettextDateTime(datetime.now()))
+"Content-Transfer-Encoding: 8bit\\n"\n\n""".format(gettextDateTimeUTC(timestamp),
+                                                   gettextDateTimeUTC(timestamp))
                 files[po_filename] = {'header': header, 'content': ""}
 
             files[po_filename]['content'] += translation_header + "msgstr {}\n\n".format(gettextQuote(translation))
@@ -225,7 +275,7 @@ msgstr ""
     return files
 
 
-def processTarFile(filepath):
+def processTarFile(filepath, timestamp=datetime.utcnow()):
     """
     filepath is the path to a tar file containing files to be processed.
     Returns dict of filenames and content that needs to be appended
@@ -249,7 +299,7 @@ def processTarFile(filepath):
                 print("Could not extract lang info from {}: {}".format(tar_file_path, e))
                 continue
 
-            gettext_output_file = generateGettextFiles(lang_info, tar_file_type)
+            gettext_output_file = generateGettextFiles(lang_info, tar_file_type, timestamp)
 
             for k, v in gettext_output_file.items():
                 if k in gettext_output_all:
@@ -265,9 +315,9 @@ def main(args):
         print("Usage: {} <tar file> <outputdir>".format(args[0]))
         return 1
 
-    # Secret option to generate test case output
+    # Secret option to generate test case output (raw dict with fixed timestamp)
     if args[1] == "--test":
-        print(processTarFile(args[2]))
+        print(processTarFile(args[2], datetime.fromtimestamp(0)))
     else:
         os.chdir(args[2])
         writeGettextFiles(processTarFile(args[1]))

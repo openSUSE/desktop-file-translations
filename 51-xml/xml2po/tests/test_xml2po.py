@@ -17,6 +17,7 @@
 # along with xml2po. If not, see <http://www.gnu.org/licenses/>.
 
 import ast
+from datetime import datetime
 import os.path
 from operator import is_, eq
 import pytest
@@ -40,4 +41,4 @@ def test_xml(testcase, capsys):
     output = open(filepart + "out.dict", "r").read() if os.path.isfile(filepart + "out.dict") else ""
     outputdict = ast.literal_eval(output)
 
-    assert outputdict == xml2po.processTarFile(testcase)
+    assert outputdict == xml2po.processTarFile(testcase, datetime.fromtimestamp(0))
