@@ -46,7 +46,7 @@ echo "Generating new POT and PO files... "
 
 for archive in "${inputdir}"/*; do
         printf "%s" "${archive}"
-	if ! python3 xml2po/xml2po.py "${archive}" "${outputdir}"; then
+	if ! python3 tar2po/tar2po.py "${archive}" "${outputdir}"; then
 		echo "Failed: ${archive}"
 	fi
         line_clear_back_home
