@@ -27,55 +27,29 @@ import os
 import re
 import tarfile
 from lxml import etree as xml
+from desktop_handler import extractDesktopLangInfo
+from xml_handler import extractXMLLangInfo
 
-# Keep in sync with brp-trim-polkit-mime-appdata.sh in update-desktop-files
+# Assigns each file type regexes that match the full file path
+# Keep in sync with brp-trim-translations.sh in update-desktop-files
 PATH_PATTERNS = {'appstream':
                  [re.compile("/usr/share/metainfo/.+\\.xml"),
                   re.compile("/usr/share/appdata/.+\\.xml")],
                  'polkitaction':
                  [re.compile("/usr/share/polkit-1/actions/.+\\.policy")],
                  "mimeinfo":
-                 [re.compile("/usr/share/mime/.+\\.xml")]
+                 [re.compile("/usr/share/mime/.+\\.xml")],
+                 "desktopfile":
+                 [re.compile("/.*/.+\\.desktop"),
+                  re.compile("/.*/.+\\.directory")]
                  }
 
-
-DEFAULT_NAMESPACES = {'mime': 'http://www.freedesktop.org/standards/shared-mime-info'}
-
-# This contains the information on how to generate po files from XML trees.
-# For each type it has a list of elements which content is translatable and methods
-# to get the needed values/attributes.
-TRANSLATABLE_ELEMENTS = {'appstream':
-                         [
-                            {'path': xml.XPath("/component/name"),
-                             'content': xml.XPath("string(./text())"),
-                             'lang': xml.XPath("string(./@xml:lang)"),
-                             'name': xml.XPath("concat('Name(', string(../id/text()), ')')")},
-                            {'path': xml.XPath("/component/summary"),
-                             'content': xml.XPath("string(./text())"),
-                             'lang': xml.XPath("string(./@xml:lang)"),
-                             'name': xml.XPath("concat('Summary(', string(../id/text()), ')')")}
-                             # TODO: Description! It's an entire tree...
-                         ],
-                         'polkitaction':
-                         [
-                            {'path': xml.XPath("/policyconfig/action/description"),
-                             'content': xml.XPath("string(./text())"),
-                             'lang': xml.XPath("string(./@xml:lang)"),
-                             'name': xml.XPath("concat('Description(', string(../@id), ')')")},
-                            {'path': xml.XPath("/policyconfig/action/message"),
-                             'content': xml.XPath("string(./text())"),
-                             'lang': xml.XPath("string(./@xml:lang)"),
-                             'name': xml.XPath("concat('Message(', string(../@id), ')')")}
-                         ],
-                         'mimeinfo':
-                         [
-                            {'path': xml.XPath("/mime:mime-type/mime:comment", namespaces=DEFAULT_NAMESPACES),
-                             'content': xml.XPath("string(./text())"),
-                             'lang': xml.XPath("string(./@xml:lang)"),
-                             'name': xml.XPath("concat('Comment(', string(../@type), ')')")}
-                         ]
-                         }
-
+# Assigns each file type a handler
+FILETYPE_HANDLERS = {'appstream': extractXMLLangInfo,
+                     'polkitaction': extractXMLLangInfo,
+                     'mimeinfo': extractXMLLangInfo,
+                     'desktopfile': extractDesktopLangInfo
+                     }
 
 # For each basename (of a PO/POT file) this contains various regexes to match the file path.
 FILENAME_PATTERNS = {'update-desktop-files-yast':
@@ -123,45 +97,6 @@ def getFileType(filepath):
                 return type
 
     return None
-
-
-def extractXMLLangInfo(file, filepath, type):
-    """
-    Parses filecontent as XML (of the specified type, see getFileType).
-    @returns dict:
-    {"Description(org.opensuse.asdf)":
-        {'file': "/usr/share/example.xml", 'line': 42,
-         'values': {"": "Example", "de": "Beispiel", ...
-        },
-        ...
-    }
-    """
-
-    xml_tree = xml.parse(file)
-
-    translations = {}
-
-    for filter in TRANSLATABLE_ELEMENTS[type]:
-        for translatable_element in filter['path'](xml_tree):
-            name = filter['name'](translatable_element)
-            lang = filter['lang'](translatable_element)
-            content = filter['content'](translatable_element)
-
-            if name not in translations:
-                translations[name] = {'file': filepath, 'line': translatable_element.sourceline, 'values': {}}
-
-            if lang in translations[name]['values']:
-                print("Warning: Multiple values for {} in {} ({})", lang, name, filepath)
-            else:
-                translations[name]['values'][lang] = content
-
-    broken_translations = {k: v for k, v in translations.items() if "" not in v['values']}
-
-    if len(broken_translations) > 0:
-        print("Warning: The following translations have no text in the original language: ")
-        print(broken_translations)
-
-    return translations
 
 
 def writeGettextFiles(files):
@@ -294,7 +229,7 @@ def processTarFile(filepath, timestamp=datetime.utcnow()):
                 continue
 
             try:
-                lang_info = extractXMLLangInfo(tar.extractfile(tar_file), tar_file_path, tar_file_type)
+                lang_info = FILETYPE_HANDLERS[tar_file_type](tar.extractfile(tar_file), tar_file_path, tar_file_type)
             except Exception as e:
                 print("Could not extract lang info from {}: {}".format(tar_file_path, e))
                 continue

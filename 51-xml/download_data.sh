@@ -9,7 +9,7 @@ project="home:favogt:branches:X11:common:Factory"
 repository="openSUSE_Factory"
 arch="x86_64"
 backend="rsync://openqa@obs-back-home.publish.opensuse.org/opensuse-internal/"
-file_patterns='*.desktopfiles *-appstream.tar.bz2 *-polkitactions.tar.bz2 *-mimetypes.tar.bz2'
+file_patterns='*.desktopfiles.tar.bz2 *-appstream.tar.bz2 *-polkitactions.tar.bz2 *-mimetypes.tar.bz2'
 
 if [ $# -ne 1 ]; then
     echo "Usage: $0 <target dir>"
