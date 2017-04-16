@@ -5,16 +5,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2015-10-01 14:51+0000\n"
-"PO-Revision-Date: 2017-04-15 13:27+0000\n"
+"PO-Revision-Date: 2017-04-16 18:00+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
-"Language-Team: Slovak <https://l10n.opensuse.org/projects/desktop-file-"
-"translations/update-desktop-files-apps-master/sk/>\n"
+"Language-Team: Slovak <opensuse-translation-sk@opensuse.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.6\n"
+"X-Generator: Lokalize 2.0\n"
 "X-Poedit-Language: Slovak\n"
 "X-Poedit-Country: SLOVAKIA\n"
 
@@ -695,6 +694,7 @@ msgstr "Pristupuje, organizuje a sprístupňuje fotografie"
 #: /usr/share/kde4/services/settings-accessibility.desktop
 #: /usr/share/desktop-directories/kde-utilities-accessibility.directory
 #: /usr/share/desktop-directories/suse-utility-accessibility.directory
+#: /usr/share/applications/xfce4-accessibility-settings.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-settings-universal-access.desktop)"
 msgid "Accessibility"
@@ -842,6 +842,7 @@ msgstr ""
 
 #: /usr/share/applications/YaST.desktop
 #: /usr/share/kde4/services/YaST-systemsettings.desktop
+#, fuzzy
 msgctxt "GenericName(YaST.desktop)"
 msgid "Administrator Settings"
 msgstr "Nastavenia administrátora"
@@ -1008,6 +1009,8 @@ msgstr "Slovník"
 #: /usr/share/kde4/services/kmail_config_appearance.desktop
 #: /usr/share/kde4/services/knode_config_appearance.desktop
 #: /usr/share/kde4/services/ktimetracker_config_display.desktop
+#: /usr/share/applications/mate-appearance-properties.desktop
+#: /usr/share/applications/xfce-ui-settings.desktop
 #, fuzzy
 msgctxt "Name(lxqt-config-appearance.desktop)"
 msgid "Appearance"
@@ -2066,6 +2069,8 @@ msgstr "Programy a všeobecné akcie"
 #: /usr/share/applications/calculator.desktop
 #: /usr/share/kde4/services/plasma-runner-calculator.desktop
 #: /usr/share/desktop-directories/suse-utility-calculator.directory
+#: /usr/share/applications/xcalc.desktop
+#: /usr/share/applications/gnome-calculator.desktop
 #, fuzzy
 msgctxt "GenericName(calculator.desktop)"
 msgid "Calculator"
@@ -2103,6 +2108,8 @@ msgstr ""
 #: /usr/share/kde4/services/plasma-applet-calendar.desktop
 #: /usr/share/kde4/services/plasma-dataengine-calendar.desktop
 #: /usr/share/desktop-directories/suse-office-calendar.directory
+#: /usr/share/applications/evolution.desktop
+#: /usr/share/applications/org.gnome.Calendar.desktop
 #, fuzzy
 msgctxt "GenericName(xfcalendar.desktop)"
 msgid "Calendar"
@@ -2121,6 +2128,7 @@ msgstr "Kalendár"
 #: /usr/share/applications/korganizer-import.desktop
 #: /usr/share/kde4/services/korganizer_part.desktop
 #: /usr/share/applications/kde4/korganizer.desktop
+#: /usr/share/applications/org.kde.korganizer.desktop
 #, fuzzy
 msgctxt "Comment(korganizer-import.desktop)"
 msgid "Calendar and Scheduling Program"
@@ -2635,6 +2643,7 @@ msgstr "Editor pre spoluprácu"
 #: /usr/share/applications/cinnamon-color-panel.desktop
 #: /usr/share/kde4/services/kcm_colord.desktop
 #: /usr/share/kde4/services/plasma-wallpaper-color.desktop
+#: /usr/share/applications/gcm-calibrate.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-color-panel.desktop)"
 msgid "Color"
@@ -3131,6 +3140,7 @@ msgstr "Editor tém Contact"
 #: /usr/share/kde4/services/kontact/kaddressbookplugin.desktop
 #: /usr/share/kde4/services/plasma-runner-contacts.desktop
 #: /usr/share/kde4/services/plasma-sal-contacts.desktop
+#: /usr/share/applications/org.gnome.Contacts.desktop
 #, fuzzy
 msgctxt "Name(evolution.desktop)"
 msgid "Contacts"
@@ -3589,6 +3599,7 @@ msgstr ""
 
 #: /usr/share/applications/cinnamon-datetime-panel.desktop
 #: /usr/share/kde4/services/clock.desktop
+#: /usr/share/applications/cinnamon-settings-calendar.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-datetime-panel.desktop)"
 msgid "Date & Time"
@@ -3819,6 +3830,8 @@ msgstr ""
 #: /usr/share/kde4/services/plasma-runner-dictionary.desktop
 #: /usr/share/kde4/services/plasma-runner-dictionary_config.desktop
 #: /usr/share/desktop-directories/suse-office-dictionary.directory
+#: /usr/share/applications/org.gnome.Dictionary.desktop
+#: /usr/share/applications/xfce4-dict.desktop
 #, fuzzy
 msgctxt "GenericName(stardict.desktop)"
 msgid "Dictionary"
@@ -3950,10 +3963,11 @@ msgstr "Disky"
 
 #: /usr/share/applications/cinnamon-display-panel.desktop
 #: /usr/share/kde4/services/knote_config_display.desktop
+#: /usr/share/applications/xfce-display-settings.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-display-panel.desktop)"
 msgid "Display"
-msgstr "Obrazovka"
+msgstr "Monitor"
 
 #: /usr/share/applications/xfce-display-settings.desktop
 msgctxt "Name(xfce-display-settings.desktop)"
@@ -4963,6 +4977,14 @@ msgstr "Správa súborov"
 #: /usr/share/applications/caja.desktop
 #: /usr/share/kde4/services/kdevfilemanager.desktop
 #: /usr/share/desktop-directories/suse-system-filemanager.directory
+#: /usr/share/applications/org.kde.dolphin.desktop
+#: /usr/share/applications/org.kde.krusader.desktop
+#: /usr/share/applications/org.kde.krusader.root-mode.desktop
+#: /usr/share/applications/pathfinder.desktop
+#: /usr/share/applications/pcmanfm.desktop
+#: /usr/share/applications/thunar.desktop
+#: /usr/share/applications/exo-file-manager.desktop
+#: /usr/share/applications/thunar-settings.desktop
 #, fuzzy
 msgctxt "GenericName(caja.desktop)"
 msgid "File Manager"
@@ -5205,10 +5227,12 @@ msgstr ""
 #: /usr/share/applications/org.kde.kfontview.desktop
 #: /usr/share/kde4/services/kfontviewpart.desktop
 #: /usr/share/applications/kde4/kfontview.desktop
+#: /usr/share/applications/mate-font-viewer.desktop
+#: /usr/share/applications/org.gnome.font-viewer.desktop
 #, fuzzy
 msgctxt "GenericName(org.kde.kfontview.desktop)"
 msgid "Font Viewer"
-msgstr "Prehliadač typov písma"
+msgstr "Prehliadač písiem"
 
 #: /usr/share/applications/mate-font-viewer.desktop
 msgctxt "Name(mate-font-viewer.desktop)"
@@ -7445,6 +7469,7 @@ msgstr "KNotes"
 #: /usr/share/applications/korganizer-import.desktop
 #: /usr/share/kde4/services/korganizer_part.desktop
 #: /usr/share/applications/kde4/korganizer.desktop
+#: /usr/share/applications/org.kde.korganizer.desktop
 #, fuzzy
 msgctxt "Name(korganizer-import.desktop)"
 msgid "KOrganizer"
@@ -7621,6 +7646,8 @@ msgstr "Sledovač tiketov Kerberos"
 #: /usr/share/applications/cinnamon-settings-keyboard.desktop
 #: /usr/share/kde4/services/kcm_keyboard.desktop
 #: /usr/share/kde4/services/plasma_applet_plasmaboard.desktop
+#: /usr/share/applications/mate-keyboard.desktop
+#: /usr/share/applications/xfce-keyboard-settings.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-settings-keyboard.desktop)"
 msgid "Keyboard"
@@ -8457,6 +8484,7 @@ msgstr ""
 
 #: /usr/share/applications/lxqt-logout.desktop
 #: /usr/share/kde4/services/kwin/logout.desktop
+#: /usr/share/applications/lxde-logout.desktop
 #, fuzzy
 msgctxt "GenericName(lxqt-logout.desktop)"
 msgid "Logout"
@@ -9057,6 +9085,7 @@ msgstr ""
 #: /usr/share/kde4/services/ktmediaplayerplugin.desktop
 #: /usr/share/kde4/services/plasma-applet-mediaplayer.desktop
 #: /usr/share/applications/kde4/kaffeine.desktop
+#: /usr/share/applications/xplayer.desktop
 #, fuzzy
 msgctxt "GenericName(smplayer.desktop)"
 msgid "Media Player"
@@ -9648,6 +9677,8 @@ msgstr ""
 #: /usr/share/kde4/services/knote_config_network.desktop
 #: /usr/share/kde4/services/kresources/kabc/net.desktop
 #: /usr/share/desktop-directories/suse-system-network.directory
+#: /usr/share/applications/mate-network-scheme.desktop
+#: /usr/share/applications/nm-applet.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-network-panel.desktop)"
 msgid "Network"
@@ -9986,6 +10017,7 @@ msgstr ""
 
 #: /usr/share/applications/org.gnome.bijiben.desktop
 #: /usr/share/kde4/services/plasma-notes-default.desktop
+#: /usr/share/applications/xfce4-notes.desktop
 #, fuzzy
 msgctxt "Name(org.gnome.bijiben.desktop)"
 msgid "Notes"
@@ -10008,10 +10040,11 @@ msgstr "Predvoľby oznámení"
 
 #: /usr/share/applications/cinnamon-settings-notifications.desktop
 #: /usr/share/kde4/services/networkmanagement_notifications.desktop
+#: /usr/share/applications/xfce4-notifyd-config.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-settings-notifications.desktop)"
 msgid "Notifications"
-msgstr "Upozornenia"
+msgstr "Oznámenia"
 
 #: /usr/share/applications/xfce4-notifyd-config.desktop
 msgctxt "Name(xfce4-notifyd-config.desktop)"
@@ -10692,6 +10725,7 @@ msgstr "Prehliadač a editor fotografií"
 
 #: /usr/share/applications/epymc.desktop
 #: /usr/share/kde4/services/amarok-context-applet-photos.desktop
+#: /usr/share/applications/org.gnome.Photos.desktop
 #, fuzzy
 msgctxt "Name(epymc.desktop)"
 msgid "Photos"
@@ -11126,6 +11160,7 @@ msgstr "Zemiakový chlapec"
 #: /usr/share/kde4/services/plasma-dataengine-powermanagement.desktop
 #: /usr/share/kde4/services/kded/powerdevil.desktop
 #: /usr/share/kde4/services/settings-power-management.desktop
+#: /usr/share/applications/mate-power-preferences.desktop
 #, fuzzy
 msgctxt "Name(cinnamon-settings-power.desktop)"
 msgid "Power Management"
@@ -12461,6 +12496,8 @@ msgstr ""
 
 #: /usr/share/applications/lximage-qt-screenshot.desktop
 #: /usr/share/kde4/services/kwin/screenshot.desktop
+#: /usr/share/applications/org.gnome.Screenshot.desktop
+#: /usr/share/applications/xfce4-screenshooter.desktop
 #, fuzzy
 msgctxt "GenericName(lximage-qt-screenshot.desktop)"
 msgid "Screenshot"
