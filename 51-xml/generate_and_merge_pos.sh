@@ -19,7 +19,7 @@ fi
 # Dir with stripped PO files
 outputdir="$(dirname "$(realpath "$0")")/output"
 # Dir with downloaded translation files (okular-appstream.tar.bz2 etc.)
-inputdir="$1"
+inputdir="$(realpath "$1")"
 # Dir with directories for each lang, containing *.po files for weblate
 resultdir="$(dirname "$(realpath "$0")")/.."
 # Create temporary directory for merging POs
@@ -61,6 +61,7 @@ for lang in $langs; do
 	pushd "${outputdir}"/"${lang}" > /dev/null
 	for pofile in *; do
 		printf "%s %s" "${lang}" "${pofile}"
+		msguniq --use-first "${pofile}" | sponge "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
 			msgmerge -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
