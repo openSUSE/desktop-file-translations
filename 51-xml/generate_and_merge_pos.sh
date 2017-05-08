@@ -61,7 +61,8 @@ for lang in $langs; do
 	pushd "${outputdir}"/"${lang}" > /dev/null
 	for pofile in *; do
 		printf "%s %s" "${lang}" "${pofile}"
-		msguniq --use-first "${pofile}" | sponge "${pofile}"
+		msguniq --use-first "${pofile}" > "${tmpdir}"/"${pofile}"
+		mv "${tmpdir}"/"${pofile}" "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
 			msgmerge -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
