@@ -54,7 +54,7 @@ def extractDesktopLangInfo(file, filepath, type):
     lineno = 0
     current_section = None
     # Identifier of the desktop file
-    basename = os.path.splitext(os.path.basename(filepath))[0]
+    basename = os.path.basename(filepath)
 
     # Step 1: Read all entries + translations into translations
     for line in file:
