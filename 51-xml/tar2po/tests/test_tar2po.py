@@ -35,7 +35,7 @@ def test_invalid(capsys):
     assert len(capsys.readouterr()[0]) > 0
 
 
-def test_xml(testcase, capsys):
+def test_xml(testcase):
     """Runs one XML testcase"""
     filepart = testcase[:-len("case.tar.xz")]
     output = open(filepart + "out.dict", "r").read() if os.path.isfile(filepart + "out.dict") else ""
