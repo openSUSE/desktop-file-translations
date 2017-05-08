@@ -26,11 +26,15 @@ import re
 
 
 TRANSLATABLE_ENTRIES = {"Desktop Entry":
-                        ["GenericName", "Name", "Comment", "X-KDE-Keywords"]
+                        ["GenericName", "Name", "Comment", "Keywords", "X-KDE-Keywords"]
                         }
 
+# This is a special case, the section name can vary
+DESKTOPACTION_RE = re.compile("Desktop Action [^\]]+")
+
+COMMENT_RE = re.compile("#.*")
 SECTION_RE = re.compile("\[([^\]]+)\]")
-ENTRY_RE = re.compile("([^\[=]+)(\[([^=\]]+)\])?=(.*)")
+ENTRY_RE = re.compile("([^\[=]+)(\[([^=\]]+)\])?\s*=\s*(.*)")
 
 
 def extractDesktopLangInfo(file, filepath, type):
@@ -57,7 +61,7 @@ def extractDesktopLangInfo(file, filepath, type):
         lineno += 1
         line = line.decode("utf-8")
 
-        if len(line.strip()) == 0:
+        if len(line.strip()) == 0 or COMMENT_RE.match(line):
             continue
 
         section_match = SECTION_RE.match(line)
@@ -68,7 +72,7 @@ def extractDesktopLangInfo(file, filepath, type):
 
         entry_match = ENTRY_RE.match(line)
         if not entry_match:
-            print("Warning: Could not parse desktop file line '{}'!".format(line))
+            print("Warning: Could not parse desktop file line '{}'!".format(line[:-1]))
 
         (key, lang, value) = entry_match.group(1, 3, 4)
 
@@ -89,7 +93,7 @@ def extractDesktopLangInfo(file, filepath, type):
             lang = ''
 
         if lang in translations[ctxt]['values']:
-            print("Warning: Found entry {} {} more than once in {}:{}!".format(key, "" if lang is None else "(lang {})".format(lang), filepath, line))
+            print("Warning: Found entry {}{} more than once in {}:{}!".format(key, "" if lang == '' else "(lang {})".format(lang), filepath, line[:-1]))
 
         translations[ctxt]['values'][lang] = value
 
@@ -101,6 +105,8 @@ def extractDesktopLangInfo(file, filepath, type):
             print("Warning: Invalid translation {} at {}:{}".format(ctxt, translation['file'], translation['line']))
             translations.pop(ctxt)
         elif translation['section'] in TRANSLATABLE_ENTRIES and translation['key'] in TRANSLATABLE_ENTRIES[translation['section']]:
+            pass  # Keep
+        elif DESKTOPACTION_RE.match(translation['section']):
             pass  # Keep
         # Step 2.2: Warn if translated but not in TRANSLATABLE_ENTRIES
         elif len(translation['values']) > 1:
