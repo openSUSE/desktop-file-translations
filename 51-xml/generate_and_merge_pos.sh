@@ -69,7 +69,7 @@ for lang in $langs; do
 			mv "${tmpdir}"/"${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		else
 			# Does not exist yet, just copy
-                        mkdir -p "${resultdir}"/"${lang}"
+			mkdir -p "${resultdir}"/"${lang}"
 			cp "${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		fi
 		line_clear_back_home
