@@ -65,13 +65,13 @@ FILENAME_PATTERNS = {'update-desktop-files-yast':
                      [
                          re.compile("/usr/share/applications/[sS]creen[sS]aver.*\\.desktop")
                      ],
-                     'update-desktop-files-kde-services':  # Comes before -kde -> higher priority
+                     'update-desktop-files-kde-services':
                      [
-                         re.compile("/usr/share/kde.*/services/\\.desktop")
+                         re.compile("/usr/share/kde.*/services/.*\\.desktop")
                      ],
                      'update-desktop-files-kde':
                      [
-                         re.compile("/usr/share/kde.*\\.desktop")
+                         re.compile("/usr/share/applications/kde.*\\.desktop"),
                      ],
                      'update-desktop-files':
                      [
