@@ -73,9 +73,12 @@ FILENAME_PATTERNS = {'update-desktop-files-yast':
                      [
                          re.compile("/usr/share/applications/kde.*\\.desktop"),
                      ],
-                     'update-desktop-files':
+                     'update-desktop-files-apps':
                      [
                          re.compile("/usr/share/applications/.*\\.desktop"),
+                     ],
+                     'update-desktop-files':
+                     [
                          re.compile("/usr/share/xsessions/.*\\.desktop"),
                          re.compile("/etc/xdg/autostart/.*\\.desktop"),
                          re.compile(".*\\.desktop") # Catch-all
