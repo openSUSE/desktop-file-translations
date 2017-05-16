@@ -78,3 +78,8 @@ for lang in $langs; do
 done
 
 echo 'Done!'
+
+echo "Copying over POT files... "
+cp output/*.pot ../50-pot/
+
+echo 'Done!'
