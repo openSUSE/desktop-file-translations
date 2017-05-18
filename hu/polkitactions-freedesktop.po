@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -131,6 +131,157 @@ msgstr "Hitelesítés szükséges a profilkezelés letiltásához egy eszközhö
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "Hitelesítés szükséges a színérzékelő használatához"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "A rendszer felfüggesztése"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr ""
+"A rendszer felfüggesztése mialatt be vannak jelentkezve más felhasználók"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "A rendszer újraindítása"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "A rendszer újraindítása mialatt be vannak jelentkezve más felhasználók"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr ""
+"A rendszer házirendje megakadályozza a rendszer állandó gépnevének "
+"módosítását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr ""
+"A rendszer felfüggesztése mialatt be vannak jelentkezve más felhasználók"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr ""
+"A rendszer házirendje megakadályozza a rendszer hálózatkezelésének be- vagy "
+"kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr ""
+"A rendszer felfüggesztése mialatt be vannak jelentkezve más felhasználók"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "Mobil széles sávú eszközök be- és kikapcsolása"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:64
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:77
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:90
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "Mobil széles sávú eszközök be- és kikapcsolása"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr ""
+"A rendszer házirendje megakadályozza a hálózati kapcsolatok felügyeletét"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr ""
+"A rendszer házirendje megakadályozza a mobil széles sávú eszközök be- vagy "
+"kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr ""
+"A rendszer házirendje megakadályozza a WiFi eszközök be- vagy kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr ""
+"A rendszer házirendje megakadályozza a WiFi eszközök be- vagy kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:67
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr ""
+"A rendszer házirendje megakadályozza a rendszer hálózatkezelésének be- vagy "
+"kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:80
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr ""
+"A rendszer házirendje megakadályozza a WiFi eszközök be- vagy kikapcsolását"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr ""
+"A rendszer házirendje megakadályozza a WiFi eszközök be- vagy kikapcsolását"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
@@ -457,6 +608,59 @@ msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
 msgstr "Hitelesítés szükséges a kapcsolat nélküli frissítés üzenet törléséhez"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr ""
+"Hitelesítés szükséges a programfuttatáshoz be nem jelentkezett "
+"felhasználóként."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr ""
+"Hitelesítés szükséges egy alkalmazás számára a rendszerleállítás "
+"meggátlásához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+"Hitelesítés szükséges egy alkalmazás számára a rendszerleállítás "
+"késleltetéséhez."
+
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
 msgid "Allow applications to inhibit system shutdown"
@@ -584,6 +788,26 @@ msgstr "A rendszer hibernálása mialatt be vannak jelentkezve más felhasznál�
 msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
 msgid "Hibernate the system while an application asked to inhibit it"
 msgstr "A rendszer hibernálása miközben egy alkalmazás ennek meggátlását kérte"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1223
+msgctxt "Description(org.freedesktop.login1.manage)"
+msgid "Manage active sessions, users and seats"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1265
+msgctxt "Description(org.freedesktop.login1.lock-sessions)"
+msgid "Lock or unlock active sessions"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1307
+msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid "Allow indication to the firmware to boot to setup interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1345
+msgctxt "Description(org.freedesktop.login1.set-wall-message)"
+msgid "Set a wall message"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:31
 msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
@@ -772,15 +996,55 @@ msgstr ""
 "Hitelesítés szükséges a rendszer hibernálásához miközben egy alkalmazás "
 "ennek meggátlását kérte."
 
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1240
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.manage)"
+msgid ""
+"Authentication is required for managing active sessions, users and seats."
+msgstr ""
+"Hitelesítés szükséges eszköz csatolásának engedélyezéséhez egy "
+"munkaállomáshoz"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1282
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.lock-sessions)"
+msgid "Authentication is required to lock or unlock active sessions."
+msgstr "Hitelesítés szükséges egy titkosított eszköz feloldásához"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1322
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid ""
+"Authentication is required to indicate to the firmware to boot to setup "
+"interface."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1356
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-wall-message)"
+msgid "Authentication is required to set a wall message"
+msgstr "Hitelesítés szükséges a szoftver telepítéséhez"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
 msgctxt "Description(org.freedesktop.systemd1.reply-password)"
 msgid "Send passphrase back to system"
 msgstr "Jelmondat visszaküldése a rendszernek"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:61
+#, fuzzy
+msgctxt "Description(org.freedesktop.systemd1.manage-units)"
+msgid "Manage system services or other units"
+msgstr "Rendszerszolgáltatás- vagy egységfájlok kezelése"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:101
 msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
 msgid "Manage system service or unit files"
 msgstr "Rendszerszolgáltatás- vagy egységfájlok kezelése"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:147
+msgctxt "Description(org.freedesktop.systemd1.set-environment)"
+msgid "Set or unset system and service manager environment variables"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:189
 msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
@@ -794,9 +1058,25 @@ msgid ""
 msgstr ""
 "Hitelesítés szükséges a bevitt jelmondat visszaküldéséhez a rendszernek."
 
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:77
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.manage-units)"
+msgid "Authentication is required to manage system services or other units."
+msgstr ""
+"Hitelesítés szükséges a rendszerszolgáltatás- vagy egységfájlok kezeléséhez."
+
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:120
 msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
 msgid "Authentication is required to manage system service or unit files."
+msgstr ""
+"Hitelesítés szükséges a rendszerszolgáltatás- vagy egységfájlok kezeléséhez."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:164
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.set-environment)"
+msgid ""
+"Authentication is required to set or unset system and service manager "
+"environment variables."
 msgstr ""
 "Hitelesítés szükséges a rendszerszolgáltatás- vagy egységfájlok kezeléséhez."
 
@@ -906,10 +1186,133 @@ msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
 msgid "Authentication is required to set local machine information."
 msgstr "Hitelesítés szükséges a helyi gép információinak beállításához."
 
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
+msgctxt "Description(org.freedesktop.import1.import)"
+msgid "Import a VM or container image"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:52
+msgctxt "Description(org.freedesktop.import1.export)"
+msgid "Export a VM or container image"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:94
+msgctxt "Description(org.freedesktop.import1.pull)"
+msgid "Download a VM or container image"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:27
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.import)"
+msgid "Authentication is required to import a VM or container image"
+msgstr "Hitelesítés szükséges egy meghajtó kikapcsolásához"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:69
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.export)"
+msgid "Authentication is required to export a VM or container image"
+msgstr "Hitelesítés szükséges egy meghajtó kikapcsolásához"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:111
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.pull)"
+msgid "Authentication is required to download a VM or container image"
+msgstr "Hitelesítés szükséges a szoftver visszafejlesztéséhez"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:10
 msgctxt "Description(org.freedesktop.machine1.login)"
 msgid "Log into a local container"
 msgstr "Bejelentkezés helyi konténerbe"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:54
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.host-login)"
+msgid "Log into the local host"
+msgstr "Bejelentkezés helyi konténerbe"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:86
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.shell)"
+msgid "Acquire a shell in a local container"
+msgstr "Bejelentkezés helyi konténerbe"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:119
+msgctxt "Description(org.freedesktop.machine1.host-shell)"
+msgid "Acquire a shell on the local host"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:152
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.open-pty)"
+msgid "Acquire a pseudo TTY in a local container"
+msgstr "Bejelentkezés helyi konténerbe"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:184
+msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
+msgid "Acquire a pseudo TTY on the local host"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:216
+msgctxt "Description(org.freedesktop.machine1.manage-machines)"
+msgid "Manage local virtual machines and containers"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:259
+msgctxt "Description(org.freedesktop.machine1.manage-images)"
+msgid "Manage local virtual machine and container images"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:29
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.login)"
+msgid "Authentication is required to log into a local container."
+msgstr "Hitelesítés szükséges a szoftver telepítéséhez"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:66
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-login)"
+msgid "Authentication is required to log into the local host."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:98
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.shell)"
+msgid "Authentication is required to acquire a shell in a local container."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:131
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-shell)"
+msgid "Authentication is required to acquire a shell on the local host."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:164
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.open-pty)"
+msgid ""
+"Authentication is required to acquire a pseudo TTY in a local container."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:196
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
+msgid "Authentication is required to acquire a pseudo TTY on the local host."
+msgstr "Hitelesítés szükséges a helyi gépnév beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:233
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.manage-machines)"
+msgid ""
+"Authentication is required to manage local virtual machines and containers."
+msgstr "Hitelesítés szükséges a helyi gép információinak beállításához."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:276
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.manage-images)"
+msgid ""
+"Authentication is required to manage local virtual machine and container "
+"images."
+msgstr "Hitelesítés szükséges a helyi gép információinak beállításához."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:14
 msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"

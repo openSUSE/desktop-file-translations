@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,6 +129,141 @@ msgstr "장치 프로파일 일치를 비활성화 하려면 인증이 필요합
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "색상 센서를 사용하려면 인증이 필요합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "시스템 절전 상태 진입"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr "다른 사용자가 로그인 했을 때 시스템 절전 상태 진입"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "시스템 다시 시작"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "다른 사용자가 로그인 했을 때 시스템 다시 시작"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr "시스템 정책이 호스트 이름의 변경을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr "다른 사용자가 로그인 했을 때 시스템 절전 상태 진입"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr "시스템 정책이 시스템 네트워크의 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr "다른 사용자가 로그인 했을 때 시스템 절전 상태 진입"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "모바일 광대역 장치 사용 여부"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:64
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:77
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:90
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "모바일 광대역 장치 사용 여부"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr "시스템 정책이 네트워크 연결 조작을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr "시스템 정책이 모바일 광대역 장치의 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr "시스템 정책이 WiFi 장치 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr "시스템 정책이 WiFi 장치 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:67
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr "시스템 정책이 시스템 네트워크의 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:80
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr "시스템 정책이 WiFi 장치 사용 여부 설정을 금지합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr "시스템 정책이 WiFi 장치 사용 여부 설정을 금지합니다"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
@@ -435,6 +570,53 @@ msgstr "오프라인 업데이트를 실행하려면 인증이 필요합니다"
 msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
 msgstr "오프라인 업데이트 메시지를 지우려면 인증이 필요합니다"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr "비 로그인 사용자에게 프로그램 실행을 허용하려면 인증이 필요합니다."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr "프로그램의 시스템 전원 끄기 방지 요청을 허용하려면 인증이 필요합니다."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr "프로그램의 시스템 전원 끄기 지연 동작을 허용하려면 인증이 필요합니다."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"

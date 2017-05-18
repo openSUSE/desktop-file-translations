@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:44+0000\n"
+"POT-Creation-Date: 2017-05-18 11:30+0000\n"
 "PO-Revision-Date: 2017-05-16 14:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,6 +44,12 @@ msgstr "AVI video"
 msgctxt "Comment(video/x-ogm+ogg)"
 msgid "OGM video"
 msgstr "OGM video"
+
+#: /usr/share/mime/video/vnd.mpegurl.xml:4
+#, fuzzy
+msgctxt "Comment(video/vnd.mpegurl)"
+msgid "MPEG video (streamed)"
+msgstr "MPEG video"
 
 #: /usr/share/mime/video/webm.xml:4
 msgctxt "Comment(video/webm)"
@@ -95,9 +101,20 @@ msgctxt "Comment(video/annodex)"
 msgid "Annodex Video"
 msgstr "Annodex Video"
 
+#: /usr/share/mime/video/mp2t.xml:4
+msgctxt "Comment(video/mp2t)"
+msgid "MPEG-2 transport stream"
+msgstr ""
+
 #: /usr/share/mime/video/x-matroska.xml:4
 msgctxt "Comment(video/x-matroska)"
 msgid "Matroska video"
+msgstr "Matroska video"
+
+#: /usr/share/mime/video/x-matroska-3d.xml:4
+#, fuzzy
+msgctxt "Comment(video/x-matroska-3d)"
+msgid "Matroska 3D video"
 msgstr "Matroska video"
 
 #: /usr/share/mime/video/3gpp2.xml:4
@@ -105,10 +122,21 @@ msgctxt "Comment(video/3gpp2)"
 msgid "3GPP2 multimedia file"
 msgstr "3GPP2 multimedijska datoteka"
 
+#: /usr/share/mime/video/ogg.xml:4
+#, fuzzy
+msgctxt "Comment(video/ogg)"
+msgid "Ogg Video"
+msgstr "OGM video"
+
 #: /usr/share/mime/video/x-javafx.xml:4
 msgctxt "Comment(video/x-javafx)"
 msgid "JavaFX video"
 msgstr "JavaFX video"
+
+#: /usr/share/mime/video/x-theora+ogg.xml:4
+msgctxt "Comment(video/x-theora+ogg)"
+msgid "Ogg Theora video"
+msgstr ""
 
 #: /usr/share/mime/video/x-flv.xml:4
 msgctxt "Comment(video/x-flv)"
@@ -145,20 +173,79 @@ msgctxt "Comment(multipart/signed)"
 msgid "signed message"
 msgstr "potpisana poruka"
 
+#: /usr/share/mime/multipart/mixed.xml:4
+#, fuzzy
+msgctxt "Comment(multipart/mixed)"
+msgid "compound documents"
+msgstr "Word dokument"
+
+#: /usr/share/mime/multipart/related.xml:4
+#, fuzzy
+msgctxt "Comment(multipart/related)"
+msgid "compound document"
+msgstr "Word dokument"
+
 #: /usr/share/mime/multipart/encrypted.xml:4
 msgctxt "Comment(multipart/encrypted)"
 msgid "encrypted message"
 msgstr "šifrirana poruka"
+
+#: /usr/share/mime/multipart/report.xml:4
+#, fuzzy
+msgctxt "Comment(multipart/report)"
+msgid "mail system report"
+msgstr "izvještaj dostave pošte"
+
+#: /usr/share/mime/multipart/digest.xml:4
+#, fuzzy
+msgctxt "Comment(multipart/digest)"
+msgid "message digest"
+msgstr "katalog poruka"
+
+#: /usr/share/mime/multipart/x-mixed-replace.xml:4
+msgctxt "Comment(multipart/x-mixed-replace)"
+msgid "stream of data (server push)"
+msgstr ""
 
 #: /usr/share/mime/x-epoc/x-sisx-app.xml:4
 msgctxt "Comment(x-epoc/x-sisx-app)"
 msgid "SISX package"
 msgstr "SISX paket"
 
+#: /usr/share/mime/application/x-dbf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-dbf)"
+msgid "Xbase document"
+msgstr "XML dokument"
+
+#: /usr/share/mime/application/x-xz.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xz)"
+msgid "XZ archive"
+msgstr "LHZ arhiva"
+
 #: /usr/share/mime/application/gzip.xml:4
 msgctxt "Comment(application/gzip)"
 msgid "Gzip archive"
 msgstr "Gzip arhiva"
+
+#: /usr/share/mime/application/x-pak.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pak)"
+msgid "PAK archive"
+msgstr "AR arhiva"
+
+#: /usr/share/mime/application/x-yaml.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-yaml)"
+msgid "YAML document"
+msgstr "XML dokument"
+
+#: /usr/share/mime/application/x-planperfect.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-planperfect)"
+msgid "PlanPerfect spreadsheet"
+msgstr "Gnumeric proračunska tablica"
 
 #: /usr/share/mime/application/x-netcdf.xml:4
 msgctxt "Comment(application/x-netcdf)"
@@ -169,6 +256,17 @@ msgstr "Unidata NetCDF dokument"
 msgctxt "Comment(application/x-xliff)"
 msgid "XLIFF translation file"
 msgstr "XLIFF datoteka prijevoda"
+
+#: /usr/share/mime/application/metalink+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/metalink+xml)"
+msgid "Metalink file"
+msgstr "datoteka prijevoda"
+
+#: /usr/share/mime/application/vnd.apple.mpegurl.xml:4
+msgctxt "Comment(application/vnd.apple.mpegurl)"
+msgid "HTTP Live Streaming playlist"
+msgstr ""
 
 #: /usr/share/mime/application/octet-stream.xml:4
 msgctxt "Comment(application/octet-stream)"
@@ -185,6 +283,16 @@ msgctxt "Comment(application/vnd.oasis.opendocument.spreadsheet)"
 msgid "ODS spreadsheet"
 msgstr "ODS proračunska tablica"
 
+#: /usr/share/mime/application/pkcs7-mime.xml:4
+msgctxt "Comment(application/pkcs7-mime)"
+msgid "PKCS#7 Message or Certificate"
+msgstr ""
+
+#: /usr/share/mime/application/x-profile.xml:4
+msgctxt "Comment(application/x-profile)"
+msgid "profiler results"
+msgstr ""
+
 #: /usr/share/mime/application/x-markaby.xml:4
 msgctxt "Comment(application/x-markaby)"
 msgid "Markaby script"
@@ -194,6 +302,12 @@ msgstr "Markaby skripta"
 msgctxt "Comment(application/vnd.adobe.flash.movie)"
 msgid "Shockwave Flash file"
 msgstr "Shockwave Flash datoteka"
+
+#: /usr/share/mime/application/x-amiga-disk-format.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-amiga-disk-format)"
+msgid "Amiga disk image"
+msgstr "Apple snimka diska"
 
 #: /usr/share/mime/application/x-tarz.xml:4
 msgctxt "Comment(application/x-tarz)"
@@ -210,6 +324,12 @@ msgctxt "Comment(application/x-dia-diagram)"
 msgid "Dia diagram"
 msgstr "Dia dijagram"
 
+#: /usr/share/mime/application/pgp-encrypted.xml:4
+#, fuzzy
+msgctxt "Comment(application/pgp-encrypted)"
+msgid "PGP/MIME-encrypted message header"
+msgstr "šifrirana poruka"
+
 #: /usr/share/mime/application/vnd.google-earth.kmz.xml:4
 msgctxt "Comment(application/vnd.google-earth.kmz)"
 msgid "KML geographic compressed data"
@@ -220,10 +340,22 @@ msgctxt "Comment(application/x-gettext-translation)"
 msgid "translated messages (machine-readable)"
 msgstr "prevedene poruke (strojno čitljive)"
 
+#: /usr/share/mime/application/vnd.mozilla.xul+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.mozilla.xul+xml)"
+msgid "XUL interface document"
+msgstr "Krita dokument"
+
 #: /usr/share/mime/application/vnd.ms-htmlhelp.xml:4
 msgctxt "Comment(application/vnd.ms-htmlhelp)"
 msgid "CHM document"
 msgstr "CHM dokument"
+
+#: /usr/share/mime/application/sdp.xml:4
+#, fuzzy
+msgctxt "Comment(application/sdp)"
+msgid "SDP multicast stream file"
+msgstr "3GPP multimedijska datoteka"
 
 #: /usr/share/mime/application/dicom.xml:4
 msgctxt "Comment(application/dicom)"
@@ -245,6 +377,11 @@ msgctxt "Comment(application/x-qw)"
 msgid "Quicken document"
 msgstr "Quicken dokument"
 
+#: /usr/share/mime/application/sieve.xml:4
+msgctxt "Comment(application/sieve)"
+msgid "Sieve mail filter script"
+msgstr ""
+
 #: /usr/share/mime/application/x-n64-rom.xml:4
 msgctxt "Comment(application/x-n64-rom)"
 msgid "Nintendo64 ROM"
@@ -260,6 +397,12 @@ msgctxt "Comment(application/x-xzpdf)"
 msgid "PDF document (XZ-compressed)"
 msgstr "PDF dokument (komprimiran XZ-om)"
 
+#: /usr/share/mime/application/vnd.oasis.opendocument.presentation-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.presentation-flat-xml)"
+msgid "ODP presentation (Flat XML)"
+msgstr "ODP prezentacija"
+
 #: /usr/share/mime/application/x-macbinary.xml:4
 msgctxt "Comment(application/x-macbinary)"
 msgid "Macintosh MacBinary file"
@@ -269,6 +412,35 @@ msgstr "Macintosh MacBinary datoteka"
 msgctxt "Comment(application/x-cpio)"
 msgid "CPIO archive"
 msgstr "CPIO arhiva"
+
+#: /usr/share/mime/application/vnd.sun.xml.writer.global.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.writer.global)"
+msgid "OpenOffice Writer global document"
+msgstr "obogaćeni tekstualni dokument"
+
+#: /usr/share/mime/application/mathematica.xml:4
+msgctxt "Comment(application/mathematica)"
+msgid "Mathematica Notebook"
+msgstr ""
+
+#: /usr/share/mime/application/x-zoo.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-zoo)"
+msgid "Zoo archive"
+msgstr "LHZ arhiva"
+
+#: /usr/share/mime/application/x-xar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xar)"
+msgid "XAR archive"
+msgstr "AR arhiva"
+
+#: /usr/share/mime/application/gpx+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/gpx+xml)"
+msgid "GPX geographic data"
+msgstr "KML geografski podaci"
 
 #: /usr/share/mime/application/x-wais-source.xml:4
 msgctxt "Comment(application/x-wais-source)"
@@ -285,6 +457,18 @@ msgctxt "Comment(application/vnd.stardivision.calc)"
 msgid "StarCalc spreadsheet"
 msgstr "StarCalc proračunska tablica"
 
+#: /usr/share/mime/application/x-gzpostscript.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gzpostscript)"
+msgid "PostScript document (gzip-compressed)"
+msgstr "TeX DVI dokument (komprimiran gzip-om)"
+
+#: /usr/share/mime/application/x-netshow-channel.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-netshow-channel)"
+msgid "Windows Media Station file"
+msgstr "Windows Media audio"
+
 #: /usr/share/mime/application/x-applix-word.xml:4
 msgctxt "Comment(application/x-applix-word)"
 msgid "Applix Words document"
@@ -295,20 +479,58 @@ msgctxt "Comment(application/vnd.ms-excel.addin.macroEnabled.12)"
 msgid "Excel add-in"
 msgstr "Excel priključak"
 
+#: /usr/share/mime/application/atom+xml.xml:4
+msgctxt "Comment(application/atom+xml)"
+msgid "Atom syndication feed"
+msgstr ""
+
 #: /usr/share/mime/application/x-shar.xml:4
 msgctxt "Comment(application/x-shar)"
 msgid "shell archive"
 msgstr "arhiva ljuske"
+
+#: /usr/share/mime/application/x-python-bytecode.xml:4
+msgctxt "Comment(application/x-python-bytecode)"
+msgid "Python bytecode"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.oasis.opendocument.text-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.text-flat-xml)"
+msgid "ODT document (Flat XML)"
+msgstr "ODT dokument"
+
+#: /usr/share/mime/application/vnd.lotus-wordpro.xml:4
+msgctxt "Comment(application/vnd.lotus-wordpro)"
+msgid "Lotus Word Pro"
+msgstr ""
 
 #: /usr/share/mime/application/x-wwf.xml:4
 msgctxt "Comment(application/x-wwf)"
 msgid "WWF document"
 msgstr "WWF dokument"
 
+#: /usr/share/mime/application/pkix-pkipath.xml:4
+msgctxt "Comment(application/pkix-pkipath)"
+msgid "PkiPath certification path"
+msgstr ""
+
 #: /usr/share/mime/application/x-nintendo-ds-rom.xml:4
 msgctxt "Comment(application/x-nintendo-ds-rom)"
 msgid "Nintendo DS ROM"
 msgstr "Nintendo DS ROM"
+
+#: /usr/share/mime/application/gml+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/gml+xml)"
+msgid "GML document"
+msgstr "SGML dokument"
+
+#: /usr/share/mime/application/x-php.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-php)"
+msgid "PHP script"
+msgstr "AWK skripta"
 
 #: /usr/share/mime/application/xspf+xml.xml:4
 msgctxt "Comment(application/xspf+xml)"
@@ -319,6 +541,11 @@ msgstr "XSPF popis za reprodukciju"
 msgctxt "Comment(application/vnd.wordperfect)"
 msgid "WordPerfect document"
 msgstr "WordPerfect dokument"
+
+#: /usr/share/mime/application/json-patch+json.xml:4
+msgctxt "Comment(application/json-patch+json)"
+msgid "JSON patch"
+msgstr ""
 
 #: /usr/share/mime/application/vnd.corel-draw.xml:4
 msgctxt "Comment(application/vnd.corel-draw)"
@@ -334,6 +561,17 @@ msgstr "BCPIO dokument"
 msgctxt "Comment(application/vnd.symbian.install)"
 msgid "SIS package"
 msgstr "SIS paket"
+
+#: /usr/share/mime/application/x-par2.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-par2)"
+msgid "Parchive archive"
+msgstr "Tar arhiva"
+
+#: /usr/share/mime/application/x-kexi-connectiondata.xml:4
+msgctxt "Comment(application/x-kexi-connectiondata)"
+msgid "Kexi settings for database server connection"
+msgstr ""
 
 #: /usr/share/mime/application/mac-binhex40.xml:4
 msgctxt "Comment(application/mac-binhex40)"
@@ -355,6 +593,11 @@ msgctxt "Comment(application/rdf+xml)"
 msgid "RDF file"
 msgstr "RDF datoteka"
 
+#: /usr/share/mime/application/pkcs10.xml:4
+msgctxt "Comment(application/pkcs10)"
+msgid "PKCS#10 certification request"
+msgstr ""
+
 #: /usr/share/mime/application/x-font-vfont.xml:4
 msgctxt "Comment(application/x-font-vfont)"
 msgid "V font"
@@ -375,10 +618,34 @@ msgctxt "Comment(application/x-m4)"
 msgid "M4 macro"
 msgstr "M4 makro"
 
+#: /usr/share/mime/application/x-bzpdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzpdf)"
+msgid "PDF document (bzip-compressed)"
+msgstr "PDF dokument (komprimiran XZ-om)"
+
+#: /usr/share/mime/application/vnd.sun.xml.math.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.math)"
+msgid "OpenOffice Math formula"
+msgstr "StarMath formula"
+
 #: /usr/share/mime/application/x-spss-por.xml:4
 msgctxt "Comment(application/x-spss-por)"
 msgid "SPSS Portable Data File"
 msgstr "SPSS prenosiva podatkovna datoteka"
+
+#: /usr/share/mime/application/zlib.xml:4
+#, fuzzy
+msgctxt "Comment(application/zlib)"
+msgid "Zlib archive"
+msgstr "Alzip arhiva"
+
+#: /usr/share/mime/application/x-ms-wim.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ms-wim)"
+msgid "WIM disk Image"
+msgstr "WMF slika"
 
 #: /usr/share/mime/application/x-graphite.xml:4
 msgctxt "Comment(application/x-graphite)"
@@ -390,6 +657,11 @@ msgctxt "Comment(application/msword)"
 msgid "Word document"
 msgstr "Word dokument"
 
+#: /usr/share/mime/application/vnd.ms-visio.drawing.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.drawing.main+xml)"
+msgid "Office Open XML Visio Drawing"
+msgstr ""
+
 #: /usr/share/mime/application/x-kspread-crypt.xml:4
 msgctxt "Comment(application/x-kspread-crypt)"
 msgid "KSpread spreadsheet (encrypted)"
@@ -399,6 +671,12 @@ msgstr "KSpread proračunska tablica (šifrirana)"
 msgctxt "Comment(application/x-sv4crc)"
 msgid "SV4 CPIO archive (with CRC)"
 msgstr "SV4 CPIO arhiva (s CRC-om)"
+
+#: /usr/share/mime/application/x-pocket-word.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pocket-word)"
+msgid "Pocket Word document"
+msgstr "Word dokument"
 
 #: /usr/share/mime/application/vnd.ms-access.xml:4
 msgctxt "Comment(application/vnd.ms-access)"
@@ -435,6 +713,12 @@ msgctxt "Comment(application/xml-dtd)"
 msgid "DTD file"
 msgstr "DTD datoteka"
 
+#: /usr/share/mime/application/ld+json.xml:4
+#, fuzzy
+msgctxt "Comment(application/ld+json)"
+msgid "JSON-LD document"
+msgstr "JAD dokument"
+
 #: /usr/share/mime/application/x-tex-pk.xml:4
 msgctxt "Comment(application/x-tex-pk)"
 msgid "packed font file"
@@ -449,6 +733,12 @@ msgstr "KIllustrator crtež"
 msgctxt "Comment(application/x-core)"
 msgid "program crash data"
 msgstr "podaci o rušenju programa"
+
+#: /usr/share/mime/application/x-qpress.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-qpress)"
+msgid "Qpress archive"
+msgstr "Tar arhiva"
 
 #: /usr/share/mime/application/x-dia-shape.xml:4
 msgctxt "Comment(application/x-dia-shape)"
@@ -470,6 +760,23 @@ msgctxt "Comment(application/vnd.ms-asf)"
 msgid "ASF video"
 msgstr "ASF video"
 
+#: /usr/share/mime/application/x-qtiplot.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-qtiplot)"
+msgid "QtiPlot document"
+msgstr "Gnuplot dokument"
+
+#: /usr/share/mime/application/prs.plucker.xml:4
+#, fuzzy
+msgctxt "Comment(application/prs.plucker)"
+msgid "Plucker document"
+msgstr "Quicken dokument"
+
+#: /usr/share/mime/application/winhlp.xml:4
+msgctxt "Comment(application/winhlp)"
+msgid "WinHelp help file"
+msgstr ""
+
 #: /usr/share/mime/application/x-kivio.xml:4
 msgctxt "Comment(application/x-kivio)"
 msgid "Kivio flowchart"
@@ -480,10 +787,41 @@ msgctxt "Comment(application/x-quattropro)"
 msgid "Quattro Pro spreadsheet"
 msgstr "Quattro Pro proračunska tablica"
 
+#: /usr/share/mime/application/x-bittorrent.xml:4
+msgctxt "Comment(application/x-bittorrent)"
+msgid "BitTorrent seed file"
+msgstr ""
+
+#: /usr/share/mime/application/x-font-type1.xml:4
+msgctxt "Comment(application/x-font-type1)"
+msgid "Postscript type-1 font"
+msgstr ""
+
+#: /usr/share/mime/application/x-ccmx.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ccmx)"
+msgid "CCMX color correction file"
+msgstr "IT 8.7 datoteka kalibracije boja"
+
+#: /usr/share/mime/application/vnd.xdgapp.xml:4
+msgctxt "Comment(application/vnd.xdgapp)"
+msgid "XDG application bundle"
+msgstr ""
+
+#: /usr/share/mime/application/x-ole-storage.xml:4
+msgctxt "Comment(application/x-ole-storage)"
+msgid "OLE2 compound document storage"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.lotus-1-2-3.xml:4
 msgctxt "Comment(application/vnd.lotus-1-2-3)"
 msgid "Lotus 1-2-3 spreadsheet"
 msgstr "Lotus 1-2-3 proračunska tablica"
+
+#: /usr/share/mime/application/x-cbt.xml:4
+msgctxt "Comment(application/x-cbt)"
+msgid "comic book archive"
+msgstr ""
 
 #: /usr/share/mime/application/x-kontour.xml:4
 msgctxt "Comment(application/x-kontour)"
@@ -510,6 +848,21 @@ msgctxt "Comment(application/x-navi-animation)"
 msgid "Windows animated cursor"
 msgstr "Windows animirani kursor"
 
+#: /usr/share/mime/application/x-partial-download.xml:4
+msgctxt "Comment(application/x-partial-download)"
+msgid "Partially downloaded file"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.emusic-emusic_package.xml:4
+msgctxt "Comment(application/vnd.emusic-emusic_package)"
+msgid "eMusic download package"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.openofficeorg.extension.xml:4
+msgctxt "Comment(application/vnd.openofficeorg.extension)"
+msgid "OpenOffice.org extension"
+msgstr ""
+
 #: /usr/share/mime/application/x-hwp.xml:4
 msgctxt "Comment(application/x-hwp)"
 msgid "Haansoft Hangul document"
@@ -520,10 +873,28 @@ msgctxt "Comment(application/vnd.oasis.opendocument.chart-template)"
 msgid "ODC template"
 msgstr "ODC predložak"
 
+#: /usr/share/mime/application/x-mimearchive.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-mimearchive)"
+msgid "MHTML web archive"
+msgstr "Tar arhiva"
+
+#: /usr/share/mime/application/vnd.ms-publisher.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-publisher)"
+msgid "Microsoft Publisher document"
+msgstr "Microsoft Visio dokument"
+
 #: /usr/share/mime/application/x-gdbm.xml:4
 msgctxt "Comment(application/x-gdbm)"
 msgid "GDBM database"
 msgstr "GDBM baza podataka"
+
+#: /usr/share/mime/application/ram.xml:4
+#, fuzzy
+msgctxt "Comment(application/ram)"
+msgid "RealMedia Metafile"
+msgstr "RealMedia dokument"
 
 #: /usr/share/mime/application/vnd.stardivision.chart.xml:4
 msgctxt "Comment(application/vnd.stardivision.chart)"
@@ -540,6 +911,17 @@ msgctxt "Comment(application/vnd.rn-realmedia)"
 msgid "RealMedia document"
 msgstr "RealMedia dokument"
 
+#: /usr/share/mime/application/vnd.ms-excel.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-excel.template.macroEnabled.12)"
+msgid "Excel spreadsheet template"
+msgstr "Excel 2007 predložak proračunske tablice"
+
+#: /usr/share/mime/application/x-kexiproject-sqlite2.xml:4
+msgctxt "Comment(application/x-kexiproject-sqlite2)"
+msgid "Kexi database file-based project"
+msgstr ""
+
 #: /usr/share/mime/application/x-font-ttf.xml:4
 msgctxt "Comment(application/x-font-ttf)"
 msgid "TrueType font"
@@ -555,10 +937,38 @@ msgctxt "Comment(application/oda)"
 msgid "ODA document"
 msgstr "ODA dokument"
 
+#: /usr/share/mime/application/x-font-pcf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-font-pcf)"
+msgid "PCF font"
+msgstr "BDF font"
+
+#: /usr/share/mime/application/x-riff.xml:4
+msgctxt "Comment(application/x-riff)"
+msgid "RIFF container"
+msgstr ""
+
+#: /usr/share/mime/application/x-saturn-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-saturn-rom)"
+msgid "Sega Saturn disc image"
+msgstr "3D Studio slika"
+
+#: /usr/share/mime/application/vnd.sun.xml.calc.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.calc)"
+msgid "OpenOffice Calc spreadsheet"
+msgstr "Excel proračunska tablica"
+
 #: /usr/share/mime/application/x-object.xml:4
 msgctxt "Comment(application/x-object)"
 msgid "object code"
 msgstr "kod objekta"
+
+#: /usr/share/mime/application/vnd.ms-visio.drawing.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.drawing.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Drawing"
+msgstr ""
 
 #: /usr/share/mime/application/smil+xml.xml:4
 msgctxt "Comment(application/smil+xml)"
@@ -600,6 +1010,11 @@ msgctxt "Comment(application/vnd.ms-excel.sheet.binary.macroEnabled.12)"
 msgid "Excel 2007 binary spreadsheet"
 msgstr "Excel 2007 binarna proračunska tablica"
 
+#: /usr/share/mime/application/x-doom-wad.xml:4
+msgctxt "Comment(application/x-doom-wad)"
+msgid "Doom WAD"
+msgstr ""
+
 #: /usr/share/mime/application/x-troff-man-compressed.xml:4
 msgctxt "Comment(application/x-troff-man-compressed)"
 msgid "manual page (compressed)"
@@ -624,6 +1039,11 @@ msgstr "Alzip arhiva"
 msgctxt "Comment(application/x-t602)"
 msgid "T602 document"
 msgstr "T602 dokument"
+
+#: /usr/share/mime/application/vnd.geo+json.xml:4
+msgctxt "Comment(application/vnd.geo+json)"
+msgid "GeoJSON geospatial data"
+msgstr ""
 
 #: /usr/share/mime/application/vnd.ms-powerpoint.xml:4
 msgctxt "Comment(application/vnd.ms-powerpoint)"
@@ -655,6 +1075,11 @@ msgctxt "Comment(application/x-spss-sav)"
 msgid "SPSS Data File"
 msgstr "SPSS podatkovna datoteka"
 
+#: /usr/share/mime/application/x-gtk-builder.xml:4
+msgctxt "Comment(application/x-gtk-builder)"
+msgid "GTK+ Builder"
+msgstr ""
+
 #: /usr/share/mime/application/x-font-libgrx.xml:4
 msgctxt "Comment(application/x-font-libgrx)"
 msgid "LIBGRX font"
@@ -667,15 +1092,37 @@ msgctxt ""
 msgid "Word 2007 document template"
 msgstr "Word 2007 predložak dokumenta"
 
+#: /usr/share/mime/application/vnd.ms-visio.template.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.template.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Template"
+msgstr ""
+
+#: /usr/share/mime/application/x-source-rpm.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-source-rpm)"
+msgid "Source RPM package"
+msgstr "RPM paket"
+
 #: /usr/share/mime/application/x-bzip.xml:4
 msgctxt "Comment(application/x-bzip)"
 msgid "Bzip archive"
 msgstr "Bzip arhiva"
 
+#: /usr/share/mime/application/x-cue.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cue)"
+msgid "CD image cuesheet"
+msgstr "Siag proračunska tablica"
+
 #: /usr/share/mime/application/x-font-ttx.xml:4
 msgctxt "Comment(application/x-font-ttx)"
 msgid "TrueType XML font"
 msgstr "TrueType XML font"
+
+#: /usr/share/mime/application/vnd.ms-visio.template.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.template.main+xml)"
+msgid "Office Open XML Visio Template"
+msgstr ""
 
 #: /usr/share/mime/application/x-nautilus-link.xml:4
 msgctxt "Comment(application/x-nautilus-link)"
@@ -692,10 +1139,33 @@ msgctxt "Comment(application/x-shellscript)"
 msgid "shell script"
 msgstr "skripta ljuske"
 
+#: /usr/share/mime/application/vnd.sun.xml.calc.template.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.calc.template)"
+msgid "OpenOffice Calc template"
+msgstr "ODC predložak"
+
+#: /usr/share/mime/application/x-pagemaker.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pagemaker)"
+msgid "Adobe PageMaker"
+msgstr "Adobe FrameMaker font"
+
 #: /usr/share/mime/application/x-msi.xml:4
 msgctxt "Comment(application/x-msi)"
 msgid "Windows Installer package"
 msgstr "Windows Installer paket"
+
+#: /usr/share/mime/application/vnd.tcpdump.pcap.xml:4
+msgctxt "Comment(application/vnd.tcpdump.pcap)"
+msgid "Network Packet Capture"
+msgstr ""
+
+#: /usr/share/mime/application/x-gzpdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gzpdf)"
+msgid "PDF document (gzip-compressed)"
+msgstr "PDF dokument (komprimiran XZ-om)"
 
 #: /usr/share/mime/application/vnd.google-earth.kml+xml.xml:4
 msgctxt "Comment(application/vnd.google-earth.kml+xml)"
@@ -706,6 +1176,11 @@ msgstr "KML geografski podaci"
 msgctxt "Comment(application/x-mswinurl)"
 msgid "Internet shortcut"
 msgstr "Internetski prečac"
+
+#: /usr/share/mime/application/x-designer.xml:4
+msgctxt "Comment(application/x-designer)"
+msgid "Qt Designer file"
+msgstr ""
 
 #: /usr/share/mime/application/x-sami.xml:4
 msgctxt "Comment(application/x-sami)"
@@ -742,6 +1217,12 @@ msgctxt "Comment(application/epub+zip)"
 msgid "electronic book document"
 msgstr "dokument elektroničke knjige"
 
+#: /usr/share/mime/application/x-java-pack200.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-java-pack200)"
+msgid "Pack200 Java archive"
+msgstr "Java arhiva"
+
 #: /usr/share/mime/application/vnd.stardivision.math.xml:4
 msgctxt "Comment(application/vnd.stardivision.math)"
 msgid "StarMath formula"
@@ -777,10 +1258,39 @@ msgctxt "Comment(application/x-csh)"
 msgid "C shell script"
 msgstr "C skripta"
 
+#: /usr/share/mime/application/vnd.palm.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.palm)"
+msgid "Palm OS database"
+msgstr "ODB baza podataka"
+
+#: /usr/share/mime/application/zip.xml:4
+#, fuzzy
+msgctxt "Comment(application/zip)"
+msgid "Zip archive"
+msgstr "Gzip arhiva"
+
+#: /usr/share/mime/application/x-pw.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pw)"
+msgid "Pathetic Writer document"
+msgstr "StarWriter dokument"
+
+#: /usr/share/mime/application/x-font-otf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-font-otf)"
+msgid "OpenType font"
+msgstr "TrueType font"
+
 #: /usr/share/mime/application/x-krita.xml:4
 msgctxt "Comment(application/x-krita)"
 msgid "Krita document"
 msgstr "Krita dokument"
+
+#: /usr/share/mime/application/x-wii-wad.xml:4
+msgctxt "Comment(application/x-wii-wad)"
+msgid "WiiWare bundle"
+msgstr ""
 
 #: /usr/share/mime/application/x-cdrdao-toc.xml:4
 msgctxt "Comment(application/x-cdrdao-toc)"
@@ -792,10 +1302,26 @@ msgctxt "Comment(application/pkix-cert)"
 msgid "X.509 certificate"
 msgstr "X.509 certifikat"
 
+#: /usr/share/mime/application/pkcs8.xml:4
+msgctxt "Comment(application/pkcs8)"
+msgid "PKCS#8 private key"
+msgstr ""
+
 #: /usr/share/mime/application/msword-template.xml:4
 msgctxt "Comment(application/msword-template)"
 msgid "Word template"
 msgstr "Word predložak"
+
+#: /usr/share/mime/application/vnd.ms-visio.stencil.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.stencil.main+xml)"
+msgid "Office Open XML Visio Stencil"
+msgstr ""
+
+#: /usr/share/mime/application/xml-external-parsed-entity.xml:4
+#, fuzzy
+msgctxt "Comment(application/xml-external-parsed-entity)"
+msgid "XML entities document"
+msgstr "XML dokument"
 
 #: /usr/share/mime/application/vnd.ms-excel.sheet.macroenabled.12.xml:4
 msgctxt "Comment(application/vnd.ms-excel.sheet.macroEnabled.12)"
@@ -806,6 +1332,16 @@ msgstr "Excel proračunska tablica"
 msgctxt "Comment(application/x-theme)"
 msgid "theme"
 msgstr "tema"
+
+#: /usr/share/mime/application/vnd.sun.xml.impress.template.xml:4
+msgctxt "Comment(application/vnd.sun.xml.impress.template)"
+msgid "OpenOffice Impress template"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.ms-visio.stencil.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.stencil.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Stencil"
+msgstr ""
 
 #: /usr/share/mime/application/x-egon.xml:4
 msgctxt "Comment(application/x-egon)"
@@ -821,6 +1357,18 @@ msgstr "WRI dokument"
 msgctxt "Comment(application/vnd.ms-works)"
 msgid "Microsoft Works document"
 msgstr "Microsoft Works dokument"
+
+#: /usr/share/mime/application/x-raw-disk-image-xz-compressed.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-raw-disk-image-xz-compressed)"
+msgid "Raw disk image (XZ-compressed)"
+msgstr "Tar arhiva (komprimirana XZ-om)"
+
+#: /usr/share/mime/application/vnd.ms-word.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-word.template.macroEnabled.12)"
+msgid "Word document template"
+msgstr "Word 2007 predložak dokumenta"
 
 #: /usr/share/mime/application/vnd.oasis.opendocument.graphics.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.graphics)"
@@ -897,6 +1445,12 @@ msgctxt "Comment(application/x-tar)"
 msgid "Tar archive"
 msgstr "Tar arhiva"
 
+#: /usr/share/mime/application/x-bzpostscript.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzpostscript)"
+msgid "PostScript document (bzip-compressed)"
+msgstr "TeX DVI dokument (komprimiran bzip-om)"
+
 #: /usr/share/mime/application/x-x509-ca-cert.xml:4
 msgctxt "Comment(application/x-x509-ca-cert)"
 msgid "DER/PEM/Netscape-encoded X.509 certificate"
@@ -942,10 +1496,28 @@ msgctxt "Comment(application/x-lhz)"
 msgid "LHZ archive"
 msgstr "LHZ arhiva"
 
+#: /usr/share/mime/application/vnd.coffeescript.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.coffeescript)"
+msgid "CoffeeScript document"
+msgstr "Troff MS ulazni dokument"
+
+#: /usr/share/mime/application/x-chess-pgn.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-chess-pgn)"
+msgid "PGN chess game notation"
+msgstr "ODP prezentacija"
+
 #: /usr/share/mime/application/xhtml+xml.xml:4
 msgctxt "Comment(application/xhtml+xml)"
 msgid "XHTML page"
 msgstr "XHTML stranica"
+
+#: /usr/share/mime/application/vnd.sun.xml.draw.template.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.draw.template)"
+msgid "OpenOffice Draw template"
+msgstr "ODF predložak"
 
 #: /usr/share/mime/application/x-7z-compressed.xml:4
 msgctxt "Comment(application/x-7z-compressed)"
@@ -967,10 +1539,32 @@ msgctxt "Comment(application/x-font-framemaker)"
 msgid "Adobe FrameMaker font"
 msgstr "Adobe FrameMaker font"
 
+#: /usr/share/mime/application/vnd.sun.xml.writer.template.xml:4
+msgctxt "Comment(application/vnd.sun.xml.writer.template)"
+msgid "OpenOffice Writer template"
+msgstr ""
+
+#: /usr/share/mime/application/x-wii-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-wii-rom)"
+msgid "Wii disc image"
+msgstr "Apple snimka diska"
+
+#: /usr/share/mime/application/andrew-inset.xml:4
+msgctxt "Comment(application/andrew-inset)"
+msgid "ATK inset"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.visio.xml:4
 msgctxt "Comment(application/vnd.visio)"
 msgid "Microsoft Visio document"
 msgstr "Microsoft Visio dokument"
+
+#: /usr/share/mime/application/x-pef-executable.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pef-executable)"
+msgid "PEF executable"
+msgstr "izvršna datoteka"
 
 #: /usr/share/mime/application/pkix-crl.xml:4
 msgctxt "Comment(application/pkix-crl)"
@@ -999,6 +1593,11 @@ msgctxt "Comment(application/x-kpresenter)"
 msgid "KPresenter presentation"
 msgstr "KPresenter prezentacija"
 
+#: /usr/share/mime/application/pgp-keys.xml:4
+msgctxt "Comment(application/pgp-keys)"
+msgid "PGP keys"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.xml:4
 msgctxt ""
 "Comment(application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)"
@@ -1015,10 +1614,21 @@ msgctxt "Comment(application/x-lha)"
 msgid "LHA archive"
 msgstr "LHA arhiva"
 
+#: /usr/share/mime/application/x-nzb.xml:4
+msgctxt "Comment(application/x-nzb)"
+msgid "NewzBin usenet index"
+msgstr ""
+
 #: /usr/share/mime/application/x-gz-font-linux-psf.xml:4
 msgctxt "Comment(application/x-gz-font-linux-psf)"
 msgid "Linux PSF console font (gzip-compressed)"
 msgstr "Linux PSF konzolni font (komprimiran gzip-om)"
+
+#: /usr/share/mime/application/pdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/pdf)"
+msgid "PDF document"
+msgstr "HDF dokument"
 
 #: /usr/share/mime/application/x-awk.xml:4
 msgctxt "Comment(application/x-awk)"
@@ -1040,6 +1650,18 @@ msgctxt "Comment(application/vnd.oasis.opendocument.text-template)"
 msgid "ODT template"
 msgstr "ODT predložak"
 
+#: /usr/share/mime/application/x-trig.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-trig)"
+msgid "TriG RDF document"
+msgstr "TGIF dokument"
+
+#: /usr/share/mime/application/x-class-file.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-class-file)"
+msgid "Java byte code"
+msgstr "Java izvorni kod"
+
 #: /usr/share/mime/application/xslt+xml.xml:4
 msgctxt "Comment(application/xslt+xml)"
 msgid "XSLT stylesheet"
@@ -1050,6 +1672,12 @@ msgctxt "Comment(application/vnd.debian.binary-package)"
 msgid "Debian package"
 msgstr "Debian paket"
 
+#: /usr/share/mime/application/vnd.ms-powerpoint.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-powerpoint.template.macroEnabled.12)"
+msgid "PowerPoint presentation template"
+msgstr "PowerPoint 2007 predložak prezentacije"
+
 #: /usr/share/mime/application/x-lzop.xml:4
 msgctxt "Comment(application/x-lzop)"
 msgid "LZO archive"
@@ -1059,6 +1687,12 @@ msgstr "LZO arhiva"
 msgctxt "Comment(application/x-sv4cpio)"
 msgid "SV4 CPIO archive"
 msgstr "SV4 CPIO arhiva"
+
+#: /usr/share/mime/application/vnd.hp-pcl.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.hp-pcl)"
+msgid "PCL file"
+msgstr "OCL datoteka"
 
 #: /usr/share/mime/application/x-gedcom.xml:4
 msgctxt "Comment(application/x-gedcom)"
@@ -1080,6 +1714,23 @@ msgctxt "Comment(application/vnd.stardivision.draw)"
 msgid "StarDraw drawing"
 msgstr "StarDraw crtež"
 
+#: /usr/share/mime/application/x-cb7.xml:4
+msgctxt "Comment(application/x-cb7)"
+msgid "comic book archive"
+msgstr ""
+
+#: /usr/share/mime/application/font-woff.xml:4
+#, fuzzy
+msgctxt "Comment(application/font-woff)"
+msgid "WOFF font"
+msgstr "BDF font"
+
+#: /usr/share/mime/application/vnd.sun.xml.writer.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.writer)"
+msgid "OpenOffice Writer document"
+msgstr "obogaćeni tekstualni dokument"
+
 #: /usr/share/mime/application/x-lzip.xml:4
 msgctxt "Comment(application/x-lzip)"
 msgid "Lzip archive"
@@ -1089,6 +1740,11 @@ msgstr "Lzip arhiva"
 msgctxt "Comment(application/x-stuffit)"
 msgid "StuffIt archive"
 msgstr "StuffIt arhiva"
+
+#: /usr/share/mime/application/x-ipod-firmware.xml:4
+msgctxt "Comment(application/x-ipod-firmware)"
+msgid "iPod firmware"
+msgstr ""
 
 #: /usr/share/mime/application/x-mif.xml:4
 msgctxt "Comment(application/x-mif)"
@@ -1110,12 +1766,23 @@ msgctxt "Comment(application/x-kpovmodeler)"
 msgid "KPovModeler scene"
 msgstr "KPovModeler scena"
 
+#: /usr/share/mime/application/x-xpinstall.xml:4
+msgctxt "Comment(application/x-xpinstall)"
+msgid "XPInstall installer module"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.slideshow.xml:4
 msgctxt ""
 "Comment(application/vnd.openxmlformats-officedocument.presentationml."
 "slideshow)"
 msgid "PowerPoint 2007 show"
 msgstr "PowerPoint 2007 prezentacija"
+
+#: /usr/share/mime/application/x-java-keystore.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-java-keystore)"
+msgid "Java keystore"
+msgstr "Java izvorni kod"
 
 #: /usr/share/mime/application/x-font-bdf.xml:4
 msgctxt "Comment(application/x-font-bdf)"
@@ -1126,6 +1793,11 @@ msgstr "BDF font"
 msgctxt "Comment(application/x-kword)"
 msgid "KWord document"
 msgstr "KWord dokument"
+
+#: /usr/share/mime/application/x-cbr.xml:4
+msgctxt "Comment(application/x-cbr)"
+msgid "comic book archive"
+msgstr ""
 
 #: /usr/share/mime/application/mbox.xml:4
 msgctxt "Comment(application/mbox)"
@@ -1142,20 +1814,48 @@ msgctxt "Comment(application/vnd.oasis.opendocument.text-web)"
 msgid "OTH template"
 msgstr "OTH predložak"
 
+#: /usr/share/mime/application/x-java-jce-keystore.xml:4
+msgctxt "Comment(application/x-java-jce-keystore)"
+msgid "Java JCE keystore"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.presentation.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.presentation)"
 msgid "ODP presentation"
 msgstr "ODP prezentacija"
+
+#: /usr/share/mime/application/x-matroska.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-matroska)"
+msgid "Matroska stream"
+msgstr "Matroska video"
+
+#: /usr/share/mime/application/x-pc-engine-rom.xml:4
+msgctxt "Comment(application/x-pc-engine-rom)"
+msgid "PC Engine ROM"
+msgstr ""
 
 #: /usr/share/mime/application/x-bzip-compressed-tar.xml:4
 msgctxt "Comment(application/x-bzip-compressed-tar)"
 msgid "Tar archive (bzip-compressed)"
 msgstr "Tar arhiva (komprimirana bzip-om)"
 
+#: /usr/share/mime/application/postscript.xml:4
+#, fuzzy
+msgctxt "Comment(application/postscript)"
+msgid "PS document"
+msgstr "XPS dokument"
+
 #: /usr/share/mime/application/x-rar.xml:4
 msgctxt "Comment(application/x-rar)"
 msgid "RAR archive"
 msgstr "RAR arhiva"
+
+#: /usr/share/mime/application/x-iwork-keynote-sffkey.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-iwork-keynote-sffkey)"
+msgid "Apple Keynote 5 presentation"
+msgstr "KPresenter prezentacija"
 
 #: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.presentation.xml:4
 msgctxt ""
@@ -1169,6 +1869,12 @@ msgctxt "Comment(application/x-font-dos)"
 msgid "DOS font"
 msgstr "DOS font"
 
+#: /usr/share/mime/application/vnd.ms-powerpoint.slide.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-powerpoint.slide.macroEnabled.12)"
+msgid "PowerPoint slide"
+msgstr "PowerPoint 2007 slajd"
+
 #: /usr/share/mime/application/x-lzma-compressed-tar.xml:4
 msgctxt "Comment(application/x-lzma-compressed-tar)"
 msgid "Tar archive (LZMA-compressed)"
@@ -1178,6 +1884,12 @@ msgstr "Tar arhiva (komprimirana LZMA-om)"
 msgctxt "Comment(application/mxf)"
 msgid "MXF video"
 msgstr "MXF video"
+
+#: /usr/share/mime/application/owl+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/owl+xml)"
+msgid "OWL XML file"
+msgstr "OCL datoteka"
 
 #: /usr/share/mime/application/x-fictionbook+xml.xml:4
 msgctxt "Comment(application/x-fictionbook+xml)"
@@ -1199,6 +1911,12 @@ msgctxt "Comment(application/gnunet-directory)"
 msgid "GNUnet search file"
 msgstr "GNUnet datoteka pretrage"
 
+#: /usr/share/mime/application/x-troff-man.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-troff-man)"
+msgid "Manpage manual document"
+msgstr "Haansoft Hangul dokument"
+
 #: /usr/share/mime/application/x-abiword.xml:4
 msgctxt "Comment(application/x-abiword)"
 msgid "AbiWord document"
@@ -1208,6 +1926,11 @@ msgstr "AbiWord dokument"
 msgctxt "Comment(application/x-kformula)"
 msgid "KFormula formula"
 msgstr "KFormula formula"
+
+#: /usr/share/mime/application/x-cbz.xml:4
+msgctxt "Comment(application/x-cbz)"
+msgid "comic book archive"
+msgstr ""
 
 #: /usr/share/mime/application/vnd.android.package-archive.xml:4
 msgctxt "Comment(application/vnd.android.package-archive)"
@@ -1229,6 +1952,11 @@ msgctxt "Comment(application/x-ustar)"
 msgid "Ustar archive"
 msgstr "Ustar arhiva"
 
+#: /usr/share/mime/application/x-trash.xml:4
+msgctxt "Comment(application/x-trash)"
+msgid "backup file"
+msgstr ""
+
 #: /usr/share/mime/application/x-shared-library-la.xml:4
 msgctxt "Comment(application/x-shared-library-la)"
 msgid "libtool shared library"
@@ -1238,6 +1966,12 @@ msgstr "libtool dijeljena biblioteka"
 msgctxt "Comment(application/vnd.ms-wpl)"
 msgid "WPL playlist"
 msgstr "WPL popis za reprodukciju"
+
+#: /usr/share/mime/application/vnd.oasis.opendocument.spreadsheet-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.spreadsheet-flat-xml)"
+msgid "ODS spreadsheet (Flat XML)"
+msgstr "ODS proračunska tablica"
 
 #: /usr/share/mime/application/x-tzo.xml:4
 msgctxt "Comment(application/x-tzo)"
@@ -1254,6 +1988,12 @@ msgctxt "Comment(application/vnd.stardivision.mail)"
 msgid "StarMail email"
 msgstr "StarMail e-pošta"
 
+#: /usr/share/mime/application/x-perl.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-perl)"
+msgid "Perl script"
+msgstr "skripta ljuske"
+
 #: /usr/share/mime/application/x-java-archive.xml:4
 msgctxt "Comment(application/x-java-archive)"
 msgid "Java archive"
@@ -1264,10 +2004,22 @@ msgctxt "Comment(application/x-docbook+xml)"
 msgid "DocBook document"
 msgstr "DocBook dokument"
 
+#: /usr/share/mime/application/vnd.oasis.opendocument.graphics-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.graphics-flat-xml)"
+msgid "ODG drawing (Flat XML)"
+msgstr "ODG crtež"
+
 #: /usr/share/mime/application/vnd.hp-hpgl.xml:4
 msgctxt "Comment(application/vnd.hp-hpgl)"
 msgid "HPGL file"
 msgstr "HPGL datoteka"
+
+#: /usr/share/mime/application/x-ufraw.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ufraw)"
+msgid "UFRaw ID image"
+msgstr "ODI slika"
 
 #: /usr/share/mime/application/x-oleo.xml:4
 msgctxt "Comment(application/x-oleo)"
@@ -1294,6 +2046,12 @@ msgctxt "Comment(application/x-tgif)"
 msgid "TGIF document"
 msgstr "TGIF dokument"
 
+#: /usr/share/mime/application/ogg.xml:4
+#, fuzzy
+msgctxt "Comment(application/ogg)"
+msgid "Ogg multimedia file"
+msgstr "3GPP multimedijska datoteka"
+
 #: /usr/share/mime/application/x-sc.xml:4
 msgctxt "Comment(application/x-sc)"
 msgid "SC/Xspread spreadsheet"
@@ -1308,6 +2066,12 @@ msgstr "Cisco VPN postavke"
 msgctxt "Comment(application/x-windows-themepack)"
 msgid "Microsoft Windows theme pack"
 msgstr "Microsoft Windows paket tema"
+
+#: /usr/share/mime/application/vnd.sun.xml.impress.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.impress)"
+msgid "OpenOffice Impress presentation"
+msgstr "StarImpress prezentacija"
 
 #: /usr/share/mime/application/vnd.openxmlformats-officedocument.spreadsheetml.template.xml:4
 msgctxt ""
@@ -1355,6 +2119,12 @@ msgctxt "Comment(application/x-kexiproject-shortcut)"
 msgid "shortcut to Kexi project on database server"
 msgstr "prečac za Kexi projekt na poslužitelju baze podataka"
 
+#: /usr/share/mime/application/json.xml:4
+#, fuzzy
+msgctxt "Comment(application/json)"
+msgid "JSON document"
+msgstr "ODA dokument"
+
 #: /usr/share/mime/application/x-kugar.xml:4
 msgctxt "Comment(application/x-kugar)"
 msgid "Kugar document"
@@ -1365,10 +2135,32 @@ msgctxt "Comment(application/x-archive)"
 msgid "AR archive"
 msgstr "AR arhiva"
 
+#: /usr/share/mime/application/x-kexiproject-sqlite3.xml:4
+msgctxt "Comment(application/x-kexiproject-sqlite3)"
+msgid "Kexi database file-based project"
+msgstr ""
+
+#: /usr/share/mime/application/x-pkcs7-certificates.xml:4
+msgctxt "Comment(application/x-pkcs7-certificates)"
+msgid "PKCS#7 certificate bundle"
+msgstr ""
+
+#: /usr/share/mime/application/x-lz4.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-lz4)"
+msgid "LZ4 archive"
+msgstr "LHZ arhiva"
+
 #: /usr/share/mime/application/oxps.xml:4
 msgctxt "Comment(application/oxps)"
 msgid "XPS document"
 msgstr "XPS dokument"
+
+#: /usr/share/mime/application/x-raw-disk-image.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-raw-disk-image)"
+msgid "Raw disk image"
+msgstr "Apple snimka diska"
 
 #: /usr/share/mime/application/x-slp.xml:4
 msgctxt "Comment(application/x-slp)"
@@ -1385,6 +2177,17 @@ msgctxt "Comment(application/x-magicpoint)"
 msgid "MagicPoint presentation"
 msgstr "MagicPoint prezentacija"
 
+#: /usr/share/mime/application/vnd.sun.xml.draw.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.draw)"
+msgid "OpenOffice Draw drawing"
+msgstr "Corel Draw crtež"
+
+#: /usr/share/mime/application/x-quicktime-media-link.xml:4
+msgctxt "Comment(application/x-quicktime-media-link)"
+msgid "QuickTime metalink playlist"
+msgstr ""
+
 #: /usr/share/mime/application/x-ms-dos-executable.xml:4
 msgctxt "Comment(application/x-ms-dos-executable)"
 msgid "DOS/Windows executable"
@@ -1394,6 +2197,12 @@ msgstr "DOS/Windows izvršna datoteka"
 msgctxt "Comment(application/x-sms-rom)"
 msgid "Sega Master System/Game Gear ROM"
 msgstr "Sega Master System/Game Gear ROM"
+
+#: /usr/share/mime/application/x-iff.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-iff)"
+msgid "IFF file"
+msgstr "RDF datoteka"
 
 #: /usr/share/mime/application/x-siag.xml:4
 msgctxt "Comment(application/x-siag)"
@@ -1405,15 +2214,49 @@ msgctxt "Comment(application/x-applix-spreadsheet)"
 msgid "Applix Spreadsheets spreadsheet"
 msgstr "Applix Spreadsheets proračunska tablica"
 
+#: /usr/share/mime/application/pkcs12.xml:4
+msgctxt "Comment(application/pkcs12)"
+msgid "PKCS#12 certificate bundle"
+msgstr ""
+
+#: /usr/share/mime/application/x-cd-image.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cd-image)"
+msgid "raw CD image"
+msgstr "ODI slika"
+
 #: /usr/share/mime/application/x-glade.xml:4
 msgctxt "Comment(application/x-glade)"
 msgid "Glade project"
 msgstr "Glade projekt"
 
+#: /usr/share/mime/application/x-gamecube-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gamecube-rom)"
+msgid "GameCube disc image"
+msgstr "Apple snimka diska"
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.text.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.text)"
 msgid "ODT document"
 msgstr "ODT dokument"
+
+#: /usr/share/mime/application/metalink4+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/metalink4+xml)"
+msgid "Metalink file"
+msgstr "datoteka prijevoda"
+
+#: /usr/share/mime/application/jrd+json.xml:4
+#, fuzzy
+msgctxt "Comment(application/jrd+json)"
+msgid "JRD document"
+msgstr "JAD dokument"
+
+#: /usr/share/mime/application/x-dc-rom.xml:4
+msgctxt "Comment(application/x-dc-rom)"
+msgid "Dreamcast GD-ROM"
+msgstr ""
 
 #: /usr/share/mime/application/vnd.openxmlformats-officedocument.wordprocessingml.document.xml:4
 msgctxt ""
@@ -1431,6 +2274,12 @@ msgstr "LZMA arhiva"
 msgctxt "Comment(application/vnd.oasis.opendocument.graphics-template)"
 msgid "ODG template"
 msgstr "ODG predložak"
+
+#: /usr/share/mime/application/x-zip-compressed-fb2.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-zip-compressed-fb2)"
+msgid "Compressed FictionBook document"
+msgstr "FictionBook dokument"
 
 #: /usr/share/mime/application/x-mobipocket-ebook.xml:4
 msgctxt "Comment(application/x-mobipocket-ebook)"
@@ -1493,9 +2342,27 @@ msgctxt "Comment(message/external-body)"
 msgid "reference to remote file"
 msgstr "referenca na udaljenu datoteku"
 
+#: /usr/share/mime/message/disposition-notification.xml:4
+#, fuzzy
+msgctxt "Comment(message/disposition-notification)"
+msgid "mail disposition report"
+msgstr "izvještaj dostave pošte"
+
+#: /usr/share/mime/audio/x-ape.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-ape)"
+msgid "Monkey's audio"
+msgstr "Matroska audio"
+
 #: /usr/share/mime/audio/mpeg.xml:4
 msgctxt "Comment(audio/mpeg)"
 msgid "MP3 audio"
+msgstr "MP3 audio"
+
+#: /usr/share/mime/audio/x-adpcm.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-adpcm)"
+msgid "PCM audio"
 msgstr "MP3 audio"
 
 #: /usr/share/mime/audio/x-aiff.xml:4
@@ -1528,6 +2395,12 @@ msgctxt "Comment(audio/webm)"
 msgid "WebM audio"
 msgstr "WebM audio"
 
+#: /usr/share/mime/audio/x-flac+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-flac+ogg)"
+msgid "Ogg FLAC audio"
+msgstr "FLAC audio"
+
 #: /usr/share/mime/audio/x-gsm.xml:4
 msgctxt "Comment(audio/x-gsm)"
 msgid "GSM 06.10 audio"
@@ -1548,10 +2421,21 @@ msgctxt "Comment(audio/x-wav)"
 msgid "WAV audio"
 msgstr "WAV audio"
 
+#: /usr/share/mime/audio/aac.xml:4
+#, fuzzy
+msgctxt "Comment(audio/aac)"
+msgid "AAC audio"
+msgstr "FLAC audio"
+
 #: /usr/share/mime/audio/amr.xml:4
 msgctxt "Comment(audio/AMR)"
 msgid "AMR audio"
 msgstr "AMR audio"
+
+#: /usr/share/mime/audio/x-amzxml.xml:4
+msgctxt "Comment(audio/x-amzxml)"
+msgid "AmazonMP3 download file"
+msgstr ""
 
 #: /usr/share/mime/audio/midi.xml:4
 msgctxt "Comment(audio/midi)"
@@ -1598,6 +2482,11 @@ msgctxt "Comment(audio/ac3)"
 msgid "Dolby Digital audio"
 msgstr "Dolby Digital audio"
 
+#: /usr/share/mime/audio/x-vorbis+ogg.xml:4
+msgctxt "Comment(audio/x-vorbis+ogg)"
+msgid "Ogg Vorbis audio"
+msgstr ""
+
 #: /usr/share/mime/audio/x-scpls.xml:4
 msgctxt "Comment(audio/x-scpls)"
 msgid "MP3 ShoutCast playlist"
@@ -1608,10 +2497,22 @@ msgctxt "Comment(audio/mp4)"
 msgid "MPEG-4 audio"
 msgstr "MPEG-4 audio"
 
+#: /usr/share/mime/audio/x-wavpack-correction.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-wavpack-correction)"
+msgid "WavPack audio correction file"
+msgstr "WavPack audio"
+
 #: /usr/share/mime/audio/annodex.xml:4
 msgctxt "Comment(audio/annodex)"
 msgid "Annodex Audio"
 msgstr "Annodex Audio"
+
+#: /usr/share/mime/audio/x-psflib.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-psflib)"
+msgid "PSFlib audio library"
+msgstr "libtool dijeljena biblioteka"
 
 #: /usr/share/mime/audio/x-aifc.xml:4
 msgctxt "Comment(audio/x-aifc)"
@@ -1623,15 +2524,39 @@ msgctxt "Comment(audio/prs.sid)"
 msgid "Commodore 64 audio"
 msgstr "Commodore 64 audio"
 
+#: /usr/share/mime/audio/vnd.dts.xml:4
+#, fuzzy
+msgctxt "Comment(audio/vnd.dts)"
+msgid "DTS audio"
+msgstr "SMAF audio"
+
 #: /usr/share/mime/audio/x-ms-wma.xml:4
 msgctxt "Comment(audio/x-ms-wma)"
 msgid "Windows Media audio"
 msgstr "Windows Media audio"
 
+#: /usr/share/mime/audio/x-mpegurl.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-mpegurl)"
+msgid "MP3 audio (streamed)"
+msgstr "MP3 audio"
+
+#: /usr/share/mime/audio/vnd.dts.hd.xml:4
+#, fuzzy
+msgctxt "Comment(audio/vnd.dts.hd)"
+msgid "DTSHD audio"
+msgstr "SMAF audio"
+
 #: /usr/share/mime/audio/x-s3m.xml:4
 msgctxt "Comment(audio/x-s3m)"
 msgid "Scream Tracker 3 audio"
 msgstr "Scream Tracker 3 audio"
+
+#: /usr/share/mime/audio/x-speex+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-speex+ogg)"
+msgid "Ogg Speex audio"
+msgstr "Speex audio"
 
 #: /usr/share/mime/audio/x-wavpack.xml:4
 msgctxt "Comment(audio/x-wavpack)"
@@ -1648,6 +2573,12 @@ msgctxt "Comment(audio/x-matroska)"
 msgid "Matroska audio"
 msgstr "Matroska audio"
 
+#: /usr/share/mime/audio/x-opus+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-opus+ogg)"
+msgid "Opus audio"
+msgstr "VOC audio"
+
 #: /usr/share/mime/audio/x-minipsf.xml:4
 msgctxt "Comment(audio/x-minipsf)"
 msgid "MiniPSF audio"
@@ -1663,6 +2594,24 @@ msgctxt "Comment(audio/x-mo3)"
 msgid "compressed Tracker audio"
 msgstr "komprimirani Tracker audio"
 
+#: /usr/share/mime/audio/ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/ogg)"
+msgid "Ogg Audio"
+msgstr "VOC audio"
+
+#: /usr/share/mime/audio/basic.xml:4
+#, fuzzy
+msgctxt "Comment(audio/basic)"
+msgid "ULAW (Sun) audio"
+msgstr "FLAC audio"
+
+#: /usr/share/mime/audio/x-psf.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-psf)"
+msgid "PSF audio"
+msgstr "SMAF audio"
+
 #: /usr/share/mime/audio/x-mod.xml:4
 msgctxt "Comment(audio/x-mod)"
 msgid "Amiga SoundTracker audio"
@@ -1677,6 +2626,21 @@ msgstr "RealAudio dokument"
 msgctxt "Comment(audio/x-voc)"
 msgid "VOC audio"
 msgstr "VOC audio"
+
+#: /usr/share/mime/inode/chardevice.xml:4
+msgctxt "Comment(inode/chardevice)"
+msgid "character device"
+msgstr ""
+
+#: /usr/share/mime/inode/blockdevice.xml:4
+msgctxt "Comment(inode/blockdevice)"
+msgid "block device"
+msgstr ""
+
+#: /usr/share/mime/inode/fifo.xml:4
+msgctxt "Comment(inode/fifo)"
+msgid "pipe"
+msgstr ""
 
 #: /usr/share/mime/inode/directory.xml:4
 msgctxt "Comment(inode/directory)"
@@ -1708,10 +2672,57 @@ msgctxt "Comment(image/x-quicktime)"
 msgid "QuickTime image"
 msgstr "QuickTime slika"
 
+#: /usr/share/mime/image/x-sony-sr2.xml:4
+msgctxt "Comment(image/x-sony-sr2)"
+msgid "Sony SR2 raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-kodak-k25.xml:4
+msgctxt "Comment(image/x-kodak-k25)"
+msgid "Kodak K25 raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sony-srf.xml:4
+msgctxt "Comment(image/x-sony-srf)"
+msgid "Sony SRF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sigma-x3f.xml:4
+msgctxt "Comment(image/x-sigma-x3f)"
+msgid "Sigma X3F raw image"
+msgstr ""
+
 #: /usr/share/mime/image/x-rgb.xml:4
 msgctxt "Comment(image/x-rgb)"
 msgid "RGB image"
 msgstr "RGB slika"
+
+#: /usr/share/mime/image/x-cmu-raster.xml:4
+msgctxt "Comment(image/x-cmu-raster)"
+msgid "CMU raster image"
+msgstr ""
+
+#: /usr/share/mime/image/x-portable-pixmap.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-portable-pixmap)"
+msgid "PPM image"
+msgstr "XPM slika"
+
+#: /usr/share/mime/image/x-pentax-pef.xml:4
+msgctxt "Comment(image/x-pentax-pef)"
+msgid "Pentax PEF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sun-raster.xml:4
+msgctxt "Comment(image/x-sun-raster)"
+msgid "Sun raster image"
+msgstr ""
+
+#: /usr/share/mime/image/x-compressed-xcf.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-compressed-xcf)"
+msgid "compressed GIMP image"
+msgstr "komprimirana SVG slika"
 
 #: /usr/share/mime/image/svg+xml.xml:4
 msgctxt "Comment(image/svg+xml)"
@@ -1733,6 +2744,26 @@ msgctxt "Comment(image/x-xbitmap)"
 msgid "XBM image"
 msgstr "XBM slika"
 
+#: /usr/share/mime/image/x-panasonic-raw2.xml:4
+msgctxt "Comment(image/x-panasonic-raw2)"
+msgid "Panasonic raw2 image"
+msgstr ""
+
+#: /usr/share/mime/image/x-nikon-nef.xml:4
+msgctxt "Comment(image/x-nikon-nef)"
+msgid "Nikon NEF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-canon-cr2.xml:4
+msgctxt "Comment(image/x-canon-cr2)"
+msgid "Canon CR2 raw image"
+msgstr ""
+
+#: /usr/share/mime/image/vnd.adobe.photoshop.xml:4
+msgctxt "Comment(image/vnd.adobe.photoshop)"
+msgid "Photoshop image"
+msgstr ""
+
 #: /usr/share/mime/image/fax-g3.xml:4
 msgctxt "Comment(image/fax-g3)"
 msgid "CCITT G3 fax"
@@ -1742,6 +2773,12 @@ msgstr "CCITT G3 faks"
 msgctxt "Comment(image/gif)"
 msgid "GIF image"
 msgstr "GIF slika"
+
+#: /usr/share/mime/image/vnd.zbrush.pcx.xml:4
+#, fuzzy
+msgctxt "Comment(image/vnd.zbrush.pcx)"
+msgid "PCX image"
+msgstr "FPX slika"
 
 #: /usr/share/mime/image/x-eps.xml:4
 msgctxt "Comment(image/x-eps)"
@@ -1783,6 +2820,17 @@ msgctxt "Comment(image/x-wmf)"
 msgid "WMF image"
 msgstr "WMF slika"
 
+#: /usr/share/mime/image/g3fax.xml:4
+#, fuzzy
+msgctxt "Comment(image/g3fax)"
+msgid "G3 fax image"
+msgstr "RGB slika"
+
+#: /usr/share/mime/image/openraster.xml:4
+msgctxt "Comment(image/openraster)"
+msgid "OpenRaster archiving image"
+msgstr ""
+
 #: /usr/share/mime/image/tiff.xml:4
 msgctxt "Comment(image/tiff)"
 msgid "TIFF image"
@@ -1807,6 +2855,11 @@ msgstr "RealPix dokument"
 msgctxt "Comment(image/x-xcf)"
 msgid "GIMP image"
 msgstr "GIMP slika"
+
+#: /usr/share/mime/image/x-minolta-mrw.xml:4
+msgctxt "Comment(image/x-minolta-mrw)"
+msgid "Minolta MRW raw image"
+msgstr ""
 
 #: /usr/share/mime/image/x-fpx.xml:4
 msgctxt "Comment(image/x-fpx)"
@@ -1853,15 +2906,32 @@ msgctxt "Comment(image/x-emf)"
 msgid "EMF image"
 msgstr "EMF slika"
 
+#: /usr/share/mime/image/x-portable-graymap.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-portable-graymap)"
+msgid "PGM image"
+msgstr "XPM slika"
+
 #: /usr/share/mime/image/x-niff.xml:4
 msgctxt "Comment(image/x-niff)"
 msgid "NIFF image"
 msgstr "NIFF slika"
 
+#: /usr/share/mime/image/x-tiff-multipage.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-tiff-multipage)"
+msgid "Multi-page TIFF image"
+msgstr "TIFF slika"
+
 #: /usr/share/mime/image/x-xwindowdump.xml:4
 msgctxt "Comment(image/x-xwindowdump)"
 msgid "X window image"
 msgstr "X window slika"
+
+#: /usr/share/mime/image/x-macpaint.xml:4
+msgctxt "Comment(image/x-macpaint)"
+msgid "MacPaint Bitmap image"
+msgstr ""
 
 #: /usr/share/mime/image/x-win-bitmap.xml:4
 msgctxt "Comment(image/x-win-bitmap)"
@@ -1878,10 +2948,26 @@ msgctxt "Comment(image/ief)"
 msgid "IEF image"
 msgstr "IEF slika"
 
+#: /usr/share/mime/image/rle.xml:4
+msgctxt "Comment(image/rle)"
+msgid "Run Length Encoded bitmap image"
+msgstr ""
+
 #: /usr/share/mime/image/x-xfig.xml:4
 msgctxt "Comment(image/x-xfig)"
 msgid "XFig image"
 msgstr "XFig slika"
+
+#: /usr/share/mime/image/x-portable-anymap.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-portable-anymap)"
+msgid "PNM image"
+msgstr "XPM slika"
+
+#: /usr/share/mime/image/x-dcraw.xml:4
+msgctxt "Comment(image/x-dcraw)"
+msgid "digital raw image"
+msgstr ""
 
 #: /usr/share/mime/image/svg+xml-compressed.xml:4
 msgctxt "Comment(image/svg+xml-compressed)"
@@ -1893,20 +2979,76 @@ msgctxt "Comment(image/jp2)"
 msgid "JPEG-2000 image"
 msgstr "JPEG-2000 slika"
 
+#: /usr/share/mime/image/vnd.microsoft.icon.xml:4
+#, fuzzy
+msgctxt "Comment(image/vnd.microsoft.icon)"
+msgid "Windows icon"
+msgstr "Windows kursor"
+
+#: /usr/share/mime/image/x-sony-arw.xml:4
+msgctxt "Comment(image/x-sony-arw)"
+msgid "Sony ARW raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-photo-cd.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-photo-cd)"
+msgid "PCD image"
+msgstr "ODI slika"
+
 #: /usr/share/mime/image/x-3ds.xml:4
 msgctxt "Comment(image/x-3ds)"
 msgid "3D Studio image"
 msgstr "3D Studio slika"
+
+#: /usr/share/mime/image/x-olympus-orf.xml:4
+msgctxt "Comment(image/x-olympus-orf)"
+msgid "Olympus ORF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/vnd.djvu+multipage.xml:4
+#, fuzzy
+msgctxt "Comment(image/vnd.djvu+multipage)"
+msgid "DjVu document"
+msgstr "ODA dokument"
 
 #: /usr/share/mime/image/x-sgi.xml:4
 msgctxt "Comment(image/x-sgi)"
 msgid "SGI image"
 msgstr "SGI slika"
 
+#: /usr/share/mime/image/png.xml:4
+#, fuzzy
+msgctxt "Comment(image/png)"
+msgid "PNG image"
+msgstr "JNG slika"
+
+#: /usr/share/mime/image/x-msod.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-msod)"
+msgid "Office drawing"
+msgstr "ODG crtež"
+
+#: /usr/share/mime/image/x-portable-bitmap.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-portable-bitmap)"
+msgid "PBM image"
+msgstr "XBM slika"
+
+#: /usr/share/mime/image/x-fuji-raf.xml:4
+msgctxt "Comment(image/x-fuji-raf)"
+msgid "Fuji RAF raw image"
+msgstr ""
+
 #: /usr/share/mime/image/dpx.xml:4
 msgctxt "Comment(image/dpx)"
 msgid "DPX image"
 msgstr "DPX slika"
+
+#: /usr/share/mime/image/x-canon-crw.xml:4
+msgctxt "Comment(image/x-canon-crw)"
+msgid "Canon CRW raw image"
+msgstr ""
 
 #: /usr/share/mime/image/x-exr.xml:4
 msgctxt "Comment(image/x-exr)"
@@ -1918,20 +3060,56 @@ msgctxt "Comment(image/x-bzeps)"
 msgid "EPS image (bzip-compressed)"
 msgstr "EPS slika (komprimirana bzip-om)"
 
+#: /usr/share/mime/image/cgm.xml:4
+msgctxt "Comment(image/cgm)"
+msgid "Computer Graphics Metafile"
+msgstr ""
+
+#: /usr/share/mime/image/x-kodak-kdc.xml:4
+msgctxt "Comment(image/x-kodak-kdc)"
+msgid "Kodak KDC raw image"
+msgstr ""
+
+#: /usr/share/mime/image/vnd.ms-modi.xml:4
+msgctxt "Comment(image/vnd.ms-modi)"
+msgid "Microsoft Document Imaging format"
+msgstr ""
+
 #: /usr/share/mime/image/x-ilbm.xml:4
 msgctxt "Comment(image/x-ilbm)"
 msgid "ILBM image"
 msgstr "ILBM slika"
+
+#: /usr/share/mime/image/webp.xml:4
+#, fuzzy
+msgctxt "Comment(image/webp)"
+msgid "WebP image"
+msgstr "WBMP slika"
 
 #: /usr/share/mime/image/x-xcursor.xml:4
 msgctxt "Comment(image/x-xcursor)"
 msgid "X11 cursor"
 msgstr "X11 kursor"
 
+#: /usr/share/mime/image/x-kodak-dcr.xml:4
+msgctxt "Comment(image/x-kodak-dcr)"
+msgid "Kodak DCR raw image"
+msgstr ""
+
 #: /usr/share/mime/image/vnd.wap.wbmp.xml:4
 msgctxt "Comment(image/vnd.wap.wbmp)"
 msgid "WBMP image"
 msgstr "WBMP slika"
+
+#: /usr/share/mime/image/x-panasonic-raw.xml:4
+msgctxt "Comment(image/x-panasonic-raw)"
+msgid "Panasonic raw image"
+msgstr ""
+
+#: /usr/share/mime/text/x-authors.xml:4
+msgctxt "Comment(text/x-authors)"
+msgid "author list"
+msgstr ""
 
 #: /usr/share/mime/text/x-svsrc.xml:4
 msgctxt "Comment(text/x-svsrc)"
@@ -1973,6 +3151,11 @@ msgctxt "Comment(text/x-setext)"
 msgid "Setext document"
 msgstr "Setext dokument"
 
+#: /usr/share/mime/text/x-credits.xml:4
+msgctxt "Comment(text/x-credits)"
+msgid "author credits"
+msgstr ""
+
 #: /usr/share/mime/text/x-troff-ms.xml:4
 msgctxt "Comment(text/x-troff-ms)"
 msgid "Troff MS input document"
@@ -1988,10 +3171,27 @@ msgctxt "Comment(text/x-uil)"
 msgid "X-Motif UIL table"
 msgstr "X-Motif UIL tablica"
 
+#: /usr/share/mime/text/x-scons.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-scons)"
+msgid "SCons configuration file"
+msgstr "datoteka postavki radne površine"
+
 #: /usr/share/mime/text/richtext.xml:4
 msgctxt "Comment(text/richtext)"
 msgid "rich text document"
 msgstr "obogaćeni tekstualni dokument"
+
+#: /usr/share/mime/text/x-pascal.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-pascal)"
+msgid "Pascal source code"
+msgstr "Scala izvorni kod"
+
+#: /usr/share/mime/text/x-log.xml:4
+msgctxt "Comment(text/x-log)"
+msgid "application log"
+msgstr ""
 
 #: /usr/share/mime/text/x-moc.xml:4
 msgctxt "Comment(text/x-moc)"
@@ -2012,6 +3212,11 @@ msgstr "Markdown dokument"
 msgctxt "Comment(text/x-c++src)"
 msgid "C++ source code"
 msgstr "C++ izvorni kod"
+
+#: /usr/share/mime/text/x-qml.xml:4
+msgctxt "Comment(text/x-qml)"
+msgid "Qt Markup Language file"
+msgstr ""
 
 #: /usr/share/mime/text/rfc822-headers.xml:4
 msgctxt "Comment(text/rfc822-headers)"
@@ -2043,10 +3248,20 @@ msgctxt "Comment(text/x-adasrc)"
 msgid "Ada source code"
 msgstr "Ada izvorni kod"
 
+#: /usr/share/mime/text/x-mof.xml:4
+msgctxt "Comment(text/x-mof)"
+msgid "Managed Object Format"
+msgstr ""
+
 #: /usr/share/mime/text/x-c++hdr.xml:4
 msgctxt "Comment(text/x-c++hdr)"
 msgid "C++ header"
 msgstr "C++ zaglavlje"
+
+#: /usr/share/mime/text/x-opml+xml.xml:4
+msgctxt "Comment(text/x-opml+xml)"
+msgid "OPML syndication feed"
+msgstr ""
 
 #: /usr/share/mime/text/x-bibtex.xml:4
 msgctxt "Comment(text/x-bibtex)"
@@ -2078,6 +3293,17 @@ msgctxt "Comment(text/sgml)"
 msgid "SGML document"
 msgstr "SGML dokument"
 
+#: /usr/share/mime/text/x-genie.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-genie)"
+msgid "Genie source code"
+msgstr "Go izvorni kod"
+
+#: /usr/share/mime/text/x-rpm-spec.xml:4
+msgctxt "Comment(text/x-rpm-spec)"
+msgid "RPM spec file"
+msgstr ""
+
 #: /usr/share/mime/text/x-txt2tags.xml:4
 msgctxt "Comment(text/x-txt2tags)"
 msgid "txt2tags document"
@@ -2093,6 +3319,17 @@ msgctxt "Comment(text/x-install)"
 msgid "installation instructions"
 msgstr "upute za instalaciju"
 
+#: /usr/share/mime/text/x-objcsrc.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-objcsrc)"
+msgid "Objective-C source code"
+msgstr "OOC izvorni kod"
+
+#: /usr/share/mime/text/x-lilypond.xml:4
+msgctxt "Comment(text/x-lilypond)"
+msgid "Lilypond music sheet"
+msgstr ""
+
 #: /usr/share/mime/text/x-xslfo.xml:4
 msgctxt "Comment(text/x-xslfo)"
 msgid "XSL FO file"
@@ -2103,6 +3340,18 @@ msgctxt "Comment(text/x-texinfo)"
 msgid "TeXInfo document"
 msgstr "TeXInfo dokument"
 
+#: /usr/share/mime/text/x-changelog.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-changelog)"
+msgid "ChangeLog document"
+msgstr "RealVideo dokument"
+
+#: /usr/share/mime/text/x-meson.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-meson)"
+msgid "Meson source code"
+msgstr "Go izvorni kod"
+
 #: /usr/share/mime/text/css.xml:4
 msgctxt "Comment(text/css)"
 msgid "CSS stylesheet"
@@ -2112,6 +3361,12 @@ msgstr "CSS stilska tablica"
 msgctxt "Comment(text/vnd.graphviz)"
 msgid "Graphviz DOT graph"
 msgstr "Graphviz DOT grafikon"
+
+#: /usr/share/mime/text/rust.xml:4
+#, fuzzy
+msgctxt "Comment(text/rust)"
+msgid "Rust source code"
+msgstr "D izvorni kod"
 
 #: /usr/share/mime/text/x-ssa.xml:4
 msgctxt "Comment(text/x-ssa)"
@@ -2198,6 +3453,12 @@ msgctxt "Comment(text/x-dsl)"
 msgid "DSSSL document"
 msgstr "DSSSL dokument"
 
+#: /usr/share/mime/text/csv-schema.xml:4
+#, fuzzy
+msgctxt "Comment(text/csv-schema)"
+msgid "CSV Schema document"
+msgstr "CSV dokument"
+
 #: /usr/share/mime/text/x-iptables.xml:4
 msgctxt "Comment(text/x-iptables)"
 msgid "iptables configuration file"
@@ -2253,15 +3514,42 @@ msgctxt "Comment(text/vnd.wap.wml)"
 msgid "WML document"
 msgstr "WML dokument"
 
+#: /usr/share/mime/text/turtle.xml:4
+#, fuzzy
+msgctxt "Comment(text/turtle)"
+msgid "Turtle document"
+msgstr "TeX dokument"
+
+#: /usr/share/mime/text/x-uuencode.xml:4
+msgctxt "Comment(text/x-uuencode)"
+msgid "uuencoded file"
+msgstr ""
+
 #: /usr/share/mime/text/vtt.xml:4
 msgctxt "Comment(text/vtt)"
 msgid "WebVTT subtitles"
 msgstr "WebVTT titlovi"
 
+#: /usr/share/mime/text/cache-manifest.xml:4
+msgctxt "Comment(text/cache-manifest)"
+msgid "Web application cache manifest"
+msgstr ""
+
 #: /usr/share/mime/text/vnd.sun.j2me.app-descriptor.xml:4
 msgctxt "Comment(text/vnd.sun.j2me.app-descriptor)"
 msgid "JAD document"
 msgstr "JAD dokument"
+
+#: /usr/share/mime/text/spreadsheet.xml:4
+msgctxt "Comment(text/spreadsheet)"
+msgid "spreadsheet interchange document"
+msgstr ""
+
+#: /usr/share/mime/text/x-makefile.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-makefile)"
+msgid "Makefile"
+msgstr "XMI datoteka"
 
 #: /usr/share/mime/text/x-erlang.xml:4
 msgctxt "Comment(text/x-erlang)"
@@ -2297,6 +3585,11 @@ msgstr "katalog poruka"
 msgctxt "Comment(text/vnd.rn-realtext)"
 msgid "RealText document"
 msgstr "RealText dokument"
+
+#: /usr/share/mime/text/x-mup.xml:4
+msgctxt "Comment(text/x-mup)"
+msgid "Mup publication"
+msgstr ""
 
 #: /usr/share/mime/text/x-mrml.xml:4
 msgctxt "Comment(text/x-mrml)"
@@ -2343,6 +3636,16 @@ msgctxt "Comment(text/x-subviewer)"
 msgid "SubViewer subtitles"
 msgstr "SubViewer titlovi"
 
+#: /usr/share/mime/text/x-google-video-pointer.xml:4
+msgctxt "Comment(text/x-google-video-pointer)"
+msgid "Google Video Pointer"
+msgstr ""
+
+#: /usr/share/mime/text/x-ms-regedit.xml:4
+msgctxt "Comment(text/x-ms-regedit)"
+msgid "Windows Registry extract"
+msgstr ""
+
 #: /usr/share/mime/text/x-vala.xml:4
 msgctxt "Comment(text/x-vala)"
 msgid "Vala source code"
@@ -2352,6 +3655,11 @@ msgstr "Vala izvorni kod"
 msgctxt "Comment(text/x-readme)"
 msgid "README document"
 msgstr "README dokument"
+
+#: /usr/share/mime/text/x-modelica.xml:4
+msgctxt "Comment(text/x-modelica)"
+msgid "Modelica model"
+msgstr ""
 
 #: /usr/share/mime/text/x-xmi.xml:4
 msgctxt "Comment(text/x-xmi)"
@@ -2368,10 +3676,27 @@ msgctxt "Comment(x-content/audio-player)"
 msgid "portable audio player"
 msgstr "prenosivi audio svirač"
 
+#: /usr/share/mime/x-content/blank-cd.xml:4
+msgctxt "Comment(x-content/blank-cd)"
+msgid "blank CD disc"
+msgstr ""
+
 #: /usr/share/mime/x-content/video-vcd.xml:4
 msgctxt "Comment(x-content/video-vcd)"
 msgid "Video CD"
 msgstr "Video CD"
+
+#: /usr/share/mime/x-content/blank-bd.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/blank-bd)"
+msgid "blank Blu-ray disc"
+msgstr "Blu-ray video disk"
+
+#: /usr/share/mime/x-content/blank-hddvd.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/blank-hddvd)"
+msgid "blank HD DVD disc"
+msgstr "HD DVD video disk"
 
 #: /usr/share/mime/x-content/video-dvd.xml:4
 msgctxt "Comment(x-content/video-dvd)"
@@ -2388,15 +3713,31 @@ msgctxt "Comment(x-content/image-dcf)"
 msgid "digital photos"
 msgstr "digitalne fotografije"
 
+#: /usr/share/mime/x-content/audio-dvd.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/audio-dvd)"
+msgid "audio DVD"
+msgstr "video DVD"
+
 #: /usr/share/mime/x-content/unix-software.xml:4
 msgctxt "Comment(x-content/unix-software)"
 msgid "UNIX software"
 msgstr "UNIX softver"
 
+#: /usr/share/mime/x-content/blank-dvd.xml:4
+msgctxt "Comment(x-content/blank-dvd)"
+msgid "blank DVD disc"
+msgstr ""
+
 #: /usr/share/mime/x-content/video-svcd.xml:4
 msgctxt "Comment(x-content/video-svcd)"
 msgid "Super Video CD"
 msgstr "Super Video CD"
+
+#: /usr/share/mime/x-content/image-picturecd.xml:4
+msgctxt "Comment(x-content/image-picturecd)"
+msgid "Picture CD"
+msgstr ""
 
 #: /usr/share/mime/x-content/software.xml:4
 msgctxt "Comment(x-content/software)"
@@ -2412,3 +3753,9 @@ msgstr "Blu-ray video disk"
 msgctxt "Comment(x-content/video-hddvd)"
 msgid "HD DVD video disc"
 msgstr "HD DVD video disk"
+
+#: /usr/share/mime/x-content/audio-cdda.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/audio-cdda)"
+msgid "audio CD"
+msgstr "Video CD"

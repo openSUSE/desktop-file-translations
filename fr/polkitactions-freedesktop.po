@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -143,6 +143,160 @@ msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr ""
 "Il est nécessaire de s’authentifier pour utiliser le capteur de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "Mettre le système en veille"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr ""
+"Mettre le système en veille alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "Redémarrer le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "Redémarrer le système alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr ""
+"La politique du système empêche toute modification du nom d'hôte persistant "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr ""
+"Mettre le système en veille alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation du réseau "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr ""
+"Mettre le système en veille alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "Activer ou désactiver des périphériques mobiles à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:64
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:77
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:90
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "Activer ou désactiver des périphériques mobiles à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr "La politique du système empêche le contrôle des connexions réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques mobiles à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:67
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation du réseau "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:80
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
@@ -294,6 +448,23 @@ msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
 msgid "Install untrusted local file"
 msgstr "Installer un fichier local non signé"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:295
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
+msgid "Install already installed package again"
+msgstr "Installer un paquet signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:362
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
+msgid "Install older version of installed package"
+msgstr "Installer un paquet signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:429
+msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid "Trust a key used for signing software"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:492
 msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
 msgid "Accept EULA"
@@ -303,6 +474,11 @@ msgstr "Accepter la licence du logiciel"
 msgctxt "Description(org.freedesktop.packagekit.package-remove)"
 msgid "Remove package"
 msgstr "Supprimer un paquet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:693
+msgctxt "Description(org.freedesktop.packagekit.system-update)"
+msgid "Update software"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:761
 msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
@@ -324,6 +500,12 @@ msgstr "Configurer le proxy réseau"
 msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
 msgid "Reload a device"
 msgstr "Recharger un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1168
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
+msgid "Upgrade System"
+msgstr "Réparer le système"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1217
 msgctxt "Description(org.freedesktop.packagekit.repair-system)"
@@ -352,10 +534,60 @@ msgid ""
 msgstr ""
 "Authentification requise pour annuler une tâche non initiée par vos soins"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:168
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install)"
+msgid "Authentication is required to install software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:256
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Authentication is required to install untrusted software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:323
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
+msgid "Authentication is required to reinstall software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:391
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+msgid "Authentication is required to downgrade software"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:456
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr "Authentification requise pour changer les paramètres des dépôts"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:542
 msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
 msgid "Authentication is required to accept a EULA"
 msgstr "Authentification requise pour accepter une licence"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:653
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-remove)"
+msgid "Authentication is required to remove software"
+msgstr ""
+"Il est nécessaire de s’authentifier pour supprimer un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:722
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-update)"
+msgid "Authentication is required to update software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:811
 msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
@@ -367,12 +599,28 @@ msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
 msgid "Authentication is required to refresh the system sources"
 msgstr "Authentification requise pour mettre à jour la liste des paquets"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1025
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr ""
+"Il est nécessaire de s’authentifier pour installer le profil de couleur chez "
+"tous les utilisateurs"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1110
 msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
 msgid "Authentication is required to reload the device with a new driver"
 msgstr ""
 "Authentification requise pour redémarrer le périphérique avec un nouveau "
 "pilote"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1188
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
+msgid "Authentication is required to upgrade the operating system"
+msgstr "Authentification requise pour mettre le système en hibernation."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1253
 msgctxt "Message(org.freedesktop.packagekit.repair-system)"
@@ -398,6 +646,59 @@ msgid "Authentication is required to clear the offline updates message"
 msgstr ""
 "Il est nécessaire d'être authentifié pour effacer le message de mise à jour "
 "hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr ""
+"Authentification requise pour permettre aux utilisateurs non connectés "
+"d'exécuter des programmes."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher l'arrêt "
+"du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+"Authentification requise pour permettre à une application de retarder "
+"l'arrêt du système."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
@@ -1069,9 +1370,138 @@ msgstr ""
 "Authentification requise pour gérer les images locales de machines "
 "virtuelles (VM) et de conteneurs."
 
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:14
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"
+msgid "Mount a filesystem"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:88
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-system)"
+msgid "Mount a filesystem on a system device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:161
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-other-seat)"
+msgid "Mount a filesystem from a device plugged into another seat"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:231
+msgctxt "Description(org.freedesktop.udisks2.filesystem-fstab)"
+msgid ""
+"Mount/unmount filesystems defined in the fstab file with the x-udisks-auth "
+"option"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:303
+msgctxt "Description(org.freedesktop.udisks2.filesystem-unmount-others)"
+msgid "Unmount a device mounted by another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:377
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock)"
+msgid "Unlock an encrypted device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:448
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-system)"
+msgid "Unlock an encrypted system device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:519
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
+msgid "Unlock an encrypted device plugged into another seat"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:587
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
+msgid ""
+"Unlock an encrypted device specified in the crypttab file with the x-udisks-"
+"auth option"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:658
+msgctxt "Description(org.freedesktop.udisks2.encrypted-lock-others)"
+msgid "Lock an encrypted device unlocked by another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:730
+msgctxt "Description(org.freedesktop.udisks2.encrypted-change-passphrase)"
+msgid "Change passphrase for an encrypted device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:800
+msgctxt ""
+"Description(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
+msgid "Change passphrase for an encrypted device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:872
+msgctxt "Description(org.freedesktop.udisks2.loop-setup)"
+msgid "Manage loop devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:945
+msgctxt "Description(org.freedesktop.udisks2.loop-delete-others)"
+msgid "Delete loop devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1011
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.loop-modify-others)"
+msgid "Modify loop devices"
+msgstr "Modifier un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1078
+msgctxt "Description(org.freedesktop.udisks2.manage-swapspace)"
+msgid "Manage swapspace"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1150
+msgctxt "Description(org.freedesktop.udisks2.manage-md-raid)"
+msgid "Manage RAID arrays"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1215
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive)"
+msgid "Power off drive"
+msgstr "Éteindre le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1277
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive-system)"
+msgid "Power off a system drive"
+msgstr "Éteindre le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1339
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive-other-seat)"
+msgid "Power off a drive attached to another seat"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1400
+msgctxt "Description(org.freedesktop.udisks2.eject-media)"
+msgid "Eject media"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1475
+msgctxt "Description(org.freedesktop.udisks2.eject-media-system)"
+msgid "Eject media from a system drive"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1547
+msgctxt "Description(org.freedesktop.udisks2.eject-media-other-seat)"
+msgid "Eject media from a drive attached to another seat"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1616
 msgctxt "Description(org.freedesktop.udisks2.modify-device)"
 msgid "Modify a device"
+msgstr "Modifier un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1690
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.modify-device-system)"
+msgid "Modify a system device"
 msgstr "Modifier un périphérique"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1763
@@ -1079,7 +1509,394 @@ msgctxt "Description(org.freedesktop.udisks2.modify-device-other-seat)"
 msgid "Modify a device"
 msgstr "Modifier un périphérique"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1834
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.rescan)"
+msgid "Rescan a device"
+msgstr "Recharger un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1898
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.open-device)"
+msgid "Open a device"
+msgstr "Recharger un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1971
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.open-device-system)"
+msgid "Open a system device"
+msgstr "Définir l'heure du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2047
+msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
+msgid "Modify system-wide configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2119
+msgctxt ""
+"Description(org.freedesktop.udisks2.read-system-configuration-secrets)"
+msgid "Modify system-wide configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2191
+#, fuzzy
+msgctxt "Description(org.freedesktop.udisks2.modify-drive-settings)"
+msgid "Modify drive settings"
+msgstr "Modifier les paramètres de couleur d’un appareil"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2260
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
+msgid "Update SMART data"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2333
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-simulate)"
+msgid "Set SMART data from blob"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2394
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-selftest)"
+msgid "Run SMART self-test"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2466
 msgctxt "Description(org.freedesktop.udisks2.ata-smart-enable-disable)"
 msgid "Enable/Disable SMART"
 msgstr "Activer / désactiver SMART"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2531
+msgctxt "Description(org.freedesktop.udisks2.ata-check-power)"
+msgid "Check power state"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2595
+msgctxt "Description(org.freedesktop.udisks2.ata-standby)"
+msgid "Send standby command"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2657
+msgctxt "Description(org.freedesktop.udisks2.ata-standby-system)"
+msgid "Send standby command to a system drive"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2719
+msgctxt "Description(org.freedesktop.udisks2.ata-standby-other-seat)"
+msgid "Send standby command to drive on other seat"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2784
+msgctxt "Description(org.freedesktop.udisks2.ata-secure-erase)"
+msgid "Securely erase a hard disk"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2852
+msgctxt "Description(org.freedesktop.udisks2.cancel-job)"
+msgid "Cancel job"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2919
+msgctxt "Description(org.freedesktop.udisks2.cancel-job-other-user)"
+msgid "Cancel job started by another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:47
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Authentification requise pour définir l'heure du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:120
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-system)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Authentification requise pour définir l'heure du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:190
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-other-seat)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Authentification requise pour définir l'heure du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:260
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.filesystem-fstab)"
+msgid "Authentication is required to mount/unmount the filesystem"
+msgstr "Authentification requise pour redémarrer le système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:335
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.filesystem-unmount-others)"
+msgid ""
+"Authentication is required to unmount a filesystem mounted by another user"
+msgstr ""
+"Authentification requise pour gérer les services système ou les unités."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:409
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:480
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-system)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:548
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:616
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:689
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-lock-others)"
+msgid ""
+"Authentication is required to lock an encrypted device unlocked by another "
+"user"
+msgstr ""
+"Authentification requise pour gérer les services système ou les unités."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:761
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase)"
+msgid ""
+"Authentication is required to change the passphrase for an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:831
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
+msgid ""
+"Authentication is required to change the passphrase for an encrypted device"
+msgstr ""
+"Il est nécessaire de s'authentifier pour créer un périphérique avec gestion "
+"de couleurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:903
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.loop-setup)"
+msgid "Authentication is required to set up a loop device"
+msgstr "Authentification requise pour définir un message wall."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:973
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.loop-delete-others)"
+msgid ""
+"Authentication is required to delete a loop device set up by another user"
+msgstr ""
+"Authentification requise pour redémarrer le périphérique avec un nouveau "
+"pilote"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1039
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.loop-modify-others)"
+msgid ""
+"Authentication is required to modify a loop device set up by another user"
+msgstr "Il est nécessaire de s’authentifier pour modifier un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1109
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.manage-swapspace)"
+msgid "Authentication is required to manage swapspace"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1177
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.manage-md-raid)"
+msgid "Authentication is required to manage RAID arrays"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1242
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive)"
+msgid "Authentication is required to power off a drive"
+msgstr "Authentification requise pour éteindre le système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1304
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive-system)"
+msgid "Authentication is required to power off a drive"
+msgstr "Authentification requise pour éteindre le système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1364
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive-other-seat)"
+msgid ""
+"Authentication is required to power off a drive plugged into another seat"
+msgstr ""
+"Il est nécessaire d'être authentifié pour lancer des mises à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1433
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.eject-media)"
+msgid "Authentication is required to eject media"
+msgstr "Authentification requise pour accepter une licence"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1505
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.eject-media-system)"
+msgid "Authentication is required to eject media"
+msgstr "Authentification requise pour accepter une licence"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1576
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.eject-media-other-seat)"
+msgid ""
+"Authentication is required to eject media from a drive plugged into another "
+"seat"
+msgstr ""
+"Authentification requise pour associer un périphérique à un poste (seat)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1649
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.modify-device)"
+msgid "Authentication is required to modify a device"
+msgstr "Il est nécessaire de s’authentifier pour modifier un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1722
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.modify-device-system)"
+msgid "Authentication is required to modify a device"
+msgstr "Il est nécessaire de s’authentifier pour modifier un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1796
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.modify-device-other-seat)"
+msgid "Authentication is required to modify a device plugged into another seat"
+msgstr ""
+"Authentification requise pour associer un périphérique à un poste (seat)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1862
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.rescan)"
+msgid "Authentication is required to rescan a device"
+msgstr "Il est nécessaire de s'authentifier pour supprimer un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:1931
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.open-device)"
+msgid "Authentication is required to open a device"
+msgstr "Il est nécessaire de s'authentifier pour supprimer un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2004
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.open-device-system)"
+msgid "Authentication is required to open a device"
+msgstr "Il est nécessaire de s'authentifier pour supprimer un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2079
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.modify-system-configuration)"
+msgid "Authentication is required to modify system-wide configuration"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier la configuration de "
+"l'écran de connexion"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2151
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.read-system-configuration-secrets)"
+msgid ""
+"Authentication is required to retrieve secrets from system-wide configuration"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier la configuration de "
+"l'écran de connexion"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2220
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.modify-drive-settings)"
+msgid "Authentication is required to modify drive settings"
+msgstr ""
+"Il est nécessaire de s’authentifier pour modifier les paramètres de couleur "
+"d’un appareil"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2293
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-update)"
+msgid "Authentication is required to update SMART data"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2359
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-simulate)"
+msgid "Authentication is required to set SMART data from blob"
+msgstr "Authentification requise pour définir la langue du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2426
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-selftest)"
+msgid "Authentication is required to run a SMART self-test"
+msgstr "Authentification requise pour recharger l'état de systemd"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2494
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-enable-disable)"
+msgid "Authentication is required to enable/disable SMART"
+msgstr "Authentification requise pour définir un message wall."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2559
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-check-power)"
+msgid "Authentication is required to check the power state"
+msgstr ""
+"Il est nécessaire de s’authentifier pour utiliser le capteur de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2621
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-standby)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2683
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-standby-system)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2745
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-standby-other-seat)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2812
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.ata-secure-erase)"
+msgid "Authentication is required to securely erase a hard disk"
+msgstr "Il est nécessaire de s’authentifier pour créer un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2882
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.cancel-job)"
+msgid "Authentication is required to cancel a job"
+msgstr "Authentification requise pour accepter une licence"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.udisks2.policy:2947
+#, fuzzy
+msgctxt "Message(org.freedesktop.udisks2.cancel-job-other-user)"
+msgid "Authentication is required to cancel a job started by another user"
+msgstr ""
+"Authentification requise pour annuler une tâche non initiée par vos soins"

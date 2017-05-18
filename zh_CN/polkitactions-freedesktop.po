@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,6 +129,141 @@ msgstr "需要授权来禁用禁用设备的配置文件匹配"
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "需要授权来使用色彩传感器"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr "存在其他已登录用户时仍然挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "重启系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "存在其他已登录用户时仍然重启"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr "系统策略阻止更改系统固有主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr "存在其他已登录用户时仍然挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr "系统策略阻止启用或禁用系统网络"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr "存在其他已登录用户时仍然挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "启用或禁用移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:64
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:77
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:90
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "启用或禁用移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr "系统策略阻止更改网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr "系统策略阻止启用或禁用移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:67
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr "系统策略阻止启用或禁用系统网络"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:80
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
@@ -429,6 +564,53 @@ msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
 msgstr "清除离线更新通知需要认证"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr "要允许未登录用户运行程序需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr "要允许应用程序阻止系统关机需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr "要允许应用程序延迟系统关机需要验证。"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
 msgid "Allow applications to inhibit system shutdown"
@@ -467,6 +649,12 @@ msgstr "允许应用程序阻止系统响应挂起键"
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:364
 msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
 msgid "Allow applications to inhibit system handling of the hibernate key"
+msgstr "允许应用程序阻止系统响应挂起键"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:414
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid "Allow applications to inhibit system handling of the lid switch"
 msgstr "允许应用程序阻止系统响应挂起键"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:462
@@ -559,6 +747,11 @@ msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
 msgid "Allow indication to the firmware to boot to setup interface"
 msgstr "允许向固件发出指示以启动至固件设置界面"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1345
+msgctxt "Description(org.freedesktop.login1.set-wall-message)"
+msgid "Set a wall message"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:31
 msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
 msgid ""
@@ -606,6 +799,14 @@ msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
 msgid ""
 "Authentication is required for an application to inhibit system handling of "
 "the hibernate key."
+msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:434
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the lid switch."
 msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:483
@@ -717,6 +918,12 @@ msgid ""
 "Authentication is required to indicate to the firmware to boot to setup "
 "interface."
 msgstr "要允许向固件发出启动时进入设置界面的指令需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1356
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-wall-message)"
+msgid "Authentication is required to set a wall message"
+msgstr "安装软件需要认证"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
 msgctxt "Description(org.freedesktop.systemd1.reply-password)"
@@ -853,6 +1060,14 @@ msgstr "设置机器信息"
 #: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:31
 msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
 msgid "Authentication is required to set the local host name."
+msgstr "设置本地主机名需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:81
+#, fuzzy
+msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
+msgid ""
+"Authentication is required to set the statically configured local host name, "
+"as well as the pretty host name."
 msgstr "设置本地主机名需要验证。"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:131

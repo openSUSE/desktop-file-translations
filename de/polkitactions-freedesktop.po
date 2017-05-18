@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -137,6 +137,62 @@ msgstr ""
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "Legitmierung ist zum Verwenden eines Farbprofils erforderlich"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "Das System in Bereitschaft versetzen"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr ""
+"Das System in Bereitschaft versetzen, während andere Benutzer angemeldet "
+"sind."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "Das System neu starten"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "Das Systems neu starten, während andere Benutzer angemeldet sind"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr "Die Systemrichtlinien verhindern die Steuerung von ModemManager."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr ""
+"Das System in Bereitschaft versetzen, während andere Benutzer angemeldet "
+"sind."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr "Die Systemrichtlinien verhindern die Steuerung von ModemManager."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr ""
+"Das System in Bereitschaft versetzen, während andere Benutzer angemeldet "
+"sind."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
 msgctxt "Description(org.freedesktop.ModemManager1.Control)"
@@ -564,6 +620,59 @@ msgid "Authentication is required to clear the offline updates message"
 msgstr ""
 "Legitimation ist zum Löschen der Nachricht für Offline-Aktualisierungen "
 "notwendig"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr ""
+"Legitimierung ist erforderlich, damit nicht angemeldete Benutzer Programme "
+"ausführen dürfen."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr ""
+"Legitimierung ist notwendig, um Anwendungen das Herunterfahren des Systems "
+"zu erlauben."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+"Legitimierung ist notwendig, um Anwendungen das Verzögern des Herunterfahren "
+"des Systems zu erlauben."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"

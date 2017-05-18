@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:43+0000\n"
+"POT-Creation-Date: 2017-05-18 11:28+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,6 +9,40 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:11
+msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
+msgid "Change your own user data"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:81
+msgctxt "Description(org.freedesktop.accounts.user-administration)"
+msgid "Manage user accounts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:151
+msgctxt "Description(org.freedesktop.accounts.set-login-option)"
+msgid "Change the login screen configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:42
+#, fuzzy
+msgctxt "Message(org.freedesktop.accounts.change-own-user-data)"
+msgid "Authentication is required to change your own user data"
+msgstr "Потребно је потврђивање идентитета за проверу стања напајања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:112
+#, fuzzy
+msgctxt "Message(org.freedesktop.accounts.user-administration)"
+msgid "Authentication is required to change user data"
+msgstr "Потребно је потврђивање идентитета за управљање разменским простором"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:182
+#, fuzzy
+msgctxt "Message(org.freedesktop.accounts.set-login-option)"
+msgid "Authentication is required to change the login screen configuration"
+msgstr ""
+"Потребно је потврђивање идентитета за промену свеопштих подешавања система"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.color.policy:15
 msgctxt "Description(org.freedesktop.color-manager.create-device)"
@@ -106,6 +140,142 @@ msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "Потребно је потврђивање идентитета за коришћење сензора боје"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:13
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop)"
+msgid "Stop the system"
+msgstr "Обуставите систем"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:22
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid "Stop the system when multiple users are logged in"
+msgstr "Обуставите систем док су други корисници пријављени"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:31
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart)"
+msgid "Restart the system"
+msgstr "Поново покрените систем"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:40
+#, fuzzy
+msgctxt "Description(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid "Restart the system when multiple users are logged in"
+msgstr "Поново покрените систем док су други корисници пријављени"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:14
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop)"
+msgid "System policy prevents stopping the system"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
+msgid ""
+"System policy prevents stopping the system when other users are logged in"
+msgstr "Обуставите систем док су други корисници пријављени"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:32
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart)"
+msgid "System policy prevents restarting the system"
+msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
+msgid ""
+"System policy prevents restarting the system when other users are logged in"
+msgstr "Обуставите систем док су други корисници пријављени"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:64
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:77
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:90
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr "Овлашћења система онемогућавају контролу мрежних веза"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr ""
+"Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:67
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:80
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
 msgid "Enable or disable system networking"
@@ -130,6 +300,12 @@ msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "Enable or disable mobile broadband devices"
 msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:362
+#, fuzzy
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid "Enable or disable WiMAX mobile broadband devices"
+msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:444
 msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
 msgid "Allow control of network connections"
@@ -144,6 +320,18 @@ msgstr "Веза се дели преко заштићене бежичне мр
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "Connection sharing via an open WiFi network"
 msgstr "Веза се дели преко отворене бежичне мреже"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:721
+#, fuzzy
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "Modify personal network connections"
+msgstr "Дозволи контролу мрежних веза"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:801
+#, fuzzy
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "Modify network connections for all users"
+msgstr "Измени подешавања боје за уређај"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:881
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
@@ -171,6 +359,14 @@ msgid "System policy prevents enabling or disabling mobile broadband devices"
 msgstr ""
 "Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
 
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:400
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid ""
+"System policy prevents enabling or disabling WiMAX mobile broadband devices"
+msgstr ""
+"Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
+
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:485
 msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
 msgid "System policy prevents control of network connections"
@@ -187,6 +383,18 @@ msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "System policy prevents sharing connections via an open WiFi network"
 msgstr ""
 "Овлашћења система не дозвољавају дељење везе преко отворене бежичне мреже"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:757
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "System policy prevents modification of personal network settings"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:837
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "System policy prevents modification of network settings for all users"
+msgstr "Овлашћења система не дозвољавају измену хоста"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:924
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
@@ -388,6 +596,59 @@ msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
 msgstr ""
 "Потребно је потврђивање идентитета за чишћење поруке ванмрежних ажурирања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
+msgstr ""
+"Потребно је да се идентификујете да бисте покретали програме као непријављен "
+"корисник."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
+msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid "Run the polkit example program Frobnicate"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:12
+msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
+msgid ""
+"Authentication is required to run the polkit example program Frobnicate "
+"(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
+"program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr ""
+"Потребно је да се идентификујете да бисте дозволили програму да спречи "
+"гашење система."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+"Потребно је да се идентификујете да бисте дозволили програму да одложи "
+"гашење система."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"

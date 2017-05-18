@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-05-16 14:44+0000\n"
+"POT-Creation-Date: 2017-05-18 11:30+0000\n"
 "PO-Revision-Date: 2017-05-16 14:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,6 +45,12 @@ msgctxt "Comment(video/x-ogm+ogg)"
 msgid "OGM video"
 msgstr "OGM-video"
 
+#: /usr/share/mime/video/vnd.mpegurl.xml:4
+#, fuzzy
+msgctxt "Comment(video/vnd.mpegurl)"
+msgid "MPEG video (streamed)"
+msgstr "MP3-sondosiero (fluigate)"
+
 #: /usr/share/mime/video/webm.xml:4
 msgctxt "Comment(video/webm)"
 msgid "WebM video"
@@ -60,10 +66,21 @@ msgctxt "Comment(video/quicktime)"
 msgid "QuickTime video"
 msgstr "QuickTime-video"
 
+#: /usr/share/mime/video/x-ms-wmv.xml:4
+#, fuzzy
+msgctxt "Comment(video/x-ms-wmv)"
+msgid "Windows Media video"
+msgstr "BMP-bildo de Vindozo"
+
 #: /usr/share/mime/video/x-nsv.xml:4
 msgctxt "Comment(video/x-nsv)"
 msgid "NullSoft video"
 msgstr "NullSoft-video"
+
+#: /usr/share/mime/video/3gpp.xml:4
+msgctxt "Comment(video/3gpp)"
+msgid "3GPP multimedia file"
+msgstr ""
 
 #: /usr/share/mime/video/x-anim.xml:4
 msgctxt "Comment(video/x-anim)"
@@ -85,20 +102,53 @@ msgctxt "Comment(video/annodex)"
 msgid "Annodex Video"
 msgstr "Annodex-video"
 
+#: /usr/share/mime/video/mp2t.xml:4
+msgctxt "Comment(video/mp2t)"
+msgid "MPEG-2 transport stream"
+msgstr ""
+
 #: /usr/share/mime/video/x-matroska.xml:4
 msgctxt "Comment(video/x-matroska)"
 msgid "Matroska video"
 msgstr "Matroska-video"
+
+#: /usr/share/mime/video/x-matroska-3d.xml:4
+#, fuzzy
+msgctxt "Comment(video/x-matroska-3d)"
+msgid "Matroska 3D video"
+msgstr "Matroska-video"
+
+#: /usr/share/mime/video/3gpp2.xml:4
+msgctxt "Comment(video/3gpp2)"
+msgid "3GPP2 multimedia file"
+msgstr ""
+
+#: /usr/share/mime/video/ogg.xml:4
+#, fuzzy
+msgctxt "Comment(video/ogg)"
+msgid "Ogg Video"
+msgstr "OGM-video"
 
 #: /usr/share/mime/video/x-javafx.xml:4
 msgctxt "Comment(video/x-javafx)"
 msgid "JavaFX video"
 msgstr "JavaFX-video"
 
+#: /usr/share/mime/video/x-theora+ogg.xml:4
+msgctxt "Comment(video/x-theora+ogg)"
+msgid "Ogg Theora video"
+msgstr ""
+
 #: /usr/share/mime/video/x-flv.xml:4
 msgctxt "Comment(video/x-flv)"
 msgid "Flash video"
 msgstr "Flash-video"
+
+#: /usr/share/mime/video/x-flic.xml:4
+#, fuzzy
+msgctxt "Comment(video/x-flic)"
+msgid "FLIC animation"
+msgstr "ANIM-animacio"
 
 #: /usr/share/mime/video/isivideo.xml:4
 msgctxt "Comment(video/isivideo)"
@@ -185,25 +235,52 @@ msgctxt "Comment(application/x-yaml)"
 msgid "YAML document"
 msgstr "YAML-dokumento"
 
+#: /usr/share/mime/application/x-planperfect.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-planperfect)"
+msgid "PlanPerfect spreadsheet"
+msgstr "Gnumeric-kalkultabelo"
+
 #: /usr/share/mime/application/x-netcdf.xml:4
 msgctxt "Comment(application/x-netcdf)"
 msgid "Unidata NetCDF document"
 msgstr "dokumento en NetCDF-formato de Unidata"
+
+#: /usr/share/mime/application/x-xliff.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xliff)"
+msgid "XLIFF translation file"
+msgstr "tradukad-dosiero"
 
 #: /usr/share/mime/application/metalink+xml.xml:4
 msgctxt "Comment(application/metalink+xml)"
 msgid "Metalink file"
 msgstr "Metalink-dosiero"
 
+#: /usr/share/mime/application/vnd.apple.mpegurl.xml:4
+msgctxt "Comment(application/vnd.apple.mpegurl)"
+msgid "HTTP Live Streaming playlist"
+msgstr ""
+
 #: /usr/share/mime/application/octet-stream.xml:4
 msgctxt "Comment(application/octet-stream)"
 msgid "unknown"
 msgstr "nekonate"
 
+#: /usr/share/mime/application/x-go-sgf.xml:4
+msgctxt "Comment(application/x-go-sgf)"
+msgid "SGF record"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.spreadsheet.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.spreadsheet)"
 msgid "ODS spreadsheet"
 msgstr "ODS-kalkultabelo"
+
+#: /usr/share/mime/application/pkcs7-mime.xml:4
+msgctxt "Comment(application/pkcs7-mime)"
+msgid "PKCS#7 Message or Certificate"
+msgstr ""
 
 #: /usr/share/mime/application/x-profile.xml:4
 msgctxt "Comment(application/x-profile)"
@@ -220,6 +297,24 @@ msgctxt "Comment(application/vnd.adobe.flash.movie)"
 msgid "Shockwave Flash file"
 msgstr "dosiero de Shockwave Flash"
 
+#: /usr/share/mime/application/x-amiga-disk-format.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-amiga-disk-format)"
+msgid "Amiga disk image"
+msgstr "XFig-bildo"
+
+#: /usr/share/mime/application/x-tarz.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-tarz)"
+msgid "Tar archive (compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
+#: /usr/share/mime/application/x-lrzip-compressed-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-lrzip-compressed-tar)"
+msgid "Tar archive (lrzip-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
 #: /usr/share/mime/application/x-dia-diagram.xml:4
 msgctxt "Comment(application/x-dia-diagram)"
 msgid "Dia diagram"
@@ -230,15 +325,31 @@ msgctxt "Comment(application/pgp-encrypted)"
 msgid "PGP/MIME-encrypted message header"
 msgstr "PGP/MIME-ĉifrita ĉapo de mesaĝo"
 
+#: /usr/share/mime/application/vnd.google-earth.kmz.xml:4
+msgctxt "Comment(application/vnd.google-earth.kmz)"
+msgid "KML geographic compressed data"
+msgstr ""
+
 #: /usr/share/mime/application/x-gettext-translation.xml:4
 msgctxt "Comment(application/x-gettext-translation)"
 msgid "translated messages (machine-readable)"
 msgstr "tradukitaj mesaĝoj (maŝinlegebla)"
 
+#: /usr/share/mime/application/vnd.mozilla.xul+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.mozilla.xul+xml)"
+msgid "XUL interface document"
+msgstr "Xbase-dokumento"
+
 #: /usr/share/mime/application/vnd.ms-htmlhelp.xml:4
 msgctxt "Comment(application/vnd.ms-htmlhelp)"
 msgid "CHM document"
 msgstr "CHM-dokumento"
+
+#: /usr/share/mime/application/sdp.xml:4
+msgctxt "Comment(application/sdp)"
+msgid "SDP multicast stream file"
+msgstr ""
 
 #: /usr/share/mime/application/dicom.xml:4
 msgctxt "Comment(application/dicom)"
@@ -260,10 +371,33 @@ msgctxt "Comment(application/x-qw)"
 msgid "Quicken document"
 msgstr "Quicken-dokumento"
 
+#: /usr/share/mime/application/sieve.xml:4
+msgctxt "Comment(application/sieve)"
+msgid "Sieve mail filter script"
+msgstr ""
+
 #: /usr/share/mime/application/x-n64-rom.xml:4
 msgctxt "Comment(application/x-n64-rom)"
 msgid "Nintendo64 ROM"
 msgstr "Nintendo64-NLM"
+
+#: /usr/share/mime/application/vnd.ms-tnef.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-tnef)"
+msgid "TNEF message"
+msgstr "mesaĝo de GNU mail"
+
+#: /usr/share/mime/application/x-xzpdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xzpdf)"
+msgid "PDF document (XZ-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
+
+#: /usr/share/mime/application/vnd.oasis.opendocument.presentation-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.presentation-flat-xml)"
+msgid "ODP presentation (Flat XML)"
+msgstr "ODP-prezentaĵo"
 
 #: /usr/share/mime/application/x-macbinary.xml:4
 msgctxt "Comment(application/x-macbinary)"
@@ -275,10 +409,32 @@ msgctxt "Comment(application/x-cpio)"
 msgid "CPIO archive"
 msgstr "CPIO-arkivo"
 
+#: /usr/share/mime/application/vnd.sun.xml.writer.global.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.writer.global)"
+msgid "OpenOffice Writer global document"
+msgstr "dokumento de Pathetic Writer"
+
+#: /usr/share/mime/application/mathematica.xml:4
+msgctxt "Comment(application/mathematica)"
+msgid "Mathematica Notebook"
+msgstr ""
+
 #: /usr/share/mime/application/x-zoo.xml:4
 msgctxt "Comment(application/x-zoo)"
 msgid "Zoo archive"
 msgstr "Zoo-arkivo"
+
+#: /usr/share/mime/application/x-xar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xar)"
+msgid "XAR archive"
+msgstr "AR-arkivo"
+
+#: /usr/share/mime/application/gpx+xml.xml:4
+msgctxt "Comment(application/gpx+xml)"
+msgid "GPX geographic data"
+msgstr ""
 
 #: /usr/share/mime/application/x-wais-source.xml:4
 msgctxt "Comment(application/x-wais-source)"
@@ -300,10 +456,25 @@ msgctxt "Comment(application/x-gzpostscript)"
 msgid "PostScript document (gzip-compressed)"
 msgstr "PostScript-dokumento (kunpremita per gzip)"
 
+#: /usr/share/mime/application/x-netshow-channel.xml:4
+msgctxt "Comment(application/x-netshow-channel)"
+msgid "Windows Media Station file"
+msgstr ""
+
 #: /usr/share/mime/application/x-applix-word.xml:4
 msgctxt "Comment(application/x-applix-word)"
 msgid "Applix Words document"
 msgstr "dokumento de Applix Words"
+
+#: /usr/share/mime/application/vnd.ms-excel.addin.macroenabled.12.xml:4
+msgctxt "Comment(application/vnd.ms-excel.addin.macroEnabled.12)"
+msgid "Excel add-in"
+msgstr ""
+
+#: /usr/share/mime/application/atom+xml.xml:4
+msgctxt "Comment(application/atom+xml)"
+msgid "Atom syndication feed"
+msgstr ""
 
 #: /usr/share/mime/application/x-shar.xml:4
 msgctxt "Comment(application/x-shar)"
@@ -315,10 +486,38 @@ msgctxt "Comment(application/x-python-bytecode)"
 msgid "Python bytecode"
 msgstr "Python-bajtkodo"
 
+#: /usr/share/mime/application/vnd.oasis.opendocument.text-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.text-flat-xml)"
+msgid "ODT document (Flat XML)"
+msgstr "ODT-dokumento"
+
+#: /usr/share/mime/application/vnd.lotus-wordpro.xml:4
+msgctxt "Comment(application/vnd.lotus-wordpro)"
+msgid "Lotus Word Pro"
+msgstr ""
+
 #: /usr/share/mime/application/x-wwf.xml:4
 msgctxt "Comment(application/x-wwf)"
 msgid "WWF document"
 msgstr "WWF-dokumento"
+
+#: /usr/share/mime/application/pkix-pkipath.xml:4
+msgctxt "Comment(application/pkix-pkipath)"
+msgid "PkiPath certification path"
+msgstr ""
+
+#: /usr/share/mime/application/x-nintendo-ds-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-nintendo-ds-rom)"
+msgid "Nintendo DS ROM"
+msgstr "Nintendo64-NLM"
+
+#: /usr/share/mime/application/gml+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/gml+xml)"
+msgid "GML document"
+msgstr "SGML-dokumento"
 
 #: /usr/share/mime/application/x-php.xml:4
 msgctxt "Comment(application/x-php)"
@@ -335,6 +534,11 @@ msgctxt "Comment(application/vnd.wordperfect)"
 msgid "WordPerfect document"
 msgstr "WordPerfect-dokumento"
 
+#: /usr/share/mime/application/json-patch+json.xml:4
+msgctxt "Comment(application/json-patch+json)"
+msgid "JSON patch"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.corel-draw.xml:4
 msgctxt "Comment(application/vnd.corel-draw)"
 msgid "Corel Draw drawing"
@@ -349,6 +553,17 @@ msgstr "BCPIO-dokumento"
 msgctxt "Comment(application/vnd.symbian.install)"
 msgid "SIS package"
 msgstr "SIS-pakaĵo"
+
+#: /usr/share/mime/application/x-par2.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-par2)"
+msgid "Parchive archive"
+msgstr "Java-arkivo"
+
+#: /usr/share/mime/application/x-kexi-connectiondata.xml:4
+msgctxt "Comment(application/x-kexi-connectiondata)"
+msgid "Kexi settings for database server connection"
+msgstr ""
 
 #: /usr/share/mime/application/mac-binhex40.xml:4
 msgctxt "Comment(application/mac-binhex40)"
@@ -370,6 +585,12 @@ msgctxt "Comment(application/rdf+xml)"
 msgid "RDF file"
 msgstr "RDF-dosiero"
 
+#: /usr/share/mime/application/pkcs10.xml:4
+#, fuzzy
+msgctxt "Comment(application/pkcs10)"
+msgid "PKCS#10 certification request"
+msgstr "ligaĵo de PKCS#12-atestiloj"
+
 #: /usr/share/mime/application/x-font-vfont.xml:4
 msgctxt "Comment(application/x-font-vfont)"
 msgid "V font"
@@ -385,6 +606,40 @@ msgctxt "Comment(application/x-genesis-rom)"
 msgid "Genesis ROM"
 msgstr "Genesis-NLM"
 
+#: /usr/share/mime/application/x-m4.xml:4
+msgctxt "Comment(application/x-m4)"
+msgid "M4 macro"
+msgstr ""
+
+#: /usr/share/mime/application/x-bzpdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzpdf)"
+msgid "PDF document (bzip-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
+
+#: /usr/share/mime/application/vnd.sun.xml.math.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.math)"
+msgid "OpenOffice Math formula"
+msgstr "StarMath-formulo"
+
+#: /usr/share/mime/application/x-spss-por.xml:4
+msgctxt "Comment(application/x-spss-por)"
+msgid "SPSS Portable Data File"
+msgstr ""
+
+#: /usr/share/mime/application/zlib.xml:4
+#, fuzzy
+msgctxt "Comment(application/zlib)"
+msgid "Zlib archive"
+msgstr "Zip-arkivo"
+
+#: /usr/share/mime/application/x-ms-wim.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ms-wim)"
+msgid "WIM disk Image"
+msgstr "WMF-bildo"
+
 #: /usr/share/mime/application/x-graphite.xml:4
 msgctxt "Comment(application/x-graphite)"
 msgid "Graphite scientific graph"
@@ -394,6 +649,11 @@ msgstr "scienca grafikaĵo de Graphite"
 msgctxt "Comment(application/msword)"
 msgid "Word document"
 msgstr "Word-dokumento"
+
+#: /usr/share/mime/application/vnd.ms-visio.drawing.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.drawing.main+xml)"
+msgid "Office Open XML Visio Drawing"
+msgstr ""
 
 #: /usr/share/mime/application/x-kspread-crypt.xml:4
 msgctxt "Comment(application/x-kspread-crypt)"
@@ -405,15 +665,39 @@ msgctxt "Comment(application/x-sv4crc)"
 msgid "SV4 CPIO archive (with CRC)"
 msgstr "SV4-CPIO-arkivo (kun CRC)"
 
+#: /usr/share/mime/application/x-pocket-word.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pocket-word)"
+msgid "Pocket Word document"
+msgstr "Word-dokumento"
+
 #: /usr/share/mime/application/vnd.ms-access.xml:4
 msgctxt "Comment(application/vnd.ms-access)"
 msgid "JET database"
 msgstr "JET-datumbazo"
 
+#: /usr/share/mime/application/x-apple-diskimage.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-apple-diskimage)"
+msgid "Apple disk image"
+msgstr "bildo de Applix Graphics"
+
+#: /usr/share/mime/application/x-compressed-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-compressed-tar)"
+msgid "Tar archive (gzip-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.formula-template.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.formula-template)"
 msgid "ODF template"
 msgstr "ODF-ŝablono"
+
+#: /usr/share/mime/application/x-gzdvi.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gzdvi)"
+msgid "TeX DVI document (gzip-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
 
 #: /usr/share/mime/application/x-subrip.xml:4
 msgctxt "Comment(application/x-subrip)"
@@ -424,6 +708,12 @@ msgstr "SubRip-subtekstoj"
 msgctxt "Comment(application/xml-dtd)"
 msgid "DTD file"
 msgstr "DTD-dosiero"
+
+#: /usr/share/mime/application/ld+json.xml:4
+#, fuzzy
+msgctxt "Comment(application/ld+json)"
+msgid "JSON-LD document"
+msgstr "JAD-dokumento"
 
 #: /usr/share/mime/application/x-tex-pk.xml:4
 msgctxt "Comment(application/x-tex-pk)"
@@ -440,6 +730,17 @@ msgctxt "Comment(application/x-core)"
 msgid "program crash data"
 msgstr "datumo pri kraŝo de programo"
 
+#: /usr/share/mime/application/x-qpress.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-qpress)"
+msgid "Qpress archive"
+msgstr "Zip-arkivo"
+
+#: /usr/share/mime/application/x-dia-shape.xml:4
+msgctxt "Comment(application/x-dia-shape)"
+msgid "Dia shape"
+msgstr ""
+
 #: /usr/share/mime/application/x-sqlite3.xml:4
 msgctxt "Comment(application/x-sqlite3)"
 msgid "SQLite3 database"
@@ -455,10 +756,21 @@ msgctxt "Comment(application/vnd.ms-asf)"
 msgid "ASF video"
 msgstr "ASF-video"
 
+#: /usr/share/mime/application/x-qtiplot.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-qtiplot)"
+msgid "QtiPlot document"
+msgstr "Gnuplot-dokumento"
+
 #: /usr/share/mime/application/prs.plucker.xml:4
 msgctxt "Comment(application/prs.plucker)"
 msgid "Plucker document"
 msgstr "Plucker-dokumento"
+
+#: /usr/share/mime/application/winhlp.xml:4
+msgctxt "Comment(application/winhlp)"
+msgid "WinHelp help file"
+msgstr ""
 
 #: /usr/share/mime/application/x-kivio.xml:4
 msgctxt "Comment(application/x-kivio)"
@@ -475,6 +787,22 @@ msgctxt "Comment(application/x-bittorrent)"
 msgid "BitTorrent seed file"
 msgstr "BitTorrent-semdosiero"
 
+#: /usr/share/mime/application/x-font-type1.xml:4
+msgctxt "Comment(application/x-font-type1)"
+msgid "Postscript type-1 font"
+msgstr ""
+
+#: /usr/share/mime/application/x-ccmx.xml:4
+msgctxt "Comment(application/x-ccmx)"
+msgid "CCMX color correction file"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.xdgapp.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.xdgapp)"
+msgid "XDG application bundle"
+msgstr "protokolo de aplikaĵo"
+
 #: /usr/share/mime/application/x-ole-storage.xml:4
 msgctxt "Comment(application/x-ole-storage)"
 msgid "OLE2 compound document storage"
@@ -484,6 +812,12 @@ msgstr "OLE2-deponejo de parentezaj dokumentoj"
 msgctxt "Comment(application/vnd.lotus-1-2-3)"
 msgid "Lotus 1-2-3 spreadsheet"
 msgstr "Kalkultabelo de Lotus 1-2-3"
+
+#: /usr/share/mime/application/x-cbt.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cbt)"
+msgid "comic book archive"
+msgstr "Zoo-arkivo"
 
 #: /usr/share/mime/application/x-kontour.xml:4
 msgctxt "Comment(application/x-kontour)"
@@ -500,15 +834,64 @@ msgctxt "Comment(application/x-smaf)"
 msgid "SMAF audio"
 msgstr "SMAF-sondosiero"
 
+#: /usr/share/mime/application/vnd.nintendo.snes.rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.nintendo.snes.rom)"
+msgid "Super NES ROM"
+msgstr "NES-NLM"
+
+#: /usr/share/mime/application/x-navi-animation.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-navi-animation)"
+msgid "Windows animated cursor"
+msgstr "Windows-kursoro"
+
+#: /usr/share/mime/application/x-partial-download.xml:4
+msgctxt "Comment(application/x-partial-download)"
+msgid "Partially downloaded file"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.emusic-emusic_package.xml:4
+msgctxt "Comment(application/vnd.emusic-emusic_package)"
+msgid "eMusic download package"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.openofficeorg.extension.xml:4
+msgctxt "Comment(application/vnd.openofficeorg.extension)"
+msgid "OpenOffice.org extension"
+msgstr ""
+
+#: /usr/share/mime/application/x-hwp.xml:4
+msgctxt "Comment(application/x-hwp)"
+msgid "Haansoft Hangul document"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.chart-template.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.chart-template)"
 msgid "ODC template"
 msgstr "ODC-ŝablono"
 
+#: /usr/share/mime/application/x-mimearchive.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-mimearchive)"
+msgid "MHTML web archive"
+msgstr "LHZ-arkivo"
+
+#: /usr/share/mime/application/vnd.ms-publisher.xml:4
+msgctxt "Comment(application/vnd.ms-publisher)"
+msgid "Microsoft Publisher document"
+msgstr ""
+
 #: /usr/share/mime/application/x-gdbm.xml:4
 msgctxt "Comment(application/x-gdbm)"
 msgid "GDBM database"
 msgstr "GDBM-datumbazo"
+
+#: /usr/share/mime/application/ram.xml:4
+#, fuzzy
+msgctxt "Comment(application/ram)"
+msgid "RealMedia Metafile"
+msgstr "RealMedia-dokumento"
 
 #: /usr/share/mime/application/vnd.stardivision.chart.xml:4
 msgctxt "Comment(application/vnd.stardivision.chart)"
@@ -524,6 +907,17 @@ msgstr "AportisDoc-dokumento"
 msgctxt "Comment(application/vnd.rn-realmedia)"
 msgid "RealMedia document"
 msgstr "RealMedia-dokumento"
+
+#: /usr/share/mime/application/vnd.ms-excel.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-excel.template.macroEnabled.12)"
+msgid "Excel spreadsheet template"
+msgstr "Excel-kalkultabelo"
+
+#: /usr/share/mime/application/x-kexiproject-sqlite2.xml:4
+msgctxt "Comment(application/x-kexiproject-sqlite2)"
+msgid "Kexi database file-based project"
+msgstr ""
 
 #: /usr/share/mime/application/x-font-ttf.xml:4
 msgctxt "Comment(application/x-font-ttf)"
@@ -545,10 +939,32 @@ msgctxt "Comment(application/x-font-pcf)"
 msgid "PCF font"
 msgstr "PCF-tiparo"
 
+#: /usr/share/mime/application/x-riff.xml:4
+msgctxt "Comment(application/x-riff)"
+msgid "RIFF container"
+msgstr ""
+
+#: /usr/share/mime/application/x-saturn-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-saturn-rom)"
+msgid "Sega Saturn disc image"
+msgstr "bildo de 3D Studio"
+
+#: /usr/share/mime/application/vnd.sun.xml.calc.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.calc)"
+msgid "OpenOffice Calc spreadsheet"
+msgstr "Excel-kalkultabelo"
+
 #: /usr/share/mime/application/x-object.xml:4
 msgctxt "Comment(application/x-object)"
 msgid "object code"
 msgstr "celkodo"
+
+#: /usr/share/mime/application/vnd.ms-visio.drawing.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.drawing.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Drawing"
+msgstr ""
 
 #: /usr/share/mime/application/smil+xml.xml:4
 msgctxt "Comment(application/smil+xml)"
@@ -570,6 +986,11 @@ msgctxt "Comment(application/x-font-linux-psf)"
 msgid "Linux PSF console font"
 msgstr "PSF-tiparo de Linux-konzolo"
 
+#: /usr/share/mime/application/vnd.ms-cab-compressed.xml:4
+msgctxt "Comment(application/vnd.ms-cab-compressed)"
+msgid "Microsoft Cabinet archive"
+msgstr ""
+
 #: /usr/share/mime/application/x-kchart.xml:4
 msgctxt "Comment(application/x-kchart)"
 msgid "KChart chart"
@@ -579,6 +1000,17 @@ msgstr "KChart-diagramo"
 msgctxt "Comment(application/javascript)"
 msgid "JavaScript program"
 msgstr "JavaScript-programo"
+
+#: /usr/share/mime/application/vnd.ms-excel.sheet.binary.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-excel.sheet.binary.macroEnabled.12)"
+msgid "Excel 2007 binary spreadsheet"
+msgstr "Excel-kalkultabelo"
+
+#: /usr/share/mime/application/x-doom-wad.xml:4
+msgctxt "Comment(application/x-doom-wad)"
+msgid "Doom WAD"
+msgstr ""
 
 #: /usr/share/mime/application/x-troff-man-compressed.xml:4
 msgctxt "Comment(application/x-troff-man-compressed)"
@@ -605,6 +1037,11 @@ msgctxt "Comment(application/x-t602)"
 msgid "T602 document"
 msgstr "T602-dokumento"
 
+#: /usr/share/mime/application/vnd.geo+json.xml:4
+msgctxt "Comment(application/vnd.geo+json)"
+msgid "GeoJSON geospatial data"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.ms-powerpoint.xml:4
 msgctxt "Comment(application/vnd.ms-powerpoint)"
 msgid "PowerPoint presentation"
@@ -630,15 +1067,61 @@ msgctxt "Comment(application/x-dar)"
 msgid "DAR archive"
 msgstr "DAR-arkivo"
 
+#: /usr/share/mime/application/x-spss-sav.xml:4
+msgctxt "Comment(application/x-spss-sav)"
+msgid "SPSS Data File"
+msgstr ""
+
+#: /usr/share/mime/application/x-gtk-builder.xml:4
+msgctxt "Comment(application/x-gtk-builder)"
+msgid "GTK+ Builder"
+msgstr ""
+
 #: /usr/share/mime/application/x-font-libgrx.xml:4
 msgctxt "Comment(application/x-font-libgrx)"
 msgid "LIBGRX font"
 msgstr "LIBGRX-tiparo"
 
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.wordprocessingml.template.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.wordprocessingml."
+"template)"
+msgid "Word 2007 document template"
+msgstr "KWord-dokumento (ĉifrita)"
+
+#: /usr/share/mime/application/vnd.ms-visio.template.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.template.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Template"
+msgstr ""
+
+#: /usr/share/mime/application/x-source-rpm.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-source-rpm)"
+msgid "Source RPM package"
+msgstr "RPM-pakaĵo"
+
 #: /usr/share/mime/application/x-bzip.xml:4
 msgctxt "Comment(application/x-bzip)"
 msgid "Bzip archive"
 msgstr "Bzip-arkivo"
+
+#: /usr/share/mime/application/x-cue.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cue)"
+msgid "CD image cuesheet"
+msgstr "PCD-bildo"
+
+#: /usr/share/mime/application/x-font-ttx.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-font-ttx)"
+msgid "TrueType XML font"
+msgstr "TrueType-tiparo"
+
+#: /usr/share/mime/application/vnd.ms-visio.template.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.template.main+xml)"
+msgid "Office Open XML Visio Template"
+msgstr ""
 
 #: /usr/share/mime/application/x-nautilus-link.xml:4
 msgctxt "Comment(application/x-nautilus-link)"
@@ -654,6 +1137,44 @@ msgstr "metrikoj de Adobe-tiparo"
 msgctxt "Comment(application/x-shellscript)"
 msgid "shell script"
 msgstr "ŝelskripto"
+
+#: /usr/share/mime/application/vnd.sun.xml.calc.template.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.calc.template)"
+msgid "OpenOffice Calc template"
+msgstr "ODC-ŝablono"
+
+#: /usr/share/mime/application/x-pagemaker.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pagemaker)"
+msgid "Adobe PageMaker"
+msgstr "Tiparo de Adobe FrameMaker"
+
+#: /usr/share/mime/application/x-msi.xml:4
+msgctxt "Comment(application/x-msi)"
+msgid "Windows Installer package"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.tcpdump.pcap.xml:4
+msgctxt "Comment(application/vnd.tcpdump.pcap)"
+msgid "Network Packet Capture"
+msgstr ""
+
+#: /usr/share/mime/application/x-gzpdf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gzpdf)"
+msgid "PDF document (gzip-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
+
+#: /usr/share/mime/application/vnd.google-earth.kml+xml.xml:4
+msgctxt "Comment(application/vnd.google-earth.kml+xml)"
+msgid "KML geographic data"
+msgstr ""
+
+#: /usr/share/mime/application/x-mswinurl.xml:4
+msgctxt "Comment(application/x-mswinurl)"
+msgid "Internet shortcut"
+msgstr ""
 
 #: /usr/share/mime/application/x-designer.xml:4
 msgctxt "Comment(application/x-designer)"
@@ -685,6 +1206,23 @@ msgctxt "Comment(application/x-karbon)"
 msgid "Karbon14 drawing"
 msgstr "Karbon14-grafikaĵo"
 
+#: /usr/share/mime/application/x-ica.xml:4
+msgctxt "Comment(application/x-ica)"
+msgid "Citrix ICA settings file"
+msgstr ""
+
+#: /usr/share/mime/application/epub+zip.xml:4
+#, fuzzy
+msgctxt "Comment(application/epub+zip)"
+msgid "electronic book document"
+msgstr "FictionBook-dokumento"
+
+#: /usr/share/mime/application/x-java-pack200.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-java-pack200)"
+msgid "Pack200 Java archive"
+msgstr "Java-arkivo"
+
 #: /usr/share/mime/application/vnd.stardivision.math.xml:4
 msgctxt "Comment(application/vnd.stardivision.math)"
 msgid "StarMath formula"
@@ -694,6 +1232,11 @@ msgstr "StarMath-formulo"
 msgctxt "Comment(application/vnd.ms-word.document.macroEnabled.12)"
 msgid "Word document"
 msgstr "Word-dokumento"
+
+#: /usr/share/mime/application/rss+xml.xml:4
+msgctxt "Comment(application/rss+xml)"
+msgid "RSS summary"
+msgstr ""
 
 #: /usr/share/mime/application/x-frame.xml:4
 msgctxt "Comment(application/x-frame)"
@@ -740,10 +1283,41 @@ msgctxt "Comment(application/x-krita)"
 msgid "Krita document"
 msgstr "Krita-dokumento"
 
+#: /usr/share/mime/application/x-wii-wad.xml:4
+msgctxt "Comment(application/x-wii-wad)"
+msgid "WiiWare bundle"
+msgstr ""
+
+#: /usr/share/mime/application/x-cdrdao-toc.xml:4
+msgctxt "Comment(application/x-cdrdao-toc)"
+msgid "CD Table Of Contents"
+msgstr ""
+
+#: /usr/share/mime/application/pkix-cert.xml:4
+msgctxt "Comment(application/pkix-cert)"
+msgid "X.509 certificate"
+msgstr ""
+
+#: /usr/share/mime/application/pkcs8.xml:4
+msgctxt "Comment(application/pkcs8)"
+msgid "PKCS#8 private key"
+msgstr ""
+
 #: /usr/share/mime/application/msword-template.xml:4
 msgctxt "Comment(application/msword-template)"
 msgid "Word template"
 msgstr "Word-ŝablono"
+
+#: /usr/share/mime/application/vnd.ms-visio.stencil.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.stencil.main+xml)"
+msgid "Office Open XML Visio Stencil"
+msgstr ""
+
+#: /usr/share/mime/application/xml-external-parsed-entity.xml:4
+#, fuzzy
+msgctxt "Comment(application/xml-external-parsed-entity)"
+msgid "XML entities document"
+msgstr "XML-dokumento"
 
 #: /usr/share/mime/application/vnd.ms-excel.sheet.macroenabled.12.xml:4
 msgctxt "Comment(application/vnd.ms-excel.sheet.macroEnabled.12)"
@@ -755,6 +1329,16 @@ msgctxt "Comment(application/x-theme)"
 msgid "theme"
 msgstr "etoso"
 
+#: /usr/share/mime/application/vnd.sun.xml.impress.template.xml:4
+msgctxt "Comment(application/vnd.sun.xml.impress.template)"
+msgid "OpenOffice Impress template"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.ms-visio.stencil.macroenabled.main+xml.xml:4
+msgctxt "Comment(application/vnd.ms-visio.stencil.macroEnabled.main+xml)"
+msgid "Office Open XML Visio Stencil"
+msgstr ""
+
 #: /usr/share/mime/application/x-egon.xml:4
 msgctxt "Comment(application/x-egon)"
 msgid "Egon Animator animation"
@@ -765,10 +1349,33 @@ msgctxt "Comment(application/x-mswrite)"
 msgid "WRI document"
 msgstr "WRI-dokumento"
 
+#: /usr/share/mime/application/vnd.ms-works.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-works)"
+msgid "Microsoft Works document"
+msgstr "FictionBook-dokumento"
+
+#: /usr/share/mime/application/x-raw-disk-image-xz-compressed.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-raw-disk-image-xz-compressed)"
+msgid "Raw disk image (XZ-compressed)"
+msgstr "manpaĝo (kunpremita)"
+
+#: /usr/share/mime/application/vnd.ms-word.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-word.template.macroEnabled.12)"
+msgid "Word document template"
+msgstr "KWord-dokumento (ĉifrita)"
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.graphics.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.graphics)"
 msgid "ODG drawing"
 msgstr "ODG-desegnaĵo"
+
+#: /usr/share/mime/application/annodex.xml:4
+msgctxt "Comment(application/annodex)"
+msgid "Annodex exchange format"
+msgstr ""
 
 #: /usr/share/mime/application/x-kword-crypt.xml:4
 msgctxt "Comment(application/x-kword-crypt)"
@@ -815,10 +1422,34 @@ msgctxt "Comment(application/x-hdf)"
 msgid "HDF document"
 msgstr "HDF-dokumento"
 
+#: /usr/share/mime/application/x-ksysv-package.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ksysv-package)"
+msgid "KSysV init package"
+msgstr "Debian-pakaĵo"
+
 #: /usr/share/mime/application/illustrator.xml:4
 msgctxt "Comment(application/illustrator)"
 msgid "Adobe Illustrator document"
 msgstr "dokumento de Adobe Illustrator"
+
+#: /usr/share/mime/application/x-fluid.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-fluid)"
+msgid "FLTK Fluid file"
+msgstr "XSL-FO-dosiero"
+
+#: /usr/share/mime/application/x-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-tar)"
+msgid "Tar archive"
+msgstr "Ustar-arkivo"
+
+#: /usr/share/mime/application/x-bzpostscript.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzpostscript)"
+msgid "PostScript document (bzip-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
 
 #: /usr/share/mime/application/x-x509-ca-cert.xml:4
 msgctxt "Comment(application/x-x509-ca-cert)"
@@ -850,6 +1481,12 @@ msgctxt "Comment(application/x-e-theme)"
 msgid "Enlightenment theme"
 msgstr "etoso de Enlightenment"
 
+#: /usr/share/mime/application/x-xz-compressed-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-xz-compressed-tar)"
+msgid "Tar archive (XZ-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
 #: /usr/share/mime/application/vnd.ms-powerpoint.slideshow.macroenabled.12.xml:4
 msgctxt "Comment(application/vnd.ms-powerpoint.slideshow.macroEnabled.12)"
 msgid "PowerPoint presentation"
@@ -860,10 +1497,28 @@ msgctxt "Comment(application/x-lhz)"
 msgid "LHZ archive"
 msgstr "LHZ-arkivo"
 
+#: /usr/share/mime/application/vnd.coffeescript.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.coffeescript)"
+msgid "CoffeeScript document"
+msgstr "eniga dokumento de Troff MS"
+
+#: /usr/share/mime/application/x-chess-pgn.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-chess-pgn)"
+msgid "PGN chess game notation"
+msgstr "ODP-prezentaĵo"
+
 #: /usr/share/mime/application/xhtml+xml.xml:4
 msgctxt "Comment(application/xhtml+xml)"
 msgid "XHTML page"
 msgstr "XHTML-paĝo"
+
+#: /usr/share/mime/application/vnd.sun.xml.draw.template.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.draw.template)"
+msgid "OpenOffice Draw template"
+msgstr "ODF-ŝablono"
 
 #: /usr/share/mime/application/x-7z-compressed.xml:4
 msgctxt "Comment(application/x-7z-compressed)"
@@ -885,10 +1540,51 @@ msgctxt "Comment(application/x-font-framemaker)"
 msgid "Adobe FrameMaker font"
 msgstr "Tiparo de Adobe FrameMaker"
 
+#: /usr/share/mime/application/vnd.sun.xml.writer.template.xml:4
+msgctxt "Comment(application/vnd.sun.xml.writer.template)"
+msgid "OpenOffice Writer template"
+msgstr ""
+
+#: /usr/share/mime/application/x-wii-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-wii-rom)"
+msgid "Wii disc image"
+msgstr "BMP-bildo de Vindozo"
+
+#: /usr/share/mime/application/andrew-inset.xml:4
+msgctxt "Comment(application/andrew-inset)"
+msgid "ATK inset"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.visio.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.visio)"
+msgid "Microsoft Visio document"
+msgstr "AportisDoc-dokumento"
+
 #: /usr/share/mime/application/x-pef-executable.xml:4
 msgctxt "Comment(application/x-pef-executable)"
 msgid "PEF executable"
 msgstr "PEF-plenumebla"
+
+#: /usr/share/mime/application/pkix-crl.xml:4
+msgctxt "Comment(application/pkix-crl)"
+msgid "Certificate revocation list"
+msgstr ""
+
+#: /usr/share/mime/application/x-gba-rom.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gba-rom)"
+msgid "Game Boy Advance ROM"
+msgstr "NLM de Game Boy"
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.template.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.presentationml."
+"template)"
+msgid "PowerPoint 2007 presentation template"
+msgstr "PowerPoint-prezentaĵo"
 
 #: /usr/share/mime/application/rtf.xml:4
 msgctxt "Comment(application/rtf)"
@@ -905,6 +1601,13 @@ msgctxt "Comment(application/pgp-keys)"
 msgid "PGP keys"
 msgstr "PGP-ŝlosiloj"
 
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.spreadsheetml.sheet)"
+msgid "Excel 2007 spreadsheet"
+msgstr "Excel-kalkultabelo"
+
 #: /usr/share/mime/application/vnd.stardivision.writer.xml:4
 msgctxt "Comment(application/vnd.stardivision.writer)"
 msgid "StarWriter document"
@@ -914,6 +1617,17 @@ msgstr "StarWriter-dokumento"
 msgctxt "Comment(application/x-lha)"
 msgid "LHA archive"
 msgstr "LHA-arkivo"
+
+#: /usr/share/mime/application/x-nzb.xml:4
+msgctxt "Comment(application/x-nzb)"
+msgid "NewzBin usenet index"
+msgstr ""
+
+#: /usr/share/mime/application/x-gz-font-linux-psf.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-gz-font-linux-psf)"
+msgid "Linux PSF console font (gzip-compressed)"
+msgstr "PSF-tiparo de Linux-konzolo"
 
 #: /usr/share/mime/application/pdf.xml:4
 msgctxt "Comment(application/pdf)"
@@ -940,6 +1654,12 @@ msgctxt "Comment(application/vnd.oasis.opendocument.text-template)"
 msgid "ODT template"
 msgstr "ODT-ŝablono"
 
+#: /usr/share/mime/application/x-trig.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-trig)"
+msgid "TriG RDF document"
+msgstr "TGIF-dokumento"
+
 #: /usr/share/mime/application/x-class-file.xml:4
 msgctxt "Comment(application/x-class-file)"
 msgid "Java byte code"
@@ -954,6 +1674,12 @@ msgstr "XSLT-stilfolio"
 msgctxt "Comment(application/vnd.debian.binary-package)"
 msgid "Debian package"
 msgstr "Debian-pakaĵo"
+
+#: /usr/share/mime/application/vnd.ms-powerpoint.template.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-powerpoint.template.macroEnabled.12)"
+msgid "PowerPoint presentation template"
+msgstr "PowerPoint-prezentaĵo"
 
 #: /usr/share/mime/application/x-lzop.xml:4
 msgctxt "Comment(application/x-lzop)"
@@ -970,6 +1696,11 @@ msgctxt "Comment(application/vnd.hp-pcl)"
 msgid "PCL file"
 msgstr "PCL-dosiero"
 
+#: /usr/share/mime/application/x-gedcom.xml:4
+msgctxt "Comment(application/x-gedcom)"
+msgid "GEDCOM family history"
+msgstr ""
+
 #: /usr/share/mime/application/sql.xml:4
 msgctxt "Comment(application/sql)"
 msgid "SQL code"
@@ -984,6 +1715,24 @@ msgstr "CPIO-arkivo (kunpremita per gzip)"
 msgctxt "Comment(application/vnd.stardivision.draw)"
 msgid "StarDraw drawing"
 msgstr "StarDraw-grafikaĵo"
+
+#: /usr/share/mime/application/x-cb7.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cb7)"
+msgid "comic book archive"
+msgstr "Zoo-arkivo"
+
+#: /usr/share/mime/application/font-woff.xml:4
+#, fuzzy
+msgctxt "Comment(application/font-woff)"
+msgid "WOFF font"
+msgstr "PCF-tiparo"
+
+#: /usr/share/mime/application/vnd.sun.xml.writer.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.writer)"
+msgid "OpenOffice Writer document"
+msgstr "dokumento de Pathetic Writer"
 
 #: /usr/share/mime/application/x-lzip.xml:4
 msgctxt "Comment(application/x-lzip)"
@@ -1020,6 +1769,25 @@ msgctxt "Comment(application/x-kpovmodeler)"
 msgid "KPovModeler scene"
 msgstr "KPovModeler-sceno"
 
+#: /usr/share/mime/application/x-xpinstall.xml:4
+msgctxt "Comment(application/x-xpinstall)"
+msgid "XPInstall installer module"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.slideshow.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.presentationml."
+"slideshow)"
+msgid "PowerPoint 2007 show"
+msgstr "PowerPoint-prezentaĵo"
+
+#: /usr/share/mime/application/x-java-keystore.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-java-keystore)"
+msgid "Java keystore"
+msgstr "Java-bajtkodo"
+
 #: /usr/share/mime/application/x-font-bdf.xml:4
 msgctxt "Comment(application/x-font-bdf)"
 msgid "BDF font"
@@ -1030,15 +1798,54 @@ msgctxt "Comment(application/x-kword)"
 msgid "KWord document"
 msgstr "KWord-dokumento"
 
+#: /usr/share/mime/application/x-cbr.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cbr)"
+msgid "comic book archive"
+msgstr "Zoo-arkivo"
+
+#: /usr/share/mime/application/mbox.xml:4
+msgctxt "Comment(application/mbox)"
+msgid "mailbox file"
+msgstr ""
+
+#: /usr/share/mime/application/ecmascript.xml:4
+#, fuzzy
+msgctxt "Comment(application/ecmascript)"
+msgid "ECMAScript program"
+msgstr "JavaScript-programo"
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.text-web.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.text-web)"
 msgid "OTH template"
 msgstr "OTH-ŝablono"
 
+#: /usr/share/mime/application/x-java-jce-keystore.xml:4
+msgctxt "Comment(application/x-java-jce-keystore)"
+msgid "Java JCE keystore"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.presentation.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.presentation)"
 msgid "ODP presentation"
 msgstr "ODP-prezentaĵo"
+
+#: /usr/share/mime/application/x-matroska.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-matroska)"
+msgid "Matroska stream"
+msgstr "Matroska-video"
+
+#: /usr/share/mime/application/x-pc-engine-rom.xml:4
+msgctxt "Comment(application/x-pc-engine-rom)"
+msgid "PC Engine ROM"
+msgstr ""
+
+#: /usr/share/mime/application/x-bzip-compressed-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzip-compressed-tar)"
+msgid "Tar archive (bzip-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
 
 #: /usr/share/mime/application/postscript.xml:4
 msgctxt "Comment(application/postscript)"
@@ -1050,15 +1857,47 @@ msgctxt "Comment(application/x-rar)"
 msgid "RAR archive"
 msgstr "RAR-arkivo"
 
+#: /usr/share/mime/application/x-iwork-keynote-sffkey.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-iwork-keynote-sffkey)"
+msgid "Apple Keynote 5 presentation"
+msgstr "KPresenter-prezentaĵo"
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.presentation.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.presentationml."
+"presentation)"
+msgid "PowerPoint 2007 presentation"
+msgstr "PowerPoint-prezentaĵo"
+
 #: /usr/share/mime/application/x-font-dos.xml:4
 msgctxt "Comment(application/x-font-dos)"
 msgid "DOS font"
 msgstr "DOS-tiparo"
 
+#: /usr/share/mime/application/vnd.ms-powerpoint.slide.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-powerpoint.slide.macroEnabled.12)"
+msgid "PowerPoint slide"
+msgstr "PowerPoint-prezentaĵo"
+
+#: /usr/share/mime/application/x-lzma-compressed-tar.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-lzma-compressed-tar)"
+msgid "Tar archive (LZMA-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
 #: /usr/share/mime/application/mxf.xml:4
 msgctxt "Comment(application/mxf)"
 msgid "MXF video"
 msgstr "MXF-video"
+
+#: /usr/share/mime/application/owl+xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/owl+xml)"
+msgid "OWL XML file"
+msgstr "OCL-dosiero"
 
 #: /usr/share/mime/application/x-fictionbook+xml.xml:4
 msgctxt "Comment(application/x-fictionbook+xml)"
@@ -1070,6 +1909,23 @@ msgctxt "Comment(application/x-amipro)"
 msgid "Lotus AmiPro document"
 msgstr "dokumento de Lotus AmiPro"
 
+#: /usr/share/mime/application/vnd.ms-powerpoint.addin.macroenabled.12.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.ms-powerpoint.addin.macroEnabled.12)"
+msgid "PowerPoint add-in"
+msgstr "PowerPoint-prezentaĵo"
+
+#: /usr/share/mime/application/gnunet-directory.xml:4
+msgctxt "Comment(application/gnunet-directory)"
+msgid "GNUnet search file"
+msgstr ""
+
+#: /usr/share/mime/application/x-troff-man.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-troff-man)"
+msgid "Manpage manual document"
+msgstr "Skencil-dokumento"
+
 #: /usr/share/mime/application/x-abiword.xml:4
 msgctxt "Comment(application/x-abiword)"
 msgid "AbiWord document"
@@ -1079,6 +1935,12 @@ msgstr "AbiWord-dokumento"
 msgctxt "Comment(application/x-kformula)"
 msgid "KFormula formula"
 msgstr "KFormula-formulo"
+
+#: /usr/share/mime/application/x-cbz.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-cbz)"
+msgid "comic book archive"
+msgstr "Zoo-arkivo"
 
 #: /usr/share/mime/application/vnd.android.package-archive.xml:4
 msgctxt "Comment(application/vnd.android.package-archive)"
@@ -1105,10 +1967,28 @@ msgctxt "Comment(application/x-trash)"
 msgid "backup file"
 msgstr "restaŭrkopio"
 
+#: /usr/share/mime/application/x-shared-library-la.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-shared-library-la)"
+msgid "libtool shared library"
+msgstr "dinamike bindebla biblioteko"
+
 #: /usr/share/mime/application/vnd.ms-wpl.xml:4
 msgctxt "Comment(application/vnd.ms-wpl)"
 msgid "WPL playlist"
 msgstr "WPL-ludlisto"
+
+#: /usr/share/mime/application/vnd.oasis.opendocument.spreadsheet-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.spreadsheet-flat-xml)"
+msgid "ODS spreadsheet (Flat XML)"
+msgstr "ODS-kalkultabelo"
+
+#: /usr/share/mime/application/x-tzo.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-tzo)"
+msgid "Tar archive (LZO-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
 
 #: /usr/share/mime/application/pgp-signature.xml:4
 msgctxt "Comment(application/pgp-signature)"
@@ -1135,10 +2015,22 @@ msgctxt "Comment(application/x-docbook+xml)"
 msgid "DocBook document"
 msgstr "DocBook-dokumento"
 
+#: /usr/share/mime/application/vnd.oasis.opendocument.graphics-flat-xml.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.oasis.opendocument.graphics-flat-xml)"
+msgid "ODG drawing (Flat XML)"
+msgstr "ODG-desegnaĵo"
+
 #: /usr/share/mime/application/vnd.hp-hpgl.xml:4
 msgctxt "Comment(application/vnd.hp-hpgl)"
 msgid "HPGL file"
 msgstr "HPGL-dosiero"
+
+#: /usr/share/mime/application/x-ufraw.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-ufraw)"
+msgid "UFRaw ID image"
+msgstr "kruda lumdiskbildo"
 
 #: /usr/share/mime/application/x-oleo.xml:4
 msgctxt "Comment(application/x-oleo)"
@@ -1165,10 +2057,48 @@ msgctxt "Comment(application/x-tgif)"
 msgid "TGIF document"
 msgstr "TGIF-dokumento"
 
+#: /usr/share/mime/application/ogg.xml:4
+msgctxt "Comment(application/ogg)"
+msgid "Ogg multimedia file"
+msgstr ""
+
 #: /usr/share/mime/application/x-sc.xml:4
 msgctxt "Comment(application/x-sc)"
 msgid "SC/Xspread spreadsheet"
 msgstr "SC/Xspread-kalkultabelo"
+
+#: /usr/share/mime/application/x-cisco-vpn-settings.xml:4
+msgctxt "Comment(application/x-cisco-vpn-settings)"
+msgid "Cisco VPN Settings"
+msgstr ""
+
+#: /usr/share/mime/application/x-windows-themepack.xml:4
+msgctxt "Comment(application/x-windows-themepack)"
+msgid "Microsoft Windows theme pack"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.sun.xml.impress.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.impress)"
+msgid "OpenOffice Impress presentation"
+msgstr "StarImpress-prezentaĵo"
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.spreadsheetml.template.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.spreadsheetml.template)"
+msgid "Excel 2007 spreadsheet template"
+msgstr "Excel-kalkultabelo"
+
+#: /usr/share/mime/application/relax-ng-compact-syntax.xml:4
+msgctxt "Comment(application/relax-ng-compact-syntax)"
+msgid "RELAX NG XML schema"
+msgstr ""
+
+#: /usr/share/mime/application/x-hwt.xml:4
+msgctxt "Comment(application/x-hwt)"
+msgid "Haansoft Hangul document template"
+msgstr ""
 
 #: /usr/share/mime/application/x-lrzip.xml:4
 msgctxt "Comment(application/x-lrzip)"
@@ -1190,6 +2120,23 @@ msgctxt "Comment(application/x-wpg)"
 msgid "WordPerfect/Drawperfect image"
 msgstr "WordPerfect/Drawperfect-bildo"
 
+#: /usr/share/mime/application/x-bzdvi.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-bzdvi)"
+msgid "TeX DVI document (bzip-compressed)"
+msgstr "PostScript-dokumento (kunpremita per gzip)"
+
+#: /usr/share/mime/application/x-kexiproject-shortcut.xml:4
+msgctxt "Comment(application/x-kexiproject-shortcut)"
+msgid "shortcut to Kexi project on database server"
+msgstr ""
+
+#: /usr/share/mime/application/json.xml:4
+#, fuzzy
+msgctxt "Comment(application/json)"
+msgid "JSON document"
+msgstr "PS-dokumento"
+
 #: /usr/share/mime/application/x-kugar.xml:4
 msgctxt "Comment(application/x-kugar)"
 msgid "Kugar document"
@@ -1200,25 +2147,75 @@ msgctxt "Comment(application/x-archive)"
 msgid "AR archive"
 msgstr "AR-arkivo"
 
+#: /usr/share/mime/application/x-kexiproject-sqlite3.xml:4
+msgctxt "Comment(application/x-kexiproject-sqlite3)"
+msgid "Kexi database file-based project"
+msgstr ""
+
+#: /usr/share/mime/application/x-pkcs7-certificates.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-pkcs7-certificates)"
+msgid "PKCS#7 certificate bundle"
+msgstr "ligaĵo de PKCS#12-atestiloj"
+
+#: /usr/share/mime/application/x-lz4.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-lz4)"
+msgid "LZ4 archive"
+msgstr "LHZ-arkivo"
+
 #: /usr/share/mime/application/oxps.xml:4
 msgctxt "Comment(application/oxps)"
 msgid "XPS document"
 msgstr "XPS-dokumento"
+
+#: /usr/share/mime/application/x-raw-disk-image.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-raw-disk-image)"
+msgid "Raw disk image"
+msgstr "kruda lumdiskbildo"
 
 #: /usr/share/mime/application/x-slp.xml:4
 msgctxt "Comment(application/x-slp)"
 msgid "Stampede package"
 msgstr "Stampede-pakaĵo"
 
+#: /usr/share/mime/application/x-gnucash.xml:4
+msgctxt "Comment(application/x-gnucash)"
+msgid "GnuCash financial data"
+msgstr ""
+
 #: /usr/share/mime/application/x-magicpoint.xml:4
 msgctxt "Comment(application/x-magicpoint)"
 msgid "MagicPoint presentation"
 msgstr "MagicPoint-prezentaĵo"
 
+#: /usr/share/mime/application/vnd.sun.xml.draw.xml:4
+#, fuzzy
+msgctxt "Comment(application/vnd.sun.xml.draw)"
+msgid "OpenOffice Draw drawing"
+msgstr "grafikaĵo de Corel Draw"
+
+#: /usr/share/mime/application/x-quicktime-media-link.xml:4
+msgctxt "Comment(application/x-quicktime-media-link)"
+msgid "QuickTime metalink playlist"
+msgstr ""
+
 #: /usr/share/mime/application/x-ms-dos-executable.xml:4
 msgctxt "Comment(application/x-ms-dos-executable)"
 msgid "DOS/Windows executable"
 msgstr "DOS/Windows-plenumebla"
+
+#: /usr/share/mime/application/x-sms-rom.xml:4
+msgctxt "Comment(application/x-sms-rom)"
+msgid "Sega Master System/Game Gear ROM"
+msgstr ""
+
+#: /usr/share/mime/application/x-iff.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-iff)"
+msgid "IFF file"
+msgstr "RDF-dosiero"
 
 #: /usr/share/mime/application/x-siag.xml:4
 msgctxt "Comment(application/x-siag)"
@@ -1245,6 +2242,11 @@ msgctxt "Comment(application/x-glade)"
 msgid "Glade project"
 msgstr "Glade-projekto"
 
+#: /usr/share/mime/application/x-gamecube-rom.xml:4
+msgctxt "Comment(application/x-gamecube-rom)"
+msgid "GameCube disc image"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.oasis.opendocument.text.xml:4
 msgctxt "Comment(application/vnd.oasis.opendocument.text)"
 msgid "ODT document"
@@ -1254,6 +2256,25 @@ msgstr "ODT-dokumento"
 msgctxt "Comment(application/metalink4+xml)"
 msgid "Metalink file"
 msgstr "Metalink-dosiero"
+
+#: /usr/share/mime/application/jrd+json.xml:4
+#, fuzzy
+msgctxt "Comment(application/jrd+json)"
+msgid "JRD document"
+msgstr "JAD-dokumento"
+
+#: /usr/share/mime/application/x-dc-rom.xml:4
+msgctxt "Comment(application/x-dc-rom)"
+msgid "Dreamcast GD-ROM"
+msgstr ""
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.wordprocessingml.document.xml:4
+#, fuzzy
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.wordprocessingml."
+"document)"
+msgid "Word 2007 document"
+msgstr "Word-dokumento"
 
 #: /usr/share/mime/application/x-lzma.xml:4
 msgctxt "Comment(application/x-lzma)"
@@ -1265,6 +2286,17 @@ msgctxt "Comment(application/vnd.oasis.opendocument.graphics-template)"
 msgid "ODG template"
 msgstr "ODG-ŝablono"
 
+#: /usr/share/mime/application/x-zip-compressed-fb2.xml:4
+#, fuzzy
+msgctxt "Comment(application/x-zip-compressed-fb2)"
+msgid "Compressed FictionBook document"
+msgstr "FictionBook-dokumento"
+
+#: /usr/share/mime/application/x-mobipocket-ebook.xml:4
+msgctxt "Comment(application/x-mobipocket-ebook)"
+msgid "Mobipocket e-book"
+msgstr ""
+
 #: /usr/share/mime/application/vnd.ms-powerpoint.presentation.macroenabled.12.xml:4
 msgctxt "Comment(application/vnd.ms-powerpoint.presentation.macroEnabled.12)"
 msgid "PowerPoint presentation"
@@ -1274,6 +2306,17 @@ msgstr "PowerPoint-prezentaĵo"
 msgctxt "Comment(application/vnd.oasis.opendocument.spreadsheet-template)"
 msgid "ODS template"
 msgstr "ODS-ŝablono"
+
+#: /usr/share/mime/application/vnd.openxmlformats-officedocument.presentationml.slide.xml:4
+msgctxt ""
+"Comment(application/vnd.openxmlformats-officedocument.presentationml.slide)"
+msgid "PowerPoint 2007 slide"
+msgstr ""
+
+#: /usr/share/mime/application/x-it87.xml:4
+msgctxt "Comment(application/x-it87)"
+msgid "IT 8.7 color calibration file"
+msgstr ""
 
 #: /usr/share/mime/application/x-ruby.xml:4
 msgctxt "Comment(application/x-ruby)"
@@ -1315,6 +2358,12 @@ msgctxt "Comment(message/disposition-notification)"
 msgid "mail disposition report"
 msgstr "raporto pri dispono de retpoŝto"
 
+#: /usr/share/mime/audio/x-ape.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-ape)"
+msgid "Monkey's audio"
+msgstr "Matroska-sondosiero"
+
 #: /usr/share/mime/audio/mpeg.xml:4
 msgctxt "Comment(audio/mpeg)"
 msgid "MP3 audio"
@@ -1355,6 +2404,18 @@ msgctxt "Comment(audio/webm)"
 msgid "WebM audio"
 msgstr "WebM-sondosiero"
 
+#: /usr/share/mime/audio/x-flac+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-flac+ogg)"
+msgid "Ogg FLAC audio"
+msgstr "FLAC-sondosiero"
+
+#: /usr/share/mime/audio/x-gsm.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-gsm)"
+msgid "GSM 06.10 audio"
+msgstr "SMAF-sondosiero"
+
 #: /usr/share/mime/audio/x-xm.xml:4
 msgctxt "Comment(audio/x-xm)"
 msgid "FastTracker II audio"
@@ -1370,10 +2431,21 @@ msgctxt "Comment(audio/x-wav)"
 msgid "WAV audio"
 msgstr "WAV-sonkodo"
 
+#: /usr/share/mime/audio/aac.xml:4
+#, fuzzy
+msgctxt "Comment(audio/aac)"
+msgid "AAC audio"
+msgstr "FLAC-sondosiero"
+
 #: /usr/share/mime/audio/amr.xml:4
 msgctxt "Comment(audio/AMR)"
 msgid "AMR audio"
 msgstr "AMR-sondosiero"
+
+#: /usr/share/mime/audio/x-amzxml.xml:4
+msgctxt "Comment(audio/x-amzxml)"
+msgid "AmazonMP3 download file"
+msgstr ""
 
 #: /usr/share/mime/audio/midi.xml:4
 msgctxt "Comment(audio/midi)"
@@ -1395,6 +2467,11 @@ msgctxt "Comment(audio/x-stm)"
 msgid "Scream Tracker audio"
 msgstr "Sondosiero de Scream Tracker"
 
+#: /usr/share/mime/audio/x-ms-asx.xml:4
+msgctxt "Comment(audio/x-ms-asx)"
+msgid "Microsoft ASX playlist"
+msgstr ""
+
 #: /usr/share/mime/audio/x-iriver-pla.xml:4
 msgctxt "Comment(audio/x-iriver-pla)"
 msgid "iRiver Playlist"
@@ -1404,6 +2481,12 @@ msgstr "iRiver-ludlisto"
 msgctxt "Comment(audio/AMR-WB)"
 msgid "AMR-WB audio"
 msgstr "AMR-WB-sondosiero"
+
+#: /usr/share/mime/audio/x-musepack.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-musepack)"
+msgid "Musepack audio"
+msgstr "Sondosiero de Impulse Tracker"
 
 #: /usr/share/mime/audio/ac3.xml:4
 msgctxt "Comment(audio/ac3)"
@@ -1425,10 +2508,22 @@ msgctxt "Comment(audio/mp4)"
 msgid "MPEG-4 audio"
 msgstr "MPEG4-sondosiero"
 
+#: /usr/share/mime/audio/x-wavpack-correction.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-wavpack-correction)"
+msgid "WavPack audio correction file"
+msgstr "WavPack-sondosiero"
+
 #: /usr/share/mime/audio/annodex.xml:4
 msgctxt "Comment(audio/annodex)"
 msgid "Annodex Audio"
 msgstr "Annodex-sondosiero"
+
+#: /usr/share/mime/audio/x-psflib.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-psflib)"
+msgid "PSFlib audio library"
+msgstr "PSF-sondosiero"
 
 #: /usr/share/mime/audio/x-aifc.xml:4
 msgctxt "Comment(audio/x-aifc)"
@@ -1440,25 +2535,61 @@ msgctxt "Comment(audio/prs.sid)"
 msgid "Commodore 64 audio"
 msgstr "Sondosiero de Commodore 64"
 
+#: /usr/share/mime/audio/vnd.dts.xml:4
+#, fuzzy
+msgctxt "Comment(audio/vnd.dts)"
+msgid "DTS audio"
+msgstr "PSF-sondosiero"
+
+#: /usr/share/mime/audio/x-ms-wma.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-ms-wma)"
+msgid "Windows Media audio"
+msgstr "BMP-bildo de Vindozo"
+
 #: /usr/share/mime/audio/x-mpegurl.xml:4
 msgctxt "Comment(audio/x-mpegurl)"
 msgid "MP3 audio (streamed)"
 msgstr "MP3-sondosiero (fluigate)"
+
+#: /usr/share/mime/audio/vnd.dts.hd.xml:4
+#, fuzzy
+msgctxt "Comment(audio/vnd.dts.hd)"
+msgid "DTSHD audio"
+msgstr "PSF-sondosiero"
 
 #: /usr/share/mime/audio/x-s3m.xml:4
 msgctxt "Comment(audio/x-s3m)"
 msgid "Scream Tracker 3 audio"
 msgstr "Sondosiero de Scream Tracker 3"
 
+#: /usr/share/mime/audio/x-speex+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-speex+ogg)"
+msgid "Ogg Speex audio"
+msgstr "Ogg-Vorbis-sondosiero"
+
 #: /usr/share/mime/audio/x-wavpack.xml:4
 msgctxt "Comment(audio/x-wavpack)"
 msgid "WavPack audio"
 msgstr "WavPack-sondosiero"
 
+#: /usr/share/mime/audio/x-speex.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-speex)"
+msgid "Speex audio"
+msgstr "PSF-sondosiero"
+
 #: /usr/share/mime/audio/x-matroska.xml:4
 msgctxt "Comment(audio/x-matroska)"
 msgid "Matroska audio"
 msgstr "Matroska-sondosiero"
+
+#: /usr/share/mime/audio/x-opus+ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-opus+ogg)"
+msgid "Opus audio"
+msgstr "VOC-sondosiero"
 
 #: /usr/share/mime/audio/x-minipsf.xml:4
 msgctxt "Comment(audio/x-minipsf)"
@@ -1469,6 +2600,18 @@ msgstr "MiniPSF-sondosiero"
 msgctxt "Comment(audio/mp2)"
 msgid "MP2 audio"
 msgstr "MP2-sondosiero"
+
+#: /usr/share/mime/audio/x-mo3.xml:4
+#, fuzzy
+msgctxt "Comment(audio/x-mo3)"
+msgid "compressed Tracker audio"
+msgstr "Sondosiero de Impulse Tracker"
+
+#: /usr/share/mime/audio/ogg.xml:4
+#, fuzzy
+msgctxt "Comment(audio/ogg)"
+msgid "Ogg Audio"
+msgstr "VOC-sondosiero"
 
 #: /usr/share/mime/audio/basic.xml:4
 msgctxt "Comment(audio/basic)"
@@ -1540,6 +2683,26 @@ msgctxt "Comment(image/x-quicktime)"
 msgid "QuickTime image"
 msgstr "QuickTime-bildo"
 
+#: /usr/share/mime/image/x-sony-sr2.xml:4
+msgctxt "Comment(image/x-sony-sr2)"
+msgid "Sony SR2 raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-kodak-k25.xml:4
+msgctxt "Comment(image/x-kodak-k25)"
+msgid "Kodak K25 raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sony-srf.xml:4
+msgctxt "Comment(image/x-sony-srf)"
+msgid "Sony SRF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sigma-x3f.xml:4
+msgctxt "Comment(image/x-sigma-x3f)"
+msgid "Sigma X3F raw image"
+msgstr ""
+
 #: /usr/share/mime/image/x-rgb.xml:4
 msgctxt "Comment(image/x-rgb)"
 msgid "RGB image"
@@ -1554,6 +2717,23 @@ msgstr "rastruma bildo de CMU"
 msgctxt "Comment(image/x-portable-pixmap)"
 msgid "PPM image"
 msgstr "PPM-bildo"
+
+#: /usr/share/mime/image/x-pentax-pef.xml:4
+msgctxt "Comment(image/x-pentax-pef)"
+msgid "Pentax PEF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-sun-raster.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-sun-raster)"
+msgid "Sun raster image"
+msgstr "rastruma bildo de CMU"
+
+#: /usr/share/mime/image/x-compressed-xcf.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-compressed-xcf)"
+msgid "compressed GIMP image"
+msgstr "GIMP-bildo"
 
 #: /usr/share/mime/image/svg+xml.xml:4
 msgctxt "Comment(image/svg+xml)"
@@ -1574,6 +2754,21 @@ msgstr "AutoCAD-bildo"
 msgctxt "Comment(image/x-xbitmap)"
 msgid "XBM image"
 msgstr "XBM-bildo"
+
+#: /usr/share/mime/image/x-panasonic-raw2.xml:4
+msgctxt "Comment(image/x-panasonic-raw2)"
+msgid "Panasonic raw2 image"
+msgstr ""
+
+#: /usr/share/mime/image/x-nikon-nef.xml:4
+msgctxt "Comment(image/x-nikon-nef)"
+msgid "Nikon NEF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/x-canon-cr2.xml:4
+msgctxt "Comment(image/x-canon-cr2)"
+msgid "Canon CR2 raw image"
+msgstr ""
 
 #: /usr/share/mime/image/vnd.adobe.photoshop.xml:4
 msgctxt "Comment(image/vnd.adobe.photoshop)"
@@ -1640,6 +2835,11 @@ msgctxt "Comment(image/g3fax)"
 msgid "G3 fax image"
 msgstr "G3-faksbildo"
 
+#: /usr/share/mime/image/openraster.xml:4
+msgctxt "Comment(image/openraster)"
+msgid "OpenRaster archiving image"
+msgstr ""
+
 #: /usr/share/mime/image/tiff.xml:4
 msgctxt "Comment(image/tiff)"
 msgid "TIFF image"
@@ -1665,10 +2865,25 @@ msgctxt "Comment(image/x-xcf)"
 msgid "GIMP image"
 msgstr "GIMP-bildo"
 
+#: /usr/share/mime/image/x-minolta-mrw.xml:4
+msgctxt "Comment(image/x-minolta-mrw)"
+msgid "Minolta MRW raw image"
+msgstr ""
+
 #: /usr/share/mime/image/x-fpx.xml:4
 msgctxt "Comment(image/x-fpx)"
 msgid "FPX image"
 msgstr "FPX-bildo"
+
+#: /usr/share/mime/image/x-adobe-dng.xml:4
+msgctxt "Comment(image/x-adobe-dng)"
+msgid "Adobe DNG negative"
+msgstr ""
+
+#: /usr/share/mime/image/x-dds.xml:4
+msgctxt "Comment(image/x-dds)"
+msgid "DirectDraw surface"
+msgstr ""
 
 #: /usr/share/mime/image/bmp.xml:4
 msgctxt "Comment(image/bmp)"
@@ -1710,20 +2925,42 @@ msgctxt "Comment(image/x-niff)"
 msgid "NIFF image"
 msgstr "NIFF-bildo"
 
+#: /usr/share/mime/image/x-tiff-multipage.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-tiff-multipage)"
+msgid "Multi-page TIFF image"
+msgstr "TIFF-bildo"
+
 #: /usr/share/mime/image/x-xwindowdump.xml:4
 msgctxt "Comment(image/x-xwindowdump)"
 msgid "X window image"
 msgstr "bildo de X window"
+
+#: /usr/share/mime/image/x-macpaint.xml:4
+msgctxt "Comment(image/x-macpaint)"
+msgid "MacPaint Bitmap image"
+msgstr ""
 
 #: /usr/share/mime/image/x-win-bitmap.xml:4
 msgctxt "Comment(image/x-win-bitmap)"
 msgid "Windows cursor"
 msgstr "Windows-kursoro"
 
+#: /usr/share/mime/image/x-gzeps.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-gzeps)"
+msgid "EPS image (gzip-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
 #: /usr/share/mime/image/ief.xml:4
 msgctxt "Comment(image/ief)"
 msgid "IEF image"
 msgstr "IEF-bildo"
+
+#: /usr/share/mime/image/rle.xml:4
+msgctxt "Comment(image/rle)"
+msgid "Run Length Encoded bitmap image"
+msgstr ""
 
 #: /usr/share/mime/image/x-xfig.xml:4
 msgctxt "Comment(image/x-xfig)"
@@ -1735,10 +2972,33 @@ msgctxt "Comment(image/x-portable-anymap)"
 msgid "PNM image"
 msgstr "PNM-bildo"
 
+#: /usr/share/mime/image/x-dcraw.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-dcraw)"
+msgid "digital raw image"
+msgstr "kruda lumdiskbildo"
+
+#: /usr/share/mime/image/svg+xml-compressed.xml:4
+#, fuzzy
+msgctxt "Comment(image/svg+xml-compressed)"
+msgid "compressed SVG image"
+msgstr "UNIX-kunpremita dosiero"
+
 #: /usr/share/mime/image/jp2.xml:4
 msgctxt "Comment(image/jp2)"
 msgid "JPEG-2000 image"
 msgstr "JPEG-2000-bildo"
+
+#: /usr/share/mime/image/vnd.microsoft.icon.xml:4
+#, fuzzy
+msgctxt "Comment(image/vnd.microsoft.icon)"
+msgid "Windows icon"
+msgstr "Windows-kursoro"
+
+#: /usr/share/mime/image/x-sony-arw.xml:4
+msgctxt "Comment(image/x-sony-arw)"
+msgid "Sony ARW raw image"
+msgstr ""
 
 #: /usr/share/mime/image/x-photo-cd.xml:4
 msgctxt "Comment(image/x-photo-cd)"
@@ -1750,6 +3010,17 @@ msgctxt "Comment(image/x-3ds)"
 msgid "3D Studio image"
 msgstr "bildo de 3D Studio"
 
+#: /usr/share/mime/image/x-olympus-orf.xml:4
+msgctxt "Comment(image/x-olympus-orf)"
+msgid "Olympus ORF raw image"
+msgstr ""
+
+#: /usr/share/mime/image/vnd.djvu+multipage.xml:4
+#, fuzzy
+msgctxt "Comment(image/vnd.djvu+multipage)"
+msgid "DjVu document"
+msgstr "ODA-dokumento"
+
 #: /usr/share/mime/image/x-sgi.xml:4
 msgctxt "Comment(image/x-sgi)"
 msgid "SGI image"
@@ -1760,35 +3031,116 @@ msgctxt "Comment(image/png)"
 msgid "PNG image"
 msgstr "PNG-bildo"
 
+#: /usr/share/mime/image/x-msod.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-msod)"
+msgid "Office drawing"
+msgstr "ODG-desegnaĵo"
+
 #: /usr/share/mime/image/x-portable-bitmap.xml:4
 msgctxt "Comment(image/x-portable-bitmap)"
 msgid "PBM image"
 msgstr "PBM-bildo"
+
+#: /usr/share/mime/image/x-fuji-raf.xml:4
+msgctxt "Comment(image/x-fuji-raf)"
+msgid "Fuji RAF raw image"
+msgstr ""
 
 #: /usr/share/mime/image/dpx.xml:4
 msgctxt "Comment(image/dpx)"
 msgid "DPX image"
 msgstr "DPX-bildo"
 
+#: /usr/share/mime/image/x-canon-crw.xml:4
+msgctxt "Comment(image/x-canon-crw)"
+msgid "Canon CRW raw image"
+msgstr ""
+
 #: /usr/share/mime/image/x-exr.xml:4
 msgctxt "Comment(image/x-exr)"
 msgid "EXR image"
 msgstr "EXR-bildo"
+
+#: /usr/share/mime/image/x-bzeps.xml:4
+#, fuzzy
+msgctxt "Comment(image/x-bzeps)"
+msgid "EPS image (bzip-compressed)"
+msgstr "CPIO-arkivo (kunpremita per gzip)"
+
+#: /usr/share/mime/image/cgm.xml:4
+msgctxt "Comment(image/cgm)"
+msgid "Computer Graphics Metafile"
+msgstr ""
+
+#: /usr/share/mime/image/x-kodak-kdc.xml:4
+msgctxt "Comment(image/x-kodak-kdc)"
+msgid "Kodak KDC raw image"
+msgstr ""
+
+#: /usr/share/mime/image/vnd.ms-modi.xml:4
+msgctxt "Comment(image/vnd.ms-modi)"
+msgid "Microsoft Document Imaging format"
+msgstr ""
 
 #: /usr/share/mime/image/x-ilbm.xml:4
 msgctxt "Comment(image/x-ilbm)"
 msgid "ILBM image"
 msgstr "ILBM-bildo"
 
+#: /usr/share/mime/image/webp.xml:4
+#, fuzzy
+msgctxt "Comment(image/webp)"
+msgid "WebP image"
+msgstr "WBMP-bildo"
+
+#: /usr/share/mime/image/x-xcursor.xml:4
+msgctxt "Comment(image/x-xcursor)"
+msgid "X11 cursor"
+msgstr ""
+
+#: /usr/share/mime/image/x-kodak-dcr.xml:4
+msgctxt "Comment(image/x-kodak-dcr)"
+msgid "Kodak DCR raw image"
+msgstr ""
+
 #: /usr/share/mime/image/vnd.wap.wbmp.xml:4
 msgctxt "Comment(image/vnd.wap.wbmp)"
 msgid "WBMP image"
 msgstr "WBMP-bildo"
 
+#: /usr/share/mime/image/x-panasonic-raw.xml:4
+msgctxt "Comment(image/x-panasonic-raw)"
+msgid "Panasonic raw image"
+msgstr ""
+
 #: /usr/share/mime/text/x-authors.xml:4
 msgctxt "Comment(text/x-authors)"
 msgid "author list"
 msgstr "listo de aŭtoroj"
+
+#: /usr/share/mime/text/x-svsrc.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-svsrc)"
+msgid "SystemVerilog source code"
+msgstr "Verilog-fontkodo"
+
+#: /usr/share/mime/text/xmcd.xml:4
+#, fuzzy
+msgctxt "Comment(text/xmcd)"
+msgid "XMCD CD database"
+msgstr "ODB-datumbazo"
+
+#: /usr/share/mime/text/x-chdr.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-chdr)"
+msgid "C header"
+msgstr "retpoŝtaj ĉapoj"
+
+#: /usr/share/mime/text/x-matlab.xml:4
+msgctxt "Comment(text/x-matlab)"
+msgid "MATLAB script/function"
+msgstr ""
 
 #: /usr/share/mime/text/x-mpsub.xml:4
 msgctxt "Comment(text/x-mpsub)"
@@ -1810,6 +3162,12 @@ msgctxt "Comment(text/x-setext)"
 msgid "Setext document"
 msgstr "Setext-dokumento"
 
+#: /usr/share/mime/text/x-credits.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-credits)"
+msgid "author credits"
+msgstr "listo de aŭtoroj"
+
 #: /usr/share/mime/text/x-troff-ms.xml:4
 msgctxt "Comment(text/x-troff-ms)"
 msgid "Troff MS input document"
@@ -1819,6 +3177,17 @@ msgstr "eniga dokumento de Troff MS"
 msgctxt "Comment(text/x-vhdl)"
 msgid "VHDL source code"
 msgstr "VHDL-fontkodo"
+
+#: /usr/share/mime/text/x-uil.xml:4
+msgctxt "Comment(text/x-uil)"
+msgid "X-Motif UIL table"
+msgstr ""
+
+#: /usr/share/mime/text/x-scons.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-scons)"
+msgid "SCons configuration file"
+msgstr "dosiero de agordoj de labortablo"
 
 #: /usr/share/mime/text/richtext.xml:4
 msgctxt "Comment(text/richtext)"
@@ -1835,15 +3204,32 @@ msgctxt "Comment(text/x-log)"
 msgid "application log"
 msgstr "protokolo de aplikaĵo"
 
+#: /usr/share/mime/text/x-moc.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-moc)"
+msgid "Qt MOC file"
+msgstr "OCL-dosiero"
+
 #: /usr/share/mime/text/x-tcl.xml:4
 msgctxt "Comment(text/x-tcl)"
 msgid "Tcl script"
 msgstr "Tcl-skripto"
 
+#: /usr/share/mime/text/markdown.xml:4
+#, fuzzy
+msgctxt "Comment(text/markdown)"
+msgid "Markdown document"
+msgstr "Word-dokumento"
+
 #: /usr/share/mime/text/x-c++src.xml:4
 msgctxt "Comment(text/x-c++src)"
 msgid "C++ source code"
 msgstr "C++-fontkodo"
+
+#: /usr/share/mime/text/x-qml.xml:4
+msgctxt "Comment(text/x-qml)"
+msgid "Qt Markup Language file"
+msgstr ""
 
 #: /usr/share/mime/text/rfc822-headers.xml:4
 msgctxt "Comment(text/rfc822-headers)"
@@ -1875,6 +3261,22 @@ msgctxt "Comment(text/x-adasrc)"
 msgid "Ada source code"
 msgstr "Ada-fontkodo"
 
+#: /usr/share/mime/text/x-mof.xml:4
+msgctxt "Comment(text/x-mof)"
+msgid "Managed Object Format"
+msgstr ""
+
+#: /usr/share/mime/text/x-c++hdr.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-c++hdr)"
+msgid "C++ header"
+msgstr "retpoŝtaj ĉapoj"
+
+#: /usr/share/mime/text/x-opml+xml.xml:4
+msgctxt "Comment(text/x-opml+xml)"
+msgid "OPML syndication feed"
+msgstr ""
+
 #: /usr/share/mime/text/x-bibtex.xml:4
 msgctxt "Comment(text/x-bibtex)"
 msgid "BibTeX document"
@@ -1895,10 +3297,27 @@ msgctxt "Comment(text/x-scheme)"
 msgid "Scheme source code"
 msgstr "Scheme-fontkodo"
 
+#: /usr/share/mime/text/x-svhdr.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-svhdr)"
+msgid "SystemVerilog header"
+msgstr "retpoŝtaj ĉapoj"
+
 #: /usr/share/mime/text/sgml.xml:4
 msgctxt "Comment(text/sgml)"
 msgid "SGML document"
 msgstr "SGML-dokumento"
+
+#: /usr/share/mime/text/x-genie.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-genie)"
+msgid "Genie source code"
+msgstr "Go-fontkodo"
+
+#: /usr/share/mime/text/x-rpm-spec.xml:4
+msgctxt "Comment(text/x-rpm-spec)"
+msgid "RPM spec file"
+msgstr ""
 
 #: /usr/share/mime/text/x-txt2tags.xml:4
 msgctxt "Comment(text/x-txt2tags)"
@@ -1910,10 +3329,20 @@ msgctxt "Comment(text/x-haskell)"
 msgid "Haskell source code"
 msgstr "Haskell-fontkodo"
 
+#: /usr/share/mime/text/x-install.xml:4
+msgctxt "Comment(text/x-install)"
+msgid "installation instructions"
+msgstr ""
+
 #: /usr/share/mime/text/x-objcsrc.xml:4
 msgctxt "Comment(text/x-objcsrc)"
 msgid "Objective-C source code"
 msgstr "fontkodo en Objective-C"
+
+#: /usr/share/mime/text/x-lilypond.xml:4
+msgctxt "Comment(text/x-lilypond)"
+msgid "Lilypond music sheet"
+msgstr ""
 
 #: /usr/share/mime/text/x-xslfo.xml:4
 msgctxt "Comment(text/x-xslfo)"
@@ -1925,10 +3354,34 @@ msgctxt "Comment(text/x-texinfo)"
 msgid "TeXInfo document"
 msgstr "TeXInfo-dokumento"
 
+#: /usr/share/mime/text/x-changelog.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-changelog)"
+msgid "ChangeLog document"
+msgstr "Xbase-dokumento"
+
+#: /usr/share/mime/text/x-meson.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-meson)"
+msgid "Meson source code"
+msgstr "Go-fontkodo"
+
 #: /usr/share/mime/text/css.xml:4
 msgctxt "Comment(text/css)"
 msgid "CSS stylesheet"
 msgstr "CSS-stilfolio"
+
+#: /usr/share/mime/text/vnd.graphviz.xml:4
+#, fuzzy
+msgctxt "Comment(text/vnd.graphviz)"
+msgid "Graphviz DOT graph"
+msgstr "scienca grafikaĵo de Graphite"
+
+#: /usr/share/mime/text/rust.xml:4
+#, fuzzy
+msgctxt "Comment(text/rust)"
+msgid "Rust source code"
+msgstr "D-fontkodo"
 
 #: /usr/share/mime/text/x-ssa.xml:4
 msgctxt "Comment(text/x-ssa)"
@@ -1955,6 +3408,12 @@ msgctxt "Comment(text/x-ldif)"
 msgid "LDIF address book"
 msgstr "LDIF-adresaro"
 
+#: /usr/share/mime/text/x-scala.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-scala)"
+msgid "Scala source code"
+msgstr "Vala-fontkodo"
+
 #: /usr/share/mime/text/htmlh.xml:4
 msgctxt "Comment(text/htmlh)"
 msgid "help page"
@@ -1980,6 +3439,12 @@ msgctxt "Comment(text/x-troff-me)"
 msgid "Troff ME input document"
 msgstr "eniga dokumento de Troff ME"
 
+#: /usr/share/mime/text/vnd.wap.wmlscript.xml:4
+#, fuzzy
+msgctxt "Comment(text/vnd.wap.wmlscript)"
+msgid "WMLScript program"
+msgstr "JavaScript-programo"
+
 #: /usr/share/mime/text/vcard.xml:4
 msgctxt "Comment(text/vcard)"
 msgid "electronic business card"
@@ -1990,6 +3455,11 @@ msgctxt "Comment(text/x-python)"
 msgid "Python script"
 msgstr "Python-skripto"
 
+#: /usr/share/mime/text/x-copying.xml:4
+msgctxt "Comment(text/x-copying)"
+msgid "license terms"
+msgstr ""
+
 #: /usr/share/mime/text/x-go.xml:4
 msgctxt "Comment(text/x-go)"
 msgid "Go source code"
@@ -1999,6 +3469,18 @@ msgstr "Go-fontkodo"
 msgctxt "Comment(text/x-dsl)"
 msgid "DSSSL document"
 msgstr "DSSSL-dokumento"
+
+#: /usr/share/mime/text/csv-schema.xml:4
+#, fuzzy
+msgctxt "Comment(text/csv-schema)"
+msgid "CSV Schema document"
+msgstr "CSV-dokumento"
+
+#: /usr/share/mime/text/x-iptables.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-iptables)"
+msgid "iptables configuration file"
+msgstr "dosiero de agordoj de labortablo"
 
 #: /usr/share/mime/text/x-tex.xml:4
 msgctxt "Comment(text/x-tex)"
@@ -2040,15 +3522,48 @@ msgctxt "Comment(text/x-patch)"
 msgid "differences between files"
 msgstr "diferencoj inter dosieroj"
 
+#: /usr/share/mime/text/x-imelody.xml:4
+msgctxt "Comment(text/x-iMelody)"
+msgid "iMelody ringtone"
+msgstr ""
+
 #: /usr/share/mime/text/vnd.wap.wml.xml:4
 msgctxt "Comment(text/vnd.wap.wml)"
 msgid "WML document"
 msgstr "WML-dokumento"
 
+#: /usr/share/mime/text/turtle.xml:4
+#, fuzzy
+msgctxt "Comment(text/turtle)"
+msgid "Turtle document"
+msgstr "TeX-dokumento"
+
+#: /usr/share/mime/text/x-uuencode.xml:4
+msgctxt "Comment(text/x-uuencode)"
+msgid "uuencoded file"
+msgstr ""
+
+#: /usr/share/mime/text/vtt.xml:4
+#, fuzzy
+msgctxt "Comment(text/vtt)"
+msgid "WebVTT subtitles"
+msgstr "MPSub-subtekstoj"
+
+#: /usr/share/mime/text/cache-manifest.xml:4
+msgctxt "Comment(text/cache-manifest)"
+msgid "Web application cache manifest"
+msgstr ""
+
 #: /usr/share/mime/text/vnd.sun.j2me.app-descriptor.xml:4
 msgctxt "Comment(text/vnd.sun.j2me.app-descriptor)"
 msgid "JAD document"
 msgstr "JAD-dokumento"
+
+#: /usr/share/mime/text/spreadsheet.xml:4
+#, fuzzy
+msgctxt "Comment(text/spreadsheet)"
+msgid "spreadsheet interchange document"
+msgstr "dokumento de Pathetic Writer"
 
 #: /usr/share/mime/text/x-makefile.xml:4
 msgctxt "Comment(text/x-makefile)"
@@ -2059,6 +3574,12 @@ msgstr "Muntodosiero"
 msgctxt "Comment(text/x-erlang)"
 msgid "Erlang source code"
 msgstr "Erlang-fontkodo"
+
+#: /usr/share/mime/text/tab-separated-values.xml:4
+#, fuzzy
+msgctxt "Comment(text/tab-separated-values)"
+msgid "TSV document"
+msgstr "CSV-dokumento"
 
 #: /usr/share/mime/text/x-ocaml.xml:4
 msgctxt "Comment(text/x-ocaml)"
@@ -2084,6 +3605,12 @@ msgstr "katalogo de mesaĝoj"
 msgctxt "Comment(text/vnd.rn-realtext)"
 msgid "RealText document"
 msgstr "RealText-dokumento"
+
+#: /usr/share/mime/text/x-mup.xml:4
+#, fuzzy
+msgctxt "Comment(text/x-mup)"
+msgid "Mup publication"
+msgstr "protokolo de aplikaĵo"
 
 #: /usr/share/mime/text/x-mrml.xml:4
 msgctxt "Comment(text/x-mrml)"
@@ -2130,6 +3657,16 @@ msgctxt "Comment(text/x-subviewer)"
 msgid "SubViewer subtitles"
 msgstr "SubViewer-subtekstoj"
 
+#: /usr/share/mime/text/x-google-video-pointer.xml:4
+msgctxt "Comment(text/x-google-video-pointer)"
+msgid "Google Video Pointer"
+msgstr ""
+
+#: /usr/share/mime/text/x-ms-regedit.xml:4
+msgctxt "Comment(text/x-ms-regedit)"
+msgid "Windows Registry extract"
+msgstr ""
+
 #: /usr/share/mime/text/x-vala.xml:4
 msgctxt "Comment(text/x-vala)"
 msgid "Vala source code"
@@ -2140,30 +3677,102 @@ msgctxt "Comment(text/x-readme)"
 msgid "README document"
 msgstr "README-dokumento"
 
+#: /usr/share/mime/text/x-modelica.xml:4
+msgctxt "Comment(text/x-modelica)"
+msgid "Modelica model"
+msgstr ""
+
 #: /usr/share/mime/text/x-xmi.xml:4
 msgctxt "Comment(text/x-xmi)"
 msgid "XMI file"
 msgstr "XMI-dosiero"
+
+#: /usr/share/mime/x-content/ebook-reader.xml:4
+msgctxt "Comment(x-content/ebook-reader)"
+msgid "e-book reader"
+msgstr ""
+
+#: /usr/share/mime/x-content/audio-player.xml:4
+msgctxt "Comment(x-content/audio-player)"
+msgid "portable audio player"
+msgstr ""
+
+#: /usr/share/mime/x-content/blank-cd.xml:4
+msgctxt "Comment(x-content/blank-cd)"
+msgid "blank CD disc"
+msgstr ""
 
 #: /usr/share/mime/x-content/video-vcd.xml:4
 msgctxt "Comment(x-content/video-vcd)"
 msgid "Video CD"
 msgstr "Video-KD"
 
+#: /usr/share/mime/x-content/blank-bd.xml:4
+msgctxt "Comment(x-content/blank-bd)"
+msgid "blank Blu-ray disc"
+msgstr ""
+
+#: /usr/share/mime/x-content/blank-hddvd.xml:4
+msgctxt "Comment(x-content/blank-hddvd)"
+msgid "blank HD DVD disc"
+msgstr ""
+
 #: /usr/share/mime/x-content/video-dvd.xml:4
 msgctxt "Comment(x-content/video-dvd)"
 msgid "video DVD"
 msgstr "video-DVD"
+
+#: /usr/share/mime/x-content/win32-software.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/win32-software)"
+msgid "Windows software"
+msgstr "Windows-kursoro"
+
+#: /usr/share/mime/x-content/image-dcf.xml:4
+msgctxt "Comment(x-content/image-dcf)"
+msgid "digital photos"
+msgstr ""
 
 #: /usr/share/mime/x-content/audio-dvd.xml:4
 msgctxt "Comment(x-content/audio-dvd)"
 msgid "audio DVD"
 msgstr "Son-DVD"
 
+#: /usr/share/mime/x-content/unix-software.xml:4
+msgctxt "Comment(x-content/unix-software)"
+msgid "UNIX software"
+msgstr ""
+
+#: /usr/share/mime/x-content/blank-dvd.xml:4
+msgctxt "Comment(x-content/blank-dvd)"
+msgid "blank DVD disc"
+msgstr ""
+
 #: /usr/share/mime/x-content/video-svcd.xml:4
 msgctxt "Comment(x-content/video-svcd)"
 msgid "Super Video CD"
 msgstr "Super-Video-KD"
+
+#: /usr/share/mime/x-content/image-picturecd.xml:4
+msgctxt "Comment(x-content/image-picturecd)"
+msgid "Picture CD"
+msgstr ""
+
+#: /usr/share/mime/x-content/software.xml:4
+msgctxt "Comment(x-content/software)"
+msgid "software"
+msgstr ""
+
+#: /usr/share/mime/x-content/video-bluray.xml:4
+msgctxt "Comment(x-content/video-bluray)"
+msgid "Blu-ray video disc"
+msgstr ""
+
+#: /usr/share/mime/x-content/video-hddvd.xml:4
+#, fuzzy
+msgctxt "Comment(x-content/video-hddvd)"
+msgid "HD DVD video disc"
+msgstr "DV-video"
 
 #: /usr/share/mime/x-content/audio-cdda.xml:4
 msgctxt "Comment(x-content/audio-cdda)"
