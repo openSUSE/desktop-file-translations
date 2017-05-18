@@ -137,7 +137,7 @@ def gettextQuote(string):
     """
 
     # TODO: Handle newline, tab, some unicode (?)
-    return '"{}"'.format(string.replace('\\', '\\\\').replace('"', '\\"'))
+    return '"{}"'.format(string.replace('\\', '\\\\').replace('"', '\\"').replace('\n', '\\n'))
 
 
 def gettextDateTimeUTC(when):
