@@ -54,6 +54,18 @@ done
 
 echo 'Done!'
 
+echo "Cleaning up POT files... "
+pushd "${outputdir}" > /dev/null
+for potfile in *.pot; do
+	printf "%s" "${potfile}"
+	msguniq --use-first "${potfile}" > "${tmpdir}"/"${potfile}"
+	mv "${tmpdir}"/"${potfile}" "${potfile}"
+	line_clear_back_home
+done
+popd > /dev/null
+
+echo 'Done!'
+
 echo "Merging with existing PO files... "
 
 for lang in $langs; do
@@ -62,7 +74,7 @@ for lang in $langs; do
 	for pofile in *; do
 		printf "%s %s" "${lang}" "${pofile}"
 		msguniq --use-first "${pofile}" > "${tmpdir}"/"${pofile}"
-		mv "${tmpdir}"/"${pofile}" "${pofile}"
+		msgmerge -q "${tmpdir}"/"${pofile}" "../${pofile%%\.po}.pot" > "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
 			msgmerge -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
@@ -80,6 +92,6 @@ done
 echo 'Done!'
 
 echo "Copying over POT files... "
-cp output/*.pot ../50-pot/
+cp "${outputdir}"/*.pot "../50-pot/"
 
 echo 'Done!'
