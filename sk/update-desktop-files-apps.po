@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2017-05-18 11:28+0000\n"
-"PO-Revision-Date: 2017-05-16 20:18+0100\n"
+"PO-Revision-Date: 2017-05-19 20:03+0100\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <opensuse-translation-sk@opensuse.org>\n"
 "Language: sk\n"
@@ -1972,10 +1972,12 @@ msgid "Window management and application launching"
 msgstr "Správa okien a spúšťanie aplikácií"
 
 #: /usr/share/applications/cinnamon-settings-screensaver.desktop:7
+#: /etc/xdg/autostart/mate-screensaver.desktop:3
+#: /etc/xdg/autostart/xscreensaver.desktop:4
 #, fuzzy
 msgctxt "Name(cinnamon-settings-screensaver.desktop)"
 msgid "Screensaver"
-msgstr "Čítačka obrazovky"
+msgstr "Šetrič obrazovky"
 
 #: /usr/share/applications/cinnamon-settings-screensaver.desktop:109
 #, fuzzy
@@ -2393,9 +2395,12 @@ msgid "Screensaver"
 msgstr "Čítačka obrazovky"
 
 #: /usr/share/applications/cinnamon-screensaver.desktop:4
+#: /etc/xdg/autostart/mate-screensaver.desktop:97
+#: /etc/xdg/autostart/xscreensaver.desktop:53
+#, fuzzy
 msgctxt "Comment(cinnamon-screensaver.desktop)"
 msgid "Launch screensaver and locker program"
-msgstr ""
+msgstr "Spustiť šetriť obrazovky a aplikáciu pre zamykanie obrazovky"
 
 #: /usr/share/applications/cinnamon-settings-daemon.desktop:3
 msgctxt "Name(cinnamon-settings-daemon.desktop)"
@@ -6906,9 +6911,12 @@ msgid "Personal File Sharing"
 msgstr "Sprístupnenie osobných súborov"
 
 #: /usr/share/applications/gnome-user-share-webdav.desktop:80
+#: /etc/xdg/autostart/mate-user-share-webdav.desktop:38
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:38
+#, fuzzy
 msgctxt "Comment(gnome-user-share-webdav.desktop)"
 msgid "Launch Personal File Sharing if enabled"
-msgstr "Ak je povolené, spustí sprístupnenie osobných súborov"
+msgstr "Ak je povolené, spustiť Zdieľanie osobných súborov"
 
 #: /usr/share/applications/gnome-user-share-webdav.desktop:155
 msgctxt "Keywords(gnome-user-share-webdav.desktop)"
@@ -8386,6 +8394,7 @@ msgid "icecc;icecream;monitor;network;"
 msgstr ""
 
 #: /usr/share/applications/icewm.desktop:3
+#: /usr/share/xsessions/icewm.desktop:6
 msgctxt "Name(icewm.desktop)"
 msgid "IceWM"
 msgstr "IceWM"
@@ -9545,16 +9554,19 @@ msgid "A Geography Learning Program"
 msgstr "Geografický výukový program"
 
 #: /usr/share/applications/org.kde.kgpg.desktop:9
+#: /etc/xdg/autostart/org.kde.kgpg.desktop:9
 msgctxt "GenericName(org.kde.kgpg.desktop)"
 msgid "Encryption Tool"
 msgstr "Šifrovací nástroj"
 
 #: /usr/share/applications/org.kde.kgpg.desktop:76
+#: /etc/xdg/autostart/org.kde.kgpg.desktop:76
 msgctxt "Comment(org.kde.kgpg.desktop)"
 msgid "A GnuPG frontend"
 msgstr "Rozhranie pre GnuPG"
 
 #: /usr/share/applications/org.kde.kgpg.desktop:144
+#: /etc/xdg/autostart/org.kde.kgpg.desktop:144
 msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
@@ -13917,11 +13929,13 @@ msgid "Nested Editor"
 msgstr "Textový editor"
 
 #: /usr/share/applications/nm-applet.desktop:2
+#: /etc/xdg/autostart/nm-applet.desktop:2
 msgctxt "Name(nm-applet.desktop)"
 msgid "Network"
 msgstr "Sieť"
 
 #: /usr/share/applications/nm-applet.desktop:71
+#: /etc/xdg/autostart/nm-applet.desktop:71
 msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "Spravuje vaše sieťové pripojenia"
@@ -14786,6 +14800,7 @@ msgid "Quake 3: Arena - like FPS game"
 msgstr ""
 
 #: /usr/share/applications/openbox.desktop:3
+#: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
 msgstr "Openbox"
@@ -15208,14 +15223,18 @@ msgid "Parallel visualization application"
 msgstr ""
 
 #: /usr/share/applications/parcellite.desktop:2
+#: /etc/xdg/autostart/parcellite-startup.desktop:2
+#, fuzzy
 msgctxt "GenericName(parcellite.desktop)"
 msgid "Clipboard Manager"
 msgstr "Správca schránky"
 
 #: /usr/share/applications/parcellite.desktop:3
+#: /etc/xdg/autostart/parcellite-startup.desktop:4
+#, fuzzy
 msgctxt "Name(parcellite.desktop)"
 msgid "Parcellite"
-msgstr ""
+msgstr "Parcellite"
 
 #: /usr/share/applications/parcellite.desktop:17
 msgctxt "Comment(parcellite.desktop)"
@@ -15951,6 +15970,7 @@ msgid "Plasma Addon Creator"
 msgstr "Plasma Media Center"
 
 #: /usr/share/applications/org.kde.klipper.desktop:2
+#: /usr/share/autostart/klipper.desktop:2
 #, fuzzy
 msgctxt "Name(org.kde.klipper.desktop)"
 msgid "Klipper"
@@ -15962,6 +15982,7 @@ msgid "Clipboard Tool"
 msgstr "Nástroj pre schránku"
 
 #: /usr/share/applications/org.kde.klipper.desktop:191
+#: /usr/share/autostart/klipper.desktop:192
 #, fuzzy
 msgctxt "Comment(org.kde.klipper.desktop)"
 msgid "A cut & paste history utility"
@@ -16137,6 +16158,7 @@ msgid "A graphical client for pommed (configuration GUI)"
 msgstr "Grafický klient pre pommed (konfigurácia GUI)"
 
 #: /usr/share/applications/gpomme.desktop:3
+#: /usr/share/autostart/gpomme.desktop:4
 msgctxt "Name(gpomme.desktop)"
 msgid "pommed GTK client"
 msgstr "pommed GTK klient"
@@ -20920,6 +20942,8 @@ msgid "Sensor Values Viewer"
 msgstr "Prehliadač hodnôt senzorov"
 
 #: /usr/share/applications/xfce4-power-manager-settings.desktop:3
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:2
+#, fuzzy
 msgctxt "Name(xfce4-power-manager-settings.desktop)"
 msgid "Power Manager"
 msgstr "Správca napájania"
