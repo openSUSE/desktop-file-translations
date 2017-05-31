@@ -31,7 +31,7 @@ DEFAULT_NAMESPACES = {'mime': 'http://www.freedesktop.org/standards/shared-mime-
 # This contains the information on how to generate po files from XML trees.
 # For each type it has a list of elements which content is translatable and methods
 # to get the needed values/attributes.
-TRANSLATABLE_ELEMENTS = {'appstream':
+TRANSLATABLE_ELEMENTS = {'appstreamdata':
                          [
                             {'path': xml.XPath("/component/name"),
                              'content': xml.XPath("string(./text())"),

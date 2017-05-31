@@ -32,7 +32,7 @@ from xml_handler import extractXMLLangInfo
 
 # Assigns each file type regexes that match the full file path
 # Keep in sync with brp-trim-translations.sh in update-desktop-files
-PATH_PATTERNS = {'appstream':
+PATH_PATTERNS = {'appstreamdata':
                  [re.compile("/usr/share/metainfo/.+\\.xml"),
                   re.compile("/usr/share/appdata/.+\\.xml")],
                  'polkitaction':
@@ -45,7 +45,7 @@ PATH_PATTERNS = {'appstream':
                  }
 
 # Assigns each file type a handler
-FILETYPE_HANDLERS = {'appstream': extractXMLLangInfo,
+FILETYPE_HANDLERS = {'appstreamdata': extractXMLLangInfo,
                      'polkitaction': extractXMLLangInfo,
                      'mimeinfo': extractXMLLangInfo,
                      'desktopfile': extractDesktopLangInfo
