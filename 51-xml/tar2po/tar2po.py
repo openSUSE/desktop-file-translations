@@ -59,8 +59,7 @@ FILETYPE_HANDLERS = {'appstreamdata': extractXMLLangInfo,
 # For each basename (of a PO/POT file) this contains various regexes to match the file path.
 FILENAME_PATTERNS = {'update-desktop-files-yast':
                      [
-                         # Not YaST2/ to also pick up YaST.desktop
-                         re.compile("/usr/share/applications/YaST.*\\.desktop")
+                         re.compile("/usr/share/applications/YaST2/.*\\.desktop")
                      ],
                      'update-desktop-files-directories':
                      [
