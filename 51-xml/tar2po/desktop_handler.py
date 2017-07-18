@@ -31,7 +31,8 @@ import re
 
 
 TRANSLATABLE_ENTRIES = {"Desktop Entry":
-                        ["GenericName", "Name", "Comment", "Keywords", "X-KDE-Keywords"]
+                        ["GenericName", "Name", "Comment", "Keywords", "X-KDE-Keywords"],
+                        #"Desktop Action *" has special handling in extractDesktopLangInfo
                         }
 
 # This is a special case, the section name can vary
@@ -111,7 +112,8 @@ def extractDesktopLangInfo(file, filepath, type):
             translations.pop(ctxt)
         elif translation['section'] in TRANSLATABLE_ENTRIES and translation['key'] in TRANSLATABLE_ENTRIES[translation['section']]:
             pass  # Keep
-        elif DESKTOPACTION_RE.match(translation['section']):
+        elif DESKTOPACTION_RE.match(translation['section']) and translation['key'] in TRANSLATABLE_ENTRIES['Desktop Entry']:
+            # Special handling for "Desktop Action *" sections, treat them as "Desktop Entry"
             pass  # Keep
         # Step 2.2: Warn if translated but not in TRANSLATABLE_ENTRIES
         elif len(translation['values']) > 1:
