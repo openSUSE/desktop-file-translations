@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: update-desktop-files.es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-07-18 07:22+0000\n"
-"PO-Revision-Date: 2018-01-26 22:06+0000\n"
+"PO-Revision-Date: 2018-01-27 01:07+0000\n"
 "Last-Translator: Juan Sarria <juansarriam@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/desktop-file-"
 "translations/update-desktop-files-master/es/>\n"
@@ -129,7 +129,7 @@ msgstr "Permite recibir archivos vía Bluetooth"
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:4
 msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
-msgstr "archivos;bluetooth;obex;recibir"
+msgstr "archivos;bluetooth;obex;recibir;"
 
 #: /etc/xdg/autostart/blueberry-tray.desktop:3
 msgctxt "Name(blueberry-tray.desktop)"
@@ -229,7 +229,7 @@ msgstr "Cargador de perfiles"
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:7
 msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
 msgid "Calibration and ICC Profile Loader"
-msgstr ""
+msgstr "Cargador de perfil ICC y calibración"
 
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:13
 msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
@@ -237,6 +237,8 @@ msgid ""
 "Sets ICC profiles and loads calibration curves for all configured display "
 "devices"
 msgstr ""
+"Define los perfiles ICC y carga curvas de calibración para todos los "
+"dispositivos de pantalla configurados"
 
 #: /usr/share/xsessions/e16-session.desktop:4
 msgctxt "Name(e16-session.desktop)"
@@ -271,7 +273,7 @@ msgstr "Centro multimedia Emotion"
 #: /usr/share/xsessions/epymc_xsession.desktop:5
 msgctxt "Comment(epymc_xsession.desktop)"
 msgid "Log in directly in EpyMC"
-msgstr ""
+msgstr "Iniciar sesión directamente en EpyMC"
 
 #: /etc/xdg/autostart/evolution-alarm-notify.desktop:3
 msgctxt "Name(evolution-alarm-notify.desktop)"
@@ -331,12 +333,12 @@ msgstr "Configuración del cortafuegos"
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:53
 msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
 msgid "Firewall direct interface"
-msgstr ""
+msgstr "Interfaz directa del cortafuegos"
 
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:64
 msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
 msgid "Firewall direct interface"
-msgstr ""
+msgstr "Interfaz directa del cortafuegos"
 
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:74
 msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
@@ -377,21 +379,29 @@ msgstr ""
 msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
 msgid "System policy prevents using the firewall direct interface"
 msgstr ""
+"La directiva del sistema impide que se use la interfaz directa del "
+"cortafuegos"
 
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:65
 msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
 msgid "System policy prevents inspecting the firewall direct interface"
 msgstr ""
+"La directiva del sistema impide que se inspeccione la interfaz directa del "
+"cortafuegos"
 
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:75
 msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
 msgid "System policy prevents using the firewall policies interface"
 msgstr ""
+"La directiva del sistema impide que se use la interfaz directa del "
+"cortafuegos"
 
 #: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:86
 msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
 msgid "System policy prevents inspecting the firewall policies interface"
 msgstr ""
+"La directiva del sistema impide que se inspeccione la interfaz de directivas "
+"del cortafuegos"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -418,7 +428,7 @@ msgstr "Migra la configuración del usuario de GConf a dconf"
 #: /etc/xdg/autostart/git-annex.desktop:4
 msgctxt "Name(git-annex.desktop)"
 msgid "Git Annex Assistant"
-msgstr ""
+msgstr "Asistente de anexo Git"
 
 #: /etc/xdg/autostart/git-annex.desktop:5
 msgctxt "Comment(git-annex.desktop)"
@@ -438,7 +448,7 @@ msgstr "Un gestor de historial de portapapeles"
 #: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:3
 msgctxt "Name(gnome-break-timer-autostart.desktop)"
 msgid "Break Timer"
-msgstr ""
+msgstr "Temporizador de pausas"
 
 #: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:8
 msgctxt "Comment(gnome-break-timer-autostart.desktop)"
@@ -448,7 +458,7 @@ msgstr "Proporciona un recordatorio amable para hacer descansos regulares"
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
-msgstr ""
+msgstr "Creador de copia de configuración inicial de GNOME"
 
 #: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
 msgctxt "Name(gnome-initial-setup-first-login.desktop)"
@@ -567,22 +577,22 @@ msgstr "i3"
 #: /usr/share/xsessions/i3.desktop:3
 msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
-msgstr ""
+msgstr "Gestor dinámico de ventanas de tipo mosaico mejorado"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
-msgstr ""
+msgstr "i3 (con registro de depuración)"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:3
 msgctxt "Comment(i3-with-shmlog.desktop)"
 msgid "improved dynamic tiling window manager"
-msgstr ""
+msgstr "Gestor dinámico de ventanas de tipo mosaico mejorado"
 
 #: /usr/share/xsessions/icewm.desktop:6
 msgctxt "Name(icewm.desktop)"
 msgid "IceWM"
-msgstr ""
+msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:14
 msgctxt "Comment(icewm.desktop)"
@@ -709,12 +719,12 @@ msgstr "Proyecto KiCad"
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
-msgstr ""
+msgstr "Esquema KiCad"
 
 #: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
 msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
-msgstr ""
+msgstr "Placa base KiCad"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -784,7 +794,7 @@ msgstr "Dibujo de OpenDocument (XML plano)"
 #: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
 msgctxt "Comment(libreoffice-spreadsheet.desktop)"
 msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr ""
+msgstr "Hoja de cálculo de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:27
 msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
@@ -794,7 +804,7 @@ msgstr "Hoja de cálculo de Microsoft Excel"
 #: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
 msgctxt "Comment(libreoffice-presentation.desktop)"
 msgid "OpenOffice.org 1.0 Presentation"
-msgstr ""
+msgstr "Presentación de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
 msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
@@ -814,194 +824,194 @@ msgstr "Documento de texto de OpenOffice.org 1.0"
 #: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
 msgctxt "Comment(libreoffice-oasis-text.desktop)"
 msgid "OpenDocument Text"
-msgstr ""
+msgstr "Texto de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
 msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
 msgid "OpenDocument Drawing"
-msgstr ""
+msgstr "Dibujo de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
 msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
 msgid "Microsoft Word Document"
-msgstr ""
+msgstr "Documento de Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
 msgctxt "Comment(libreoffice-presentation-template.desktop)"
 msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr ""
+msgstr "Plantilla de presentación de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
 msgid "OpenDocument Master Document Template"
-msgstr ""
+msgstr "Plantilla de documento maestro de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
 msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
 msgid "OpenDocument Master Document"
-msgstr ""
+msgstr "Documento maestro de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
 msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr ""
+msgstr "Hoja de cálculo de OpenDocument (XML plano)"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-presentationml-"
 "presentation.desktop)"
 msgid "Microsoft PowerPoint Presentation"
-msgstr ""
+msgstr "Presentación de Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
 "desktop)"
 msgid "Microsoft Word Document"
-msgstr ""
+msgstr "Documento de Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
 msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
 msgid "Microsoft PowerPoint Presentation"
-msgstr ""
+msgstr "Presentación de Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:27
 msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
 msgid "Microsoft PowerPoint Presentation Template"
-msgstr ""
+msgstr "Plantilla de presentación de Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
 msgctxt "Comment(libreoffice-oasis-database.desktop)"
 msgid "OpenDocument Database"
-msgstr ""
+msgstr "Base de datos de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
 msgctxt "Comment(libreoffice-text-template.desktop)"
 msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr ""
+msgstr "Plantilla de documento de texto de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
 msgctxt "Comment(libreoffice-drawing-template.desktop)"
 msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr ""
+msgstr "Plantilla de dibujo de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
 msgctxt "Comment(libreoffice-master-document.desktop)"
 msgid "OpenOffice.org 1.0 Master Document"
-msgstr ""
+msgstr "Documento maestro de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
 msgid "OpenDocument Text (Flat XML)"
-msgstr ""
+msgstr "Texto de OpenDocument (XML plano)"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
 msgid "OpenDocument Presentation"
-msgstr ""
+msgstr "Presentación de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
 msgid "OpenDocument Drawing Template"
-msgstr ""
+msgstr "Plantilla de dibujo de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
 "desktop)"
 msgid "Microsoft Excel Worksheet Template"
-msgstr ""
+msgstr "Plantilla de hoja de cálculo de Microsoft Excel"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
 msgid "OpenDocument Presentation Template"
-msgstr ""
+msgstr "Plantilla de presentación de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:27
 msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
 msgid "Microsoft Word Document Template"
-msgstr ""
+msgstr "Plantilla de documento de Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
 msgid "OpenDocument Spreadsheet"
-msgstr ""
+msgstr "Hoja de cálculo de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
 msgctxt "Comment(libreoffice-formula.desktop)"
 msgid "OpenOffice.org 1.0 Formula"
-msgstr ""
+msgstr "Fórmula de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-sheet."
 "desktop)"
 msgid "Microsoft Excel Worksheet"
-msgstr ""
+msgstr "Hoja de cálculo de Microsoft Excel"
 
 #: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
 msgctxt "Comment(libreoffice-drawing.desktop)"
 msgid "OpenOffice.org 1.0 Drawing"
-msgstr ""
+msgstr "Dibujo de OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
 "desktop)"
 msgid "Microsoft PowerPoint Presentation Template"
-msgstr ""
+msgstr "Plantilla de presentación de Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:27
 msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
 msgid "Microsoft Excel Worksheet Template"
-msgstr ""
+msgstr "Plantilla de hoja de cálculo de Microsoft Excel"
 
 #: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
 msgctxt "Comment(libreoffice-extension.desktop)"
 msgid "%PRODUCTNAME Extension"
-msgstr ""
+msgstr "Extensión de %PRODUCTNAME"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
 msgctxt ""
 "Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-template."
 "desktop)"
 msgid "Microsoft Word Document Template"
-msgstr ""
+msgstr "Plantilla de documento de Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
 msgctxt "Comment(libreoffice-oasis-formula.desktop)"
 msgid "OpenDocument Formula"
-msgstr ""
+msgstr "Fórmula de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
 msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
 msgid "Microsoft Excel Worksheet"
-msgstr ""
+msgstr "Hoja de cálculo de Microsoft Excel"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:27
 msgctxt "Comment(libreoffice-ms-word-document.desktop)"
 msgid "Microsoft Word Document"
-msgstr ""
+msgstr "Documento de Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
 msgid "OpenDocument Spreadsheet Template"
-msgstr ""
+msgstr "Plantilla de hoja de cálculo de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
 msgid "HTML Document Template"
-msgstr ""
+msgstr "Plantilla de documento HTML"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
 msgid "OpenDocument Text Template"
-msgstr ""
+msgstr "Plantilla de texto de OpenDocument"
 
 #: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
 msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr ""
+msgstr "Plantilla de hoja de cálculo de OpenOffice.org 1.0"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1046,17 +1056,17 @@ msgstr "Panel"
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
 msgid "Compton (X Compositor)"
-msgstr ""
+msgstr "Compton (compositor de X)"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:4
 msgctxt "GenericName(lxqt-compton.desktop)"
 msgid "X compositor"
-msgstr ""
+msgstr "Compositor de X"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:5
 msgctxt "Comment(lxqt-compton.desktop)"
 msgid "A X compositor"
-msgstr ""
+msgstr "Un compositor de X"
 
 #: /etc/xdg/autostart/lxqt-powermanagement.desktop:4
 msgctxt "Name(lxqt-powermanagement.desktop)"
@@ -1096,7 +1106,7 @@ msgstr "Escritorio Qt"
 #: /etc/xdg/autostart/lxpolkit.desktop:3
 msgctxt "Name(lxpolkit.desktop)"
 msgid "LXPolKit"
-msgstr ""
+msgstr "LXPolKit"
 
 #: /etc/xdg/autostart/lxpolkit.desktop:6
 msgctxt "Comment(lxpolkit.desktop)"
@@ -1128,7 +1138,7 @@ msgstr "Mostrar el control de volumen del escritorio"
 #: /etc/xdg/autostart/mate-volume-control-applet.desktop:173
 msgctxt "Keywords(mate-volume-control-applet.desktop)"
 msgid "MATE;volume;control;mixer;settings;sound;"
-msgstr ""
+msgstr "MATE;volumen;control;mezclador;configuración;sonido;"
 
 #: /etc/xdg/autostart/mate-maximus-autostart.desktop:3
 msgctxt "Name(mate-maximus-autostart.desktop)"
@@ -1183,7 +1193,7 @@ msgstr "Esta sesión accede a MATE"
 #: /usr/share/xsessions/mate.desktop:181
 msgctxt "Keywords(mate.desktop)"
 msgid "launch;MATE;desktop;session;"
-msgstr ""
+msgstr "inicio;MATE;escritorio;sesión;"
 
 #: /etc/xdg/autostart/mate-settings-daemon.desktop:3
 msgctxt "Name(mate-settings-daemon.desktop)"
@@ -1203,7 +1213,7 @@ msgstr "Lanzar la compartición de archivos personales si están activadas"
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop:108
 msgctxt "Keywords(mate-user-share-obexftp.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "compartir;archivos;bluetooth;obex;http;red;copiar;enviar;"
 
 #: /etc/xdg/autostart/mate-user-share-webdav.desktop:2
 msgctxt "Name(mate-user-share-webdav.desktop)"
@@ -1218,7 +1228,7 @@ msgstr "Lanzar la compartición de archivos personales si están activadas"
 #: /etc/xdg/autostart/mate-user-share-webdav.desktop:108
 msgctxt "Keywords(mate-user-share-webdav.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "compartir;archivos;bluetooth;obex;http;red;copiar;enviar;"
 
 #: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
 msgctxt "Name(mate-user-share-obexpush.desktop)"
@@ -1233,7 +1243,7 @@ msgstr "Lanzar la compartición de archivos personales si están activadas"
 #: /etc/xdg/autostart/mate-user-share-obexpush.desktop:108
 msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr ""
+msgstr "compartir;archivos;bluetooth;obex;http;red;copiar;enviar;"
 
 #: /usr/share/xsessions/mwm.desktop:6
 msgctxt "Name(mwm.desktop)"
@@ -1358,42 +1368,42 @@ msgstr "Bandeja del sistema de PulseAudio"
 #: /etc/xdg/autostart/pasystray.desktop:5
 msgctxt "GenericName(pasystray.desktop)"
 msgid ""
-msgstr ""
+msgstr " "
 
 #: /etc/xdg/autostart/pasystray.desktop:6
 msgctxt "Comment(pasystray.desktop)"
 msgid "An Applet for PulseAudio"
-msgstr ""
+msgstr "Un applet para PulseAudio"
 
 #: /etc/xdg/autostart/pasystray.desktop:12
 msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
-msgstr ""
+msgstr "pulseaudio;bandeja;bandeja del sistema;applet;volumen;"
 
 #: /usr/share/mimelnk/application/x-gerber.desktop:3
 msgctxt "Comment(x-gerber.desktop)"
 msgid "Gerber file"
-msgstr ""
+msgstr "Archivo de Gerber"
 
 #: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
 msgctxt "Comment(x-pcb-netlist.desktop)"
 msgid "PCB netlist"
-msgstr ""
+msgstr "Lista de nodos PCB (netlist)"
 
 #: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
 msgctxt "Comment(x-pcb-layout.desktop)"
 msgid "PCB layout"
-msgstr ""
+msgstr "Diseño del PCB"
 
 #: /usr/share/mimelnk/application/x-excellon.desktop:3
 msgctxt "Comment(x-excellon.desktop)"
 msgid "Excellon drill file"
-msgstr ""
+msgstr "Archivo drill de Excellon"
 
 #: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
 msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
-msgstr ""
+msgstr "Mapa de pines de PCB (footprint)"
 
 #: /etc/xdg/autostart/pk-update-icon.desktop:2
 msgctxt "Name(pk-update-icon.desktop)"
@@ -1438,7 +1448,7 @@ msgstr "Barra de menús de la aplicación"
 #: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:27
 msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 msgid "Combines the current application menu into your shell"
-msgstr ""
+msgstr "Combina el menú de la aplicación actual en la shell"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop)"
@@ -1588,7 +1598,7 @@ msgstr "Agente de autenticación PolicyKit"
 #: /usr/share/autostart/gpomme.desktop:4
 msgctxt "Name(gpomme.desktop)"
 msgid "pommed GTK client"
-msgstr ""
+msgstr "Cliente GTK para pommed"
 
 #: /etc/xdg/autostart/powerdevil.desktop:5
 msgctxt "Name(powerdevil.desktop)"
@@ -1625,7 +1635,7 @@ msgstr "Iniciar el Sistema de Sonido PulseAudio"
 #: /etc/xdg/autostart/pulseaudio.desktop:85
 msgctxt "GenericName(pulseaudio.desktop)"
 msgid ""
-msgstr ""
+msgstr " "
 
 #: /usr/share/mimelnk/application/x-qet-project.desktop:7
 msgctxt "Comment(x-qet-project.desktop)"
@@ -1650,12 +1660,12 @@ msgstr "Applet de WebYaST"
 #: /etc/xdg/autostart/roccateventhandler.desktop:2
 msgctxt "Name(roccateventhandler.desktop)"
 msgid "Roccat"
-msgstr ""
+msgstr "Roccat"
 
 #: /etc/xdg/autostart/roccateventhandler.desktop:4
 msgctxt "Comment(roccateventhandler.desktop)"
 msgid "Roccat eventhandler"
-msgstr ""
+msgstr "Gestor de eventos Roccat"
 
 #: /usr/share/autostart/rsibreak.desktop:11
 msgctxt "Name(rsibreak.desktop)"
@@ -1670,17 +1680,17 @@ msgstr "Se asegura de que descansa de vez en cuando"
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
 msgid "Sawfish"
-msgstr ""
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish.desktop:5
 msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
-msgstr ""
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish-kde4.desktop:2
 msgctxt "Name(sawfish-kde4.desktop)"
 msgid "Sawfish/KDE4"
-msgstr ""
+msgstr "Sawfish/KDE4"
 
 #: /usr/share/xsessions/sawfish-kde4.desktop:3
 msgctxt "Comment(sawfish-kde4.desktop)"
@@ -1690,7 +1700,7 @@ msgstr "Usar el gestor de ventanas Sawfish dentro del entorno de escritorio Kde"
 #: /usr/share/xsessions/sawfish-xfce.desktop:2
 msgctxt "Name(sawfish-xfce.desktop)"
 msgid "Sawfish/XFCE"
-msgstr ""
+msgstr "Sawfish/XFCE"
 
 #: /usr/share/xsessions/sawfish-xfce.desktop:3
 msgctxt "Comment(sawfish-xfce.desktop)"
@@ -1701,7 +1711,7 @@ msgstr ""
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
 msgid "Sawfish/Lumina"
-msgstr ""
+msgstr "Sawfish/Lumina"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:3
 msgctxt "Comment(sawfish-lumina.desktop)"
@@ -1712,7 +1722,7 @@ msgstr ""
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
 msgid "Sawfish/MATE"
-msgstr ""
+msgstr "Sawfish/MATE"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:3
 msgctxt "Comment(sawfish-mate.desktop)"
@@ -1723,7 +1733,7 @@ msgstr ""
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
 msgid "Scribus"
-msgstr ""
+msgstr "Scribus"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:5
 msgctxt "Comment(vnd.scribus.desktop)"
@@ -1753,12 +1763,13 @@ msgstr "Agente para invitados Spice"
 #: /usr/share/appdata/sqlitebrowser.desktop.appdata.xml:6
 msgctxt "Name(sqlitebrowser.desktop)"
 msgid "DB Browser for SQLite"
-msgstr ""
+msgstr "DB Browser for SQLite"
 
 #: /usr/share/appdata/sqlitebrowser.desktop.appdata.xml:7
 msgctxt "Summary(sqlitebrowser.desktop)"
 msgid "DB Browser for SQLite is a light GUI editor for SQLite databases"
 msgstr ""
+"DB Browser for SQLite es un editor de GUI ligero para bases de datos SQLite"
 
 #: /etc/xdg/autostart/synaptiks_init_config.desktop:4
 msgctxt "Name(synaptiks_init_config.desktop)"
@@ -1853,17 +1864,17 @@ msgstr "Obtener proveedores RSS/ATOM"
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
 msgid "Compressed TreeLine File"
-msgstr ""
+msgstr "Archivo TreeLine comprimido"
 
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
-msgstr ""
+msgstr "Archivo TreePad"
 
 #: /usr/share/mimelnk/application/x-treeline.desktop:3
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
-msgstr ""
+msgstr "Archivo TreeLine"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1907,7 +1918,7 @@ msgstr ""
 #: /usr/share/xsessions/xsession.desktop:2
 msgctxt "Name(xsession.desktop)"
 msgid "User/System Default"
-msgstr ""
+msgstr "Opción por defecto del usuario/sistema"
 
 #: /etc/xdg/autostart/xfce4-clipman-plugin-autostart.desktop:3
 msgctxt "Name(xfce4-clipman-plugin-autostart.desktop)"
@@ -2000,7 +2011,7 @@ msgstr ""
 #: /etc/xdg/autostart/xiccd.desktop:5
 msgctxt "Name(xiccd.desktop)"
 msgid "X11 ICC Daemon"
-msgstr ""
+msgstr "Demonio ICC de X11"
 
 #: /etc/xdg/autostart/xiccd.desktop:6
 msgctxt "Comment(xiccd.desktop)"
@@ -2010,12 +2021,12 @@ msgstr "Iniciar el XICCD"
 #: /usr/share/xsessions/xmonad.desktop:6
 msgctxt "Name(xmonad.desktop)"
 msgid "Xmonad"
-msgstr ""
+msgstr "Xmonad"
 
 #: /usr/share/mimelnk/application/x-xoj.desktop:8
 msgctxt "Comment(x-xoj.desktop)"
 msgid "Xournal note file"
-msgstr ""
+msgstr "Archivo de nota de Xournal"
 
 #: /usr/share/autoinstall/modules/firstboot.desktop:21
 msgctxt "Name(firstboot.desktop)"
@@ -2035,7 +2046,7 @@ msgstr "Importación de clave SSH"
 #: /usr/share/autoinstall/modules/ssh_import.desktop:24
 msgctxt "GenericName(ssh_import.desktop)"
 msgid "Importing SSH keys from a previous installation"
-msgstr ""
+msgstr "Importando claves SSH de una instalación anterior"
 
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
@@ -2071,7 +2082,7 @@ msgstr "Iniciar Zeitgeist Datahub para los monitores pasivos"
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:10
 msgctxt "GenericName(zeitgeist-datahub.desktop)"
 msgid ""
-msgstr ""
+msgstr " "
 
 #~ msgctxt "Name(Bear.jpg.desktop)"
 #~ msgid "Bear"
