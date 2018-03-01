@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.uk\n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2017-06-22 15:32+0000\n"
 "Last-Translator: Andriy Bandura <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -50,15 +50,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "Додати або змінити нетипові скрипти"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Розподіл диска"
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Звітування і реєстрування"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Налаштування параметрів розбиття розділів на дисках"
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Налаштування параметрів звітування та запису у журнал"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -70,6 +70,16 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Налаштувати вибір пакунків та програмні параметри"
 
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Розподіл диска"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Налаштування параметрів розбиття розділів на дисках"
+
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
@@ -79,16 +89,6 @@ msgstr "Файли повної конфігурації"
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "Додати файли повної конфігурації"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Звітування і реєстрування"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Налаштування параметрів звітування та запису у журнал"
 
 #: /usr/share/xsessions/awesome.desktop:3
 msgctxt "Name(awesome.desktop)"
@@ -140,6 +140,19 @@ msgctxt "Comment(blueberry-tray.desktop)"
 msgid "Blueberry tray icon"
 msgstr "Піктограма у лотку Blueberry"
 
+#: /etc/xdg/autostart/blueman.desktop:2
+#, fuzzy
+#| msgctxt "Name(qwebyast-autostart.desktop)"
+#| msgid "WebYaST Applet"
+msgctxt "Name(blueman.desktop)"
+msgid "Blueman Applet"
+msgstr "Аплет WebYaST"
+
+#: /etc/xdg/autostart/blueman.desktop:42
+msgctxt "Comment(blueman.desktop)"
+msgid "Blueman Bluetooth Manager"
+msgstr "Менеджер bluetooth Blueman"
+
 #: /usr/share/wallpapers/openSUSEdefault/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
@@ -150,7 +163,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Темний бриз"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:43
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:44
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "Мова розробки стільниці Breeze Dark, створена KDE VDG"
@@ -190,6 +203,16 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Карібу"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Цей сеанс записує вас у Cinnamon"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -201,15 +224,118 @@ msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Цей сеанс записує вас у Cinnamon (за допомогою програмного вимальовування)"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr ""
 
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Цей сеанс записує вас у Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Служба параметрів MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr ""
 
 #: /etc/xdg/autostart/deja-dup-monitor.desktop:4
 msgctxt "Name(deja-dup-monitor.desktop)"
@@ -261,8 +387,11 @@ msgid "Enlightenment"
 msgstr "Enlightenment"
 
 #: /usr/share/xsessions/enlightenment.desktop:19
+#, fuzzy
+#| msgctxt "Comment(enlightenment.desktop)"
+#| msgid "Log in using Enlightenment (Version 0.21.7)"
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.7)"
+msgid "Log in using Enlightenment (Version 0.21.8)"
 msgstr "Вхід через Enlightenment (Версія 0.21.7)"
 
 #: /usr/share/xsessions/epymc_xsession.desktop:4
@@ -280,7 +409,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Сповіщення сигналами у Evolution"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:65
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:67
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Сповіщення про календарні події"
@@ -305,93 +434,10 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Аплет брандмауера"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:44
+#: /etc/xdg/autostart/firewall-applet.desktop:45
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Аплет брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:11
-msgctxt "Description(org.fedoraproject.FirewallD1.all)"
-msgid "Firewall"
-msgstr "Брандмауер"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:22
-msgctxt "Description(org.fedoraproject.FirewallD1.info)"
-msgid "General firewall information"
-msgstr "Загальна інформація про брандмауер"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:32
-msgctxt "Description(org.fedoraproject.FirewallD1.config)"
-msgid "Firewall configuration"
-msgstr "Налаштування брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:43
-msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
-msgid "Firewall configuration"
-msgstr "Налаштування брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:53
-msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
-msgid "Firewall direct interface"
-msgstr "Прямий інтерфейс брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:64
-msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
-msgid "Firewall direct interface"
-msgstr "Прямий інтерфейс брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:74
-msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
-msgid "Firewall policies interface"
-msgstr "Інтерфейс політик брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:85
-msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
-msgid "Firewall policies interface"
-msgstr "Інтерфейс політик брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:12
-msgctxt "Message(org.fedoraproject.FirewallD1.all)"
-msgid "System policy prevents inspecting and changing firewall"
-msgstr "Системна політика запобігає перевірці та зміні брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:23
-msgctxt "Message(org.fedoraproject.FirewallD1.info)"
-msgid "System policy prevents getting general firewall information"
-msgstr ""
-"Системна політика запобігає отриманню загальної інформації про брандмауер"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:33
-msgctxt "Message(org.fedoraproject.FirewallD1.config)"
-msgid "System policy prevents changing the firewall configuration"
-msgstr "Системна політика запобігає зміні налаштувань брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:44
-msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-msgid "System policy prevents inspecting the firewall configuration"
-msgstr "Системна політика запобігає перевірці налаштувань брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:54
-msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
-msgid "System policy prevents using the firewall direct interface"
-msgstr ""
-"Системна політика запобігає використанню прямого інтерфейсу брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:65
-msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
-msgid "System policy prevents inspecting the firewall direct interface"
-msgstr "Системна політика запобігає перевірці прямого інтерфейсу брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:75
-msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
-msgid "System policy prevents using the firewall policies interface"
-msgstr ""
-"Системна політика запобігає використанню інтерфейсу політик брандмауера"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:86
-msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
-msgid "System policy prevents inspecting the firewall policies interface"
-msgstr "Системна політика запобігає перевірці інтерфейсу політик брандмауера"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -444,6 +490,11 @@ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr "Забезпечує кмітливе нагадування про регулярні перерви"
 
+#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
+msgctxt "Name(gnome-welcome-tour.desktop)"
+msgid "Welcome"
+msgstr "Вітаємо"
+
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -454,17 +505,22 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Перший запуск"
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "Вітаємо"
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "Агент ключів SSH"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "В'язка ключів GNOME: агент SSH"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
 msgid "Secret Storage Service"
 msgstr "Служба безпечного сховища"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
 msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "В'язка ключів GNOME: служба безпеки"
@@ -474,20 +530,10 @@ msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Сховище сертифікатів та ключів"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "В'язка ключів GNOME: компонент PKCS#11"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "Агент ключів SSH"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:71
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "В'язка ключів GNOME: агент SSH"
 
 #: /usr/share/xsessions/gnome.desktop:6
 msgctxt "Name(gnome.desktop)"
@@ -558,16 +604,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "Служба системного лотка HP"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "поліпшений віконний менеджер з динамічними плитками"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -575,6 +611,16 @@ msgstr "i3 (із журналом зневадження)"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:3
 msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "поліпшений віконний менеджер з динамічними плитками"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
 msgstr "поліпшений віконний менеджер з динамічними плитками"
 
@@ -613,26 +659,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Автозапуск після входу KAlarm"
 
-#: /usr/share/autostart/konqy_preload.desktop:4
-msgctxt "Name(konqy_preload.desktop)"
-msgid "Konqueror Preloading During KDE startup"
-msgstr "Попереднє завантаження Konqueror при старті KDE"
-
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Смуги"
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Робочий простір стільниці Плазми"
-
-#: /usr/share/autostart/krunner.desktop:4
-msgctxt "Name(krunner.desktop)"
-msgid "Command Runner"
-msgstr "Запуск команд"
-
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -648,42 +674,25 @@ msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Утиліта журналу буфера даних"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Робочий простір стільниці Плазми"
+
+#: /usr/share/autostart/krunner.desktop:4
+msgctxt "Name(krunner.desktop)"
+msgid "Command Runner"
+msgstr "Запуск команд"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Смуги"
+
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
 msgstr "Фонова служба KDEConnect"
-
-#: /usr/share/autostart/korgac.desktop:3
-msgctxt "Name(korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "Клієнт нагадувань KOrganizer"
-
-#: /usr/share/autostart/korgac.desktop:65
-msgctxt "GenericName(korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "Фонова служба клієнта нагадування для KOrganizer"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:2
-msgctxt "Name(kaddressbookmigrator.desktop)"
-msgid "kaddressbookmigrator"
-msgstr "kaddressbookmigrator"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:50
-msgctxt "Comment(kaddressbookmigrator.desktop)"
-msgid "Tool to migrate the old kresource based address book to Akonadi."
-msgstr ""
-"Засіб для перетворення старої адресної книги kresource на адресну книгу "
-"Akonadi."
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:2
-msgctxt "Name(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "Клієнт нагадувань KOrganizer"
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:64
-msgctxt "GenericName(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "Фонова служба клієнта нагадування для KOrganizer"
 
 #: /etc/xdg/autostart/org.kde.kgpg.desktop:9
 msgctxt "GenericName(org.kde.kgpg.desktop)"
@@ -700,20 +709,20 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "Проект KiCad"
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "Друкована плата KiCad"
 
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "Схема KiCad"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "Друкована плата KiCad"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "Проект KiCad"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -745,6 +754,16 @@ msgctxt "Name(konqy_preload.desktop)"
 msgid "Konqueror preloading during desktop environment startup"
 msgstr "Попереднє завантаження Konqueror при старті KDE"
 
+#: /etc/xdg/autostart/org.kde.korgac.desktop:2
+msgctxt "Name(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Client"
+msgstr "Клієнт нагадувань KOrganizer"
+
+#: /etc/xdg/autostart/org.kde.korgac.desktop:64
+msgctxt "GenericName(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Daemon Client"
+msgstr "Фонова служба клієнта нагадування для KOrganizer"
+
 #: /etc/xdg/autostart/krb5-auth-dialog.desktop:2
 msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
@@ -765,171 +784,10 @@ msgctxt "Comment(LCDE.desktop)"
 msgid "LeechCraft session with the window manager configured via Fenet"
 msgstr "Сеанс LeechCraft з віконний менеджером, налаштованим через Fenet"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Аркуш Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Документ Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
-msgid "OpenDocument Drawing (Flat XML)"
-msgstr "Рисунок OpenDocument (чистий XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr "Електронна таблиця OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Аркуш Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
-msgctxt "Comment(libreoffice-presentation.desktop)"
-msgid "OpenOffice.org 1.0 Presentation"
-msgstr "Презентація OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "Презентація OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Презентація Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
-msgctxt "Comment(libreoffice-text.desktop)"
-msgid "OpenOffice.org 1.0 Text Document"
-msgstr "Текст OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
-msgctxt "Comment(libreoffice-oasis-text.desktop)"
-msgid "OpenDocument Text"
-msgstr "Текст OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
-msgid "OpenDocument Drawing"
-msgstr "Рисунок OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Документ Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-presentation-template.desktop)"
-msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr "Шаблон презентації OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
-msgid "OpenDocument Master Document Template"
-msgstr "Шаблон головного документа OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
-msgid "OpenDocument Master Document"
-msgstr "Головний документ OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
-msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr "Електронна таблиця OpenDocument (чистий XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
-"presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Презентація Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
-"desktop)"
-msgid "Microsoft Word Document"
-msgstr "Документ Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Презентація Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Шаблон презентації Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
-msgctxt "Comment(libreoffice-oasis-database.desktop)"
-msgid "OpenDocument Database"
-msgstr "База даних OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
-msgctxt "Comment(libreoffice-text-template.desktop)"
-msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr "Шаблон тексту OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-drawing-template.desktop)"
-msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr "Шаблон рисунка OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
-msgctxt "Comment(libreoffice-master-document.desktop)"
-msgid "OpenOffice.org 1.0 Master Document"
-msgstr "Головний документ OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
-msgid "OpenDocument Text (Flat XML)"
-msgstr "Текст OpenDocument (чистий XML)"
-
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
 msgid "OpenDocument Presentation"
 msgstr "Презентація OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
-msgid "OpenDocument Drawing Template"
-msgstr "Шаблон рисунка OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
-"desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Шаблон аркуша Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
-msgid "OpenDocument Presentation Template"
-msgstr "Шаблон презентації OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "Шаблон документа Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
-msgid "OpenDocument Spreadsheet"
-msgstr "Електронна таблиця OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
-msgctxt "Comment(libreoffice-formula.desktop)"
-msgid "OpenOffice.org 1.0 Formula"
-msgstr "Формула OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
 msgctxt ""
@@ -938,27 +796,20 @@ msgctxt ""
 msgid "Microsoft Excel Worksheet"
 msgstr "Аркуш Microsoft Excel"
 
-#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
-msgctxt "Comment(libreoffice-drawing.desktop)"
-msgid "OpenOffice.org 1.0 Drawing"
-msgstr "Рисунок OpenOffice.org 1.0"
+#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
+msgctxt "Comment(libreoffice-master-document.desktop)"
+msgid "OpenOffice.org 1.0 Master Document"
+msgstr "Головний документ OpenOffice.org 1.0"
 
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
-"desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Шаблон презентації Microsoft PowerPoint"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Документ Microsoft Word"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Шаблон аркуша Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
-msgctxt "Comment(libreoffice-extension.desktop)"
-msgid "%PRODUCTNAME Extension"
-msgstr "Розширення %PRODUCTNAME"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
+msgid "Microsoft Word Document Template"
+msgstr "Шаблон документа Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
 msgctxt ""
@@ -967,40 +818,208 @@ msgctxt ""
 msgid "Microsoft Word Document Template"
 msgstr "Шаблон документа Microsoft Word"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
-msgctxt "Comment(libreoffice-oasis-formula.desktop)"
-msgid "OpenDocument Formula"
-msgstr "Формула OpenDocument"
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
+msgid "OpenDocument Text Template"
+msgstr "Шаблон тексту OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Аркуш Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
+msgctxt "Comment(libreoffice-text-template.desktop)"
+msgid "OpenOffice.org 1.0 Text Document Template"
+msgstr "Шаблон тексту OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
+msgctxt "Comment(libreoffice-text.desktop)"
+msgid "OpenOffice.org 1.0 Text Document"
+msgstr "Текст OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
+msgid "OpenDocument Master Document"
+msgstr "Головний документ OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet Template"
+msgstr "Шаблон електронної таблиці OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
+"desktop)"
+msgid "Microsoft Word Document"
+msgstr "Документ Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
+msgid "OpenDocument Spreadsheet"
+msgstr "Електронна таблиця OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Шаблон презентації Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
 msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
 msgid "Microsoft Excel Worksheet"
 msgstr "Аркуш Microsoft Excel"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:27
-msgctxt "Comment(libreoffice-ms-word-document.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Документ Microsoft Word"
+#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
+msgctxt "Comment(libreoffice-formula.desktop)"
+msgid "OpenOffice.org 1.0 Formula"
+msgstr "Формула OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
+"desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Шаблон аркуша Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "Розширення %PRODUCTNAME"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
+msgid "OpenDocument Presentation Template"
+msgstr "Шаблон презентації OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Презентація Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
+msgid "OpenDocument Spreadsheet (Flat XML)"
+msgstr "Електронна таблиця OpenDocument (чистий XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Презентація Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
 msgid "OpenDocument Spreadsheet Template"
 msgstr "Шаблон електронної таблиці OpenDocument"
 
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
+"presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Презентація Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
+msgctxt "Comment(libreoffice-presentation.desktop)"
+msgid "OpenOffice.org 1.0 Presentation"
+msgstr "Презентація OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
+msgid "OpenDocument Drawing Template"
+msgstr "Шаблон рисунка OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Аркуш Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-presentation-template.desktop)"
+msgid "OpenOffice.org 1.0 Presentation Template"
+msgstr "Шаблон презентації OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Шаблон аркуша Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Документ Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet"
+msgstr "Електронна таблиця OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
+msgid "OpenDocument Master Document Template"
+msgstr "Шаблон головного документа OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
+msgid "OpenDocument Drawing"
+msgstr "Рисунок OpenDocument"
+
 #: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
 msgid "HTML Document Template"
 msgstr "Шаблон документа HTML"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
-msgid "OpenDocument Text Template"
-msgstr "Шаблон тексту OpenDocument"
+#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
+msgctxt "Comment(libreoffice-oasis-formula.desktop)"
+msgid "OpenDocument Formula"
+msgstr "Формула OpenDocument"
 
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr "Шаблон електронної таблиці OpenOffice.org 1.0"
+#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
+msgctxt "Comment(libreoffice-drawing.desktop)"
+msgid "OpenOffice.org 1.0 Drawing"
+msgstr "Рисунок OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
+msgid "OpenDocument Presentation"
+msgstr "Презентація OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
+msgctxt "Comment(libreoffice-oasis-text.desktop)"
+msgid "OpenDocument Text"
+msgstr "Текст OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
+msgctxt "Comment(libreoffice-oasis-database.desktop)"
+msgid "OpenDocument Database"
+msgstr "База даних OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
+"desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Шаблон презентації Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
+msgid "OpenDocument Drawing (Flat XML)"
+msgstr "Рисунок OpenDocument (чистий XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
+msgid "OpenDocument Text (Flat XML)"
+msgstr "Текст OpenDocument (чистий XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Документ Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-drawing-template.desktop)"
+msgid "OpenOffice.org 1.0 Drawing Template"
+msgstr "Шаблон рисунка OpenOffice.org 1.0"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1118,12 +1137,12 @@ msgctxt "Name(mate-volume-control-applet.desktop)"
 msgid "Volume Control"
 msgstr "Регулятор гучности"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:96
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:97
 msgctxt "Comment(mate-volume-control-applet.desktop)"
 msgid "Show desktop volume control"
 msgstr "Показати регулятор гучности"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:173
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:175
 msgctxt "Keywords(mate-volume-control-applet.desktop)"
 msgid "MATE;volume;control;mixer;settings;sound;"
 msgstr "MATE;гучність;управління;мікшер;параметри;звук;"
@@ -1257,16 +1276,6 @@ msgstr "Мережа"
 msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "Організуйте ваші мережеві з'єднання"
-
-#: /etc/xdg/autostart/obexd-server.desktop:2
-msgctxt "Name(obexd-server.desktop)"
-msgid "Obexd Server"
-msgstr "Сервер Obexd"
-
-#: /etc/xdg/autostart/obexd-server.desktop:3
-msgctxt "Comment(obexd-server.desktop)"
-msgid "Obexd Server Daemon"
-msgstr "Фонова служба сервера Obexd"
 
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
@@ -1404,22 +1413,22 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "Аплет оновлення PackageKit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "Типова панель"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Стільниця"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Порожня панель"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Просте компонування"
 
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
 msgstr "Декларативний набір інструментів"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:48
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
 msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Керування Плазмою"
@@ -1444,15 +1453,15 @@ msgctxt "Summary(org.kde.plasma.desktop)"
 msgid "Desktop view furniture"
 msgstr "Компоненти для перегляду стільниці"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop"
-msgstr "Стільниця"
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "Типова панель"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Просте компонування"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Порожня панель"
 
 #: /usr/share/xsessions/plasma5.desktop:7
 msgctxt "Name(plasma5.desktop)"
@@ -1474,70 +1483,70 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Мова компонування стільниці Breeze, створена KDE VDG"
 
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
+#: /etc/xdg/autostart/plasmashell.desktop:4
+msgctxt "Name(plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Робочий простір Плазми для комп’ютерів"
 
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /etc/xdg/autostart/plasmashell.desktop:4
-msgctxt "Name(plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Робочий простір Плазми для комп’ютерів"
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "За водою"
+msgid "Colorful Cups"
+msgstr "Кольорові чашки"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Конкі у польоті"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Падалішній листок"
-
-#: /usr/share/wallpapers/Path/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Шлях"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Сірість"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Холодні брижі"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Найтемніша година"
+msgid "Pastel Hills"
+msgstr "Пастельні пагорби"
 
 #: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Evening Glow"
 msgstr "Вечірнє сяйво"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "Пастельні пагорби"
+msgid "Darkest Hour"
+msgstr "Найтемніша година"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Кольорові чашки"
+msgid "By the water"
+msgstr "За водою"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "Шлях"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "Падалішній листок"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "Холодні брижі"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Сірість"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1589,7 +1598,7 @@ msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
 msgstr "Керування живленням"
 
-#: /etc/xdg/autostart/powerdevil.desktop:53
+#: /etc/xdg/autostart/powerdevil.desktop:54
 msgctxt "Comment(powerdevil.desktop)"
 msgid "Battery, Display and CPU power management and notification"
 msgstr ""
@@ -1661,38 +1670,6 @@ msgctxt "Comment(rsibreak.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Переконується, що ви відпочиваєте від комп’ютера"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr ""
-"Використання менеджера вікон Sawfish в середині стільничного середовища Kde"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr ""
-"Використання менеджера вікон Sawfish в середині стільничного середовища XFCE"
-
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
 msgid "Sawfish/Lumina"
@@ -1705,6 +1682,27 @@ msgstr ""
 "Використання менеджера вікон Sawfish в середині стільничного середовища "
 "Lumina"
 
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr ""
+"Використання менеджера вікон Sawfish в середині стільничного середовища Kde"
+
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
+
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
+
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
 msgid "Sawfish/MATE"
@@ -1715,6 +1713,17 @@ msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr ""
 "Використання менеджера вікон Sawfish в середині стільничного середовища MATE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr ""
+"Використання менеджера вікон Sawfish в середині стільничного середовища XFCE"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1758,26 +1767,6 @@ msgstr ""
 "Браузер DB для SQLite є легким редактором з графічним інтерфейсом для бази "
 "даних SQLite"
 
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:4
-msgctxt "Name(synaptiks_init_config.desktop)"
-msgid "Synaptiks touchpad configuration"
-msgstr "Налаштування сенсорної панелі Synaptiks"
-
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:5
-msgctxt "Comment(synaptiks_init_config.desktop)"
-msgid "Initialize touchpad configuration"
-msgstr "Започаткувати налаштування сенсорної панелі"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:14
-msgctxt "Name(synaptiks_autostart.desktop)"
-msgid "synaptiks"
-msgstr "synaptiks"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:17
-msgctxt "GenericName(synaptiks_autostart.desktop)"
-msgid "Touchpad management"
-msgstr "Управління сенсорною панеллю"
-
 #: /etc/xdg/autostart/print-applet.desktop:2
 msgctxt "Name(print-applet.desktop)"
 msgid "Print Queue Applet"
@@ -1788,65 +1777,70 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Значок у системній області для керування завданнями друку"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Сховище Tracker"
-
-#: /etc/xdg/autostart/tracker-store.desktop:46
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "Сховище бази метаданих та диспетчер пошуку"
-
 #: /etc/xdg/autostart/tracker-miner-user-guides.desktop:2
 msgctxt "Name(tracker-miner-user-guides.desktop)"
 msgid "Tracker User Guides Miner"
 msgstr "Індексатор посібників користувача"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:37
+#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:40
 msgctxt "Comment(tracker-miner-user-guides.desktop)"
 msgid "Crawls and processes user guides in shared areas"
 msgstr "Перебирає та обробляє посібники користувача у спільних областях"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
-msgctxt "Name(tracker-miner-apps.desktop)"
-msgid "Tracker Application Miner"
-msgstr "Індексатор програм"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:37
-msgctxt "Comment(tracker-miner-apps.desktop)"
-msgid "Indexes information about applications installed"
-msgstr "Індексування інформації про встановлені програми"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Екстрактор метаданих Tracker"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:38
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Витягнути метадані з локальних файлів"
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
 msgstr "Індексатор файлової системи"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:44
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:46
 msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "Перебирає та обробляє файли у файловій системі"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Екстрактор метаданих Tracker"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:41
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Витягнути метадані з локальних файлів"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
+msgctxt "Name(tracker-miner-apps.desktop)"
+msgid "Tracker Application Miner"
+msgstr "Індексатор програм"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:40
+msgctxt "Comment(tracker-miner-apps.desktop)"
+msgid "Indexes information about applications installed"
+msgstr "Індексування інформації про встановлені програми"
+
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Сховище Tracker"
+
+#: /etc/xdg/autostart/tracker-store.desktop:48
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "Сховище бази метаданих та диспетчер пошуку"
 
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
 msgid "Tracker RSS/ATOM Feeds Miner"
 msgstr "Індексатор стрічок RSS/ATOM"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:44
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "Отримати стрічки RSS/ATOM"
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
+msgstr "Файл TreeLine"
 
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
@@ -1857,11 +1851,6 @@ msgstr "Стиснутий файл TreeLine"
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
 msgstr "Файл TreePad"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr "Файл TreeLine"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1893,7 +1882,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "Оновлення тек користувача"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:74
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "Оновити імена загальних тек для відповідності поточній локалі"
@@ -1992,15 +1981,23 @@ msgstr ""
 "Фонова служба, яка відповідає за мультимедійні клавіші і відображення "
 "повідомлень про гучність для Pulseaudio"
 
-#: /etc/xdg/autostart/xiccd.desktop:5
+#: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
 msgid "X11 ICC Daemon"
 msgstr "Фонова служба X11 ICC"
 
-#: /etc/xdg/autostart/xiccd.desktop:6
+#: /etc/xdg/autostart/xiccd.desktop:5
+#, fuzzy
+#| msgctxt "Comment(mate-power-manager.desktop)"
+#| msgid "Power management daemon"
+msgctxt "GenericName(xiccd.desktop)"
+msgid "X color management daemon"
+msgstr "Служба керування живленням"
+
+#: /etc/xdg/autostart/xiccd.desktop:7
 msgctxt "Comment(xiccd.desktop)"
-msgid "Start the XICCD"
-msgstr "Почати XICCD"
+msgid "Applies color management profiles to your session"
+msgstr ""
 
 #: /usr/share/xsessions/xmonad.desktop:6
 msgctxt "Name(xmonad.desktop)"
@@ -2022,16 +2019,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Увімкнути або вимкнути запуску першого завантаження"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "Імпорт ключа SSH"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "Імпорт ключів SSH із попереднього встановлення"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -2041,6 +2028,16 @@ msgstr "Розгортання штампа"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Налаштування розгортання штампа"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "Імпорт ключа SSH"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "Імпорт ключів SSH із попереднього встановлення"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:4
 msgctxt "Name(zeitgeist-datahub.desktop)"
@@ -2067,6 +2064,129 @@ msgstr "Запуск Zeitgeist Datahub для пасивних реєстрат�
 msgctxt "GenericName(zeitgeist-datahub.desktop)"
 msgid ""
 msgstr "zeitgeist-datahub"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.all)"
+#~ msgid "Firewall"
+#~ msgstr "Брандмауер"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.info)"
+#~ msgid "General firewall information"
+#~ msgstr "Загальна інформація про брандмауер"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Налаштування брандмауера"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Налаштування брандмауера"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Прямий інтерфейс брандмауера"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Прямий інтерфейс брандмауера"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Інтерфейс політик брандмауера"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Інтерфейс політик брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.all)"
+#~ msgid "System policy prevents inspecting and changing firewall"
+#~ msgstr "Системна політика запобігає перевірці та зміні брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.info)"
+#~ msgid "System policy prevents getting general firewall information"
+#~ msgstr ""
+#~ "Системна політика запобігає отриманню загальної інформації про брандмауер"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config)"
+#~ msgid "System policy prevents changing the firewall configuration"
+#~ msgstr "Системна політика запобігає зміні налаштувань брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "System policy prevents inspecting the firewall configuration"
+#~ msgstr "Системна політика запобігає перевірці налаштувань брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "System policy prevents using the firewall direct interface"
+#~ msgstr ""
+#~ "Системна політика запобігає використанню прямого інтерфейсу брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "System policy prevents inspecting the firewall direct interface"
+#~ msgstr ""
+#~ "Системна політика запобігає перевірці прямого інтерфейсу брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "System policy prevents using the firewall policies interface"
+#~ msgstr ""
+#~ "Системна політика запобігає використанню інтерфейсу політик брандмауера"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "System policy prevents inspecting the firewall policies interface"
+#~ msgstr ""
+#~ "Системна політика запобігає перевірці інтерфейсу політик брандмауера"
+
+#~ msgctxt "Name(konqy_preload.desktop)"
+#~ msgid "Konqueror Preloading During KDE startup"
+#~ msgstr "Попереднє завантаження Konqueror при старті KDE"
+
+#~ msgctxt "Name(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Client"
+#~ msgstr "Клієнт нагадувань KOrganizer"
+
+#~ msgctxt "GenericName(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Daemon Client"
+#~ msgstr "Фонова служба клієнта нагадування для KOrganizer"
+
+#~ msgctxt "Name(kaddressbookmigrator.desktop)"
+#~ msgid "kaddressbookmigrator"
+#~ msgstr "kaddressbookmigrator"
+
+#~ msgctxt "Comment(kaddressbookmigrator.desktop)"
+#~ msgid "Tool to migrate the old kresource based address book to Akonadi."
+#~ msgstr ""
+#~ "Засіб для перетворення старої адресної книги kresource на адресну книгу "
+#~ "Akonadi."
+
+#~ msgctxt "Name(obexd-server.desktop)"
+#~ msgid "Obexd Server"
+#~ msgstr "Сервер Obexd"
+
+#~ msgctxt "Comment(obexd-server.desktop)"
+#~ msgid "Obexd Server Daemon"
+#~ msgstr "Фонова служба сервера Obexd"
+
+#~ msgctxt "Name(org.kde.desktopcontainment)"
+#~ msgid "Desktop"
+#~ msgstr "Стільниця"
+
+#~ msgctxt "Name(synaptiks_init_config.desktop)"
+#~ msgid "Synaptiks touchpad configuration"
+#~ msgstr "Налаштування сенсорної панелі Synaptiks"
+
+#~ msgctxt "Comment(synaptiks_init_config.desktop)"
+#~ msgid "Initialize touchpad configuration"
+#~ msgstr "Започаткувати налаштування сенсорної панелі"
+
+#~ msgctxt "Name(synaptiks_autostart.desktop)"
+#~ msgid "synaptiks"
+#~ msgstr "synaptiks"
+
+#~ msgctxt "GenericName(synaptiks_autostart.desktop)"
+#~ msgid "Touchpad management"
+#~ msgstr "Управління сенсорною панеллю"
+
+#~ msgctxt "Comment(xiccd.desktop)"
+#~ msgid "Start the XICCD"
+#~ msgstr "Почати XICCD"
 
 #~ msgctxt "Name(Bear.jpg.desktop)"
 #~ msgid "Bear"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,35 +45,54 @@ msgctxt "Message(net.launchpad.backintime.UdevRuleDelete)"
 msgid "Authentication is required to delete Udev rules."
 msgstr "Requírese autenticación para cambiar os datos do usuario"
 
-#: /usr/share/polkit-1/actions/org.kde.baloo.filewatch.policy:7
-msgctxt "Description(org.kde.baloo.filewatch.raiselimit)"
-msgid "Folder Watch Limit"
-msgstr "Límite de vixilancia do cartafol"
+#: /usr/share/polkit-1/actions/org.blueman.policy:11
+msgctxt "Description(org.blueman.network.setup)"
+msgid "Configure Bluetooth Network"
+msgstr "Configurar unha rede bluetooth"
 
-#: /usr/share/polkit-1/actions/org.kde.baloo.filewatch.policy:41
-msgctxt "Message(org.kde.baloo.filewatch.raiselimit)"
-msgid ""
+#: /usr/share/polkit-1/actions/org.blueman.policy:97
+msgctxt "Description(org.blueman.dhcp.client)"
+msgid "Launch DHCP client"
+msgstr "Iniciar o cliente DHCP"
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:181
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(org.blueman.bluez.config)"
+msgid "Bluetooth Configuration"
+msgstr "Gardar a configuración da carteira"
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:52
+#, fuzzy
+#| msgctxt "Message(org.kde.fontinst.manage)"
+#| msgid "Modifying the system-wide font configuration requires privileges."
+msgctxt "Message(org.blueman.network.setup)"
+msgid "Configuring networking requires privileges"
 msgstr ""
-"Para evitar perder cambios nos ficheiros aumente o límite de vixilancia de "
-"cartafol de inotify"
+"Para modificar a configuración dos tipos de letra do sistema requírense "
+"privilexios."
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:137
+msgctxt "Message(org.blueman.dhcp.client)"
+msgid "Launching DHCP client requires privileges"
+msgstr "O inicio do cliente DHCP require privilexios"
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:222
+#, fuzzy
+#| msgctxt "Message(org.kde.fontinst.manage)"
+#| msgid "Modifying the system-wide font configuration requires privileges."
+msgctxt "Message(org.blueman.bluez.config)"
+msgid "Changing Bluetooth system settings requires privileges"
+msgstr ""
+"Para modificar a configuración dos tipos de letra do sistema requírense "
+"privilexios."
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
 #, fuzzy
 msgctxt "Message(org.cinnamon.settings-users)"
 msgid "Authentication is required to run the Users and Groups"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
-msgctxt ""
-"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Modificar o brillo do portátil"
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:71
-msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Requírese autenticación para modificar o brillo da pantalla do portátil"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
 #, fuzzy
@@ -87,94 +106,171 @@ msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Para cambiar as preferencias de data e hora debe autenticarse."
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:11
-msgctxt "Description(org.fedoraproject.FirewallD1.all)"
-msgid "Firewall"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
+msgctxt ""
+"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Modificar o brillo do portátil"
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:22
-msgctxt "Description(org.fedoraproject.FirewallD1.info)"
-msgid "General firewall information"
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:71
+msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
 msgstr ""
+"Requírese autenticación para modificar o brillo da pantalla do portátil"
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:32
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:11
 #, fuzzy
-msgctxt "Description(org.fedoraproject.FirewallD1.config)"
-msgid "Firewall configuration"
-msgstr "Gardar a configuración da carteira"
+#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#| msgid "Save Settings"
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
+msgid "Get/Set server settings"
+msgstr "Gardar a configuración"
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:43
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:75
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
+msgid "Get list of available devices"
+msgstr "Obter unha lista dos dispositivos dispoñíbeis"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:138
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+msgid "Set a printer as default printer"
+msgstr "Estabelecer unha impresora como impresora predeterminada"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:203
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+msgid "Enable/Disable a printer"
+msgstr "Activar/desactivar unha impresora"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:267
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+msgid "Add/Remove/Edit a local printer"
+msgstr "Engadir/Quitar/Editar unha impresora local"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:332
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+msgid "Add/Remove/Edit a remote printer"
+msgstr "Engadir/Quitar/Editar unha impresora remota"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:397
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
+msgid "Add/Remove/Edit a class"
+msgstr "Engadir/Quitar/Editar unha clase"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:461
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
+msgid "Restart/Cancel/Edit a job"
+msgstr "Reiniciar/cancelar/editar un traballo"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:524
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+msgid "Restart/Cancel/Edit a job owned by another user"
+msgstr "Reiniciar/cancelar/editar un traballo que pertence a outro usuario"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:587
 #, fuzzy
-msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
-msgid "Firewall configuration"
-msgstr "Gardar a configuración da carteira"
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+msgid "Change printer settings"
+msgstr "Cambiar as preferencias da data e hora do sistema"
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:53
-msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
-msgid "Firewall direct interface"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:650
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+msgid "Add/Remove/Edit a printer"
+msgstr "Engadir/Quitar/Editar unha impresora"
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:64
-msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
-msgid "Firewall direct interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:74
-msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
-msgid "Firewall policies interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:85
-msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
-msgid "Firewall policies interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:12
-msgctxt "Message(org.fedoraproject.FirewallD1.all)"
-msgid "System policy prevents inspecting and changing firewall"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:23
-msgctxt "Message(org.fedoraproject.FirewallD1.info)"
-msgid "System policy prevents getting general firewall information"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:33
-msgctxt "Message(org.fedoraproject.FirewallD1.config)"
-msgid "System policy prevents changing the firewall configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:44
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:39
 #, fuzzy
-msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-msgid "System policy prevents inspecting the firewall configuration"
-msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+msgid "Privileges are required to get/set server settings."
+msgstr "Requírense privilexios para cambiar o hora do sistema."
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:54
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:102
 #, fuzzy
-msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
-msgid "System policy prevents using the firewall direct interface"
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+msgid "Privileges are required to get list of available devices."
+msgstr "Requírense privilexios para cambiar o hora do sistema."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:167
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#| msgid "Privileges are required to enroll new fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+msgid ""
+"Privileges are required to set a printer, or a class, as default printer."
+msgstr "Requírense privilexios para rexistrar novas pegadas dixitais."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:231
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#| msgid "Privileges are required to enroll new fingerprints for other users."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+msgid "Privileges are required to enable/disable a printer, or a class."
 msgstr ""
-"As políticas do sistema non permiten que garde a configuración da data e "
-"hora."
+"Requírense privilexios para rexistrar novas pegadas dixitais para outros "
+"usuarios."
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:65
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:296
 #, fuzzy
-msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
-msgid "System policy prevents inspecting the firewall direct interface"
-msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+msgid "Privileges are required to add/remove/edit a local printer."
+msgstr "Requírense privilexios para verificar pegadas dixitais."
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:75
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:361
 #, fuzzy
-msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
-msgid "System policy prevents using the firewall policies interface"
-msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+msgid "Privileges are required to add/remove/edit a remote printer."
+msgstr "Requírense privilexios para verificar pegadas dixitais."
 
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.server.policy:86
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:425
 #, fuzzy
-msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
-msgid "System policy prevents inspecting the firewall policies interface"
-msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
+msgid "Privileges are required to add/remove/edit a class."
+msgstr "Requírense privilexios para verificar pegadas dixitais."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:489
+#, fuzzy
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+#| msgid "Privileges are required to change the system time zone."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
+msgid "Privileges are required to restart/cancel/edit a job."
+msgstr "Requírense privilexios para cambiar o fuso horario do sistema."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:552
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#| msgid "Privileges are required to enroll new fingerprints for other users."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+msgid ""
+"Privileges are required to restart/cancel/edit a job owned by another user."
+msgstr ""
+"Requírense privilexios para rexistrar novas pegadas dixitais para outros "
+"usuarios."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:615
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
+msgid ""
+"Privileges are required to change printer settings. This should only be "
+"needed from the Printers system settings panel."
+msgstr ""
+"Requírense privilexios para cambiar as opcións da impresora. Isto só debería "
+"ser necesario desde o panel Impresoras das Opcións do sistema."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:679
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+msgid "Privileges are required to add/remove/edit a printer."
+msgstr "Requírense privilexios para verificar pegadas dixitais."
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
 msgctxt "Description(net.reactivated.fprint.device.verify)"
@@ -229,17 +325,6 @@ msgid "Privileges are required to change GConf mandatory values"
 msgstr ""
 "Son necesarios privilexios para cambiar os valores obrigatorios do GConf"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
-msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
-msgid "Enable or disable remote login"
-msgstr "Activar ou desactivar o inicio de sesión remoto"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:79
-msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
-msgid "Authentication is required to enable or disable remote login"
-msgstr ""
-"Requírese autenticación para activar ou desactivar o inicio de sesión remoto"
-
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
 msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
 msgid "Change system time and date settings"
@@ -260,6 +345,17 @@ msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
 msgid "Authentication is required to change user data"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
 
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
+msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
+msgid "Enable or disable remote login"
+msgstr "Activar ou desactivar o inicio de sesión remoto"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:79
+msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
+msgid "Authentication is required to enable or disable remote login"
+msgstr ""
+"Requírese autenticación para activar ou desactivar o inicio de sesión remoto"
+
 #: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:14
 msgctxt "Description(org.gnome.MultiWriter.probe)"
 msgid "Check the device"
@@ -270,6 +366,22 @@ msgstr ""
 msgctxt "Message(org.gnome.MultiWriter.probe)"
 msgid "Authentication is required to probe the device"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.update.policy:10
+msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Clear offline update message"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
+msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Modificar o brillo do portátil"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:78
+msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+"Requírese autenticación para modificar o brillo da pantalla do portátil"
 
 #: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
 msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
@@ -295,38 +407,22 @@ msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr ""
 "Requírese autenticación para modificar a imaxe OLED para unha tableta Wacom"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.update.policy:10
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
-msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Modificar o brillo do portátil"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:78
-msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Requírese autenticación para modificar o brillo da pantalla do portátil"
-
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:11
 msgctxt "Description(org.gnome.gnome-system-monitor.kill)"
 msgid "Kill process"
 msgstr "Matar proceso"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:153
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:156
 msgctxt "Description(org.gnome.gnome-system-monitor.renice)"
 msgid "Renice process"
 msgstr "Mudar a prioridade do proceso"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:81
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:82
 msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
 msgid "Privileges are required to control other users' processes"
 msgstr "Requírense privilexios para controlar os procesos doutros usuarios"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:221
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:225
 msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
 msgstr "Requírense privilexios para mudar a prioridade dos procesos"
@@ -377,6 +473,22 @@ msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
 msgid "Set RTC wake-from-suspend time"
 msgstr "Configurar a hora de «espertar desde a suspensión» de RTC"
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:10
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#| msgid "Save Settings"
+msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
+msgid "Save Settings"
+msgstr "Gardar a configuración"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:47
+#, fuzzy
+#| msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
+#| msgid "Save Settings in LightDM"
+msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
+msgid "Save Settings in SDDM"
+msgstr "Gardar as configuracións en LightDM"
+
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy:7
 msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
 msgid "Save remote widgets' policies"
@@ -386,6 +498,18 @@ msgstr "Gardas as políticas dos trebellos remotos"
 msgctxt "Message(org.kde.kcontrol.kcmremotewidgets.save)"
 msgid "Prevents the system from saving remote plasma widgets' policies"
 msgstr "Evita que o sistema garde as políticas dos trebellos remotos de plasma"
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
+msgctxt "Description(org.kde.fontinst.manage)"
+msgid "Manage system-wide fonts."
+msgstr "Xestionar os tipos de letra do sistema."
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
+msgctxt "Message(org.kde.fontinst.manage)"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr ""
+"Para modificar a configuración dos tipos de letra do sistema requírense "
+"privilexios."
 
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
@@ -458,17 +582,17 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "As políticas do sistema evitan que coñeza syspath"
 
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
-msgctxt "Description(org.kde.fontinst.manage)"
-msgid "Manage system-wide fonts."
-msgstr "Xestionar os tipos de letra do sistema."
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
+msgid "Save the date/time settings"
+msgstr "Garda a configuración da data e hora"
 
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
-msgctxt "Message(org.kde.fontinst.manage)"
-msgid "Modifying the system-wide font configuration requires privileges."
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
+msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
+msgid "System policies prevent you from saving the date/time settings."
 msgstr ""
-"Para modificar a configuración dos tipos de letra do sistema requírense "
-"privilexios."
+"As políticas do sistema non permiten que garde a configuración da data e "
+"hora."
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
@@ -511,18 +635,6 @@ msgstr ""
 "Requírese de autorización do administrador para mudar a configuración do "
 "Xestor de acceso"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
-msgid "Save the date/time settings"
-msgstr "Garda a configuración da data e hora"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
-msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
-msgid "System policies prevent you from saving the date/time settings."
-msgstr ""
-"As políticas do sistema non permiten que garde a configuración da data e "
-"hora."
-
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
 msgid "Save wallet configuration"
@@ -542,6 +654,26 @@ msgstr "Gardar a configuración da carteira"
 msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Permite gardar a configuración da carteira"
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
+msgctxt "Description(org.libvirt.unix.monitor)"
+msgid "Monitor local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
+msgctxt "Description(org.libvirt.unix.manage)"
+msgid "Manage local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
+msgctxt "Message(org.libvirt.unix.monitor)"
+msgid "System policy prevents monitoring of local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
+msgctxt "Message(org.libvirt.unix.manage)"
+msgid "System policy prevents management of local virtualized systems"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:8
 msgctxt "Description(org.libvirt.api.connect.detect-storage-pools)"
@@ -1523,52 +1655,12 @@ msgctxt "Message(org.libvirt.api.storage-vol.resize)"
 msgid "Resizing  storage volume requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
-msgctxt "Description(org.libvirt.unix.monitor)"
-msgid "Monitor local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
-msgctxt "Description(org.libvirt.unix.manage)"
-msgid "Manage local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
-msgctxt "Message(org.libvirt.unix.monitor)"
-msgid "System policy prevents monitoring of local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
-msgctxt "Message(org.libvirt.unix.manage)"
-msgid "System policy prevents management of local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmlightdm.policy:10
-msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
-msgid "Save Settings"
-msgstr "Gardar a configuración"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmlightdm.policy:74
-msgctxt "Description(org.kde.kcontrol.kcmlightdm.savethemedetails)"
-msgid "Save Theme Details"
-msgstr "Gardar os detalles do tema"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmlightdm.policy:39
-msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
-msgid "Save Settings in LightDM"
-msgstr "Gardar as configuracións en LightDM"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmlightdm.policy:103
-msgctxt "Message(org.kde.kcontrol.kcmlightdm.savethemedetails)"
-msgid "Save Theme Details in LightDM"
-msgstr "Gardar os detalles do tema en LightDM"
-
 #: /usr/share/polkit-1/actions/org.mate.randr.policy:14
 msgctxt "Description(org.mate.randr.install-system-wide)"
 msgid "Install multi-monitor settings for the whole system"
 msgstr "Instalar as configuracións multimonitor para todo o sistema"
 
-#: /usr/share/polkit-1/actions/org.mate.randr.policy:68
+#: /usr/share/polkit-1/actions/org.mate.randr.policy:69
 msgctxt "Message(org.mate.randr.install-system-wide)"
 msgid ""
 "Authentication is required to install multi-monitor settings for all users"
@@ -1676,7 +1768,7 @@ msgstr ""
 #: /usr/share/polkit-1/actions/org.nemo.root.policy:12
 #, fuzzy
 msgctxt "Message(org.nemo.root)"
-msgid "Authentication is required to run Nemo as root"
+msgid "Please enter your password to run Nemo as root"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
 
 #: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:11
@@ -1700,18 +1792,6 @@ msgstr "Requírese autenticación para cambiar os datos do usuario"
 msgctxt "Message(org.debian.pcsc-lite.access_card)"
 msgid "Authentication is required to access the smart card"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
-
-#: /usr/share/polkit-1/actions/org.selinux.config.policy:11
-msgctxt "Description(org.selinux.config.pkexec.run)"
-msgid "Run System Config SELinux"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.selinux.config.policy:12
-#, fuzzy
-msgctxt "Message(org.selinux.config.pkexec.run)"
-msgid "Authentication is required to run system-config-selinux"
-msgstr ""
-"Requírese autenticación para activar ou desactivar o inicio de sesión remoto"
 
 #: /usr/share/polkit-1/actions/org.selinux.policy:11
 msgctxt "Description(org.selinux.restorecon)"
@@ -1793,12 +1873,24 @@ msgctxt "Message(org.selinux.change_policy_type)"
 msgid "System policy prevents change_policy_type access to SELinux"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:92
+#: /usr/share/polkit-1/actions/org.selinux.config.policy:11
+msgctxt "Description(org.selinux.config.pkexec.run)"
+msgid "Run System Config SELinux"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.selinux.config.policy:12
+#, fuzzy
+msgctxt "Message(org.selinux.config.pkexec.run)"
+msgid "Authentication is required to run system-config-selinux"
+msgstr ""
+"Requírese autenticación para activar ou desactivar o inicio de sesión remoto"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:94
 msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
 msgid "Get maximum brightness value"
 msgstr "Obter o valor de brillo máximo"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:126
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:129
 msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
 msgid "System policies prevent you from getting the brightness level."
 msgstr "As políticas do sistema evitan que coñeza o nivel de brillo."
@@ -1814,6 +1906,17 @@ msgid ""
 "Authentication is required to scan local machine with root privileges. Click "
 "\"Cancel\" to scan using your current permissions."
 msgstr ""
+
+#: /usr/share/polkit-1/actions/org.tuned.gui.policy:6
+msgctxt "Description(org.tuned.gui.run)"
+msgid "Run tuned-gui as root"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.tuned.gui.policy:7
+#, fuzzy
+msgctxt "Message(org.tuned.gui.run)"
+msgid "Authentication is required to run tuned-gui"
+msgstr "Requírese autenticación para cambiar os datos do usuario"
 
 #: /usr/share/polkit-1/actions/org.xfce.power.policy:13
 #, fuzzy
@@ -1876,3 +1979,58 @@ msgstr "Requírese autenticación para cambiar os datos do usuario"
 msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
 msgid "Authentication is required to edit language settings"
 msgstr "Requírese autenticación para cambiar os datos do usuario"
+
+#~ msgctxt "Description(org.kde.baloo.filewatch.raiselimit)"
+#~ msgid "Folder Watch Limit"
+#~ msgstr "Límite de vixilancia do cartafol"
+
+#~ msgctxt "Message(org.kde.baloo.filewatch.raiselimit)"
+#~ msgid ""
+#~ msgstr ""
+#~ "Para evitar perder cambios nos ficheiros aumente o límite de vixilancia "
+#~ "de cartafol de inotify"
+
+#, fuzzy
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Gardar a configuración da carteira"
+
+#, fuzzy
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Gardar a configuración da carteira"
+
+#, fuzzy
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "System policy prevents inspecting the firewall configuration"
+#~ msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+
+#, fuzzy
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "System policy prevents using the firewall direct interface"
+#~ msgstr ""
+#~ "As políticas do sistema non permiten que garde a configuración da data e "
+#~ "hora."
+
+#, fuzzy
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "System policy prevents inspecting the firewall direct interface"
+#~ msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+
+#, fuzzy
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "System policy prevents using the firewall policies interface"
+#~ msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+
+#, fuzzy
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "System policy prevents inspecting the firewall policies interface"
+#~ msgstr "As políticas do sistema evitan que modifique o nivel de brillo."
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmlightdm.savethemedetails)"
+#~ msgid "Save Theme Details"
+#~ msgstr "Gardar os detalles do tema"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmlightdm.savethemedetails)"
+#~ msgid "Save Theme Details in LightDM"
+#~ msgstr "Gardar os detalles do tema en LightDM"

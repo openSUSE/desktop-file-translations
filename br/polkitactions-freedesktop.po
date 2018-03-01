@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-07-18 07:21+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2017-05-16 14:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -171,6 +171,105 @@ msgstr ""
 msgctxt "Message(org.freedesktop.consolekit.system.restart-multiple-users)"
 msgid ""
 "System policy prevents restarting the system when other users are logged in"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:23
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#| msgid "Install signed package"
+msgctxt "Description(org.freedesktop.Flatpak.app-install)"
+msgid "Install signed application"
+msgstr "Staliañ ur pakad sinet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:40
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#| msgid "Install signed package"
+msgctxt "Description(org.freedesktop.Flatpak.runtime-install)"
+msgid "Install signed runtime"
+msgstr "Staliañ ur pakad sinet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:58
+msgctxt "Description(org.freedesktop.Flatpak.app-update)"
+msgid "Update signed application"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:76
+msgctxt "Description(org.freedesktop.Flatpak.runtime-update)"
+msgid "Update signed runtime"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:87
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#| msgid "Install signed package"
+msgctxt "Description(org.freedesktop.Flatpak.install-bundle)"
+msgid "Install bundle"
+msgstr "Staliañ ur pakad sinet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:98
+msgctxt "Description(org.freedesktop.Flatpak.runtime-uninstall)"
+msgid "Uninstall runtime"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:109
+msgctxt "Description(org.freedesktop.Flatpak.app-uninstall)"
+msgid "Uninstall app"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:120
+msgctxt "Description(org.freedesktop.Flatpak.configure-remote)"
+msgid "Configure Remote"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:138
+msgctxt "Description(org.freedesktop.Flatpak.appstream-update)"
+msgid "Update appstream"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:24
+msgctxt "Message(org.freedesktop.Flatpak.app-install)"
+msgid "Authentication is required to install software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:41
+msgctxt "Message(org.freedesktop.Flatpak.runtime-install)"
+msgid "Authentication is required to install software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:59
+msgctxt "Message(org.freedesktop.Flatpak.app-update)"
+msgid "Authentication is required to update software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:77
+msgctxt "Message(org.freedesktop.Flatpak.runtime-update)"
+msgid "Authentication is required to update software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:88
+msgctxt "Message(org.freedesktop.Flatpak.install-bundle)"
+msgid "Authentication is required to install software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:99
+msgctxt "Message(org.freedesktop.Flatpak.runtime-uninstall)"
+msgid "Authentication is required to uninstall software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:110
+msgctxt "Message(org.freedesktop.Flatpak.app-uninstall)"
+msgid "Authentication is required to uninstall software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:121
+msgctxt "Message(org.freedesktop.Flatpak.configure-remote)"
+msgid "Authentication is required to configure software repositories"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:139
+msgctxt "Message(org.freedesktop.Flatpak.appstream-update)"
+msgid "Authentication is required to update software"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
@@ -372,85 +471,85 @@ msgctxt "Description(org.freedesktop.packagekit.package-install)"
 msgid "Install signed package"
 msgstr "Staliañ ur pakad sinet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:207
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:208
 msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
 msgid "Install untrusted local file"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:295
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:297
 #, fuzzy
 msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
 msgid "Install already installed package again"
 msgstr "Staliañ ur pakad sinet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:362
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:367
 #, fuzzy
 msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
 msgid "Install older version of installed package"
 msgstr "Staliañ ur pakad sinet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:429
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:437
 msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
 msgid "Trust a key used for signing software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:492
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:504
 msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
 msgid "Accept EULA"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:602
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:614
 msgctxt "Description(org.freedesktop.packagekit.package-remove)"
 msgid "Remove package"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:693
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:706
 msgctxt "Description(org.freedesktop.packagekit.system-update)"
 msgid "Update software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:761
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:776
 msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
 msgid "Change software source parameters"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:871
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:886
 msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
 msgid "Refresh system sources"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:977
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:992
 msgctxt ""
 "Description(org.freedesktop.packagekit.system-network-proxy-configure)"
 msgid "Set network proxy"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1062
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1079
 msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
 msgid "Reload a device"
 msgstr "Adloc'hañ un drobarzhell"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1168
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1185
 msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
 msgid "Upgrade System"
 msgstr "Bremanaat ar reizhiad"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1217
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1246
 msgctxt "Description(org.freedesktop.packagekit.repair-system)"
 msgid "Repair System"
 msgstr "Pareañ ar reizhiad"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1296
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1325
 msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
 msgid "Trigger offline updates"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1370
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1399
 msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
 msgid "Trigger offline updates"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1444
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1473
 msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Clear offline update message"
 msgstr ""
@@ -466,98 +565,88 @@ msgctxt "Message(org.freedesktop.packagekit.package-install)"
 msgid "Authentication is required to install software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:256
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:257
 msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
 msgid "Authentication is required to install untrusted software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:323
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:327
 msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
 msgid "Authentication is required to reinstall software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:391
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:397
 msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 msgid "Authentication is required to downgrade software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:456
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:466
 msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
 msgid ""
 "Authentication is required to consider a key used for signing software as "
 "trusted"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:542
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:554
 msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
 msgid "Authentication is required to accept a EULA"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:653
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:665
 msgctxt "Message(org.freedesktop.packagekit.package-remove)"
 msgid "Authentication is required to remove software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:722
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:736
 msgctxt "Message(org.freedesktop.packagekit.system-update)"
 msgid "Authentication is required to update software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:811
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:826
 msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
 msgid "Authentication is required to change software source parameters"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:919
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:934
 msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
 msgid "Authentication is required to refresh the system sources"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1025
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1040
 msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
 msgid ""
 "Authentication is required to set the network proxy used for downloading "
 "software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1110
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1127
 msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
 msgid "Authentication is required to reload the device with a new driver"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1188
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1211
 msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
 msgid "Authentication is required to upgrade the operating system"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1253
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1282
 msgctxt "Message(org.freedesktop.packagekit.repair-system)"
 msgid "Authentication is required to repair the installed software"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1328
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1357
 msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
 msgid "Authentication is required to trigger offline updates"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1402
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1431
 msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
 msgid "Authentication is required to trigger offline updates"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1476
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1505
 msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
-msgctxt "Description(org.freedesktop.policykit.exec)"
-msgid "Run a program as another user"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
-msgctxt "Message(org.freedesktop.policykit.exec)"
-msgid "Authentication is required to run a program as another user"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
@@ -571,6 +660,16 @@ msgid ""
 "Authentication is required to run the polkit example program Frobnicate "
 "(user=$(user), user.gecos=$(user.gecos), user.display=$(user.display), "
 "program=$(program), command_line=$(command_line))"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:11
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
@@ -592,6 +691,50 @@ msgstr ""
 #: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
 msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
 msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:61
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:111
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:161
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:31
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:82
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:132
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:182
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
@@ -956,50 +1099,6 @@ msgstr ""
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:208
 msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
 msgid "Authentication is required to reload the systemd state."
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
-msgctxt "Description(org.freedesktop.timedate1.set-time)"
-msgid "Set system time"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:61
-msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-msgid "Set system timezone"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:111
-msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-msgid "Set RTC to local timezone or UTC"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:161
-msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-msgid "Turn network time synchronization on or off"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:31
-msgctxt "Message(org.freedesktop.timedate1.set-time)"
-msgid "Authentication is required to set the system time."
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:82
-msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-msgid "Authentication is required to set the system timezone."
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:132
-msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-msgid ""
-"Authentication is required to control whether the RTC stores the local or "
-"UTC time."
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:182
-msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-msgid ""
-"Authentication is required to control whether network time synchronization "
-"shall be enabled."
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10

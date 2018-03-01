@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -36,16 +36,6 @@ msgctxt "GenericName(add-on-creator.desktop)"
 msgid "Create Add-On product"
 msgstr ""
 
-#: /usr/share/applications/YaST2/vendor.desktop:20
-msgctxt "Name(vendor.desktop)"
-msgid "Vendor Driver CD"
-msgstr ""
-
-#: /usr/share/applications/YaST2/vendor.desktop:21
-msgctxt "GenericName(vendor.desktop)"
-msgid "Install a driver from a vendor-specific CD-ROM"
-msgstr ""
-
 #: /usr/share/applications/YaST2/add-on.desktop:23
 msgctxt "Name(add-on.desktop)"
 msgid "Add-On Products"
@@ -54,6 +44,16 @@ msgstr ""
 #: /usr/share/applications/YaST2/add-on.desktop:24
 msgctxt "GenericName(add-on.desktop)"
 msgid "Install or remove add-on products"
+msgstr ""
+
+#: /usr/share/applications/YaST2/vendor.desktop:20
+msgctxt "Name(vendor.desktop)"
+msgid "Vendor Driver CD"
+msgstr ""
+
+#: /usr/share/applications/YaST2/vendor.desktop:21
+msgctxt "GenericName(vendor.desktop)"
+msgid "Install a driver from a vendor-specific CD-ROM"
 msgstr ""
 
 #: /usr/share/applications/YaST2/alternatives.desktop:15
@@ -176,24 +176,9 @@ msgctxt "GenericName(cluster.desktop)"
 msgid "Configure Cluster"
 msgstr ""
 
-#: /usr/share/applications/YaST2/timezone.desktop:24
-msgctxt "Name(timezone.desktop)"
-msgid "Date and Time"
-msgstr ""
-
-#: /usr/share/applications/YaST2/timezone.desktop:25
-msgctxt "GenericName(timezone.desktop)"
-msgid "Control time zone, date, and system time"
-msgstr ""
-
-#: /usr/share/applications/YaST2/yast-language.desktop:25
-msgctxt "Name(yast-language.desktop)"
-msgid "Language"
-msgstr ""
-
-#: /usr/share/applications/YaST2/yast-language.desktop:26
-msgctxt "GenericName(yast-language.desktop)"
-msgid "Change the language and install additional languages"
+#: /usr/share/applications/YaST2/configuration_management.desktop:13
+msgctxt "Name(configuration_management.desktop)"
+msgid "YaST2 Configuration Management"
 msgstr ""
 
 #: /usr/share/applications/YaST2/keyboard.desktop:24
@@ -206,44 +191,24 @@ msgctxt "GenericName(keyboard.desktop)"
 msgid "Select the system keyboard"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/software.desktop:15
-msgctxt "Name(software.desktop)"
-msgid "Software"
+#: /usr/share/applications/YaST2/yast-language.desktop:25
+msgctxt "Name(yast-language.desktop)"
+msgid "Language"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/hardware.desktop:15
-msgctxt "Name(hardware.desktop)"
-msgid "Hardware"
+#: /usr/share/applications/YaST2/yast-language.desktop:26
+msgctxt "GenericName(yast-language.desktop)"
+msgid "Change the language and install additional languages"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/support.desktop:15
-msgctxt "Name(support.desktop)"
-msgid "Support"
+#: /usr/share/applications/YaST2/timezone.desktop:24
+msgctxt "Name(timezone.desktop)"
+msgid "Date and Time"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/security.desktop:15
-msgctxt "Name(security.desktop)"
-msgid "Security and Users"
-msgstr ""
-
-#: /usr/share/applications/YaST2/groups/misc.desktop:15
-msgctxt "Name(misc.desktop)"
-msgid "Miscellaneous"
-msgstr ""
-
-#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
-msgctxt "Name(high_availability.desktop)"
-msgid "High Availability"
-msgstr ""
-
-#: /usr/share/applications/YaST2/groups/system.desktop:15
-msgctxt "Name(system.desktop)"
-msgid "System"
-msgstr ""
-
-#: /usr/share/applications/YaST2/groups/network_services.desktop:15
-msgctxt "Name(network_services.desktop)"
-msgid "Network Services"
+#: /usr/share/applications/YaST2/timezone.desktop:25
+msgctxt "GenericName(timezone.desktop)"
+msgid "Control time zone, date, and system time"
 msgstr ""
 
 #: /usr/share/applications/YaST2/messages.desktop:22
@@ -254,6 +219,46 @@ msgstr ""
 #: /usr/share/applications/YaST2/messages.desktop:23
 msgctxt "GenericName(messages.desktop)"
 msgid "Display the system's log (/var/log/messages)"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/system.desktop:15
+msgctxt "Name(system.desktop)"
+msgid "System"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/misc.desktop:15
+msgctxt "Name(misc.desktop)"
+msgid "Miscellaneous"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/security.desktop:15
+msgctxt "Name(security.desktop)"
+msgid "Security and Users"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/support.desktop:15
+msgctxt "Name(support.desktop)"
+msgid "Support"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
+msgctxt "Name(high_availability.desktop)"
+msgid "High Availability"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/network_services.desktop:15
+msgctxt "Name(network_services.desktop)"
+msgid "Network Services"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/hardware.desktop:15
+msgctxt "Name(hardware.desktop)"
+msgid "Hardware"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/software.desktop:15
+msgctxt "Name(software.desktop)"
+msgid "Software"
 msgstr ""
 
 #: /usr/share/applications/YaST2/dhcp-server.desktop:25
@@ -476,16 +481,6 @@ msgctxt "GenericName(multipath.desktop)"
 msgid "multipath"
 msgstr ""
 
-#: /usr/share/applications/YaST2/remote.desktop:20
-msgctxt "Name(remote.desktop)"
-msgid "Remote Administration (VNC)"
-msgstr ""
-
-#: /usr/share/applications/YaST2/remote.desktop:21
-msgctxt "GenericName(remote.desktop)"
-msgid "Set up remote administration"
-msgstr ""
-
 #: /usr/share/applications/YaST2/lan.desktop:22
 msgctxt "Name(lan.desktop)"
 msgid "Network Settings"
@@ -494,6 +489,16 @@ msgstr ""
 #: /usr/share/applications/YaST2/lan.desktop:23
 msgctxt "GenericName(lan.desktop)"
 msgid "Configure network cards, hostname and routing"
+msgstr ""
+
+#: /usr/share/applications/YaST2/remote.desktop:20
+msgctxt "Name(remote.desktop)"
+msgid "Remote Administration (VNC)"
+msgstr ""
+
+#: /usr/share/applications/YaST2/remote.desktop:21
+msgctxt "GenericName(remote.desktop)"
+msgid "Set up remote administration"
 msgstr ""
 
 #: /usr/share/applications/YaST2/host.desktop:22
@@ -576,6 +581,16 @@ msgctxt "GenericName(online_update.desktop)"
 msgid "Get patches to correct and improve your existing installation"
 msgstr ""
 
+#: /usr/share/applications/YaST2/sw_single.desktop:20
+msgctxt "Name(sw_single.desktop)"
+msgid "Software Management"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sw_single.desktop:21
+msgctxt "GenericName(sw_single.desktop)"
+msgid "Install or remove software packages and manage software repositories"
+msgstr ""
+
 #: /usr/share/applications/YaST2/sw_source.desktop:20
 msgctxt "Name(sw_source.desktop)"
 msgid "Software Repositories"
@@ -596,16 +611,6 @@ msgstr ""
 #: /usr/share/applications/YaST2/checkmedia.desktop:22
 msgctxt "GenericName(checkmedia.desktop)"
 msgid "Verify CD and DVD media integrity"
-msgstr ""
-
-#: /usr/share/applications/YaST2/sw_single.desktop:20
-msgctxt "Name(sw_single.desktop)"
-msgid "Software Management"
-msgstr ""
-
-#: /usr/share/applications/YaST2/sw_single.desktop:21
-msgctxt "GenericName(sw_single.desktop)"
-msgid "Install or remove software packages and manage software repositories"
 msgstr ""
 
 #: /usr/share/applications/YaST2/printer.desktop:23
@@ -646,6 +651,16 @@ msgstr ""
 #: /usr/share/applications/YaST2/proxy.desktop:23
 msgctxt "GenericName(proxy.desktop)"
 msgid "Configure a proxy"
+msgstr ""
+
+#: /usr/share/applications/YaST2/rdp.desktop:23
+msgctxt "Name(rdp.desktop)"
+msgid "Remote Administration (RDP)"
+msgstr ""
+
+#: /usr/share/applications/YaST2/rdp.desktop:24
+msgctxt "GenericName(rdp.desktop)"
+msgid "Configure RDP (Remote Desktop Protocol)"
 msgstr ""
 
 #: /usr/share/applications/YaST2/rear.desktop:22

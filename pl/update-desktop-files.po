@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2018-01-31 07:55+0000\n"
 "Last-Translator: Ewelina Michalowska <ewelina.michalowska@stgambit.com>\n"
 "Language-Team: Polish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -45,15 +45,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "Dodaj lub edytuj skrypty niestandardowe"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Partycjonowanie"
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Raportowanie i rejestrowanie"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Konfiguruj ustawienia partycjonowania i przechowywania"
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Konfiguruj ustawienia raportowania i rejestrowania"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -65,6 +65,16 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Konfiguruj ustawienia oprogramowania i wyboru pakietów"
 
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Partycjonowanie"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Konfiguruj ustawienia partycjonowania i przechowywania"
+
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
@@ -74,16 +84,6 @@ msgstr "Pełne pliki konfiguracyjne"
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "Dodaj pełne pliki konfiguracyjne"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Raportowanie i rejestrowanie"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Konfiguruj ustawienia raportowania i rejestrowania"
 
 #: /usr/share/xsessions/awesome.desktop:3
 msgctxt "Name(awesome.desktop)"
@@ -137,6 +137,19 @@ msgctxt "Comment(blueberry-tray.desktop)"
 msgid "Blueberry tray icon"
 msgstr "Ikona Blueberry na pasku zadań"
 
+#: /etc/xdg/autostart/blueman.desktop:2
+#, fuzzy
+#| msgctxt "Name(qwebyast-autostart.desktop)"
+#| msgid "WebYaST Applet"
+msgctxt "Name(blueman.desktop)"
+msgid "Blueman Applet"
+msgstr "Aplet WebYaST"
+
+#: /etc/xdg/autostart/blueman.desktop:42
+msgctxt "Comment(blueman.desktop)"
+msgid "Blueman Bluetooth Manager"
+msgstr "Menedżer Bluetooth Blueman"
+
 #: /usr/share/wallpapers/openSUSEdefault/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
@@ -147,7 +160,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Breeze Dark"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:43
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:44
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "Język projektowania pulpitu Breeze Dark od KDE VDG"
@@ -187,6 +200,16 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Sesja logowania do środowiska Cinnamon"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -198,15 +221,118 @@ msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Sesja logowania do środowiska Cinnamon (używając renderowania programowego)"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr ""
 
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Sesja logowania do środowiska Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Demon ustawień środowiska MATE"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr ""
 
 #: /etc/xdg/autostart/deja-dup-monitor.desktop:4
 msgctxt "Name(deja-dup-monitor.desktop)"
@@ -258,8 +384,11 @@ msgid "Enlightenment"
 msgstr "Enlightenment"
 
 #: /usr/share/xsessions/enlightenment.desktop:19
+#, fuzzy
+#| msgctxt "Comment(enlightenment.desktop)"
+#| msgid "Log in using Enlightenment (Version 0.21.7)"
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.7)"
+msgid "Log in using Enlightenment (Version 0.21.8)"
 msgstr "Zaloguj się przy użyciu programu Enlightenment (wersja 0.21.7)"
 
 #: /usr/share/xsessions/epymc_xsession.desktop:4
@@ -277,7 +406,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Powiadamianie o alarmach Evolution"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:65
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:67
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Powiadomienia o wydarzeniach z kalendarza"
@@ -302,98 +431,10 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Aplet zapory sieciowej"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:44
+#: /etc/xdg/autostart/firewall-applet.desktop:45
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Aplet zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:11
-msgctxt "Description(org.fedoraproject.FirewallD1.all)"
-msgid "Firewall"
-msgstr "Zapora sieciowa"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:22
-msgctxt "Description(org.fedoraproject.FirewallD1.info)"
-msgid "General firewall information"
-msgstr "Ogólne informacje o zaporze sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:32
-msgctxt "Description(org.fedoraproject.FirewallD1.config)"
-msgid "Firewall configuration"
-msgstr "Konfiguracja zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:43
-msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
-msgid "Firewall configuration"
-msgstr "Konfiguracja zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:53
-msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
-msgid "Firewall direct interface"
-msgstr "Bezpośredni interfejs zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:64
-msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
-msgid "Firewall direct interface"
-msgstr "Bezpośredni interfejs zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:74
-msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
-msgid "Firewall policies interface"
-msgstr "Interfejs zasad zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:85
-msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
-msgid "Firewall policies interface"
-msgstr "Interfejs zasad zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:12
-msgctxt "Message(org.fedoraproject.FirewallD1.all)"
-msgid "System policy prevents inspecting and changing firewall"
-msgstr "Zasady systemowe uniemożliwiają kontrolę i zmianę zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:23
-msgctxt "Message(org.fedoraproject.FirewallD1.info)"
-msgid "System policy prevents getting general firewall information"
-msgstr ""
-"Zasady systemowe uniemożliwiają pobranie ogólnych informacji o zaporze "
-"sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:33
-msgctxt "Message(org.fedoraproject.FirewallD1.config)"
-msgid "System policy prevents changing the firewall configuration"
-msgstr "Zasady systemowe uniemożliwiają zmianę konfiguracji zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:44
-msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-msgid "System policy prevents inspecting the firewall configuration"
-msgstr "Zasady systemowe uniemożliwiają kontrolę konfiguracji zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:54
-msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
-msgid "System policy prevents using the firewall direct interface"
-msgstr ""
-"Zasady systemowe uniemożliwiają używanie bezpośredniego interfejsu zapory "
-"sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:65
-msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
-msgid "System policy prevents inspecting the firewall direct interface"
-msgstr ""
-"Zasady systemowe uniemożliwiają kontrolę bezpośredniego interfejsu zapory "
-"sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:75
-msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
-msgid "System policy prevents using the firewall policies interface"
-msgstr ""
-"Zasady systemowe uniemożliwiają używanie interfejsu zasad zapory sieciowej"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:86
-msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
-msgid "System policy prevents inspecting the firewall policies interface"
-msgstr ""
-"Zasady systemowe uniemożliwiają kontrolę interfejsu zasad zapory sieciowej"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -445,6 +486,11 @@ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr "Subtelnie przypomina o regularnym robieniu przerw"
 
+#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
+msgctxt "Name(gnome-welcome-tour.desktop)"
+msgid "Welcome"
+msgstr "Zapraszamy"
+
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -455,17 +501,22 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Początkowe ustawienia"
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "Zapraszamy"
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "Agent kluczy SSH"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Pęk kluczy środowiska GNOME: agent SSH"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
 msgid "Secret Storage Service"
 msgstr "Usługa przechowywania haseł"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
 msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "Pęk kluczy środowiska GNOME: usługa tajna"
@@ -475,20 +526,10 @@ msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Przechowalnia certyfikatów i kluczy"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "Pęk kluczy środowiska GNOME: składnik PKCS#11"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "Agent kluczy SSH"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:71
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "Pęk kluczy środowiska GNOME: agent SSH"
 
 #: /usr/share/xsessions/gnome.desktop:6
 msgctxt "Name(gnome.desktop)"
@@ -559,16 +600,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "Usługa paska zadań HP"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "udoskonalony menedżer okien z dynamicznym rozmieszczaniem sąsiadująco"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -576,6 +607,16 @@ msgstr "i3 (z dziennikiem debugowania)"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:3
 msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "udoskonalony menedżer okien z dynamicznym rozmieszczaniem sąsiadująco"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
 msgstr "udoskonalony menedżer okien z dynamicznym rozmieszczaniem sąsiadująco"
 
@@ -614,26 +655,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Samoczynne uruchamianie KAlarmu po zalogowaniu"
 
-#: /usr/share/autostart/konqy_preload.desktop:4
-msgctxt "Name(konqy_preload.desktop)"
-msgid "Konqueror Preloading During KDE startup"
-msgstr "Wstępne wczytanie programu Konqueror przy uruchamianiu środowiska KDE"
-
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Paski"
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Przestrzeń pulpitu Plasma"
-
-#: /usr/share/autostart/krunner.desktop:4
-msgctxt "Name(krunner.desktop)"
-msgid "Command Runner"
-msgstr "Moduł uruchamiania poleceń"
-
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -649,40 +670,25 @@ msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Program narzędziowy historii wycinania i wklejania"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Przestrzeń pulpitu Plasma"
+
+#: /usr/share/autostart/krunner.desktop:4
+msgctxt "Name(krunner.desktop)"
+msgid "Command Runner"
+msgstr "Moduł uruchamiania poleceń"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Paski"
+
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
 msgstr "Demon KDEConnect"
-
-#: /usr/share/autostart/korgac.desktop:3
-msgctxt "Name(korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "Klient przypominania programu KOrganizer"
-
-#: /usr/share/autostart/korgac.desktop:65
-msgctxt "GenericName(korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "Klient demona przypominania programu KOrganizer"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:2
-msgctxt "Name(kaddressbookmigrator.desktop)"
-msgid "kaddressbookmigrator"
-msgstr "kaddressbookmigrator"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:50
-msgctxt "Comment(kaddressbookmigrator.desktop)"
-msgid "Tool to migrate the old kresource based address book to Akonadi."
-msgstr "Narzędzie do migracji starej książki adresowej kresource do Akonadi."
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:2
-msgctxt "Name(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "Klient przypominania programu KOrganizer"
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:64
-msgctxt "GenericName(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "Klient demona przypominania programu KOrganizer"
 
 #: /etc/xdg/autostart/org.kde.kgpg.desktop:9
 msgctxt "GenericName(org.kde.kgpg.desktop)"
@@ -699,20 +705,20 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "Projekt programu KiCad"
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "Płytka drukowana programu KiCad"
 
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "Schemat programu KiCad"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "Płytka drukowana programu KiCad"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "Projekt programu KiCad"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -745,6 +751,16 @@ msgid "Konqueror preloading during desktop environment startup"
 msgstr ""
 "Wstępne wczytanie programu Konqueror przy uruchamianiu środowiska pulpitu"
 
+#: /etc/xdg/autostart/org.kde.korgac.desktop:2
+msgctxt "Name(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Client"
+msgstr "Klient przypominania programu KOrganizer"
+
+#: /etc/xdg/autostart/org.kde.korgac.desktop:64
+msgctxt "GenericName(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Daemon Client"
+msgstr "Klient demona przypominania programu KOrganizer"
+
 #: /etc/xdg/autostart/krb5-auth-dialog.desktop:2
 msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
@@ -766,171 +782,10 @@ msgid "LeechCraft session with the window manager configured via Fenet"
 msgstr ""
 "Sesja programu LeechCraft z menedżerem okien skonfigurowanym przez Fenet"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Arkusz programu Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Dokument programu Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
-msgid "OpenDocument Drawing (Flat XML)"
-msgstr "Rysunek OpenDocument (płaski XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr "Arkusz kalkulacyjny OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Arkusz programu Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
-msgctxt "Comment(libreoffice-presentation.desktop)"
-msgid "OpenOffice.org 1.0 Presentation"
-msgstr "Prezentacja OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "Prezentacja OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Prezentacja programu Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
-msgctxt "Comment(libreoffice-text.desktop)"
-msgid "OpenOffice.org 1.0 Text Document"
-msgstr "Dokument tekstowy OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
-msgctxt "Comment(libreoffice-oasis-text.desktop)"
-msgid "OpenDocument Text"
-msgstr "Tekst OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
-msgid "OpenDocument Drawing"
-msgstr "Rysunek OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Dokument programu Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-presentation-template.desktop)"
-msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr "Szablon prezentacji OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
-msgid "OpenDocument Master Document Template"
-msgstr "Szablon dokumentu głównego OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
-msgid "OpenDocument Master Document"
-msgstr "Główny dokument OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
-msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr "Arkusz kalkulacyjny OpenDocument (płaski XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
-"presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Prezentacja programu Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
-"desktop)"
-msgid "Microsoft Word Document"
-msgstr "Dokument programu Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Prezentacja programu Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Szablon prezentacji programu Microsoft PowerPoint"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
-msgctxt "Comment(libreoffice-oasis-database.desktop)"
-msgid "OpenDocument Database"
-msgstr "Baza danych OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
-msgctxt "Comment(libreoffice-text-template.desktop)"
-msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr "Szablon dokumentu tekstowego OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-drawing-template.desktop)"
-msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr "Szablon rysunku OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
-msgctxt "Comment(libreoffice-master-document.desktop)"
-msgid "OpenOffice.org 1.0 Master Document"
-msgstr "Dokument główny OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
-msgid "OpenDocument Text (Flat XML)"
-msgstr "Plik tekstowy OpenDocument (płaski XML)"
-
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
 msgid "OpenDocument Presentation"
 msgstr "Prezentacja OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
-msgid "OpenDocument Drawing Template"
-msgstr "Szablon rysunku OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
-"desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Szablon arkusza programu Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
-msgid "OpenDocument Presentation Template"
-msgstr "Szablon prezentacji OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "Szablon dokumentu programu Microsoft Word"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
-msgid "OpenDocument Spreadsheet"
-msgstr "Arkusz kalkulacyjny OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
-msgctxt "Comment(libreoffice-formula.desktop)"
-msgid "OpenOffice.org 1.0 Formula"
-msgstr "Formuła OpenOffice.org 1.0"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
 msgctxt ""
@@ -939,27 +794,20 @@ msgctxt ""
 msgid "Microsoft Excel Worksheet"
 msgstr "Arkusz programu Microsoft Excel"
 
-#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
-msgctxt "Comment(libreoffice-drawing.desktop)"
-msgid "OpenOffice.org 1.0 Drawing"
-msgstr "Rysunek OpenOffice.org 1.0"
+#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
+msgctxt "Comment(libreoffice-master-document.desktop)"
+msgid "OpenOffice.org 1.0 Master Document"
+msgstr "Dokument główny OpenOffice.org 1.0"
 
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
-"desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Szablon prezentacji programu Microsoft PowerPoint"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Dokument programu Microsoft Word"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Szablon arkusza programu Microsoft Excel"
-
-#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
-msgctxt "Comment(libreoffice-extension.desktop)"
-msgid "%PRODUCTNAME Extension"
-msgstr "Rozszerzenie programu %PRODUCTNAME"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
+msgid "Microsoft Word Document Template"
+msgstr "Szablon dokumentu programu Microsoft Word"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
 msgctxt ""
@@ -968,40 +816,208 @@ msgctxt ""
 msgid "Microsoft Word Document Template"
 msgstr "Szablon dokumentu programu Microsoft Word"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
-msgctxt "Comment(libreoffice-oasis-formula.desktop)"
-msgid "OpenDocument Formula"
-msgstr "Formuła OpenDocument"
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
+msgid "OpenDocument Text Template"
+msgstr "Szablon tekstowy OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Arkusz programu Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
+msgctxt "Comment(libreoffice-text-template.desktop)"
+msgid "OpenOffice.org 1.0 Text Document Template"
+msgstr "Szablon dokumentu tekstowego OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
+msgctxt "Comment(libreoffice-text.desktop)"
+msgid "OpenOffice.org 1.0 Text Document"
+msgstr "Dokument tekstowy OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
+msgid "OpenDocument Master Document"
+msgstr "Główny dokument OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet Template"
+msgstr "Szablon arkusza kalkulacyjnego OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
+"desktop)"
+msgid "Microsoft Word Document"
+msgstr "Dokument programu Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
+msgid "OpenDocument Spreadsheet"
+msgstr "Arkusz kalkulacyjny OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Szablon prezentacji programu Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
 msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
 msgid "Microsoft Excel Worksheet"
 msgstr "Arkusz programu Microsoft Excel"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:27
-msgctxt "Comment(libreoffice-ms-word-document.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Dokument programu Microsoft Word"
+#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
+msgctxt "Comment(libreoffice-formula.desktop)"
+msgid "OpenOffice.org 1.0 Formula"
+msgstr "Formuła OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
+"desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Szablon arkusza programu Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "Rozszerzenie programu %PRODUCTNAME"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
+msgid "OpenDocument Presentation Template"
+msgstr "Szablon prezentacji OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Prezentacja programu Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
+msgid "OpenDocument Spreadsheet (Flat XML)"
+msgstr "Arkusz kalkulacyjny OpenDocument (płaski XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Prezentacja programu Microsoft PowerPoint"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
 msgid "OpenDocument Spreadsheet Template"
 msgstr "Szablon arkusza kalkulacyjnego OpenDocument"
 
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
+"presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Prezentacja programu Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
+msgctxt "Comment(libreoffice-presentation.desktop)"
+msgid "OpenOffice.org 1.0 Presentation"
+msgstr "Prezentacja OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
+msgid "OpenDocument Drawing Template"
+msgstr "Szablon rysunku OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Arkusz programu Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-presentation-template.desktop)"
+msgid "OpenOffice.org 1.0 Presentation Template"
+msgstr "Szablon prezentacji OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Szablon arkusza programu Microsoft Excel"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Dokument programu Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet"
+msgstr "Arkusz kalkulacyjny OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
+msgid "OpenDocument Master Document Template"
+msgstr "Szablon dokumentu głównego OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
+msgid "OpenDocument Drawing"
+msgstr "Rysunek OpenDocument"
+
 #: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
 msgid "HTML Document Template"
 msgstr "Szablon dokumentu HTML"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
-msgid "OpenDocument Text Template"
-msgstr "Szablon tekstowy OpenDocument"
+#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
+msgctxt "Comment(libreoffice-oasis-formula.desktop)"
+msgid "OpenDocument Formula"
+msgstr "Formuła OpenDocument"
 
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr "Szablon arkusza kalkulacyjnego OpenOffice.org 1.0"
+#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
+msgctxt "Comment(libreoffice-drawing.desktop)"
+msgid "OpenOffice.org 1.0 Drawing"
+msgstr "Rysunek OpenOffice.org 1.0"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
+msgid "OpenDocument Presentation"
+msgstr "Prezentacja OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
+msgctxt "Comment(libreoffice-oasis-text.desktop)"
+msgid "OpenDocument Text"
+msgstr "Tekst OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
+msgctxt "Comment(libreoffice-oasis-database.desktop)"
+msgid "OpenDocument Database"
+msgstr "Baza danych OpenDocument"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
+"desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Szablon prezentacji programu Microsoft PowerPoint"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
+msgid "OpenDocument Drawing (Flat XML)"
+msgstr "Rysunek OpenDocument (płaski XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
+msgid "OpenDocument Text (Flat XML)"
+msgstr "Plik tekstowy OpenDocument (płaski XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Dokument programu Microsoft Word"
+
+#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-drawing-template.desktop)"
+msgid "OpenOffice.org 1.0 Drawing Template"
+msgstr "Szablon rysunku OpenOffice.org 1.0"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1120,12 +1136,12 @@ msgctxt "Name(mate-volume-control-applet.desktop)"
 msgid "Volume Control"
 msgstr "Regulacja głośności"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:96
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:97
 msgctxt "Comment(mate-volume-control-applet.desktop)"
 msgid "Show desktop volume control"
 msgstr "Pokaż regulację głośności na pulpicie"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:173
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:175
 msgctxt "Keywords(mate-volume-control-applet.desktop)"
 msgid "MATE;volume;control;mixer;settings;sound;"
 msgstr "MATE;głośność;sterowanie;mikser;ustawienia;dźwięk;"
@@ -1259,16 +1275,6 @@ msgstr "Sieć"
 msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "Zarządzaj połączeniami sieciowymi"
-
-#: /etc/xdg/autostart/obexd-server.desktop:2
-msgctxt "Name(obexd-server.desktop)"
-msgid "Obexd Server"
-msgstr "Serwer Obexd"
-
-#: /etc/xdg/autostart/obexd-server.desktop:3
-msgctxt "Comment(obexd-server.desktop)"
-msgid "Obexd Server Daemon"
-msgstr "Demon serwera Obexd"
 
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
@@ -1406,22 +1412,22 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "Aplet aktualizacji PackageKit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "Domyślny panel"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Pulpit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Pusty panel"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Schludny i prosty układ"
 
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
 msgstr "Deklaratywny przybornik"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:48
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
 msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Zarządzaj programem Plasma"
@@ -1446,15 +1452,15 @@ msgctxt "Summary(org.kde.plasma.desktop)"
 msgid "Desktop view furniture"
 msgstr "Umeblowanie widoku pulpitu"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop"
-msgstr "Pulpit"
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "Domyślny panel"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Schludny i prosty układ"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Pusty panel"
 
 #: /usr/share/xsessions/plasma5.desktop:7
 msgctxt "Name(plasma5.desktop)"
@@ -1476,70 +1482,70 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Język projektowania pulpitu Breeze od KDE VDG"
 
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
+#: /etc/xdg/autostart/plasmashell.desktop:4
+msgctxt "Name(plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Przestrzeń robocza pulpitu Plasma"
 
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /etc/xdg/autostart/plasmashell.desktop:4
-msgctxt "Name(plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Przestrzeń robocza pulpitu Plasma"
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Przy wodzie"
+msgid "Colorful Cups"
+msgstr "Barwne kubki"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Latający Konqui"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Opadły liść"
-
-#: /usr/share/wallpapers/Path/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Ścieżka"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Szary"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Zimna fala"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Najciemniejsza godzina"
+msgid "Pastel Hills"
+msgstr "Pastelowe wzgórza"
 
 #: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Evening Glow"
 msgstr "Wieczorna poświata"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "Pastelowe wzgórza"
+msgid "Darkest Hour"
+msgstr "Najciemniejsza godzina"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Barwne kubki"
+msgid "By the water"
+msgstr "Przy wodzie"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "Ścieżka"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "Opadły liść"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "Zimna fala"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Szary"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1591,7 +1597,7 @@ msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
 msgstr "Zarządzanie energią"
 
-#: /etc/xdg/autostart/powerdevil.desktop:53
+#: /etc/xdg/autostart/powerdevil.desktop:54
 msgctxt "Comment(powerdevil.desktop)"
 msgid "Battery, Display and CPU power management and notification"
 msgstr ""
@@ -1659,15 +1665,15 @@ msgctxt "Comment(rsibreak.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Upewnia się że odpocząłeś i następnie"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu Lumina"
 
 #: /usr/share/xsessions/sawfish-kde4.desktop:2
 msgctxt "Name(sawfish-kde4.desktop)"
@@ -1679,25 +1685,15 @@ msgctxt "Comment(sawfish-kde4.desktop)"
 msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu KDE"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu XFCE"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu Lumina"
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1708,6 +1704,16 @@ msgstr "Sawfish/MATE"
 msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu MATE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu XFCE"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1749,26 +1755,6 @@ msgctxt "Summary(sqlitebrowser.desktop)"
 msgid "DB Browser for SQLite is a light GUI editor for SQLite databases"
 msgstr "DB Browser for SQLite to lekki edytor GUI do baz danych SQLite"
 
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:4
-msgctxt "Name(synaptiks_init_config.desktop)"
-msgid "Synaptiks touchpad configuration"
-msgstr "Konfiguracja touchpada Synaptiks"
-
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:5
-msgctxt "Comment(synaptiks_init_config.desktop)"
-msgid "Initialize touchpad configuration"
-msgstr "Zainicjuj konfigurację touchpada"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:14
-msgctxt "Name(synaptiks_autostart.desktop)"
-msgid "synaptiks"
-msgstr "synaptiks"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:17
-msgctxt "GenericName(synaptiks_autostart.desktop)"
-msgid "Touchpad management"
-msgstr "Zarządzanie touchpadem"
-
 #: /etc/xdg/autostart/print-applet.desktop:2
 msgctxt "Name(print-applet.desktop)"
 msgid "Print Queue Applet"
@@ -1779,66 +1765,71 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Ikona na pasku zadań do zarządzania zadaniami wydruku"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Przechowywanie programu Tracker"
-
-#: /etc/xdg/autostart/tracker-store.desktop:46
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "Menedżer przechowywania i wyszukiwania w bazie metadanych"
-
 #: /etc/xdg/autostart/tracker-miner-user-guides.desktop:2
 msgctxt "Name(tracker-miner-user-guides.desktop)"
 msgid "Tracker User Guides Miner"
 msgstr "Przeszukiwanie podręczników użytkownika programu Tracker"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:37
+#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:40
 msgctxt "Comment(tracker-miner-user-guides.desktop)"
 msgid "Crawls and processes user guides in shared areas"
 msgstr ""
 "Przeszukuje i przetwarza podręczniki użytkownika we współdzielonych obszarach"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
-msgctxt "Name(tracker-miner-apps.desktop)"
-msgid "Tracker Application Miner"
-msgstr "Przeszukiwanie programów Tracker"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:37
-msgctxt "Comment(tracker-miner-apps.desktop)"
-msgid "Indexes information about applications installed"
-msgstr "Indeksuje informacje o zainstalowanych programach"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Wydobywanie metadanych programu Tracker"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:38
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Wydobywanie metadanych z lokalnych plików"
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
 msgstr "Przeszukiwanie systemu plików programu Tracker"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:44
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:46
 msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "Przeszukuje i przetwarza pliki w systemie plików"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Wydobywanie metadanych programu Tracker"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:41
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Wydobywanie metadanych z lokalnych plików"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
+msgctxt "Name(tracker-miner-apps.desktop)"
+msgid "Tracker Application Miner"
+msgstr "Przeszukiwanie programów Tracker"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:40
+msgctxt "Comment(tracker-miner-apps.desktop)"
+msgid "Indexes information about applications installed"
+msgstr "Indeksuje informacje o zainstalowanych programach"
+
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Przechowywanie programu Tracker"
+
+#: /etc/xdg/autostart/tracker-store.desktop:48
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "Menedżer przechowywania i wyszukiwania w bazie metadanych"
 
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
 msgid "Tracker RSS/ATOM Feeds Miner"
 msgstr "Przeszukiwanie kanałów RSS/Atom programu Tracker"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:44
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "Pobierz kanały RSS/Atom"
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
+msgstr "Plik programu TreeLine"
 
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
@@ -1849,11 +1840,6 @@ msgstr "Skompresowany plik programu TreeLine"
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
 msgstr "Plik programu TreePad"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr "Plik programu TreeLine"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1885,7 +1871,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "Aktualizacja folderów użytkownika"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:74
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr ""
@@ -1985,15 +1971,23 @@ msgstr ""
 "Demon zarządzający multimedialnymi przyciskami głośności oraz wyświetlający "
 "powiadomienia związane z głośnością dla programu Pulseaudio"
 
-#: /etc/xdg/autostart/xiccd.desktop:5
+#: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
 msgid "X11 ICC Daemon"
 msgstr "Demon ICC X11"
 
-#: /etc/xdg/autostart/xiccd.desktop:6
+#: /etc/xdg/autostart/xiccd.desktop:5
+#, fuzzy
+#| msgctxt "Comment(mate-power-manager.desktop)"
+#| msgid "Power management daemon"
+msgctxt "GenericName(xiccd.desktop)"
+msgid "X color management daemon"
+msgstr "Demon zarządzania zasilaniem"
+
+#: /etc/xdg/autostart/xiccd.desktop:7
 msgctxt "Comment(xiccd.desktop)"
-msgid "Start the XICCD"
-msgstr "Uruchom XICCD"
+msgid "Applies color management profiles to your session"
+msgstr ""
 
 #: /usr/share/xsessions/xmonad.desktop:6
 msgctxt "Name(xmonad.desktop)"
@@ -2015,16 +2009,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Włącz lub wyłącz uruchamianie sekwencji programu Firstboot"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "Import kluczy SSH"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "Importowanie kluczy SSH z poprzedniej instalacji"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -2034,6 +2018,16 @@ msgstr "Wdrażanie obrazu"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Konfiguruj wdrażanie obrazu"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "Import kluczy SSH"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "Importowanie kluczy SSH z poprzedniej instalacji"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:4
 msgctxt "Name(zeitgeist-datahub.desktop)"
@@ -2055,3 +2049,131 @@ msgstr "Uruchom Zeitgeist Datahub dla pasywnych rejestratorów"
 msgctxt "GenericName(zeitgeist-datahub.desktop)"
 msgid ""
 msgstr " "
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.all)"
+#~ msgid "Firewall"
+#~ msgstr "Zapora sieciowa"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.info)"
+#~ msgid "General firewall information"
+#~ msgstr "Ogólne informacje o zaporze sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Konfiguracja zapory sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Konfiguracja zapory sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Bezpośredni interfejs zapory sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Bezpośredni interfejs zapory sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Interfejs zasad zapory sieciowej"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Interfejs zasad zapory sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.all)"
+#~ msgid "System policy prevents inspecting and changing firewall"
+#~ msgstr "Zasady systemowe uniemożliwiają kontrolę i zmianę zapory sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.info)"
+#~ msgid "System policy prevents getting general firewall information"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają pobranie ogólnych informacji o zaporze "
+#~ "sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config)"
+#~ msgid "System policy prevents changing the firewall configuration"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają zmianę konfiguracji zapory sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "System policy prevents inspecting the firewall configuration"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają kontrolę konfiguracji zapory sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "System policy prevents using the firewall direct interface"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają używanie bezpośredniego interfejsu zapory "
+#~ "sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "System policy prevents inspecting the firewall direct interface"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają kontrolę bezpośredniego interfejsu zapory "
+#~ "sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "System policy prevents using the firewall policies interface"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają używanie interfejsu zasad zapory sieciowej"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "System policy prevents inspecting the firewall policies interface"
+#~ msgstr ""
+#~ "Zasady systemowe uniemożliwiają kontrolę interfejsu zasad zapory sieciowej"
+
+#~ msgctxt "Name(konqy_preload.desktop)"
+#~ msgid "Konqueror Preloading During KDE startup"
+#~ msgstr ""
+#~ "Wstępne wczytanie programu Konqueror przy uruchamianiu środowiska KDE"
+
+#~ msgctxt "Name(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Client"
+#~ msgstr "Klient przypominania programu KOrganizer"
+
+#~ msgctxt "GenericName(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Daemon Client"
+#~ msgstr "Klient demona przypominania programu KOrganizer"
+
+#~ msgctxt "Name(kaddressbookmigrator.desktop)"
+#~ msgid "kaddressbookmigrator"
+#~ msgstr "kaddressbookmigrator"
+
+#~ msgctxt "Comment(kaddressbookmigrator.desktop)"
+#~ msgid "Tool to migrate the old kresource based address book to Akonadi."
+#~ msgstr ""
+#~ "Narzędzie do migracji starej książki adresowej kresource do Akonadi."
+
+#~ msgctxt "Name(obexd-server.desktop)"
+#~ msgid "Obexd Server"
+#~ msgstr "Serwer Obexd"
+
+#~ msgctxt "Comment(obexd-server.desktop)"
+#~ msgid "Obexd Server Daemon"
+#~ msgstr "Demon serwera Obexd"
+
+#~ msgctxt "Name(org.kde.desktopcontainment)"
+#~ msgid "Desktop"
+#~ msgstr "Pulpit"
+
+#~ msgctxt "Name(synaptiks_init_config.desktop)"
+#~ msgid "Synaptiks touchpad configuration"
+#~ msgstr "Konfiguracja touchpada Synaptiks"
+
+#~ msgctxt "Comment(synaptiks_init_config.desktop)"
+#~ msgid "Initialize touchpad configuration"
+#~ msgstr "Zainicjuj konfigurację touchpada"
+
+#~ msgctxt "Name(synaptiks_autostart.desktop)"
+#~ msgid "synaptiks"
+#~ msgstr "synaptiks"
+
+#~ msgctxt "GenericName(synaptiks_autostart.desktop)"
+#~ msgid "Touchpad management"
+#~ msgstr "Zarządzanie touchpadem"
+
+#~ msgctxt "Comment(xiccd.desktop)"
+#~ msgid "Start the XICCD"
+#~ msgstr "Uruchom XICCD"

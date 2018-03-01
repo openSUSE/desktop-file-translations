@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
 "POT-Creation-Date: 2018-03-01 13:19+0000\n"
-"PO-Revision-Date: 2017-05-16 14:43+0000\n"
+"PO-Revision-Date: 2018-03-01 13:20+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -78,9 +78,12 @@ msgid "Authentication is required to run the Users and Groups"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#| msgid "Change printer settings"
 msgctxt "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "Change system time and date settings"
-msgstr ""
+msgstr "პრინტერის პარამეტრების შეცვლა"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:18
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
@@ -101,37 +104,37 @@ msgstr ""
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:11
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
 msgid "Get/Set server settings"
-msgstr ""
+msgstr "სერვერის პარამეტრების მიღება/დაყენება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:75
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
 msgid "Get list of available devices"
-msgstr ""
+msgstr "ხელმისაწვდომი მოწყობილობების ჩვენება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:138
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
 msgid "Set a printer as default printer"
-msgstr ""
+msgstr "პრინტერის ნაგულისხმებად დაყენება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:203
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
 msgid "Enable/Disable a printer"
-msgstr ""
+msgstr "პრინტერის ჩართვა/გამორთვა"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:267
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
 msgid "Add/Remove/Edit a local printer"
-msgstr ""
+msgstr "ლოკალური პრინტერის დამატება/ამოღება/რედაქტირება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:332
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
 msgid "Add/Remove/Edit a remote printer"
-msgstr ""
+msgstr "შორეული პრინტერის დამატება/ამოღება/რედაქტირება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:397
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
 msgid "Add/Remove/Edit a class"
-msgstr ""
+msgstr "კლასის დამატება/ამოღება/რედაქტირება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:461
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
@@ -146,68 +149,74 @@ msgstr ""
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:587
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
 msgid "Change printer settings"
-msgstr ""
+msgstr "პრინტერის პარამეტრების შეცვლა"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:650
 msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
 msgid "Add/Remove/Edit a printer"
-msgstr ""
+msgstr "პრინტერის დამატება/ამოღება/რედაქტირება"
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:39
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 msgid "Privileges are required to get/set server settings."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:102
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
 msgid "Privileges are required to get list of available devices."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "ხელმისაწვდომი მოწყობილობების სიის მისაღებად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:167
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+#| msgid "Privileges are required to enable/disable a printer, or a class."
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
 msgid ""
 "Privileges are required to set a printer, or a class, as default printer."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "პრინტერის ან კლასის ჩასართველად/გამოსართველად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:231
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
 msgid "Privileges are required to enable/disable a printer, or a class."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "პრინტერის ან კლასის ჩასართველად/გამოსართველად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:296
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
 msgid "Privileges are required to add/remove/edit a local printer."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr ""
+"ლოკალური პრინტერის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა "
+"პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:361
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
 msgid "Privileges are required to add/remove/edit a remote printer."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr ""
+"შორეული პრინტერის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა "
+"პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:425
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
 msgid "Privileges are required to add/remove/edit a class."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "კლასის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:489
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
+#| msgid "Privileges are required to add/remove/edit a class."
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
 msgid "Privileges are required to restart/cancel/edit a job."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "კლასის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:552
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+#| msgid "Privileges are required to add/remove/edit a remote printer."
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
 msgid ""
 "Privileges are required to restart/cancel/edit a job owned by another user."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr ""
+"შორეული პრინტერის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა "
+"პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:615
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
@@ -217,10 +226,9 @@ msgid ""
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:679
-#, fuzzy
 msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
 msgid "Privileges are required to add/remove/edit a printer."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "პრინტერის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
 msgctxt "Description(net.reactivated.fprint.device.verify)"
@@ -239,46 +247,61 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:44
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+#| msgid "Privileges are required to add/remove/edit a printer."
 msgctxt "Message(net.reactivated.fprint.device.verify)"
 msgid "Privileges are required to verify fingerprints."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "პრინტერის დასამატებლად/ამოსაღებად/რედაქტირებისთვის საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:114
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(net.reactivated.fprint.device.enroll)"
 msgid "Privileges are required to enroll new fingerprints."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:184
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+#| msgid "Privileges are required to enable/disable a printer, or a class."
 msgctxt "Message(net.reactivated.fprint.device.setusername)"
 msgid "Privileges are required to enroll new fingerprints for other users."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "პრინტერის ან კლასის ჩასართველად/გამოსართველად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:11
 msgctxt "Description(org.gnome.gconf.defaults.set-system)"
 msgid "Change GConf system values"
-msgstr "Newid gwerthoedd system GConf"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:147
 msgctxt "Description(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Change GConf mandatory values"
-msgstr "Newid gwerthoedd hanfodol GConf"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:76
+#, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#| msgid "Privileges are required to get list of available devices."
 msgctxt "Message(org.gnome.gconf.defaults.set-system)"
 msgid "Privileges are required to change GConf system values"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "ხელმისაწვდომი მოწყობილობების სიის მისაღებად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:211
+#, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#| msgid "Privileges are required to get list of available devices."
 msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Privileges are required to change GConf mandatory values"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd hanfodol GConf"
+msgstr "ხელმისაწვდომი მოწყობილობების სიის მისაღებად საჭიროა პრივილეგია."
 
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#| msgid "Change printer settings"
 msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
 msgid "Change system time and date settings"
-msgstr ""
+msgstr "პრინტერის პარამეტრების შეცვლა"
 
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:81
 msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
@@ -363,15 +386,19 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:82
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
 msgid "Privileges are required to control other users' processes"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:225
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.opensuse.policykit.gparted.policy:8
 msgctxt "Message(org.opensuse.policykit.gparted)"
@@ -414,9 +441,12 @@ msgid "Set RTC wake-from-suspend time"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:10
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Get/Set server settings"
 msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
 msgid "Save Settings"
-msgstr ""
+msgstr "სერვერის პარამეტრების მიღება/დაყენება"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
@@ -640,9 +670,12 @@ msgid "List networks"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:80
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#| msgid "Get list of available devices"
 msgctxt "Description(org.libvirt.api.connect.search-node-devices)"
 msgid "List node devices"
-msgstr ""
+msgstr "ხელმისაწვდომი მოწყობილობების ჩვენება"
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:89
 msgctxt "Description(org.libvirt.api.connect.search-nwfilters)"
@@ -1541,16 +1574,14 @@ msgid "Authentication is required to modify the laptop brightness"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:11
-#, fuzzy
 msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 msgid "Change system time zone"
-msgstr "Newid gwerthoedd system GConf"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:118
-#, fuzzy
 msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settime)"
 msgid "Change system time"
-msgstr "Newid gwerthoedd system GConf"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:227
 msgctxt ""
@@ -1560,21 +1591,27 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:62
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 msgid "Privileges are required to change the system time zone."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:171
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
 msgid "Privileges are required to change the system time."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:279
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.configurehwclock)"
 msgid "Privileges are required to configure the hardware clock."
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd hanfodol GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:11
 msgctxt "Description(org.mate.mate-system-monitor.kill)"
@@ -1588,15 +1625,19 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:12
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.mate.mate-system-monitor.kill)"
 msgid "Privileges are required to control other users' processes"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:23
 #, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#| msgid "Privileges are required to get/set server settings."
 msgctxt "Message(org.mate.mate-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
-msgstr "Mae angen breintiau ar gyfer newid gwerthoedd system GConf"
+msgstr "სერვერის პარამეტრების დასაყენებლად/მისაღებად საჭიროა პრიბილეგია."
 
 #: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:8
 msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-services)"
@@ -1785,9 +1826,12 @@ msgid "Authentication is required to modify the laptop display brightness"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:15
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#| msgid "Change printer settings"
 msgctxt "Description(org.opensuse.yast.modules.yapi.time.read)"
 msgid "Reading system time settings"
-msgstr ""
+msgstr "პრინტერის პარამეტრების შეცვლა"
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:23
 msgctxt "Description(org.opensuse.yast.modules.yapi.time.write)"
@@ -1805,9 +1849,12 @@ msgid "Authentication is required to read system time settings"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
+#, fuzzy
+#| msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#| msgid "Change printer settings"
 msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
 msgid "Reading languages settings"
-msgstr ""
+msgstr "პრინტერის პარამეტრების შეცვლა"
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:23
 msgctxt "Description(org.opensuse.yast.modules.yapi.language.write)"
@@ -1823,17 +1870,3 @@ msgstr ""
 msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
 msgid "Authentication is required to edit language settings"
 msgstr ""
-
-#, fuzzy
-#~ msgctxt "Message(org.kde.baloo.filewatch.raiselimit)"
-#~ msgid ""
-#~ msgstr ""
-#~ "Project-Id-Version: tar2po\n"
-#~ "POT-Creation-Date: 2017-05-16 14:43+0000\n"
-#~ "PO-Revision-Date: 2017-05-16 14:43+0000\n"
-#~ "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-#~ "Language-Team: LANGUAGE <LL@li.org>\n"
-#~ "Language: \n"
-#~ "MIME-Version: 1.0\n"
-#~ "Content-Type: text/plain; charset=UTF-8\n"
-#~ "Content-Transfer-Encoding: 8bit\n"

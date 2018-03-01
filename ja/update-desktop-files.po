@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2018-02-16 11:03+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/desktop-file-"
@@ -41,15 +41,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "独自のスクリプトを追加または編集する"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "パーティション設定"
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "レポートとログ"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "パーティションとストレージの設定"
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "レポート作成やログの設定"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -61,6 +61,16 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "パッケージの選択とソフトウエアの設定"
 
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "パーティション設定"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "パーティションとストレージの設定"
+
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
@@ -70,16 +80,6 @@ msgstr "設定ファイルの仕上げ"
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "完全な設定ファイルを追加する"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "レポートとログ"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "レポート作成やログの設定"
 
 #: /usr/share/xsessions/awesome.desktop:3
 msgctxt "Name(awesome.desktop)"
@@ -131,6 +131,19 @@ msgctxt "Comment(blueberry-tray.desktop)"
 msgid "Blueberry tray icon"
 msgstr "Blueberry トレイアイコン"
 
+#: /etc/xdg/autostart/blueman.desktop:2
+#, fuzzy
+#| msgctxt "Name(qwebyast-autostart.desktop)"
+#| msgid "WebYaST Applet"
+msgctxt "Name(blueman.desktop)"
+msgid "Blueman Applet"
+msgstr "WebYaST アプレット"
+
+#: /etc/xdg/autostart/blueman.desktop:42
+msgctxt "Comment(blueman.desktop)"
+msgid "Blueman Bluetooth Manager"
+msgstr "Blueman Bluetooth Manager"
+
 #: /usr/share/wallpapers/openSUSEdefault/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
@@ -141,7 +154,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Breeze Dark"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:43
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:44
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "KDE VDG 提供の Breeze Dark デスクトップデザイン言語"
@@ -181,6 +194,16 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "このセッションは Cinnamon へのログインを行ないます"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -193,15 +216,118 @@ msgstr ""
 "このセッションは Cinnamon (ソフトウエア描画を利用します) へのログインを行ない"
 "ます"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr ""
 
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "このセッションは Cinnamon へのログインを行ないます"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "MATE 設定デーモン"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr ""
 
 #: /etc/xdg/autostart/deja-dup-monitor.desktop:4
 msgctxt "Name(deja-dup-monitor.desktop)"
@@ -254,8 +380,11 @@ msgid "Enlightenment"
 msgstr "Enlightenment"
 
 #: /usr/share/xsessions/enlightenment.desktop:19
+#, fuzzy
+#| msgctxt "Comment(enlightenment.desktop)"
+#| msgid "Log in using Enlightenment (Version 0.21.7)"
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.7)"
+msgid "Log in using Enlightenment (Version 0.21.8)"
 msgstr "Enlightenment (バージョン 0.21.7) を利用してログイン"
 
 #: /usr/share/xsessions/epymc_xsession.desktop:4
@@ -273,7 +402,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Evolution アラーム通知"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:65
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:67
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "カレンダーのイベント通知"
@@ -298,92 +427,10 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "ファイアウォール・アプレット"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:44
+#: /etc/xdg/autostart/firewall-applet.desktop:45
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "ファイアウォール・アプレット"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:11
-msgctxt "Description(org.fedoraproject.FirewallD1.all)"
-msgid "Firewall"
-msgstr "ファイアウオール"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:22
-msgctxt "Description(org.fedoraproject.FirewallD1.info)"
-msgid "General firewall information"
-msgstr "一般的なファイアウオールの情報"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:32
-msgctxt "Description(org.fedoraproject.FirewallD1.config)"
-msgid "Firewall configuration"
-msgstr "ファイアウオール設定"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:43
-msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
-msgid "Firewall configuration"
-msgstr "ファイアウオール設定"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:53
-msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
-msgid "Firewall direct interface"
-msgstr "ファイアウオール直接インターフェイス"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:64
-msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
-msgid "Firewall direct interface"
-msgstr "ファイアウオール直接インターフェイス"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:74
-msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
-msgid "Firewall policies interface"
-msgstr "ファイアウオールのポリシーインターフェイス"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:85
-msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
-msgid "Firewall policies interface"
-msgstr "ファイアウオールのポリシーインターフェイス"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:12
-msgctxt "Message(org.fedoraproject.FirewallD1.all)"
-msgid "System policy prevents inspecting and changing firewall"
-msgstr "ファイアウオールの調査と変更を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:23
-msgctxt "Message(org.fedoraproject.FirewallD1.info)"
-msgid "System policy prevents getting general firewall information"
-msgstr "一般的なファイアウオール情報の取得を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:33
-msgctxt "Message(org.fedoraproject.FirewallD1.config)"
-msgid "System policy prevents changing the firewall configuration"
-msgstr "ファイアウオールの設定変更を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:44
-msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-msgid "System policy prevents inspecting the firewall configuration"
-msgstr "ファイアウオールの設定調査を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:54
-msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
-msgid "System policy prevents using the firewall direct interface"
-msgstr "ファイアウオールの直接インターフェイスの使用を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:65
-msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
-msgid "System policy prevents inspecting the firewall direct interface"
-msgstr "ファイアウオールの直接インターフェイスの調査を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:75
-msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
-msgid "System policy prevents using the firewall policies interface"
-msgstr ""
-"ファイアウオールのポリシーインターフェイスの使用を阻止するシステムポリシー"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:86
-msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
-msgid "System policy prevents inspecting the firewall policies interface"
-msgstr ""
-"ファイアウオールのポリシーインターフェイスの調査を阻止するシステムポリシー"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -436,6 +483,11 @@ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr "定期的に休息をとるための上品なリマインダ"
 
+#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
+msgctxt "Name(gnome-welcome-tour.desktop)"
+msgid "Welcome"
+msgstr "ようこそ"
+
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -446,17 +498,22 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "初期セットアップ"
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "ようこそ"
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "SSH 鍵エージェント"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME キーリング: SSH エージェント"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
 msgid "Secret Storage Service"
 msgstr "シークレットストレージサービス"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
 msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "GNOME キーリング: シークレットサービス"
@@ -466,20 +523,10 @@ msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "証明書および鍵を格納するストレージ"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "GNOME キーリング: PKCS#11 コンポーネント"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "SSH 鍵エージェント"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:71
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "GNOME キーリング: SSH エージェント"
 
 #: /usr/share/xsessions/gnome.desktop:6
 msgctxt "Name(gnome.desktop)"
@@ -548,16 +595,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "HP システムトレイサービス"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "改善型動的タイリングウインドウマネージャ"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -565,6 +602,16 @@ msgstr "i3 (デバッグログあり)"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:3
 msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "改善型動的タイリングウインドウマネージャ"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
 msgstr "改善型動的タイリングウインドウマネージャ"
 
@@ -603,26 +650,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "ログイン時に KAlarm を自動起動"
 
-#: /usr/share/autostart/konqy_preload.desktop:4
-msgctxt "Name(konqy_preload.desktop)"
-msgid "Konqueror Preloading During KDE startup"
-msgstr "KDE 起動時に Konqueror をプリロードします"
-
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Stripes"
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plasma デスクトップワークスペース"
-
-#: /usr/share/autostart/krunner.desktop:4
-msgctxt "Name(krunner.desktop)"
-msgid "Command Runner"
-msgstr "コマンド Runner"
-
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -638,40 +665,25 @@ msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "カット＆ペースト履歴ユーティリティ"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plasma デスクトップワークスペース"
+
+#: /usr/share/autostart/krunner.desktop:4
+msgctxt "Name(krunner.desktop)"
+msgid "Command Runner"
+msgstr "コマンド Runner"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Stripes"
+
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
 msgstr "KDEConnect デーモン"
-
-#: /usr/share/autostart/korgac.desktop:3
-msgctxt "Name(korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "KOrganizer リマインダクライアント"
-
-#: /usr/share/autostart/korgac.desktop:65
-msgctxt "GenericName(korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "KOrganizer リマインダデーモンクライアント"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:2
-msgctxt "Name(kaddressbookmigrator.desktop)"
-msgid "kaddressbookmigrator"
-msgstr "アドレス帳移行ツール"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:50
-msgctxt "Comment(kaddressbookmigrator.desktop)"
-msgid "Tool to migrate the old kresource based address book to Akonadi."
-msgstr "KDE の以前のリソースによるアドレス帳を Akonadi へ移行するツール"
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:2
-msgctxt "Name(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "KOrganizer リマインダクライアント"
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:64
-msgctxt "GenericName(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "KOrganizer リマインダデーモンクライアント"
 
 #: /etc/xdg/autostart/org.kde.kgpg.desktop:9
 msgctxt "GenericName(org.kde.kgpg.desktop)"
@@ -688,20 +700,20 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad プロジェクト"
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "KiCad 印刷回路ボード"
 
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "KiCad 回路図"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad 印刷回路ボード"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "KiCad プロジェクト"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -733,6 +745,16 @@ msgctxt "Name(konqy_preload.desktop)"
 msgid "Konqueror preloading during desktop environment startup"
 msgstr "デスクトップ環境の起動時に Konqueror をプリロードします"
 
+#: /etc/xdg/autostart/org.kde.korgac.desktop:2
+msgctxt "Name(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Client"
+msgstr "KOrganizer リマインダクライアント"
+
+#: /etc/xdg/autostart/org.kde.korgac.desktop:64
+msgctxt "GenericName(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Daemon Client"
+msgstr "KOrganizer リマインダデーモンクライアント"
+
 #: /etc/xdg/autostart/krb5-auth-dialog.desktop:2
 msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
@@ -753,171 +775,10 @@ msgctxt "Comment(LCDE.desktop)"
 msgid "LeechCraft session with the window manager configured via Fenet"
 msgstr "Fenet 経由でウインドウマネージャを設定した LeechCraft セッション"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Microsoft Excel ワークシート"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word 文書"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
-msgid "OpenDocument Drawing (Flat XML)"
-msgstr "OpenDocument 描画 (フラット XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr "OpenOffice.org 1.0 表計算"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Microsoft Excel ワークシート"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
-msgctxt "Comment(libreoffice-presentation.desktop)"
-msgid "OpenOffice.org 1.0 Presentation"
-msgstr "OpenOffice.org 1.0 プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "OpenDocument プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
-msgctxt "Comment(libreoffice-text.desktop)"
-msgid "OpenOffice.org 1.0 Text Document"
-msgstr "OpenOffice.org 1.0 テキスト文書"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
-msgctxt "Comment(libreoffice-oasis-text.desktop)"
-msgid "OpenDocument Text"
-msgstr "OpenDocument テキスト"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
-msgid "OpenDocument Drawing"
-msgstr "OpenDocument 描画"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word 文書"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-presentation-template.desktop)"
-msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr "OpenOffice.org 1.0 プレゼンテーションテンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
-msgid "OpenDocument Master Document Template"
-msgstr "OpenDocument マスター文書テンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
-msgid "OpenDocument Master Document"
-msgstr "OpenDocument マスター文書"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
-msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr "OpenDocument 表計算 (フラット XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
-"presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
-"desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word 文書"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Microsoft PowerPoint プレゼンテーションテンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
-msgctxt "Comment(libreoffice-oasis-database.desktop)"
-msgid "OpenDocument Database"
-msgstr "OpenDocument データベース"
-
-#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
-msgctxt "Comment(libreoffice-text-template.desktop)"
-msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr "OpenOffice.org 1.0 テキスト文書テンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-drawing-template.desktop)"
-msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr "OpenOffice.org 1.0 描画テンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
-msgctxt "Comment(libreoffice-master-document.desktop)"
-msgid "OpenOffice.org 1.0 Master Document"
-msgstr "OpenOffice.org 1.0 マスター文書"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
-msgid "OpenDocument Text (Flat XML)"
-msgstr "OpenDocument テキスト (フラット XML)"
-
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
 msgid "OpenDocument Presentation"
 msgstr "OpenDocument プレゼンテーション"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
-msgid "OpenDocument Drawing Template"
-msgstr "OpenDocument 描画テンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
-"desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Microsoft Excel ワークシートテンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
-msgid "OpenDocument Presentation Template"
-msgstr "OpenDocument プレゼンテーションテンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "Microsoft Word 文書テンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
-msgid "OpenDocument Spreadsheet"
-msgstr "OpenDocument 表計算"
-
-#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
-msgctxt "Comment(libreoffice-formula.desktop)"
-msgid "OpenOffice.org 1.0 Formula"
-msgstr "OpenOffice.org 1.0 数式"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
 msgctxt ""
@@ -926,27 +787,20 @@ msgctxt ""
 msgid "Microsoft Excel Worksheet"
 msgstr "Microsoft Excel ワークシート"
 
-#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
-msgctxt "Comment(libreoffice-drawing.desktop)"
-msgid "OpenOffice.org 1.0 Drawing"
-msgstr "OpenOffice.org 1.0 描画"
+#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
+msgctxt "Comment(libreoffice-master-document.desktop)"
+msgid "OpenOffice.org 1.0 Master Document"
+msgstr "OpenOffice.org 1.0 マスター文書"
 
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
-"desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Microsoft PowerPoint プレゼンテーションテンプレート"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word 文書"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Microsoft Excel ワークシートテンプレート"
-
-#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
-msgctxt "Comment(libreoffice-extension.desktop)"
-msgid "%PRODUCTNAME Extension"
-msgstr "%PRODUCTNAME 拡張"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
+msgid "Microsoft Word Document Template"
+msgstr "Microsoft Word 文書テンプレート"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
 msgctxt ""
@@ -955,40 +809,208 @@ msgctxt ""
 msgid "Microsoft Word Document Template"
 msgstr "Microsoft Word 文書テンプレート"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
-msgctxt "Comment(libreoffice-oasis-formula.desktop)"
-msgid "OpenDocument Formula"
-msgstr "OpenDocument 数式"
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
+msgid "OpenDocument Text Template"
+msgstr "OpenDocument テキストテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Microsoft Excel ワークシート"
+
+#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
+msgctxt "Comment(libreoffice-text-template.desktop)"
+msgid "OpenOffice.org 1.0 Text Document Template"
+msgstr "OpenOffice.org 1.0 テキスト文書テンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
+msgctxt "Comment(libreoffice-text.desktop)"
+msgid "OpenOffice.org 1.0 Text Document"
+msgstr "OpenOffice.org 1.0 テキスト文書"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
+msgid "OpenDocument Master Document"
+msgstr "OpenDocument マスター文書"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet Template"
+msgstr "OpenOffice.org 1.0 表計算テンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
+"desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word 文書"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
+msgid "OpenDocument Spreadsheet"
+msgstr "OpenDocument 表計算"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Microsoft PowerPoint プレゼンテーションテンプレート"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
 msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
 msgid "Microsoft Excel Worksheet"
 msgstr "Microsoft Excel ワークシート"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:27
-msgctxt "Comment(libreoffice-ms-word-document.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word 文書"
+#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
+msgctxt "Comment(libreoffice-formula.desktop)"
+msgid "OpenOffice.org 1.0 Formula"
+msgstr "OpenOffice.org 1.0 数式"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
+"desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Microsoft Excel ワークシートテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME 拡張"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
+msgid "OpenDocument Presentation Template"
+msgstr "OpenDocument プレゼンテーションテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint プレゼンテーション"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
+msgid "OpenDocument Spreadsheet (Flat XML)"
+msgstr "OpenDocument 表計算 (フラット XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint プレゼンテーション"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
 msgid "OpenDocument Spreadsheet Template"
 msgstr "OpenDocument 表計算テンプレート"
 
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
+"presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint プレゼンテーション"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
+msgctxt "Comment(libreoffice-presentation.desktop)"
+msgid "OpenOffice.org 1.0 Presentation"
+msgstr "OpenOffice.org 1.0 プレゼンテーション"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
+msgid "OpenDocument Drawing Template"
+msgstr "OpenDocument 描画テンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Microsoft Excel ワークシート"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-presentation-template.desktop)"
+msgid "OpenOffice.org 1.0 Presentation Template"
+msgstr "OpenOffice.org 1.0 プレゼンテーションテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Microsoft Excel ワークシートテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word 文書"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet"
+msgstr "OpenOffice.org 1.0 表計算"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
+msgid "OpenDocument Master Document Template"
+msgstr "OpenDocument マスター文書テンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
+msgid "OpenDocument Drawing"
+msgstr "OpenDocument 描画"
+
 #: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
 msgid "HTML Document Template"
 msgstr "HTML 文書のテンプレート"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
-msgid "OpenDocument Text Template"
-msgstr "OpenDocument テキストテンプレート"
+#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
+msgctxt "Comment(libreoffice-oasis-formula.desktop)"
+msgid "OpenDocument Formula"
+msgstr "OpenDocument 数式"
 
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr "OpenOffice.org 1.0 表計算テンプレート"
+#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
+msgctxt "Comment(libreoffice-drawing.desktop)"
+msgid "OpenOffice.org 1.0 Drawing"
+msgstr "OpenOffice.org 1.0 描画"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
+msgid "OpenDocument Presentation"
+msgstr "OpenDocument プレゼンテーション"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
+msgctxt "Comment(libreoffice-oasis-text.desktop)"
+msgid "OpenDocument Text"
+msgstr "OpenDocument テキスト"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
+msgctxt "Comment(libreoffice-oasis-database.desktop)"
+msgid "OpenDocument Database"
+msgstr "OpenDocument データベース"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
+"desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Microsoft PowerPoint プレゼンテーションテンプレート"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
+msgid "OpenDocument Drawing (Flat XML)"
+msgstr "OpenDocument 描画 (フラット XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
+msgid "OpenDocument Text (Flat XML)"
+msgstr "OpenDocument テキスト (フラット XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word 文書"
+
+#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-drawing-template.desktop)"
+msgid "OpenOffice.org 1.0 Drawing Template"
+msgstr "OpenOffice.org 1.0 描画テンプレート"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1105,12 +1127,12 @@ msgctxt "Name(mate-volume-control-applet.desktop)"
 msgid "Volume Control"
 msgstr "音量調節"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:96
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:97
 msgctxt "Comment(mate-volume-control-applet.desktop)"
 msgid "Show desktop volume control"
 msgstr "デスクトップの音量を調節するアプレットです"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:173
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:175
 msgctxt "Keywords(mate-volume-control-applet.desktop)"
 msgid "MATE;volume;control;mixer;settings;sound;"
 msgstr "MATE; 音量; 制御; ミキサー; 設定; サウンド;"
@@ -1245,16 +1267,6 @@ msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "ネットワーク接続を管理"
 
-#: /etc/xdg/autostart/obexd-server.desktop:2
-msgctxt "Name(obexd-server.desktop)"
-msgid "Obexd Server"
-msgstr "Obexd サーバ"
-
-#: /etc/xdg/autostart/obexd-server.desktop:3
-msgctxt "Comment(obexd-server.desktop)"
-msgid "Obexd Server Daemon"
-msgstr "Obexd サーバデーモン"
-
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1382,22 +1394,22 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit 更新アプレット"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "標準のパネル"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "デスクトップ"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "空のパネル"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "クリーンでシンプルなレイアウト"
 
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
 msgstr "宣言型ツールボックス"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:48
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
 msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Plasma の管理"
@@ -1422,15 +1434,15 @@ msgctxt "Summary(org.kde.plasma.desktop)"
 msgid "Desktop view furniture"
 msgstr "デスクトップビューの装飾品"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop"
-msgstr "デスクトップ"
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "標準のパネル"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "クリーンでシンプルなレイアウト"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "空のパネル"
 
 #: /usr/share/xsessions/plasma5.desktop:7
 msgctxt "Name(plasma5.desktop)"
@@ -1452,70 +1464,70 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "KDE VDG 提供の Breeze デスクトップデザイン言語"
 
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
+#: /etc/xdg/autostart/plasmashell.desktop:4
+msgctxt "Name(plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plasma デスクトップワークスペース"
 
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /etc/xdg/autostart/plasmashell.desktop:4
-msgctxt "Name(plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plasma デスクトップワークスペース"
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "By the water"
+msgid "Colorful Cups"
+msgstr "カラフルなカップ"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Flying Konqui"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "落ち葉"
-
-#: /usr/share/wallpapers/Path/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "パス"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "グレー"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "冷たいさざ波"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Darkest Hour"
+msgid "Pastel Hills"
+msgstr "パステル・ヒル"
 
 #: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Evening Glow"
 msgstr "Evening Glow"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "パステル・ヒル"
+msgid "Darkest Hour"
+msgstr "Darkest Hour"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "カラフルなカップ"
+msgid "By the water"
+msgstr "By the water"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "パス"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "落ち葉"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "冷たいさざ波"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "グレー"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1567,7 +1579,7 @@ msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
 msgstr "電源管理"
 
-#: /etc/xdg/autostart/powerdevil.desktop:53
+#: /etc/xdg/autostart/powerdevil.desktop:54
 msgctxt "Comment(powerdevil.desktop)"
 msgid "Battery, Display and CPU power management and notification"
 msgstr "バッテリ、ディスプレイ、CPU の電源管理と通知"
@@ -1629,15 +1641,15 @@ msgctxt "Comment(rsibreak.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "あなたが時々きちんと休憩を取るように"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "Lumina デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
 #: /usr/share/xsessions/sawfish-kde4.desktop:2
 msgctxt "Name(sawfish-kde4.desktop)"
@@ -1649,25 +1661,15 @@ msgctxt "Comment(sawfish-kde4.desktop)"
 msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "KDE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "XFCE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "Lumina デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1678,6 +1680,16 @@ msgstr "Sawfish/MATE"
 msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "MATE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "XFCE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1721,26 +1733,6 @@ msgstr ""
 "SQLite 向けデータベースブラウザは、 SQLite データベース向けの軽量 GUI エディ"
 "タです"
 
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:4
-msgctxt "Name(synaptiks_init_config.desktop)"
-msgid "Synaptiks touchpad configuration"
-msgstr "synaptiks タッチパッド設定"
-
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:5
-msgctxt "Comment(synaptiks_init_config.desktop)"
-msgid "Initialize touchpad configuration"
-msgstr "タッチパッドの設定を準備する"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:14
-msgctxt "Name(synaptiks_autostart.desktop)"
-msgid "synaptiks"
-msgstr "synaptiks"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:17
-msgctxt "GenericName(synaptiks_autostart.desktop)"
-msgid "Touchpad management"
-msgstr "タッチパッドの管理"
-
 #: /etc/xdg/autostart/print-applet.desktop:2
 msgctxt "Name(print-applet.desktop)"
 msgid "Print Queue Applet"
@@ -1751,65 +1743,70 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "印刷ジョブを管理するシステムトレイアイコン"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Tracker ストア"
-
-#: /etc/xdg/autostart/tracker-store.desktop:46
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "メタデータベースへ格納してマネージャーを検索します"
-
 #: /etc/xdg/autostart/tracker-miner-user-guides.desktop:2
 msgctxt "Name(tracker-miner-user-guides.desktop)"
 msgid "Tracker User Guides Miner"
 msgstr "Tracker ユーザガイドマイナ"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:37
+#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:40
 msgctxt "Comment(tracker-miner-user-guides.desktop)"
 msgid "Crawls and processes user guides in shared areas"
 msgstr "共有領域内のユーザガイドを読み込んで処理します"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
-msgctxt "Name(tracker-miner-apps.desktop)"
-msgid "Tracker Application Miner"
-msgstr "Tracker アプリケーションマイナ"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:37
-msgctxt "Comment(tracker-miner-apps.desktop)"
-msgid "Indexes information about applications installed"
-msgstr "インストール済みのアプリケーションに関する情報に索引を作成する"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Tracker メタデータ抽出器"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:38
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "ローカルファイルからのメタデータ抽出"
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
 msgstr "Tracker ファイルシステム採集器"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:44
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:46
 msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "ファイルシステム上のファイルを追跡して情報を回収します"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Tracker メタデータ抽出器"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:41
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "ローカルファイルからのメタデータ抽出"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
+msgctxt "Name(tracker-miner-apps.desktop)"
+msgid "Tracker Application Miner"
+msgstr "Tracker アプリケーションマイナ"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:40
+msgctxt "Comment(tracker-miner-apps.desktop)"
+msgid "Indexes information about applications installed"
+msgstr "インストール済みのアプリケーションに関する情報に索引を作成する"
+
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Tracker ストア"
+
+#: /etc/xdg/autostart/tracker-store.desktop:48
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "メタデータベースへ格納してマネージャーを検索します"
 
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
 msgid "Tracker RSS/ATOM Feeds Miner"
 msgstr "RSS/ATOM 配信元の収集"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:44
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "RSS/ATOM 形式の配信元を収集します"
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
+msgstr "TreeLine ファイル"
 
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
@@ -1820,11 +1817,6 @@ msgstr "圧縮済み TreeLine ファイル"
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
 msgstr "TreePad ファイル"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr "TreeLine ファイル"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1856,7 +1848,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "ユーザー・フォルダーの更新"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:74
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "標準フォルダーの名前を現在の言語に合わせて更新します"
@@ -1952,15 +1944,23 @@ msgstr ""
 "PulseAudio 向けに音量のマルチメディアキーを処理したり音量通知を表示したりする"
 "ためのデーモン"
 
-#: /etc/xdg/autostart/xiccd.desktop:5
+#: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
 msgid "X11 ICC Daemon"
 msgstr "X11 ICC デーモン"
 
-#: /etc/xdg/autostart/xiccd.desktop:6
+#: /etc/xdg/autostart/xiccd.desktop:5
+#, fuzzy
+#| msgctxt "Comment(mate-power-manager.desktop)"
+#| msgid "Power management daemon"
+msgctxt "GenericName(xiccd.desktop)"
+msgid "X color management daemon"
+msgstr "電源管理のデーモンを起動します"
+
+#: /etc/xdg/autostart/xiccd.desktop:7
 msgctxt "Comment(xiccd.desktop)"
-msgid "Start the XICCD"
-msgstr "XUICCD の起動"
+msgid "Applies color management profiles to your session"
+msgstr ""
 
 #: /usr/share/xsessions/xmonad.desktop:6
 msgctxt "Name(xmonad.desktop)"
@@ -1982,16 +1982,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Firstboot 処理の有効化と無効化"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "SSH 鍵取り込み"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "以前のインストールから SSH 鍵を取り込む"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -2001,6 +1991,16 @@ msgstr "イメージの配置"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "イメージの配置の設定"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "SSH 鍵取り込み"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "以前のインストールから SSH 鍵を取り込む"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:4
 msgctxt "Name(zeitgeist-datahub.desktop)"
@@ -2018,6 +2018,126 @@ msgstr "受動ロガー向け Zeitgeist Datahub の起動"
 msgctxt "GenericName(zeitgeist-datahub.desktop)"
 msgid ""
 msgstr " "
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.all)"
+#~ msgid "Firewall"
+#~ msgstr "ファイアウオール"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.info)"
+#~ msgid "General firewall information"
+#~ msgstr "一般的なファイアウオールの情報"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config)"
+#~ msgid "Firewall configuration"
+#~ msgstr "ファイアウオール設定"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "Firewall configuration"
+#~ msgstr "ファイアウオール設定"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "ファイアウオール直接インターフェイス"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "ファイアウオール直接インターフェイス"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "ファイアウオールのポリシーインターフェイス"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "ファイアウオールのポリシーインターフェイス"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.all)"
+#~ msgid "System policy prevents inspecting and changing firewall"
+#~ msgstr "ファイアウオールの調査と変更を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.info)"
+#~ msgid "System policy prevents getting general firewall information"
+#~ msgstr "一般的なファイアウオール情報の取得を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config)"
+#~ msgid "System policy prevents changing the firewall configuration"
+#~ msgstr "ファイアウオールの設定変更を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "System policy prevents inspecting the firewall configuration"
+#~ msgstr "ファイアウオールの設定調査を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "System policy prevents using the firewall direct interface"
+#~ msgstr ""
+#~ "ファイアウオールの直接インターフェイスの使用を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "System policy prevents inspecting the firewall direct interface"
+#~ msgstr ""
+#~ "ファイアウオールの直接インターフェイスの調査を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "System policy prevents using the firewall policies interface"
+#~ msgstr ""
+#~ "ファイアウオールのポリシーインターフェイスの使用を阻止するシステムポリシー"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "System policy prevents inspecting the firewall policies interface"
+#~ msgstr ""
+#~ "ファイアウオールのポリシーインターフェイスの調査を阻止するシステムポリシー"
+
+#~ msgctxt "Name(konqy_preload.desktop)"
+#~ msgid "Konqueror Preloading During KDE startup"
+#~ msgstr "KDE 起動時に Konqueror をプリロードします"
+
+#~ msgctxt "Name(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Client"
+#~ msgstr "KOrganizer リマインダクライアント"
+
+#~ msgctxt "GenericName(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Daemon Client"
+#~ msgstr "KOrganizer リマインダデーモンクライアント"
+
+#~ msgctxt "Name(kaddressbookmigrator.desktop)"
+#~ msgid "kaddressbookmigrator"
+#~ msgstr "アドレス帳移行ツール"
+
+#~ msgctxt "Comment(kaddressbookmigrator.desktop)"
+#~ msgid "Tool to migrate the old kresource based address book to Akonadi."
+#~ msgstr "KDE の以前のリソースによるアドレス帳を Akonadi へ移行するツール"
+
+#~ msgctxt "Name(obexd-server.desktop)"
+#~ msgid "Obexd Server"
+#~ msgstr "Obexd サーバ"
+
+#~ msgctxt "Comment(obexd-server.desktop)"
+#~ msgid "Obexd Server Daemon"
+#~ msgstr "Obexd サーバデーモン"
+
+#~ msgctxt "Name(org.kde.desktopcontainment)"
+#~ msgid "Desktop"
+#~ msgstr "デスクトップ"
+
+#~ msgctxt "Name(synaptiks_init_config.desktop)"
+#~ msgid "Synaptiks touchpad configuration"
+#~ msgstr "synaptiks タッチパッド設定"
+
+#~ msgctxt "Comment(synaptiks_init_config.desktop)"
+#~ msgid "Initialize touchpad configuration"
+#~ msgstr "タッチパッドの設定を準備する"
+
+#~ msgctxt "Name(synaptiks_autostart.desktop)"
+#~ msgid "synaptiks"
+#~ msgstr "synaptiks"
+
+#~ msgctxt "GenericName(synaptiks_autostart.desktop)"
+#~ msgid "Touchpad management"
+#~ msgstr "タッチパッドの管理"
+
+#~ msgctxt "Comment(xiccd.desktop)"
+#~ msgid "Start the XICCD"
+#~ msgstr "XUICCD の起動"
 
 #~ msgctxt "Name(Bear.jpg.desktop)"
 #~ msgid "Bear"

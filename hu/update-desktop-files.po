@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.hu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-07-18 07:22+0000\n"
+"POT-Creation-Date: 2018-03-01 13:19+0000\n"
 "PO-Revision-Date: 2018-01-30 01:03+0000\n"
 "Last-Translator: Robert Taisz <robert.taisz@emerald.hu>\n"
 "Language-Team: Hungarian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -46,15 +46,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "Egyéni scriptek hozzáadása vagy szerkesztése"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Particionálás"
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Jelentés & Naplózás"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Particionálási és tárolási beállítások megadása"
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Jelentések és Naplózás Beállítása"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -66,6 +66,16 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Csomagválasztásai és szoftverbeállítások megadása"
 
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Particionálás"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Particionálási és tárolási beállítások megadása"
+
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
@@ -75,16 +85,6 @@ msgstr "Teljes konfigurációs fájlok"
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "Teljes konfigurációs fájlok hozzáadása"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Jelentés & Naplózás"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Jelentések és Naplózás Beállítása"
 
 #: /usr/share/xsessions/awesome.desktop:3
 msgctxt "Name(awesome.desktop)"
@@ -137,6 +137,19 @@ msgctxt "Comment(blueberry-tray.desktop)"
 msgid "Blueberry tray icon"
 msgstr "Blueberry ikon"
 
+#: /etc/xdg/autostart/blueman.desktop:2
+#, fuzzy
+#| msgctxt "Name(qwebyast-autostart.desktop)"
+#| msgid "WebYaST Applet"
+msgctxt "Name(blueman.desktop)"
+msgid "Blueman Applet"
+msgstr "WebYaST kisalkalmazás"
+
+#: /etc/xdg/autostart/blueman.desktop:42
+msgctxt "Comment(blueman.desktop)"
+msgid "Blueman Bluetooth Manager"
+msgstr "Blueman Bluetooth kezelő"
+
 #: /usr/share/wallpapers/openSUSEdefault/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
@@ -147,7 +160,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Breeze Dark"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:43
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:44
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "Breeze Dark asztali tervezőnyelv a KDE VDG-től"
@@ -187,6 +200,16 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Ez a munkamenet a Cinnamon környezetbe lépteti be"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -199,15 +222,118 @@ msgstr ""
 "Ez a munkamenet a Cinnamon környezetbe lépteti be (szoftveres feldolgozás "
 "használatával)"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr ""
 
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Ez a munkamenet a Cinnamon környezetbe lépteti be"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-settings-daemon.desktop)"
+#| msgid "MATE Settings Daemon"
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "MATE beállításdémon"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr ""
 
 #: /etc/xdg/autostart/deja-dup-monitor.desktop:4
 msgctxt "Name(deja-dup-monitor.desktop)"
@@ -259,8 +385,11 @@ msgid "Enlightenment"
 msgstr "Enlightenment"
 
 #: /usr/share/xsessions/enlightenment.desktop:19
+#, fuzzy
+#| msgctxt "Comment(enlightenment.desktop)"
+#| msgid "Log in using Enlightenment (Version 0.21.7)"
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.7)"
+msgid "Log in using Enlightenment (Version 0.21.8)"
 msgstr "Bejelentkezés Enlightenment (0.21.7-es verzió) környezetbe"
 
 #: /usr/share/xsessions/epymc_xsession.desktop:4
@@ -278,7 +407,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Evolution Értesítő"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:65
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:67
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Naptáresemény-értesítések"
@@ -303,104 +432,10 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Tűzfal alkalmazás"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:44
+#: /etc/xdg/autostart/firewall-applet.desktop:45
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Tűzfal alkalmazás"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:11
-msgctxt "Description(org.fedoraproject.FirewallD1.all)"
-msgid "Firewall"
-msgstr "Tűzfal"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:22
-msgctxt "Description(org.fedoraproject.FirewallD1.info)"
-msgid "General firewall information"
-msgstr "Általános tűzfal adatok"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:32
-msgctxt "Description(org.fedoraproject.FirewallD1.config)"
-msgid "Firewall configuration"
-msgstr "Tűzfal beállítások"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:43
-msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
-msgid "Firewall configuration"
-msgstr "Tűzfal beállítások"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:53
-msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
-msgid "Firewall direct interface"
-msgstr "Tűzfal közvetlen interfésze"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:64
-msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
-msgid "Firewall direct interface"
-msgstr "Tűzfal közvetlen interfésze"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:74
-msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
-msgid "Firewall policies interface"
-msgstr "Tűzfal szabályok interfésze"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:85
-msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
-msgid "Firewall policies interface"
-msgstr "Tűzfal szabályok interfésze"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:12
-msgctxt "Message(org.fedoraproject.FirewallD1.all)"
-msgid "System policy prevents inspecting and changing firewall"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfalszabályok megtekintését és "
-"megváltoztatását"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:23
-msgctxt "Message(org.fedoraproject.FirewallD1.info)"
-msgid "System policy prevents getting general firewall information"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfal általános információinak "
-"elérését"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:33
-msgctxt "Message(org.fedoraproject.FirewallD1.config)"
-msgid "System policy prevents changing the firewall configuration"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfalbeállítások megváltoztatását"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:44
-msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-msgid "System policy prevents inspecting the firewall configuration"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfalbeállítások felülvizsgálatát"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:54
-msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
-msgid "System policy prevents using the firewall direct interface"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfal közvetlen felületének "
-"használatát"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:65
-msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
-msgid "System policy prevents inspecting the firewall direct interface"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfal közvetlen felületének "
-"felülvizsgálatát"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:75
-msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
-msgid "System policy prevents using the firewall policies interface"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfalszabályok felületének "
-"használatát"
-
-#: /usr/share/polkit-1/actions/org.fedoraproject.FirewallD1.desktop.policy:86
-msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
-msgid "System policy prevents inspecting the firewall policies interface"
-msgstr ""
-"A rendszerszabályok nem teszik lehetővé a tűzfalszabályok felületének "
-"felülvizsgálatát"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -454,6 +489,11 @@ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
 msgid "Provides a gentle reminder to take regular breaks"
 msgstr "Kedvesen emlékeztet a rendszeres szünetekre"
 
+#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
+msgctxt "Name(gnome-welcome-tour.desktop)"
+msgid "Welcome"
+msgstr "Üdvözöljük!"
+
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -464,17 +504,22 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Kiinduló beállítások"
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "Üdvözöljük!"
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "SSH-kulcs ügynök"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME kulcstartó – SSH-ügynök"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
 msgid "Secret Storage Service"
 msgstr "Titoktároló szolgáltatás"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
 msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "GNOME kulcstartó – titokszolgáltatás"
@@ -484,20 +529,10 @@ msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Tanúsítvány- és kulcstároló"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:72
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "GNOME kulcstartó – PKCS#11 összetevő"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "SSH-kulcs ügynök"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:71
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "GNOME kulcstartó – SSH-ügynök"
 
 #: /usr/share/xsessions/gnome.desktop:6
 msgctxt "Name(gnome.desktop)"
@@ -568,16 +603,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "HP-rendszertálca szolgáltatás"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -585,6 +610,16 @@ msgstr "i3 (hibakeresési naplóval)"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:3
 msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
 msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
 
@@ -623,26 +658,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "A KAlarm emlékeztető szolgáltatás automatikus elindítása"
 
-#: /usr/share/autostart/konqy_preload.desktop:4
-msgctxt "Name(konqy_preload.desktop)"
-msgid "Konqueror Preloading During KDE startup"
-msgstr "Konqueror-gyorsbetöltő"
-
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Csíkok"
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plazma munkaterület"
-
-#: /usr/share/autostart/krunner.desktop:4
-msgctxt "Name(krunner.desktop)"
-msgid "Command Runner"
-msgstr "Parancsbevitel"
-
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -658,41 +673,25 @@ msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Kezelőprogram a vágólaphoz (naplózással)"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plazma munkaterület"
+
+#: /usr/share/autostart/krunner.desktop:4
+msgctxt "Name(krunner.desktop)"
+msgid "Command Runner"
+msgstr "Parancsbevitel"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Csíkok"
+
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
 msgstr "KDEConnect szolgáltatás"
-
-#: /usr/share/autostart/korgac.desktop:3
-msgctxt "Name(korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "KOrganizer-emlékeztető kliens"
-
-#: /usr/share/autostart/korgac.desktop:65
-msgctxt "GenericName(korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "KOrganizer emlékeztető szolgáltatás kliense"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:2
-msgctxt "Name(kaddressbookmigrator.desktop)"
-msgid "kaddressbookmigrator"
-msgstr "kaddressbookmigrator"
-
-#: /usr/share/autostart/kaddressbookmigrator.desktop:50
-msgctxt "Comment(kaddressbookmigrator.desktop)"
-msgid "Tool to migrate the old kresource based address book to Akonadi."
-msgstr ""
-"Segédprogram a régi, kresource alapú címjegyzék Akonadira migrálásához."
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:2
-msgctxt "Name(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Client"
-msgstr "KOrganizer-emlékeztető kliens"
-
-#: /etc/xdg/autostart/org.kde.korgac.desktop:64
-msgctxt "GenericName(org.kde.korgac.desktop)"
-msgid "KOrganizer Reminder Daemon Client"
-msgstr "KOrganizer emlékeztető szolgáltatás kliense"
 
 #: /etc/xdg/autostart/org.kde.kgpg.desktop:9
 msgctxt "GenericName(org.kde.kgpg.desktop)"
@@ -709,20 +708,20 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad-projekt"
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "KiCad nyomtatott áramkör"
 
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "KiCad-séma"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad nyomtatott áramkör"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "KiCad-projekt"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -754,6 +753,16 @@ msgctxt "Name(konqy_preload.desktop)"
 msgid "Konqueror preloading during desktop environment startup"
 msgstr "Konqueror előzetes betöltése az asztali környezet indítása közben"
 
+#: /etc/xdg/autostart/org.kde.korgac.desktop:2
+msgctxt "Name(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Client"
+msgstr "KOrganizer-emlékeztető kliens"
+
+#: /etc/xdg/autostart/org.kde.korgac.desktop:64
+msgctxt "GenericName(org.kde.korgac.desktop)"
+msgid "KOrganizer Reminder Daemon Client"
+msgstr "KOrganizer emlékeztető szolgáltatás kliense"
+
 #: /etc/xdg/autostart/krb5-auth-dialog.desktop:2
 msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
@@ -774,171 +783,10 @@ msgctxt "Comment(LCDE.desktop)"
 msgid "LeechCraft session with the window manager configured via Fenet"
 msgstr "LeechCraft munkamenet a Fenet használatával konfigurált ablakkezelővel"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Microsoft Excel-munkalap"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word-dokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
-msgid "OpenDocument Drawing (Flat XML)"
-msgstr "OpenDocument-rajz (egyszerű XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr "OpenOffice.org 1.0-s számolótábla"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "Microsoft Excel-munkalap"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
-msgctxt "Comment(libreoffice-presentation.desktop)"
-msgid "OpenOffice.org 1.0 Presentation"
-msgstr "OpenOffice.org 1.0-s bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "OpenDocument-bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint-bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
-msgctxt "Comment(libreoffice-text.desktop)"
-msgid "OpenOffice.org 1.0 Text Document"
-msgstr "OpenOffice.org 1.0-s szöveges dokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
-msgctxt "Comment(libreoffice-oasis-text.desktop)"
-msgid "OpenDocument Text"
-msgstr "OpenDocument-szöveg"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
-msgid "OpenDocument Drawing"
-msgstr "OpenDocument-rajz"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word-dokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-presentation-template.desktop)"
-msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr "OpenOffice.org 1.0-s bemutatósablon"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
-msgid "OpenDocument Master Document Template"
-msgstr "OpenDocument fő dokumentumsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
-msgid "OpenDocument Master Document"
-msgstr "OpenDocument-fődokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
-msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr "OpenDocument-számolótábla (egyszerű XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
-"presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint-bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
-"desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word-dokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "Microsoft PowerPoint-bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Microsoft PowerPoint-bemutatósablon"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
-msgctxt "Comment(libreoffice-oasis-database.desktop)"
-msgid "OpenDocument Database"
-msgstr "OpenDocument-adatbázisok"
-
-#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
-msgctxt "Comment(libreoffice-text-template.desktop)"
-msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr "OpenOffice.org 1.0-s szöveges dokumentumsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-drawing-template.desktop)"
-msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr "OpenOffice.org 1.0-s rajzsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
-msgctxt "Comment(libreoffice-master-document.desktop)"
-msgid "OpenOffice.org 1.0 Master Document"
-msgstr "OpenOffice.org 1.0-s fődokumentum"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
-msgid "OpenDocument Text (Flat XML)"
-msgstr "OpenDocument-szöveg (egyszerű XML)"
-
 #: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
 msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
 msgid "OpenDocument Presentation"
 msgstr "OpenDocument-bemutató"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
-msgid "OpenDocument Drawing Template"
-msgstr "OpenDocument-rajzsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
-"desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Microsoft Excel-munkalapsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
-msgid "OpenDocument Presentation Template"
-msgstr "OpenDocument-bemutatósablon"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "Microsoft Word-dokumentumsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
-msgid "OpenDocument Spreadsheet"
-msgstr "OpenDocument-számolótábla"
-
-#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
-msgctxt "Comment(libreoffice-formula.desktop)"
-msgid "OpenOffice.org 1.0 Formula"
-msgstr "OpenOffice.org 1.0-s képlet"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
 msgctxt ""
@@ -947,27 +795,20 @@ msgctxt ""
 msgid "Microsoft Excel Worksheet"
 msgstr "Microsoft Excel-munkalap"
 
-#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
-msgctxt "Comment(libreoffice-drawing.desktop)"
-msgid "OpenOffice.org 1.0 Drawing"
-msgstr "OpenOffice.org 1.0-s rajz"
+#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
+msgctxt "Comment(libreoffice-master-document.desktop)"
+msgid "OpenOffice.org 1.0 Master Document"
+msgstr "OpenOffice.org 1.0-s fődokumentum"
 
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
-"desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "Microsoft PowerPoint-bemutatósablon"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word-dokumentum"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:27
-msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "Microsoft Excel-munkalapsablon"
-
-#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
-msgctxt "Comment(libreoffice-extension.desktop)"
-msgid "%PRODUCTNAME Extension"
-msgstr "%PRODUCTNAME-bővítmény"
+#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
+msgid "Microsoft Word Document Template"
+msgstr "Microsoft Word-dokumentumsablon"
 
 #: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
 msgctxt ""
@@ -976,40 +817,208 @@ msgctxt ""
 msgid "Microsoft Word Document Template"
 msgstr "Microsoft Word-dokumentumsablon"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
-msgctxt "Comment(libreoffice-oasis-formula.desktop)"
-msgid "OpenDocument Formula"
-msgstr "OpenDocument-képlet"
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
+msgid "OpenDocument Text Template"
+msgstr "OpenDocument-szövegsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Microsoft Excel-munkalap"
+
+#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
+msgctxt "Comment(libreoffice-text-template.desktop)"
+msgid "OpenOffice.org 1.0 Text Document Template"
+msgstr "OpenOffice.org 1.0-s szöveges dokumentumsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
+msgctxt "Comment(libreoffice-text.desktop)"
+msgid "OpenOffice.org 1.0 Text Document"
+msgstr "OpenOffice.org 1.0-s szöveges dokumentum"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
+msgid "OpenDocument Master Document"
+msgstr "OpenDocument-fődokumentum"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet Template"
+msgstr "OpenOffice.org 1.0-s számolótáblasablon"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
+"desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word-dokumentum"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
+msgid "OpenDocument Spreadsheet"
+msgstr "OpenDocument-számolótábla"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Microsoft PowerPoint-bemutatósablon"
 
 #: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
 msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
 msgid "Microsoft Excel Worksheet"
 msgstr "Microsoft Excel-munkalap"
 
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:27
-msgctxt "Comment(libreoffice-ms-word-document.desktop)"
-msgid "Microsoft Word Document"
-msgstr "Microsoft Word-dokumentum"
+#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
+msgctxt "Comment(libreoffice-formula.desktop)"
+msgid "OpenOffice.org 1.0 Formula"
+msgstr "OpenOffice.org 1.0-s képlet"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
+"desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Microsoft Excel-munkalapsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
+msgctxt "Comment(libreoffice-extension.desktop)"
+msgid "%PRODUCTNAME Extension"
+msgstr "%PRODUCTNAME-bővítmény"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
+msgid "OpenDocument Presentation Template"
+msgstr "OpenDocument-bemutatósablon"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint-bemutató"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
+msgid "OpenDocument Spreadsheet (Flat XML)"
+msgstr "OpenDocument-számolótábla (egyszerű XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
+msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint-bemutató"
 
 #: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
 msgid "OpenDocument Spreadsheet Template"
 msgstr "OpenDocument számolótábla-sablon"
 
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
+"presentation.desktop)"
+msgid "Microsoft PowerPoint Presentation"
+msgstr "Microsoft PowerPoint-bemutató"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
+msgctxt "Comment(libreoffice-presentation.desktop)"
+msgid "OpenOffice.org 1.0 Presentation"
+msgstr "OpenOffice.org 1.0-s bemutató"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
+msgid "OpenDocument Drawing Template"
+msgstr "OpenDocument-rajzsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+msgid "Microsoft Excel Worksheet"
+msgstr "Microsoft Excel-munkalap"
+
+#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
+msgctxt "Comment(libreoffice-presentation-template.desktop)"
+msgid "OpenOffice.org 1.0 Presentation Template"
+msgstr "OpenOffice.org 1.0-s bemutatósablon"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:26
+msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
+msgid "Microsoft Excel Worksheet Template"
+msgstr "Microsoft Excel-munkalapsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word-dokumentum"
+
+#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
+msgctxt "Comment(libreoffice-spreadsheet.desktop)"
+msgid "OpenOffice.org 1.0 Spreadsheet"
+msgstr "OpenOffice.org 1.0-s számolótábla"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
+msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
+msgid "OpenDocument Master Document Template"
+msgstr "OpenDocument fő dokumentumsablon"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
+msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
+msgid "OpenDocument Drawing"
+msgstr "OpenDocument-rajz"
+
 #: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
 msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
 msgid "HTML Document Template"
 msgstr "HTML-dokumentumsablon"
 
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
-msgid "OpenDocument Text Template"
-msgstr "OpenDocument-szövegsablon"
+#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
+msgctxt "Comment(libreoffice-oasis-formula.desktop)"
+msgid "OpenDocument Formula"
+msgstr "OpenDocument-képlet"
 
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr "OpenOffice.org 1.0-s számolótáblasablon"
+#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
+msgctxt "Comment(libreoffice-drawing.desktop)"
+msgid "OpenOffice.org 1.0 Drawing"
+msgstr "OpenOffice.org 1.0-s rajz"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
+msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
+msgid "OpenDocument Presentation"
+msgstr "OpenDocument-bemutató"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
+msgctxt "Comment(libreoffice-oasis-text.desktop)"
+msgid "OpenDocument Text"
+msgstr "OpenDocument-szöveg"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
+msgctxt "Comment(libreoffice-oasis-database.desktop)"
+msgid "OpenDocument Database"
+msgstr "OpenDocument-adatbázisok"
+
+#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
+msgctxt ""
+"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
+"desktop)"
+msgid "Microsoft PowerPoint Presentation Template"
+msgstr "Microsoft PowerPoint-bemutatósablon"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
+msgid "OpenDocument Drawing (Flat XML)"
+msgstr "OpenDocument-rajz (egyszerű XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
+msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
+msgid "OpenDocument Text (Flat XML)"
+msgstr "OpenDocument-szöveg (egyszerű XML)"
+
+#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:26
+msgctxt "Comment(libreoffice-ms-word-document.desktop)"
+msgid "Microsoft Word Document"
+msgstr "Microsoft Word-dokumentum"
+
+#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
+msgctxt "Comment(libreoffice-drawing-template.desktop)"
+msgid "OpenOffice.org 1.0 Drawing Template"
+msgstr "OpenOffice.org 1.0-s rajzsablon"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1127,12 +1136,12 @@ msgctxt "Name(mate-volume-control-applet.desktop)"
 msgid "Volume Control"
 msgstr "Hangerőszabályzó"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:96
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:97
 msgctxt "Comment(mate-volume-control-applet.desktop)"
 msgid "Show desktop volume control"
 msgstr "Hangerőszabályzó megjelenítése"
 
-#: /etc/xdg/autostart/mate-volume-control-applet.desktop:173
+#: /etc/xdg/autostart/mate-volume-control-applet.desktop:175
 msgctxt "Keywords(mate-volume-control-applet.desktop)"
 msgid "MATE;volume;control;mixer;settings;sound;"
 msgstr "MATE;hangerő;szabályozás;mixer;beállítások;hang;"
@@ -1267,16 +1276,6 @@ msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "Hálózati kapcsolatok kezelése"
 
-#: /etc/xdg/autostart/obexd-server.desktop:2
-msgctxt "Name(obexd-server.desktop)"
-msgid "Obexd Server"
-msgstr "Obexd kiszolgáló"
-
-#: /etc/xdg/autostart/obexd-server.desktop:3
-msgctxt "Comment(obexd-server.desktop)"
-msgid "Obexd Server Daemon"
-msgstr "Obexd kiszolgáló démon"
-
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1409,22 +1408,22 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit frissítőalkalmazás"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "Alapértelmezett panel"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Munkaasztal"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Üres panel"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Egy tiszta és egyszerű elrendezés"
 
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
 msgstr "Deklaratív eszközdoboz"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:48
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
 msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Plasma kezelése"
@@ -1449,15 +1448,15 @@ msgctxt "Summary(org.kde.plasma.desktop)"
 msgid "Desktop view furniture"
 msgstr "Munkaasztal nézet bútor"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop"
-msgstr "Asztal"
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "Alapértelmezett panel"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Egy tiszta és egyszerű elrendezés"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Üres panel"
 
 #: /usr/share/xsessions/plasma5.desktop:7
 msgctxt "Name(plasma5.desktop)"
@@ -1479,70 +1478,70 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Breeze asztali designnyelv a KDE VDG-től"
 
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
+#: /etc/xdg/autostart/plasmashell.desktop:4
+msgctxt "Name(plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plazma asztali munkaterület"
 
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /etc/xdg/autostart/plasmashell.desktop:4
-msgctxt "Name(plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plazma asztali munkaterület"
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Vízpart"
+msgid "Colorful Cups"
+msgstr "Színes bögrék"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Repülő Konqui"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Lehullott levél"
-
-#: /usr/share/wallpapers/Path/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Ösvény"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Szürke"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Hideg hullám"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Legsötétebb óra"
+msgid "Pastel Hills"
+msgstr "Pasztell dombok"
 
 #: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Evening Glow"
 msgstr "Reggeli ragyogás"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "Pasztell dombok"
+msgid "Darkest Hour"
+msgstr "Legsötétebb óra"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Színes bögrék"
+msgid "By the water"
+msgstr "Vízpart"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "Ösvény"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "Lehullott levél"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "Hideg hullám"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Szürke"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1594,7 +1593,7 @@ msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
 msgstr "Energiakezelés"
 
-#: /etc/xdg/autostart/powerdevil.desktop:53
+#: /etc/xdg/autostart/powerdevil.desktop:54
 msgctxt "Comment(powerdevil.desktop)"
 msgid "Battery, Display and CPU power management and notification"
 msgstr "Akkumulátor-, kijelző- és processzorkezelés és értesítés"
@@ -1661,15 +1660,15 @@ msgctxt "Comment(rsibreak.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Győzödjön meg róla, hogy most pihen és aztán"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "A Sawfish ablakkezelő használata a Lumina asztali környezeten belül"
 
 #: /usr/share/xsessions/sawfish-kde4.desktop:2
 msgctxt "Name(sawfish-kde4.desktop)"
@@ -1681,25 +1680,15 @@ msgctxt "Comment(sawfish-kde4.desktop)"
 msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "A Sawfish ablakkezelő használata a Kde asztali környezeten belül"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "A Sawfish ablakkezelő használata az XFCE asztali környezeten belül"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "A Sawfish ablakkezelő használata a Lumina asztali környezeten belül"
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1710,6 +1699,16 @@ msgstr "Sawfish/MATE"
 msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "A Sawfish ablakkezelő használata a MATE asztali környezeten belül"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "A Sawfish ablakkezelő használata az XFCE asztali környezeten belül"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1753,26 +1752,6 @@ msgstr ""
 "A DB Browser for SQLite az SQLite-adatbázisokhoz használható egyszerű GUI-"
 "szerkesztő"
 
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:4
-msgctxt "Name(synaptiks_init_config.desktop)"
-msgid "Synaptiks touchpad configuration"
-msgstr "Synaptiks érintőpárna beállításai"
-
-#: /etc/xdg/autostart/synaptiks_init_config.desktop:5
-msgctxt "Comment(synaptiks_init_config.desktop)"
-msgid "Initialize touchpad configuration"
-msgstr "Érintőpárna beállításainak inicializálása"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:14
-msgctxt "Name(synaptiks_autostart.desktop)"
-msgid "synaptiks"
-msgstr "synaptiks"
-
-#: /usr/share/autostart/synaptiks_autostart.desktop:17
-msgctxt "GenericName(synaptiks_autostart.desktop)"
-msgid "Touchpad management"
-msgstr "Érintőpárna kezelése"
-
 #: /etc/xdg/autostart/print-applet.desktop:2
 msgctxt "Name(print-applet.desktop)"
 msgid "Print Queue Applet"
@@ -1783,66 +1762,71 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Rendszertálca-ikon nyomtatási feladatok kezeléséhez"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Tracker tároló"
-
-#: /etc/xdg/autostart/tracker-store.desktop:46
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "Metaadat-adatbázis tároló és kereséskezelő"
-
 #: /etc/xdg/autostart/tracker-miner-user-guides.desktop:2
 msgctxt "Name(tracker-miner-user-guides.desktop)"
 msgid "Tracker User Guides Miner"
 msgstr "Tracker felhasználói kézikönyv adatbányász"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:37
+#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:40
 msgctxt "Comment(tracker-miner-user-guides.desktop)"
 msgid "Crawls and processes user guides in shared areas"
 msgstr ""
 "Bejárja és feldolgozza a felhasználói kézikönyveket a megosztott területeken"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
-msgctxt "Name(tracker-miner-apps.desktop)"
-msgid "Tracker Application Miner"
-msgstr "Tracker alkalmazás-adatbányász"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:37
-msgctxt "Comment(tracker-miner-apps.desktop)"
-msgid "Indexes information about applications installed"
-msgstr "A telepített alkalmazásokkal kapcsolatos információkat indexel"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Tracker metaadat-kinyerő"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:38
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Metaadatok kinyerése helyi fájlokból"
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
 msgstr "Tracker fájlrendszer-adatbányász"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:44
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:46
 msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "Bejárja és feldolgozza a fájlrendszer fájljait"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Tracker metaadat-kinyerő"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:41
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Metaadatok kinyerése helyi fájlokból"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
+msgctxt "Name(tracker-miner-apps.desktop)"
+msgid "Tracker Application Miner"
+msgstr "Tracker alkalmazás-adatbányász"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:40
+msgctxt "Comment(tracker-miner-apps.desktop)"
+msgid "Indexes information about applications installed"
+msgstr "A telepített alkalmazásokkal kapcsolatos információkat indexel"
+
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Tracker tároló"
+
+#: /etc/xdg/autostart/tracker-store.desktop:48
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "Metaadat-adatbázis tároló és kereséskezelő"
 
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
 msgid "Tracker RSS/ATOM Feeds Miner"
 msgstr "Tracker RSS/ATOM hírforrás-adatbányász"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:44
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "RSS/ATOM hírforrások lekérése"
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
+msgstr "TreeLine fájl"
 
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
@@ -1853,11 +1837,6 @@ msgstr "Tömörített TreeLine fájl"
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
 msgstr "TreePad fájl"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr "TreeLine fájl"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1889,7 +1868,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "Felhasználói mappák frissítése"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:74
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "Általános mappanevek frissítése a jelenlegi területi beállításra"
@@ -1986,15 +1965,23 @@ msgstr ""
 "Hangerőszabályzó gombokat kezelő és az értesítéseket megjelenítő démon a "
 "Pulseaudio használatához"
 
-#: /etc/xdg/autostart/xiccd.desktop:5
+#: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
 msgid "X11 ICC Daemon"
 msgstr "X11 ICC-démon"
 
-#: /etc/xdg/autostart/xiccd.desktop:6
+#: /etc/xdg/autostart/xiccd.desktop:5
+#, fuzzy
+#| msgctxt "Comment(mate-power-manager.desktop)"
+#| msgid "Power management daemon"
+msgctxt "GenericName(xiccd.desktop)"
+msgid "X color management daemon"
+msgstr "Energiagazdálkodási démon"
+
+#: /etc/xdg/autostart/xiccd.desktop:7
 msgctxt "Comment(xiccd.desktop)"
-msgid "Start the XICCD"
-msgstr "Az XICCD elindítása"
+msgid "Applies color management profiles to your session"
+msgstr ""
 
 #: /usr/share/xsessions/xmonad.desktop:6
 msgctxt "Name(xmonad.desktop)"
@@ -2016,16 +2003,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Firstboot-sorozat indításának engedélyezése van letiltása"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "SSH-kulcs importálása"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -2035,6 +2012,16 @@ msgstr "Rendszerkép telepítése"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Rendszerkép-telepítés beállítása"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "SSH-kulcs importálása"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:4
 msgctxt "Name(zeitgeist-datahub.desktop)"
@@ -2057,3 +2044,136 @@ msgstr "Zeitgeist Datahub indítása passzív naplózáshoz"
 msgctxt "GenericName(zeitgeist-datahub.desktop)"
 msgid ""
 msgstr ""
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.all)"
+#~ msgid "Firewall"
+#~ msgstr "Tűzfal"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.info)"
+#~ msgid "General firewall information"
+#~ msgstr "Általános tűzfal adatok"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Tűzfal beállítások"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "Firewall configuration"
+#~ msgstr "Tűzfal beállítások"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Tűzfal közvetlen interfésze"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "Firewall direct interface"
+#~ msgstr "Tűzfal közvetlen interfésze"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Tűzfal szabályok interfésze"
+
+#~ msgctxt "Description(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "Firewall policies interface"
+#~ msgstr "Tűzfal szabályok interfésze"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.all)"
+#~ msgid "System policy prevents inspecting and changing firewall"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfalszabályok megtekintését "
+#~ "és megváltoztatását"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.info)"
+#~ msgid "System policy prevents getting general firewall information"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfal általános információinak "
+#~ "elérését"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config)"
+#~ msgid "System policy prevents changing the firewall configuration"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfalbeállítások "
+#~ "megváltoztatását"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
+#~ msgid "System policy prevents inspecting the firewall configuration"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfalbeállítások "
+#~ "felülvizsgálatát"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
+#~ msgid "System policy prevents using the firewall direct interface"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfal közvetlen felületének "
+#~ "használatát"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.direct.info)"
+#~ msgid "System policy prevents inspecting the firewall direct interface"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfal közvetlen felületének "
+#~ "felülvizsgálatát"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies)"
+#~ msgid "System policy prevents using the firewall policies interface"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfalszabályok felületének "
+#~ "használatát"
+
+#~ msgctxt "Message(org.fedoraproject.FirewallD1.policies.info)"
+#~ msgid "System policy prevents inspecting the firewall policies interface"
+#~ msgstr ""
+#~ "A rendszerszabályok nem teszik lehetővé a tűzfalszabályok felületének "
+#~ "felülvizsgálatát"
+
+#~ msgctxt "Name(konqy_preload.desktop)"
+#~ msgid "Konqueror Preloading During KDE startup"
+#~ msgstr "Konqueror-gyorsbetöltő"
+
+#~ msgctxt "Name(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Client"
+#~ msgstr "KOrganizer-emlékeztető kliens"
+
+#~ msgctxt "GenericName(korgac.desktop)"
+#~ msgid "KOrganizer Reminder Daemon Client"
+#~ msgstr "KOrganizer emlékeztető szolgáltatás kliense"
+
+#~ msgctxt "Name(kaddressbookmigrator.desktop)"
+#~ msgid "kaddressbookmigrator"
+#~ msgstr "kaddressbookmigrator"
+
+#~ msgctxt "Comment(kaddressbookmigrator.desktop)"
+#~ msgid "Tool to migrate the old kresource based address book to Akonadi."
+#~ msgstr ""
+#~ "Segédprogram a régi, kresource alapú címjegyzék Akonadira migrálásához."
+
+#~ msgctxt "Name(obexd-server.desktop)"
+#~ msgid "Obexd Server"
+#~ msgstr "Obexd kiszolgáló"
+
+#~ msgctxt "Comment(obexd-server.desktop)"
+#~ msgid "Obexd Server Daemon"
+#~ msgstr "Obexd kiszolgáló démon"
+
+#~ msgctxt "Name(org.kde.desktopcontainment)"
+#~ msgid "Desktop"
+#~ msgstr "Asztal"
+
+#~ msgctxt "Name(synaptiks_init_config.desktop)"
+#~ msgid "Synaptiks touchpad configuration"
+#~ msgstr "Synaptiks érintőpárna beállításai"
+
+#~ msgctxt "Comment(synaptiks_init_config.desktop)"
+#~ msgid "Initialize touchpad configuration"
+#~ msgstr "Érintőpárna beállításainak inicializálása"
+
+#~ msgctxt "Name(synaptiks_autostart.desktop)"
+#~ msgid "synaptiks"
+#~ msgstr "synaptiks"
+
+#~ msgctxt "GenericName(synaptiks_autostart.desktop)"
+#~ msgid "Touchpad management"
+#~ msgstr "Érintőpárna kezelése"
+
+#~ msgctxt "Comment(xiccd.desktop)"
+#~ msgid "Start the XICCD"
+#~ msgstr "Az XICCD elindítása"
