@@ -74,10 +74,10 @@ for lang in $langs; do
 	for pofile in *; do
 		printf "%s %s" "${lang}" "${pofile}"
 		msguniq --use-first "${pofile}" > "${tmpdir}"/"${pofile}"
-		msgmerge -q "${tmpdir}"/"${pofile}" "../${pofile%%\.po}.pot" > "${pofile}"
+		msgmerge --previous -q "${tmpdir}"/"${pofile}" "../${pofile%%\.po}.pot" > "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
-			msgmerge -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
+			msgmerge --previous -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
 			mv "${tmpdir}"/"${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		else
 			# Does not exist yet, just copy
