@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-01 13:19+0000\n"
+"POT-Creation-Date: 2018-03-14 16:56+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,10 +10,28 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:24
+#, fuzzy
+msgctxt "Message(net.launchpad.backintime.UdevRuleSave)"
+msgid "Authentication is required to add Udev rules."
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
 #: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:13
 msgctxt "Description(net.launchpad.backintime.qt4gui)"
 msgid "Start Back In Time GUI as root."
 msgstr ""
+
+#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:12
+#, fuzzy
+msgctxt "Message(net.launchpad.backintime.qt4gui)"
+msgid "Authentication is required to run Back In Time as root."
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:34
+#, fuzzy
+msgctxt "Message(net.launchpad.backintime.UdevRuleDelete)"
+msgid "Authentication is required to delete Udev rules."
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
 #: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:25
 msgctxt "Description(net.launchpad.backintime.UdevRuleSave)"
@@ -27,43 +45,18 @@ msgctxt "Description(net.launchpad.backintime.UdevRuleDelete)"
 msgid "This will delete Udev rules."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:12
+#: /usr/share/polkit-1/actions/org.bleachbit.policy:8
 #, fuzzy
-msgctxt "Message(net.launchpad.backintime.qt4gui)"
-msgid "Authentication is required to run Back In Time as root."
+msgctxt "Message(org.bleachbit)"
+msgid "Authentication is required to run Bleachbit"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:24
-#, fuzzy
-msgctxt "Message(net.launchpad.backintime.UdevRuleSave)"
-msgid "Authentication is required to add Udev rules."
-msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
-
-#: /usr/share/polkit-1/actions/net.launchpad.backintime.policy:34
-#, fuzzy
-msgctxt "Message(net.launchpad.backintime.UdevRuleDelete)"
-msgid "Authentication is required to delete Udev rules."
-msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
-
-#: /usr/share/polkit-1/actions/org.blueman.policy:11
-msgctxt "Description(org.blueman.network.setup)"
-msgid "Configure Bluetooth Network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.blueman.policy:97
+#: /usr/share/polkit-1/actions/org.blueman.policy:102
 msgctxt "Description(org.blueman.dhcp.client)"
 msgid "Launch DHCP client"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:181
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
-#| msgid "Save wallet configuration"
-msgctxt "Description(org.blueman.bluez.config)"
-msgid "Bluetooth Configuration"
-msgstr "Salvează configurarea portofelului"
-
-#: /usr/share/polkit-1/actions/org.blueman.policy:52
+#: /usr/share/polkit-1/actions/org.blueman.policy:55
 #, fuzzy
 #| msgctxt "Message(org.kde.fontinst.manage)"
 #| msgid "Modifying the system-wide font configuration requires privileges."
@@ -71,12 +64,17 @@ msgctxt "Message(org.blueman.network.setup)"
 msgid "Configuring networking requires privileges"
 msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:137
+#: /usr/share/polkit-1/actions/org.blueman.policy:143
 msgctxt "Message(org.blueman.dhcp.client)"
 msgid "Launching DHCP client requires privileges"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:222
+#: /usr/share/polkit-1/actions/org.blueman.policy:11
+msgctxt "Description(org.blueman.network.setup)"
+msgid "Configure Bluetooth Network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:233
 #, fuzzy
 #| msgctxt "Message(org.kde.fontinst.manage)"
 #| msgid "Modifying the system-wide font configuration requires privileges."
@@ -84,21 +82,26 @@ msgctxt "Message(org.blueman.bluez.config)"
 msgid "Changing Bluetooth system settings requires privileges"
 msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
 
+#: /usr/share/polkit-1/actions/org.blueman.policy:189
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(org.blueman.bluez.config)"
+msgid "Bluetooth Configuration"
+msgstr "Salvează configurarea portofelului"
+
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
 #, fuzzy
 msgctxt "Message(org.cinnamon.settings-users)"
 msgid "Authentication is required to run the Users and Groups"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
-msgctxt "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
-msgid "Change system time and date settings"
-msgstr "Modifică data și ora sistemului"
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:18
-msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
-msgid "To change time or date settings, you need to authenticate."
-msgstr "Pentru a schimba ora sau data, este obligatorie autentificarea."
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:16
+msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+"Autentificarea este obligatorie pentru a putea modifica luminozitatea "
+"laptopului"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 msgctxt ""
@@ -106,294 +109,95 @@ msgctxt ""
 msgid "Modify the laptop brightness"
 msgstr "Modifică luminozitatea laptopului"
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:71
-msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Autentificarea este obligatorie pentru a putea modifica luminozitatea "
-"laptopului"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:11
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
-#| msgid "Save Settings"
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
-msgid "Get/Set server settings"
-msgstr "Salvează configurările"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:75
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
-msgid "Get list of available devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:138
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-msgid "Set a printer as default printer"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:203
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-msgid "Enable/Disable a printer"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:267
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-msgid "Add/Remove/Edit a local printer"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:332
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-msgid "Add/Remove/Edit a remote printer"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:397
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
-msgid "Add/Remove/Edit a class"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:461
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
-msgid "Restart/Cancel/Edit a job"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:524
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-msgid "Restart/Cancel/Edit a job owned by another user"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:587
-#, fuzzy
-#| msgctxt ""
-#| "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
-#| msgid "Change system time and date settings"
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
-msgid "Change printer settings"
+#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
+msgctxt "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
+msgid "Change system time and date settings"
 msgstr "Modifică data și ora sistemului"
 
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:650
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-msgid "Add/Remove/Edit a printer"
+#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:12
+msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
+msgid "To change time or date settings, you need to authenticate."
+msgstr "Pentru a schimba ora sau data, este obligatorie autentificarea."
+
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
+msgctxt "Description(org.gnome.DejaDup.duplicity)"
+msgid "Restore"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:39
-#, fuzzy
-#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#| msgid "Privileges are required to change the system time."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
-msgid "Privileges are required to get/set server settings."
-msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:102
-#, fuzzy
-#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#| msgid "Privileges are required to change the system time."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-msgid "Privileges are required to get list of available devices."
-msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:167
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.enroll)"
-#| msgid "Privileges are required to enroll new fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-msgid ""
-"Privileges are required to set a printer, or a class, as default printer."
-msgstr "Sunt necesare privilegii pentru a înscrie amprente noi."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:231
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#| msgid "Privileges are required to enroll new fingerprints for other users."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-msgid "Privileges are required to enable/disable a printer, or a class."
-msgstr ""
-"Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
-"utilizatori."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:296
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-msgid "Privileges are required to add/remove/edit a local printer."
-msgstr "Sunt necesare privilegii pentru a verifica amprentele."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:361
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-msgid "Privileges are required to add/remove/edit a remote printer."
-msgstr "Sunt necesare privilegii pentru a verifica amprentele."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:425
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
-msgid "Privileges are required to add/remove/edit a class."
-msgstr "Sunt necesare privilegii pentru a verifica amprentele."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:489
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:11
 #, fuzzy
 #| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 #| msgid "Privileges are required to change the system time zone."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
-msgid "Privileges are required to restart/cancel/edit a job."
+msgctxt "Message(org.gnome.DejaDup.duplicity)"
+msgid "Privileges are required to restore files to system locations"
 msgstr "Sunt necesare privilegii pentru a modifica fusul orar al sistemului."
 
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:552
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#| msgid "Privileges are required to enroll new fingerprints for other users."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-msgid ""
-"Privileges are required to restart/cancel/edit a job owned by another user."
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:143
+msgctxt "Description(org.gnome.gconf.defaults.set-mandatory)"
+msgid "Change GConf mandatory values"
+msgstr "Modificare valori obligatorii GConf"
+
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:205
+msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
+msgid "Privileges are required to change GConf mandatory values"
 msgstr ""
-"Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
-"utilizatori."
+"E nevoie de drepturi elevate pentru a modifica valorile obligatorii GConf"
 
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:615
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
-msgid ""
-"Privileges are required to change printer settings. This should only be "
-"needed from the Printers system settings panel."
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:74
+msgctxt "Message(org.gnome.gconf.defaults.set-system)"
+msgid "Privileges are required to change GConf system values"
 msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:679
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-msgid "Privileges are required to add/remove/edit a printer."
-msgstr "Sunt necesare privilegii pentru a verifica amprentele."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
-msgctxt "Description(net.reactivated.fprint.device.verify)"
-msgid "Verify a fingerprint"
-msgstr "Verifică o amprentă"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:83
-msgctxt "Description(net.reactivated.fprint.device.enroll)"
-msgid "Enroll new fingerprints"
-msgstr "Înscrie amprente noi"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:153
-msgctxt "Description(net.reactivated.fprint.device.setusername)"
-msgid "Select a user to enroll"
-msgstr "Alegeți un utilizator de înscris"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:44
-msgctxt "Message(net.reactivated.fprint.device.verify)"
-msgid "Privileges are required to verify fingerprints."
-msgstr "Sunt necesare privilegii pentru a verifica amprentele."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:114
-msgctxt "Message(net.reactivated.fprint.device.enroll)"
-msgid "Privileges are required to enroll new fingerprints."
-msgstr "Sunt necesare privilegii pentru a înscrie amprente noi."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:184
-msgctxt "Message(net.reactivated.fprint.device.setusername)"
-msgid "Privileges are required to enroll new fingerprints for other users."
-msgstr ""
-"Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
-"utilizatori."
+"E nevoie de drepturi elevate pentru a modifica valorile GConf de sistem"
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:11
 msgctxt "Description(org.gnome.gconf.defaults.set-system)"
 msgid "Change GConf system values"
 msgstr "Modificare valori GConf de sistem"
 
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:147
-msgctxt "Description(org.gnome.gconf.defaults.set-mandatory)"
-msgid "Change GConf mandatory values"
-msgstr "Modificare valori obligatorii GConf"
-
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:76
-msgctxt "Message(org.gnome.gconf.defaults.set-system)"
-msgid "Privileges are required to change GConf system values"
-msgstr ""
-"E nevoie de drepturi elevate pentru a modifica valorile GConf de sistem"
-
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:211
-msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
-msgid "Privileges are required to change GConf mandatory values"
-msgstr ""
-"E nevoie de drepturi elevate pentru a modifica valorile obligatorii GConf"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
-msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
-msgid "Change system time and date settings"
-msgstr "Modifică data și ora sistemului"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:81
-msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
-msgid "To change time or date settings, you need to authenticate."
-msgstr "Pentru a schimba data sau ora, trebuie să vă autentificați."
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
-msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
-msgid "Manage user accounts"
-msgstr "Administrare conturi de utilizator"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:80
-msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
-msgid "Authentication is required to change user data"
-msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
-
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
 msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
 msgid "Enable or disable remote login"
 msgstr "Activare sau dezactivare autentificare la distanță"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:79
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:81
 msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
 "la distanță"
 
-#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:14
-msgctxt "Description(org.gnome.MultiWriter.probe)"
-msgid "Check the device"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:83
+msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
+msgid "To change time or date settings, you need to authenticate."
+msgstr "Pentru a schimba data sau ora, trebuie să vă autentificați."
 
-#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:35
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
+msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
+msgid "Change system time and date settings"
+msgstr "Modifică data și ora sistemului"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:82
+msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
+msgid "Authentication is required to change user data"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
+msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
+msgid "Manage user accounts"
+msgstr "Administrare conturi de utilizator"
+
+#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:37
 #, fuzzy
 msgctxt "Message(org.gnome.MultiWriter.probe)"
 msgid "Authentication is required to probe the device"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.update.policy:10
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
+#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:12
+msgctxt "Description(org.gnome.MultiWriter.probe)"
+msgid "Check the device"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
-msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Modifică luminozitatea laptopului"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:78
-msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Autentificarea este obligatorie pentru a putea modifica luminozitatea "
-"laptopului"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
-msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
-msgid "Modify the lit LED for a Wacom tablet"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:138
-msgctxt ""
-"Description(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
-msgid "Modify the OLED image for a Wacom tablet"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:72
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:76
 #, fuzzy
 msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
@@ -401,7 +205,7 @@ msgstr ""
 "Autentificarea este obligatorie pentru a putea modifica luminozitatea "
 "laptopului"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:187
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:201
 #, fuzzy
 msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
@@ -409,26 +213,52 @@ msgstr ""
 "Autentificarea este obligatorie pentru a putea modifica luminozitatea "
 "laptopului"
 
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:147
+msgctxt ""
+"Description(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
+msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
+msgid "Modify the lit LED for a Wacom tablet"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
+msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Modifică luminozitatea laptopului"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:82
+msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+"Autentificarea este obligatorie pentru a putea modifica luminozitatea "
+"laptopului"
+
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:200
+msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
+msgid "Privileges are required to change the priority of processes"
+msgstr "Sunt necesare privilegii pentru a putea schimba prioritatea proceselor"
+
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:11
 msgctxt "Description(org.gnome.gnome-system-monitor.kill)"
 msgid "Kill process"
 msgstr "Omoară procesul"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:156
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:129
 msgctxt "Description(org.gnome.gnome-system-monitor.renice)"
 msgid "Renice process"
 msgstr "Schimbă prioritatea procesului"
 
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:82
+#, fuzzy
+#| msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
+#| msgid "Privileges are required to control other users' processes"
 msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
-msgid "Privileges are required to control other users' processes"
+msgid "Privileges are required to control other users’ processes"
 msgstr ""
 "Sunt necesare privilegii pentru a controla procesele celorlalți utilizatori"
-
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:225
-msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
-msgid "Privileges are required to change the priority of processes"
-msgstr "Sunt necesare privilegii pentru a putea schimba prioritatea proceselor"
 
 #: /usr/share/polkit-1/actions/org.opensuse.policykit.gparted.policy:8
 #, fuzzy
@@ -436,55 +266,55 @@ msgctxt "Message(org.opensuse.policykit.gparted)"
 msgid "Authentication is required to run the GParted Partition Editor"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/com.ubuntu.pkexec.gufw.policy:8
+#: /usr/share/polkit-1/actions/org.gsmartcontrol.policy:8
 #, fuzzy
-msgctxt "Message(com.ubuntu.pkexec.gufw)"
-msgid "Authentication is required to run the Firewall Configuration"
+msgctxt "Message(org.gsmartcontrol)"
+msgid "Authentication is required to run GSmartControl"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:7
-msgctxt "Description(com.hp.driveguard.toggle)"
-msgid "Toggle Protection"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:15
-msgctxt "Description(com.hp.driveguard.install-setup)"
-msgid "Install HP drive-guard system setup"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:8
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:43
 #, fuzzy
-msgctxt "Message(com.hp.driveguard.toggle)"
-msgid "Enable or disable HP drive-guard protection"
-msgstr "Activare sau dezactivare autentificare la distanță"
+msgctxt "Message(org.gtk.vfs.file-operations-helper)"
+msgid "Authentication is required to perform file operations"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:16
-#, fuzzy
-msgctxt "Message(com.hp.driveguard.install-setup)"
-msgid "Authentication is required to install HP drive-guard system setup"
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:11
+msgctxt "Description(org.gtk.vfs.file-operations-helper)"
+msgid "Perform file operations"
 msgstr ""
-"Autentificarea este necesară pentru a instala configurări multi-monitor "
-"pentru toți utilizatorii"
+
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:121
+#, fuzzy
+msgctxt "Message(org.gtk.vfs.file-operations)"
+msgid "Authentication is required to perform file operations"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:89
+msgctxt "Description(org.gtk.vfs.file-operations)"
+msgid "Perform file operations"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:47
+msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
+msgid "Set RTC wake-from-suspend time"
+msgstr "Stabilește ora de trezire din suspendare a calculatorului"
 
 #: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:9
 msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
 msgid "Set RTC wakeup time"
 msgstr "Stabilește ora de trezire a calculatorului"
 
-#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:46
-msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
-msgid "Set RTC wake-from-suspend time"
-msgstr "Stabilește ora de trezire din suspendare a calculatorului"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:169
+msgctxt "Description(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+msgid "Uninstall an SDDM theme"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:10
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
-#| msgid "Save Settings"
-msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
-msgid "Save Settings"
-msgstr "Salvează configurările"
+msgctxt "Description(org.kde.kcontrol.kcmsddm.installtheme)"
+msgid "Install an SDDM theme"
+msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:47
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:124
 #, fuzzy
 #| msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
 #| msgid "Save Settings in LightDM"
@@ -492,99 +322,23 @@ msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
 msgid "Save Settings in SDDM"
 msgstr "Salvează configurările în LightDM"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy:7
-msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
-msgid "Save remote widgets' policies"
-msgstr "Salvează politicile controalelor distante"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy:67
-msgctxt "Message(org.kde.kcontrol.kcmremotewidgets.save)"
-msgid "Prevents the system from saving remote plasma widgets' policies"
-msgstr "Impiedică sistemul să salveze politicile controalelor distante"
-
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
-msgctxt "Description(org.kde.fontinst.manage)"
-msgid "Manage system-wide fonts."
-msgstr "Gestionează fonturile sistemului."
-
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
-msgctxt "Message(org.kde.fontinst.manage)"
-msgid "Modifying the system-wide font configuration requires privileges."
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
-msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
-msgid "Change CPU Scheduler and priority"
-msgstr "Schimbă planificatorul de procesor și prioritatea"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:128
-msgctxt "Description(org.kde.ksysguard.processlisthelper.changeioscheduler)"
-msgid "Change IO Scheduler and priority"
-msgstr "Schimbă planificatorul I/E și prioritatea"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:249
-msgctxt "Description(org.kde.ksysguard.processlisthelper.renice)"
-msgid "Change the priority of a process"
-msgstr "Schimbă prioritatea unui proces"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:375
-msgctxt "Description(org.kde.ksysguard.processlisthelper.sendsignal)"
-msgid "Kill or stop etc a process"
-msgstr "Omoară sau oprește un proces"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:66
-msgctxt "Message(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
-msgid ""
-"Change which CPU scheduler is to schedule the running of a given process"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:203
+msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+msgid "Removes a previously installed SDDM theme"
 msgstr ""
-"Schimbă planificatorul de procesor care să planifice rularea unui anumit "
-"proces"
 
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:186
-msgctxt "Message(org.kde.ksysguard.processlisthelper.changeioscheduler)"
-msgid "Change how the read and writes of a given process are prioritized"
-msgstr "Schimbă prioritizarea citirilor și scrierilor unui proces dat"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:311
-msgctxt "Message(org.kde.ksysguard.processlisthelper.renice)"
-msgid "Change the niceness of a given process"
-msgstr "Schimbă prioritatea unui anumit proces"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:435
-msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
-msgid "Sends a given signal to a given process"
-msgstr "Trimite un anumit semnal unui anumit proces"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "Get brightness"
-msgstr "Obține luminozitatea"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
-msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "Set brightness"
-msgstr "Stabilește luminozitatea"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
-msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "Get syspath"
-msgstr "Obține calea sys"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Politicile sistemului vă interzic obținerea nivelului de luminozitate."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
-msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "System policies prevent you from setting the brightness level."
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:44
+msgctxt "Message(org.kde.kcontrol.kcmsddm.installtheme)"
+msgid "Extracts a zip file containing an SDDM theme to the SDDM theme location"
 msgstr ""
-"Politicile sistemului vă interzic stabilirea nivelului de luminozitate."
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
-msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "System policies prevent you from getting the syspath"
-msgstr "Politicile sistemului vă interzic obținerea căii sys"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:84
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#| msgid "Save Settings"
+msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
+msgid "Save Settings"
+msgstr "Salvează configurările"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
@@ -597,22 +351,96 @@ msgid "System policies prevent you from saving the date/time settings."
 msgstr ""
 "Politicile sistemului vă interzic salvarea configurărilor de dată și oră."
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
+msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "System policies prevent you from setting the brightness level."
+msgstr ""
+"Politicile sistemului vă interzic stabilirea nivelului de luminozitate."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "Get brightness"
+msgstr "Obține luminozitatea"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Politicile sistemului vă interzic obținerea nivelului de luminozitate."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
+msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "Get syspath"
+msgstr "Obține calea sys"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
+msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "System policies prevent you from getting the syspath"
+msgstr "Politicile sistemului vă interzic obținerea căii sys"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
+msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "Set brightness"
+msgstr "Stabilește luminozitatea"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:311
+msgctxt "Message(org.kde.ksysguard.processlisthelper.renice)"
+msgid "Change the niceness of a given process"
+msgstr "Schimbă prioritatea unui anumit proces"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:128
+msgctxt "Description(org.kde.ksysguard.processlisthelper.changeioscheduler)"
+msgid "Change IO Scheduler and priority"
+msgstr "Schimbă planificatorul I/E și prioritatea"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
+msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
+msgid "Change CPU Scheduler and priority"
+msgstr "Schimbă planificatorul de procesor și prioritatea"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:375
+msgctxt "Description(org.kde.ksysguard.processlisthelper.sendsignal)"
+msgid "Kill or stop etc a process"
+msgstr "Omoară sau oprește un proces"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:249
+msgctxt "Description(org.kde.ksysguard.processlisthelper.renice)"
+msgid "Change the priority of a process"
+msgstr "Schimbă prioritatea unui proces"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:186
+msgctxt "Message(org.kde.ksysguard.processlisthelper.changeioscheduler)"
+msgid "Change how the read and writes of a given process are prioritized"
+msgstr "Schimbă prioritizarea citirilor și scrierilor unui proces dat"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:435
+msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
+msgid "Sends a given signal to a given process"
+msgstr "Trimite un anumit semnal unui anumit proces"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:66
+msgctxt "Message(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
+msgid ""
+"Change which CPU scheduler is to schedule the running of a given process"
+msgstr ""
+"Schimbă planificatorul de procesor care să planifice rularea unui anumit "
+"proces"
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
+msgctxt "Message(org.kde.fontinst.manage)"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
+msgctxt "Description(org.kde.fontinst.manage)"
+msgid "Manage system-wide fonts."
+msgstr "Gestionează fonturile sistemului."
+
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
 msgid "Manage user images shown in the Login Manager"
 msgstr ""
 "Gestionează interfața cu utilizatorul afișat în administratorul de "
 "autentificare"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "Gestionează tematici ale administratorului de autentificare"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "Salvează configurările administratorului de autentificare"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
 msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
@@ -623,14 +451,10 @@ msgstr ""
 "Sînt necesare drepturi de administrare pentru a schimba imaginile utilizator "
 "din administratorul de autentificare"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr ""
-"Sînt necesare drepturi de administrare pentru a gestiona tematicile "
-"administratorului de autentificare"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "Gestionează tematici ale administratorului de autentificare"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
 msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
@@ -640,18 +464,27 @@ msgstr ""
 "Sînt necesare drepturi de administrare pentru a schimba setările "
 "administratorului de autentificare"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Save wallet configuration"
-msgstr "Salvează configurarea portofelului"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "Salvează configurările administratorului de autentificare"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:46
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr ""
+"Sînt necesare drepturi de administrare pentru a gestiona tematicile "
+"administratorului de autentificare"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Permite salvarea parametrilor de configurare ai portofelului"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
 msgid "Save wallet configuration"
 msgstr "Salvează configurarea portofelului"
 
@@ -660,9 +493,955 @@ msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Permite salvarea parametrilor de configurare ai portofelului"
 
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
-msgctxt "Description(org.libvirt.unix.monitor)"
-msgid "Monitor local virtualized systems"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr "Salvează configurarea portofelului"
+
+#: /usr/share/polkit-1/actions/org.linux.lmt.gui.policy:8
+#, fuzzy
+msgctxt "Message(org.linux.lmt.gui.policy)"
+msgid "Authentication is required to run Laptop Mode Tools Config"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:332
+msgctxt "Description(org.libvirt.api.domain.set-password)"
+msgid "Set password of the domain's account"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:162
+msgctxt "Message(org.libvirt.api.domain.fs-freeze)"
+msgid "Freezing and thawing domain filesystems requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:521
+msgctxt "Description(org.libvirt.api.node-device.detach)"
+msgid "Detach node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:107
+msgctxt "Description(org.libvirt.api.connect.search-storage-pools)"
+msgid "List storage pools"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:81
+msgctxt "Message(org.libvirt.api.connect.search-node-devices)"
+msgid "Listing node devices requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:674
+msgctxt "Description(org.libvirt.api.storage-pool.delete)"
+msgid "Delete storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:260
+msgctxt "Description(org.libvirt.api.domain.pm-control)"
+msgid "Use domain power management"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:170
+msgctxt "Description(org.libvirt.api.domain.fs-trim)"
+msgid "Trim domain filesystems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:702
+#, fuzzy
+msgctxt "Message(org.libvirt.api.storage-pool.read)"
+msgid "Reading storage pool configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:593
+msgctxt "Description(org.libvirt.api.nwfilter.read)"
+msgid "Read network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:386
+msgctxt "Description(org.libvirt.api.domain.write)"
+msgid "Write domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:161
+msgctxt "Description(org.libvirt.api.domain.fs-freeze)"
+msgid "Freeze and thaw domain filesystems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:656
+msgctxt "Description(org.libvirt.api.secret.save)"
+msgid "Save secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:810
+msgctxt "Message(org.libvirt.api.storage-vol.getattr)"
+msgid "Acceessing storage volume requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:449
+msgctxt "Description(org.libvirt.api.interface.write)"
+msgid "Write interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:585
+msgctxt "Message(org.libvirt.api.nwfilter.getattr)"
+msgid "Accessing network filter requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:278
+msgctxt "Description(org.libvirt.api.domain.read-secure)"
+msgid "Read secure domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:242
+msgctxt "Description(org.libvirt.api.domain.open-graphics)"
+msgid "Open domain graphics"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:576
+msgctxt "Message(org.libvirt.api.nwfilter.delete)"
+msgid "Deleting network filter configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:620
+msgctxt "Description(org.libvirt.api.secret.delete)"
+msgid "Delete secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:270
+#, fuzzy
+msgctxt "Message(org.libvirt.api.domain.read)"
+msgid "Reading domain configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:575
+msgctxt "Description(org.libvirt.api.nwfilter.delete)"
+msgid "Delete network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:737
+msgctxt "Description(org.libvirt.api.storage-pool.start)"
+msgid "Start storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:486
+#, fuzzy
+msgctxt "Message(org.libvirt.api.network.save)"
+msgid "Saving network configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:629
+msgctxt "Description(org.libvirt.api.secret.getattr)"
+msgid "Access secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:746
+msgctxt "Description(org.libvirt.api.storage-pool.stop)"
+msgid "Stop storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:8
+msgctxt "Description(org.libvirt.api.connect.detect-storage-pools)"
+msgid "Detect storage pools"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:495
+msgctxt "Message(org.libvirt.api.network.start)"
+msgid "Starting network requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:504
+msgctxt "Message(org.libvirt.api.network.stop)"
+msgid "Stopping network requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:530
+msgctxt "Description(org.libvirt.api.node-device.getattr)"
+msgid "Access node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:233
+msgctxt "Description(org.libvirt.api.domain.open-device)"
+msgid "Open domain device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:305
+msgctxt "Description(org.libvirt.api.domain.screenshot)"
+msgid "Take domain screenshot"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:315
+msgctxt "Message(org.libvirt.api.domain.send-input)"
+msgid "Sending input events to domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:657
+#, fuzzy
+msgctxt "Message(org.libvirt.api.secret.save)"
+msgid "Saving secret configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:621
+msgctxt "Message(org.libvirt.api.secret.delete)"
+msgid "Deleting secret configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:414
+msgctxt "Message(org.libvirt.api.interface.read)"
+msgid "Reading interface configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:639
+#, fuzzy
+msgctxt "Message(org.libvirt.api.secret.read)"
+msgid "Reading secret configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:675
+msgctxt "Message(org.libvirt.api.storage-pool.delete)"
+msgid "Deleting storage pool configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:611
+msgctxt "Description(org.libvirt.api.nwfilter.write)"
+msgid "Write network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:791
+msgctxt "Description(org.libvirt.api.storage-vol.delete)"
+msgid "Delete storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:683
+msgctxt "Description(org.libvirt.api.storage-pool.format)"
+msgid "Format storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:468
+msgctxt "Message(org.libvirt.api.network.getattr)"
+msgid "Accessing network requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:405
+msgctxt "Message(org.libvirt.api.interface.getattr)"
+msgid "Accessing interface requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:540
+#, fuzzy
+msgctxt "Message(org.libvirt.api.node-device.read)"
+msgid "Reading node device configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:53
+msgctxt "Description(org.libvirt.api.connect.search-domains)"
+msgid "List domains"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:783
+msgctxt "Message(org.libvirt.api.storage-vol.data-write)"
+msgid "Writing storage volume data requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:251
+msgctxt "Description(org.libvirt.api.domain.open-namespace)"
+msgid "Open domain namespace"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:638
+msgctxt "Description(org.libvirt.api.secret.read)"
+msgid "Read secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:350
+msgctxt "Description(org.libvirt.api.domain.snapshot)"
+msgid "Snapshot domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:342
+msgctxt "Message(org.libvirt.api.domain.set-time)"
+msgid "Setting the domain time requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:666
+#, fuzzy
+msgctxt "Message(org.libvirt.api.secret.write)"
+msgid "Writing secret configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:234
+msgctxt "Message(org.libvirt.api.domain.open-device)"
+msgid "Opening domain devices requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:198
+msgctxt "Message(org.libvirt.api.domain.init-control)"
+msgid "Controlling domain init process requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:26
+msgctxt "Description(org.libvirt.api.connect.interface-transaction)"
+msgid "Interface transactions"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:152
+msgctxt "Description(org.libvirt.api.domain.delete)"
+msgid "Delete domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:710
+msgctxt "Description(org.libvirt.api.storage-pool.refresh)"
+msgid "Refresh storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:701
+msgctxt "Description(org.libvirt.api.storage-pool.read)"
+msgid "Read storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:828
+msgctxt "Message(org.libvirt.api.storage-vol.resize)"
+msgid "Resizing  storage volume requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:549
+msgctxt "Message(org.libvirt.api.node-device.start)"
+msgid "Starting node device requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:99
+msgctxt "Message(org.libvirt.api.connect.search-secrets)"
+msgid "Listing secrets requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:738
+msgctxt "Message(org.libvirt.api.storage-pool.start)"
+msgid "Starting storage pool configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:206
+msgctxt "Description(org.libvirt.api.domain.inject-nmi)"
+msgid "Inject domain NMI"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:566
+msgctxt "Description(org.libvirt.api.node-device.write)"
+msgid "Write node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:792
+msgctxt "Message(org.libvirt.api.storage-vol.delete)"
+msgid "Deleting storage volume requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:314
+msgctxt "Description(org.libvirt.api.domain.send-input)"
+msgid "Send domain input"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:413
+msgctxt "Description(org.libvirt.api.interface.read)"
+msgid "Read interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:378
+msgctxt "Message(org.libvirt.api.domain.suspend)"
+msgid "Suspending domain CPUs requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:602
+msgctxt "Description(org.libvirt.api.nwfilter.save)"
+msgid "Save network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:728
+msgctxt "Description(org.libvirt.api.storage-pool.search-storage-vols)"
+msgid "List storage pool volumes"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:827
+msgctxt "Description(org.libvirt.api.storage-vol.resize)"
+msgid "Resize storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:404
+msgctxt "Description(org.libvirt.api.interface.getattr)"
+msgid "Access interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:467
+msgctxt "Description(org.libvirt.api.network.getattr)"
+msgid "Access network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:144
+msgctxt "Message(org.libvirt.api.domain.core-dump)"
+msgid "Dumping domain corefile requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:224
+msgctxt "Description(org.libvirt.api.domain.migrate)"
+msgid "Migrate domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:324
+msgctxt "Message(org.libvirt.api.domain.send-signal)"
+msgid "Sending signals to processes in domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:306
+msgctxt "Message(org.libvirt.api.domain.screenshot)"
+msgid "Taking domain screenshots requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:9
+msgctxt "Message(org.libvirt.api.connect.detect-storage-pools)"
+msgid "Detecting storage pools requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:359
+msgctxt "Description(org.libvirt.api.domain.start)"
+msgid "Start domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:125
+msgctxt "Description(org.libvirt.api.domain.block-read)"
+msgid "Read domain block"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:818
+msgctxt "Description(org.libvirt.api.storage-vol.read)"
+msgid "Read storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:729
+msgctxt "Message(org.libvirt.api.storage-pool.search-storage-vols)"
+msgid "Listing storage pool volumes requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:188
+msgctxt "Description(org.libvirt.api.domain.hibernate)"
+msgid "Hibernate domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:396
+msgctxt "Message(org.libvirt.api.interface.delete)"
+msgid "Deleting interface configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:531
+msgctxt "Message(org.libvirt.api.node-device.getattr)"
+msgid "Accesing node device requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:89
+msgctxt "Description(org.libvirt.api.connect.search-nwfilters)"
+msgid "List network filters"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:252
+msgctxt "Message(org.libvirt.api.domain.open-namespace)"
+msgid "Opening domain namespaces requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:27
+msgctxt "Message(org.libvirt.api.connect.interface-transaction)"
+msgid "Using interface transactions requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:215
+msgctxt "Description(org.libvirt.api.domain.mem-read)"
+msgid "Read domain memory"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:494
+msgctxt "Description(org.libvirt.api.network.start)"
+msgid "Start network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:45
+#, fuzzy
+msgctxt "Message(org.libvirt.api.connect.read)"
+msgid "Reading the host configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:441
+msgctxt "Message(org.libvirt.api.interface.stop)"
+msgid "Stopping interface requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:153
+msgctxt "Message(org.libvirt.api.domain.delete)"
+msgid "Deleting domain configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:351
+msgctxt "Message(org.libvirt.api.domain.snapshot)"
+msgid "Snapshotting domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:476
+msgctxt "Description(org.libvirt.api.network.read)"
+msgid "Read network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:279
+#, fuzzy
+msgctxt "Message(org.libvirt.api.domain.read-secure)"
+msgid "Reading secure domain configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:459
+msgctxt "Message(org.libvirt.api.network.delete)"
+msgid "Deleting network configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:665
+msgctxt "Description(org.libvirt.api.secret.write)"
+msgid "Write secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:387
+#, fuzzy
+msgctxt "Message(org.libvirt.api.domain.write)"
+msgid "Writing domain configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:720
+msgctxt "Message(org.libvirt.api.storage-pool.save)"
+msgid "Saving storage pool configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:567
+#, fuzzy
+msgctxt "Message(org.libvirt.api.node-device.write)"
+msgid "Writing node device configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:35
+msgctxt "Description(org.libvirt.api.connect.pm-control)"
+msgid "Use host power management"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:584
+msgctxt "Description(org.libvirt.api.nwfilter.getattr)"
+msgid "Access network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:71
+msgctxt "Description(org.libvirt.api.connect.search-networks)"
+msgid "List networks"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:134
+msgctxt "Description(org.libvirt.api.domain.block-write)"
+msgid "Write domain block"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:216
+msgctxt "Message(org.libvirt.api.domain.mem-read)"
+msgid "Reading domain memory requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:377
+msgctxt "Description(org.libvirt.api.domain.suspend)"
+msgid "Suspend domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:719
+msgctxt "Description(org.libvirt.api.storage-pool.save)"
+msgid "Save storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:395
+msgctxt "Description(org.libvirt.api.interface.delete)"
+msgid "Delete interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:756
+#, fuzzy
+msgctxt "Message(org.libvirt.api.storage-pool.write)"
+msgid "Writing storage pool configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:458
+msgctxt "Description(org.libvirt.api.network.delete)"
+msgid "Delete network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:522
+msgctxt "Message(org.libvirt.api.node-device.detach)"
+msgid "Detaching node device driver requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:189
+msgctxt "Message(org.libvirt.api.domain.hibernate)"
+msgid "Saving domain state requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:594
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter.read)"
+msgid "Reading network filter configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:450
+msgctxt "Message(org.libvirt.api.interface.write)"
+msgid "Writing interface configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:603
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter.save)"
+msgid "Saving network filter configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:369
+msgctxt "Message(org.libvirt.api.domain.stop)"
+msgid "Stopping the domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:485
+msgctxt "Description(org.libvirt.api.network.save)"
+msgid "Save network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:612
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter.write)"
+msgid "Writing network filter configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:431
+msgctxt "Description(org.libvirt.api.interface.start)"
+msgid "Start interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:44
+msgctxt "Description(org.libvirt.api.connect.read)"
+msgid "Read host"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:548
+msgctxt "Description(org.libvirt.api.node-device.start)"
+msgid "Start node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:773
+msgctxt "Description(org.libvirt.api.storage-vol.data-read)"
+msgid "Read storage volume data"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:54
+msgctxt "Message(org.libvirt.api.connect.search-domains)"
+msgid "Listing domains or using domain events requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:513
+#, fuzzy
+msgctxt "Message(org.libvirt.api.network.write)"
+msgid "Writing network configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:36
+msgctxt "Message(org.libvirt.api.connect.pm-control)"
+msgid "Using host power management requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:288
+msgctxt "Message(org.libvirt.api.domain.reset)"
+msgid "Resetting the domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:197
+msgctxt "Description(org.libvirt.api.domain.init-control)"
+msgid "Domain init control"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:171
+msgctxt "Message(org.libvirt.api.domain.fs-trim)"
+msgid "Trimming domain filesystems requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:755
+msgctxt "Description(org.libvirt.api.storage-pool.write)"
+msgid "Write storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:648
+#, fuzzy
+msgctxt "Message(org.libvirt.api.secret.read-secure)"
+msgid "Reading secure secret configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:368
+msgctxt "Description(org.libvirt.api.domain.stop)"
+msgid "Stop domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:18
+msgctxt "Message(org.libvirt.api.connect.getattr)"
+msgid "Accessing the connection requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:684
+msgctxt "Message(org.libvirt.api.storage-pool.format)"
+msgid "Formatting storage pool data requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:62
+msgctxt "Description(org.libvirt.api.connect.search-interfaces)"
+msgid "List interfaces"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:764
+msgctxt "Description(org.libvirt.api.storage-vol.create)"
+msgid "Create storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:17
+msgctxt "Description(org.libvirt.api.connect.getattr)"
+msgid "Access connection"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:180
+msgctxt "Message(org.libvirt.api.domain.getattr)"
+msgid "Accessing the domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:630
+msgctxt "Message(org.libvirt.api.secret.getattr)"
+msgid "Accessing secret requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:116
+msgctxt "Description(org.libvirt.api.connect.write)"
+msgid "Write host"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:98
+msgctxt "Description(org.libvirt.api.connect.search-secrets)"
+msgid "List secrets"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:503
+msgctxt "Description(org.libvirt.api.network.stop)"
+msgid "Stop network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:539
+msgctxt "Description(org.libvirt.api.node-device.read)"
+msgid "Read node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:341
+msgctxt "Description(org.libvirt.api.domain.set-time)"
+msgid "Write domain time"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:809
+msgctxt "Description(org.libvirt.api.storage-vol.getattr)"
+msgid "Access storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:243
+msgctxt "Message(org.libvirt.api.domain.open-graphics)"
+msgid "Opening domain graphics console requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:333
+msgctxt "Message(org.libvirt.api.domain.set-password)"
+msgid "Setting the domain accounts' password requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:126
+msgctxt "Message(org.libvirt.api.domain.block-read)"
+msgid "Reading domain block devices requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:692
+msgctxt "Description(org.libvirt.api.storage-pool.getattr)"
+msgid "Access storage pool"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:360
+msgctxt "Message(org.libvirt.api.domain.start)"
+msgid "Starting the domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:269
+msgctxt "Description(org.libvirt.api.domain.read)"
+msgid "Read domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:477
+#, fuzzy
+msgctxt "Message(org.libvirt.api.network.read)"
+msgid "Reading network configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:440
+msgctxt "Description(org.libvirt.api.interface.stop)"
+msgid "Stop interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:647
+msgctxt "Description(org.libvirt.api.secret.read-secure)"
+msgid "Read secure secret"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:800
+msgctxt "Description(org.libvirt.api.storage-vol.format)"
+msgid "Format storage volume"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:782
+msgctxt "Description(org.libvirt.api.storage-vol.data-write)"
+msgid "Write storage volume data"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:801
+msgctxt "Message(org.libvirt.api.storage-vol.format)"
+msgid "Formatting storage volume data requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:774
+msgctxt "Message(org.libvirt.api.storage-vol.data-read)"
+msgid "Reading storage volume data requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:135
+msgctxt "Message(org.libvirt.api.domain.block-write)"
+msgid "Writing domain block devices requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:225
+msgctxt "Message(org.libvirt.api.domain.migrate)"
+msgid "Migrating domain requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:423
+msgctxt "Message(org.libvirt.api.interface.save)"
+msgid "Saving interface configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:179
+msgctxt "Description(org.libvirt.api.domain.getattr)"
+msgid "Access domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:108
+msgctxt "Message(org.libvirt.api.connect.search-storage-pools)"
+msgid "Listing storage pools requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:261
+msgctxt "Message(org.libvirt.api.domain.pm-control)"
+msgid "Using domain power management requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:693
+msgctxt "Message(org.libvirt.api.storage-pool.getattr)"
+msgid "Accessing storage pool requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:287
+msgctxt "Description(org.libvirt.api.domain.reset)"
+msgid "Reset domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:819
+msgctxt "Message(org.libvirt.api.storage-vol.read)"
+msgid "Reading storage volume configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:557
+msgctxt "Description(org.libvirt.api.node-device.stop)"
+msgid "Stop node device"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:297
+msgctxt "Message(org.libvirt.api.domain.save)"
+msgid "Saving domain configuration requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:422
+msgctxt "Description(org.libvirt.api.interface.save)"
+msgid "Save interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:72
+msgctxt "Message(org.libvirt.api.connect.search-networks)"
+msgid "Listing networks or using network events requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:63
+msgctxt "Message(org.libvirt.api.connect.search-interfaces)"
+msgid "Listing interfaces requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:711
+msgctxt "Message(org.libvirt.api.storage-pool.refresh)"
+msgid "Refreshing storage pool volumes requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:323
+msgctxt "Description(org.libvirt.api.domain.send-signal)"
+msgid "Send domain signal"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:558
+msgctxt "Message(org.libvirt.api.node-device.stop)"
+msgid "Stopping node device requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:432
+msgctxt "Message(org.libvirt.api.interface.start)"
+msgid "Starting interface requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:117
+#, fuzzy
+msgctxt "Message(org.libvirt.api.connect.write)"
+msgid "Writing the host configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:296
+msgctxt "Description(org.libvirt.api.domain.save)"
+msgid "Save domain"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:80
+msgctxt "Description(org.libvirt.api.connect.search-node-devices)"
+msgid "List node devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:747
+#, fuzzy
+msgctxt "Message(org.libvirt.api.storage-pool.stop)"
+msgid "Stopping storage pool configuration requires authorization"
+msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:765
+msgctxt "Message(org.libvirt.api.storage-vol.create)"
+msgid "Creating storage volume requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:90
+msgctxt "Message(org.libvirt.api.connect.search-nwfilters)"
+msgid "Listing network filters requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:207
+msgctxt "Message(org.libvirt.api.domain.inject-nmi)"
+msgid "Injecting interrupt requires authorization"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:512
+msgctxt "Description(org.libvirt.api.network.write)"
+msgid "Write network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:143
+msgctxt "Description(org.libvirt.api.domain.core-dump)"
+msgid "Dump domain"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
@@ -675,949 +1454,14 @@ msgctxt "Message(org.libvirt.unix.monitor)"
 msgid "System policy prevents monitoring of local virtualized systems"
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
+msgctxt "Description(org.libvirt.unix.monitor)"
+msgid "Monitor local virtualized systems"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
 msgctxt "Message(org.libvirt.unix.manage)"
 msgid "System policy prevents management of local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:8
-msgctxt "Description(org.libvirt.api.connect.detect-storage-pools)"
-msgid "Detect storage pools"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:17
-msgctxt "Description(org.libvirt.api.connect.getattr)"
-msgid "Access connection"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:26
-msgctxt "Description(org.libvirt.api.connect.interface-transaction)"
-msgid "Interface transactions"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:35
-msgctxt "Description(org.libvirt.api.connect.pm-control)"
-msgid "Use host power management"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:44
-msgctxt "Description(org.libvirt.api.connect.read)"
-msgid "Read host"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:53
-msgctxt "Description(org.libvirt.api.connect.search-domains)"
-msgid "List domains"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:62
-msgctxt "Description(org.libvirt.api.connect.search-interfaces)"
-msgid "List interfaces"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:71
-msgctxt "Description(org.libvirt.api.connect.search-networks)"
-msgid "List networks"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:80
-msgctxt "Description(org.libvirt.api.connect.search-node-devices)"
-msgid "List node devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:89
-msgctxt "Description(org.libvirt.api.connect.search-nwfilters)"
-msgid "List network filters"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:98
-msgctxt "Description(org.libvirt.api.connect.search-secrets)"
-msgid "List secrets"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:107
-msgctxt "Description(org.libvirt.api.connect.search-storage-pools)"
-msgid "List storage pools"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:116
-msgctxt "Description(org.libvirt.api.connect.write)"
-msgid "Write host"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:125
-msgctxt "Description(org.libvirt.api.domain.block-read)"
-msgid "Read domain block"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:134
-msgctxt "Description(org.libvirt.api.domain.block-write)"
-msgid "Write domain block"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:143
-msgctxt "Description(org.libvirt.api.domain.core-dump)"
-msgid "Dump domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:152
-msgctxt "Description(org.libvirt.api.domain.delete)"
-msgid "Delete domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:161
-msgctxt "Description(org.libvirt.api.domain.fs-freeze)"
-msgid "Freeze and thaw domain filesystems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:170
-msgctxt "Description(org.libvirt.api.domain.fs-trim)"
-msgid "Trim domain filesystems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:179
-msgctxt "Description(org.libvirt.api.domain.getattr)"
-msgid "Access domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:188
-msgctxt "Description(org.libvirt.api.domain.hibernate)"
-msgid "Hibernate domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:197
-msgctxt "Description(org.libvirt.api.domain.init-control)"
-msgid "Domain init control"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:206
-msgctxt "Description(org.libvirt.api.domain.inject-nmi)"
-msgid "Inject domain NMI"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:215
-msgctxt "Description(org.libvirt.api.domain.mem-read)"
-msgid "Read domain memory"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:224
-msgctxt "Description(org.libvirt.api.domain.migrate)"
-msgid "Migrate domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:233
-msgctxt "Description(org.libvirt.api.domain.open-device)"
-msgid "Open domain device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:242
-msgctxt "Description(org.libvirt.api.domain.open-graphics)"
-msgid "Open domain graphics"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:251
-msgctxt "Description(org.libvirt.api.domain.open-namespace)"
-msgid "Open domain namespace"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:260
-msgctxt "Description(org.libvirt.api.domain.pm-control)"
-msgid "Use domain power management"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:269
-msgctxt "Description(org.libvirt.api.domain.read)"
-msgid "Read domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:278
-msgctxt "Description(org.libvirt.api.domain.read-secure)"
-msgid "Read secure domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:287
-msgctxt "Description(org.libvirt.api.domain.reset)"
-msgid "Reset domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:296
-msgctxt "Description(org.libvirt.api.domain.save)"
-msgid "Save domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:305
-msgctxt "Description(org.libvirt.api.domain.screenshot)"
-msgid "Take domain screenshot"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:314
-msgctxt "Description(org.libvirt.api.domain.send-input)"
-msgid "Send domain input"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:323
-msgctxt "Description(org.libvirt.api.domain.send-signal)"
-msgid "Send domain signal"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:332
-msgctxt "Description(org.libvirt.api.domain.set-password)"
-msgid "Set password of the domain's account"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:341
-msgctxt "Description(org.libvirt.api.domain.set-time)"
-msgid "Write domain time"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:350
-msgctxt "Description(org.libvirt.api.domain.snapshot)"
-msgid "Snapshot domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:359
-msgctxt "Description(org.libvirt.api.domain.start)"
-msgid "Start domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:368
-msgctxt "Description(org.libvirt.api.domain.stop)"
-msgid "Stop domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:377
-msgctxt "Description(org.libvirt.api.domain.suspend)"
-msgid "Suspend domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:386
-msgctxt "Description(org.libvirt.api.domain.write)"
-msgid "Write domain"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:395
-msgctxt "Description(org.libvirt.api.interface.delete)"
-msgid "Delete interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:404
-msgctxt "Description(org.libvirt.api.interface.getattr)"
-msgid "Access interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:413
-msgctxt "Description(org.libvirt.api.interface.read)"
-msgid "Read interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:422
-msgctxt "Description(org.libvirt.api.interface.save)"
-msgid "Save interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:431
-msgctxt "Description(org.libvirt.api.interface.start)"
-msgid "Start interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:440
-msgctxt "Description(org.libvirt.api.interface.stop)"
-msgid "Stop interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:449
-msgctxt "Description(org.libvirt.api.interface.write)"
-msgid "Write interface"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:458
-msgctxt "Description(org.libvirt.api.network.delete)"
-msgid "Delete network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:467
-msgctxt "Description(org.libvirt.api.network.getattr)"
-msgid "Access network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:476
-msgctxt "Description(org.libvirt.api.network.read)"
-msgid "Read network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:485
-msgctxt "Description(org.libvirt.api.network.save)"
-msgid "Save network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:494
-msgctxt "Description(org.libvirt.api.network.start)"
-msgid "Start network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:503
-msgctxt "Description(org.libvirt.api.network.stop)"
-msgid "Stop network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:512
-msgctxt "Description(org.libvirt.api.network.write)"
-msgid "Write network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:521
-msgctxt "Description(org.libvirt.api.node-device.detach)"
-msgid "Detach node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:530
-msgctxt "Description(org.libvirt.api.node-device.getattr)"
-msgid "Access node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:539
-msgctxt "Description(org.libvirt.api.node-device.read)"
-msgid "Read node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:548
-msgctxt "Description(org.libvirt.api.node-device.start)"
-msgid "Start node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:557
-msgctxt "Description(org.libvirt.api.node-device.stop)"
-msgid "Stop node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:566
-msgctxt "Description(org.libvirt.api.node-device.write)"
-msgid "Write node device"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:575
-msgctxt "Description(org.libvirt.api.nwfilter.delete)"
-msgid "Delete network filter"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:584
-msgctxt "Description(org.libvirt.api.nwfilter.getattr)"
-msgid "Access network filter"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:593
-msgctxt "Description(org.libvirt.api.nwfilter.read)"
-msgid "Read network filter"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:602
-msgctxt "Description(org.libvirt.api.nwfilter.save)"
-msgid "Save network filter"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:611
-msgctxt "Description(org.libvirt.api.nwfilter.write)"
-msgid "Write network filter"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:620
-msgctxt "Description(org.libvirt.api.secret.delete)"
-msgid "Delete secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:629
-msgctxt "Description(org.libvirt.api.secret.getattr)"
-msgid "Access secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:638
-msgctxt "Description(org.libvirt.api.secret.read)"
-msgid "Read secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:647
-msgctxt "Description(org.libvirt.api.secret.read-secure)"
-msgid "Read secure secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:656
-msgctxt "Description(org.libvirt.api.secret.save)"
-msgid "Save secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:665
-msgctxt "Description(org.libvirt.api.secret.write)"
-msgid "Write secret"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:674
-msgctxt "Description(org.libvirt.api.storage-pool.delete)"
-msgid "Delete storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:683
-msgctxt "Description(org.libvirt.api.storage-pool.format)"
-msgid "Format storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:692
-msgctxt "Description(org.libvirt.api.storage-pool.getattr)"
-msgid "Access storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:701
-msgctxt "Description(org.libvirt.api.storage-pool.read)"
-msgid "Read storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:710
-msgctxt "Description(org.libvirt.api.storage-pool.refresh)"
-msgid "Refresh storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:719
-msgctxt "Description(org.libvirt.api.storage-pool.save)"
-msgid "Save storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:728
-msgctxt "Description(org.libvirt.api.storage-pool.search-storage-vols)"
-msgid "List storage pool volumes"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:737
-msgctxt "Description(org.libvirt.api.storage-pool.start)"
-msgid "Start storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:746
-msgctxt "Description(org.libvirt.api.storage-pool.stop)"
-msgid "Stop storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:755
-msgctxt "Description(org.libvirt.api.storage-pool.write)"
-msgid "Write storage pool"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:764
-msgctxt "Description(org.libvirt.api.storage-vol.create)"
-msgid "Create storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:773
-msgctxt "Description(org.libvirt.api.storage-vol.data-read)"
-msgid "Read storage volume data"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:782
-msgctxt "Description(org.libvirt.api.storage-vol.data-write)"
-msgid "Write storage volume data"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:791
-msgctxt "Description(org.libvirt.api.storage-vol.delete)"
-msgid "Delete storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:800
-msgctxt "Description(org.libvirt.api.storage-vol.format)"
-msgid "Format storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:809
-msgctxt "Description(org.libvirt.api.storage-vol.getattr)"
-msgid "Access storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:818
-msgctxt "Description(org.libvirt.api.storage-vol.read)"
-msgid "Read storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:827
-msgctxt "Description(org.libvirt.api.storage-vol.resize)"
-msgid "Resize storage volume"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:9
-msgctxt "Message(org.libvirt.api.connect.detect-storage-pools)"
-msgid "Detecting storage pools requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:18
-msgctxt "Message(org.libvirt.api.connect.getattr)"
-msgid "Accessing the connection requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:27
-msgctxt "Message(org.libvirt.api.connect.interface-transaction)"
-msgid "Using interface transactions requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:36
-msgctxt "Message(org.libvirt.api.connect.pm-control)"
-msgid "Using host power management requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:45
-#, fuzzy
-msgctxt "Message(org.libvirt.api.connect.read)"
-msgid "Reading the host configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:54
-msgctxt "Message(org.libvirt.api.connect.search-domains)"
-msgid "Listing domains or using domain events requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:63
-msgctxt "Message(org.libvirt.api.connect.search-interfaces)"
-msgid "Listing interfaces requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:72
-msgctxt "Message(org.libvirt.api.connect.search-networks)"
-msgid "Listing networks or using network events requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:81
-msgctxt "Message(org.libvirt.api.connect.search-node-devices)"
-msgid "Listing node devices requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:90
-msgctxt "Message(org.libvirt.api.connect.search-nwfilters)"
-msgid "Listing network filters requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:99
-msgctxt "Message(org.libvirt.api.connect.search-secrets)"
-msgid "Listing secrets requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:108
-msgctxt "Message(org.libvirt.api.connect.search-storage-pools)"
-msgid "Listing storage pools requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:117
-#, fuzzy
-msgctxt "Message(org.libvirt.api.connect.write)"
-msgid "Writing the host configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:126
-msgctxt "Message(org.libvirt.api.domain.block-read)"
-msgid "Reading domain block devices requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:135
-msgctxt "Message(org.libvirt.api.domain.block-write)"
-msgid "Writing domain block devices requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:144
-msgctxt "Message(org.libvirt.api.domain.core-dump)"
-msgid "Dumping domain corefile requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:153
-msgctxt "Message(org.libvirt.api.domain.delete)"
-msgid "Deleting domain configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:162
-msgctxt "Message(org.libvirt.api.domain.fs-freeze)"
-msgid "Freezing and thawing domain filesystems requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:171
-msgctxt "Message(org.libvirt.api.domain.fs-trim)"
-msgid "Trimming domain filesystems requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:180
-msgctxt "Message(org.libvirt.api.domain.getattr)"
-msgid "Accessing the domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:189
-msgctxt "Message(org.libvirt.api.domain.hibernate)"
-msgid "Saving domain state requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:198
-msgctxt "Message(org.libvirt.api.domain.init-control)"
-msgid "Controlling domain init process requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:207
-msgctxt "Message(org.libvirt.api.domain.inject-nmi)"
-msgid "Injecting interrupt requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:216
-msgctxt "Message(org.libvirt.api.domain.mem-read)"
-msgid "Reading domain memory requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:225
-msgctxt "Message(org.libvirt.api.domain.migrate)"
-msgid "Migrating domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:234
-msgctxt "Message(org.libvirt.api.domain.open-device)"
-msgid "Opening domain devices requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:243
-msgctxt "Message(org.libvirt.api.domain.open-graphics)"
-msgid "Opening domain graphics console requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:252
-msgctxt "Message(org.libvirt.api.domain.open-namespace)"
-msgid "Opening domain namespaces requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:261
-msgctxt "Message(org.libvirt.api.domain.pm-control)"
-msgid "Using domain power management requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:270
-#, fuzzy
-msgctxt "Message(org.libvirt.api.domain.read)"
-msgid "Reading domain configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:279
-#, fuzzy
-msgctxt "Message(org.libvirt.api.domain.read-secure)"
-msgid "Reading secure domain configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:288
-msgctxt "Message(org.libvirt.api.domain.reset)"
-msgid "Resetting the domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:297
-msgctxt "Message(org.libvirt.api.domain.save)"
-msgid "Saving domain configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:306
-msgctxt "Message(org.libvirt.api.domain.screenshot)"
-msgid "Taking domain screenshots requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:315
-msgctxt "Message(org.libvirt.api.domain.send-input)"
-msgid "Sending input events to domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:324
-msgctxt "Message(org.libvirt.api.domain.send-signal)"
-msgid "Sending signals to processes in domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:333
-msgctxt "Message(org.libvirt.api.domain.set-password)"
-msgid "Setting the domain accounts' password requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:342
-msgctxt "Message(org.libvirt.api.domain.set-time)"
-msgid "Setting the domain time requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:351
-msgctxt "Message(org.libvirt.api.domain.snapshot)"
-msgid "Snapshotting domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:360
-msgctxt "Message(org.libvirt.api.domain.start)"
-msgid "Starting the domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:369
-msgctxt "Message(org.libvirt.api.domain.stop)"
-msgid "Stopping the domain requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:378
-msgctxt "Message(org.libvirt.api.domain.suspend)"
-msgid "Suspending domain CPUs requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:387
-#, fuzzy
-msgctxt "Message(org.libvirt.api.domain.write)"
-msgid "Writing domain configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:396
-msgctxt "Message(org.libvirt.api.interface.delete)"
-msgid "Deleting interface configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:405
-msgctxt "Message(org.libvirt.api.interface.getattr)"
-msgid "Accessing interface requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:414
-msgctxt "Message(org.libvirt.api.interface.read)"
-msgid "Reading interface configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:423
-msgctxt "Message(org.libvirt.api.interface.save)"
-msgid "Saving interface configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:432
-msgctxt "Message(org.libvirt.api.interface.start)"
-msgid "Starting interface requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:441
-msgctxt "Message(org.libvirt.api.interface.stop)"
-msgid "Stopping interface requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:450
-msgctxt "Message(org.libvirt.api.interface.write)"
-msgid "Writing interface configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:459
-msgctxt "Message(org.libvirt.api.network.delete)"
-msgid "Deleting network configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:468
-msgctxt "Message(org.libvirt.api.network.getattr)"
-msgid "Accessing network requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:477
-#, fuzzy
-msgctxt "Message(org.libvirt.api.network.read)"
-msgid "Reading network configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:486
-#, fuzzy
-msgctxt "Message(org.libvirt.api.network.save)"
-msgid "Saving network configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:495
-msgctxt "Message(org.libvirt.api.network.start)"
-msgid "Starting network requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:504
-msgctxt "Message(org.libvirt.api.network.stop)"
-msgid "Stopping network requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:513
-#, fuzzy
-msgctxt "Message(org.libvirt.api.network.write)"
-msgid "Writing network configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:522
-msgctxt "Message(org.libvirt.api.node-device.detach)"
-msgid "Detaching node device driver requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:531
-msgctxt "Message(org.libvirt.api.node-device.getattr)"
-msgid "Accesing node device requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:540
-#, fuzzy
-msgctxt "Message(org.libvirt.api.node-device.read)"
-msgid "Reading node device configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:549
-msgctxt "Message(org.libvirt.api.node-device.start)"
-msgid "Starting node device requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:558
-msgctxt "Message(org.libvirt.api.node-device.stop)"
-msgid "Stopping node device requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:567
-#, fuzzy
-msgctxt "Message(org.libvirt.api.node-device.write)"
-msgid "Writing node device configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:576
-msgctxt "Message(org.libvirt.api.nwfilter.delete)"
-msgid "Deleting network filter configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:585
-msgctxt "Message(org.libvirt.api.nwfilter.getattr)"
-msgid "Accessing network filter requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:594
-#, fuzzy
-msgctxt "Message(org.libvirt.api.nwfilter.read)"
-msgid "Reading network filter configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:603
-#, fuzzy
-msgctxt "Message(org.libvirt.api.nwfilter.save)"
-msgid "Saving network filter configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:612
-#, fuzzy
-msgctxt "Message(org.libvirt.api.nwfilter.write)"
-msgid "Writing network filter configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:621
-msgctxt "Message(org.libvirt.api.secret.delete)"
-msgid "Deleting secret configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:630
-msgctxt "Message(org.libvirt.api.secret.getattr)"
-msgid "Accessing secret requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:639
-#, fuzzy
-msgctxt "Message(org.libvirt.api.secret.read)"
-msgid "Reading secret configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:648
-#, fuzzy
-msgctxt "Message(org.libvirt.api.secret.read-secure)"
-msgid "Reading secure secret configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:657
-#, fuzzy
-msgctxt "Message(org.libvirt.api.secret.save)"
-msgid "Saving secret configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:666
-#, fuzzy
-msgctxt "Message(org.libvirt.api.secret.write)"
-msgid "Writing secret configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:675
-msgctxt "Message(org.libvirt.api.storage-pool.delete)"
-msgid "Deleting storage pool configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:684
-msgctxt "Message(org.libvirt.api.storage-pool.format)"
-msgid "Formatting storage pool data requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:693
-msgctxt "Message(org.libvirt.api.storage-pool.getattr)"
-msgid "Accessing storage pool requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:702
-#, fuzzy
-msgctxt "Message(org.libvirt.api.storage-pool.read)"
-msgid "Reading storage pool configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:711
-msgctxt "Message(org.libvirt.api.storage-pool.refresh)"
-msgid "Refreshing storage pool volumes requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:720
-msgctxt "Message(org.libvirt.api.storage-pool.save)"
-msgid "Saving storage pool configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:729
-msgctxt "Message(org.libvirt.api.storage-pool.search-storage-vols)"
-msgid "Listing storage pool volumes requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:738
-msgctxt "Message(org.libvirt.api.storage-pool.start)"
-msgid "Starting storage pool configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:747
-#, fuzzy
-msgctxt "Message(org.libvirt.api.storage-pool.stop)"
-msgid "Stopping storage pool configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:756
-#, fuzzy
-msgctxt "Message(org.libvirt.api.storage-pool.write)"
-msgid "Writing storage pool configuration requires authorization"
-msgstr "Modificarea configurației de fonturi a sistemului necesită privilegii."
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:765
-msgctxt "Message(org.libvirt.api.storage-vol.create)"
-msgid "Creating storage volume requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:774
-msgctxt "Message(org.libvirt.api.storage-vol.data-read)"
-msgid "Reading storage volume data requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:783
-msgctxt "Message(org.libvirt.api.storage-vol.data-write)"
-msgid "Writing storage volume data requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:792
-msgctxt "Message(org.libvirt.api.storage-vol.delete)"
-msgid "Deleting storage volume requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:801
-msgctxt "Message(org.libvirt.api.storage-vol.format)"
-msgid "Formatting storage volume data requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:810
-msgctxt "Message(org.libvirt.api.storage-vol.getattr)"
-msgid "Acceessing storage volume requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:819
-msgctxt "Message(org.libvirt.api.storage-vol.read)"
-msgid "Reading storage volume configuration requires authorization"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:828
-msgctxt "Message(org.libvirt.api.storage-vol.resize)"
-msgid "Resizing  storage volume requires authorization"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.mate.randr.policy:14
@@ -1647,43 +1491,37 @@ msgstr ""
 "Autentificarea este obligatorie pentru a putea modifica luminozitatea "
 "laptopului"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:11
-msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settimezone)"
-msgid "Change system time zone"
-msgstr "Modifică fusul orar al sistemului"
-
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:118
-msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settime)"
-msgid "Change system time"
-msgstr "Modifică ora sistemului"
-
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:227
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:237
 msgctxt ""
 "Description(org.mate.settingsdaemon.datetimemechanism.configurehwclock)"
 msgid "Configure hardware clock"
 msgstr "Configurează ceasul fizic al calculatorului"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:62
-msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
-msgid "Privileges are required to change the system time zone."
-msgstr "Sunt necesare privilegii pentru a modifica fusul orar al sistemului."
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:11
+msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+msgid "Change system time zone"
+msgstr "Modifică fusul orar al sistemului"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:171
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:179
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
 msgid "Privileges are required to change the system time."
 msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:279
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:291
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.configurehwclock)"
 msgid "Privileges are required to configure the hardware clock."
 msgstr ""
 "Sunt necesare privilegii pentru a modifica ceasul fizic al calculatorului."
 
-#: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:11
-#, fuzzy
-msgctxt "Description(org.mate.mate-system-monitor.kill)"
-msgid "Kill process"
-msgstr "Omoară procesul"
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:65
+msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+msgid "Privileges are required to change the system time zone."
+msgstr "Sunt necesare privilegii pentru a modifica fusul orar al sistemului."
+
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:123
+msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settime)"
+msgid "Change system time"
+msgstr "Modifică ora sistemului"
 
 #: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:22
 #, fuzzy
@@ -1704,9 +1542,17 @@ msgctxt "Message(org.mate.mate-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
 msgstr "Sunt necesare privilegii pentru a putea schimba prioritatea proceselor"
 
-#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:8
-msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-services)"
-msgid "Enable and start modem management services"
+#: /usr/share/polkit-1/actions/org.mate.mate-system-monitor.policy:11
+#, fuzzy
+msgctxt "Description(org.mate.mate-system-monitor.kill)"
+msgid "Kill process"
+msgstr "Omoară procesul"
+
+#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:14
+msgctxt "Message(ru.linuxonly.modem-manager-gui.manage-services)"
+msgid ""
+"Modem management services aren't running. You need to authenticate to enable "
+"and start these services."
 msgstr ""
 
 #: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:28
@@ -1714,11 +1560,9 @@ msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-modem-mm07)"
 msgid "Use modem management service"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:14
-msgctxt "Message(ru.linuxonly.modem-manager-gui.manage-services)"
-msgid ""
-"Modem management services aren't running. You need to authenticate to enable "
-"and start these services."
+#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:8
+msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-services)"
+msgid "Enable and start modem management services"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:34
@@ -1728,20 +1572,26 @@ msgid ""
 "use this service."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.nemo.root.policy:11
-msgctxt "Description(org.nemo.root)"
-msgid "Run Nemo with elevated privileges"
-msgstr ""
-
 #: /usr/share/polkit-1/actions/org.nemo.root.policy:12
 #, fuzzy
 msgctxt "Message(org.nemo.root)"
 msgid "Please enter your password to run Nemo as root"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:11
-msgctxt "Description(org.debian.pcsc-lite.access_pcsc)"
-msgid "Access to the PC/SC daemon"
+#: /usr/share/polkit-1/actions/org.nemo.root.policy:11
+msgctxt "Description(org.nemo.root)"
+msgid "Run Nemo with elevated privileges"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/net.launchpad.pantheon-files.policy:30
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.pkexec.pantheon-files)"
+msgid "Authentication is required to run Files as Administrator"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/net.launchpad.pantheon-files.policy:10
+msgctxt "Description(org.freedesktop.policykit.pkexec.pantheon-files)"
+msgid "Run Pantheon Files as Administrator"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:21
@@ -1749,11 +1599,10 @@ msgctxt "Description(org.debian.pcsc-lite.access_card)"
 msgid "Access to the smart card"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:12
-#, fuzzy
-msgctxt "Message(org.debian.pcsc-lite.access_pcsc)"
-msgid "Authentication is required to access the PC/SC daemon"
-msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+#: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:11
+msgctxt "Description(org.debian.pcsc-lite.access_pcsc)"
+msgid "Access to the PC/SC daemon"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:22
 #, fuzzy
@@ -1761,8 +1610,24 @@ msgctxt "Message(org.debian.pcsc-lite.access_card)"
 msgid "Authentication is required to access the smart card"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:11
-msgctxt "Description(org.selinux.restorecon)"
+#: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:12
+#, fuzzy
+msgctxt "Message(org.debian.pcsc-lite.access_pcsc)"
+msgid "Authentication is required to access the PC/SC daemon"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.selinux.policy:66
+msgctxt "Message(org.selinux.change_default_policy)"
+msgid "System policy prevents change_default_policy access to SELinux"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.selinux.policy:12
+msgctxt "Message(org.selinux.restorecon)"
+msgid "System policy prevents restorecon access to SELinux"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.selinux.policy:74
+msgctxt "Description(org.selinux.change_policy_type)"
 msgid "SELinux write access"
 msgstr ""
 
@@ -1771,14 +1636,14 @@ msgctxt "Description(org.selinux.setenforce)"
 msgid "SELinux write access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:29
-msgctxt "Description(org.selinux.semanage)"
+#: /usr/share/polkit-1/actions/org.selinux.policy:56
+msgctxt "Description(org.selinux.relabel_on_boot)"
 msgid "SELinux write access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:38
-msgctxt "Description(org.selinux.customized)"
-msgid "SELinux Read access"
+#: /usr/share/polkit-1/actions/org.selinux.policy:57
+msgctxt "Message(org.selinux.relabel_on_boot)"
+msgid "System policy prevents relabel_on_boot access to SELinux"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.selinux.policy:47
@@ -1786,34 +1651,19 @@ msgctxt "Description(org.selinux.semodule_list)"
 msgid "SELinux list modules access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:56
-msgctxt "Description(org.selinux.relabel_on_boot)"
-msgid "SELinux write access"
-msgstr ""
-
 #: /usr/share/polkit-1/actions/org.selinux.policy:65
 msgctxt "Description(org.selinux.change_default_policy)"
 msgid "SELinux write access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:74
-msgctxt "Description(org.selinux.change_policy_type)"
+#: /usr/share/polkit-1/actions/org.selinux.policy:11
+msgctxt "Description(org.selinux.restorecon)"
 msgid "SELinux write access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:12
-msgctxt "Message(org.selinux.restorecon)"
-msgid "System policy prevents restorecon access to SELinux"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.selinux.policy:21
-msgctxt "Message(org.selinux.setenforce)"
-msgid "System policy prevents setenforce access to SELinux"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.selinux.policy:30
-msgctxt "Message(org.selinux.semanage)"
-msgid "System policy prevents semanage access to SELinux"
+#: /usr/share/polkit-1/actions/org.selinux.policy:75
+msgctxt "Message(org.selinux.change_policy_type)"
+msgid "System policy prevents change_policy_type access to SELinux"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.selinux.policy:39
@@ -1826,19 +1676,24 @@ msgctxt "Message(org.selinux.semodule_list)"
 msgid "System policy prevents read access to SELinux modules"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:57
-msgctxt "Message(org.selinux.relabel_on_boot)"
-msgid "System policy prevents relabel_on_boot access to SELinux"
+#: /usr/share/polkit-1/actions/org.selinux.policy:29
+msgctxt "Description(org.selinux.semanage)"
+msgid "SELinux write access"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:66
-msgctxt "Message(org.selinux.change_default_policy)"
-msgid "System policy prevents change_default_policy access to SELinux"
+#: /usr/share/polkit-1/actions/org.selinux.policy:21
+msgctxt "Message(org.selinux.setenforce)"
+msgid "System policy prevents setenforce access to SELinux"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.selinux.policy:75
-msgctxt "Message(org.selinux.change_policy_type)"
-msgid "System policy prevents change_policy_type access to SELinux"
+#: /usr/share/polkit-1/actions/org.selinux.policy:30
+msgctxt "Message(org.selinux.semanage)"
+msgid "System policy prevents semanage access to SELinux"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.selinux.policy:38
+msgctxt "Description(org.selinux.customized)"
+msgid "SELinux Read access"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.selinux.config.policy:11
@@ -1854,16 +1709,30 @@ msgstr ""
 "Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
 "la distanță"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:94
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
+msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+msgid "Check existence of discrete gpu"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:40
+#, fuzzy
+#| msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+#| msgid "System policies prevent you from getting the brightness level."
+msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+msgid ""
+"System policies prevent you from checking the existence of discrete gpu."
+msgstr "Politicile sistemului vă interzic obținerea nivelului de luminozitate."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Politicile sistemului vă interzic obținerea nivelului de luminozitate."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
 #, fuzzy
 msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
 msgid "Get maximum brightness value"
 msgstr "Obține luminozitatea"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:129
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Politicile sistemului vă interzic obținerea nivelului de luminozitate."
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
 msgctxt "Description(scap-workbench-oscap.run)"
@@ -1877,16 +1746,173 @@ msgid ""
 "\"Cancel\" to scan using your current permissions."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.tuned.gui.policy:6
-msgctxt "Description(org.tuned.gui.run)"
+#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:14
+#, fuzzy
+msgctxt "Message(org.gnome.sysprof2.perf-event-open)"
+msgid "Authentication is required to access system performance counters."
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:13
+msgctxt "Description(org.gnome.sysprof2.perf-event-open)"
+msgid "Open a perf event stream"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
+msgctxt "Description(com.redhat.tuned.gui.run)"
 msgid "Run tuned-gui as root"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.tuned.gui.policy:7
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
 #, fuzzy
-msgctxt "Message(org.tuned.gui.run)"
+msgctxt "Message(com.redhat.tuned.gui.run)"
 msgid "Authentication is required to run tuned-gui"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:81
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(com.redhat.tuned.reload)"
+msgid "Reload Tuned configuration"
+msgstr "Salvează configurarea portofelului"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:52
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.profiles)"
+msgid "Authentication is required to list Tuned profiles"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:102
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.stop)"
+msgid "Authentication is required to stop Tuned daemon"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:42
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.profile_info)"
+msgid "Authentication is required to show information about Tuned profile"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:132
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.verify_profile_ignore_missing)"
+msgid "Authentication is required to verify Tuned profile"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:32
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.is_running)"
+msgid "Authentication is required to check whether Tuned is running"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:61
+msgctxt "Description(com.redhat.tuned.profiles2)"
+msgid "List Tuned profiles"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:11
+msgctxt "Description(com.redhat.tuned.active_profile)"
+msgid "Show active profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:21
+msgctxt "Description(com.redhat.tuned.disable)"
+msgid "Disable Tuned"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:111
+msgctxt "Description(com.redhat.tuned.switch_profile)"
+msgid "Switch Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:72
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.recommend_profile)"
+msgid "Authentication is required to show recommended profile name"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:122
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.verify_profile)"
+msgid "Authentication is required to verify Tuned profile"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:82
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.reload)"
+msgid "Authentication is required to reload Tuned configuration"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:41
+msgctxt "Description(com.redhat.tuned.profile_info)"
+msgid "Show information about Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:31
+msgctxt "Description(com.redhat.tuned.is_running)"
+msgid "Check whether Tuned is running"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:112
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.switch_profile)"
+msgid "Authentication is required to switch Tuned profile"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:92
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.start)"
+msgid "Authentication is required to start Tuned daemon"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:121
+msgctxt "Description(com.redhat.tuned.verify_profile)"
+msgid "Verify Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:12
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.active_profile)"
+msgid "Authentication is required to show active profile"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:91
+msgctxt "Description(com.redhat.tuned.start)"
+msgid "Start Tuned daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:131
+msgctxt "Description(com.redhat.tuned.verify_profile_ignore_missing)"
+msgid "Verify Tuned profile, ignore missing values"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:62
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.profiles2)"
+msgid "Authentication is required to list Tuned profiles"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:51
+msgctxt "Description(com.redhat.tuned.profiles)"
+msgid "List Tuned profiles"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:101
+msgctxt "Description(com.redhat.tuned.stop)"
+msgid "Stop Tuned daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:22
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.disable)"
+msgid "Authentication is required to disable Tuned"
+msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:71
+msgctxt "Description(com.redhat.tuned.recommend_profile)"
+msgid "Show Tuned profile name which is recommended for your system"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.xfce.power.policy:13
 #, fuzzy
@@ -1901,40 +1927,6 @@ msgid "Authentication is required to modify the laptop display brightness"
 msgstr ""
 "Autentificarea este obligatorie pentru a putea modifica luminozitatea "
 "laptopului"
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:15
-#, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.time.read)"
-msgid "Reading system time settings"
-msgstr "Modifică data și ora sistemului"
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:23
-#, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.time.write)"
-msgid "Writing system time settings"
-msgstr "Modifică data și ora sistemului"
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:16
-#, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.time.read)"
-msgid "Authentication is required to read system time settings"
-msgstr ""
-"Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
-"la distanță"
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:24
-#, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.time.write)"
-msgid "Authentication is required to read system time settings"
-msgstr ""
-"Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
-"la distanță"
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
-#, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
-msgid "Reading languages settings"
-msgstr "Salvează configurările administratorului de autentificare"
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:23
 msgctxt "Description(org.opensuse.yast.modules.yapi.language.write)"
@@ -1952,6 +1944,179 @@ msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați
 msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
 msgid "Authentication is required to edit language settings"
 msgstr "Pentru modificarea datelor utilizatorilor trebuie să vă autentificați"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
+#, fuzzy
+msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
+msgid "Reading languages settings"
+msgstr "Salvează configurările administratorului de autentificare"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:15
+#, fuzzy
+msgctxt "Description(org.opensuse.yast.modules.yapi.time.read)"
+msgid "Reading system time settings"
+msgstr "Modifică data și ora sistemului"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:24
+#, fuzzy
+msgctxt "Message(org.opensuse.yast.modules.yapi.time.write)"
+msgid "Authentication is required to read system time settings"
+msgstr ""
+"Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
+"la distanță"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:16
+#, fuzzy
+msgctxt "Message(org.opensuse.yast.modules.yapi.time.read)"
+msgid "Authentication is required to read system time settings"
+msgstr ""
+"Este necesară autentificarea pentru a permite sau dezactiva autentificarea "
+"la distanță"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:23
+#, fuzzy
+msgctxt "Description(org.opensuse.yast.modules.yapi.time.write)"
+msgid "Writing system time settings"
+msgstr "Modifică data și ora sistemului"
+
+#, fuzzy
+#~| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#~| msgid "Save Settings"
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#~ msgid "Get/Set server settings"
+#~ msgstr "Salvează configurările"
+
+#, fuzzy
+#~| msgctxt ""
+#~| "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
+#~| msgid "Change system time and date settings"
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#~ msgid "Change printer settings"
+#~ msgstr "Modifică data și ora sistemului"
+
+#, fuzzy
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#~| msgid "Privileges are required to change the system time."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#~ msgid "Privileges are required to get/set server settings."
+#~ msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
+
+#, fuzzy
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#~| msgid "Privileges are required to change the system time."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#~ msgid "Privileges are required to get list of available devices."
+#~ msgstr "Sunt necesare privilegii pentru a modifica ora sistemului."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#~| msgid "Privileges are required to enroll new fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+#~ msgid ""
+#~ "Privileges are required to set a printer, or a class, as default printer."
+#~ msgstr "Sunt necesare privilegii pentru a înscrie amprente noi."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~| msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+#~ msgid "Privileges are required to enable/disable a printer, or a class."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
+#~ "utilizatori."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+#~ msgid "Privileges are required to add/remove/edit a local printer."
+#~ msgstr "Sunt necesare privilegii pentru a verifica amprentele."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+#~ msgid "Privileges are required to add/remove/edit a remote printer."
+#~ msgstr "Sunt necesare privilegii pentru a verifica amprentele."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
+#~ msgid "Privileges are required to add/remove/edit a class."
+#~ msgstr "Sunt necesare privilegii pentru a verifica amprentele."
+
+#, fuzzy
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+#~| msgid "Privileges are required to change the system time zone."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
+#~ msgid "Privileges are required to restart/cancel/edit a job."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a modifica fusul orar al sistemului."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~| msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+#~ msgid ""
+#~ "Privileges are required to restart/cancel/edit a job owned by another "
+#~ "user."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
+#~ "utilizatori."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+#~ msgid "Privileges are required to add/remove/edit a printer."
+#~ msgstr "Sunt necesare privilegii pentru a verifica amprentele."
+
+#~ msgctxt "Description(net.reactivated.fprint.device.verify)"
+#~ msgid "Verify a fingerprint"
+#~ msgstr "Verifică o amprentă"
+
+#~ msgctxt "Description(net.reactivated.fprint.device.enroll)"
+#~ msgid "Enroll new fingerprints"
+#~ msgstr "Înscrie amprente noi"
+
+#~ msgctxt "Description(net.reactivated.fprint.device.setusername)"
+#~ msgid "Select a user to enroll"
+#~ msgstr "Alegeți un utilizator de înscris"
+
+#~ msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~ msgid "Privileges are required to verify fingerprints."
+#~ msgstr "Sunt necesare privilegii pentru a verifica amprentele."
+
+#~ msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#~ msgid "Privileges are required to enroll new fingerprints."
+#~ msgstr "Sunt necesare privilegii pentru a înscrie amprente noi."
+
+#~ msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~ msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgstr ""
+#~ "Sunt necesare privilegii pentru a înscrie amprente noi pentru alți "
+#~ "utilizatori."
+
+#, fuzzy
+#~ msgctxt "Message(com.hp.driveguard.toggle)"
+#~ msgid "Enable or disable HP drive-guard protection"
+#~ msgstr "Activare sau dezactivare autentificare la distanță"
+
+#, fuzzy
+#~ msgctxt "Message(com.hp.driveguard.install-setup)"
+#~ msgid "Authentication is required to install HP drive-guard system setup"
+#~ msgstr ""
+#~ "Autentificarea este necesară pentru a instala configurări multi-monitor "
+#~ "pentru toți utilizatorii"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
+#~ msgid "Save remote widgets' policies"
+#~ msgstr "Salvează politicile controalelor distante"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmremotewidgets.save)"
+#~ msgid "Prevents the system from saving remote plasma widgets' policies"
+#~ msgstr "Impiedică sistemul să salveze politicile controalelor distante"
 
 #, fuzzy
 #~ msgctxt "Message(org.kde.baloo.filewatch.raiselimit)"
