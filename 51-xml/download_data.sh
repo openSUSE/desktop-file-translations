@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-project="openSUSE:Leap:42.3"
+project="openSUSE:Leap:15.0"
 repository="standard"
 arch="x86_64"
 backend="rsync://openqa@obs-backend.publish.opensuse.org/opensuse-internal/"
@@ -27,4 +27,4 @@ for pattern in ${file_patterns}; do
     all_urls="${all_urls} ${full_dir_url}/"'*'"/${pattern}"
 done
 
-rsync -aP $all_urls "${dest}"
+rsync -a $all_urls "${dest}"
