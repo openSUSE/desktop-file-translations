@@ -1,10 +1,15 @@
 #!/bin/bash
 set -euo pipefail
 
+: ${VERBOSE:=0}
+
 # die: Echo arguments to stderr and exit with 1
 die() { echo "$@" 1>&2 ; exit 1; }
-# Clear the current line and go back to the beginning
-line_clear_back_home() { printf '\r                                                                                                                   \r'; }
+log()
+{
+	[ "$VERBOSE" = 1 ] || return 0
+	echo "$@"
+}
 
 if [ $# -ne 1 ]; then
 	echo "Usage: $0 <directory with archives containing translations>"
@@ -34,45 +39,40 @@ langs="$langs ja ka km ko ku lo lt lv mk mn mr ms mt nb nds nl nn nso pa pl pt"
 langs="$langs pt_BR ro ru rw se si sk sl sr sr@latin sv"
 langs="$langs ta tg th tr tt uk uz vi ven wa xh zh_CN zh_TW zu"
 
-printf "Cleaning up old results..."
-if ! rm -rf "${outputdir:?}"/*; then
-	printf " Failed!"
-	exit 1
+if [ -e "$outputdir" ]; then
+	rm -rf "$outputdir"
 fi
+mkdir "$outputdir"
 
-printf ' Done!\n'
-
-echo "Generating new POT and PO files... "
+log "Generating new POT and PO files... "
 
 for archive in "${inputdir}"/*; do
-        printf "%s" "${archive}"
+        log "${archive}"
 	if ! python3 tar2po/tar2po.py "${archive}" "${outputdir}"; then
-		echo "Failed: ${archive}"
+		echo "Failed: ${archive}" >&2
 	fi
-        line_clear_back_home
 done
 
-echo 'Done!'
+log 'Done!'
 
-echo "Cleaning up POT files... "
+log "Cleaning up POT files... "
 pushd "${outputdir}" > /dev/null
 for potfile in *.pot; do
-	printf "%s" "${potfile}"
+	log "${potfile}"
 	msguniq --use-first "${potfile}" > "${tmpdir}"/"${potfile}"
 	mv "${tmpdir}"/"${potfile}" "${potfile}"
-	line_clear_back_home
 done
 popd > /dev/null
 
-echo 'Done!'
+log 'Done!'
 
-echo "Merging with existing PO files... "
+log "Merging with existing PO files... "
 
 for lang in $langs; do
         [ -d "${outputdir}"/"${lang}" ] || continue
 	pushd "${outputdir}"/"${lang}" > /dev/null
 	for pofile in *; do
-		printf "%s %s" "${lang}" "${pofile}"
+		log "${lang}" "${pofile}"
 		msguniq --use-first "${pofile}" > "${tmpdir}"/"${pofile}"
 		msgmerge --previous -q "${tmpdir}"/"${pofile}" "../${pofile%%\.po}.pot" > "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
@@ -84,14 +84,13 @@ for lang in $langs; do
 			mkdir -p "${resultdir}"/"${lang}"
 			cp "${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		fi
-		line_clear_back_home
 	done
 	popd > /dev/null
 done
 
-echo 'Done!'
+log 'Done!'
 
-echo "Copying over POT files... "
+log "Copying over POT files... "
 cp "${outputdir}"/*.pot "../50-pot/"
 
-echo 'Done!'
+log 'Done!'
