@@ -46,12 +46,12 @@ mkdir "$outputdir"
 
 log "Generating new POT and PO files... "
 
-for archive in "${inputdir}"/*; do
+while read archive; do
         log "${archive}"
 	if ! python3 tar2po/tar2po.py "${archive}" "${outputdir}"; then
 		echo "Failed: ${archive}" >&2
 	fi
-done
+done < <(find "${inputdir}" -name '*.tar.bz2' | sort)
 
 log 'Done!'
 
