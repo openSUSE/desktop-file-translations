@@ -225,6 +225,11 @@ def processTarFile(filepath, timestamp=datetime.utcnow()):
     filepath is the path to a tar file containing files to be processed.
     Returns dict of filenames and content that needs to be appended
     """
+
+    # We need the FILETYPE_HANDLERS dict to be iterated in the same order
+    # as it was defined
+    assert sys.version_info >= (3, 6)
+
     with tarfile.open(filepath) as tar:
         gettext_output_all = {}
         for tar_file in tar:
