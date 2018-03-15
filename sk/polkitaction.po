@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-01 13:19+0000\n"
+"POT-Creation-Date: 2018-03-15 15:46+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,17 +45,25 @@ msgctxt "Message(net.launchpad.backintime.UdevRuleDelete)"
 msgid "Authentication is required to delete Udev rules."
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
+#: /usr/share/polkit-1/actions/org.bleachbit.policy:8
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(org.bleachbit)"
+msgid "Authentication is required to run Bleachbit"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
 #: /usr/share/polkit-1/actions/org.blueman.policy:11
 msgctxt "Description(org.blueman.network.setup)"
 msgid "Configure Bluetooth Network"
 msgstr "Konfigurovať Bluetooth Sieť"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:97
+#: /usr/share/polkit-1/actions/org.blueman.policy:102
 msgctxt "Description(org.blueman.dhcp.client)"
 msgid "Launch DHCP client"
 msgstr "Spustiť DHCP klienta"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:181
+#: /usr/share/polkit-1/actions/org.blueman.policy:189
 #, fuzzy
 #| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
 #| msgid "Save wallet configuration"
@@ -63,7 +71,7 @@ msgctxt "Description(org.blueman.bluez.config)"
 msgid "Bluetooth Configuration"
 msgstr "Uložiť nastavenie peňaženky"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:52
+#: /usr/share/polkit-1/actions/org.blueman.policy:55
 #, fuzzy
 #| msgctxt "Message(org.kde.fontinst.manage)"
 #| msgid "Modifying the system-wide font configuration requires privileges."
@@ -71,12 +79,12 @@ msgctxt "Message(org.blueman.network.setup)"
 msgid "Configuring networking requires privileges"
 msgstr "Úprava nastavenia systémových písiem vyžaduje oprávnenie."
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:137
+#: /usr/share/polkit-1/actions/org.blueman.policy:143
 msgctxt "Message(org.blueman.dhcp.client)"
 msgid "Launching DHCP client requires privileges"
 msgstr "Spúšťanie DHCP klienta požaduje privilégiá"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:222
+#: /usr/share/polkit-1/actions/org.blueman.policy:233
 #, fuzzy
 #| msgctxt "Message(org.kde.fontinst.manage)"
 #| msgid "Modifying the system-wide font configuration requires privileges."
@@ -90,13 +98,24 @@ msgctxt "Message(org.cinnamon.settings-users)"
 msgid "Authentication is required to run the Users and Groups"
 msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
 
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
+msgctxt ""
+"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Úprava jasu notebooku"
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:16
+msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr "Na úpravu jasu notebooku sa vyžaduje overenie totožnosti "
+
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
 #, fuzzy
 msgctxt "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "Change system time and date settings"
 msgstr "Zmena systémového nastavenia času a dátumu"
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:18
+#: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:12
 #, fuzzy
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
@@ -104,202 +123,18 @@ msgstr ""
 "Keď chcete zmeniť nastavenia času a dátumu, musíte najskôr overiť vašu "
 "totožnosť."
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
-msgctxt ""
-"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Úprava jasu notebooku"
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:71
-msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr "Na úpravu jasu notebooku sa vyžaduje overenie totožnosti "
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:11
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
-#| msgid "Save Settings"
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
-msgid "Get/Set server settings"
-msgstr "Uložiť nastavenie"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:75
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
-msgid "Get list of available devices"
-msgstr "Získať zoznam dostupných zariadení"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:138
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-msgid "Set a printer as default printer"
-msgstr "Nastaviť tlačiareň ako štandardnú"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:203
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-msgid "Enable/Disable a printer"
-msgstr "Povoliť/zakázať tlačiareň"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:267
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-msgid "Add/Remove/Edit a local printer"
-msgstr "Pridať/odobrať/upraviť miestnu tlačiareň"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:332
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-msgid "Add/Remove/Edit a remote printer"
-msgstr "Pridať/odobrať/upraviť vzdialenú tlačiareň"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:397
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
-msgid "Add/Remove/Edit a class"
-msgstr "Pridať/odobrať/upraviť triedu"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:461
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
-msgid "Restart/Cancel/Edit a job"
-msgstr "Reštartovať/zastaviť/upraviť tlač"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:524
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-msgid "Restart/Cancel/Edit a job owned by another user"
-msgstr "Reštartovať/zastaviť/upraviť tlač iného používateľa"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:587
-#, fuzzy
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
-msgid "Change printer settings"
-msgstr "Zmena systémového nastavenia času a dátumu"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:650
-msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-msgid "Add/Remove/Edit a printer"
-msgstr "Pridať/odobrať/upraviť tlačiareň"
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:39
-#, fuzzy
-#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#| msgid "Privileges are required to change the system time."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
-msgid "Privileges are required to get/set server settings."
-msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:102
-#, fuzzy
-#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#| msgid "Privileges are required to change the system time."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-msgid "Privileges are required to get list of available devices."
-msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:167
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.enroll)"
-#| msgid "Privileges are required to enroll new fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-msgid ""
-"Privileges are required to set a printer, or a class, as default printer."
-msgstr "Na registrovanie nových odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:231
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#| msgid "Privileges are required to enroll new fingerprints for other users."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-msgid "Privileges are required to enable/disable a printer, or a class."
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
+msgctxt "Description(org.gnome.DejaDup.duplicity)"
+msgid "Restore"
 msgstr ""
-"Na registrovanie nových odtlačkov prstov pre iných používateľov sú potrebné "
-"oprávnenia."
 
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:296
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-msgid "Privileges are required to add/remove/edit a local printer."
-msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:361
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-msgid "Privileges are required to add/remove/edit a remote printer."
-msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:425
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
-msgid "Privileges are required to add/remove/edit a class."
-msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:489
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:11
 #, fuzzy
 #| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 #| msgid "Privileges are required to change the system time zone."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
-msgid "Privileges are required to restart/cancel/edit a job."
+msgctxt "Message(org.gnome.DejaDup.duplicity)"
+msgid "Privileges are required to restore files to system locations"
 msgstr "Na zmenu časovej zóny sa vyžadujú oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:552
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#| msgid "Privileges are required to enroll new fingerprints for other users."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-msgid ""
-"Privileges are required to restart/cancel/edit a job owned by another user."
-msgstr ""
-"Na registrovanie nových odtlačkov prstov pre iných používateľov sú potrebné "
-"oprávnenia."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:615
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
-msgid ""
-"Privileges are required to change printer settings. This should only be "
-"needed from the Printers system settings panel."
-msgstr ""
-"Na zmenu nastavení tlačiarne potrebujete prístupové práva. Takéto zmeny by "
-"mali byť potrebné iba v položke Tlačiarne v Nastaveniach systému."
-
-#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:679
-#, fuzzy
-#| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#| msgid "Privileges are required to verify fingerprints."
-msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-msgid "Privileges are required to add/remove/edit a printer."
-msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
-msgctxt "Description(net.reactivated.fprint.device.verify)"
-msgid "Verify a fingerprint"
-msgstr "Overiť odtlačok prsta"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:83
-msgctxt "Description(net.reactivated.fprint.device.enroll)"
-msgid "Enroll new fingerprints"
-msgstr "Zaregistrovať nové odtlačky prstov"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:153
-msgctxt "Description(net.reactivated.fprint.device.setusername)"
-msgid "Select a user to enroll"
-msgstr "Zvoliť používateľa na registráciu"
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:44
-msgctxt "Message(net.reactivated.fprint.device.verify)"
-msgid "Privileges are required to verify fingerprints."
-msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:114
-msgctxt "Message(net.reactivated.fprint.device.enroll)"
-msgid "Privileges are required to enroll new fingerprints."
-msgstr "Na registrovanie nových odtlačkov prstov sú potrebné oprávnenia."
-
-#: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:184
-msgctxt "Message(net.reactivated.fprint.device.setusername)"
-msgid "Privileges are required to enroll new fingerprints for other users."
-msgstr ""
-"Na registrovanie nových odtlačkov prstov pre iných používateľov sú potrebné "
-"oprávnenia."
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:11
 #, fuzzy
@@ -307,29 +142,41 @@ msgctxt "Description(org.gnome.gconf.defaults.set-system)"
 msgid "Change GConf system values"
 msgstr "Zmeniť systémový čas"
 
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:147
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:143
 msgctxt "Description(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Change GConf mandatory values"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:76
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:74
 #, fuzzy
 msgctxt "Message(org.gnome.gconf.defaults.set-system)"
 msgid "Privileges are required to change GConf system values"
 msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
 
-#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:211
+#: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:205
 #, fuzzy
 msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Privileges are required to change GConf mandatory values"
 msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
+msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
+msgid "Enable or disable remote login"
+msgstr "Povoliť alebo zakázať vzdialené prihlásenie"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:81
+msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
+msgid "Authentication is required to enable or disable remote login"
+msgstr ""
+"Na povolenie alebo zakázanie vzdialeného prihlásenia je vyžadované overenie "
+"totožnosti"
 
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
 msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
 msgid "Change system time and date settings"
 msgstr "Zmena systémového nastavenia času a dátumu"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:81
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:83
 msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
@@ -341,85 +188,71 @@ msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
 msgid "Manage user accounts"
 msgstr "Správa používateľských účtov"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:80
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:82
 msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
 msgid "Authentication is required to change user data"
 msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
-msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
-msgid "Enable or disable remote login"
-msgstr "Povoliť alebo zakázať vzdialené prihlásenie"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:79
-msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
-msgid "Authentication is required to enable or disable remote login"
-msgstr ""
-"Na povolenie alebo zakázanie vzdialeného prihlásenia je vyžadované overenie "
-"totožnosti"
-
-#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:14
+#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:12
 msgctxt "Description(org.gnome.MultiWriter.probe)"
 msgid "Check the device"
 msgstr "Skontrolovať zariadenie"
 
-#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:35
+#: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:37
 msgctxt "Message(org.gnome.MultiWriter.probe)"
 msgid "Authentication is required to probe the device"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.update.policy:10
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
-msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Úprava jasu notebooku"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:78
-msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr "Na úpravu jasu notebooku sa vyžaduje overenie totožnosti "
 
 #: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
 msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
 msgid "Modify the lit LED for a Wacom tablet"
 msgstr "Úprava osvetlenia LED tabletu Wacom"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:138
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:147
 msgctxt ""
 "Description(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
 msgid "Modify the OLED image for a Wacom tablet"
 msgstr "Úprava obrazu OLED tabletu Wacom"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:72
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:76
 msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
 msgid "Authentication is required to modify the lit LED for a Wacom tablet"
 msgstr "Na úpravu osvetlenia LED tabletu Wacom sa vyžaduje overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:187
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:201
 msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
 msgid "Authentication is required to modify the OLED image for a Wacom tablet"
 msgstr "Na úpravu obrazu OLED tabletu Wacom sa vyžaduje overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
+msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Úprava jasu notebooku"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:82
+msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr "Na úpravu jasu notebooku sa vyžaduje overenie totožnosti "
 
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:11
 msgctxt "Description(org.gnome.gnome-system-monitor.kill)"
 msgid "Kill process"
 msgstr "Zabitie procesu"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:156
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:129
 msgctxt "Description(org.gnome.gnome-system-monitor.renice)"
 msgid "Renice process"
 msgstr "Zmena ohľaduplnosti procesu"
 
 #: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:82
+#, fuzzy
+#| msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
+#| msgid "Privileges are required to control other users' processes"
 msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
-msgid "Privileges are required to control other users' processes"
+msgid "Privileges are required to control other users’ processes"
 msgstr "Na ovládanie procesov iných používateľov sú vyžadované privilégiá"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:225
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:200
 msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
 msgstr "Na zmenenie priority procesov sú vyžadované privilégiá"
@@ -430,45 +263,56 @@ msgctxt "Message(org.opensuse.policykit.gparted)"
 msgid "Authentication is required to run the GParted Partition Editor"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/com.ubuntu.pkexec.gufw.policy:8
+#: /usr/share/polkit-1/actions/org.gsmartcontrol.policy:8
 #, fuzzy
-msgctxt "Message(com.ubuntu.pkexec.gufw)"
-msgid "Authentication is required to run the Firewall Configuration"
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(org.gsmartcontrol)"
+msgid "Authentication is required to run GSmartControl"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:7
-msgctxt "Description(com.hp.driveguard.toggle)"
-msgid "Toggle Protection"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:11
+msgctxt "Description(org.gtk.vfs.file-operations-helper)"
+msgid "Perform file operations"
+msgstr "Vykonanie operácií so súbormi"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:15
-msgctxt "Description(com.hp.driveguard.install-setup)"
-msgid "Install HP drive-guard system setup"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:89
+msgctxt "Description(org.gtk.vfs.file-operations)"
+msgid "Perform file operations"
+msgstr "Vykonanie operácií so súbormi"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:8
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:43
 #, fuzzy
-msgctxt "Message(com.hp.driveguard.toggle)"
-msgid "Enable or disable HP drive-guard protection"
-msgstr "Povoliť alebo zakázať vzdialené prihlásenie"
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(org.gtk.vfs.file-operations-helper)"
+msgid "Authentication is required to perform file operations"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:16
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:121
 #, fuzzy
-msgctxt "Message(com.hp.driveguard.install-setup)"
-msgid "Authentication is required to install HP drive-guard system setup"
-msgstr "Na inštaláciu nastavení s viacerými monitormi je vyžadované oprávnenie"
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(org.gtk.vfs.file-operations)"
+msgid "Authentication is required to perform file operations"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
 #: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:9
 msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
 msgid "Set RTC wakeup time"
 msgstr "Nastaviť RTC čas prebudenia"
 
-#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:46
+#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:47
 msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
 msgid "Set RTC wake-from-suspend time"
 msgstr "Nastaviť RTC čas prebudenia z uspania"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:10
+msgctxt "Description(org.kde.kcontrol.kcmsddm.installtheme)"
+msgid "Install an SDDM theme"
+msgstr "Nainštalovať tému SDDM"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:84
 #, fuzzy
 #| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
 #| msgid "Save Settings"
@@ -476,7 +320,17 @@ msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
 msgid "Save Settings"
 msgstr "Uložiť nastavenie"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:47
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:169
+msgctxt "Description(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+msgid "Uninstall an SDDM theme"
+msgstr "Odinštalovať SDDM tému"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:44
+msgctxt "Message(org.kde.kcontrol.kcmsddm.installtheme)"
+msgid "Extracts a zip file containing an SDDM theme to the SDDM theme location"
+msgstr "Rozbalí zip súbor obsahujúci SDDM tému do umiestnenia tém SDDM"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:124
 #, fuzzy
 #| msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
 #| msgid "Save Settings in LightDM"
@@ -484,25 +338,50 @@ msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
 msgid "Save Settings in SDDM"
 msgstr "Uložiť nastavenia v LightDM"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy:7
-msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
-msgid "Save remote widgets' policies"
-msgstr "Uložiť politiky pre vzdialené widgety"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:203
+msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+msgid "Removes a previously installed SDDM theme"
+msgstr "Odstráni predtým nainštalovanú tému SDDM"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmremotewidgets.policy:67
-msgctxt "Message(org.kde.kcontrol.kcmremotewidgets.save)"
-msgid "Prevents the system from saving remote plasma widgets' policies"
-msgstr "Zabraňuje systému ukladať politiky pre vzdialené widgety"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
+msgid "Save the date/time settings"
+msgstr "Uložiť nastavenia dátumu a času"
 
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
-msgctxt "Description(org.kde.fontinst.manage)"
-msgid "Manage system-wide fonts."
-msgstr "Spravovať systémové písma."
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
+msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
+msgid "System policies prevent you from saving the date/time settings."
+msgstr "Systémové politiky vám zabránili uložiť nastavenie dátumu a času."
 
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
-msgctxt "Message(org.kde.fontinst.manage)"
-msgid "Modifying the system-wide font configuration requires privileges."
-msgstr "Úprava nastavenia systémových písiem vyžaduje oprávnenie."
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "Get brightness"
+msgstr "Získať jas"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
+msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "Set brightness"
+msgstr "Nastaviť jas"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
+msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "Get syspath"
+msgstr "Získať systémovú cestu"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Systémové politiky vám zabránili získať úroveň jasu."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
+msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "System policies prevent you from setting the brightness level."
+msgstr "Systémové politiky vám zabránili nastaviť úroveň jasu."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
+msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "System policies prevent you from getting the syspath"
+msgstr "Systémové politiky vám zabránili získať systémovú cestu"
 
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
@@ -545,45 +424,15 @@ msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
 msgid "Sends a given signal to a given process"
 msgstr "Pošle určitý signál danému procesu"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "Get brightness"
-msgstr "Získať jas"
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
+msgctxt "Description(org.kde.fontinst.manage)"
+msgid "Manage system-wide fonts."
+msgstr "Spravovať systémové písma."
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
-msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "Set brightness"
-msgstr "Nastaviť jas"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
-msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "Get syspath"
-msgstr "Získať systémovú cestu"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Systémové politiky vám zabránili získať úroveň jasu."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
-msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "System policies prevent you from setting the brightness level."
-msgstr "Systémové politiky vám zabránili nastaviť úroveň jasu."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
-msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "System policies prevent you from getting the syspath"
-msgstr "Systémové politiky vám zabránili získať systémovú cestu"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
-msgid "Save the date/time settings"
-msgstr "Uložiť nastavenia dátumu a času"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
-msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
-msgid "System policies prevent you from saving the date/time settings."
-msgstr "Systémové politiky vám zabránili uložiť nastavenie dátumu a času."
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
+msgctxt "Message(org.kde.fontinst.manage)"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr "Úprava nastavenia systémových písiem vyžaduje oprávnenie."
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
@@ -630,7 +479,7 @@ msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
 msgid "Save wallet configuration"
 msgstr "Uložiť nastavenie peňaženky"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:46
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Umožniť ukladanie nastavenia peňaženky"
@@ -645,25 +494,11 @@ msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Umožniť ukladanie nastavenia peňaženky"
 
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
-msgctxt "Description(org.libvirt.unix.monitor)"
-msgid "Monitor local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
-msgctxt "Description(org.libvirt.unix.manage)"
-msgid "Manage local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
-msgctxt "Message(org.libvirt.unix.monitor)"
-msgid "System policy prevents monitoring of local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
-msgctxt "Message(org.libvirt.unix.manage)"
-msgid "System policy prevents management of local virtualized systems"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.linux.lmt.gui.policy:8
+#, fuzzy
+msgctxt "Message(org.linux.lmt.gui.policy)"
+msgid "Authentication is required to run Laptop Mode Tools Config"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:8
 msgctxt "Description(org.libvirt.api.connect.detect-storage-pools)"
@@ -1608,6 +1443,26 @@ msgctxt "Message(org.libvirt.api.storage-vol.resize)"
 msgid "Resizing  storage volume requires authorization"
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
+msgctxt "Description(org.libvirt.unix.monitor)"
+msgid "Monitor local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
+msgctxt "Description(org.libvirt.unix.manage)"
+msgid "Manage local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
+msgctxt "Message(org.libvirt.unix.monitor)"
+msgid "System policy prevents monitoring of local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
+msgctxt "Message(org.libvirt.unix.manage)"
+msgid "System policy prevents management of local virtualized systems"
+msgstr ""
+
 #: /usr/share/polkit-1/actions/org.mate.randr.policy:14
 msgctxt "Description(org.mate.randr.install-system-wide)"
 msgid "Install multi-monitor settings for the whole system"
@@ -1636,28 +1491,28 @@ msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 msgid "Change system time zone"
 msgstr "Zmeniť systémovú časovú zónu"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:118
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:123
 msgctxt "Description(org.mate.settingsdaemon.datetimemechanism.settime)"
 msgid "Change system time"
 msgstr "Zmeniť systémový čas"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:227
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:237
 msgctxt ""
 "Description(org.mate.settingsdaemon.datetimemechanism.configurehwclock)"
 msgid "Configure hardware clock"
 msgstr "Nastaviť hardwarové hodiny"
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:62
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:65
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 msgid "Privileges are required to change the system time zone."
 msgstr "Na zmenu časovej zóny sa vyžadujú oprávnenia."
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:171
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:179
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
 msgid "Privileges are required to change the system time."
 msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
 
-#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:279
+#: /usr/share/polkit-1/actions/org.mate.settingsdaemon.datetimemechanism.policy:291
 msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.configurehwclock)"
 msgid "Privileges are required to configure the hardware clock."
 msgstr "Na zmenu taktu sa vyžadujú oprávnenia."
@@ -1720,6 +1575,17 @@ msgstr ""
 msgctxt "Message(org.nemo.root)"
 msgid "Please enter your password to run Nemo as root"
 msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/net.launchpad.pantheon-files.policy:10
+msgctxt "Description(org.freedesktop.policykit.pkexec.pantheon-files)"
+msgid "Run Pantheon Files as Administrator"
+msgstr "Spustiť súbory Pantheonu ako správca"
+
+#: /usr/share/polkit-1/actions/net.launchpad.pantheon-files.policy:30
+#, fuzzy
+msgctxt "Message(org.freedesktop.policykit.pkexec.pantheon-files)"
+msgid "Authentication is required to run Files as Administrator"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
 #: /usr/share/polkit-1/actions/org.debian.pcsc-lite.policy:11
 msgctxt "Description(org.debian.pcsc-lite.access_pcsc)"
@@ -1834,12 +1700,26 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:94
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
+msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+msgid "Check existence of discrete gpu"
+msgstr "Skontrolovať existenciu diskrétneho GPU"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:40
+#, fuzzy
+#| msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+#| msgid "System policies prevent you from getting the brightness level."
+msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+msgid ""
+"System policies prevent you from checking the existence of discrete gpu."
+msgstr "Systémové politiky vám zabránili získať úroveň jasu."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
 msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
 msgid "Get maximum brightness value"
 msgstr "Získať maximálnu hodnotu jasnosti"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:129
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
 msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
 msgid "System policies prevent you from getting the brightness level."
 msgstr "Systémové politiky vám zabránili získať úroveň jasu."
@@ -1856,17 +1736,188 @@ msgid ""
 "\"Cancel\" to scan using your current permissions."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.tuned.gui.policy:6
-msgctxt "Description(org.tuned.gui.run)"
+#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:13
+msgctxt "Description(org.gnome.sysprof2.perf-event-open)"
+msgid "Open a perf event stream"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:14
+#, fuzzy
+msgctxt "Message(org.gnome.sysprof2.perf-event-open)"
+msgid "Authentication is required to access system performance counters."
+msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
+msgctxt "Description(com.redhat.tuned.gui.run)"
 msgid "Run tuned-gui as root"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.tuned.gui.policy:7
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
-msgctxt "Message(org.tuned.gui.run)"
+msgctxt "Message(com.redhat.tuned.gui.run)"
 msgid "Authentication is required to run tuned-gui"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:11
+msgctxt "Description(com.redhat.tuned.active_profile)"
+msgid "Show active profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:21
+msgctxt "Description(com.redhat.tuned.disable)"
+msgid "Disable Tuned"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:31
+msgctxt "Description(com.redhat.tuned.is_running)"
+msgid "Check whether Tuned is running"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:41
+msgctxt "Description(com.redhat.tuned.profile_info)"
+msgid "Show information about Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:51
+msgctxt "Description(com.redhat.tuned.profiles)"
+msgid "List Tuned profiles"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:61
+msgctxt "Description(com.redhat.tuned.profiles2)"
+msgid "List Tuned profiles"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:71
+msgctxt "Description(com.redhat.tuned.recommend_profile)"
+msgid "Show Tuned profile name which is recommended for your system"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:81
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(com.redhat.tuned.reload)"
+msgid "Reload Tuned configuration"
+msgstr "Uložiť nastavenie peňaženky"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:91
+msgctxt "Description(com.redhat.tuned.start)"
+msgid "Start Tuned daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:101
+msgctxt "Description(com.redhat.tuned.stop)"
+msgid "Stop Tuned daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:111
+msgctxt "Description(com.redhat.tuned.switch_profile)"
+msgid "Switch Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:121
+msgctxt "Description(com.redhat.tuned.verify_profile)"
+msgid "Verify Tuned profile"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:131
+msgctxt "Description(com.redhat.tuned.verify_profile_ignore_missing)"
+msgid "Verify Tuned profile, ignore missing values"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:12
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.active_profile)"
+msgid "Authentication is required to show active profile"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:22
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.disable)"
+msgid "Authentication is required to disable Tuned"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:32
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.is_running)"
+msgid "Authentication is required to check whether Tuned is running"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:42
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.profile_info)"
+msgid "Authentication is required to show information about Tuned profile"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:52
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.profiles)"
+msgid "Authentication is required to list Tuned profiles"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:62
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.profiles2)"
+msgid "Authentication is required to list Tuned profiles"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:72
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.recommend_profile)"
+msgid "Authentication is required to show recommended profile name"
+msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:82
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.reload)"
+msgid "Authentication is required to reload Tuned configuration"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:92
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.start)"
+msgid "Authentication is required to start Tuned daemon"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:102
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.stop)"
+msgid "Authentication is required to stop Tuned daemon"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:112
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.switch_profile)"
+msgid "Authentication is required to switch Tuned profile"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:122
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.verify_profile)"
+msgid "Authentication is required to verify Tuned profile"
+msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:132
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.verify_profile_ignore_missing)"
+msgid "Authentication is required to verify Tuned profile"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
 #: /usr/share/polkit-1/actions/org.xfce.power.policy:13
@@ -1880,6 +1931,29 @@ msgstr "Úprava jasu notebooku"
 msgctxt "Message(org.xfce.power.backlight-helper)"
 msgid "Authentication is required to modify the laptop display brightness"
 msgstr "Na úpravu jasu notebooku sa vyžaduje overenie totožnosti "
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
+#, fuzzy
+msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
+msgid "Reading languages settings"
+msgstr "Uložiť nastavenia správcu prihlásenia"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:23
+msgctxt "Description(org.opensuse.yast.modules.yapi.language.write)"
+msgid "Writing new language settings"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:16
+#, fuzzy
+msgctxt "Message(org.opensuse.yast.modules.yapi.language.read)"
+msgid "Authentication is required to read languages settings"
+msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+
+#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:24
+#, fuzzy
+msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
+msgid "Authentication is required to edit language settings"
+msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
 
 #: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:15
 #, fuzzy
@@ -1905,28 +1979,187 @@ msgctxt "Message(org.opensuse.yast.modules.yapi.time.write)"
 msgid "Authentication is required to read system time settings"
 msgstr "Na preskúmanie zariadenia je potrebné overenie totožnosti"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
 #, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
-msgid "Reading languages settings"
-msgstr "Uložiť nastavenia správcu prihlásenia"
+#~| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#~| msgid "Save Settings"
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#~ msgid "Get/Set server settings"
+#~ msgstr "Uložiť nastavenie"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:23
-msgctxt "Description(org.opensuse.yast.modules.yapi.language.write)"
-msgid "Writing new language settings"
-msgstr ""
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#~ msgid "Get list of available devices"
+#~ msgstr "Získať zoznam dostupných zariadení"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:16
+#~ msgctxt ""
+#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+#~ msgid "Set a printer as default printer"
+#~ msgstr "Nastaviť tlačiareň ako štandardnú"
+
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+#~ msgid "Enable/Disable a printer"
+#~ msgstr "Povoliť/zakázať tlačiareň"
+
+#~ msgctxt ""
+#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+#~ msgid "Add/Remove/Edit a local printer"
+#~ msgstr "Pridať/odobrať/upraviť miestnu tlačiareň"
+
+#~ msgctxt ""
+#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+#~ msgid "Add/Remove/Edit a remote printer"
+#~ msgstr "Pridať/odobrať/upraviť vzdialenú tlačiareň"
+
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
+#~ msgid "Add/Remove/Edit a class"
+#~ msgstr "Pridať/odobrať/upraviť triedu"
+
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
+#~ msgid "Restart/Cancel/Edit a job"
+#~ msgstr "Reštartovať/zastaviť/upraviť tlač"
+
+#~ msgctxt ""
+#~ "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+#~ msgid "Restart/Cancel/Edit a job owned by another user"
+#~ msgstr "Reštartovať/zastaviť/upraviť tlač iného používateľa"
+
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.language.read)"
-msgid "Authentication is required to read languages settings"
-msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#~ msgid "Change printer settings"
+#~ msgstr "Zmena systémového nastavenia času a dátumu"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:24
+#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+#~ msgid "Add/Remove/Edit a printer"
+#~ msgstr "Pridať/odobrať/upraviť tlačiareň"
+
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
-msgid "Authentication is required to edit language settings"
-msgstr "Na zmenu používateľských údajov je vyžadované overenie totožnosti"
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#~| msgid "Privileges are required to change the system time."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+#~ msgid "Privileges are required to get/set server settings."
+#~ msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#~| msgid "Privileges are required to change the system time."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#~ msgid "Privileges are required to get list of available devices."
+#~ msgstr "Na zmenu systémového času sa vyžadujú oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#~| msgid "Privileges are required to enroll new fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+#~ msgid ""
+#~ "Privileges are required to set a printer, or a class, as default printer."
+#~ msgstr "Na registrovanie nových odtlačkov prstov sú potrebné oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~| msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+#~ msgid "Privileges are required to enable/disable a printer, or a class."
+#~ msgstr ""
+#~ "Na registrovanie nových odtlačkov prstov pre iných používateľov sú "
+#~ "potrebné oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+#~ msgid "Privileges are required to add/remove/edit a local printer."
+#~ msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+#~ msgid "Privileges are required to add/remove/edit a remote printer."
+#~ msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
+#~ msgid "Privileges are required to add/remove/edit a class."
+#~ msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+#~| msgid "Privileges are required to change the system time zone."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
+#~ msgid "Privileges are required to restart/cancel/edit a job."
+#~ msgstr "Na zmenu časovej zóny sa vyžadujú oprávnenia."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~| msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+#~ msgid ""
+#~ "Privileges are required to restart/cancel/edit a job owned by another "
+#~ "user."
+#~ msgstr ""
+#~ "Na registrovanie nových odtlačkov prstov pre iných používateľov sú "
+#~ "potrebné oprávnenia."
+
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
+#~ msgid ""
+#~ "Privileges are required to change printer settings. This should only be "
+#~ "needed from the Printers system settings panel."
+#~ msgstr ""
+#~ "Na zmenu nastavení tlačiarne potrebujete prístupové práva. Takéto zmeny "
+#~ "by mali byť potrebné iba v položke Tlačiarne v Nastaveniach systému."
+
+#, fuzzy
+#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~| msgid "Privileges are required to verify fingerprints."
+#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+#~ msgid "Privileges are required to add/remove/edit a printer."
+#~ msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
+
+#~ msgctxt "Description(net.reactivated.fprint.device.verify)"
+#~ msgid "Verify a fingerprint"
+#~ msgstr "Overiť odtlačok prsta"
+
+#~ msgctxt "Description(net.reactivated.fprint.device.enroll)"
+#~ msgid "Enroll new fingerprints"
+#~ msgstr "Zaregistrovať nové odtlačky prstov"
+
+#~ msgctxt "Description(net.reactivated.fprint.device.setusername)"
+#~ msgid "Select a user to enroll"
+#~ msgstr "Zvoliť používateľa na registráciu"
+
+#~ msgctxt "Message(net.reactivated.fprint.device.verify)"
+#~ msgid "Privileges are required to verify fingerprints."
+#~ msgstr "Na overenie odtlačkov prstov sú potrebné oprávnenia."
+
+#~ msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#~ msgid "Privileges are required to enroll new fingerprints."
+#~ msgstr "Na registrovanie nových odtlačkov prstov sú potrebné oprávnenia."
+
+#~ msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#~ msgid "Privileges are required to enroll new fingerprints for other users."
+#~ msgstr ""
+#~ "Na registrovanie nových odtlačkov prstov pre iných používateľov sú "
+#~ "potrebné oprávnenia."
+
+#, fuzzy
+#~ msgctxt "Message(com.hp.driveguard.toggle)"
+#~ msgid "Enable or disable HP drive-guard protection"
+#~ msgstr "Povoliť alebo zakázať vzdialené prihlásenie"
+
+#, fuzzy
+#~ msgctxt "Message(com.hp.driveguard.install-setup)"
+#~ msgid "Authentication is required to install HP drive-guard system setup"
+#~ msgstr ""
+#~ "Na inštaláciu nastavení s viacerými monitormi je vyžadované oprávnenie"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
+#~ msgid "Save remote widgets' policies"
+#~ msgstr "Uložiť politiky pre vzdialené widgety"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmremotewidgets.save)"
+#~ msgid "Prevents the system from saving remote plasma widgets' policies"
+#~ msgstr "Zabraňuje systému ukladať politiky pre vzdialené widgety"
 
 #~ msgctxt "Description(org.kde.baloo.filewatch.raiselimit)"
 #~ msgid "Folder Watch Limit"

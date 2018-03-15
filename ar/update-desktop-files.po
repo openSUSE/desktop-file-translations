@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2018-03-01 13:19+0000\n"
+"POT-Creation-Date: 2018-03-15 15:46+0000\n"
 "PO-Revision-Date: 2018-03-06 14:00+0000\n"
 "Last-Translator: George Yacoub <george.yacoub@arabize.com>\n"
 "Language-Team: Arabic <https://l10n.opensuse.org/projects/desktop-file-"
@@ -36,15 +36,15 @@ msgctxt "GenericName(general.desktop)"
 msgid "Configure General Autoinstallation  Options"
 msgstr "إعداد الخيارات العامة للتثبيت التلقائي"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "النصوص البرمجية المخصصة"
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "التقسيم"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "إضافة وتحرير البرامج النصية الخاصة"
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "ضبط إعدادات التقسيم والتخزين"
 
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
@@ -56,25 +56,15 @@ msgctxt "GenericName(report.desktop)"
 msgid "Configure Reporting and Logging Options"
 msgstr "إعداد خيارات التقارير والتسجيل"
 
-#: /usr/share/autoinstall/modules/software.desktop:22
-msgctxt "Name(software.desktop)"
-msgid "Package Selection"
-msgstr "اختيار الحزمة"
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "النصوص البرمجية المخصصة"
 
-#: /usr/share/autoinstall/modules/software.desktop:23
-msgctxt "GenericName(software.desktop)"
-msgid "Configure Package Selection and Software Settings"
-msgstr "إعداد اختيار الحزم وإعدادات البرنامج"
-
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "التقسيم"
-
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "ضبط إعدادات التقسيم والتخزين"
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "إضافة وتحرير البرامج النصية الخاصة"
 
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
@@ -86,12 +76,22 @@ msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "إضافة ملفات إعدادات كاملة"
 
-#: /usr/share/xsessions/awesome.desktop:3
+#: /usr/share/autoinstall/modules/software.desktop:22
+msgctxt "Name(software.desktop)"
+msgid "Package Selection"
+msgstr "اختيار الحزمة"
+
+#: /usr/share/autoinstall/modules/software.desktop:23
+msgctxt "GenericName(software.desktop)"
+msgid "Configure Package Selection and Software Settings"
+msgstr "إعداد اختيار الحزم وإعدادات البرنامج"
+
+#: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
 msgid "awesome"
 msgstr "رهيبة"
 
-#: /usr/share/xsessions/awesome.desktop:4
+#: /usr/share/xsessions/awesome.desktop:3
 msgctxt "Comment(awesome.desktop)"
 msgid "Highly configurable framework window manager"
 msgstr "مدير نوافذ ذو بنية قابلة للتخصيص"
@@ -111,6 +111,16 @@ msgctxt "Name(baloo_file.desktop)"
 msgid "Baloo File Daemon"
 msgstr "مراقب ملفات بالو"
 
+#: /etc/xdg/autostart/blueberry-tray.desktop:3
+msgctxt "Name(blueberry-tray.desktop)"
+msgid "blueberry"
+msgstr "العنب البري"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:4
+msgctxt "Comment(blueberry-tray.desktop)"
+msgid "Blueberry tray icon"
+msgstr "أيقونة علبة التوت"
+
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:2
 msgctxt "Name(blueberry-obex-agent.desktop)"
 msgid "Bluetooth OBEX Agent"
@@ -126,22 +136,12 @@ msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
 msgstr "ملفات؛بلوتوث؛obex؛استلام؛"
 
-#: /etc/xdg/autostart/blueberry-tray.desktop:3
-msgctxt "Name(blueberry-tray.desktop)"
-msgid "blueberry"
-msgstr "العنب البري"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:4
-msgctxt "Comment(blueberry-tray.desktop)"
-msgid "Blueberry tray icon"
-msgstr "أيقونة علبة التوت"
-
 #: /etc/xdg/autostart/blueman.desktop:2
 msgctxt "Name(blueman.desktop)"
 msgid "Blueman Applet"
 msgstr "تطبيق Blueman الصغير"
 
-#: /etc/xdg/autostart/blueman.desktop:42
+#: /etc/xdg/autostart/blueman.desktop:45
 msgctxt "Comment(blueman.desktop)"
 msgid "Blueman Bluetooth Manager"
 msgstr "مدير البلوتوث بلومان"
@@ -156,7 +156,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "نسيم داكن"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:44
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:47
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "تصميم سطح المكتب نسيم الظلام لكدي VDG"
@@ -176,17 +176,57 @@ msgctxt "Comment(bspwm.desktop)"
 msgid "Binary space partitioning window manager"
 msgstr "مدير تقسيم مساحات النوافذ"
 
-#: /etc/xdg/autostart/caffeine.desktop:3
+#: /etc/xdg/autostart/budgie-desktop-nm-applet.desktop:2
+#, fuzzy
+#| msgctxt "Name(budgie-desktop.desktop)"
+#| msgid "Budgie Desktop"
+msgctxt "Name(budgie-desktop-nm-applet.desktop)"
+msgid "Network (Budgie Desktop)"
+msgstr "سطح المكتب"
+
+#: /etc/xdg/autostart/budgie-desktop-nm-applet.desktop:3
+#, fuzzy
+#| msgctxt "Comment(nm-applet.desktop)"
+#| msgid "Manage your network connections"
+msgctxt "Comment(budgie-desktop-nm-applet.desktop)"
+msgid "Manage your network connections"
+msgstr "إدارة اتصالات الشبكة"
+
+#: /usr/share/xsessions/budgie-desktop.desktop:2
+#, fuzzy
+#| msgctxt "Name(lxqt-desktop.desktop)"
+#| msgid "Desktop"
+msgctxt "Name(budgie-desktop.desktop)"
+msgid "Budgie Desktop"
+msgstr "سطح المكتب"
+
+#: /usr/share/xsessions/budgie-desktop.desktop:54
+#, fuzzy
+#| msgctxt "Comment(icewm-session.desktop)"
+#| msgid "This session logs you into IceWM"
+msgctxt "Comment(budgie-desktop.desktop)"
+msgid "This session logs you into the Budgie Desktop"
+msgstr "تسجل هذه الجلسة دخولك في إيسوم"
+
+#: /etc/xdg/autostart/caffeine.desktop:2
+#, fuzzy
+#| msgctxt "Name(caffeine.desktop)"
+#| msgid "Caffeine"
+msgctxt "GenericName(caffeine.desktop)"
+msgid "Caffeine"
+msgstr "كافيين"
+
+#: /etc/xdg/autostart/caffeine.desktop:5
 msgctxt "Name(caffeine.desktop)"
 msgid "Caffeine"
 msgstr "كافيين"
 
-#: /etc/xdg/autostart/caffeine.desktop:4
+#: /etc/xdg/autostart/caffeine.desktop:6
 msgctxt "Comment(caffeine.desktop)"
 msgid "Temporarily deactivate the screensaver and sleep mode"
 msgstr "إلغاء تنشيط شاشة التوقف ووضع السكون مؤقتا"
 
-#: /etc/xdg/autostart/caffeine.desktop:9
+#: /etc/xdg/autostart/caffeine.desktop:30
 msgctxt "Keywords(caffeine.desktop)"
 msgid "Screensaver,Power,Saving,Blank;"
 msgstr "شاشة التوقف، والطاقة، وتوفير، فارغة;"
@@ -216,90 +256,20 @@ msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr "تسجل هذه الجلسة دخولك في سينامون (باستخدام عرض البرامج)"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-settings"
-msgstr "برنامج محرك لـ Cinnamon - إعدادات a11y"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "برنامج محرك لـ Cinnamon - التدبير المنزلي"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "برنامج محرك لـ Cinnamon - الصوت"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
-msgid "Cinnamon Settings Daemon - mouse"
-msgstr "برنامج محرك لـ Cinnamon - الفأرة"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
-msgid "Cinnamon Settings Daemon - xsettings"
-msgstr "برنامج محرك لـ Cinnamon - إعدادات x"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
 msgid "Cinnamon Settings Daemon - media-keys"
 msgstr "برنامج محرك لـ Cinnamon - مفاتيح الوسائط"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr "برنامج محرك لـ Cinnamon - الاتجاه"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "برنامج محرك لـ Cinnamon - لوحة مفاتيح a11y"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "برنامج محرك لـ Cinnamon- إخطارات الطباعة"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-msgid "Cinnamon Settings Daemon - screensaver-proxy"
-msgstr "برنامج محرك لـ Cinnamon - وكيل حافظ الشاشة"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
-msgid "Cinnamon Settings Daemon - color"
-msgstr "برنامج محرك لـ Cinnamon - اللون"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "برنامج محرك لـ Cinnamon - الطاقة"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "برنامج محرك لـ Cinnamon - المؤشر"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
 msgid "Cinnamon Settings Daemon - background"
 msgstr "برنامج محرك لـ Cinnamon - الخلفية"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "برنامج محرك لـ Cinnamon - الحافظة"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "برنامج محرك لـ Cinnamon - xrandr"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "برنامج محرك لـ Cinnamon - التوصيل التلقائي"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr "برنامج محرك لـ Cinnamon - وكيل حافظ الشاشة"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
@@ -311,15 +281,129 @@ msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
 msgid "Cinnamon Settings Daemon - smartcard"
 msgstr "برنامج محرك لـ Cinnamon - بطاقة ذكية"
 
-#: /etc/xdg/autostart/deja-dup-monitor.desktop:4
-msgctxt "Name(deja-dup-monitor.desktop)"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "برنامج محرك لـ Cinnamon - الحافظة"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "برنامج محرك لـ Cinnamon - المؤشر"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "برنامج محرك لـ Cinnamon - اللون"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "برنامج محرك لـ Cinnamon - الطاقة"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "برنامج محرك لـ Cinnamon - التوصيل التلقائي"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "برنامج محرك لـ Cinnamon - الصوت"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "برنامج محرك لـ Cinnamon - لوحة مفاتيح a11y"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "برنامج محرك لـ Cinnamon - xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "برنامج محرك لـ Cinnamon- إخطارات الطباعة"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr "برنامج محرك لـ Cinnamon - إعدادات x"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr "برنامج محرك لـ Cinnamon - إعدادات a11y"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "برنامج محرك لـ Cinnamon - الفأرة"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "برنامج محرك لـ Cinnamon - التدبير المنزلي"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr "برنامج محرك لـ Cinnamon - الاتجاه"
+
+#: /etc/xdg/autostart/lxqt-compton.desktop:3
+msgctxt "Name(lxqt-compton.desktop)"
+msgid "Compton (X Compositor)"
+msgstr "Compton (المكون X)"
+
+#: /etc/xdg/autostart/lxqt-compton.desktop:4
+msgctxt "GenericName(lxqt-compton.desktop)"
+msgid "X compositor"
+msgstr "المكون X"
+
+#: /etc/xdg/autostart/lxqt-compton.desktop:5
+msgctxt "Comment(lxqt-compton.desktop)"
+msgid "A X compositor"
+msgstr "المكون A X"
+
+#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
+#, fuzzy
+#| msgctxt "Name(deja-dup-monitor.desktop)"
+#| msgid "Backup Monitor"
+msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "مراقب النسخ الاحتياطي"
 
-#: /etc/xdg/autostart/deja-dup-monitor.desktop:65
-msgctxt "Comment(deja-dup-monitor.desktop)"
+#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
+#, fuzzy
+#| msgctxt "Comment(deja-dup-monitor.desktop)"
+#| msgid "Schedules backups at regular intervals"
+msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
 msgstr "نسخ احتياطي مجدول خلال فترات منتظمة"
+
+#: /usr/share/appdata/com.github.spheras.desktopfolder.appdata.xml:7
+#, fuzzy
+#| msgctxt "Name(lxqt-desktop.desktop)"
+#| msgid "Desktop"
+msgctxt "Name(com.github.spheras.desktopfolder.desktop)"
+msgid "Desktop Folder"
+msgstr "سطح المكتب"
+
+#: /usr/share/appdata/com.github.spheras.desktopfolder.appdata.xml:8
+msgctxt "Summary(com.github.spheras.desktopfolder.desktop)"
+msgid "Bring your desktop back to life"
+msgstr ""
+
+#: /etc/xdg/autostart/com.github.spheras.desktopfolder.desktop:4
+msgctxt "Comment(com.github.spheras.desktopfolder.desktop)"
+msgid "Organize your desktop with panels, notes and photos"
+msgstr ""
+
+#: /etc/xdg/autostart/com.github.spheras.desktopfolder.desktop:10
+msgctxt "Keywords(com.github.spheras.desktopfolder.desktop)"
+msgid "desktop;folder;file;organize;"
+msgstr ""
 
 #: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:5
 msgctxt "Name(z-displaycal-apply-profiles.desktop)"
@@ -353,16 +437,6 @@ msgctxt "Name(eekboard-autostart.desktop)"
 msgid "Eekboard"
 msgstr "لوحة Eek"
 
-#: /usr/share/xsessions/enlightenment.desktop:4
-msgctxt "Name(enlightenment.desktop)"
-msgid "Enlightenment"
-msgstr "التنوير"
-
-#: /usr/share/xsessions/enlightenment.desktop:19
-msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.21.8)"
-msgstr "تسجيل الدخول باستخدام Enlightenment (الإصدار 0.21.8)"
-
 #: /usr/share/xsessions/epymc_xsession.desktop:4
 msgctxt "Name(epymc_xsession.desktop)"
 msgid "Emotion Media Center"
@@ -378,7 +452,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "منبه افلوشن"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:67
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:68
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "إخطارات أحداث التقويم"
@@ -388,12 +462,12 @@ msgctxt "Name(fcitx-autostart.desktop)"
 msgid "Fcitx"
 msgstr "Fcitx"
 
-#: /etc/xdg/autostart/fcitx-autostart.desktop:9
+#: /etc/xdg/autostart/fcitx-autostart.desktop:12
 msgctxt "GenericName(fcitx-autostart.desktop)"
 msgid "Input Method"
 msgstr "طريقة الادخال"
 
-#: /etc/xdg/autostart/fcitx-autostart.desktop:16
+#: /etc/xdg/autostart/fcitx-autostart.desktop:22
 msgctxt "Comment(fcitx-autostart.desktop)"
 msgid "Start Input Method"
 msgstr "بدء أسلوب الإدخال"
@@ -423,7 +497,7 @@ msgctxt "Name(gsettings-data-convert.desktop)"
 msgid "GSettings Data Conversion"
 msgstr "محول البيانات GSettings"
 
-#: /etc/xdg/autostart/gsettings-data-convert.desktop:62
+#: /etc/xdg/autostart/gsettings-data-convert.desktop:60
 msgctxt "Comment(gsettings-data-convert.desktop)"
 msgid "Migrates user settings from GConf to dconf"
 msgstr "ترحيل إعدادات المستخدم من GConf إلى dconf"
@@ -448,15 +522,15 @@ msgctxt "Comment(glipper-autostart.desktop)"
 msgid "A clipboard history manager"
 msgstr "مدير حافظة التاريخ"
 
-#: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:3
-msgctxt "Name(gnome-break-timer-autostart.desktop)"
-msgid "Break Timer"
-msgstr "كسر الموقت"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
+msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
+msgstr ""
 
-#: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:8
-msgctxt "Comment(gnome-break-timer-autostart.desktop)"
-msgid "Provides a gentle reminder to take regular breaks"
-msgstr "يذكرك بشكل لطيف لتأخذ فواصل منتظمة"
+#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
+msgctxt "Name(gnome-initial-setup-first-login.desktop)"
+msgid "Initial Setup"
+msgstr "الإعداد الأولي"
 
 #: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
 msgctxt "Name(gnome-welcome-tour.desktop)"
@@ -467,21 +541,6 @@ msgstr "أهلا بك"
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
 msgstr "جنوم الإعداد الأولي لنسخة العامل"
-
-#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
-msgctxt "Name(gnome-initial-setup-first-login.desktop)"
-msgid "Initial Setup"
-msgstr "الإعداد الأولي"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "عميل مفاتيح SSH"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "حلقة مفاتيح جنوم: عميل SSH"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
@@ -503,6 +562,29 @@ msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "حلقة مفاتيح جنوم: مكون PKCS#11"
 
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "عميل مفاتيح SSH"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "حلقة مفاتيح جنوم: عميل SSH"
+
+#: /usr/share/xsessions/gnome-xorg.desktop:2
+msgctxt "Name(gnome-xorg.desktop)"
+msgid "GNOME on Xorg"
+msgstr ""
+
+#: /usr/share/xsessions/gnome-xorg.desktop:54
+#, fuzzy
+#| msgctxt "Comment(mate.desktop)"
+#| msgid "This session logs you into MATE"
+msgctxt "Comment(gnome-xorg.desktop)"
+msgid "This session logs you into GNOME"
+msgstr "تسجل هذه الجلسة دخولك في مييت"
+
 #: /usr/share/xsessions/gnome.desktop:6
 msgctxt "Name(gnome.desktop)"
 msgid "GNOME"
@@ -515,20 +597,149 @@ msgid ""
 "desktop environment"
 msgstr "بيئة نموذج الكائن الشبكي من GNU، بيئة سطح مكتبي حرّة وسهلة الاستخدام"
 
-#: /etc/xdg/autostart/gnome-settings-daemon.desktop:3
-msgctxt "Name(gnome-settings-daemon.desktop)"
-msgid "GNOME Settings Daemon"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
+msgid "GNOME Settings Daemon's keyboard plugin"
 msgstr "عفريت إعدادات جنوم"
 
-#: /usr/share/xsessions/gnome-classic.desktop:2
-msgctxt "Name(gnome-classic.desktop)"
-msgid "GNOME Classic"
-msgstr "جنوم تقليدية"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
+msgstr "عفريت إعدادات جنوم"
 
-#: /usr/share/xsessions/gnome-classic.desktop:70
-msgctxt "Comment(gnome-classic.desktop)"
-msgid "This session logs you into GNOME Classic"
-msgstr "تسجل هذه الجلسة دخولك في جنوم التقليدية"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
+msgid "GNOME Settings Daemon's mouse plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+#| msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
+msgid "GNOME Settings Daemon's a11y-keyboard plugin"
+msgstr "برنامج محرك لـ Cinnamon - لوحة مفاتيح a11y"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
+msgid "GNOME Settings Daemon's datetime plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+#| msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "برنامج محرك لـ Cinnamon - وكيل حافظ الشاشة"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
+msgid "GNOME Settings Daemon's sharing plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+#| msgid "Cinnamon Settings Daemon - a11y-settings"
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "برنامج محرك لـ Cinnamon - إعدادات a11y"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+#| msgid "Cinnamon Settings Daemon - media-keys"
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "برنامج محرك لـ Cinnamon - مفاتيح الوسائط"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+#| msgid "Cinnamon Settings Daemon - print-notifications"
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr "برنامج محرك لـ Cinnamon- إخطارات الطباعة"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
+msgid "GNOME Settings Daemon's xsettings plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
+#, fuzzy
+#| msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+#| msgid "Cinnamon Settings Daemon - housekeeping"
+msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
+msgid "GNOME Settings Daemon's housekeeping plugin"
+msgstr "برنامج محرك لـ Cinnamon - التدبير المنزلي"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
+msgid "GNOME Settings Daemon's power plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "عفريت إعدادات جنوم"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "عفريت إعدادات جنوم"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -538,6 +749,16 @@ msgstr "جنوم تقليدية"
 #: /usr/share/xsessions/sle-classic.desktop:70
 msgctxt "Comment(sle-classic.desktop)"
 msgid "This session logs you into SLE Classic"
+msgstr "تسجل هذه الجلسة دخولك في جنوم التقليدية"
+
+#: /usr/share/xsessions/gnome-classic.desktop:70
+msgctxt "Name(gnome-classic.desktop)"
+msgid "GNOME Classic"
+msgstr "جنوم تقليدية"
+
+#: /usr/share/xsessions/gnome-classic.desktop:139
+msgctxt "Comment(gnome-classic.desktop)"
+msgid "This session logs you into GNOME Classic"
 msgstr "تسجل هذه الجلسة دخولك في جنوم التقليدية"
 
 #: /etc/xdg/autostart/gnome-software-service.desktop:3
@@ -555,6 +776,16 @@ msgctxt "Comment(gsynaptics-init.desktop)"
 msgid "Set your touchpad preferences"
 msgstr "اضبط تفضيلات لوحة اللمس"
 
+#: /etc/xdg/autostart/com.github.sgpthomas.hourglass-daemon.desktop:3
+msgctxt "Name(com.github.sgpthomas.hourglass-daemon.desktop)"
+msgid "com.github.sgpthomas.hourglass-daemon"
+msgstr ""
+
+#: /etc/xdg/autostart/com.github.sgpthomas.hourglass-daemon.desktop:4
+msgctxt "Comment(com.github.sgpthomas.hourglass-daemon.desktop)"
+msgid "Daemon that deals with Hourglass's alarms."
+msgstr ""
+
 #: /etc/xdg/autostart/hplip-systray.desktop:4
 msgctxt "Name(hplip-systray.desktop)"
 msgid "HP System Tray Service"
@@ -570,16 +801,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "صينية خدمات نظام HP"
 
-#: /usr/share/xsessions/i3-with-shmlog.desktop:2
-msgctxt "Name(i3-with-shmlog.desktop)"
-msgid "i3 (with debug log)"
-msgstr "i3 (مع سجل التصحيح)"
-
-#: /usr/share/xsessions/i3-with-shmlog.desktop:3
-msgctxt "Comment(i3-with-shmlog.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "تحسين مدير نافذة البلاط الديناميكي"
-
 #: /usr/share/xsessions/i3.desktop:2
 msgctxt "Name(i3.desktop)"
 msgid "i3"
@@ -590,15 +811,46 @@ msgctxt "Comment(i3.desktop)"
 msgid "improved dynamic tiling window manager"
 msgstr "تحسين مدير نافذة البلاط الديناميكي"
 
-#: /usr/share/xsessions/icewm.desktop:6
+#: /usr/share/xsessions/i3.desktop:9
+msgctxt "Keywords(i3.desktop)"
+msgid "tiling;wm;windowmanager;window;manager;"
+msgstr ""
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:2
+msgctxt "Name(i3-with-shmlog.desktop)"
+msgid "i3 (with debug log)"
+msgstr "i3 (مع سجل التصحيح)"
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:3
+msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "تحسين مدير نافذة البلاط الديناميكي"
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:6
+msgctxt "Keywords(i3-with-shmlog.desktop)"
+msgid "tiling;wm;windowmanager;window;manager;"
+msgstr ""
+
+#: /usr/share/xsessions/icewm.desktop:4
 msgctxt "Name(icewm.desktop)"
 msgid "IceWM"
 msgstr "IceWM"
 
-#: /usr/share/xsessions/icewm.desktop:14
+#: /usr/share/xsessions/icewm.desktop:5
+#, fuzzy
+#| msgctxt "GenericName(icewm-session.desktop)"
+#| msgid "Window Manager"
+msgctxt "GenericName(icewm.desktop)"
+msgid "Window Manager"
+msgstr "مدير النافذة"
+
+#: /usr/share/xsessions/icewm.desktop:9
+#, fuzzy
+#| msgctxt "Comment(i3-with-shmlog.desktop)"
+#| msgid "improved dynamic tiling window manager"
 msgctxt "Comment(icewm.desktop)"
-msgid "A Windows 95-OS/2-Motif-like window manager"
-msgstr "مدير نوافذ مشابه لـ Win95-OS/2-Motif"
+msgid "Simple and fast window manger"
+msgstr "تحسين مدير نافذة البلاط الديناميكي"
 
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
@@ -645,11 +897,6 @@ msgctxt "Name(plasma-desktop.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "مساحة عمل بلازما"
 
-#: /usr/share/autostart/krunner.desktop:4
-msgctxt "Name(krunner.desktop)"
-msgid "Command Runner"
-msgstr "منفّذ الأوامر"
-
 #: /usr/share/wallpapers/stripes.png.desktop:3
 msgctxt "Wallpaper-Name(stripes.png.desktop)"
 msgid "Stripes"
@@ -680,15 +927,15 @@ msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
 msgstr "لوحات KiCad الإلكترونية المطبوعة"
 
-#: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
-msgctxt "Comment(x-kicad-schematic.desktop)"
-msgid "KiCad Schematic"
-msgstr "مخطط KiCad"
-
 #: /usr/share/mimelnk/application/x-kicad-project.desktop:6
 msgctxt "Comment(x-kicad-project.desktop)"
 msgid "KiCad Project"
 msgstr "مشروع KiCad"
+
+#: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
+msgctxt "Comment(x-kicad-schematic.desktop)"
+msgid "KiCad Schematic"
+msgstr "مخطط KiCad"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -705,12 +952,12 @@ msgctxt "Name(restore_kmix_volumes.desktop)"
 msgid "Restore Mixer Volumes"
 msgstr "استعادة أحجام الصوت"
 
-#: /usr/share/autostart/knemo.desktop:13
+#: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
 msgid "KNemo"
 msgstr "مراقب كدي"
 
-#: /usr/share/autostart/knemo.desktop:63
+#: /etc/xdg/autostart/knemo.desktop:63
 msgctxt "GenericName(knemo.desktop)"
 msgid "Network Monitor"
 msgstr "مراقبة الشبكة"
@@ -735,10 +982,18 @@ msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
 msgstr "مصادقة Kerberos"
 
-#: /etc/xdg/autostart/krb5-auth-dialog.desktop:18
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:23
 msgctxt "Comment(krb5-auth-dialog.desktop)"
 msgid "Kerberos Network Authentication Dialog"
 msgstr "حوار مصادقة شبكة Kerberos"
+
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:53
+#, fuzzy
+#| msgctxt "Name(krb5-auth-dialog.desktop)"
+#| msgid "Kerberos Authentication"
+msgctxt "Keywords(krb5-auth-dialog.desktop)"
+msgid "kerberos;authentication;"
+msgstr "مصادقة Kerberos"
 
 #: /usr/share/xsessions/LCDE.desktop:4
 msgctxt "Name(LCDE.desktop)"
@@ -749,243 +1004,6 @@ msgstr "LeechCraft DE"
 msgctxt "Comment(LCDE.desktop)"
 msgid "LeechCraft session with the window manager configured via Fenet"
 msgstr "جلسة LeechCraft مع مدير إعداد النوافذ بواسطة Fenet"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "عرض تقديمي بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-sheet.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-sheet."
-"desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-master-document.desktop:26
-msgctxt "Comment(libreoffice-master-document.desktop)"
-msgid "OpenOffice.org 1.0 Master Document"
-msgstr "مستند رئيسي OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
-msgid "Microsoft Word Document"
-msgstr "مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-template-12.desktop:26
-msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "قالب مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-template."
-"desktop)"
-msgid "Microsoft Word Document Template"
-msgstr "قالب مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
-msgid "OpenDocument Text Template"
-msgstr "قالب نص بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-text-template.desktop:26
-msgctxt "Comment(libreoffice-text-template.desktop)"
-msgid "OpenOffice.org 1.0 Text Document Template"
-msgstr "قالب وثيقة نص OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-text.desktop:26
-msgctxt "Comment(libreoffice-text.desktop)"
-msgid "OpenOffice.org 1.0 Text Document"
-msgstr "وثيقة نص OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
-msgid "OpenDocument Master Document"
-msgstr "مستند رئيسي بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet Template"
-msgstr "قالب جداول ممتدة OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-wordprocessingml-document.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-document."
-"desktop)"
-msgid "Microsoft Word Document"
-msgstr "مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
-msgid "OpenDocument Spreadsheet"
-msgstr "جدول بيانات OpenDocument"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-template-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "قالب عرض تقديمي ميكروسوفت"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-binary-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-formula.desktop:26
-msgctxt "Comment(libreoffice-formula.desktop)"
-msgid "OpenOffice.org 1.0 Formula"
-msgstr "معادلة OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-spreadsheetml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
-"desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "قالب ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-extension.desktop:26
-msgctxt "Comment(libreoffice-extension.desktop)"
-msgid "%PRODUCTNAME Extension"
-msgstr "%إمتداد اسم المنتج"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
-msgid "OpenDocument Presentation Template"
-msgstr "نموذج عرض تقديمي بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "عرض تقديمي ميكروسوفت"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
-msgid "OpenDocument Spreadsheet (Flat XML)"
-msgstr "جدول بيانات بنسق المستند المفتوح (مسطح XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-powerpoint-presentation-12.desktop:26
-msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "عرض تقديمي ميكروسوفت"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-spreadsheet-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
-msgid "OpenDocument Spreadsheet Template"
-msgstr "قالب جدول بيانات بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-presentation.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-"
-"presentation.desktop)"
-msgid "Microsoft PowerPoint Presentation"
-msgstr "عرض تقديمي مايكروسوفت باور بوينت"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation.desktop:26
-msgctxt "Comment(libreoffice-presentation.desktop)"
-msgid "OpenOffice.org 1.0 Presentation"
-msgstr "عرض تقديمي OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
-msgid "OpenDocument Drawing Template"
-msgstr "قالب رسم بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-sheet-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
-msgid "Microsoft Excel Worksheet"
-msgstr "ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-presentation-template.desktop:26
-msgctxt "Comment(libreoffice-presentation-template.desktop)"
-msgid "OpenOffice.org 1.0 Presentation Template"
-msgstr "قالب عرض تقديمي OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-excel-template-12.desktop:26
-msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
-msgid "Microsoft Excel Worksheet Template"
-msgstr "قالب ورقة عمل ميكروسوفت إكسيل"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document2.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
-msgid "Microsoft Word Document"
-msgstr "مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-spreadsheet.desktop:26
-msgctxt "Comment(libreoffice-spreadsheet.desktop)"
-msgid "OpenOffice.org 1.0 Spreadsheet"
-msgstr "جداول ممتدة OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-master-document-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
-msgid "OpenDocument Master Document Template"
-msgstr "نموذج المستند الرئيسي بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing.desktop:26
-msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
-msgid "OpenDocument Drawing"
-msgstr "الرسم بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-web-template.desktop:26
-msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
-msgid "HTML Document Template"
-msgstr "قالب مستند HTML"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-formula.desktop:26
-msgctxt "Comment(libreoffice-oasis-formula.desktop)"
-msgid "OpenDocument Formula"
-msgstr "نسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing.desktop:26
-msgctxt "Comment(libreoffice-drawing.desktop)"
-msgid "OpenOffice.org 1.0 Drawing"
-msgstr "الرسم OpenOffice.org 1.0"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-presentation.desktop:26
-msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
-msgid "OpenDocument Presentation"
-msgstr "عرض المستند مفتوح المصدر"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text.desktop:26
-msgctxt "Comment(libreoffice-oasis-text.desktop)"
-msgid "OpenDocument Text"
-msgstr "مستند نصي بنسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-database.desktop:26
-msgctxt "Comment(libreoffice-oasis-database.desktop)"
-msgid "OpenDocument Database"
-msgstr "قاعدة بيانات نسق المستند المفتوح"
-
-#: /usr/share/mimelnk/application/libreoffice-openxmlformats-officedocument-presentationml-template.desktop:26
-msgctxt ""
-"Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
-"desktop)"
-msgid "Microsoft PowerPoint Presentation Template"
-msgstr "قالب عرض تقديمي ميكروسوفت"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-drawing-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
-msgid "OpenDocument Drawing (Flat XML)"
-msgstr "المستند المفتوح رسم (Flat XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-oasis-text-flat-xml.desktop:9
-msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
-msgid "OpenDocument Text (Flat XML)"
-msgstr "نص بنسق المستند المفتوح (مسطح XML)"
-
-#: /usr/share/mimelnk/application/libreoffice-ms-word-document.desktop:26
-msgctxt "Comment(libreoffice-ms-word-document.desktop)"
-msgid "Microsoft Word Document"
-msgstr "مستند ميكروسوفت ورد"
-
-#: /usr/share/mimelnk/application/libreoffice-drawing-template.desktop:26
-msgctxt "Comment(libreoffice-drawing-template.desktop)"
-msgid "OpenOffice.org 1.0 Drawing Template"
-msgstr "قالب الرسم OpenOffice.org 1.0"
 
 #: /etc/xdg/autostart/light-locker.desktop:3
 msgctxt "Name(light-locker.desktop)"
@@ -1007,40 +1025,25 @@ msgctxt "Comment(lxde.desktop)"
 msgid "LXDE - Lightweight X11 desktop environment"
 msgstr "لكسيدي - بيئة سطح مكتب خفيفة X11"
 
-#: /etc/xdg/autostart/lxqt-policykit-agent.desktop:3
-msgctxt "Name(lxqt-policykit-agent.desktop)"
-msgid "PolicyKit Handler"
-msgstr "معالج PolicyKit"
-
-#: /etc/xdg/autostart/lxqt-desktop.desktop:3
-msgctxt "Name(lxqt-desktop.desktop)"
-msgid "Desktop"
-msgstr "سطح المكتب"
-
 #: /etc/xdg/autostart/lxqt-globalkeyshortcuts.desktop:3
 msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 msgid "Global Keyboard Shortcuts"
 msgstr "اختصارات لوحة المفاتيح العالمية"
+
+#: /etc/xdg/autostart/lxqt-notifications.desktop:3
+msgctxt "Name(lxqt-notifications.desktop)"
+msgid "Notification Daemon"
+msgstr "بريمج الإشعارات"
 
 #: /etc/xdg/autostart/lxqt-panel.desktop:3
 msgctxt "Name(lxqt-panel.desktop)"
 msgid "Panel"
 msgstr "اللوحة"
 
-#: /etc/xdg/autostart/lxqt-compton.desktop:3
-msgctxt "Name(lxqt-compton.desktop)"
-msgid "Compton (X Compositor)"
-msgstr "Compton (المكون X)"
-
-#: /etc/xdg/autostart/lxqt-compton.desktop:4
-msgctxt "GenericName(lxqt-compton.desktop)"
-msgid "X compositor"
-msgstr "المكون X"
-
-#: /etc/xdg/autostart/lxqt-compton.desktop:5
-msgctxt "Comment(lxqt-compton.desktop)"
-msgid "A X compositor"
-msgstr "المكون A X"
+#: /etc/xdg/autostart/lxqt-policykit-agent.desktop:3
+msgctxt "Name(lxqt-policykit-agent.desktop)"
+msgid "PolicyKit Handler"
+msgstr "معالج PolicyKit"
 
 #: /etc/xdg/autostart/lxqt-powermanagement.desktop:4
 msgctxt "Name(lxqt-powermanagement.desktop)"
@@ -1057,32 +1060,12 @@ msgctxt "Name(lxqt-xscreensaver-autostart.desktop)"
 msgid "XScreenSaver"
 msgstr "حافظ الشاشة"
 
-#: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
-msgctxt "Name(lxqt-qlipper-autostart.desktop)"
-msgid "Qlipper"
-msgstr "ذاكرة الحافظة"
-
-#: /etc/xdg/autostart/lxqt-notifications.desktop:3
-msgctxt "Name(lxqt-notifications.desktop)"
-msgid "Notification Daemon"
-msgstr "بريمج الإشعارات"
-
-#: /usr/share/xsessions/lxqt.desktop:5
-msgctxt "Name(lxqt.desktop)"
-msgid "LXQt Desktop"
-msgstr "سطح المكتب ريزر"
-
-#: /usr/share/xsessions/lxqt.desktop:6
-msgctxt "Comment(lxqt.desktop)"
-msgid "Lightweight Qt Desktop"
-msgstr "سطح المكتب Qt"
-
 #: /etc/xdg/autostart/lxpolkit.desktop:3
 msgctxt "Name(lxpolkit.desktop)"
 msgid "LXPolKit"
 msgstr "أدوات المجهر"
 
-#: /etc/xdg/autostart/lxpolkit.desktop:6
+#: /etc/xdg/autostart/lxpolkit.desktop:23
 msgctxt "Comment(lxpolkit.desktop)"
 msgid "Policykit Authentication Agent"
 msgstr "مدير الاستيثاق PolicyKit"
@@ -1127,7 +1110,7 @@ msgctxt "Name(polkit-mate-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "مدير الاستيثاق PolicyKit"
 
-#: /etc/xdg/autostart/polkit-mate-authentication-agent-1.desktop:65
+#: /etc/xdg/autostart/polkit-mate-authentication-agent-1.desktop:66
 msgctxt "Comment(polkit-mate-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "عميل الاستيثاق PolicyKit لسطح مكتب مييت"
@@ -1137,7 +1120,7 @@ msgctxt "Name(mate-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "مدير الطاقة"
 
-#: /etc/xdg/autostart/mate-power-manager.desktop:82
+#: /etc/xdg/autostart/mate-power-manager.desktop:83
 msgctxt "Comment(mate-power-manager.desktop)"
 msgid "Power management daemon"
 msgstr "جني إدارة الطاقة"
@@ -1157,12 +1140,12 @@ msgctxt "Name(mate.desktop)"
 msgid "MATE"
 msgstr "مييت"
 
-#: /usr/share/xsessions/mate.desktop:94
+#: /usr/share/xsessions/mate.desktop:95
 msgctxt "Comment(mate.desktop)"
 msgid "This session logs you into MATE"
 msgstr "تسجل هذه الجلسة دخولك في مييت"
 
-#: /usr/share/xsessions/mate.desktop:181
+#: /usr/share/xsessions/mate.desktop:183
 msgctxt "Keywords(mate.desktop)"
 msgid "launch;MATE;desktop;session;"
 msgstr "تشغيل؛MATE؛سطح مكتب؛جلسة؛"
@@ -1171,6 +1154,21 @@ msgstr "تشغيل؛MATE؛سطح مكتب؛جلسة؛"
 msgctxt "Name(mate-settings-daemon.desktop)"
 msgid "MATE Settings Daemon"
 msgstr "محثّ إعدادات مييت"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
+msgctxt "Name(mate-user-share-obexpush.desktop)"
+msgid "Personal File Sharing obexpush"
+msgstr "مشاركة الملفات الشخصية obexpush"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:38
+msgctxt "Comment(mate-user-share-obexpush.desktop)"
+msgid "Launch Personal File Sharing if enabled"
+msgstr "شغّل مشاركة الملفات الشخصية إذا كانت مفعلة"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:108
+msgctxt "Keywords(mate-user-share-obexpush.desktop)"
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr "مشاركة؛ملفات؛بلوتوث؛obex؛http؛شبكة؛نسخ؛إرسال؛"
 
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop:2
 msgctxt "Name(mate-user-share-obexftp.desktop)"
@@ -1202,21 +1200,6 @@ msgctxt "Keywords(mate-user-share-webdav.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "مشاركة؛ملفات؛بلوتوث؛obex؛http؛شبكة؛نسخ؛إرسال؛"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
-msgctxt "Name(mate-user-share-obexpush.desktop)"
-msgid "Personal File Sharing obexpush"
-msgstr "مشاركة الملفات الشخصية obexpush"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:38
-msgctxt "Comment(mate-user-share-obexpush.desktop)"
-msgid "Launch Personal File Sharing if enabled"
-msgstr "شغّل مشاركة الملفات الشخصية إذا كانت مفعلة"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:108
-msgctxt "Keywords(mate-user-share-obexpush.desktop)"
-msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr "مشاركة؛ملفات؛بلوتوث؛obex؛http؛شبكة؛نسخ؛إرسال؛"
-
 #: /usr/share/xsessions/mwm.desktop:6
 msgctxt "Name(mwm.desktop)"
 msgid "MWM"
@@ -1227,7 +1210,17 @@ msgctxt "Comment(mwm.desktop)"
 msgid "The Motif Window Manager"
 msgstr "مدير نوافذ موتيف"
 
-#: /etc/xdg/autostart/nautilus-autostart.desktop:3
+#: /etc/xdg/autostart/mpdris2.desktop:2
+msgctxt "Name(mpdris2.desktop)"
+msgid "Music Player Daemon"
+msgstr ""
+
+#: /etc/xdg/autostart/mpdris2.desktop:3
+msgctxt "Comment(mpdris2.desktop)"
+msgid "MPRIS 2 support for MPD"
+msgstr ""
+
+#: /etc/xdg/autostart/nautilus-autostart.desktop:81
 msgctxt "Name(nautilus-autostart.desktop)"
 msgid "Files"
 msgstr "ملفات"
@@ -1237,20 +1230,41 @@ msgctxt "Name(nm-applet.desktop)"
 msgid "Network"
 msgstr "شبكة"
 
-#: /etc/xdg/autostart/nm-applet.desktop:71
+#: /etc/xdg/autostart/nm-applet.desktop:73
 msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "إدارة اتصالات الشبكة"
 
-#: /usr/share/xsessions/openbox.desktop:6
-msgctxt "Name(openbox.desktop)"
-msgid "Openbox"
-msgstr "الصندوق المفتوح"
+#: /etc/xdg/autostart/nm-tray.desktop:2
+msgctxt "Name(nm-tray.desktop)"
+msgid "LXQt Network Applet"
+msgstr ""
 
-#: /usr/share/xsessions/openbox.desktop:15
-msgctxt "Comment(openbox.desktop)"
-msgid "A lightweight window manager based on Blackbox"
-msgstr "مدير نوافذ خفيف مبني على Blackbox"
+#: /etc/xdg/autostart/nm-tray.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-powermanagement.desktop)"
+#| msgid "Power Management"
+msgctxt "GenericName(nm-tray.desktop)"
+msgid "Network Management"
+msgstr "إدارة الطاقة"
+
+#: /etc/xdg/autostart/nm-tray.desktop:4
+#, fuzzy
+#| msgctxt "Comment(nm-applet.desktop)"
+#| msgid "Manage your network connections"
+msgctxt "Comment(nm-tray.desktop)"
+msgid "LXQt panel applet to handle network connections"
+msgstr "إدارة اتصالات الشبكة"
+
+#: /etc/xdg/autostart/obexd-server.desktop:2
+msgctxt "Name(obexd-server.desktop)"
+msgid "Obexd Server"
+msgstr "Obexd خادم"
+
+#: /etc/xdg/autostart/obexd-server.desktop:3
+msgctxt "Comment(obexd-server.desktop)"
+msgid "Obexd Server Daemon"
+msgstr "البرنامج الخفي لخادم Obexd"
 
 #: /usr/share/xsessions/openbox-kde.desktop:2
 msgctxt "Name(openbox-kde.desktop)"
@@ -1261,6 +1275,16 @@ msgstr "كدي/الصندوق المفتوح"
 msgctxt "Comment(openbox-kde.desktop)"
 msgid "Use the Openbox window manager inside of the K Desktop Environment"
 msgstr "استخدم إدارة نوافذ الصندوق المفتوح من داخل بيئة سطح المكتب كدي"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "الصندوق المفتوح"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "مدير نوافذ خفيف مبني على Blackbox"
 
 #: /usr/share/xsessions/openbox-gnome.desktop:2
 msgctxt "Name(openbox-gnome.desktop)"
@@ -1287,7 +1311,7 @@ msgctxt "Name(pam_kwallet_init.desktop)"
 msgid "KWallet PAM Socket Connection"
 msgstr "اتصال مقبس KWallet PAM"
 
-#: /etc/xdg/autostart/pam_kwallet_init.desktop:31
+#: /etc/xdg/autostart/pam_kwallet_init.desktop:39
 msgctxt "Comment(pam_kwallet_init.desktop)"
 msgid "Connect to KWallet PAM socket"
 msgstr "الاتصال بمقبس KWallet PAM"
@@ -1334,6 +1358,21 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio؛علبة؛علبة النظام؛برنامج؛حجم الصوت؛"
 
+#: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
+msgctxt "Comment(x-pcb-footprint.desktop)"
+msgid "PCB footprint"
+msgstr "بصمة PCB"
+
+#: /usr/share/mimelnk/application/x-excellon.desktop:3
+msgctxt "Comment(x-excellon.desktop)"
+msgid "Excellon drill file"
+msgstr "ملف ثقب إكسيلون"
+
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr "تخطيط PCB"
+
 #: /usr/share/mimelnk/application/x-gerber.desktop:3
 msgctxt "Comment(x-gerber.desktop)"
 msgid "Gerber file"
@@ -1344,20 +1383,10 @@ msgctxt "Comment(x-pcb-netlist.desktop)"
 msgid "PCB netlist"
 msgstr "PCB netlist"
 
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr "تخطيط PCB"
-
-#: /usr/share/mimelnk/application/x-excellon.desktop:3
-msgctxt "Comment(x-excellon.desktop)"
-msgid "Excellon drill file"
-msgstr "ملف ثقب إكسيلون"
-
-#: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
-msgctxt "Comment(x-pcb-footprint.desktop)"
-msgid "PCB footprint"
-msgstr "بصمة PCB"
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "سطح المكتب"
 
 #: /etc/xdg/autostart/pk-update-icon.desktop:2
 msgctxt "Name(pk-update-icon.desktop)"
@@ -1374,15 +1403,48 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "تطبيق تحديث التطبيقات"
 
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "لوحة فارغة"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+#, fuzzy
+#| msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+#| msgid "Empty Panel"
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "لوحة فارغة"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "تطبيق شريط القوائم"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "لوحة فيها بريمج القائمة العمومية"
+
 #: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
 msgctxt "Name(org.kde.desktopcontainment)"
 msgid "Desktop Containment"
 msgstr "سطح المكتب"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:93
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
 msgctxt "Summary(org.kde.desktopcontainment)"
 msgid "A clean and simple layout"
 msgstr "تصميم نظيف وبسيط"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "عرض أثاث سطح المكتب"
 
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
@@ -1394,45 +1456,16 @@ msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "أدر بلازما"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "تطبيق شريط القوائم"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:27
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Combines the current application menu into your shell"
-msgstr "يجمع قائمة التطبيقات الحالية في shell الخاص بك"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "سطح المكتب"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:93
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "عرض أثاث سطح المكتب"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
 msgid "Default Panel"
 msgstr "اللوحة الافتراضيّة"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "لوحة فارغة"
-
-#: /usr/share/xsessions/plasma5.desktop:7
-msgctxt "Name(plasma5.desktop)"
-msgid "Plasma 5"
-msgstr "بلازما 5"
-
-#: /usr/share/xsessions/plasma5.desktop:8
-msgctxt "Comment(plasma5.desktop)"
-msgid "Plasma by KDE"
-msgstr "بلازما من كدي"
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
+msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
+msgid ""
+"Default panel featuring application launcher, task manager and system tray"
+msgstr "قائمة مبدئية فيها مُطلق التّطبيقات ومدير المهامّ وصينيّة النّظام"
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
@@ -1444,80 +1477,96 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "سطح المكتب النسيم مصمم بلغة كدي VDG"
 
-#: /etc/xdg/autostart/plasmashell.desktop:4
-msgctxt "Name(plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "مساحة عمل سطح مكتب بلازما"
-
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
+
+#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
+#, fuzzy
+#| msgctxt "Name(plasma-desktop.desktop)"
+#| msgid "Plasma Desktop Workspace"
+msgctxt "Name(org.kde.plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "مساحة عمل بلازما"
 
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
 msgid "KRunner"
 msgstr "مشغّل.كدي"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "أكواب ملوّنة"
+#: /usr/share/xsessions/plasma5.desktop:7
+#, fuzzy
+#| msgctxt "Name(plasma5.desktop)"
+#| msgid "Plasma 5"
+msgctxt "Name(plasma5.desktop)"
+msgid "Plasma"
+msgstr "بلازما 5"
 
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
-msgstr "كونكي الطّائر"
+#: /usr/share/xsessions/plasma5.desktop:52
+msgctxt "Comment(plasma5.desktop)"
+msgid "Plasma by KDE"
+msgstr "بلازما من كدي"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "تلال الباستيل"
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "وهج المساء"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "اسوا الحالات"
+msgid "One Stands Out"
+msgstr "واحدة مختلفة"
 
 #: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "By the water"
 msgstr "قرب الماء"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "المسار"
-
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "سقوط ورقة"
+msgid "Evening Glow"
+msgstr "وهج المساء"
 
 #: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Cold Ripple"
 msgstr "موجة برد"
 
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "رماديّ"
+msgid "Pastel Hills"
+msgstr "تلال الباستيل"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "طائرة ورقيّة"
 
-#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "One Stands Out"
-msgstr "واحدة مختلفة"
+msgid "Fallen Leaf"
+msgstr "سقوط ورقة"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "المسار"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "رماديّ"
+
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Colorful Cups"
+msgstr "أكواب ملوّنة"
+
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Darkest Hour"
+msgstr "اسوا الحالات"
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Flying Konqui"
+msgstr "كونكي الطّائر"
 
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
@@ -1539,12 +1588,12 @@ msgctxt "Comment(polkit-gnome-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "مدير الاستيثاق PolicyKit"
 
-#: /usr/share/autostart/polkit-kde-authentication-agent-1.desktop:3
+#: /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop:2
 msgctxt "Name(polkit-kde-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "مدير الاستيثاق PolicyKit"
 
-#: /usr/share/autostart/polkit-kde-authentication-agent-1.desktop:11
+#: /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop:39
 msgctxt "Comment(polkit-kde-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "مدير الاستيثاق PolicyKit"
@@ -1569,7 +1618,7 @@ msgctxt "Name(pulseaudio.desktop)"
 msgid "PulseAudio Sound System"
 msgstr "نظام صوت PulseAudio"
 
-#: /etc/xdg/autostart/pulseaudio.desktop:42
+#: /etc/xdg/autostart/pulseaudio.desktop:48
 msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "بدء تشغيل نظام الصوت PulseAudio"
@@ -1581,15 +1630,10 @@ msgstr "بدء تشغيل نظام الصوت PulseAudio"
 # Hanny Sabbagh <hannysabbagh@hotmail.com>, 2012.
 # محمد الحرقان <malham1@gmail.com>, 2012, 2013.
 # malhargan <malham1@gmail.com>, 2014.
-#: /etc/xdg/autostart/pulseaudio.desktop:85
+#: /etc/xdg/autostart/pulseaudio.desktop:97
 msgctxt "GenericName(pulseaudio.desktop)"
 msgid ""
 msgstr ""
-
-#: /usr/share/mimelnk/application/x-qet-project.desktop:7
-msgctxt "Comment(x-qet-project.desktop)"
-msgid "QElectroTech project file"
-msgstr "ملف مشروع QElectroTech"
 
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
@@ -1601,10 +1645,10 @@ msgctxt "Comment(x-qet-titleblock.desktop)"
 msgid "QElectroTech title block template"
 msgstr "نموذج إطار تعريف QElectroTech"
 
-#: /etc/xdg/autostart/qwebyast-autostart.desktop:5
-msgctxt "Name(qwebyast-autostart.desktop)"
-msgid "WebYaST Applet"
-msgstr "بريمج WebYaST"
+#: /usr/share/mimelnk/application/x-qet-project.desktop:7
+msgctxt "Comment(x-qet-project.desktop)"
+msgid "QElectroTech project file"
+msgstr "ملف مشروع QElectroTech"
 
 #: /etc/xdg/autostart/roccateventhandler.desktop:2
 msgctxt "Name(roccateventhandler.desktop)"
@@ -1616,45 +1660,21 @@ msgctxt "Comment(roccateventhandler.desktop)"
 msgid "Roccat eventhandler"
 msgstr "Roccat معالج الحدث"
 
-#: /usr/share/autostart/rsibreak.desktop:11
-msgctxt "Name(rsibreak.desktop)"
+#: /etc/xdg/autostart/rsibreak_autostart.desktop:11
+#, fuzzy
+#| msgctxt "Name(rsibreak.desktop)"
+#| msgid "RSIBreak"
+msgctxt "Name(rsibreak_autostart.desktop)"
 msgid "RSIBreak"
 msgstr "RSIBreak"
 
-#: /usr/share/autostart/rsibreak.desktop:48
-msgctxt "Comment(rsibreak.desktop)"
+#: /etc/xdg/autostart/rsibreak_autostart.desktop:55
+#, fuzzy
+#| msgctxt "Comment(rsibreak.desktop)"
+#| msgid "Makes sure you rest now and then"
+msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "تأكد من إعادة التشغيل الآن أو لاحقاً"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "سمكة المنشار/لومينا"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "استخدم مدير نافذة سمكة المنشار داخل بيئة سطح المكتب لومينا"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "سمكة المنشار/كدي4"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "استخدام مدير نافذة سمكة المنشار داخل بيئة سطح المكتب كدي"
-
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "سمكة المنشار"
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "سمكة المنشار"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1666,6 +1686,26 @@ msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "استخدام مدير نافذة سمكة المنشار داخل بيئة سطح المكتب مييت"
 
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "سمكة المنشار/كدي4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "استخدام مدير نافذة سمكة المنشار داخل بيئة سطح المكتب كدي"
+
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "سمكة المنشار/لومينا"
+
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "استخدم مدير نافذة سمكة المنشار داخل بيئة سطح المكتب لومينا"
+
 #: /usr/share/xsessions/sawfish-xfce.desktop:2
 msgctxt "Name(sawfish-xfce.desktop)"
 msgid "Sawfish/XFCE"
@@ -1675,6 +1715,16 @@ msgstr "سمكة المنشار/اكسفس"
 msgctxt "Comment(sawfish-xfce.desktop)"
 msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
 msgstr "استخدام مدير نافذة سمكة المنشار داخل بيئة سطح المكتب اكسفس"
+
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "سمكة المنشار"
+
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "سمكة المنشار"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1726,22 +1776,22 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "أيقونة لوحة النظام لإدارة مهام الطباعة"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:2
-msgctxt "Name(tracker-miner-user-guides.desktop)"
-msgid "Tracker User Guides Miner"
-msgstr "دليل مستخدم المقتفي Miner"
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "مخزن المُقتفي"
 
-#: /etc/xdg/autostart/tracker-miner-user-guides.desktop:40
-msgctxt "Comment(tracker-miner-user-guides.desktop)"
-msgid "Crawls and processes user guides in shared areas"
-msgstr "دخول ومعالجة مجلدات المستخدم في المناطق المشتركة"
+#: /etc/xdg/autostart/tracker-store.desktop:49
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "مدير بحث وتخزين في قواعد البيانات الفوقية"
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
 msgstr "مُنقِّب نظام الملفات للمُقتفي"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:46
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:47
 msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "يزحف ويعالج الملفات في نظام الملفات"
@@ -1751,7 +1801,7 @@ msgctxt "Name(tracker-extract.desktop)"
 msgid "Tracker Metadata Extractor"
 msgstr "مقتفي تعارض البيانات الوصفية"
 
-#: /etc/xdg/autostart/tracker-extract.desktop:41
+#: /etc/xdg/autostart/tracker-extract.desktop:43
 msgctxt "Comment(tracker-extract.desktop)"
 msgid "Extracts metadata from local files"
 msgstr "استخراج البيانات الوصفية من الملفات المحلية"
@@ -1761,20 +1811,10 @@ msgctxt "Name(tracker-miner-apps.desktop)"
 msgid "Tracker Application Miner"
 msgstr "تطبيق المقتفي Miner"
 
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:40
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:42
 msgctxt "Comment(tracker-miner-apps.desktop)"
 msgid "Indexes information about applications installed"
 msgstr "فهرس معلومات التطبيقات المثبتة"
-
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "مخزن المُقتفي"
-
-#: /etc/xdg/autostart/tracker-store.desktop:48
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "مدير بحث وتخزين في قواعد البيانات الفوقية"
 
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
@@ -1791,15 +1831,15 @@ msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
 msgstr "ملف TreeLine"
 
-#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
-msgctxt "Comment(x-treeline-gz.desktop)"
-msgid "Compressed TreeLine File"
-msgstr "تم ضغط ملف شجرة العمل"
-
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
 msgid "TreePad File"
 msgstr "ملف TreePad"
+
+#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
+msgctxt "Comment(x-treeline-gz.desktop)"
+msgid "Compressed TreeLine File"
+msgstr "تم ضغط ملف شجرة العمل"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1810,6 +1850,11 @@ msgstr "TWM"
 msgctxt "Comment(twm.desktop)"
 msgid "The Tab Window Manager"
 msgstr "مدير النوافذ Tab"
+
+#: /etc/xdg/autostart/usbauth-notifier.desktop:14
+msgctxt "Name(usbauth-notifier.desktop)"
+msgid "usbauth-notifier"
+msgstr ""
 
 #: /etc/xdg/autostart/vncmanager-controller.desktop:2
 msgctxt "Name(vncmanager-controller.desktop)"
@@ -1826,12 +1871,20 @@ msgctxt "Comment(WindowMaker.desktop)"
 msgid "A simple window manager that resembles the NeXTStep look very closely"
 msgstr "مدير نوافذ بسيط يشبه مظهر NeXTStep بشكل قريب جداً"
 
+#: /etc/xdg/autostart/xdg-user-dirs.desktop:3
+#, fuzzy
+#| msgctxt "Name(user-dirs-update-gtk.desktop)"
+#| msgid "User folders update"
+msgctxt "Name(xdg-user-dirs.desktop)"
+msgid "User folders update"
+msgstr "تحديث مجلدات المستخدم"
+
 #: /etc/xdg/autostart/user-dirs-update-gtk.desktop:4
 msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "تحديث مجلدات المستخدم"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:72
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "حدّث أسماء المجلدات المشتركة لتطابق المحلية الحالية"
@@ -1866,7 +1919,7 @@ msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "مدير طاقة"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:56
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:57
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "مدير الطاقة لسطح مكتب إكسفس"
@@ -1962,16 +2015,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "تمكين أو تعطيل تشغيل تسلسل الاقلاع الاول"
 
-#: /usr/share/autoinstall/modules/deploy_image.desktop:23
-msgctxt "Name(deploy_image.desktop)"
-msgid "Image deployment"
-msgstr "نشر الصورة"
-
-#: /usr/share/autoinstall/modules/deploy_image.desktop:24
-msgctxt "GenericName(deploy_image.desktop)"
-msgid "Configure image deployment"
-msgstr "إعداد نشر الصور"
-
 #: /usr/share/autoinstall/modules/ssh_import.desktop:23
 msgctxt "Name(ssh_import.desktop)"
 msgid "SSH Key Import"
@@ -1982,27 +2025,273 @@ msgctxt "GenericName(ssh_import.desktop)"
 msgid "Importing SSH keys from a previous installation"
 msgstr "استيراد مفاتيح SSH من تثبيت سابق"
 
-#: /etc/xdg/autostart/zeitgeist-datahub.desktop:4
+#: /usr/share/autoinstall/modules/deploy_image.desktop:23
+msgctxt "Name(deploy_image.desktop)"
+msgid "Image deployment"
+msgstr "نشر الصورة"
+
+#: /usr/share/autoinstall/modules/deploy_image.desktop:24
+msgctxt "GenericName(deploy_image.desktop)"
+msgid "Configure image deployment"
+msgstr "إعداد نشر الصور"
+
+#: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"
 msgid "Zeitgeist Datahub"
 msgstr "Zeitgeist Datahub"
 
-#: /etc/xdg/autostart/zeitgeist-datahub.desktop:5
+#: /etc/xdg/autostart/zeitgeist-datahub.desktop:3
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "بدء Zeitgeist Datahub for passive loggers"
 
-# autogenerated by the collect-desktop-files packge
-# mohammad <malham1@gmail.com>, 2012.
-# Mohammad Alhargan <malham1@hotmail.com>, 2012.
-# Mohammad Alhargan <malham1@gmail.com>, 2012.
-# Hanny Sabbagh <hannysabbagh@hotmail.com>, 2012.
-# محمد الحرقان <malham1@gmail.com>, 2012, 2013.
-# malhargan <malham1@gmail.com>, 2014.
-#: /etc/xdg/autostart/zeitgeist-datahub.desktop:10
-msgctxt "GenericName(zeitgeist-datahub.desktop)"
-msgid ""
-msgstr ""
+#~ msgctxt "Name(enlightenment.desktop)"
+#~ msgid "Enlightenment"
+#~ msgstr "التنوير"
+
+#~ msgctxt "Comment(enlightenment.desktop)"
+#~ msgid "Log in using Enlightenment (Version 0.21.8)"
+#~ msgstr "تسجيل الدخول باستخدام Enlightenment (الإصدار 0.21.8)"
+
+#~ msgctxt "Name(gnome-break-timer-autostart.desktop)"
+#~ msgid "Break Timer"
+#~ msgstr "كسر الموقت"
+
+#~ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
+#~ msgid "Provides a gentle reminder to take regular breaks"
+#~ msgstr "يذكرك بشكل لطيف لتأخذ فواصل منتظمة"
+
+#~ msgctxt "Comment(icewm.desktop)"
+#~ msgid "A Windows 95-OS/2-Motif-like window manager"
+#~ msgstr "مدير نوافذ مشابه لـ Win95-OS/2-Motif"
+
+#~ msgctxt "Name(krunner.desktop)"
+#~ msgid "Command Runner"
+#~ msgstr "منفّذ الأوامر"
+
+#~ msgctxt "Comment(libreoffice-oasis-presentation-flat-xml.desktop)"
+#~ msgid "OpenDocument Presentation"
+#~ msgstr "عرض تقديمي بنسق المستند المفتوح"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-sheet."
+#~ "desktop)"
+#~ msgid "Microsoft Excel Worksheet"
+#~ msgstr "ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-master-document.desktop)"
+#~ msgid "OpenOffice.org 1.0 Master Document"
+#~ msgstr "مستند رئيسي OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-ms-word-document-12.desktop)"
+#~ msgid "Microsoft Word Document"
+#~ msgstr "مستند ميكروسوفت ورد"
+
+#~ msgctxt "Comment(libreoffice-ms-word-template-12.desktop)"
+#~ msgid "Microsoft Word Document Template"
+#~ msgstr "قالب مستند ميكروسوفت ورد"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-"
+#~ "template.desktop)"
+#~ msgid "Microsoft Word Document Template"
+#~ msgstr "قالب مستند ميكروسوفت ورد"
+
+#~ msgctxt "Comment(libreoffice-oasis-text-template.desktop)"
+#~ msgid "OpenDocument Text Template"
+#~ msgstr "قالب نص بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-ms-excel-sheet.desktop)"
+#~ msgid "Microsoft Excel Worksheet"
+#~ msgstr "ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-text-template.desktop)"
+#~ msgid "OpenOffice.org 1.0 Text Document Template"
+#~ msgstr "قالب وثيقة نص OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-text.desktop)"
+#~ msgid "OpenOffice.org 1.0 Text Document"
+#~ msgstr "وثيقة نص OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-oasis-master-document.desktop)"
+#~ msgid "OpenDocument Master Document"
+#~ msgstr "مستند رئيسي بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-spreadsheet-template.desktop)"
+#~ msgid "OpenOffice.org 1.0 Spreadsheet Template"
+#~ msgstr "قالب جداول ممتدة OpenOffice.org 1.0"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-wordprocessingml-"
+#~ "document.desktop)"
+#~ msgid "Microsoft Word Document"
+#~ msgstr "مستند ميكروسوفت ورد"
+
+#~ msgctxt "Comment(libreoffice-oasis-spreadsheet.desktop)"
+#~ msgid "OpenDocument Spreadsheet"
+#~ msgstr "جدول بيانات OpenDocument"
+
+#~ msgctxt "Comment(libreoffice-ms-powerpoint-template-12.desktop)"
+#~ msgid "Microsoft PowerPoint Presentation Template"
+#~ msgstr "قالب عرض تقديمي ميكروسوفت"
+
+#~ msgctxt "Comment(libreoffice-ms-excel-sheet-binary-12.desktop)"
+#~ msgid "Microsoft Excel Worksheet"
+#~ msgstr "ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-formula.desktop)"
+#~ msgid "OpenOffice.org 1.0 Formula"
+#~ msgstr "معادلة OpenOffice.org 1.0"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-spreadsheetml-template."
+#~ "desktop)"
+#~ msgid "Microsoft Excel Worksheet Template"
+#~ msgstr "قالب ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-extension.desktop)"
+#~ msgid "%PRODUCTNAME Extension"
+#~ msgstr "%إمتداد اسم المنتج"
+
+#~ msgctxt "Comment(libreoffice-oasis-presentation-template.desktop)"
+#~ msgid "OpenDocument Presentation Template"
+#~ msgstr "نموذج عرض تقديمي بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-ms-powerpoint-presentation.desktop)"
+#~ msgid "Microsoft PowerPoint Presentation"
+#~ msgstr "عرض تقديمي ميكروسوفت"
+
+#~ msgctxt "Comment(libreoffice-oasis-spreadsheet-flat-xml.desktop)"
+#~ msgid "OpenDocument Spreadsheet (Flat XML)"
+#~ msgstr "جدول بيانات بنسق المستند المفتوح (مسطح XML)"
+
+#~ msgctxt "Comment(libreoffice-ms-powerpoint-presentation-12.desktop)"
+#~ msgid "Microsoft PowerPoint Presentation"
+#~ msgstr "عرض تقديمي ميكروسوفت"
+
+#~ msgctxt "Comment(libreoffice-oasis-spreadsheet-template.desktop)"
+#~ msgid "OpenDocument Spreadsheet Template"
+#~ msgstr "قالب جدول بيانات بنسق المستند المفتوح"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-presentationml-"
+#~ "presentation.desktop)"
+#~ msgid "Microsoft PowerPoint Presentation"
+#~ msgstr "عرض تقديمي مايكروسوفت باور بوينت"
+
+#~ msgctxt "Comment(libreoffice-presentation.desktop)"
+#~ msgid "OpenOffice.org 1.0 Presentation"
+#~ msgstr "عرض تقديمي OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-oasis-drawing-template.desktop)"
+#~ msgid "OpenDocument Drawing Template"
+#~ msgstr "قالب رسم بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-ms-excel-sheet-12.desktop)"
+#~ msgid "Microsoft Excel Worksheet"
+#~ msgstr "ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-presentation-template.desktop)"
+#~ msgid "OpenOffice.org 1.0 Presentation Template"
+#~ msgstr "قالب عرض تقديمي OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-ms-excel-template-12.desktop)"
+#~ msgid "Microsoft Excel Worksheet Template"
+#~ msgstr "قالب ورقة عمل ميكروسوفت إكسيل"
+
+#~ msgctxt "Comment(libreoffice-ms-word-document2.desktop)"
+#~ msgid "Microsoft Word Document"
+#~ msgstr "مستند ميكروسوفت ورد"
+
+#~ msgctxt "Comment(libreoffice-spreadsheet.desktop)"
+#~ msgid "OpenOffice.org 1.0 Spreadsheet"
+#~ msgstr "جداول ممتدة OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-oasis-master-document-template.desktop)"
+#~ msgid "OpenDocument Master Document Template"
+#~ msgstr "نموذج المستند الرئيسي بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-oasis-drawing.desktop)"
+#~ msgid "OpenDocument Drawing"
+#~ msgstr "الرسم بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-oasis-web-template.desktop)"
+#~ msgid "HTML Document Template"
+#~ msgstr "قالب مستند HTML"
+
+#~ msgctxt "Comment(libreoffice-oasis-formula.desktop)"
+#~ msgid "OpenDocument Formula"
+#~ msgstr "نسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-drawing.desktop)"
+#~ msgid "OpenOffice.org 1.0 Drawing"
+#~ msgstr "الرسم OpenOffice.org 1.0"
+
+#~ msgctxt "Comment(libreoffice-oasis-presentation.desktop)"
+#~ msgid "OpenDocument Presentation"
+#~ msgstr "عرض المستند مفتوح المصدر"
+
+#~ msgctxt "Comment(libreoffice-oasis-text.desktop)"
+#~ msgid "OpenDocument Text"
+#~ msgstr "مستند نصي بنسق المستند المفتوح"
+
+#~ msgctxt "Comment(libreoffice-oasis-database.desktop)"
+#~ msgid "OpenDocument Database"
+#~ msgstr "قاعدة بيانات نسق المستند المفتوح"
+
+#~ msgctxt ""
+#~ "Comment(libreoffice-openxmlformats-officedocument-presentationml-template."
+#~ "desktop)"
+#~ msgid "Microsoft PowerPoint Presentation Template"
+#~ msgstr "قالب عرض تقديمي ميكروسوفت"
+
+#~ msgctxt "Comment(libreoffice-oasis-drawing-flat-xml.desktop)"
+#~ msgid "OpenDocument Drawing (Flat XML)"
+#~ msgstr "المستند المفتوح رسم (Flat XML)"
+
+#~ msgctxt "Comment(libreoffice-oasis-text-flat-xml.desktop)"
+#~ msgid "OpenDocument Text (Flat XML)"
+#~ msgstr "نص بنسق المستند المفتوح (مسطح XML)"
+
+#~ msgctxt "Comment(libreoffice-ms-word-document.desktop)"
+#~ msgid "Microsoft Word Document"
+#~ msgstr "مستند ميكروسوفت ورد"
+
+#~ msgctxt "Comment(libreoffice-drawing-template.desktop)"
+#~ msgid "OpenOffice.org 1.0 Drawing Template"
+#~ msgstr "قالب الرسم OpenOffice.org 1.0"
+
+#~ msgctxt "Name(lxqt-qlipper-autostart.desktop)"
+#~ msgid "Qlipper"
+#~ msgstr "ذاكرة الحافظة"
+
+#~ msgctxt "Name(lxqt.desktop)"
+#~ msgid "LXQt Desktop"
+#~ msgstr "سطح المكتب ريزر"
+
+#~ msgctxt "Comment(lxqt.desktop)"
+#~ msgid "Lightweight Qt Desktop"
+#~ msgstr "سطح المكتب Qt"
+
+#~ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+#~ msgid "Combines the current application menu into your shell"
+#~ msgstr "يجمع قائمة التطبيقات الحالية في shell الخاص بك"
+
+#~ msgctxt "Name(plasmashell.desktop)"
+#~ msgid "Plasma Desktop Workspace"
+#~ msgstr "مساحة عمل سطح مكتب بلازما"
+
+#~ msgctxt "Name(qwebyast-autostart.desktop)"
+#~ msgid "WebYaST Applet"
+#~ msgstr "بريمج WebYaST"
+
+#~ msgctxt "Name(tracker-miner-user-guides.desktop)"
+#~ msgid "Tracker User Guides Miner"
+#~ msgstr "دليل مستخدم المقتفي Miner"
+
+#~ msgctxt "Comment(tracker-miner-user-guides.desktop)"
+#~ msgid "Crawls and processes user guides in shared areas"
+#~ msgstr "دخول ومعالجة مجلدات المستخدم في المناطق المشتركة"
 
 #~ msgctxt "Description(org.fedoraproject.FirewallD1.all)"
 #~ msgid "Firewall"
@@ -2087,14 +2376,6 @@ msgstr ""
 #~ msgctxt "Comment(kaddressbookmigrator.desktop)"
 #~ msgid "Tool to migrate the old kresource based address book to Akonadi."
 #~ msgstr "أداة الهجرة من دفتر العناوين القديم kresource إلى Akonadi."
-
-#~ msgctxt "Name(obexd-server.desktop)"
-#~ msgid "Obexd Server"
-#~ msgstr "Obexd خادم"
-
-#~ msgctxt "Comment(obexd-server.desktop)"
-#~ msgid "Obexd Server Daemon"
-#~ msgstr "البرنامج الخفي لخادم Obexd"
 
 #~ msgctxt "Name(org.kde.desktopcontainment)"
 #~ msgid "Desktop"
