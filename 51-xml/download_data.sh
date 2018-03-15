@@ -8,7 +8,8 @@ set -euo pipefail
 project="openSUSE:Leap:15.0"
 repository="standard"
 arch="x86_64"
-backend="rsync://openqa@obs-backend.publish.opensuse.org/opensuse-internal/"
+# ssh -L 8730:obs-backend.publish.opensuse.org:873 openqa.opensuse.org
+backend="rsync://openqa@localhost:8730/opensuse-internal/"
 file_patterns='*-desktopfiles.tar.bz2 *-appstream.tar.bz2 *-polkitactions.tar.bz2 *-mimetypes.tar.bz2'
 
 if [ $# -ne 1 ]; then
