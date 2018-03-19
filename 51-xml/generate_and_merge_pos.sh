@@ -53,7 +53,7 @@ while read archive; do
 	if ! python3 tar2po/tar2po.py "${archive}" "${outputdir}"; then
 		echo "Failed: ${archive}" >&2
 	fi
-done < <(find "${inputdir}" -name '*.tar.bz2' | sort)
+done < <(find "${inputdir}" -name '*.tar.bz2' | grep -v :repo | sort)
 
 log 'Done!'
 
