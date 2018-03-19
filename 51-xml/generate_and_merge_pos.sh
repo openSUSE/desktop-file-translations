@@ -93,6 +93,19 @@ done
 log 'Done!'
 
 log "Copying over POT files... "
-cp "${outputdir}"/*.pot "../50-pot/"
+for pot in "${outputdir}"/*.pot; do
+	dpot="../50-pot/${pot##*/}"
+	updated=1
+	if [ -e "$dpot" ]; then
+		grep -v 'POT-Creation-Date:' "$pot" > "$pot.n"
+		grep -v 'POT-Creation-Date:' "$dpot" > "$dpot.n"
+		if cmp -s "$pot.n" "$dpot.n"; then
+			updated=0
+		fi
+		rm -f "$pot.n"
+		rm -f "$dpot.n"
+	fi
+	[ "$updated" = 0 ] || mv "$pot" "$dpot"
+done
 
 log 'Done!'
