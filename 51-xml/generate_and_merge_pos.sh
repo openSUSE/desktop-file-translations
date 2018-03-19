@@ -3,6 +3,8 @@ set -euo pipefail
 
 : ${VERBOSE:=0}
 
+export LANG="C.utf8"
+
 # die: Echo arguments to stderr and exit with 1
 die() { echo "$@" 1>&2 ; exit 1; }
 log()
