@@ -191,7 +191,10 @@ msgstr ""
 
         translation_header = "#: {}:{}\n".format(value['file'], value['line'])
         translation_header += "msgctxt {}\n".format(gettextQuote(ctxt))
-        translation_header += "msgid {}\n".format(gettextQuote(value['values']['']))
+        msgid = value['values']['']
+        if len(msgid) == 0:
+                continue
+        translation_header += "msgid {}\n".format(gettextQuote(msgid))
 
         files[pot_filename]['content'] += translation_header + "msgstr \"\"\n\n"
 

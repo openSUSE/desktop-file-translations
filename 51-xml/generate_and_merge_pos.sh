@@ -3,6 +3,8 @@ set -euo pipefail
 
 : ${VERBOSE:=0}
 
+export LANG="C.utf8"
+
 # die: Echo arguments to stderr and exit with 1
 die() { echo "$@" 1>&2 ; exit 1; }
 log()
@@ -51,7 +53,7 @@ while read archive; do
 	if ! python3 tar2po/tar2po.py "${archive}" "${outputdir}"; then
 		echo "Failed: ${archive}" >&2
 	fi
-done < <(find "${inputdir}" -name '*.tar.bz2' | sort)
+done < <(find "${inputdir}" -name '*.tar.bz2' | grep -v :repo | sort)
 
 log 'Done!'
 
@@ -91,6 +93,19 @@ done
 log 'Done!'
 
 log "Copying over POT files... "
-cp "${outputdir}"/*.pot "../50-pot/"
+for pot in "${outputdir}"/*.pot; do
+	dpot="../50-pot/${pot##*/}"
+	updated=1
+	if [ -e "$dpot" ]; then
+		grep -v 'POT-Creation-Date:' "$pot" > "$pot.n"
+		grep -v 'POT-Creation-Date:' "$dpot" > "$dpot.n"
+		if cmp -s "$pot.n" "$dpot.n"; then
+			updated=0
+		fi
+		rm -f "$pot.n"
+		rm -f "$dpot.n"
+	fi
+	[ "$updated" = 0 ] || mv "$pot" "$dpot"
+done
 
 log 'Done!'

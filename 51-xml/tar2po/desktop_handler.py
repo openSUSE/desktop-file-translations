@@ -31,7 +31,7 @@ import re
 
 
 TRANSLATABLE_ENTRIES = {"Desktop Entry":
-                        ["GenericName", "Name", "Comment", "Keywords", "X-KDE-Keywords"],
+                        ["GenericName", "Name", "Comment", "Keywords", "X-KDE-Keywords", "X-GNOME-FullName", "X-Geoclue-Reason"],
                         #"Desktop Action *" has special handling in extractDesktopLangInfo
                         }
 
