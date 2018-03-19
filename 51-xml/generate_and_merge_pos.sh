@@ -70,6 +70,24 @@ log 'Done!'
 
 log "Merging with existing PO files... "
 
+move_if_changed()
+{
+	local src="$1"
+	local dst="$2"
+
+	local updated=1
+	if [ -e "$dst" ]; then
+		grep -v 'POT-Creation-Date:' "$src" > "$src.n"
+		grep -v 'POT-Creation-Date:' "$dst" > "$dst.n"
+		if cmp -s "$src.n" "$dst.n"; then
+			updated=0
+		fi
+		rm -f "$src.n"
+		rm -f "$dst.n"
+	fi
+	[ "$updated" = 0 ] || mv "$src" "$dst"
+}
+
 for lang in $langs; do
         [ -d "${outputdir}"/"${lang}" ] || continue
 	pushd "${outputdir}"/"${lang}" > /dev/null
@@ -80,11 +98,11 @@ for lang in $langs; do
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
 			msgmerge --previous -q "${resultdir}"/"${lang}"/"${pofile}" "${pofile}" > "${tmpdir}"/"${pofile}"
-			mv "${tmpdir}"/"${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
+			move_if_changed "${tmpdir}"/"${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		else
 			# Does not exist yet, just copy
 			mkdir -p "${resultdir}"/"${lang}"
-			cp "${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
+			mv "${pofile}" "${resultdir}"/"${lang}"/"${pofile}"
 		fi
 	done
 	popd > /dev/null
@@ -95,17 +113,7 @@ log 'Done!'
 log "Copying over POT files... "
 for pot in "${outputdir}"/*.pot; do
 	dpot="../50-pot/${pot##*/}"
-	updated=1
-	if [ -e "$dpot" ]; then
-		grep -v 'POT-Creation-Date:' "$pot" > "$pot.n"
-		grep -v 'POT-Creation-Date:' "$dpot" > "$dpot.n"
-		if cmp -s "$pot.n" "$dpot.n"; then
-			updated=0
-		fi
-		rm -f "$pot.n"
-		rm -f "$dpot.n"
-	fi
-	[ "$updated" = 0 ] || mv "$pot" "$dpot"
+	move_if_changed "$pot" "$dpot"
 done
 
 log 'Done!'
