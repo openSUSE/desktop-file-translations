@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:44+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,10 +88,16 @@ msgid "Changing Bluetooth system settings requires privileges"
 msgstr ""
 "I fåt les droets po candjî l' apontiaedje des fontes di ttavå l' sistinme."
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
 msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
+#, fuzzy
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "Candjî l' prumiristé d' on processus"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 #, fuzzy
@@ -114,6 +120,11 @@ msgstr "Schaper les tchuzes do manaedjeu d' elodjaedje"
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:12
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
@@ -375,6 +386,47 @@ msgid "System policies prevent you from getting the syspath"
 msgstr ""
 "Les politikes do sistinme vos espaitchèt d' awè l' livea del rilujhance."
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr "Manaedjî les imådjes d' uzeu mostrêyes e Manaedjeu d' elodjaedje"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "Manaedjî les tinmes pol Manaedjeu d' elodjaedje"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "Schaper les tchuzes do manaedjeu d' elodjaedje"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr ""
+"I fåt l' otorijhåcion do manaedjeu po manaedjî ls imådjes d' uzeu pol "
+"Manaedjeu d' elodjaedje"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr ""
+"I fåt l' otorijhåcion do manaedjeu po manaedjî les tinmes pol Manaedjeu "
+"d' elodjaedje"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr ""
+"I fåt l' otorijhåcion do manaedjeu po candjî les apontiaedjes do Manaedjeu "
+"d' elodjaedje"
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -430,46 +482,15 @@ msgid "Modifying the system-wide font configuration requires privileges."
 msgstr ""
 "I fåt les droets po candjî l' apontiaedje des fontes di ttavå l' sistinme."
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr "Manaedjî les imådjes d' uzeu mostrêyes e Manaedjeu d' elodjaedje"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "Manaedjî les tinmes pol Manaedjeu d' elodjaedje"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "Schaper les tchuzes do manaedjeu d' elodjaedje"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
 msgstr ""
-"I fåt l' otorijhåcion do manaedjeu po manaedjî ls imådjes d' uzeu pol "
-"Manaedjeu d' elodjaedje"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
 msgstr ""
-"I fåt l' otorijhåcion do manaedjeu po manaedjî les tinmes pol Manaedjeu "
-"d' elodjaedje"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr ""
-"I fåt l' otorijhåcion do manaedjeu po candjî les apontiaedjes do Manaedjeu "
-"d' elodjaedje"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -478,16 +499,6 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr ""
 
@@ -1713,6 +1724,19 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+#, fuzzy
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "Awè l' rilujhance"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+#, fuzzy
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr ""
+"Les politikes do sistinme vos espaitchèt d' awè l' livea del rilujhance."
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1725,19 +1749,6 @@ msgstr ""
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
-msgstr ""
-"Les politikes do sistinme vos espaitchèt d' awè l' livea del rilujhance."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-#, fuzzy
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Awè l' rilujhance"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-#, fuzzy
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
 msgstr ""
 "Les politikes do sistinme vos espaitchèt d' awè l' livea del rilujhance."
 
@@ -2017,11 +2028,6 @@ msgstr ""
 #~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
 #~ msgid "Change printer settings"
 #~ msgstr "Schaper les tchuzes do manaedjeu d' elodjaedje"
-
-#, fuzzy
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
-#~ msgstr "Candjî l' prumiristé d' on processus"
 
 #, fuzzy
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"

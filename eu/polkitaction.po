@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,11 +95,18 @@ msgid "Changing Bluetooth system settings requires privileges"
 msgstr ""
 "Sistemaren letra-tipoen konfigurazioa aldatzeko pribilegioak behar dira."
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
 #, fuzzy
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "Autentifikazioa behar da erabiltzailearen datuak aldatzeko"
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "Pribilegioak behar dira sistemaren ordua aldatzeko."
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 msgctxt ""
@@ -125,6 +132,12 @@ msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Sistemako ordua eta dataren ezarpenak aldatzeko, autentifikatu egin behar "
 "zara."
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#, fuzzy
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
+msgstr "Autentifikazioa behar da erabiltzailearen datuak aldatzeko"
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -374,6 +387,48 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr ""
+"Saioa hasteko kudeatzailean erakutsitako erabiltzaile-irudiak kudeatzea"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "Saioa hasteko kudeatzailearen gaiak kudeatzea"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "Gorde saioa hasteko kudeatzailearen ezarpenak"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr ""
+"Administratzailearen baimena behar da saioa hasteko kudeatzailearen "
+"erabiltzaile-irudiak kudeatzeko"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr ""
+"Administratzailearen baimena behar da saioa hasteko kudeatzailearen gaiak "
+"kudeatzeko"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr ""
+"Administratzailearen baimena behar da saioa hasteko kudeatzailearen "
+"ezarpenak aldatzeko"
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -430,47 +485,15 @@ msgid "Modifying the system-wide font configuration requires privileges."
 msgstr ""
 "Sistemaren letra-tipoen konfigurazioa aldatzeko pribilegioak behar dira."
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr ""
-"Saioa hasteko kudeatzailean erakutsitako erabiltzaile-irudiak kudeatzea"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr "Gorde zorroaren Konfigurazioa"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "Saioa hasteko kudeatzailearen gaiak kudeatzea"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "Gorde saioa hasteko kudeatzailearen ezarpenak"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
-msgstr ""
-"Administratzailearen baimena behar da saioa hasteko kudeatzailearen "
-"erabiltzaile-irudiak kudeatzeko"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr ""
-"Administratzailearen baimena behar da saioa hasteko kudeatzailearen gaiak "
-"kudeatzeko"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr ""
-"Administratzailearen baimena behar da saioa hasteko kudeatzailearen "
-"ezarpenak aldatzeko"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
+msgstr "Baimendu zorroaren konfigurazio ezarpenak gordetzea"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -479,16 +502,6 @@ msgstr "Gorde zorroaren konfigurazioa"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "Baimendu zorroaren konfigurazio ezarpenak gordetzea"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr "Gorde zorroaren Konfigurazioa"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Baimendu zorroaren konfigurazio ezarpenak gordetzea"
 
@@ -1717,6 +1730,18 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr "Autentifikazioa behar da urruneko saioa gaitu edo desgaitzeko"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+#, fuzzy
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "Eskuratu distira"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+#, fuzzy
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Sistemako gidalerroek distira-maila eskuratzea galarazten dizute."
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1729,18 +1754,6 @@ msgstr "Egiaztatu bereizitako GPUrik dagoen"
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
-msgstr "Sistemako gidalerroek distira-maila eskuratzea galarazten dizute."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-#, fuzzy
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Eskuratu distira"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-#, fuzzy
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
 msgstr "Sistemako gidalerroek distira-maila eskuratzea galarazten dizute."
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
@@ -2036,13 +2049,6 @@ msgstr "Autentifikazioa behar da urruneko saioa gaitu edo desgaitzeko"
 #~| msgid "Privileges are required to change the system time."
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 #~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "Pribilegioak behar dira sistemaren ordua aldatzeko."
-
-#, fuzzy
-#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#~| msgid "Privileges are required to change the system time."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
 #~ msgstr "Pribilegioak behar dira sistemaren ordua aldatzeko."
 
 #, fuzzy

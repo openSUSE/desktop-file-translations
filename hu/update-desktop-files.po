@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.hu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2018-03-20 12:02+0000\n"
 "Last-Translator: Robert Taisz <robert.taisz@emerald.hu>\n"
 "Language-Team: Hungarian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -20,6 +20,45 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:5
+msgctxt "Name(z-displaycal-apply-profiles.desktop)"
+msgid "Profile Loader"
+msgstr "Profilbetöltő"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:7
+msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
+msgid "Calibration and ICC Profile Loader"
+msgstr "Kalibrálás és ICC-profil betöltője"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:13
+msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
+msgid ""
+"Sets ICC profiles and loads calibration curves for all configured display "
+"devices"
+msgstr ""
+"Beállítja az ICC-profilokat és betölti a kalibrálási görbéket az összes "
+"konfigurált megjelenítőeszközhöz"
+
+#: /etc/xdg/autostart/nm-applet.desktop:2
+msgctxt "Name(nm-applet.desktop)"
+msgid "Network"
+msgstr "Hálózat"
+
+#: /etc/xdg/autostart/nm-applet.desktop:73
+msgctxt "Comment(nm-applet.desktop)"
+msgid "Manage your network connections"
+msgstr "Hálózati kapcsolatok kezelése"
+
+#: /usr/share/xsessions/WindowMaker.desktop:6
+msgctxt "Name(WindowMaker.desktop)"
+msgid "WindowMaker"
+msgstr "WindowMaker"
+
+#: /usr/share/xsessions/WindowMaker.desktop:16
+msgctxt "Comment(WindowMaker.desktop)"
+msgid "A simple window manager that resembles the NeXTStep look very closely"
+msgstr "Egy egyszerű ablakkezelő, megjelenése nagyon hasonlít a NeXTStephez"
 
 #: /etc/xdg/autostart/at-spi-dbus-bus.desktop:3
 msgctxt "Name(at-spi-dbus-bus.desktop)"
@@ -36,25 +75,15 @@ msgctxt "GenericName(general.desktop)"
 msgid "Configure General Autoinstallation  Options"
 msgstr "Általános automatikus telepítési beállítások megadása"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Particionálás"
+#: /usr/share/autoinstall/modules/files.desktop:22
+msgctxt "Name(files.desktop)"
+msgid "Complete Configuration Files"
+msgstr "Teljes konfigurációs fájlok"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Particionálási és tárolási beállítások megadása"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Jelentés & Naplózás"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Jelentések és Naplózás Beállítása"
+#: /usr/share/autoinstall/modules/files.desktop:23
+msgctxt "GenericName(files.desktop)"
+msgid "Add Complete Configuration Files"
+msgstr "Teljes konfigurációs fájlok hozzáadása"
 
 #: /usr/share/autoinstall/modules/scripts.desktop:21
 msgctxt "Name(scripts.desktop)"
@@ -66,15 +95,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "Egyéni scriptek hozzáadása vagy szerkesztése"
 
-#: /usr/share/autoinstall/modules/files.desktop:22
-msgctxt "Name(files.desktop)"
-msgid "Complete Configuration Files"
-msgstr "Teljes konfigurációs fájlok"
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Particionálás"
 
-#: /usr/share/autoinstall/modules/files.desktop:23
-msgctxt "GenericName(files.desktop)"
-msgid "Add Complete Configuration Files"
-msgstr "Teljes konfigurációs fájlok hozzáadása"
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Particionálási és tárolási beállítások megadása"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -85,6 +114,16 @@ msgstr "Csomag kiválasztás"
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Csomagválasztásai és szoftverbeállítások megadása"
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Jelentés & Naplózás"
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Jelentések és Naplózás Beállítása"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -222,28 +261,6 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Ez a munkamenet a Cinnamon környezetbe lépteti be"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr "Cinnamon (szoftveres feldolgozás)"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr ""
-"Ez a munkamenet a Cinnamon környezetbe lépteti be (szoftveres feldolgozás "
-"használatával)"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
 msgid "Cinnamon Settings Daemon - media-keys"
@@ -339,6 +356,28 @@ msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
 msgid "Cinnamon Settings Daemon - orientation"
 msgstr "Cinnamon beállításdémon – tájolás"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Ez a munkamenet a Cinnamon környezetbe lépteti be"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr "Cinnamon (szoftveres feldolgozás)"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr ""
+"Ez a munkamenet a Cinnamon környezetbe lépteti be (szoftveres feldolgozás "
+"használatával)"
+
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
 msgid "Compton (X Compositor)"
@@ -383,25 +422,6 @@ msgstr "Rendezze el az asztalán a paneleken, a jegyzeteket és a fényképeket"
 msgctxt "Keywords(com.github.spheras.desktopfolder.desktop)"
 msgid "desktop;folder;file;organize;"
 msgstr "asztal;mappa;fájl;rendezés;"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:5
-msgctxt "Name(z-displaycal-apply-profiles.desktop)"
-msgid "Profile Loader"
-msgstr "Profilbetöltő"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:7
-msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
-msgid "Calibration and ICC Profile Loader"
-msgstr "Kalibrálás és ICC-profil betöltője"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:13
-msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
-msgid ""
-"Sets ICC profiles and loads calibration curves for all configured display "
-"devices"
-msgstr ""
-"Beállítja az ICC-profilokat és betölti a kalibrálási görbéket az összes "
-"konfigurált megjelenítőeszközhöz"
 
 #: /usr/share/xsessions/e16-session.desktop:4
 msgctxt "Name(e16-session.desktop)"
@@ -494,16 +514,6 @@ msgstr "Git Annex Assistant"
 msgctxt "Comment(git-annex.desktop)"
 msgid "Autostart"
 msgstr "Automatikus indítás"
-
-#: /etc/xdg/autostart/glipper-autostart.desktop:3
-msgctxt "Name(glipper-autostart.desktop)"
-msgid "Glipper"
-msgstr "Glipper"
-
-#: /etc/xdg/autostart/glipper-autostart.desktop:4
-msgctxt "Comment(glipper-autostart.desktop)"
-msgid "A clipboard history manager"
-msgstr "Vágólap előzménykezelő"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
@@ -844,11 +854,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad nyomtatott áramkör"
-
 #: /usr/share/mimelnk/application/x-kicad-project.desktop:6
 msgctxt "Comment(x-kicad-project.desktop)"
 msgid "KiCad Project"
@@ -859,6 +864,16 @@ msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "KiCad-séma"
 
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "KiCad nyomtatott áramkör"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Hangerők visszaállítása"
+
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
 msgid "Sound Mixer"
@@ -868,11 +883,6 @@ msgstr "Hangkeverő"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
-
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Hangerők visszaállítása"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1145,16 +1155,6 @@ msgctxt "Name(nautilus-autostart.desktop)"
 msgid "Files"
 msgstr "Fájlok"
 
-#: /etc/xdg/autostart/nm-applet.desktop:2
-msgctxt "Name(nm-applet.desktop)"
-msgid "Network"
-msgstr "Hálózat"
-
-#: /etc/xdg/autostart/nm-applet.desktop:73
-msgctxt "Comment(nm-applet.desktop)"
-msgid "Manage your network connections"
-msgstr "Hálózati kapcsolatok kezelése"
-
 #: /etc/xdg/autostart/nm-tray.desktop:2
 msgctxt "Name(nm-tray.desktop)"
 msgid "LXQt Network Applet"
@@ -1179,6 +1179,11 @@ msgstr "Obexd kiszolgáló"
 msgctxt "Comment(obexd-server.desktop)"
 msgid "Obexd Server Daemon"
 msgstr "Obexd kiszolgáló démon"
+
+#: /etc/xdg/autostart/vmware-user-autostart.desktop:3
+msgctxt "Name(vmware-user-autostart.desktop)"
+msgid "VMware User Agent"
+msgstr "VMware felhasználó ügynökprogram"
 
 #: /usr/share/xsessions/openbox-kde.desktop:2
 msgctxt "Name(openbox-kde.desktop)"
@@ -1209,11 +1214,6 @@ msgstr "GNOME/Openbox"
 msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "Az Openbox ablakkezelőt használja a GNOME asztali környezeten belül"
-
-#: /etc/xdg/autostart/vmware-user-autostart.desktop:3
-msgctxt "Name(vmware-user-autostart.desktop)"
-msgid "VMware User Agent"
-msgstr "VMware felhasználó ügynökprogram"
 
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
@@ -1249,18 +1249,6 @@ msgstr "Vágólapkezelő"
 msgctxt "Name(pasystray.desktop)"
 msgid "PulseAudio System Tray"
 msgstr "PulseAudio rendszertálca"
-
-# translation of update-desktop-files.po to
-# translation of update-desktop-files.hu.po to
-# Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008, 2009, 2010.
-# Gabor Kelemen <kelemeng@gnome.hu>, 2007.
-# Ervin Novak <enovak@novell.com>, 2008.
-# Kalman Kemenczy <kkemenczy@opensuse.org>, 2011.
-# Kalman Kemenczy <kkemenczy@gmail.com>, 2011, 2012, 2013.
-#: /etc/xdg/autostart/pasystray.desktop:5
-msgctxt "GenericName(pasystray.desktop)"
-msgid ""
-msgstr ""
 
 #: /etc/xdg/autostart/pasystray.desktop:6
 msgctxt "Comment(pasystray.desktop)"
@@ -1317,25 +1305,15 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit frissítőalkalmazás"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Üres panel"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Asztal"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "Üres panel"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "Alkalmazás menüsora"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "A globális menü kisalkalmazását tartalmazó panel"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Munkaasztal nézet bútor"
 
 #: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
 msgctxt "Name(org.kde.desktopcontainment)"
@@ -1347,25 +1325,15 @@ msgctxt "Summary(org.kde.desktopcontainment)"
 msgid "A clean and simple layout"
 msgstr "Egy tiszta és egyszerű elrendezés"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Asztal"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Üres panel"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Munkaasztal nézet bútor"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "Deklaratív eszközdoboz"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Plasma kezelése"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "Üres panel"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1380,40 +1348,25 @@ msgstr ""
 "Alapértelmezett panel alkalmazásindítóval, feladatkezelővel és "
 "rendszertálcával"
 
-#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
-msgctxt "Name(org.kde.breeze.desktop)"
-msgid "Breeze"
-msgstr "Breeze"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "Deklaratív eszközdoboz"
 
-#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:48
-msgctxt "Summary(org.kde.breeze.desktop)"
-msgid "Breeze Desktop Design Language by the KDE VDG"
-msgstr "Breeze asztali designnyelv a KDE VDG-től"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Plasma kezelése"
 
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "Alkalmazás menüsora"
 
-#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
-msgctxt "Name(org.kde.plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plazma asztali munkaterület"
-
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: /usr/share/xsessions/plasma5.desktop:7
-msgctxt "Name(plasma5.desktop)"
-msgid "Plasma"
-msgstr "Plasma"
-
-#: /usr/share/xsessions/plasma5.desktop:52
-msgctxt "Comment(plasma5.desktop)"
-msgid "Plasma by KDE"
-msgstr "Plasma a KDE-től"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "A globális menü kisalkalmazását tartalmazó panel"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1475,6 +1428,41 @@ msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Repülő Konqui"
 
+#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
+msgctxt "Name(org.kde.breeze.desktop)"
+msgid "Breeze"
+msgstr "Breeze"
+
+#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:48
+msgctxt "Summary(org.kde.breeze.desktop)"
+msgid "Breeze Desktop Design Language by the KDE VDG"
+msgstr "Breeze asztali designnyelv a KDE VDG-től"
+
+#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
+msgctxt "Name(org.kde.plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plazma asztali munkaterület"
+
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
+
+#: /usr/share/xsessions/plasma5.desktop:7
+msgctxt "Name(plasma5.desktop)"
+msgid "Plasma"
+msgstr "Plasma"
+
+#: /usr/share/xsessions/plasma5.desktop:52
+msgctxt "Comment(plasma5.desktop)"
+msgid "Plasma by KDE"
+msgstr "Plasma a KDE-től"
+
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
 msgid "File Context maintainer"
@@ -1530,23 +1518,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "A PulseAudio hangrendszer elindítása"
 
-# translation of update-desktop-files.po to
-# translation of update-desktop-files.hu.po to
-# Kalman Kemenczy <kkemenczy@novell.com>, 2007, 2008, 2009, 2010.
-# Gabor Kelemen <kelemeng@gnome.hu>, 2007.
-# Ervin Novak <enovak@novell.com>, 2008.
-# Kalman Kemenczy <kkemenczy@opensuse.org>, 2011.
-# Kalman Kemenczy <kkemenczy@gmail.com>, 2011, 2012, 2013.
-#: /etc/xdg/autostart/pulseaudio.desktop:97
-msgctxt "GenericName(pulseaudio.desktop)"
-msgid ""
-msgstr ""
-
-#: /usr/share/mimelnk/application/x-qet-element.desktop:7
-msgctxt "Comment(x-qet-element.desktop)"
-msgid "QElectroTech element file"
-msgstr "QElectroTech-összetevőfájl"
-
 #: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
 msgctxt "Comment(x-qet-titleblock.desktop)"
 msgid "QElectroTech title block template"
@@ -1556,6 +1527,11 @@ msgstr "QElectroTech-címblokksablon"
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "QElectroTech-projektfájl"
+
+#: /usr/share/mimelnk/application/x-qet-element.desktop:7
+msgctxt "Comment(x-qet-element.desktop)"
+msgid "QElectroTech element file"
+msgstr "QElectroTech-összetevőfájl"
 
 #: /etc/xdg/autostart/roccateventhandler.desktop:2
 msgctxt "Name(roccateventhandler.desktop)"
@@ -1576,26 +1552,6 @@ msgstr "RSIBreak"
 msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Győződjön meg róla, hogy most pihen és aztán"
-
-#: /usr/share/xsessions/sawfish-mate.desktop:2
-msgctxt "Name(sawfish-mate.desktop)"
-msgid "Sawfish/MATE"
-msgstr "Sawfish/MATE"
-
-#: /usr/share/xsessions/sawfish-mate.desktop:3
-msgctxt "Comment(sawfish-mate.desktop)"
-msgid "Use the Sawfish window manager inside of the MATE desktop environment"
-msgstr "A Sawfish ablakkezelő használata a MATE asztali környezeten belül"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "A Sawfish ablakkezelő használata a Kde asztali környezeten belül"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
@@ -1626,6 +1582,26 @@ msgstr "Sawfish"
 msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
 msgstr "Sawfish"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:2
+msgctxt "Name(sawfish-mate.desktop)"
+msgid "Sawfish/MATE"
+msgstr "Sawfish/MATE"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:3
+msgctxt "Comment(sawfish-mate.desktop)"
+msgid "Use the Sawfish window manager inside of the MATE desktop environment"
+msgstr "A Sawfish ablakkezelő használata a MATE asztali környezeten belül"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "A Sawfish ablakkezelő használata a Kde asztali környezeten belül"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1679,16 +1655,6 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Rendszertálca-ikon nyomtatási feladatok kezeléséhez"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Tracker tároló"
-
-#: /etc/xdg/autostart/tracker-store.desktop:49
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "Metaadat-adatbázis tároló és kereséskezelő"
-
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
@@ -1729,6 +1695,16 @@ msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "RSS/ATOM hírforrások lekérése"
 
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Tracker tároló"
+
+#: /etc/xdg/autostart/tracker-store.desktop:49
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "Metaadat-adatbázis tároló és kereséskezelő"
+
 #: /usr/share/mimelnk/application/x-treeline.desktop:3
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
@@ -1764,21 +1740,6 @@ msgctxt "Name(vncmanager-controller.desktop)"
 msgid "VNC Configuration"
 msgstr "VNC-beállítások"
 
-#: /usr/share/xsessions/WindowMaker.desktop:6
-msgctxt "Name(WindowMaker.desktop)"
-msgid "WindowMaker"
-msgstr "WindowMaker"
-
-#: /usr/share/xsessions/WindowMaker.desktop:16
-msgctxt "Comment(WindowMaker.desktop)"
-msgid "A simple window manager that resembles the NeXTStep look very closely"
-msgstr "Egy egyszerű ablakkezelő, megjelenése nagyon hasonlít a NeXTStephez"
-
-#: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-msgctxt "Name(xdg-user-dirs.desktop)"
-msgid "User folders update"
-msgstr "Felhasználói mappák frissítése"
-
 #: /etc/xdg/autostart/user-dirs-update-gtk.desktop:4
 msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
@@ -1788,6 +1749,11 @@ msgstr "Felhasználói mappák frissítése"
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "Általános mappanevek frissítése a jelenlegi területi beállításra"
+
+#: /etc/xdg/autostart/xdg-user-dirs.desktop:3
+msgctxt "Name(xdg-user-dirs.desktop)"
+msgid "User folders update"
+msgstr "Felhasználói mappák frissítése"
 
 #: /usr/share/xsessions/xsession.desktop:2
 msgctxt "Name(xsession.desktop)"
@@ -1855,18 +1821,6 @@ msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Az Xfce beállításkezelő démon"
 
-#: /etc/xdg/autostart/xfce4-volumed.desktop:6
-msgctxt "Name(xfce4-volumed.desktop)"
-msgid "XFCE Volume Daemon"
-msgstr "XFCE hangerőszabályzó démon"
-
-#: /etc/xdg/autostart/xfce4-volumed.desktop:8
-msgctxt "Comment(xfce4-volumed.desktop)"
-msgid ""
-"Daemon managing the volume multimedia keys and displaying volume "
-"notifications"
-msgstr "Hangerőszabályzó gombokat kezelő és az értesítéseket megjelenítő démon"
-
 #: /etc/xdg/autostart/xfce4-volumed-pulse.desktop:4
 msgctxt "Name(xfce4-volumed-pulse.desktop)"
 msgid "XFCE Volume Daemon (Pulseaudio)"
@@ -1880,6 +1834,18 @@ msgid ""
 msgstr ""
 "Hangerőszabályzó gombokat kezelő és az értesítéseket megjelenítő démon a "
 "Pulseaudio használatához"
+
+#: /etc/xdg/autostart/xfce4-volumed.desktop:6
+msgctxt "Name(xfce4-volumed.desktop)"
+msgid "XFCE Volume Daemon"
+msgstr "XFCE hangerőszabályzó démon"
+
+#: /etc/xdg/autostart/xfce4-volumed.desktop:8
+msgctxt "Comment(xfce4-volumed.desktop)"
+msgid ""
+"Daemon managing the volume multimedia keys and displaying volume "
+"notifications"
+msgstr "Hangerőszabályzó gombokat kezelő és az értesítéseket megjelenítő démon"
 
 #: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
@@ -1916,16 +1882,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Firstboot-sorozat indításának engedélyezése van letiltása"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "SSH-kulcs importálása"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -1936,6 +1892,16 @@ msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Rendszerkép-telepítés beállítása"
 
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "SSH-kulcs importálása"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
+
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"
 msgid "Zeitgeist Datahub"
@@ -1945,6 +1911,14 @@ msgstr "Zeitgeist Datahub"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "Zeitgeist Datahub indítása passzív naplózáshoz"
+
+#~ msgctxt "Name(glipper-autostart.desktop)"
+#~ msgid "Glipper"
+#~ msgstr "Glipper"
+
+#~ msgctxt "Comment(glipper-autostart.desktop)"
+#~ msgid "A clipboard history manager"
+#~ msgstr "Vágólap előzménykezelő"
 
 #~ msgctxt "Name(enlightenment.desktop)"
 #~ msgid "Enlightenment"

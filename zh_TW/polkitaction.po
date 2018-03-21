@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,11 +92,18 @@ msgctxt "Message(org.blueman.bluez.config)"
 msgid "Changing Bluetooth system settings requires privileges"
 msgstr "變更系統字型設定需要有足夠的權限。"
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
 #, fuzzy
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "改變使用者資料需要核對"
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "改變系統時刻需要有權限。"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 msgctxt ""
@@ -120,6 +127,12 @@ msgstr "改變系統時刻與日期設定值"
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr "要改變時刻或日期設定值，您需要通過核對。"
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#, fuzzy
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
+msgstr "改變使用者資料需要核對"
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -368,6 +381,41 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "系統政策不允許您取得系統路徑"
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr "管理在登入管理員中顯示的使用者圖像"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "管理在登入管理員中顯示的主題"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "儲存登入管理設定值"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr "變更登入管理員中的使用者圖像需要管理員授權"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr "變更登入管理員中的主題需要管理員授權"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr "變更登入管理設定需要管理員授權"
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -419,40 +467,15 @@ msgctxt "Message(org.kde.fontinst.manage)"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "變更系統字型設定需要有足夠的權限。"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr "管理在登入管理員中顯示的使用者圖像"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr "儲存錢包設定"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "管理在登入管理員中顯示的主題"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "儲存登入管理設定值"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
-msgstr "變更登入管理員中的使用者圖像需要管理員授權"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr "變更登入管理員中的主題需要管理員授權"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr "變更登入管理設定需要管理員授權"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
+msgstr "允許儲存錢包設定"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -461,16 +484,6 @@ msgstr "儲存錢包設定"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "允許儲存錢包設定"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr "儲存錢包設定"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "允許儲存錢包設定"
 
@@ -1680,6 +1693,16 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr "需要通過身份核對才能探測該裝置"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "取得最大亮度值"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "系統政策不允許您取得亮度設定。"
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1692,16 +1715,6 @@ msgstr "檢查是否有獨立顯示卡"
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
-msgstr "系統政策不允許您取得亮度設定。"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "取得最大亮度值"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
 msgstr "系統政策不允許您取得亮度設定。"
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
@@ -2013,13 +2026,6 @@ msgstr "需要通過身份核對才能探測該裝置"
 #~| msgid "Privileges are required to change the system time."
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 #~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "改變系統時刻需要有權限。"
-
-#, fuzzy
-#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#~| msgid "Privileges are required to change the system time."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
 #~ msgstr "改變系統時刻需要有權限。"
 
 #, fuzzy

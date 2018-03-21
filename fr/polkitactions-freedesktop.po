@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,6 +9,451 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "Enable or disable system networking"
+msgstr "Activer ou désactiver le réseau système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
+msgctxt "Description(org.freedesktop.NetworkManager.reload)"
+msgid "Reload NetworkManager configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:121
+msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
+msgid ""
+"Put NetworkManager to sleep or wake it up (should only be used by system "
+"power management)"
+msgstr ""
+"Mettre NetworkManager en veille ou le réveiller (utile uniquement pour la "
+"gestion d'énergie du système)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:208
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "Enable or disable WiFi devices"
+msgstr "Activer ou désactiver des périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:296
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "Enable or disable mobile broadband devices"
+msgstr "Activer ou désactiver des périphériques mobiles à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:384
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid "Enable or disable WiMAX mobile broadband devices"
+msgstr "Activer ou désactiver des périphériques WiMAX à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:466
+msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
+msgid "Allow control of network connections"
+msgstr "Autoriser le contrôle des connexions réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:555
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "Connection sharing via a protected WiFi network"
+msgstr "Partage de connexion via un réseau WiFi protégé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:649
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "Connection sharing via an open WiFi network"
+msgstr "Partage de connexion via un réseau WiFi ouvert"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:743
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "Modify personal network connections"
+msgstr "Modifier les connexions du réseau personnel"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:823
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "Modify network connections for all users"
+msgstr "Modifier les connexions réseau pour tous les utilisateurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:903
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "Modify persistent system hostname"
+msgstr "Modifier le nom d'hôte persistant du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:997
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid "Modify persistent global DNS configuration"
+msgstr "Modifier la configuration DNS globale persistante"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1035
+msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "Perform a checkpoint or rollback of interfaces configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "Enable or disable WiFi devices"
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "Enable or disable device statistics"
+msgstr "Activer ou désactiver des périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1078
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
+#| msgid "Enable or disable system networking"
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "Enable or disable connectivity checking"
+msgstr "Activer ou désactiver le réseau système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "System policy prevents enabling or disabling system networking"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation du réseau "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:106
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.reload)"
+msgid "System policy prevents reloading NetworkManager"
+msgstr "La politique du système empêche le contrôle des connexions réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:161
+msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
+msgid "System policy prevents putting NetworkManager to sleep or waking it up"
+msgstr ""
+"La politique du système empêche la mise en veille et le réveil de "
+"NetworkManager"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:249
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "System policy prevents enabling or disabling WiFi devices"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:337
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "System policy prevents enabling or disabling mobile broadband devices"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques mobiles à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:422
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid ""
+"System policy prevents enabling or disabling WiMAX mobile broadband devices"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiMAX à large bande"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:507
+msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
+msgid "System policy prevents control of network connections"
+msgstr "La politique du système empêche le contrôle des connexions réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:599
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "System policy prevents sharing connections via a protected WiFi network"
+msgstr ""
+"La politique du système empêche tout partage des connexions via un réseau "
+"WiFi protégé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:693
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "System policy prevents sharing connections via an open WiFi network"
+msgstr ""
+"La politique du système empêche tout partage des connexions via un réseau "
+"WiFi ouvert"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:779
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "System policy prevents modification of personal network settings"
+msgstr ""
+"La politique du système empêche toute modification des paramètres réseau "
+"personnels"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:859
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "System policy prevents modification of network settings for all users"
+msgstr ""
+"La politique du système empêche toute modification des paramètres réseau "
+"pour tous les utilisateurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:946
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "System policy prevents modification of the persistent system hostname"
+msgstr ""
+"La politique du système empêche toute modification du nom d'hôte persistant "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1012
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+#| msgid ""
+#| "System policy prevents modification of the persistent system hostname"
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid ""
+"System policy prevents modification of the persistent global DNS "
+"configuration"
+msgstr ""
+"La politique du système empêche toute modification du nom d'hôte persistant "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1042
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+#| msgid ""
+#| "System policy prevents modification of the persistent system hostname"
+msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "System policy prevents the creation of a checkpoint or its rollback"
+msgstr ""
+"La politique du système empêche toute modification du nom d'hôte persistant "
+"du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1064
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "System policy prevents enabling or disabling WiFi devices"
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "System policy prevents enabling or disabling device statistics"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1085
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "System policy prevents enabling or disabling WiFi devices"
+msgctxt ""
+"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "System policy prevents enabling or disabling connectivity checking"
+msgstr ""
+"La politique du système empêche l'activation ou la désactivation de "
+"périphériques WiFi"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
+msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
+msgid "Cancel foreign task"
+msgstr "Annulation de la tâche externe"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
+msgctxt "Description(org.freedesktop.packagekit.package-install)"
+msgid "Install signed package"
+msgstr "Installer un paquet signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
+msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Install untrusted local file"
+msgstr "Installer un fichier local non signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
+msgid "Install already installed package again"
+msgstr "Installer un paquet signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
+msgid "Install older version of installed package"
+msgstr "Installer un paquet signé"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
+msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid "Trust a key used for signing software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:526
+msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Accept EULA"
+msgstr "Accepter la licence du logiciel"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:638
+msgctxt "Description(org.freedesktop.packagekit.package-remove)"
+msgid "Remove package"
+msgstr "Supprimer un paquet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:733
+msgctxt "Description(org.freedesktop.packagekit.system-update)"
+msgid "Update software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:807
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Change software source parameters"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Change software repository parameters"
+msgstr "Modifier les paramètres des dépôts logiciels"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:835
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Refresh system sources"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Refresh system repositories"
+msgstr "Actualiser la liste des paquets"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:863
+msgctxt ""
+"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid "Set network proxy"
+msgstr "Configurer le proxy réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:953
+msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
+msgid "Reload a device"
+msgstr "Recharger un périphérique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1061
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
+msgid "Upgrade System"
+msgstr "Réparer le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1126
+msgctxt "Description(org.freedesktop.packagekit.repair-system)"
+msgid "Repair System"
+msgstr "Réparer le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1207
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Trigger offline updates"
+msgstr "Lancer des mises à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1284
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Trigger offline updates"
+msgstr "Lancer des mises à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1361
+msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Clear offline update message"
+msgstr "Effacer le message de mise à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
+msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
+msgid ""
+"Authentication is required to cancel a task that was not started by yourself"
+msgstr ""
+"Authentification requise pour annuler une tâche non initiée par vos soins"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install)"
+msgid "Authentication is required to install software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Authentication is required to install untrusted software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
+msgid "Authentication is required to reinstall software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+msgid "Authentication is required to downgrade software"
+msgstr ""
+"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr "Authentification requise pour changer les paramètres des dépôts"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:577
+msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Authentication is required to accept a EULA"
+msgstr "Authentification requise pour accepter une licence"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:690
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-remove)"
+msgid "Authentication is required to remove software"
+msgstr ""
+"Il est nécessaire de s’authentifier pour supprimer un profil de couleur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:765
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-update)"
+msgid "Authentication is required to update software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:816
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Authentication is required to change software source parameters"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Authentication is required to change software repository parameters"
+msgstr "Authentification requise pour changer les paramètres des dépôts"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:844
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Authentication is required to refresh the system sources"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Authentication is required to refresh the system repositories"
+msgstr "Authentification requise pour mettre à jour la liste des paquets"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:912
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr ""
+"Il est nécessaire de s’authentifier pour installer le profil de couleur chez "
+"tous les utilisateurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1002
+msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
+msgid "Authentication is required to reload the device with a new driver"
+msgstr ""
+"Authentification requise pour redémarrer le périphérique avec un nouveau "
+"pilote"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1089
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
+msgid "Authentication is required to upgrade the operating system"
+msgstr "Authentification requise pour mettre le système en hibernation."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1163
+msgctxt "Message(org.freedesktop.packagekit.repair-system)"
+msgid "Authentication is required to repair the installed software"
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1240
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Authentication is required to trigger offline updates"
+msgstr ""
+"Il est nécessaire d'être authentifié pour lancer des mises à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1317
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Authentication is required to trigger offline updates"
+msgstr ""
+"Il est nécessaire d'être authentifié pour lancer des mises à jour hors ligne"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1394
+msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Authentication is required to clear the offline updates message"
+msgstr ""
+"Il est nécessaire d'être authentifié pour effacer le message de mise à jour "
+"hors ligne"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.color.policy:15
 msgctxt "Description(org.freedesktop.color-manager.create-device)"
@@ -411,439 +856,6 @@ msgid ""
 msgstr ""
 "Il est nécessaire de s'authentifier pour modifier des données utilisateur"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "Enable or disable system networking"
-msgstr "Activer ou désactiver le réseau système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
-msgctxt "Description(org.freedesktop.NetworkManager.reload)"
-msgid "Reload NetworkManager configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:119
-msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
-msgid ""
-"Put NetworkManager to sleep or wake it up (should only be used by system "
-"power management)"
-msgstr ""
-"Mettre NetworkManager en veille ou le réveiller (utile uniquement pour la "
-"gestion d'énergie du système)"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:206
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "Enable or disable WiFi devices"
-msgstr "Activer ou désactiver des périphériques WiFi"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:294
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "Enable or disable mobile broadband devices"
-msgstr "Activer ou désactiver des périphériques mobiles à large bande"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:382
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid "Enable or disable WiMAX mobile broadband devices"
-msgstr "Activer ou désactiver des périphériques WiMAX à large bande"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:464
-msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
-msgid "Allow control of network connections"
-msgstr "Autoriser le contrôle des connexions réseau"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:553
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "Connection sharing via a protected WiFi network"
-msgstr "Partage de connexion via un réseau WiFi protégé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:647
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "Connection sharing via an open WiFi network"
-msgstr "Partage de connexion via un réseau WiFi ouvert"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:741
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "Modify personal network connections"
-msgstr "Modifier les connexions du réseau personnel"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:821
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "Modify network connections for all users"
-msgstr "Modifier les connexions réseau pour tous les utilisateurs"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:901
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "Modify persistent system hostname"
-msgstr "Modifier le nom d'hôte persistant du système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:995
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid "Modify persistent global DNS configuration"
-msgstr "Modifier la configuration DNS globale persistante"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1031
-msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "Perform a checkpoint or rollback of interfaces configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1051
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "Enable or disable WiFi devices"
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "Enable or disable device statistics"
-msgstr "Activer ou désactiver des périphériques WiFi"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1070
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
-#| msgid "Enable or disable system networking"
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "Enable or disable connectivity checking"
-msgstr "Activer ou désactiver le réseau système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "System policy prevents enabling or disabling system networking"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation du réseau "
-"du système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:105
-#, fuzzy
-msgctxt "Message(org.freedesktop.NetworkManager.reload)"
-msgid "System policy prevents reloading NetworkManager"
-msgstr "La politique du système empêche le contrôle des connexions réseau"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:159
-msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
-msgid "System policy prevents putting NetworkManager to sleep or waking it up"
-msgstr ""
-"La politique du système empêche la mise en veille et le réveil de "
-"NetworkManager"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:247
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "System policy prevents enabling or disabling WiFi devices"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation de "
-"périphériques WiFi"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:335
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "System policy prevents enabling or disabling mobile broadband devices"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation de "
-"périphériques mobiles à large bande"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:420
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid ""
-"System policy prevents enabling or disabling WiMAX mobile broadband devices"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation de "
-"périphériques WiMAX à large bande"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:505
-msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
-msgid "System policy prevents control of network connections"
-msgstr "La politique du système empêche le contrôle des connexions réseau"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:597
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "System policy prevents sharing connections via a protected WiFi network"
-msgstr ""
-"La politique du système empêche tout partage des connexions via un réseau "
-"WiFi protégé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:691
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "System policy prevents sharing connections via an open WiFi network"
-msgstr ""
-"La politique du système empêche tout partage des connexions via un réseau "
-"WiFi ouvert"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:777
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "System policy prevents modification of personal network settings"
-msgstr ""
-"La politique du système empêche toute modification des paramètres réseau "
-"personnels"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:857
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "System policy prevents modification of network settings for all users"
-msgstr ""
-"La politique du système empêche toute modification des paramètres réseau "
-"pour tous les utilisateurs"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:944
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "System policy prevents modification of the persistent system hostname"
-msgstr ""
-"La politique du système empêche toute modification du nom d'hôte persistant "
-"du système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1009
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-#| msgid ""
-#| "System policy prevents modification of the persistent system hostname"
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid ""
-"System policy prevents modification of the persistent global DNS "
-"configuration"
-msgstr ""
-"La politique du système empêche toute modification du nom d'hôte persistant "
-"du système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1037
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-#| msgid ""
-#| "System policy prevents modification of the persistent system hostname"
-msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "System policy prevents the creation of a checkpoint or its rollback"
-msgstr ""
-"La politique du système empêche toute modification du nom d'hôte persistant "
-"du système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "System policy prevents enabling or disabling WiFi devices"
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "System policy prevents enabling or disabling device statistics"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation de "
-"périphériques WiFi"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1076
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "System policy prevents enabling or disabling WiFi devices"
-msgctxt ""
-"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "System policy prevents enabling or disabling connectivity checking"
-msgstr ""
-"La politique du système empêche l'activation ou la désactivation de "
-"périphériques WiFi"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
-msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
-msgid "Cancel foreign task"
-msgstr "Annulation de la tâche externe"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
-msgctxt "Description(org.freedesktop.packagekit.package-install)"
-msgid "Install signed package"
-msgstr "Installer un paquet signé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
-msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Install untrusted local file"
-msgstr "Installer un fichier local non signé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
-msgid "Install already installed package again"
-msgstr "Installer un paquet signé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
-msgid "Install older version of installed package"
-msgstr "Installer un paquet signé"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
-msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid "Trust a key used for signing software"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:525
-msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Accept EULA"
-msgstr "Accepter la licence du logiciel"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:637
-msgctxt "Description(org.freedesktop.packagekit.package-remove)"
-msgid "Remove package"
-msgstr "Supprimer un paquet"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:732
-msgctxt "Description(org.freedesktop.packagekit.system-update)"
-msgid "Update software"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:806
-msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Change software source parameters"
-msgstr "Modifier les paramètres des dépôts logiciels"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:918
-msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Refresh system sources"
-msgstr "Actualiser la liste des paquets"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1026
-msgctxt ""
-"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid "Set network proxy"
-msgstr "Configurer le proxy réseau"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1116
-msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
-msgid "Reload a device"
-msgstr "Recharger un périphérique"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1224
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
-msgid "Upgrade System"
-msgstr "Réparer le système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1289
-msgctxt "Description(org.freedesktop.packagekit.repair-system)"
-msgid "Repair System"
-msgstr "Réparer le système"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1370
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Trigger offline updates"
-msgstr "Lancer des mises à jour hors ligne"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1447
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Trigger offline updates"
-msgstr "Lancer des mises à jour hors ligne"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1524
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
-msgstr "Effacer le message de mise à jour hors ligne"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
-msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
-msgid ""
-"Authentication is required to cancel a task that was not started by yourself"
-msgstr ""
-"Authentification requise pour annuler une tâche non initiée par vos soins"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-install)"
-msgid "Authentication is required to install software"
-msgstr ""
-"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Authentication is required to install untrusted software"
-msgstr ""
-"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
-msgid "Authentication is required to reinstall software"
-msgstr ""
-"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
-msgid "Authentication is required to downgrade software"
-msgstr ""
-"Il est nécessaire de s'authentifier pour modifier des données utilisateur"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid ""
-"Authentication is required to consider a key used for signing software as "
-"trusted"
-msgstr "Authentification requise pour changer les paramètres des dépôts"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:576
-msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Authentication is required to accept a EULA"
-msgstr "Authentification requise pour accepter une licence"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:689
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-remove)"
-msgid "Authentication is required to remove software"
-msgstr ""
-"Il est nécessaire de s’authentifier pour supprimer un profil de couleur"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:764
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-update)"
-msgid "Authentication is required to update software"
-msgstr ""
-"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:857
-msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Authentication is required to change software source parameters"
-msgstr "Authentification requise pour changer les paramètres des dépôts"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:967
-msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Authentication is required to refresh the system sources"
-msgstr "Authentification requise pour mettre à jour la liste des paquets"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1075
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid ""
-"Authentication is required to set the network proxy used for downloading "
-"software"
-msgstr ""
-"Il est nécessaire de s’authentifier pour installer le profil de couleur chez "
-"tous les utilisateurs"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1165
-msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
-msgid "Authentication is required to reload the device with a new driver"
-msgstr ""
-"Authentification requise pour redémarrer le périphérique avec un nouveau "
-"pilote"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1252
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
-msgid "Authentication is required to upgrade the operating system"
-msgstr "Authentification requise pour mettre le système en hibernation."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1326
-msgctxt "Message(org.freedesktop.packagekit.repair-system)"
-msgid "Authentication is required to repair the installed software"
-msgstr ""
-"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1403
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Authentication is required to trigger offline updates"
-msgstr ""
-"Il est nécessaire d'être authentifié pour lancer des mises à jour hors ligne"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1480
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Authentication is required to trigger offline updates"
-msgstr ""
-"Il est nécessaire d'être authentifié pour lancer des mises à jour hors ligne"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1557
-msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Authentication is required to clear the offline updates message"
-msgstr ""
-"Il est nécessaire d'être authentifié pour effacer le message de mise à jour "
-"hors ligne"
-
 #: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
 msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
 msgid "Run the polkit example program Frobnicate"
@@ -869,6 +881,697 @@ msgid "Authentication is required to run a program as another user"
 msgstr ""
 "Authentification requise pour permettre aux utilisateurs non connectés "
 "d'exécuter des programmes."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
+msgctxt "Description(org.freedesktop.locale1.set-locale)"
+msgid "Set system locale"
+msgstr "Définir la langue du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
+msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
+msgid "Set system keyboard settings"
+msgstr "Définir les paramètres de clavier du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
+msgctxt "Message(org.freedesktop.locale1.set-locale)"
+msgid "Authentication is required to set the system locale."
+msgstr "Authentification requise pour définir la langue du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
+msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
+msgid "Authentication is required to set the system keyboard settings."
+msgstr ""
+"Authentification requise pour définir les paramètres de clavier du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "Définir l'heure du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "Définir le fuseau horaire du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr ""
+"Positionner l'horloge matérielle à l'heure locale ou sur le temps universel "
+"coordonné (UTC)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr "Activer ou désactiver la synchronisation de l'heure avec le réseau"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+#| msgid "Authentication is required to set the system timezone."
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr "Authentification requise pour définir le fuseau horaire du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr "Authentification requise pour définir le fuseau horaire du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr ""
+"Authentification requise pour positionner l'horloge matérielle à l'heure "
+"locale ou sur le temps universel coordonné (UTC)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr ""
+"Authentification requise pour activer ou désactiver la synchronisation de "
+"l'heure avec le réseau."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
+msgctxt "Description(org.freedesktop.systemd1.reply-password)"
+msgid "Send passphrase back to system"
+msgstr "Renvoyer la phrase secrète au système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:73
+msgctxt "Description(org.freedesktop.systemd1.manage-units)"
+msgid "Manage system services or other units"
+msgstr "Gérer les services système ou les unités"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:133
+msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Manage system service or unit files"
+msgstr "Gérer le service système ou ses fichiers unités"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:193
+msgctxt "Description(org.freedesktop.systemd1.set-environment)"
+msgid "Set or unset system and service manager environment variables"
+msgstr ""
+"Définir ou supprimer des variables d'environnement du système ou du "
+"gestionnaire de services"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:253
+msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
+msgid "Reload the systemd state"
+msgstr "Recharger l'état de systemd"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:37
+msgctxt "Message(org.freedesktop.systemd1.reply-password)"
+msgid ""
+"Authentication is required to send the entered passphrase back to the system."
+msgstr "Authentification requise pour renvoyer la phrase secrète au système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:99
+msgctxt "Message(org.freedesktop.systemd1.manage-units)"
+msgid "Authentication is required to manage system services or other units."
+msgstr ""
+"Authentification requise pour gérer les services système ou les unités."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:159
+msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Authentication is required to manage system service or unit files."
+msgstr ""
+"Authentification requise pour gérer le service système ou ses fichiers "
+"unités."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:219
+msgctxt "Message(org.freedesktop.systemd1.set-environment)"
+msgid ""
+"Authentication is required to set or unset system and service manager "
+"environment variables."
+msgstr ""
+"Authentification requise pour définir ou supprimer des variables "
+"d'environnement du système ou du gestionnaire de services."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:279
+msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
+msgid "Authentication is required to reload the systemd state."
+msgstr "Authentification requise pour recharger l'état de systemd"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
+msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid "Allow applications to inhibit system shutdown"
+msgstr "Permet aux applications d'empêcher l'arrêt du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:71
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Allow applications to delay system shutdown"
+msgstr "Permet aux applications de retarder l'arrêt du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:132
+msgctxt "Description(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Allow applications to inhibit system sleep"
+msgstr "Permet aux applications d'empêcher la mise en veille du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:192
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Allow applications to delay system sleep"
+msgstr "Permet aux applications de retarder la mise en veille du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:254
+msgctxt "Description(org.freedesktop.login1.inhibit-block-idle)"
+msgid "Allow applications to inhibit automatic system suspend"
+msgstr ""
+"Permet aux applications d'empêcher l'hibernation automatique du système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:314
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid "Allow applications to inhibit system handling of the power key"
+msgstr ""
+"Permet aux applications d'empêcher la gestion du bouton d'alimentation du "
+"système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:375
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid "Allow applications to inhibit system handling of the suspend key"
+msgstr ""
+"Permet aux applications d'empêcher la gestion du bouton de mise en veille du "
+"système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:436
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid "Allow applications to inhibit system handling of the hibernate key"
+msgstr ""
+"Permet aux applications d'empêcher la gestion du bouton d'hibernation du "
+"système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:496
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid "Allow applications to inhibit system handling of the lid switch"
+msgstr ""
+"Permet aux applications d'empêcher la gestion par le système du rabat de "
+"l'écran"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:556
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.login1.set-user-linger)"
+#| msgid "Allow non-logged-in users to run programs"
+msgctxt "Description(org.freedesktop.login1.set-self-linger)"
+msgid "Allow non-logged-in user to run programs"
+msgstr "Permet aux utilisateurs non connectés d'exécuter des programmes"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:592
+msgctxt "Description(org.freedesktop.login1.set-user-linger)"
+msgid "Allow non-logged-in users to run programs"
+msgstr "Permet aux utilisateurs non connectés d'exécuter des programmes"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:654
+msgctxt "Description(org.freedesktop.login1.attach-device)"
+msgid "Allow attaching devices to seats"
+msgstr "Permet d'associer des périphériques à des postes (seats)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:715
+msgctxt "Description(org.freedesktop.login1.flush-devices)"
+msgid "Flush device to seat attachments"
+msgstr "Révoquer les associations de périphériques aux postes (seats)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:775
+msgctxt "Description(org.freedesktop.login1.power-off)"
+msgid "Power off the system"
+msgstr "Éteindre le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:838
+msgctxt "Description(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid "Power off the system while other users are logged in"
+msgstr "Éteindre le système alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:901
+msgctxt "Description(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid "Power off the system while an application asked to inhibit it"
+msgstr "Éteindre le système alors qu'une application a demandé de l'empêcher"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:962
+msgctxt "Description(org.freedesktop.login1.reboot)"
+msgid "Reboot the system"
+msgstr "Redémarrer le système"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1025
+msgctxt "Description(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid "Reboot the system while other users are logged in"
+msgstr "Redémarrer le système alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1088
+msgctxt "Description(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid "Reboot the system while an application asked to inhibit it"
+msgstr "Redémarrer le système alors qu'une application a demandé de l'empêcher"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1149
+msgctxt "Description(org.freedesktop.login1.suspend)"
+msgid "Suspend the system"
+msgstr "Mettre le système en veille"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1211
+msgctxt "Description(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid "Suspend the system while other users are logged in"
+msgstr ""
+"Mettre le système en veille alors que d'autres utilisateurs sont connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1274
+msgctxt "Description(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid "Suspend the system while an application asked to inhibit it"
+msgstr ""
+"Mettre le système en veille alors qu'une application a demandé de l'empêcher"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1335
+msgctxt "Description(org.freedesktop.login1.hibernate)"
+msgid "Hibernate the system"
+msgstr "Mettre le système en hibernation"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1395
+msgctxt "Description(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid "Hibernate the system while other users are logged in"
+msgstr ""
+"Mettre le système en hibernation alors que d'autres utilisateurs sont "
+"connectés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1456
+msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid "Hibernate the system while an application asked to inhibit it"
+msgstr ""
+"Mettre le système en hibernation alors qu'une application a demandé de "
+"l'empêcher"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1517
+msgctxt "Description(org.freedesktop.login1.manage)"
+msgid "Manage active sessions, users and seats"
+msgstr "Gérer les sessions actives, les utilisateurs et les postes (seats)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1575
+msgctxt "Description(org.freedesktop.login1.lock-sessions)"
+msgid "Lock or unlock active sessions"
+msgstr "Verrouiller ou déverrouiller des sessions actives"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1635
+msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid "Allow indication to the firmware to boot to setup interface"
+msgstr ""
+"Permet d'indiquer au micrologiciel de démarrer sur l'interface de "
+"configuration"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1695
+msgctxt "Description(org.freedesktop.login1.set-wall-message)"
+msgid "Set a wall message"
+msgstr "Définir un message wall"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:36
+msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid ""
+"Authentication is required for an application to inhibit system shutdown."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher l'arrêt "
+"du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:97
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Authentication is required for an application to delay system shutdown."
+msgstr ""
+"Authentification requise pour permettre à une application de retarder "
+"l'arrêt du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:158
+msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Authentication is required for an application to inhibit system sleep."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher la mise "
+"en veille du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:219
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Authentication is required for an application to delay system sleep."
+msgstr ""
+"Authentification requise pour permettre à une application de retarder la "
+"mise en veille du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:280
+msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
+msgid ""
+"Authentication is required for an application to inhibit automatic system "
+"suspend."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher "
+"l'hibernation automatique du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:340
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the power key."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher la "
+"gestion du bouton d'alimentation du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:401
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the suspend key."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher la "
+"gestion du bouton de mise en veille du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:462
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the hibernate key."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher la "
+"gestion du bouton d'hibernation du système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:522
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the lid switch."
+msgstr ""
+"Authentification requise pour permettre à une application d'empêcher la "
+"gestion par le système du rabat de l'écran."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:570
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.login1.set-user-linger)"
+#| msgid "Authentication is required to run programs as a non-logged-in user."
+msgctxt "Message(org.freedesktop.login1.set-self-linger)"
+msgid "Explicit request is required to run programs as a non-logged-in user."
+msgstr ""
+"Authentification requise pour permettre aux utilisateurs non connectés "
+"d'exécuter des programmes."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:619
+msgctxt "Message(org.freedesktop.login1.set-user-linger)"
+msgid "Authentication is required to run programs as a non-logged-in user."
+msgstr ""
+"Authentification requise pour permettre aux utilisateurs non connectés "
+"d'exécuter des programmes."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:680
+msgctxt "Message(org.freedesktop.login1.attach-device)"
+msgid "Authentication is required for attaching a device to a seat."
+msgstr ""
+"Authentification requise pour associer un périphérique à un poste (seat)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:741
+msgctxt "Message(org.freedesktop.login1.flush-devices)"
+msgid ""
+"Authentication is required for resetting how devices are attached to seats."
+msgstr ""
+"Authentification requise pour révoquer les associations de périphériques aux "
+"postes (seats)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:802
+msgctxt "Message(org.freedesktop.login1.power-off)"
+msgid "Authentication is required for powering off the system."
+msgstr "Authentification requise pour éteindre le système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:865
+msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid ""
+"Authentication is required for powering off the system while other users are "
+"logged in."
+msgstr ""
+"Authentification requise pour éteindre le système alors que d'autres "
+"utilisateurs sont connectés."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:927
+msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid ""
+"Authentication is required for powering off the system while an application "
+"asked to inhibit it."
+msgstr ""
+"Authentification requise pour éteindre le système alors qu'une application a "
+"demandé de l'empêcher."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:989
+msgctxt "Message(org.freedesktop.login1.reboot)"
+msgid "Authentication is required for rebooting the system."
+msgstr "Authentification requise pour redémarrer le système."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1052
+msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid ""
+"Authentication is required for rebooting the system while other users are "
+"logged in."
+msgstr ""
+"Authentification requise pour redémarrer le système alors que d'autres "
+"utilisateurs sont connectés."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1114
+msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid ""
+"Authentication is required for rebooting the system while an application "
+"asked to inhibit it."
+msgstr ""
+"Authentification requise pour redémarrer le système alors qu'une application "
+"a demandé de l'empêcher."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1176
+msgctxt "Message(org.freedesktop.login1.suspend)"
+msgid "Authentication is required for suspending the system."
+msgstr "Authentification requise pour mettre le système en veille."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1238
+msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid ""
+"Authentication is required for suspending the system while other users are "
+"logged in."
+msgstr ""
+"Authentification requise pour mettre le système en veille alors que d'autres "
+"utilisateurs sont connectés."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1300
+msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid ""
+"Authentication is required for suspending the system while an application "
+"asked to inhibit it."
+msgstr ""
+"Authentification requise pour mettre le système en veille alors qu'une "
+"application a demandé de l'empêcher."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1361
+msgctxt "Message(org.freedesktop.login1.hibernate)"
+msgid "Authentication is required for hibernating the system."
+msgstr "Authentification requise pour mettre le système en hibernation."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1421
+msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid ""
+"Authentication is required for hibernating the system while other users are "
+"logged in."
+msgstr ""
+"Authentification requise pour mettre le système en hibernation alors que "
+"d'autres utilisateurs sont connectés."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1482
+msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid ""
+"Authentication is required for hibernating the system while an application "
+"asked to inhibit it."
+msgstr ""
+"Authentification requise pour mettre le système en hibernation alors qu'une "
+"application a demandé de l'empêcher."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1542
+msgctxt "Message(org.freedesktop.login1.manage)"
+msgid ""
+"Authentication is required for managing active sessions, users and seats."
+msgstr ""
+"Authentification requise pour gérer les sessions actives, les utilisateurs "
+"et les postes (seats)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1601
+msgctxt "Message(org.freedesktop.login1.lock-sessions)"
+msgid "Authentication is required to lock or unlock active sessions."
+msgstr ""
+"Authentification requise pour verrouiller ou déverrouiller des sessions "
+"actives."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1661
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid ""
+"Authentication is required to indicate to the firmware to boot to setup "
+"interface."
+msgstr ""
+"Il est nécessaire d'être authentifié pour réparer les logiciels installés"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1720
+msgctxt "Message(org.freedesktop.login1.set-wall-message)"
+msgid "Authentication is required to set a wall message"
+msgstr "Authentification requise pour définir un message wall."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:10
+msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
+msgid "Set host name"
+msgstr "Définir le nom d'hôte"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:72
+msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
+msgid "Set static host name"
+msgstr "Définir le nom d'hôte statique"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:134
+msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
+msgid "Set machine information"
+msgstr "Définir les informations sur la machine"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:37
+msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
+msgid "Authentication is required to set the local host name."
+msgstr "Authentification requise pour définir le nom d'hôte local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:99
+msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
+msgid ""
+"Authentication is required to set the statically configured local host name, "
+"as well as the pretty host name."
+msgstr ""
+"Authentification requise pour définir le nom d'hôte local de manière "
+"statique, tout comme le nom d'hôte familier."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:161
+msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
+msgid "Authentication is required to set local machine information."
+msgstr ""
+"Authentification requise pour définir les informations sur la machine locale."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
+msgctxt "Description(org.freedesktop.import1.import)"
+msgid "Import a VM or container image"
+msgstr "Importer une image de machine virtuelle (VM) ou de conteneur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:68
+msgctxt "Description(org.freedesktop.import1.export)"
+msgid "Export a VM or container image"
+msgstr "Exporter une image de machine virtuelle (VM) ou de conteneur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:126
+msgctxt "Description(org.freedesktop.import1.pull)"
+msgid "Download a VM or container image"
+msgstr "Télécharger une image de machine virtuelle (VM) ou de conteneur"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:35
+msgctxt "Message(org.freedesktop.import1.import)"
+msgid "Authentication is required to import a VM or container image"
+msgstr ""
+"Authentification requise pour importer une image de machine virtuelle (VM) "
+"ou de conteneur."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:93
+msgctxt "Message(org.freedesktop.import1.export)"
+msgid "Authentication is required to export a VM or container image"
+msgstr ""
+"Authentification requise pour exporter une image de machine virtuelle (VM) "
+"ou de conteneur."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:151
+msgctxt "Message(org.freedesktop.import1.pull)"
+msgid "Authentication is required to download a VM or container image"
+msgstr ""
+"Authentification requise pour télécharger une image de machine virtuelle "
+"(VM) ou de conteneur."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:10
+msgctxt "Description(org.freedesktop.machine1.login)"
+msgid "Log into a local container"
+msgstr "Connexion dans un conteneur local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:70
+msgctxt "Description(org.freedesktop.machine1.host-login)"
+msgid "Log into the local host"
+msgstr "Connexion à l'hôte local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:128
+msgctxt "Description(org.freedesktop.machine1.shell)"
+msgid "Acquire a shell in a local container"
+msgstr "Obtenir une interface système dans un conteneur local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:187
+msgctxt "Description(org.freedesktop.machine1.host-shell)"
+msgid "Acquire a shell on the local host"
+msgstr "Obtenir une interface système sur l'hôte local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:246
+msgctxt "Description(org.freedesktop.machine1.open-pty)"
+msgid "Acquire a pseudo TTY in a local container"
+msgstr "Obtenir un pseudo terminal dans un conteneur local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:304
+msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
+msgid "Acquire a pseudo TTY on the local host"
+msgstr "Obtenir un pseudo terminal sur l'hôte local"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:362
+msgctxt "Description(org.freedesktop.machine1.manage-machines)"
+msgid "Manage local virtual machines and containers"
+msgstr "Gérer les machines virtuelles (VM) et conteneurs locaux"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:421
+msgctxt "Description(org.freedesktop.machine1.manage-images)"
+msgid "Manage local virtual machine and container images"
+msgstr "Gérer les images locales de machines virtuelles (VM) et de conteneurs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:36
+msgctxt "Message(org.freedesktop.machine1.login)"
+msgid "Authentication is required to log into a local container."
+msgstr ""
+"Authentification requise pour permettre la connexion dans un conteneur local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:95
+msgctxt "Message(org.freedesktop.machine1.host-login)"
+msgid "Authentication is required to log into the local host."
+msgstr "Authentification requise pour permettre la connexion à l'hôte local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:153
+msgctxt "Message(org.freedesktop.machine1.shell)"
+msgid "Authentication is required to acquire a shell in a local container."
+msgstr ""
+"Authentification requise pour obtenir une interface système dans un "
+"conteneur local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:212
+msgctxt "Message(org.freedesktop.machine1.host-shell)"
+msgid "Authentication is required to acquire a shell on the local host."
+msgstr ""
+"Authentification requise pour obtenir une interface système sur l'hôte local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:271
+msgctxt "Message(org.freedesktop.machine1.open-pty)"
+msgid ""
+"Authentication is required to acquire a pseudo TTY in a local container."
+msgstr ""
+"Authentification requise pour obtenir un pseudo terminal dans un conteneur "
+"local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:329
+msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
+msgid "Authentication is required to acquire a pseudo TTY on the local host."
+msgstr ""
+"Authentification requise pour obtenir un pseudo terminal sur l'hôte local."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:387
+msgctxt "Message(org.freedesktop.machine1.manage-machines)"
+msgid ""
+"Authentication is required to manage local virtual machines and containers."
+msgstr ""
+"Authentification requise pour gérer les machines virtuelles (VM) et les "
+"conteneurs locaux."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:446
+msgctxt "Message(org.freedesktop.machine1.manage-images)"
+msgid ""
+"Authentication is required to manage local virtual machine and container "
+"images."
+msgstr ""
+"Authentification requise pour gérer les images locales de machines "
+"virtuelles (VM) et de conteneurs."
 
 #~ msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
 #~ msgid "Change your own user data"
@@ -1028,575 +1731,6 @@ msgstr ""
 #~ msgstr ""
 #~ "Authentification requise pour permettre à une application de retarder "
 #~ "l'arrêt du système."
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-time)"
-#~ msgid "Set system time"
-#~ msgstr "Définir l'heure du système"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-#~ msgid "Set system timezone"
-#~ msgstr "Définir le fuseau horaire du système"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-#~ msgid "Set RTC to local timezone or UTC"
-#~ msgstr ""
-#~ "Positionner l'horloge matérielle à l'heure locale ou sur le temps "
-#~ "universel coordonné (UTC)"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-#~ msgid "Turn network time synchronization on or off"
-#~ msgstr "Activer ou désactiver la synchronisation de l'heure avec le réseau"
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#~ msgid "Authentication is required to set the system timezone."
-#~ msgstr "Authentification requise pour définir le fuseau horaire du système."
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-#~ msgid ""
-#~ "Authentication is required to control whether the RTC stores the local or "
-#~ "UTC time."
-#~ msgstr ""
-#~ "Authentification requise pour positionner l'horloge matérielle à l'heure "
-#~ "locale ou sur le temps universel coordonné (UTC)."
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-#~ msgid ""
-#~ "Authentication is required to control whether network time "
-#~ "synchronization shall be enabled."
-#~ msgstr ""
-#~ "Authentification requise pour activer ou désactiver la synchronisation de "
-#~ "l'heure avec le réseau."
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
-#~ msgid "Allow applications to inhibit system shutdown"
-#~ msgstr "Permet aux applications d'empêcher l'arrêt du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-delay-shutdown)"
-#~ msgid "Allow applications to delay system shutdown"
-#~ msgstr "Permet aux applications de retarder l'arrêt du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-sleep)"
-#~ msgid "Allow applications to inhibit system sleep"
-#~ msgstr "Permet aux applications d'empêcher la mise en veille du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-delay-sleep)"
-#~ msgid "Allow applications to delay system sleep"
-#~ msgstr "Permet aux applications de retarder la mise en veille du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-idle)"
-#~ msgid "Allow applications to inhibit automatic system suspend"
-#~ msgstr ""
-#~ "Permet aux applications d'empêcher l'hibernation automatique du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-power-key)"
-#~ msgid "Allow applications to inhibit system handling of the power key"
-#~ msgstr ""
-#~ "Permet aux applications d'empêcher la gestion du bouton d'alimentation du "
-#~ "système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-suspend-key)"
-#~ msgid "Allow applications to inhibit system handling of the suspend key"
-#~ msgstr ""
-#~ "Permet aux applications d'empêcher la gestion du bouton de mise en veille "
-#~ "du système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
-#~ msgid "Allow applications to inhibit system handling of the hibernate key"
-#~ msgstr ""
-#~ "Permet aux applications d'empêcher la gestion du bouton d'hibernation du "
-#~ "système"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
-#~ msgid "Allow applications to inhibit system handling of the lid switch"
-#~ msgstr ""
-#~ "Permet aux applications d'empêcher la gestion par le système du rabat de "
-#~ "l'écran"
-
-#~ msgctxt "Description(org.freedesktop.login1.set-user-linger)"
-#~ msgid "Allow non-logged-in users to run programs"
-#~ msgstr "Permet aux utilisateurs non connectés d'exécuter des programmes"
-
-#~ msgctxt "Description(org.freedesktop.login1.attach-device)"
-#~ msgid "Allow attaching devices to seats"
-#~ msgstr "Permet d'associer des périphériques à des postes (seats)"
-
-#~ msgctxt "Description(org.freedesktop.login1.flush-devices)"
-#~ msgid "Flush device to seat attachments"
-#~ msgstr "Révoquer les associations de périphériques aux postes (seats)"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off)"
-#~ msgid "Power off the system"
-#~ msgstr "Éteindre le système"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off-multiple-sessions)"
-#~ msgid "Power off the system while other users are logged in"
-#~ msgstr "Éteindre le système alors que d'autres utilisateurs sont connectés"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off-ignore-inhibit)"
-#~ msgid "Power off the system while an application asked to inhibit it"
-#~ msgstr ""
-#~ "Éteindre le système alors qu'une application a demandé de l'empêcher"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot)"
-#~ msgid "Reboot the system"
-#~ msgstr "Redémarrer le système"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot-multiple-sessions)"
-#~ msgid "Reboot the system while other users are logged in"
-#~ msgstr ""
-#~ "Redémarrer le système alors que d'autres utilisateurs sont connectés"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot-ignore-inhibit)"
-#~ msgid "Reboot the system while an application asked to inhibit it"
-#~ msgstr ""
-#~ "Redémarrer le système alors qu'une application a demandé de l'empêcher"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend)"
-#~ msgid "Suspend the system"
-#~ msgstr "Mettre le système en veille"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend-multiple-sessions)"
-#~ msgid "Suspend the system while other users are logged in"
-#~ msgstr ""
-#~ "Mettre le système en veille alors que d'autres utilisateurs sont connectés"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend-ignore-inhibit)"
-#~ msgid "Suspend the system while an application asked to inhibit it"
-#~ msgstr ""
-#~ "Mettre le système en veille alors qu'une application a demandé de "
-#~ "l'empêcher"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate)"
-#~ msgid "Hibernate the system"
-#~ msgstr "Mettre le système en hibernation"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate-multiple-sessions)"
-#~ msgid "Hibernate the system while other users are logged in"
-#~ msgstr ""
-#~ "Mettre le système en hibernation alors que d'autres utilisateurs sont "
-#~ "connectés"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
-#~ msgid "Hibernate the system while an application asked to inhibit it"
-#~ msgstr ""
-#~ "Mettre le système en hibernation alors qu'une application a demandé de "
-#~ "l'empêcher"
-
-#~ msgctxt "Description(org.freedesktop.login1.manage)"
-#~ msgid "Manage active sessions, users and seats"
-#~ msgstr "Gérer les sessions actives, les utilisateurs et les postes (seats)"
-
-#~ msgctxt "Description(org.freedesktop.login1.lock-sessions)"
-#~ msgid "Lock or unlock active sessions"
-#~ msgstr "Verrouiller ou déverrouiller des sessions actives"
-
-#~ msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
-#~ msgid "Allow indication to the firmware to boot to setup interface"
-#~ msgstr ""
-#~ "Permet d'indiquer au micrologiciel de démarrer sur l'interface de "
-#~ "configuration"
-
-#~ msgctxt "Description(org.freedesktop.login1.set-wall-message)"
-#~ msgid "Set a wall message"
-#~ msgstr "Définir un message wall"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system shutdown."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher "
-#~ "l'arrêt du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to delay system shutdown."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application de retarder "
-#~ "l'arrêt du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system sleep."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher la "
-#~ "mise en veille du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
-#~ msgid "Authentication is required for an application to delay system sleep."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application de retarder la "
-#~ "mise en veille du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit automatic system "
-#~ "suspend."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher "
-#~ "l'hibernation automatique du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the power key."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher la "
-#~ "gestion du bouton d'alimentation du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the suspend key."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher la "
-#~ "gestion du bouton de mise en veille du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the hibernate key."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher la "
-#~ "gestion du bouton d'hibernation du système."
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the lid switch."
-#~ msgstr ""
-#~ "Authentification requise pour permettre à une application d'empêcher la "
-#~ "gestion par le système du rabat de l'écran."
-
-#~ msgctxt "Message(org.freedesktop.login1.set-user-linger)"
-#~ msgid "Authentication is required to run programs as a non-logged-in user."
-#~ msgstr ""
-#~ "Authentification requise pour permettre aux utilisateurs non connectés "
-#~ "d'exécuter des programmes."
-
-#~ msgctxt "Message(org.freedesktop.login1.attach-device)"
-#~ msgid "Authentication is required for attaching a device to a seat."
-#~ msgstr ""
-#~ "Authentification requise pour associer un périphérique à un poste (seat)."
-
-#~ msgctxt "Message(org.freedesktop.login1.flush-devices)"
-#~ msgid ""
-#~ "Authentication is required for resetting how devices are attached to "
-#~ "seats."
-#~ msgstr ""
-#~ "Authentification requise pour révoquer les associations de périphériques "
-#~ "aux postes (seats)."
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off)"
-#~ msgid "Authentication is required for powering off the system."
-#~ msgstr "Authentification requise pour éteindre le système."
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while other users "
-#~ "are logged in."
-#~ msgstr ""
-#~ "Authentification requise pour éteindre le système alors que d'autres "
-#~ "utilisateurs sont connectés."
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr ""
-#~ "Authentification requise pour éteindre le système alors qu'une "
-#~ "application a demandé de l'empêcher."
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot)"
-#~ msgid "Authentication is required for rebooting the system."
-#~ msgstr "Authentification requise pour redémarrer le système."
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while other users are "
-#~ "logged in."
-#~ msgstr ""
-#~ "Authentification requise pour redémarrer le système alors que d'autres "
-#~ "utilisateurs sont connectés."
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr ""
-#~ "Authentification requise pour redémarrer le système alors qu'une "
-#~ "application a demandé de l'empêcher."
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend)"
-#~ msgid "Authentication is required for suspending the system."
-#~ msgstr "Authentification requise pour mettre le système en veille."
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while other users "
-#~ "are logged in."
-#~ msgstr ""
-#~ "Authentification requise pour mettre le système en veille alors que "
-#~ "d'autres utilisateurs sont connectés."
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr ""
-#~ "Authentification requise pour mettre le système en veille alors qu'une "
-#~ "application a demandé de l'empêcher."
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate)"
-#~ msgid "Authentication is required for hibernating the system."
-#~ msgstr "Authentification requise pour mettre le système en hibernation."
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while other users "
-#~ "are logged in."
-#~ msgstr ""
-#~ "Authentification requise pour mettre le système en hibernation alors que "
-#~ "d'autres utilisateurs sont connectés."
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr ""
-#~ "Authentification requise pour mettre le système en hibernation alors "
-#~ "qu'une application a demandé de l'empêcher."
-
-#~ msgctxt "Message(org.freedesktop.login1.manage)"
-#~ msgid ""
-#~ "Authentication is required for managing active sessions, users and seats."
-#~ msgstr ""
-#~ "Authentification requise pour gérer les sessions actives, les "
-#~ "utilisateurs et les postes (seats)."
-
-#~ msgctxt "Message(org.freedesktop.login1.lock-sessions)"
-#~ msgid "Authentication is required to lock or unlock active sessions."
-#~ msgstr ""
-#~ "Authentification requise pour verrouiller ou déverrouiller des sessions "
-#~ "actives."
-
-#~ msgctxt "Message(org.freedesktop.login1.set-wall-message)"
-#~ msgid "Authentication is required to set a wall message"
-#~ msgstr "Authentification requise pour définir un message wall."
-
-#~ msgctxt "Description(org.freedesktop.systemd1.reply-password)"
-#~ msgid "Send passphrase back to system"
-#~ msgstr "Renvoyer la phrase secrète au système"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.manage-units)"
-#~ msgid "Manage system services or other units"
-#~ msgstr "Gérer les services système ou les unités"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
-#~ msgid "Manage system service or unit files"
-#~ msgstr "Gérer le service système ou ses fichiers unités"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.set-environment)"
-#~ msgid "Set or unset system and service manager environment variables"
-#~ msgstr ""
-#~ "Définir ou supprimer des variables d'environnement du système ou du "
-#~ "gestionnaire de services"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
-#~ msgid "Reload the systemd state"
-#~ msgstr "Recharger l'état de systemd"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.reply-password)"
-#~ msgid ""
-#~ "Authentication is required to send the entered passphrase back to the "
-#~ "system."
-#~ msgstr ""
-#~ "Authentification requise pour renvoyer la phrase secrète au système."
-
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-units)"
-#~ msgid "Authentication is required to manage system services or other units."
-#~ msgstr ""
-#~ "Authentification requise pour gérer les services système ou les unités."
-
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
-#~ msgid "Authentication is required to manage system service or unit files."
-#~ msgstr ""
-#~ "Authentification requise pour gérer le service système ou ses fichiers "
-#~ "unités."
-
-#~ msgctxt "Message(org.freedesktop.systemd1.set-environment)"
-#~ msgid ""
-#~ "Authentication is required to set or unset system and service manager "
-#~ "environment variables."
-#~ msgstr ""
-#~ "Authentification requise pour définir ou supprimer des variables "
-#~ "d'environnement du système ou du gestionnaire de services."
-
-#~ msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
-#~ msgid "Authentication is required to reload the systemd state."
-#~ msgstr "Authentification requise pour recharger l'état de systemd"
-
-#~ msgctxt "Description(org.freedesktop.locale1.set-locale)"
-#~ msgid "Set system locale"
-#~ msgstr "Définir la langue du système"
-
-#~ msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
-#~ msgid "Set system keyboard settings"
-#~ msgstr "Définir les paramètres de clavier du système"
-
-#~ msgctxt "Message(org.freedesktop.locale1.set-locale)"
-#~ msgid "Authentication is required to set the system locale."
-#~ msgstr "Authentification requise pour définir la langue du système."
-
-#~ msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
-#~ msgid "Authentication is required to set the system keyboard settings."
-#~ msgstr ""
-#~ "Authentification requise pour définir les paramètres de clavier du "
-#~ "système."
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
-#~ msgid "Set host name"
-#~ msgstr "Définir le nom d'hôte"
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
-#~ msgid "Set static host name"
-#~ msgstr "Définir le nom d'hôte statique"
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
-#~ msgid "Set machine information"
-#~ msgstr "Définir les informations sur la machine"
-
-#~ msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
-#~ msgid "Authentication is required to set the local host name."
-#~ msgstr "Authentification requise pour définir le nom d'hôte local."
-
-#~ msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
-#~ msgid ""
-#~ "Authentication is required to set the statically configured local host "
-#~ "name, as well as the pretty host name."
-#~ msgstr ""
-#~ "Authentification requise pour définir le nom d'hôte local de manière "
-#~ "statique, tout comme le nom d'hôte familier."
-
-#~ msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
-#~ msgid "Authentication is required to set local machine information."
-#~ msgstr ""
-#~ "Authentification requise pour définir les informations sur la machine "
-#~ "locale."
-
-#~ msgctxt "Description(org.freedesktop.import1.import)"
-#~ msgid "Import a VM or container image"
-#~ msgstr "Importer une image de machine virtuelle (VM) ou de conteneur"
-
-#~ msgctxt "Description(org.freedesktop.import1.export)"
-#~ msgid "Export a VM or container image"
-#~ msgstr "Exporter une image de machine virtuelle (VM) ou de conteneur"
-
-#~ msgctxt "Description(org.freedesktop.import1.pull)"
-#~ msgid "Download a VM or container image"
-#~ msgstr "Télécharger une image de machine virtuelle (VM) ou de conteneur"
-
-#~ msgctxt "Message(org.freedesktop.import1.import)"
-#~ msgid "Authentication is required to import a VM or container image"
-#~ msgstr ""
-#~ "Authentification requise pour importer une image de machine virtuelle "
-#~ "(VM) ou de conteneur."
-
-#~ msgctxt "Message(org.freedesktop.import1.export)"
-#~ msgid "Authentication is required to export a VM or container image"
-#~ msgstr ""
-#~ "Authentification requise pour exporter une image de machine virtuelle "
-#~ "(VM) ou de conteneur."
-
-#~ msgctxt "Message(org.freedesktop.import1.pull)"
-#~ msgid "Authentication is required to download a VM or container image"
-#~ msgstr ""
-#~ "Authentification requise pour télécharger une image de machine virtuelle "
-#~ "(VM) ou de conteneur."
-
-#~ msgctxt "Description(org.freedesktop.machine1.login)"
-#~ msgid "Log into a local container"
-#~ msgstr "Connexion dans un conteneur local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-login)"
-#~ msgid "Log into the local host"
-#~ msgstr "Connexion à l'hôte local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.shell)"
-#~ msgid "Acquire a shell in a local container"
-#~ msgstr "Obtenir une interface système dans un conteneur local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-shell)"
-#~ msgid "Acquire a shell on the local host"
-#~ msgstr "Obtenir une interface système sur l'hôte local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.open-pty)"
-#~ msgid "Acquire a pseudo TTY in a local container"
-#~ msgstr "Obtenir un pseudo terminal dans un conteneur local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
-#~ msgid "Acquire a pseudo TTY on the local host"
-#~ msgstr "Obtenir un pseudo terminal sur l'hôte local"
-
-#~ msgctxt "Description(org.freedesktop.machine1.manage-machines)"
-#~ msgid "Manage local virtual machines and containers"
-#~ msgstr "Gérer les machines virtuelles (VM) et conteneurs locaux"
-
-#~ msgctxt "Description(org.freedesktop.machine1.manage-images)"
-#~ msgid "Manage local virtual machine and container images"
-#~ msgstr ""
-#~ "Gérer les images locales de machines virtuelles (VM) et de conteneurs"
-
-#~ msgctxt "Message(org.freedesktop.machine1.login)"
-#~ msgid "Authentication is required to log into a local container."
-#~ msgstr ""
-#~ "Authentification requise pour permettre la connexion dans un conteneur "
-#~ "local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-login)"
-#~ msgid "Authentication is required to log into the local host."
-#~ msgstr ""
-#~ "Authentification requise pour permettre la connexion à l'hôte local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.shell)"
-#~ msgid "Authentication is required to acquire a shell in a local container."
-#~ msgstr ""
-#~ "Authentification requise pour obtenir une interface système dans un "
-#~ "conteneur local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-shell)"
-#~ msgid "Authentication is required to acquire a shell on the local host."
-#~ msgstr ""
-#~ "Authentification requise pour obtenir une interface système sur l'hôte "
-#~ "local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY in a local container."
-#~ msgstr ""
-#~ "Authentification requise pour obtenir un pseudo terminal dans un "
-#~ "conteneur local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY on the local host."
-#~ msgstr ""
-#~ "Authentification requise pour obtenir un pseudo terminal sur l'hôte local."
-
-#~ msgctxt "Message(org.freedesktop.machine1.manage-machines)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machines and "
-#~ "containers."
-#~ msgstr ""
-#~ "Authentification requise pour gérer les machines virtuelles (VM) et les "
-#~ "conteneurs locaux."
-
-#~ msgctxt "Message(org.freedesktop.machine1.manage-images)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machine and container "
-#~ "images."
-#~ msgstr ""
-#~ "Authentification requise pour gérer les images locales de machines "
-#~ "virtuelles (VM) et de conteneurs."
 
 #, fuzzy
 #~ msgctxt "Description(org.freedesktop.udisks2.loop-modify-others)"

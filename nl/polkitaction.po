@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,11 +90,18 @@ msgctxt "Message(org.blueman.bluez.config)"
 msgid "Changing Bluetooth system settings requires privileges"
 msgstr "Wijzigen van de systeembrede lettertypen vereist rechten."
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
 #, fuzzy
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "Er is authenticatie vereist om gebruikersgegevens te wijzigen"
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "Er zijn privileges benodigd om de systeemtijd aan te passen."
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 msgctxt ""
@@ -120,6 +127,12 @@ msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Om de datum en tijd van het systeem te wijzigen dient u zich te "
 "authenticeren."
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#, fuzzy
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
+msgstr "Er is authenticatie vereist om gebruikersgegevens te wijzigen"
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -381,6 +394,47 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "Systeembeleid voorkwam dat u het systeempad kon ophalen"
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr "Beheren van afbeeldingen in de aanmeldbeheerder"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "Thema's beheren voor de aanmeldbeheerder"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "Instellingen aanmeldbeheerder opslaan"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr ""
+"Autorisatie van systeembeheerder is vereist om afbeeldingen in de "
+"aanmeldbeheerder te beheren"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr ""
+"Autorisatie van systeembeheerder is vereist om thema's in de "
+"aanmeldbeheerder te beheren"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr ""
+"Autorisatie van systeembeheerder is vereist om instellingen van de "
+"aanmeldbeheerder te wijzigen"
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -434,46 +488,15 @@ msgctxt "Message(org.kde.fontinst.manage)"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "Wijzigen van de systeembrede lettertypen vereist rechten."
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr "Beheren van afbeeldingen in de aanmeldbeheerder"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr "Portefeuille-instellingen opslaan"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "Thema's beheren voor de aanmeldbeheerder"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "Instellingen aanmeldbeheerder opslaan"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
-msgstr ""
-"Autorisatie van systeembeheerder is vereist om afbeeldingen in de "
-"aanmeldbeheerder te beheren"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr ""
-"Autorisatie van systeembeheerder is vereist om thema's in de "
-"aanmeldbeheerder te beheren"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr ""
-"Autorisatie van systeembeheerder is vereist om instellingen van de "
-"aanmeldbeheerder te wijzigen"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
+msgstr "Opslaan van instellingen van de portefeuille toestaan"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -482,16 +505,6 @@ msgstr "Portefeuille-instellingen opslaan"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "Opslaan van instellingen van de portefeuille toestaan"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr "Portefeuille-instellingen opslaan"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Opslaan van instellingen van de portefeuille toestaan"
 
@@ -1704,6 +1717,16 @@ msgid "Authentication is required to run system-config-selinux"
 msgstr ""
 "Er is authenticatie vereist om aanmelden op afstand in of uit te schakelen"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "Waarde van maximale helderheid ophalen"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Systeembeleid voorkwam dat u het helderheidsniveau kon verkrijgen."
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1716,16 +1739,6 @@ msgstr "Bestaaan van aparte GPU controleren"
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
-msgstr "Systeembeleid voorkwam dat u het helderheidsniveau kon verkrijgen."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Waarde van maximale helderheid ophalen"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
 msgstr "Systeembeleid voorkwam dat u het helderheidsniveau kon verkrijgen."
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
@@ -2026,13 +2039,6 @@ msgstr ""
 #~| msgid "Privileges are required to change the system time."
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 #~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "Er zijn privileges benodigd om de systeemtijd aan te passen."
-
-#, fuzzy
-#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#~| msgid "Privileges are required to change the system time."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
 #~ msgstr "Er zijn privileges benodigd om de systeemtijd aan te passen."
 
 #, fuzzy

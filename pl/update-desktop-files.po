@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2018-03-20 16:04+0000\n"
 "Last-Translator: Ewelina Michalowska <ewelina.michalowska@stgambit.com>\n"
 "Language-Team: Polish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -19,6 +19,45 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 2.18\n"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:5
+msgctxt "Name(z-displaycal-apply-profiles.desktop)"
+msgid "Profile Loader"
+msgstr "Moduł ładujący profilów"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:7
+msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
+msgid "Calibration and ICC Profile Loader"
+msgstr "Moduł ładujący kalibracji i profilów ICC"
+
+#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:13
+msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
+msgid ""
+"Sets ICC profiles and loads calibration curves for all configured display "
+"devices"
+msgstr ""
+"Ustawia profile ICC i wczytuje krzywe kalibracji dla wszystkich "
+"skonfigurowanych urządzeń wyświetlających"
+
+#: /etc/xdg/autostart/nm-applet.desktop:2
+msgctxt "Name(nm-applet.desktop)"
+msgid "Network"
+msgstr "Sieć"
+
+#: /etc/xdg/autostart/nm-applet.desktop:73
+msgctxt "Comment(nm-applet.desktop)"
+msgid "Manage your network connections"
+msgstr "Zarządzaj połączeniami sieciowymi"
+
+#: /usr/share/xsessions/WindowMaker.desktop:6
+msgctxt "Name(WindowMaker.desktop)"
+msgid "WindowMaker"
+msgstr "WindowMaker"
+
+#: /usr/share/xsessions/WindowMaker.desktop:16
+msgctxt "Comment(WindowMaker.desktop)"
+msgid "A simple window manager that resembles the NeXTStep look very closely"
+msgstr "Prosty menedżer okien bardzo przypominający wyglądem NeXTStep"
 
 #: /etc/xdg/autostart/at-spi-dbus-bus.desktop:3
 msgctxt "Name(at-spi-dbus-bus.desktop)"
@@ -35,25 +74,15 @@ msgctxt "GenericName(general.desktop)"
 msgid "Configure General Autoinstallation  Options"
 msgstr "Konfiguruj ogólne opcje automatycznej instalacji"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Partycjonowanie"
+#: /usr/share/autoinstall/modules/files.desktop:22
+msgctxt "Name(files.desktop)"
+msgid "Complete Configuration Files"
+msgstr "Pełne pliki konfiguracyjne"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Konfiguruj ustawienia partycjonowania i przechowywania"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Raportowanie i rejestrowanie"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Konfiguruj ustawienia raportowania i rejestrowania"
+#: /usr/share/autoinstall/modules/files.desktop:23
+msgctxt "GenericName(files.desktop)"
+msgid "Add Complete Configuration Files"
+msgstr "Dodaj pełne pliki konfiguracyjne"
 
 #: /usr/share/autoinstall/modules/scripts.desktop:21
 msgctxt "Name(scripts.desktop)"
@@ -65,15 +94,15 @@ msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "Dodaj lub edytuj skrypty niestandardowe"
 
-#: /usr/share/autoinstall/modules/files.desktop:22
-msgctxt "Name(files.desktop)"
-msgid "Complete Configuration Files"
-msgstr "Pełne pliki konfiguracyjne"
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Partycjonowanie"
 
-#: /usr/share/autoinstall/modules/files.desktop:23
-msgctxt "GenericName(files.desktop)"
-msgid "Add Complete Configuration Files"
-msgstr "Dodaj pełne pliki konfiguracyjne"
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Konfiguruj ustawienia partycjonowania i przechowywania"
 
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
@@ -84,6 +113,16 @@ msgstr "Wybór pakietów"
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Konfiguruj ustawienia oprogramowania i wyboru pakietów"
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Raportowanie i rejestrowanie"
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Konfiguruj ustawienia raportowania i rejestrowania"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -222,27 +261,6 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Sesja logowania do środowiska Cinnamon"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr "Cinnamon (renderowanie programowe)"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr ""
-"Sesja logowania do środowiska Cinnamon (używając renderowania programowego)"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
 msgid "Cinnamon Settings Daemon - media-keys"
@@ -338,6 +356,27 @@ msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
 msgid "Cinnamon Settings Daemon - orientation"
 msgstr "Demon ustawień środowiska Cinnamon — orientation"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Sesja logowania do środowiska Cinnamon"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr "Cinnamon (renderowanie programowe)"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr ""
+"Sesja logowania do środowiska Cinnamon (używając renderowania programowego)"
+
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
 msgid "Compton (X Compositor)"
@@ -382,25 +421,6 @@ msgstr "Organizuj środowisko graficzne za pomocą paneli, notatek i zdjęć"
 msgctxt "Keywords(com.github.spheras.desktopfolder.desktop)"
 msgid "desktop;folder;file;organize;"
 msgstr "środowiskograficzne;folder;plik;organizowanie;"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:5
-msgctxt "Name(z-displaycal-apply-profiles.desktop)"
-msgid "Profile Loader"
-msgstr "Moduł ładujący profilów"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:7
-msgctxt "GenericName(z-displaycal-apply-profiles.desktop)"
-msgid "Calibration and ICC Profile Loader"
-msgstr "Moduł ładujący kalibracji i profilów ICC"
-
-#: /etc/xdg/autostart/z-displaycal-apply-profiles.desktop:13
-msgctxt "Comment(z-displaycal-apply-profiles.desktop)"
-msgid ""
-"Sets ICC profiles and loads calibration curves for all configured display "
-"devices"
-msgstr ""
-"Ustawia profile ICC i wczytuje krzywe kalibracji dla wszystkich "
-"skonfigurowanych urządzeń wyświetlających"
 
 #: /usr/share/xsessions/e16-session.desktop:4
 msgctxt "Name(e16-session.desktop)"
@@ -491,16 +511,6 @@ msgstr "Git Annex Assistant"
 msgctxt "Comment(git-annex.desktop)"
 msgid "Autostart"
 msgstr "Autostart"
-
-#: /etc/xdg/autostart/glipper-autostart.desktop:3
-msgctxt "Name(glipper-autostart.desktop)"
-msgid "Glipper"
-msgstr "Glipper"
-
-#: /etc/xdg/autostart/glipper-autostart.desktop:4
-msgctxt "Comment(glipper-autostart.desktop)"
-msgid "A clipboard history manager"
-msgstr "Menadżer historii schowka"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
@@ -843,11 +853,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "Płytka drukowana programu KiCad"
-
 #: /usr/share/mimelnk/application/x-kicad-project.desktop:6
 msgctxt "Comment(x-kicad-project.desktop)"
 msgid "KiCad Project"
@@ -858,6 +863,16 @@ msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "Schemat programu KiCad"
 
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "Płytka drukowana programu KiCad"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Przywróć ustawienia głośności miksera"
+
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
 msgid "Sound Mixer"
@@ -867,11 +882,6 @@ msgstr "Mikser dźwięku"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
-
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Przywróć ustawienia głośności miksera"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1147,16 +1157,6 @@ msgctxt "Name(nautilus-autostart.desktop)"
 msgid "Files"
 msgstr "Pliki"
 
-#: /etc/xdg/autostart/nm-applet.desktop:2
-msgctxt "Name(nm-applet.desktop)"
-msgid "Network"
-msgstr "Sieć"
-
-#: /etc/xdg/autostart/nm-applet.desktop:73
-msgctxt "Comment(nm-applet.desktop)"
-msgid "Manage your network connections"
-msgstr "Zarządzaj połączeniami sieciowymi"
-
 #: /etc/xdg/autostart/nm-tray.desktop:2
 msgctxt "Name(nm-tray.desktop)"
 msgid "LXQt Network Applet"
@@ -1181,6 +1181,11 @@ msgstr "Serwer Obexd"
 msgctxt "Comment(obexd-server.desktop)"
 msgid "Obexd Server Daemon"
 msgstr "Demon serwera Obexd"
+
+#: /etc/xdg/autostart/vmware-user-autostart.desktop:3
+msgctxt "Name(vmware-user-autostart.desktop)"
+msgid "VMware User Agent"
+msgstr "Agent użytkownika VMware"
 
 #: /usr/share/xsessions/openbox-kde.desktop:2
 msgctxt "Name(openbox-kde.desktop)"
@@ -1211,11 +1216,6 @@ msgstr "GNOME/Openbox"
 msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "Używaj menedżera okien Openbox wewnątrz środowiska pulpitu GNOME"
-
-#: /etc/xdg/autostart/vmware-user-autostart.desktop:3
-msgctxt "Name(vmware-user-autostart.desktop)"
-msgid "VMware User Agent"
-msgstr "Agent użytkownika VMware"
 
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
@@ -1251,22 +1251,6 @@ msgstr "Menedżer schowka"
 msgctxt "Name(pasystray.desktop)"
 msgid "PulseAudio System Tray"
 msgstr "Pasek zadań programu PulseAudio"
-
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.
-# Michał Mroczek <mrocurs@mrocurs.pl>, 2010.
-# Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013.
-#: /etc/xdg/autostart/pasystray.desktop:5
-msgctxt "GenericName(pasystray.desktop)"
-msgid ""
-msgstr ""
-"Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg↵\n"
-"Ten plik jest dystrybuowany w ramach tej samej licencji co pakiet.↵\n"
-"Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.↵\n"
-"Michał Mroczek <mrocurs@mrocurs.pl>, 2010.↵\n"
-"Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013."
 
 #: /etc/xdg/autostart/pasystray.desktop:6
 msgctxt "Comment(pasystray.desktop)"
@@ -1323,25 +1307,15 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "Aplet aktualizacji PackageKit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Pusty panel"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Pulpit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "Pusty panel"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "Pasek menu programów"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "Panel zawierający aplet globalnego menu"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Umeblowanie widoku pulpitu"
 
 #: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
 msgctxt "Name(org.kde.desktopcontainment)"
@@ -1353,25 +1327,15 @@ msgctxt "Summary(org.kde.desktopcontainment)"
 msgid "A clean and simple layout"
 msgstr "Schludny i prosty układ"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Pulpit"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Pusty panel"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Umeblowanie widoku pulpitu"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "Deklaratywny przybornik"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Zarządzaj programem Plasma"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "Pusty panel"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1385,40 +1349,25 @@ msgid ""
 msgstr ""
 "Domyślny panel zawierający aktywator programów, pasek zadań i tackę systemową"
 
-#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
-msgctxt "Name(org.kde.breeze.desktop)"
-msgid "Breeze"
-msgstr "Breeze"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "Deklaratywny przybornik"
 
-#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:48
-msgctxt "Summary(org.kde.breeze.desktop)"
-msgid "Breeze Desktop Design Language by the KDE VDG"
-msgstr "Język projektowania pulpitu Breeze od KDE VDG"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Zarządzaj programem Plasma"
 
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "Pasek menu programów"
 
-#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
-msgctxt "Name(org.kde.plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Przestrzeń pulpitu Plasma"
-
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: /usr/share/xsessions/plasma5.desktop:7
-msgctxt "Name(plasma5.desktop)"
-msgid "Plasma"
-msgstr "Plasma"
-
-#: /usr/share/xsessions/plasma5.desktop:52
-msgctxt "Comment(plasma5.desktop)"
-msgid "Plasma by KDE"
-msgstr "Plasma od KDE"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "Panel zawierający aplet globalnego menu"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1480,6 +1429,41 @@ msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Latający Konqui"
 
+#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
+msgctxt "Name(org.kde.breeze.desktop)"
+msgid "Breeze"
+msgstr "Breeze"
+
+#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:48
+msgctxt "Summary(org.kde.breeze.desktop)"
+msgid "Breeze Desktop Design Language by the KDE VDG"
+msgstr "Język projektowania pulpitu Breeze od KDE VDG"
+
+#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
+msgctxt "Name(org.kde.plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Przestrzeń pulpitu Plasma"
+
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
+
+#: /usr/share/xsessions/plasma5.desktop:7
+msgctxt "Name(plasma5.desktop)"
+msgid "Plasma"
+msgstr "Plasma"
+
+#: /usr/share/xsessions/plasma5.desktop:52
+msgctxt "Comment(plasma5.desktop)"
+msgid "Plasma by KDE"
+msgstr "Plasma od KDE"
+
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
 msgid "File Context maintainer"
@@ -1537,22 +1521,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Uruchom systemu dźwięku PulseAudio"
 
-# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
-# This file is distributed under the same license as the package.
-#
-# Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.
-# Michał Mroczek <mrocurs@mrocurs.pl>, 2010.
-# Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013.
-#: /etc/xdg/autostart/pulseaudio.desktop:97
-msgctxt "GenericName(pulseaudio.desktop)"
-msgid ""
-msgstr " "
-
-#: /usr/share/mimelnk/application/x-qet-element.desktop:7
-msgctxt "Comment(x-qet-element.desktop)"
-msgid "QElectroTech element file"
-msgstr "Plik elementu QElectroTech"
-
 #: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
 msgctxt "Comment(x-qet-titleblock.desktop)"
 msgid "QElectroTech title block template"
@@ -1562,6 +1530,11 @@ msgstr "Szablon tabliczki tytułowej QElectroTech"
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "Plik projektu QElectroTech"
+
+#: /usr/share/mimelnk/application/x-qet-element.desktop:7
+msgctxt "Comment(x-qet-element.desktop)"
+msgid "QElectroTech element file"
+msgstr "Plik elementu QElectroTech"
 
 #: /etc/xdg/autostart/roccateventhandler.desktop:2
 msgctxt "Name(roccateventhandler.desktop)"
@@ -1582,26 +1555,6 @@ msgstr "RSIBreak"
 msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Przypomina od czasu do czasu o odpoczynku"
-
-#: /usr/share/xsessions/sawfish-mate.desktop:2
-msgctxt "Name(sawfish-mate.desktop)"
-msgid "Sawfish/MATE"
-msgstr "Sawfish/MATE"
-
-#: /usr/share/xsessions/sawfish-mate.desktop:3
-msgctxt "Comment(sawfish-mate.desktop)"
-msgid "Use the Sawfish window manager inside of the MATE desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu MATE"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu KDE"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
@@ -1632,6 +1585,26 @@ msgstr "Sawfish"
 msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
 msgstr "Sawfish"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:2
+msgctxt "Name(sawfish-mate.desktop)"
+msgid "Sawfish/MATE"
+msgstr "Sawfish/MATE"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:3
+msgctxt "Comment(sawfish-mate.desktop)"
+msgid "Use the Sawfish window manager inside of the MATE desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu MATE"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu KDE"
 
 #: /usr/share/mimelnk/application/vnd.scribus.desktop:2
 msgctxt "Name(vnd.scribus.desktop)"
@@ -1683,16 +1656,6 @@ msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Ikona na pasku zadań do zarządzania zadaniami wydruku"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
-msgctxt "Name(tracker-store.desktop)"
-msgid "Tracker Store"
-msgstr "Przechowywanie programu Tracker"
-
-#: /etc/xdg/autostart/tracker-store.desktop:49
-msgctxt "Comment(tracker-store.desktop)"
-msgid "Metadata database store and lookup manager"
-msgstr "Menedżer przechowywania i wyszukiwania w bazie metadanych"
-
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
@@ -1733,6 +1696,16 @@ msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "Pobierz kanały RSS/Atom"
 
+#: /etc/xdg/autostart/tracker-store.desktop:2
+msgctxt "Name(tracker-store.desktop)"
+msgid "Tracker Store"
+msgstr "Przechowywanie programu Tracker"
+
+#: /etc/xdg/autostart/tracker-store.desktop:49
+msgctxt "Comment(tracker-store.desktop)"
+msgid "Metadata database store and lookup manager"
+msgstr "Menedżer przechowywania i wyszukiwania w bazie metadanych"
+
 #: /usr/share/mimelnk/application/x-treeline.desktop:3
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
@@ -1768,21 +1741,6 @@ msgctxt "Name(vncmanager-controller.desktop)"
 msgid "VNC Configuration"
 msgstr "Konfiguracja VNC"
 
-#: /usr/share/xsessions/WindowMaker.desktop:6
-msgctxt "Name(WindowMaker.desktop)"
-msgid "WindowMaker"
-msgstr "WindowMaker"
-
-#: /usr/share/xsessions/WindowMaker.desktop:16
-msgctxt "Comment(WindowMaker.desktop)"
-msgid "A simple window manager that resembles the NeXTStep look very closely"
-msgstr "Prosty menedżer okien bardzo przypominający wyglądem NeXTStep"
-
-#: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-msgctxt "Name(xdg-user-dirs.desktop)"
-msgid "User folders update"
-msgstr "Aktualizacja folderów użytkownika"
-
 #: /etc/xdg/autostart/user-dirs-update-gtk.desktop:4
 msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
@@ -1794,6 +1752,11 @@ msgid "Update common folders names to match current locale"
 msgstr ""
 "Aktualizuj nazw katalogów wspólnych zgodnie z bieżącymi ustawieniami "
 "regionalnymi"
+
+#: /etc/xdg/autostart/xdg-user-dirs.desktop:3
+msgctxt "Name(xdg-user-dirs.desktop)"
+msgid "User folders update"
+msgstr "Aktualizacja folderów użytkownika"
 
 #: /usr/share/xsessions/xsession.desktop:2
 msgctxt "Name(xsession.desktop)"
@@ -1860,20 +1823,6 @@ msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Demon ustawień Xfce"
 
-#: /etc/xdg/autostart/xfce4-volumed.desktop:6
-msgctxt "Name(xfce4-volumed.desktop)"
-msgid "XFCE Volume Daemon"
-msgstr "Demon głośności XFCE"
-
-#: /etc/xdg/autostart/xfce4-volumed.desktop:8
-msgctxt "Comment(xfce4-volumed.desktop)"
-msgid ""
-"Daemon managing the volume multimedia keys and displaying volume "
-"notifications"
-msgstr ""
-"Demon zarządzający multimedialnymi przyciskami głośności oraz wyświetlający "
-"powiadomienia związane z głośnością"
-
 #: /etc/xdg/autostart/xfce4-volumed-pulse.desktop:4
 msgctxt "Name(xfce4-volumed-pulse.desktop)"
 msgid "XFCE Volume Daemon (Pulseaudio)"
@@ -1887,6 +1836,20 @@ msgid ""
 msgstr ""
 "Demon zarządzający multimedialnymi przyciskami głośności oraz wyświetlający "
 "powiadomienia związane z głośnością dla programu Pulseaudio"
+
+#: /etc/xdg/autostart/xfce4-volumed.desktop:6
+msgctxt "Name(xfce4-volumed.desktop)"
+msgid "XFCE Volume Daemon"
+msgstr "Demon głośności XFCE"
+
+#: /etc/xdg/autostart/xfce4-volumed.desktop:8
+msgctxt "Comment(xfce4-volumed.desktop)"
+msgid ""
+"Daemon managing the volume multimedia keys and displaying volume "
+"notifications"
+msgstr ""
+"Demon zarządzający multimedialnymi przyciskami głośności oraz wyświetlający "
+"powiadomienia związane z głośnością"
 
 #: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
@@ -1923,16 +1886,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Włącz lub wyłącz uruchamianie sekwencji programu Firstboot"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "Import kluczy SSH"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "Importowanie kluczy SSH z poprzedniej instalacji"
-
 #: /usr/share/autoinstall/modules/deploy_image.desktop:23
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
@@ -1943,6 +1896,16 @@ msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Konfiguruj wdrażanie obrazu"
 
+#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "Import kluczy SSH"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "Importowanie kluczy SSH z poprzedniej instalacji"
+
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"
 msgid "Zeitgeist Datahub"
@@ -1952,6 +1915,39 @@ msgstr "Zeitgeist Datahub"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "Uruchom Zeitgeist Datahub dla pasywnych rejestratorów"
+
+#~ msgctxt "Name(glipper-autostart.desktop)"
+#~ msgid "Glipper"
+#~ msgstr "Glipper"
+
+#~ msgctxt "Comment(glipper-autostart.desktop)"
+#~ msgid "A clipboard history manager"
+#~ msgstr "Menadżer historii schowka"
+
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.
+# Michał Mroczek <mrocurs@mrocurs.pl>, 2010.
+# Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013.
+#~ msgctxt "GenericName(pasystray.desktop)"
+#~ msgid ""
+#~ msgstr ""
+#~ "Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg↵\n"
+#~ "Ten plik jest dystrybuowany w ramach tej samej licencji co pakiet.↵\n"
+#~ "Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.↵\n"
+#~ "Michał Mroczek <mrocurs@mrocurs.pl>, 2010.↵\n"
+#~ "Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013."
+
+# Copyright (C) 2006 SuSE Linux Products GmbH, Nuernberg
+# This file is distributed under the same license as the package.
+#
+# Mariusz Fik <fisiu@opensuse.org>, 2010, 2011, 2012.
+# Michał Mroczek <mrocurs@mrocurs.pl>, 2010.
+# Krzysztof Magda <krzysztof.magda@opensuse.biz>, 2013.
+#~ msgctxt "GenericName(pulseaudio.desktop)"
+#~ msgid ""
+#~ msgstr " "
 
 #~ msgctxt "Name(enlightenment.desktop)"
 #~ msgid "Enlightenment"

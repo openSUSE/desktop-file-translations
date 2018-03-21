@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,6 +9,396 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "Enable or disable system networking"
+msgstr "启用或禁用系统网络"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
+msgctxt "Description(org.freedesktop.NetworkManager.reload)"
+msgid "Reload NetworkManager configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:121
+msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
+msgid ""
+"Put NetworkManager to sleep or wake it up (should only be used by system "
+"power management)"
+msgstr "挂起或唤醒网络管理器(应仅用于系统电源管理)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:208
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "Enable or disable WiFi devices"
+msgstr "启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:296
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "Enable or disable mobile broadband devices"
+msgstr "启用或禁用移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:384
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid "Enable or disable WiMAX mobile broadband devices"
+msgstr "启用/禁用 WiMAX 移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:466
+msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
+msgid "Allow control of network connections"
+msgstr "允许控制网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:555
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "Connection sharing via a protected WiFi network"
+msgstr "通过受保护的 WiFi 网络共享连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:649
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "Connection sharing via an open WiFi network"
+msgstr "通过开放 WiFi 网络共享连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:743
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "Modify personal network connections"
+msgstr "更改个人网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:823
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "Modify network connections for all users"
+msgstr "更改所有用户的网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:903
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "Modify persistent system hostname"
+msgstr "更改系统固有主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:997
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
+#| msgid "Modify system-wide configuration"
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid "Modify persistent global DNS configuration"
+msgstr "修改系统全局配置"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1035
+msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "Perform a checkpoint or rollback of interfaces configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "Enable or disable WiFi devices"
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "Enable or disable device statistics"
+msgstr "启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1078
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
+#| msgid "Enable or disable system networking"
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "Enable or disable connectivity checking"
+msgstr "启用或禁用系统网络"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "System policy prevents enabling or disabling system networking"
+msgstr "系统策略阻止启用或禁用系统网络"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:106
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.reload)"
+msgid "System policy prevents reloading NetworkManager"
+msgstr "系统策略阻止更改网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:161
+msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
+msgid "System policy prevents putting NetworkManager to sleep or waking it up"
+msgstr "系统策略阻止挂起或唤醒网络管理器"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:249
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "System policy prevents enabling or disabling WiFi devices"
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:337
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "System policy prevents enabling or disabling mobile broadband devices"
+msgstr "系统策略阻止启用或禁用移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:422
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid ""
+"System policy prevents enabling or disabling WiMAX mobile broadband devices"
+msgstr "系统策略阻止启用或禁用 WiMAX 移动宽带设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:507
+msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
+msgid "System policy prevents control of network connections"
+msgstr "系统策略阻止更改网络连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:599
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "System policy prevents sharing connections via a protected WiFi network"
+msgstr "系统策略阻止使用受保护的 WiFi 网络共享连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:693
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "System policy prevents sharing connections via an open WiFi network"
+msgstr "系统策略阻止使用开放 WiFi 网络共享连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:779
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "System policy prevents modification of personal network settings"
+msgstr "系统策略阻止更改个人网络设置"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:859
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "System policy prevents modification of network settings for all users"
+msgstr "系统策略阻止更改全部用户的共用网络设置"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:946
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "System policy prevents modification of the persistent system hostname"
+msgstr "系统策略阻止更改系统固有主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1012
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+#| msgid ""
+#| "System policy prevents modification of the persistent system hostname"
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid ""
+"System policy prevents modification of the persistent global DNS "
+"configuration"
+msgstr "系统策略阻止更改系统固有主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1042
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+#| msgid ""
+#| "System policy prevents modification of the persistent system hostname"
+msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "System policy prevents the creation of a checkpoint or its rollback"
+msgstr "系统策略阻止更改系统固有主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1064
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "System policy prevents enabling or disabling WiFi devices"
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "System policy prevents enabling or disabling device statistics"
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1085
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "System policy prevents enabling or disabling WiFi devices"
+msgctxt ""
+"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "System policy prevents enabling or disabling connectivity checking"
+msgstr "系统策略阻止启用或禁用 WiFi 设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
+msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
+msgid "Cancel foreign task"
+msgstr "取消其他用户的任务"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
+msgctxt "Description(org.freedesktop.packagekit.package-install)"
+msgid "Install signed package"
+msgstr "安装已签名软件包"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
+msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Install untrusted local file"
+msgstr "安装非受信任本地文件"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
+msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
+msgid "Install already installed package again"
+msgstr "重新安装已安装的软件包"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
+msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
+msgid "Install older version of installed package"
+msgstr "安装已安装软件包的较旧版本"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
+msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid "Trust a key used for signing software"
+msgstr "信任签名软件所用密钥"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:526
+msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Accept EULA"
+msgstr "接受最终用户许可协议（EULA）"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:638
+msgctxt "Description(org.freedesktop.packagekit.package-remove)"
+msgid "Remove package"
+msgstr "删除软件包"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:733
+msgctxt "Description(org.freedesktop.packagekit.system-update)"
+msgid "Update software"
+msgstr "更新软件"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:807
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Change software source parameters"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Change software repository parameters"
+msgstr "更改软件源参数"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:835
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Refresh system sources"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Refresh system repositories"
+msgstr "刷新系统源"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:863
+msgctxt ""
+"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid "Set network proxy"
+msgstr "设置网络代理"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:953
+msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
+msgid "Reload a device"
+msgstr "重新装入设备"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1061
+msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
+msgid "Upgrade System"
+msgstr "升级系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1126
+msgctxt "Description(org.freedesktop.packagekit.repair-system)"
+msgid "Repair System"
+msgstr "修复系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1207
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Trigger offline updates"
+msgstr "触发离线更新"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1284
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Trigger offline updates"
+msgstr "触发离线更新"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1361
+msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Clear offline update message"
+msgstr "清除离线更新通知"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
+msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
+msgid ""
+"Authentication is required to cancel a task that was not started by yourself"
+msgstr "取消一项不是由您启动的任务需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
+msgctxt "Message(org.freedesktop.packagekit.package-install)"
+msgid "Authentication is required to install software"
+msgstr "安装软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
+msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Authentication is required to install untrusted software"
+msgstr "安装不受信任的软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
+msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
+msgid "Authentication is required to reinstall software"
+msgstr "重新安装软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
+msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+msgid "Authentication is required to downgrade software"
+msgstr "降级软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
+msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr "信任软件包签名所用密钥需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:577
+msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Authentication is required to accept a EULA"
+msgstr "接受最终用户许可协议（EULA）需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:690
+msgctxt "Message(org.freedesktop.packagekit.package-remove)"
+msgid "Authentication is required to remove software"
+msgstr "删除软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:765
+msgctxt "Message(org.freedesktop.packagekit.system-update)"
+msgid "Authentication is required to update software"
+msgstr "更新软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:816
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Authentication is required to change software source parameters"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Authentication is required to change software repository parameters"
+msgstr "更改软件源参数需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:844
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Authentication is required to refresh the system sources"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Authentication is required to refresh the system repositories"
+msgstr "刷新系统源需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:912
+msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr "设置下载软件所用的代理服务器需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1002
+msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
+msgid "Authentication is required to reload the device with a new driver"
+msgstr "使用新驱动重新装入设备需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1089
+msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
+msgid "Authentication is required to upgrade the operating system"
+msgstr "升级操作系统需要验证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1163
+msgctxt "Message(org.freedesktop.packagekit.repair-system)"
+msgid "Authentication is required to repair the installed software"
+msgstr "修复已安装软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1240
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Authentication is required to trigger offline updates"
+msgstr "触发离线更新需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1317
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Authentication is required to trigger offline updates"
+msgstr "触发离线更新需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1394
+msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Authentication is required to clear the offline updates message"
+msgstr "清除离线更新通知需要认证"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.color.policy:15
 msgctxt "Description(org.freedesktop.color-manager.create-device)"
@@ -419,384 +809,6 @@ msgid ""
 "updates"
 msgstr "降级软件需要认证"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "Enable or disable system networking"
-msgstr "启用或禁用系统网络"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
-msgctxt "Description(org.freedesktop.NetworkManager.reload)"
-msgid "Reload NetworkManager configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:119
-msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
-msgid ""
-"Put NetworkManager to sleep or wake it up (should only be used by system "
-"power management)"
-msgstr "挂起或唤醒网络管理器(应仅用于系统电源管理)"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:206
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "Enable or disable WiFi devices"
-msgstr "启用或禁用 WiFi 设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:294
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "Enable or disable mobile broadband devices"
-msgstr "启用或禁用移动宽带设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:382
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid "Enable or disable WiMAX mobile broadband devices"
-msgstr "启用/禁用 WiMAX 移动宽带设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:464
-msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
-msgid "Allow control of network connections"
-msgstr "允许控制网络连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:553
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "Connection sharing via a protected WiFi network"
-msgstr "通过受保护的 WiFi 网络共享连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:647
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "Connection sharing via an open WiFi network"
-msgstr "通过开放 WiFi 网络共享连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:741
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "Modify personal network connections"
-msgstr "更改个人网络连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:821
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "Modify network connections for all users"
-msgstr "更改所有用户的网络连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:901
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "Modify persistent system hostname"
-msgstr "更改系统固有主机名"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:995
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
-#| msgid "Modify system-wide configuration"
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid "Modify persistent global DNS configuration"
-msgstr "修改系统全局配置"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1031
-msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "Perform a checkpoint or rollback of interfaces configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1051
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "Enable or disable WiFi devices"
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "Enable or disable device statistics"
-msgstr "启用或禁用 WiFi 设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1070
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
-#| msgid "Enable or disable system networking"
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "Enable or disable connectivity checking"
-msgstr "启用或禁用系统网络"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "System policy prevents enabling or disabling system networking"
-msgstr "系统策略阻止启用或禁用系统网络"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:105
-#, fuzzy
-msgctxt "Message(org.freedesktop.NetworkManager.reload)"
-msgid "System policy prevents reloading NetworkManager"
-msgstr "系统策略阻止更改网络连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:159
-msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
-msgid "System policy prevents putting NetworkManager to sleep or waking it up"
-msgstr "系统策略阻止挂起或唤醒网络管理器"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:247
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "System policy prevents enabling or disabling WiFi devices"
-msgstr "系统策略阻止启用或禁用 WiFi 设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:335
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "System policy prevents enabling or disabling mobile broadband devices"
-msgstr "系统策略阻止启用或禁用移动宽带设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:420
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid ""
-"System policy prevents enabling or disabling WiMAX mobile broadband devices"
-msgstr "系统策略阻止启用或禁用 WiMAX 移动宽带设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:505
-msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
-msgid "System policy prevents control of network connections"
-msgstr "系统策略阻止更改网络连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:597
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "System policy prevents sharing connections via a protected WiFi network"
-msgstr "系统策略阻止使用受保护的 WiFi 网络共享连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:691
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "System policy prevents sharing connections via an open WiFi network"
-msgstr "系统策略阻止使用开放 WiFi 网络共享连接"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:777
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "System policy prevents modification of personal network settings"
-msgstr "系统策略阻止更改个人网络设置"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:857
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "System policy prevents modification of network settings for all users"
-msgstr "系统策略阻止更改全部用户的共用网络设置"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:944
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "System policy prevents modification of the persistent system hostname"
-msgstr "系统策略阻止更改系统固有主机名"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1009
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-#| msgid ""
-#| "System policy prevents modification of the persistent system hostname"
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid ""
-"System policy prevents modification of the persistent global DNS "
-"configuration"
-msgstr "系统策略阻止更改系统固有主机名"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1037
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-#| msgid ""
-#| "System policy prevents modification of the persistent system hostname"
-msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "System policy prevents the creation of a checkpoint or its rollback"
-msgstr "系统策略阻止更改系统固有主机名"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "System policy prevents enabling or disabling WiFi devices"
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "System policy prevents enabling or disabling device statistics"
-msgstr "系统策略阻止启用或禁用 WiFi 设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1076
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-#| msgid "System policy prevents enabling or disabling WiFi devices"
-msgctxt ""
-"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "System policy prevents enabling or disabling connectivity checking"
-msgstr "系统策略阻止启用或禁用 WiFi 设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
-msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
-msgid "Cancel foreign task"
-msgstr "取消其他用户的任务"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
-msgctxt "Description(org.freedesktop.packagekit.package-install)"
-msgid "Install signed package"
-msgstr "安装已签名软件包"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
-msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Install untrusted local file"
-msgstr "安装非受信任本地文件"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
-msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
-msgid "Install already installed package again"
-msgstr "重新安装已安装的软件包"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
-msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
-msgid "Install older version of installed package"
-msgstr "安装已安装软件包的较旧版本"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
-msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid "Trust a key used for signing software"
-msgstr "信任签名软件所用密钥"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:525
-msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Accept EULA"
-msgstr "接受最终用户许可协议（EULA）"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:637
-msgctxt "Description(org.freedesktop.packagekit.package-remove)"
-msgid "Remove package"
-msgstr "删除软件包"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:732
-msgctxt "Description(org.freedesktop.packagekit.system-update)"
-msgid "Update software"
-msgstr "更新软件"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:806
-msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Change software source parameters"
-msgstr "更改软件源参数"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:918
-msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Refresh system sources"
-msgstr "刷新系统源"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1026
-msgctxt ""
-"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid "Set network proxy"
-msgstr "设置网络代理"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1116
-msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
-msgid "Reload a device"
-msgstr "重新装入设备"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1224
-msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
-msgid "Upgrade System"
-msgstr "升级系统"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1289
-msgctxt "Description(org.freedesktop.packagekit.repair-system)"
-msgid "Repair System"
-msgstr "修复系统"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1370
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Trigger offline updates"
-msgstr "触发离线更新"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1447
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Trigger offline updates"
-msgstr "触发离线更新"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1524
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
-msgstr "清除离线更新通知"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
-msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
-msgid ""
-"Authentication is required to cancel a task that was not started by yourself"
-msgstr "取消一项不是由您启动的任务需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
-msgctxt "Message(org.freedesktop.packagekit.package-install)"
-msgid "Authentication is required to install software"
-msgstr "安装软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
-msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Authentication is required to install untrusted software"
-msgstr "安装不受信任的软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
-msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
-msgid "Authentication is required to reinstall software"
-msgstr "重新安装软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
-msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
-msgid "Authentication is required to downgrade software"
-msgstr "降级软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
-msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid ""
-"Authentication is required to consider a key used for signing software as "
-"trusted"
-msgstr "信任软件包签名所用密钥需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:576
-msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Authentication is required to accept a EULA"
-msgstr "接受最终用户许可协议（EULA）需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:689
-msgctxt "Message(org.freedesktop.packagekit.package-remove)"
-msgid "Authentication is required to remove software"
-msgstr "删除软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:764
-msgctxt "Message(org.freedesktop.packagekit.system-update)"
-msgid "Authentication is required to update software"
-msgstr "更新软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:857
-msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Authentication is required to change software source parameters"
-msgstr "更改软件源参数需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:967
-msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Authentication is required to refresh the system sources"
-msgstr "刷新系统源需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1075
-msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid ""
-"Authentication is required to set the network proxy used for downloading "
-"software"
-msgstr "设置下载软件所用的代理服务器需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1165
-msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
-msgid "Authentication is required to reload the device with a new driver"
-msgstr "使用新驱动重新装入设备需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1252
-msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
-msgid "Authentication is required to upgrade the operating system"
-msgstr "升级操作系统需要验证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1326
-msgctxt "Message(org.freedesktop.packagekit.repair-system)"
-msgid "Authentication is required to repair the installed software"
-msgstr "修复已安装软件需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1403
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Authentication is required to trigger offline updates"
-msgstr "触发离线更新需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1480
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Authentication is required to trigger offline updates"
-msgstr "触发离线更新需要认证"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1557
-msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Authentication is required to clear the offline updates message"
-msgstr "清除离线更新通知需要认证"
-
 #: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
 msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
 msgid "Run the polkit example program Frobnicate"
@@ -820,6 +832,606 @@ msgstr ""
 msgctxt "Message(org.freedesktop.policykit.exec)"
 msgid "Authentication is required to run a program as another user"
 msgstr "要允许未登录用户运行程序需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
+msgctxt "Description(org.freedesktop.locale1.set-locale)"
+msgid "Set system locale"
+msgstr "设置系统区域和语言"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
+msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
+msgid "Set system keyboard settings"
+msgstr "设置系统键盘"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
+msgctxt "Message(org.freedesktop.locale1.set-locale)"
+msgid "Authentication is required to set the system locale."
+msgstr "设置系统区域和语言需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
+msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
+msgid "Authentication is required to set the system keyboard settings."
+msgstr "设置系统键盘需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "设置系统时间"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "设置系统时区"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr "设置硬件时钟使用本地时间或 UTC"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr "打开或关闭网络时间同步"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+#| msgid "Authentication is required to set the system timezone."
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr "设置系统时区需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr "设置系统时区需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr "设置硬件时钟使用本地时间或 UTC 需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr "设置是否启用网络时间同步需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
+msgctxt "Description(org.freedesktop.systemd1.reply-password)"
+msgid "Send passphrase back to system"
+msgstr "将密码发回系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:73
+msgctxt "Description(org.freedesktop.systemd1.manage-units)"
+msgid "Manage system services or other units"
+msgstr "管理系统服务或其它单元"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:133
+msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Manage system service or unit files"
+msgstr "管理系统服务或单元文件"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:193
+msgctxt "Description(org.freedesktop.systemd1.set-environment)"
+msgid "Set or unset system and service manager environment variables"
+msgstr "设置或清除系统及服务管理器的环境变量"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:253
+msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
+msgid "Reload the systemd state"
+msgstr "重新载入 systemd 状态"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:37
+msgctxt "Message(org.freedesktop.systemd1.reply-password)"
+msgid ""
+"Authentication is required to send the entered passphrase back to the system."
+msgstr "将输入的密码发回系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:99
+msgctxt "Message(org.freedesktop.systemd1.manage-units)"
+msgid "Authentication is required to manage system services or other units."
+msgstr "管理系统服务或其它单元需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:159
+msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Authentication is required to manage system service or unit files."
+msgstr "管理系统服务或单元文件需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:219
+msgctxt "Message(org.freedesktop.systemd1.set-environment)"
+msgid ""
+"Authentication is required to set or unset system and service manager "
+"environment variables."
+msgstr "设置或清除系统及服务管理器的环境变量需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:279
+msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
+msgid "Authentication is required to reload the systemd state."
+msgstr "重新载入 systemd 状态需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
+msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid "Allow applications to inhibit system shutdown"
+msgstr "允许应用程序阻止系统关机"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:71
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Allow applications to delay system shutdown"
+msgstr "允许应用程序延迟系统关机"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:132
+msgctxt "Description(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Allow applications to inhibit system sleep"
+msgstr "允许应用程序阻止系统睡眠"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:192
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Allow applications to delay system sleep"
+msgstr "允许应用程序延迟系统睡眠"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:254
+msgctxt "Description(org.freedesktop.login1.inhibit-block-idle)"
+msgid "Allow applications to inhibit automatic system suspend"
+msgstr "允许应用程序阻止系统自动挂起"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:314
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid "Allow applications to inhibit system handling of the power key"
+msgstr "允许应用程序阻止系统响应电源键"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:375
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid "Allow applications to inhibit system handling of the suspend key"
+msgstr "允许应用程序阻止系统响应挂起键"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:436
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid "Allow applications to inhibit system handling of the hibernate key"
+msgstr "允许应用程序阻止系统响应挂起键"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:496
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid "Allow applications to inhibit system handling of the lid switch"
+msgstr "允许应用程序阻止系统响应挂起键"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:556
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.login1.set-user-linger)"
+#| msgid "Allow non-logged-in users to run programs"
+msgctxt "Description(org.freedesktop.login1.set-self-linger)"
+msgid "Allow non-logged-in user to run programs"
+msgstr "允许未登录用户运行程序"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:592
+msgctxt "Description(org.freedesktop.login1.set-user-linger)"
+msgid "Allow non-logged-in users to run programs"
+msgstr "允许未登录用户运行程序"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:654
+msgctxt "Description(org.freedesktop.login1.attach-device)"
+msgid "Allow attaching devices to seats"
+msgstr "允许将设备附加至会话座位"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:715
+msgctxt "Description(org.freedesktop.login1.flush-devices)"
+msgid "Flush device to seat attachments"
+msgstr "刷新设备至会话座位间的连接"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:775
+msgctxt "Description(org.freedesktop.login1.power-off)"
+msgid "Power off the system"
+msgstr "关闭系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:838
+msgctxt "Description(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid "Power off the system while other users are logged in"
+msgstr "存在其他已登录用户时仍然关机"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:901
+msgctxt "Description(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid "Power off the system while an application asked to inhibit it"
+msgstr "有其它应用程序阻止时仍然关机"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:962
+msgctxt "Description(org.freedesktop.login1.reboot)"
+msgid "Reboot the system"
+msgstr "重启系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1025
+msgctxt "Description(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid "Reboot the system while other users are logged in"
+msgstr "存在其他已登录用户时仍然重启"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1088
+msgctxt "Description(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid "Reboot the system while an application asked to inhibit it"
+msgstr "有其它应用程序阻止时仍然重启"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1149
+msgctxt "Description(org.freedesktop.login1.suspend)"
+msgid "Suspend the system"
+msgstr "挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1211
+msgctxt "Description(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid "Suspend the system while other users are logged in"
+msgstr "存在其他已登录用户时仍然挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1274
+msgctxt "Description(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid "Suspend the system while an application asked to inhibit it"
+msgstr "有其它应用程序阻止时仍然挂起系统"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1335
+msgctxt "Description(org.freedesktop.login1.hibernate)"
+msgid "Hibernate the system"
+msgstr "休眠"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1395
+msgctxt "Description(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid "Hibernate the system while other users are logged in"
+msgstr "存在其他已登录用户时仍然休眠"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1456
+msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid "Hibernate the system while an application asked to inhibit it"
+msgstr "有其它应用程序阻止时仍然休眠"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1517
+msgctxt "Description(org.freedesktop.login1.manage)"
+msgid "Manage active sessions, users and seats"
+msgstr "管理活动会话、用户与会话座位"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1575
+msgctxt "Description(org.freedesktop.login1.lock-sessions)"
+msgid "Lock or unlock active sessions"
+msgstr "活动会话锁定与解锁"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1635
+msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid "Allow indication to the firmware to boot to setup interface"
+msgstr "允许向固件发出指示以启动至固件设置界面"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1695
+msgctxt "Description(org.freedesktop.login1.set-wall-message)"
+msgid "Set a wall message"
+msgstr "设置 wall 消息"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:36
+msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid ""
+"Authentication is required for an application to inhibit system shutdown."
+msgstr "要允许应用程序阻止系统关机需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:97
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Authentication is required for an application to delay system shutdown."
+msgstr "要允许应用程序延迟系统关机需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:158
+msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Authentication is required for an application to inhibit system sleep."
+msgstr "要允许应用程序阻止系统睡眠需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:219
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Authentication is required for an application to delay system sleep."
+msgstr "要允许应用程序延迟系统睡眠需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:280
+msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
+msgid ""
+"Authentication is required for an application to inhibit automatic system "
+"suspend."
+msgstr "要允许应用程序阻止系统自动挂起需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:340
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the power key."
+msgstr "要允许应用程序阻止系统响应电源键需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:401
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the suspend key."
+msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:462
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the hibernate key."
+msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:522
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the lid switch."
+msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:570
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.login1.set-user-linger)"
+#| msgid "Authentication is required to run programs as a non-logged-in user."
+msgctxt "Message(org.freedesktop.login1.set-self-linger)"
+msgid "Explicit request is required to run programs as a non-logged-in user."
+msgstr "要允许未登录用户运行程序需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:619
+msgctxt "Message(org.freedesktop.login1.set-user-linger)"
+msgid "Authentication is required to run programs as a non-logged-in user."
+msgstr "要允许未登录用户运行程序需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:680
+msgctxt "Message(org.freedesktop.login1.attach-device)"
+msgid "Authentication is required for attaching a device to a seat."
+msgstr "要允许将设备附加至某个会话座位需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:741
+msgctxt "Message(org.freedesktop.login1.flush-devices)"
+msgid ""
+"Authentication is required for resetting how devices are attached to seats."
+msgstr "重新设定设备的会话座位接入方式时需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:802
+msgctxt "Message(org.freedesktop.login1.power-off)"
+msgid "Authentication is required for powering off the system."
+msgstr "关闭系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:865
+msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid ""
+"Authentication is required for powering off the system while other users are "
+"logged in."
+msgstr "存在其他已登录用户时关闭系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:927
+msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid ""
+"Authentication is required for powering off the system while an application "
+"asked to inhibit it."
+msgstr "要在其它应用程序阻止关机时关闭系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:989
+msgctxt "Message(org.freedesktop.login1.reboot)"
+msgid "Authentication is required for rebooting the system."
+msgstr "重启系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1052
+msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid ""
+"Authentication is required for rebooting the system while other users are "
+"logged in."
+msgstr "存在其他已登录用户时重启系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1114
+msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid ""
+"Authentication is required for rebooting the system while an application "
+"asked to inhibit it."
+msgstr "要在其它应用程序阻止重启时重启系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1176
+msgctxt "Message(org.freedesktop.login1.suspend)"
+msgid "Authentication is required for suspending the system."
+msgstr "挂起系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1238
+msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid ""
+"Authentication is required for suspending the system while other users are "
+"logged in."
+msgstr "存在其他已登录用户时挂起系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1300
+msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid ""
+"Authentication is required for suspending the system while an application "
+"asked to inhibit it."
+msgstr "要在其它应用程序阻止挂起时挂起系统需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1361
+msgctxt "Message(org.freedesktop.login1.hibernate)"
+msgid "Authentication is required for hibernating the system."
+msgstr "休眠需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1421
+msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid ""
+"Authentication is required for hibernating the system while other users are "
+"logged in."
+msgstr "存在其他已登录用户时进行休眠需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1482
+msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid ""
+"Authentication is required for hibernating the system while an application "
+"asked to inhibit it."
+msgstr "要在其它应用程序阻止休眠时进行休眠需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1542
+msgctxt "Message(org.freedesktop.login1.manage)"
+msgid ""
+"Authentication is required for managing active sessions, users and seats."
+msgstr "要管理活动会话、用户与会话座位需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1601
+msgctxt "Message(org.freedesktop.login1.lock-sessions)"
+msgid "Authentication is required to lock or unlock active sessions."
+msgstr "要对活动会话进行锁定或解锁需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1661
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-update)"
+#| msgid "Authentication is required to update software"
+msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid ""
+"Authentication is required to indicate to the firmware to boot to setup "
+"interface."
+msgstr "更新软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1720
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-wall-message)"
+msgid "Authentication is required to set a wall message"
+msgstr "安装软件需要认证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:10
+msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
+msgid "Set host name"
+msgstr "设置主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:72
+msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
+msgid "Set static host name"
+msgstr "设置静态主机名"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:134
+msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
+msgid "Set machine information"
+msgstr "设置机器信息"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:37
+msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
+msgid "Authentication is required to set the local host name."
+msgstr "设置本地主机名需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:99
+#, fuzzy
+msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
+msgid ""
+"Authentication is required to set the statically configured local host name, "
+"as well as the pretty host name."
+msgstr "设置本地主机名需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:161
+msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
+msgid "Authentication is required to set local machine information."
+msgstr "设置本地机器信息需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
+msgctxt "Description(org.freedesktop.import1.import)"
+msgid "Import a VM or container image"
+msgstr "导入虚拟机或容器镜像"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:68
+msgctxt "Description(org.freedesktop.import1.export)"
+msgid "Export a VM or container image"
+msgstr "导出虚拟机或容器镜像"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:126
+msgctxt "Description(org.freedesktop.import1.pull)"
+msgid "Download a VM or container image"
+msgstr "下载虚拟机或容器镜像"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:35
+msgctxt "Message(org.freedesktop.import1.import)"
+msgid "Authentication is required to import a VM or container image"
+msgstr "导入虚拟机或容器镜像需要验证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:93
+msgctxt "Message(org.freedesktop.import1.export)"
+msgid "Authentication is required to export a VM or container image"
+msgstr "导出虚拟机或容器镜像需要验证"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:151
+msgctxt "Message(org.freedesktop.import1.pull)"
+msgid "Authentication is required to download a VM or container image"
+msgstr "下载虚拟机或容器镜像需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:10
+msgctxt "Description(org.freedesktop.machine1.login)"
+msgid "Log into a local container"
+msgstr "登入一个本地容器"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:70
+msgctxt "Description(org.freedesktop.machine1.host-login)"
+msgid "Log into the local host"
+msgstr "登入本地主机"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:128
+msgctxt "Description(org.freedesktop.machine1.shell)"
+msgid "Acquire a shell in a local container"
+msgstr "在本地容器中获取一个 shell"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:187
+msgctxt "Description(org.freedesktop.machine1.host-shell)"
+msgid "Acquire a shell on the local host"
+msgstr "在本地主机中获取一个 shell"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:246
+msgctxt "Description(org.freedesktop.machine1.open-pty)"
+msgid "Acquire a pseudo TTY in a local container"
+msgstr "在本地容器中获取一个假 TTY"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:304
+msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
+msgid "Acquire a pseudo TTY on the local host"
+msgstr "在本地主机中获取一个假 TTY"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:362
+msgctxt "Description(org.freedesktop.machine1.manage-machines)"
+msgid "Manage local virtual machines and containers"
+msgstr "管理本地虚拟机和容器"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:421
+msgctxt "Description(org.freedesktop.machine1.manage-images)"
+msgid "Manage local virtual machine and container images"
+msgstr "管理本地虚拟机和容器的镜像"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:36
+msgctxt "Message(org.freedesktop.machine1.login)"
+msgid "Authentication is required to log into a local container."
+msgstr "要登入一个本地容器需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:95
+msgctxt "Message(org.freedesktop.machine1.host-login)"
+msgid "Authentication is required to log into the local host."
+msgstr "要登入本地主机需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:153
+msgctxt "Message(org.freedesktop.machine1.shell)"
+msgid "Authentication is required to acquire a shell in a local container."
+msgstr "要在本地容器中获取 shell 需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:212
+msgctxt "Message(org.freedesktop.machine1.host-shell)"
+msgid "Authentication is required to acquire a shell on the local host."
+msgstr "要在本地主机中获取 shell 需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:271
+msgctxt "Message(org.freedesktop.machine1.open-pty)"
+msgid ""
+"Authentication is required to acquire a pseudo TTY in a local container."
+msgstr "要在本地容器中获取假 TTY 需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:329
+msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
+msgid "Authentication is required to acquire a pseudo TTY on the local host."
+msgstr "要在本地主机中获取假 TTY 需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:387
+msgctxt "Message(org.freedesktop.machine1.manage-machines)"
+msgid ""
+"Authentication is required to manage local virtual machines and containers."
+msgstr "要管理本地虚拟机和容器需要验证。"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:446
+msgctxt "Message(org.freedesktop.machine1.manage-images)"
+msgid ""
+"Authentication is required to manage local virtual machine and container "
+"images."
+msgstr "要管理本地的虚拟机和容器镜像需要验证。"
 
 #~ msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
 #~ msgid "Change your own user data"
@@ -951,470 +1563,6 @@ msgstr "要允许未登录用户运行程序需要验证。"
 #~ msgid ""
 #~ "Authentication is required to grant an application realtime scheduling"
 #~ msgstr "要允许应用程序延迟系统关机需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-time)"
-#~ msgid "Set system time"
-#~ msgstr "设置系统时间"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-#~ msgid "Set system timezone"
-#~ msgstr "设置系统时区"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-#~ msgid "Set RTC to local timezone or UTC"
-#~ msgstr "设置硬件时钟使用本地时间或 UTC"
-
-#~ msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-#~ msgid "Turn network time synchronization on or off"
-#~ msgstr "打开或关闭网络时间同步"
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#~ msgid "Authentication is required to set the system timezone."
-#~ msgstr "设置系统时区需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-#~ msgid ""
-#~ "Authentication is required to control whether the RTC stores the local or "
-#~ "UTC time."
-#~ msgstr "设置硬件时钟使用本地时间或 UTC 需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-#~ msgid ""
-#~ "Authentication is required to control whether network time "
-#~ "synchronization shall be enabled."
-#~ msgstr "设置是否启用网络时间同步需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
-#~ msgid "Allow applications to inhibit system shutdown"
-#~ msgstr "允许应用程序阻止系统关机"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-delay-shutdown)"
-#~ msgid "Allow applications to delay system shutdown"
-#~ msgstr "允许应用程序延迟系统关机"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-sleep)"
-#~ msgid "Allow applications to inhibit system sleep"
-#~ msgstr "允许应用程序阻止系统睡眠"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-delay-sleep)"
-#~ msgid "Allow applications to delay system sleep"
-#~ msgstr "允许应用程序延迟系统睡眠"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-block-idle)"
-#~ msgid "Allow applications to inhibit automatic system suspend"
-#~ msgstr "允许应用程序阻止系统自动挂起"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-power-key)"
-#~ msgid "Allow applications to inhibit system handling of the power key"
-#~ msgstr "允许应用程序阻止系统响应电源键"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-suspend-key)"
-#~ msgid "Allow applications to inhibit system handling of the suspend key"
-#~ msgstr "允许应用程序阻止系统响应挂起键"
-
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
-#~ msgid "Allow applications to inhibit system handling of the hibernate key"
-#~ msgstr "允许应用程序阻止系统响应挂起键"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
-#~ msgid "Allow applications to inhibit system handling of the lid switch"
-#~ msgstr "允许应用程序阻止系统响应挂起键"
-
-#~ msgctxt "Description(org.freedesktop.login1.set-user-linger)"
-#~ msgid "Allow non-logged-in users to run programs"
-#~ msgstr "允许未登录用户运行程序"
-
-#~ msgctxt "Description(org.freedesktop.login1.attach-device)"
-#~ msgid "Allow attaching devices to seats"
-#~ msgstr "允许将设备附加至会话座位"
-
-#~ msgctxt "Description(org.freedesktop.login1.flush-devices)"
-#~ msgid "Flush device to seat attachments"
-#~ msgstr "刷新设备至会话座位间的连接"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off)"
-#~ msgid "Power off the system"
-#~ msgstr "关闭系统"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off-multiple-sessions)"
-#~ msgid "Power off the system while other users are logged in"
-#~ msgstr "存在其他已登录用户时仍然关机"
-
-#~ msgctxt "Description(org.freedesktop.login1.power-off-ignore-inhibit)"
-#~ msgid "Power off the system while an application asked to inhibit it"
-#~ msgstr "有其它应用程序阻止时仍然关机"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot)"
-#~ msgid "Reboot the system"
-#~ msgstr "重启系统"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot-multiple-sessions)"
-#~ msgid "Reboot the system while other users are logged in"
-#~ msgstr "存在其他已登录用户时仍然重启"
-
-#~ msgctxt "Description(org.freedesktop.login1.reboot-ignore-inhibit)"
-#~ msgid "Reboot the system while an application asked to inhibit it"
-#~ msgstr "有其它应用程序阻止时仍然重启"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend)"
-#~ msgid "Suspend the system"
-#~ msgstr "挂起系统"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend-multiple-sessions)"
-#~ msgid "Suspend the system while other users are logged in"
-#~ msgstr "存在其他已登录用户时仍然挂起系统"
-
-#~ msgctxt "Description(org.freedesktop.login1.suspend-ignore-inhibit)"
-#~ msgid "Suspend the system while an application asked to inhibit it"
-#~ msgstr "有其它应用程序阻止时仍然挂起系统"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate)"
-#~ msgid "Hibernate the system"
-#~ msgstr "休眠"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate-multiple-sessions)"
-#~ msgid "Hibernate the system while other users are logged in"
-#~ msgstr "存在其他已登录用户时仍然休眠"
-
-#~ msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
-#~ msgid "Hibernate the system while an application asked to inhibit it"
-#~ msgstr "有其它应用程序阻止时仍然休眠"
-
-#~ msgctxt "Description(org.freedesktop.login1.manage)"
-#~ msgid "Manage active sessions, users and seats"
-#~ msgstr "管理活动会话、用户与会话座位"
-
-#~ msgctxt "Description(org.freedesktop.login1.lock-sessions)"
-#~ msgid "Lock or unlock active sessions"
-#~ msgstr "活动会话锁定与解锁"
-
-#~ msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
-#~ msgid "Allow indication to the firmware to boot to setup interface"
-#~ msgstr "允许向固件发出指示以启动至固件设置界面"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system shutdown."
-#~ msgstr "要允许应用程序阻止系统关机需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to delay system shutdown."
-#~ msgstr "要允许应用程序延迟系统关机需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system sleep."
-#~ msgstr "要允许应用程序阻止系统睡眠需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
-#~ msgid "Authentication is required for an application to delay system sleep."
-#~ msgstr "要允许应用程序延迟系统睡眠需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit automatic system "
-#~ "suspend."
-#~ msgstr "要允许应用程序阻止系统自动挂起需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the power key."
-#~ msgstr "要允许应用程序阻止系统响应电源键需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the suspend key."
-#~ msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the hibernate key."
-#~ msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the lid switch."
-#~ msgstr "要允许应用程序阻止系统响应挂起键需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.set-user-linger)"
-#~ msgid "Authentication is required to run programs as a non-logged-in user."
-#~ msgstr "要允许未登录用户运行程序需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.attach-device)"
-#~ msgid "Authentication is required for attaching a device to a seat."
-#~ msgstr "要允许将设备附加至某个会话座位需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.flush-devices)"
-#~ msgid ""
-#~ "Authentication is required for resetting how devices are attached to "
-#~ "seats."
-#~ msgstr "重新设定设备的会话座位接入方式时需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off)"
-#~ msgid "Authentication is required for powering off the system."
-#~ msgstr "关闭系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while other users "
-#~ "are logged in."
-#~ msgstr "存在其他已登录用户时关闭系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr "要在其它应用程序阻止关机时关闭系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot)"
-#~ msgid "Authentication is required for rebooting the system."
-#~ msgstr "重启系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while other users are "
-#~ "logged in."
-#~ msgstr "存在其他已登录用户时重启系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr "要在其它应用程序阻止重启时重启系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend)"
-#~ msgid "Authentication is required for suspending the system."
-#~ msgstr "挂起系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while other users "
-#~ "are logged in."
-#~ msgstr "存在其他已登录用户时挂起系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr "要在其它应用程序阻止挂起时挂起系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate)"
-#~ msgid "Authentication is required for hibernating the system."
-#~ msgstr "休眠需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while other users "
-#~ "are logged in."
-#~ msgstr "存在其他已登录用户时进行休眠需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr "要在其它应用程序阻止休眠时进行休眠需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.manage)"
-#~ msgid ""
-#~ "Authentication is required for managing active sessions, users and seats."
-#~ msgstr "要管理活动会话、用户与会话座位需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.login1.lock-sessions)"
-#~ msgid "Authentication is required to lock or unlock active sessions."
-#~ msgstr "要对活动会话进行锁定或解锁需要验证。"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.set-wall-message)"
-#~ msgid "Authentication is required to set a wall message"
-#~ msgstr "安装软件需要认证"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.reply-password)"
-#~ msgid "Send passphrase back to system"
-#~ msgstr "将密码发回系统"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.manage-units)"
-#~ msgid "Manage system services or other units"
-#~ msgstr "管理系统服务或其它单元"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
-#~ msgid "Manage system service or unit files"
-#~ msgstr "管理系统服务或单元文件"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.set-environment)"
-#~ msgid "Set or unset system and service manager environment variables"
-#~ msgstr "设置或清除系统及服务管理器的环境变量"
-
-#~ msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
-#~ msgid "Reload the systemd state"
-#~ msgstr "重新载入 systemd 状态"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.reply-password)"
-#~ msgid ""
-#~ "Authentication is required to send the entered passphrase back to the "
-#~ "system."
-#~ msgstr "将输入的密码发回系统需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-units)"
-#~ msgid "Authentication is required to manage system services or other units."
-#~ msgstr "管理系统服务或其它单元需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
-#~ msgid "Authentication is required to manage system service or unit files."
-#~ msgstr "管理系统服务或单元文件需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.set-environment)"
-#~ msgid ""
-#~ "Authentication is required to set or unset system and service manager "
-#~ "environment variables."
-#~ msgstr "设置或清除系统及服务管理器的环境变量需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
-#~ msgid "Authentication is required to reload the systemd state."
-#~ msgstr "重新载入 systemd 状态需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.locale1.set-locale)"
-#~ msgid "Set system locale"
-#~ msgstr "设置系统区域和语言"
-
-#~ msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
-#~ msgid "Set system keyboard settings"
-#~ msgstr "设置系统键盘"
-
-#~ msgctxt "Message(org.freedesktop.locale1.set-locale)"
-#~ msgid "Authentication is required to set the system locale."
-#~ msgstr "设置系统区域和语言需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
-#~ msgid "Authentication is required to set the system keyboard settings."
-#~ msgstr "设置系统键盘需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
-#~ msgid "Set host name"
-#~ msgstr "设置主机名"
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
-#~ msgid "Set static host name"
-#~ msgstr "设置静态主机名"
-
-#~ msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
-#~ msgid "Set machine information"
-#~ msgstr "设置机器信息"
-
-#~ msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
-#~ msgid "Authentication is required to set the local host name."
-#~ msgstr "设置本地主机名需要验证。"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
-#~ msgid ""
-#~ "Authentication is required to set the statically configured local host "
-#~ "name, as well as the pretty host name."
-#~ msgstr "设置本地主机名需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
-#~ msgid "Authentication is required to set local machine information."
-#~ msgstr "设置本地机器信息需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.import1.import)"
-#~ msgid "Import a VM or container image"
-#~ msgstr "导入虚拟机或容器镜像"
-
-#~ msgctxt "Description(org.freedesktop.import1.export)"
-#~ msgid "Export a VM or container image"
-#~ msgstr "导出虚拟机或容器镜像"
-
-#~ msgctxt "Description(org.freedesktop.import1.pull)"
-#~ msgid "Download a VM or container image"
-#~ msgstr "下载虚拟机或容器镜像"
-
-#~ msgctxt "Message(org.freedesktop.import1.import)"
-#~ msgid "Authentication is required to import a VM or container image"
-#~ msgstr "导入虚拟机或容器镜像需要验证"
-
-#~ msgctxt "Message(org.freedesktop.import1.export)"
-#~ msgid "Authentication is required to export a VM or container image"
-#~ msgstr "导出虚拟机或容器镜像需要验证"
-
-#~ msgctxt "Message(org.freedesktop.import1.pull)"
-#~ msgid "Authentication is required to download a VM or container image"
-#~ msgstr "下载虚拟机或容器镜像需要验证。"
-
-#~ msgctxt "Description(org.freedesktop.machine1.login)"
-#~ msgid "Log into a local container"
-#~ msgstr "登入一个本地容器"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-login)"
-#~ msgid "Log into the local host"
-#~ msgstr "登入本地主机"
-
-#~ msgctxt "Description(org.freedesktop.machine1.shell)"
-#~ msgid "Acquire a shell in a local container"
-#~ msgstr "在本地容器中获取一个 shell"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-shell)"
-#~ msgid "Acquire a shell on the local host"
-#~ msgstr "在本地主机中获取一个 shell"
-
-#~ msgctxt "Description(org.freedesktop.machine1.open-pty)"
-#~ msgid "Acquire a pseudo TTY in a local container"
-#~ msgstr "在本地容器中获取一个假 TTY"
-
-#~ msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
-#~ msgid "Acquire a pseudo TTY on the local host"
-#~ msgstr "在本地主机中获取一个假 TTY"
-
-#~ msgctxt "Description(org.freedesktop.machine1.manage-machines)"
-#~ msgid "Manage local virtual machines and containers"
-#~ msgstr "管理本地虚拟机和容器"
-
-#~ msgctxt "Description(org.freedesktop.machine1.manage-images)"
-#~ msgid "Manage local virtual machine and container images"
-#~ msgstr "管理本地虚拟机和容器的镜像"
-
-#~ msgctxt "Message(org.freedesktop.machine1.login)"
-#~ msgid "Authentication is required to log into a local container."
-#~ msgstr "要登入一个本地容器需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-login)"
-#~ msgid "Authentication is required to log into the local host."
-#~ msgstr "要登入本地主机需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.shell)"
-#~ msgid "Authentication is required to acquire a shell in a local container."
-#~ msgstr "要在本地容器中获取 shell 需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-shell)"
-#~ msgid "Authentication is required to acquire a shell on the local host."
-#~ msgstr "要在本地主机中获取 shell 需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY in a local container."
-#~ msgstr "要在本地容器中获取假 TTY 需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY on the local host."
-#~ msgstr "要在本地主机中获取假 TTY 需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.manage-machines)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machines and "
-#~ "containers."
-#~ msgstr "要管理本地虚拟机和容器需要验证。"
-
-#~ msgctxt "Message(org.freedesktop.machine1.manage-images)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machine and container "
-#~ "images."
-#~ msgstr "要管理本地的虚拟机和容器镜像需要验证。"
 
 #~ msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"
 #~ msgid "Mount a filesystem"

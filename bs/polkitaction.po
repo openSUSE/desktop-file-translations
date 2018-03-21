@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,11 +92,16 @@ msgctxt "Message(org.blueman.bluez.config)"
 msgid "Changing Bluetooth system settings requires privileges"
 msgstr "Mijenjanje postave sistemskih fontova zahtjeva ovlašćenja."
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
 #, fuzzy
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "Prijava je potrebna za promjenu korisničkih podataka."
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "Neophodna su ovlašćenja za promjenu sistemskih Gkonf vrijednosti"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 #, fuzzy
@@ -122,6 +127,12 @@ msgstr "Promjena postavki vremena i datuma"
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr "Za promjenu vremena i datuma trebate potvrditi identitet."
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#, fuzzy
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
+msgstr "Prijava je potrebna za promjenu korisničkih podataka."
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -377,6 +388,47 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "Sistemske smjernice sprečavaju dobavljanje sistemske staze."
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr "Upravljaj korisničkim slikama u menadžeru prijavljivanja"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "Upravljaj temama menadžera prijavljivanja"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "Sačuvaj postavke menadžera prijavljivanja"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr ""
+"Za upravljanje korisničkim slikama u menadžeru prijavljivanja neophodna su "
+"administratorska ovlašćenja."
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr ""
+"Za upravljanje temama menadžera prijavljivanja neophodna su administratorska "
+"ovlašćenja."
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr ""
+"Za izmjenu postavki menadžera prijavljivanja neophodna su administratorska "
+"ovlašćenja."
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -428,46 +480,15 @@ msgctxt "Message(org.kde.fontinst.manage)"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "Mijenjanje postave sistemskih fontova zahtjeva ovlašćenja."
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr "Upravljaj korisničkim slikama u menadžeru prijavljivanja"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr "Snimi konfiguraciju novčanika"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "Upravljaj temama menadžera prijavljivanja"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "Sačuvaj postavke menadžera prijavljivanja"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
-msgstr ""
-"Za upravljanje korisničkim slikama u menadžeru prijavljivanja neophodna su "
-"administratorska ovlašćenja."
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr ""
-"Za upravljanje temama menadžera prijavljivanja neophodna su administratorska "
-"ovlašćenja."
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr ""
-"Za izmjenu postavki menadžera prijavljivanja neophodna su administratorska "
-"ovlašćenja."
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
+msgstr "Dopusti snimanje postavki novčanika"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -476,16 +497,6 @@ msgstr "Snimi konfiguraciju novčanika"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "Dopusti snimanje postavki novčanika"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr "Snimi konfiguraciju novčanika"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr "Dopusti snimanje postavki novčanika"
 
@@ -1703,6 +1714,16 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr "Prijava je potrebna za test uređaja"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "Dobij maksimalnu vrijednost osvjetljenja"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Sistemska pravila vas sprečavju od dobijanja nivoa osvjetljenja."
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1716,16 +1737,6 @@ msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
 msgstr "Sistemske smjernice sprečavaju dobavljanje postavki nivoa osvetljaja."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Dobij maksimalnu vrijednost osvjetljenja"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Sistemska pravila vas sprečavju od dobijanja nivoa osvjetljenja."
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
 msgctxt "Description(scap-workbench-oscap.run)"
@@ -1997,11 +2008,6 @@ msgstr "Prijava je potrebna za test uređaja"
 #, fuzzy
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 #~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "Neophodna su ovlašćenja za promjenu sistemskih Gkonf vrijednosti"
-
-#, fuzzy
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
 #~ msgstr "Neophodna su ovlašćenja za promjenu sistemskih Gkonf vrijednosti"
 
 #, fuzzy

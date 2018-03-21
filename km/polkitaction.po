@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,11 +87,16 @@ msgctxt "Message(org.blueman.bluez.config)"
 msgid "Changing Bluetooth system settings requires privileges"
 msgstr "ត្រូវការ​សិទ្ធិ​ក្នុងការ​កែប្រែ​ការកំណត់​រចនាសម្ព័ន្ធ​ពុម្ពអក្សរ​ប្រព័ន្ធ​ទាំង​មូល ។"
 
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
+msgctxt "Description(org.a11y.brlapi.write-display)"
+msgid "Write to the braille display"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:14
 #, fuzzy
-msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដើម្បី​ផ្លាស់ប្ដូរ​ទិន្នន័យ​អ្នក​ប្រើ"
+msgctxt "Message(org.a11y.brlapi.write-display)"
+msgid "Privileges are required to access the braille display"
+msgstr "សិទ្ធិត្រូវ​បាន​ទាមទារ​សម្រាប់​ការ​ផ្លាស់ប្ដូរ​តម្លៃ​ប្រព័ន្ធ GConf"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
 msgctxt ""
@@ -115,6 +120,12 @@ msgstr "ផ្លាស់ប្ដូរ​ការ​កំណត់​ពេ
 msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr "ដើម្បី​ផ្លាស់ប្ដូរ​កា​រកំណត់​ពេលវាលា ឬ​កាលបរិច្ឆេទ អ្នក​ត្រូវ​តែ​ផ្ទៀតផ្ទាត់​ ។"
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
+#, fuzzy
+msgctxt "Message(org.cinnamon.settings-users)"
+msgid "Authentication is required to run the Users and Groups"
+msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដើម្បី​ផ្លាស់ប្ដូរ​ទិន្នន័យ​អ្នក​ប្រើ"
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -366,6 +377,41 @@ msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "គោលនយោបាយ​ប្រព័ន្ធ​ ការពារ​អ្នក​​មិន​ឲ្យ​យក​កម្រិត​ពន្លឺ ។"
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid "Manage user images shown in the Login Manager"
+msgstr "គ្រប់គ្រង​រូបភាព​​​អ្នក​ប្រើ​ដែលបាន​បង្ហាញ​នៅ​ក្នុង​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
+msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid "Manage themes for the Login Manager"
+msgstr "គ្រប់គ្រង​ស្បែក​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
+msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
+msgid "Save the Login Manager settings"
+msgstr "រក្សាទុក​ការ​កំណត់​កម្មវិធី​គ្រប់គ្រង​ចូល"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
+msgid ""
+"Administrator authorization is required to manage user images for the Login "
+"Manager"
+msgstr "ត្រូវការ​អនុញ្ញាត​របស់​​អ្នកគ្រប់គ្រង ដើម្បី​គ្រប់គ្រង​រូបភាព​អ្នកប្រើ​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
+msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
+msgid ""
+"Administrator authorization is required to manage themes for the Login "
+"Manager"
+msgstr "ត្រូវការ​កា​រអនុញ្ញាត​របស់​អ្នក​គ្រប់គ្រង ដើម្បី​គ្រប់គ្រង​ស្បែក​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
+msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
+msgid ""
+"Administrator authorization is required to change the Login Manager settings"
+msgstr "ត្រូវការ​ការ​​អនុញ្ញាត​របស់​អ្នក​​គ្រប់គ្រង​ ដើម្បី​ផ្លាស់ប្ដូរ​ការ​កំណត់​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -417,40 +463,15 @@ msgctxt "Message(org.kde.fontinst.manage)"
 msgid "Modifying the system-wide font configuration requires privileges."
 msgstr "ត្រូវការ​សិទ្ធិ​ក្នុងការ​កែប្រែ​ការកំណត់​រចនាសម្ព័ន្ធ​ពុម្ពអក្សរ​ប្រព័ន្ធ​ទាំង​មូល ។"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid "Manage user images shown in the Login Manager"
-msgstr "គ្រប់គ្រង​រូបភាព​​​អ្នក​ប្រើ​ដែលបាន​បង្ហាញ​នៅ​ក្នុង​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Save wallet configuration"
+msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:126
-msgctxt "Description(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid "Manage themes for the Login Manager"
-msgstr "គ្រប់គ្រង​ស្បែក​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:243
-msgctxt "Description(org.kde.kcontrol.kcmkdm.save)"
-msgid "Save the Login Manager settings"
-msgstr "រក្សាទុក​ការ​កំណត់​កម្មវិធី​គ្រប់គ្រង​ចូល"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:65
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managefaces)"
-msgid ""
-"Administrator authorization is required to manage user images for the Login "
-"Manager"
-msgstr "ត្រូវការ​អនុញ្ញាត​របស់​​អ្នកគ្រប់គ្រង ដើម្បី​គ្រប់គ្រង​រូបភាព​អ្នកប្រើ​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:182
-msgctxt "Message(org.kde.kcontrol.kcmkdm.managethemes)"
-msgid ""
-"Administrator authorization is required to manage themes for the Login "
-"Manager"
-msgstr "ត្រូវការ​កា​រអនុញ្ញាត​របស់​អ្នក​គ្រប់គ្រង ដើម្បី​គ្រប់គ្រង​ស្បែក​សម្រាប់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:299
-msgctxt "Message(org.kde.kcontrol.kcmkdm.save)"
-msgid ""
-"Administrator authorization is required to change the Login Manager settings"
-msgstr "ត្រូវការ​ការ​​អនុញ្ញាត​របស់​អ្នក​​គ្រប់គ្រង​ ដើម្បី​ផ្លាស់ប្ដូរ​ការ​កំណត់​របស់​កម្មវិធី​គ្រប់គ្រង​ការ​ចូល"
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
+msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+msgid "Allow saving wallet configuration settings"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -459,16 +480,6 @@ msgstr ""
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
 msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
 msgid "Allow saving wallet configuration settings"
 msgstr ""
 
@@ -1681,6 +1692,18 @@ msgctxt "Message(org.selinux.config.pkexec.run)"
 msgid "Authentication is required to run system-config-selinux"
 msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដើម្បី​ផ្លាស់ប្ដូរ​ទិន្នន័យ​អ្នក​ប្រើ"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+#, fuzzy
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "យក​ពន្លឺ"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+#, fuzzy
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "គោលនយោបាយ​ប្រព័ន្ធ​ ការពារ​អ្នក​​មិន​ឲ្យ​យក​កម្រិត​ពន្លឺ ។"
+
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -1693,18 +1716,6 @@ msgstr ""
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
-msgstr "គោលនយោបាយ​ប្រព័ន្ធ​ ការពារ​អ្នក​​មិន​ឲ្យ​យក​កម្រិត​ពន្លឺ ។"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-#, fuzzy
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "យក​ពន្លឺ"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-#, fuzzy
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
 msgstr "គោលនយោបាយ​ប្រព័ន្ធ​ ការពារ​អ្នក​​មិន​ឲ្យ​យក​កម្រិត​ពន្លឺ ។"
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
@@ -1958,11 +1969,6 @@ msgstr "តម្រូវ​ឲ្យ​ផ្ទៀងផ្ទាត់ ដ�
 #, fuzzy
 #~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
 #~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "សិទ្ធិត្រូវ​បាន​ទាមទារ​សម្រាប់​ការ​ផ្លាស់ប្ដូរ​តម្លៃ​ប្រព័ន្ធ GConf"
-
-#, fuzzy
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Privileges are required to get list of available devices."
 #~ msgstr "សិទ្ធិត្រូវ​បាន​ទាមទារ​សម្រាប់​ការ​ផ្លាស់ប្ដូរ​តម្លៃ​ប្រព័ន្ធ GConf"
 
 #, fuzzy

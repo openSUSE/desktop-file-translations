@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-15 15:46+0000\n"
+"POT-Creation-Date: 2018-03-21 09:42+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,6 +9,391 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "Enable or disable system networking"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
+msgctxt "Description(org.freedesktop.NetworkManager.reload)"
+msgid "Reload NetworkManager configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:121
+msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
+msgid ""
+"Put NetworkManager to sleep or wake it up (should only be used by system "
+"power management)"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:208
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "Enable or disable WiFi devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:296
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "Enable or disable mobile broadband devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:384
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid "Enable or disable WiMAX mobile broadband devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:466
+msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
+msgid "Allow control of network connections"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:555
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "Connection sharing via a protected WiFi network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:649
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "Connection sharing via an open WiFi network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:743
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "Modify personal network connections"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:823
+#, fuzzy
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "Modify network connections for all users"
+msgstr "Koriģēt krāsu iestatījumus ierīcei"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:903
+msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "Modify persistent system hostname"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:997
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
+#| msgid "Modify system-wide configuration"
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid "Modify persistent global DNS configuration"
+msgstr "Modificēt sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1035
+msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "Perform a checkpoint or rollback of interfaces configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
+msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "Enable or disable device statistics"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1078
+msgctxt ""
+"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "Enable or disable connectivity checking"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
+msgid "System policy prevents enabling or disabling system networking"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:106
+msgctxt "Message(org.freedesktop.NetworkManager.reload)"
+msgid "System policy prevents reloading NetworkManager"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:161
+msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
+msgid "System policy prevents putting NetworkManager to sleep or waking it up"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:249
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+msgid "System policy prevents enabling or disabling WiFi devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:337
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
+msgid "System policy prevents enabling or disabling mobile broadband devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:422
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
+msgid ""
+"System policy prevents enabling or disabling WiMAX mobile broadband devices"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:507
+msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
+msgid "System policy prevents control of network connections"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:599
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
+msgid "System policy prevents sharing connections via a protected WiFi network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:693
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
+msgid "System policy prevents sharing connections via an open WiFi network"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:779
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+msgid "System policy prevents modification of personal network settings"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:859
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
+msgid "System policy prevents modification of network settings for all users"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:946
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
+msgid "System policy prevents modification of the persistent system hostname"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1012
+msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
+msgid ""
+"System policy prevents modification of the persistent global DNS "
+"configuration"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1042
+msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
+msgid "System policy prevents the creation of a checkpoint or its rollback"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1064
+msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
+msgid "System policy prevents enabling or disabling device statistics"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1085
+msgctxt ""
+"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
+msgid "System policy prevents enabling or disabling connectivity checking"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
+msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
+msgid "Cancel foreign task"
+msgstr "Atcelt ārējo uzdevumu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
+msgctxt "Description(org.freedesktop.packagekit.package-install)"
+msgid "Install signed package"
+msgstr "Instalēt parakstītu pakotni"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
+msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Install untrusted local file"
+msgstr "Instalēt neuzticamu vietējo datni"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
+msgid "Install already installed package again"
+msgstr "Instalēt parakstītu pakotni"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
+msgid "Install older version of installed package"
+msgstr "Instalēt parakstītu pakotni"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
+msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid "Trust a key used for signing software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:526
+msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Accept EULA"
+msgstr "Pieņemt licences līgumu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:638
+msgctxt "Description(org.freedesktop.packagekit.package-remove)"
+msgid "Remove package"
+msgstr "Izņemt pakotni"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:733
+msgctxt "Description(org.freedesktop.packagekit.system-update)"
+msgid "Update software"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:807
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Change software source parameters"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Change software repository parameters"
+msgstr "Mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:835
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Refresh system sources"
+msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Refresh system repositories"
+msgstr "Atsvaidzināt sistēmas avotus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:863
+msgctxt ""
+"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid "Set network proxy"
+msgstr "Iestatīt tīkla starpniekserveri"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:953
+msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
+msgid "Reload a device"
+msgstr "Pārlādēt ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1061
+#, fuzzy
+msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
+msgid "Upgrade System"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1126
+msgctxt "Description(org.freedesktop.packagekit.repair-system)"
+msgid "Repair System"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1207
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Trigger offline updates"
+msgstr "Izpildīt nesaistes atjauninājumus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1284
+msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Trigger offline updates"
+msgstr "Izpildīt nesaistes atjauninājumus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1361
+msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Clear offline update message"
+msgstr "Attīrīt nesaistes atjaunināšanas ziņojumus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
+msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
+msgid ""
+"Authentication is required to cancel a task that was not started by yourself"
+msgstr ""
+"Nepieciešama autentifikācija, lai apturētu uzdevumu, kuru jūs neesat uzdevis"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install)"
+msgid "Authentication is required to install software"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
+msgid "Authentication is required to install untrusted software"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
+msgid "Authentication is required to reinstall software"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+msgid "Authentication is required to downgrade software"
+msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
+msgid ""
+"Authentication is required to consider a key used for signing software as "
+"trusted"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:577
+msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
+msgid "Authentication is required to accept a EULA"
+msgstr "Nepieciešama autentifikācija, lai pieņemtu licences līgumu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:690
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.package-remove)"
+msgid "Authentication is required to remove software"
+msgstr "Jāautentificējas, lai izņemtu krāsu profilu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:765
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-update)"
+msgid "Authentication is required to update software"
+msgstr "Vajag autentificēties, lai atjauninātu SMART datus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:816
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Authentication is required to change software source parameters"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+msgid "Authentication is required to change software repository parameters"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:844
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+#| msgid "Authentication is required to refresh the system sources"
+msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
+msgid "Authentication is required to refresh the system repositories"
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:912
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
+msgid ""
+"Authentication is required to set the network proxy used for downloading "
+"software"
+msgstr "Jāautentificējas, lai instalētu krāsu profilus visiem lietotājiem"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1002
+msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
+msgid "Authentication is required to reload the device with a new driver"
+msgstr "Nepieciešama autentifikācija, lai pārlādētu ierīci ar jaunu draiveri"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1089
+#, fuzzy
+msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
+msgid "Authentication is required to upgrade the operating system"
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1163
+msgctxt "Message(org.freedesktop.packagekit.repair-system)"
+msgid "Authentication is required to repair the installed software"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1240
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
+msgid "Authentication is required to trigger offline updates"
+msgstr "Lai palaistu nesaistes atjauninājumus, jāautentificējas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1317
+msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
+msgid "Authentication is required to trigger offline updates"
+msgstr "Lai palaistu nesaistes atjauninājumus, jāautentificējas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1394
+msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
+msgid "Authentication is required to clear the offline updates message"
+msgstr "Lai attīrītu nesaistes atjaunināšanas ziņojumus, jāautentificējas"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.color.policy:15
 msgctxt "Description(org.freedesktop.color-manager.create-device)"
@@ -381,379 +766,6 @@ msgid ""
 "updates"
 msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "Enable or disable system networking"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:99
-msgctxt "Description(org.freedesktop.NetworkManager.reload)"
-msgid "Reload NetworkManager configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:119
-msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
-msgid ""
-"Put NetworkManager to sleep or wake it up (should only be used by system "
-"power management)"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:206
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "Enable or disable WiFi devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:294
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "Enable or disable mobile broadband devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:382
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid "Enable or disable WiMAX mobile broadband devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:464
-msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
-msgid "Allow control of network connections"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:553
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "Connection sharing via a protected WiFi network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:647
-msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "Connection sharing via an open WiFi network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:741
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "Modify personal network connections"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:821
-#, fuzzy
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "Modify network connections for all users"
-msgstr "Koriģēt krāsu iestatījumus ierīcei"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:901
-msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "Modify persistent system hostname"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:995
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
-#| msgid "Modify system-wide configuration"
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid "Modify persistent global DNS configuration"
-msgstr "Modificēt sistēmas konfigurāciju"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1031
-msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "Perform a checkpoint or rollback of interfaces configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1051
-msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "Enable or disable device statistics"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1070
-msgctxt ""
-"Description(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "Enable or disable connectivity checking"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:52
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
-msgid "System policy prevents enabling or disabling system networking"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:105
-msgctxt "Message(org.freedesktop.NetworkManager.reload)"
-msgid "System policy prevents reloading NetworkManager"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:159
-msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
-msgid "System policy prevents putting NetworkManager to sleep or waking it up"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:247
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "System policy prevents enabling or disabling WiFi devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:335
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
-msgid "System policy prevents enabling or disabling mobile broadband devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:420
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
-msgid ""
-"System policy prevents enabling or disabling WiMAX mobile broadband devices"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:505
-msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
-msgid "System policy prevents control of network connections"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:597
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "System policy prevents sharing connections via a protected WiFi network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:691
-msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "System policy prevents sharing connections via an open WiFi network"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:777
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
-msgid "System policy prevents modification of personal network settings"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:857
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
-msgid "System policy prevents modification of network settings for all users"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:944
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
-msgid "System policy prevents modification of the persistent system hostname"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1009
-msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.global-dns)"
-msgid ""
-"System policy prevents modification of the persistent global DNS "
-"configuration"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1037
-msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
-msgid "System policy prevents the creation of a checkpoint or its rollback"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1057
-msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
-msgid "System policy prevents enabling or disabling device statistics"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1076
-msgctxt ""
-"Message(org.freedesktop.NetworkManager.enable-disable-connectivity-check)"
-msgid "System policy prevents enabling or disabling connectivity checking"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:15
-msgctxt "Description(org.freedesktop.packagekit.cancel-foreign)"
-msgid "Cancel foreign task"
-msgstr "Atcelt ārējo uzdevumu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:121
-msgctxt "Description(org.freedesktop.packagekit.package-install)"
-msgid "Install signed package"
-msgstr "Instalēt parakstītu pakotni"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:213
-msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Install untrusted local file"
-msgstr "Instalēt neuzticamu vietējo datni"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:306
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.package-reinstall)"
-msgid "Install already installed package again"
-msgstr "Instalēt parakstītu pakotni"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:380
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
-msgid "Install older version of installed package"
-msgstr "Instalēt parakstītu pakotni"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:454
-msgctxt "Description(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid "Trust a key used for signing software"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:525
-msgctxt "Description(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Accept EULA"
-msgstr "Pieņemt licences līgumu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:637
-msgctxt "Description(org.freedesktop.packagekit.package-remove)"
-msgid "Remove package"
-msgstr "Izņemt pakotni"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:732
-msgctxt "Description(org.freedesktop.packagekit.system-update)"
-msgid "Update software"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:806
-msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Change software source parameters"
-msgstr "Mainītu programmatūras avotu parametrus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:918
-msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Refresh system sources"
-msgstr "Atsvaidzināt sistēmas avotus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1026
-msgctxt ""
-"Description(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid "Set network proxy"
-msgstr "Iestatīt tīkla starpniekserveri"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1116
-msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
-msgid "Reload a device"
-msgstr "Pārlādēt ierīci"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1224
-#, fuzzy
-msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
-msgid "Upgrade System"
-msgstr "Salabot sistēmu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1289
-msgctxt "Description(org.freedesktop.packagekit.repair-system)"
-msgid "Repair System"
-msgstr "Salabot sistēmu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1370
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Trigger offline updates"
-msgstr "Izpildīt nesaistes atjauninājumus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1447
-msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Trigger offline updates"
-msgstr "Izpildīt nesaistes atjauninājumus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1524
-msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Clear offline update message"
-msgstr "Attīrīt nesaistes atjaunināšanas ziņojumus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:63
-msgctxt "Message(org.freedesktop.packagekit.cancel-foreign)"
-msgid ""
-"Authentication is required to cancel a task that was not started by yourself"
-msgstr ""
-"Nepieciešama autentifikācija, lai apturētu uzdevumu, kuru jūs neesat uzdevis"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:171
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-install)"
-msgid "Authentication is required to install software"
-msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:263
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
-msgid "Authentication is required to install untrusted software"
-msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:338
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-reinstall)"
-msgid "Authentication is required to reinstall software"
-msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:412
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
-msgid "Authentication is required to downgrade software"
-msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:485
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-trust-signing-key)"
-msgid ""
-"Authentication is required to consider a key used for signing software as "
-"trusted"
-msgstr ""
-"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:576
-msgctxt "Message(org.freedesktop.packagekit.package-eula-accept)"
-msgid "Authentication is required to accept a EULA"
-msgstr "Nepieciešama autentifikācija, lai pieņemtu licences līgumu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:689
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.package-remove)"
-msgid "Authentication is required to remove software"
-msgstr "Jāautentificējas, lai izņemtu krāsu profilu"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:764
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-update)"
-msgid "Authentication is required to update software"
-msgstr "Vajag autentificēties, lai atjauninātu SMART datus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:857
-msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
-msgid "Authentication is required to change software source parameters"
-msgstr ""
-"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:967
-msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
-msgid "Authentication is required to refresh the system sources"
-msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1075
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
-msgid ""
-"Authentication is required to set the network proxy used for downloading "
-"software"
-msgstr "Jāautentificējas, lai instalētu krāsu profilus visiem lietotājiem"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1165
-msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
-msgid "Authentication is required to reload the device with a new driver"
-msgstr "Nepieciešama autentifikācija, lai pārlādētu ierīci ar jaunu draiveri"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1252
-#, fuzzy
-msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
-msgid "Authentication is required to upgrade the operating system"
-msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1326
-msgctxt "Message(org.freedesktop.packagekit.repair-system)"
-msgid "Authentication is required to repair the installed software"
-msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1403
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
-msgid "Authentication is required to trigger offline updates"
-msgstr "Lai palaistu nesaistes atjauninājumus, jāautentificējas"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1480
-msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
-msgid "Authentication is required to trigger offline updates"
-msgstr "Lai palaistu nesaistes atjauninājumus, jāautentificējas"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1557
-msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
-msgid "Authentication is required to clear the offline updates message"
-msgstr "Lai attīrītu nesaistes atjaunināšanas ziņojumus, jāautentificējas"
-
 #: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
 msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
 msgid "Run the polkit example program Frobnicate"
@@ -777,6 +789,717 @@ msgstr ""
 msgctxt "Message(org.freedesktop.policykit.exec)"
 msgid "Authentication is required to run a program as another user"
 msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.locale1.set-locale)"
+msgid "Set system locale"
+msgstr "Atsvaidzināt sistēmas avotus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
+#, fuzzy
+msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
+msgid "Set system keyboard settings"
+msgstr "Atsvaidzināt sistēmas avotus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
+#, fuzzy
+msgctxt "Message(org.freedesktop.locale1.set-locale)"
+msgid "Authentication is required to set the system locale."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
+#, fuzzy
+msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
+msgid "Authentication is required to set the system keyboard settings."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "Atvērt sistēmas ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+#, fuzzy
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "Atvērt sistēmas ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+#, fuzzy
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+#, fuzzy
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr "Jāautentificējas, lai pārbaudītu barošanas stāvokli"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+#, fuzzy
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
+msgctxt "Description(org.freedesktop.systemd1.reply-password)"
+msgid "Send passphrase back to system"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:73
+#, fuzzy
+msgctxt "Description(org.freedesktop.systemd1.manage-units)"
+msgid "Manage system services or other units"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:133
+#, fuzzy
+msgctxt "Description(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Manage system service or unit files"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:193
+#, fuzzy
+msgctxt "Description(org.freedesktop.systemd1.set-environment)"
+msgid "Set or unset system and service manager environment variables"
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:253
+#, fuzzy
+msgctxt "Description(org.freedesktop.systemd1.reload-daemon)"
+msgid "Reload the systemd state"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:37
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.reply-password)"
+msgid ""
+"Authentication is required to send the entered passphrase back to the system."
+msgstr "Vajag autentificēties, lai mainītu šifrētas ierīces paroli"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:99
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.manage-units)"
+msgid "Authentication is required to manage system services or other units."
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:159
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
+msgid "Authentication is required to manage system service or unit files."
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:219
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.set-environment)"
+msgid ""
+"Authentication is required to set or unset system and service manager "
+"environment variables."
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:279
+#, fuzzy
+msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
+msgid "Authentication is required to reload the systemd state."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid "Allow applications to inhibit system shutdown"
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:71
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Allow applications to delay system shutdown"
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:132
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Allow applications to inhibit system sleep"
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:192
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Allow applications to delay system sleep"
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:254
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-block-idle)"
+msgid "Allow applications to inhibit automatic system suspend"
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:314
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid "Allow applications to inhibit system handling of the power key"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:375
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid "Allow applications to inhibit system handling of the suspend key"
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:436
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid "Allow applications to inhibit system handling of the hibernate key"
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:496
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid "Allow applications to inhibit system handling of the lid switch"
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:556
+msgctxt "Description(org.freedesktop.login1.set-self-linger)"
+msgid "Allow non-logged-in user to run programs"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:592
+msgctxt "Description(org.freedesktop.login1.set-user-linger)"
+msgid "Allow non-logged-in users to run programs"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:654
+msgctxt "Description(org.freedesktop.login1.attach-device)"
+msgid "Allow attaching devices to seats"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:715
+msgctxt "Description(org.freedesktop.login1.flush-devices)"
+msgid "Flush device to seat attachments"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:775
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.power-off)"
+msgid "Power off the system"
+msgstr "Izgrūst datu nesēju no sistēmas dziņa"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:838
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid "Power off the system while other users are logged in"
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:901
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid "Power off the system while an application asked to inhibit it"
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:962
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.reboot)"
+msgid "Reboot the system"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1025
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid "Reboot the system while other users are logged in"
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1088
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid "Reboot the system while an application asked to inhibit it"
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1149
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.suspend)"
+msgid "Suspend the system"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1211
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid "Suspend the system while other users are logged in"
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1274
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid "Suspend the system while an application asked to inhibit it"
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1335
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.hibernate)"
+msgid "Hibernate the system"
+msgstr "Salabot sistēmu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1395
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid "Hibernate the system while other users are logged in"
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1456
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid "Hibernate the system while an application asked to inhibit it"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1517
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.manage)"
+msgid "Manage active sessions, users and seats"
+msgstr "Nepieciešama autentifikācija, lai mainītu lietotāja datus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1575
+#, fuzzy
+msgctxt "Description(org.freedesktop.login1.lock-sessions)"
+msgid "Lock or unlock active sessions"
+msgstr "Vajag autentificēties, lai atbloķētu šifrētu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1635
+msgctxt "Description(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid "Allow indication to the firmware to boot to setup interface"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1695
+msgctxt "Description(org.freedesktop.login1.set-wall-message)"
+msgid "Set a wall message"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:36
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
+msgid ""
+"Authentication is required for an application to inhibit system shutdown."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:97
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
+msgid "Authentication is required for an application to delay system shutdown."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:158
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
+msgid "Authentication is required for an application to inhibit system sleep."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:219
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
+msgid "Authentication is required for an application to delay system sleep."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:280
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
+msgid ""
+"Authentication is required for an application to inhibit automatic system "
+"suspend."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:340
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the power key."
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:401
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the suspend key."
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:462
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the hibernate key."
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:522
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
+msgid ""
+"Authentication is required for an application to inhibit system handling of "
+"the lid switch."
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:570
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-self-linger)"
+msgid "Explicit request is required to run programs as a non-logged-in user."
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:619
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-user-linger)"
+msgid "Authentication is required to run programs as a non-logged-in user."
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:680
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.attach-device)"
+msgid "Authentication is required for attaching a device to a seat."
+msgstr "Vajag autentificēties, lai atvērtu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:741
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.flush-devices)"
+msgid ""
+"Authentication is required for resetting how devices are attached to seats."
+msgstr ""
+"Vajag autentificēties, lai dzēstu cikla ierīci, ko ir iestatījis cits "
+"lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:802
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.power-off)"
+msgid "Authentication is required for powering off the system."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:865
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
+msgid ""
+"Authentication is required for powering off the system while other users are "
+"logged in."
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:927
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
+msgid ""
+"Authentication is required for powering off the system while an application "
+"asked to inhibit it."
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:989
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.reboot)"
+msgid "Authentication is required for rebooting the system."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1052
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
+msgid ""
+"Authentication is required for rebooting the system while other users are "
+"logged in."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1114
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
+msgid ""
+"Authentication is required for rebooting the system while an application "
+"asked to inhibit it."
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1176
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.suspend)"
+msgid "Authentication is required for suspending the system."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1238
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
+msgid ""
+"Authentication is required for suspending the system while other users are "
+"logged in."
+msgstr ""
+"Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
+"cits lietotājs"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1300
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
+msgid ""
+"Authentication is required for suspending the system while an application "
+"asked to inhibit it."
+msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1361
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.hibernate)"
+msgid "Authentication is required for hibernating the system."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1421
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
+msgid ""
+"Authentication is required for hibernating the system while other users are "
+"logged in."
+msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1482
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
+msgid ""
+"Authentication is required for hibernating the system while an application "
+"asked to inhibit it."
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1542
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.manage)"
+msgid ""
+"Authentication is required for managing active sessions, users and seats."
+msgstr "Nepieciešama autentifikācija, lai mainītu lietotāja datus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1601
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.lock-sessions)"
+msgid "Authentication is required to lock or unlock active sessions."
+msgstr "Vajag autentificēties, lai atbloķētu šifrētu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1661
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
+msgid ""
+"Authentication is required to indicate to the firmware to boot to setup "
+"interface."
+msgstr "Vajag autentificēties, lai atjauninātu SMART datus"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:1720
+#, fuzzy
+msgctxt "Message(org.freedesktop.login1.set-wall-message)"
+msgid "Authentication is required to set a wall message"
+msgstr "Vajag autentificēties, lai iestatītu cikla ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
+msgid "Set host name"
+msgstr "Atvērt sistēmas ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:72
+msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
+msgid "Set static host name"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:134
+msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
+msgid "Set machine information"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:37
+#, fuzzy
+msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
+msgid "Authentication is required to set the local host name."
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:99
+#, fuzzy
+msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
+msgid ""
+"Authentication is required to set the statically configured local host name, "
+"as well as the pretty host name."
+msgstr "Jāautentificējas, lai instalētu krāsu profilus visiem lietotājiem"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:161
+#, fuzzy
+msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
+msgid "Authentication is required to set local machine information."
+msgstr "Jāautentificējas, lai deaktivētu profilu, kas atbilst ierīcei"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.import)"
+msgid "Import a VM or container image"
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:68
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.export)"
+msgid "Export a VM or container image"
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:126
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.pull)"
+msgid "Download a VM or container image"
+msgstr "Vajag autentificēties, lai atvērtu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:35
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.import)"
+msgid "Authentication is required to import a VM or container image"
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.export)"
+msgid "Authentication is required to export a VM or container image"
+msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:151
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.pull)"
+msgid "Authentication is required to download a VM or container image"
+msgstr "Vajag autentificēties, lai atvērtu ierīci"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.login)"
+msgid "Log into a local container"
+msgstr "Jāautentificējas, lai koriģētu krāsu profilu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:70
+msgctxt "Description(org.freedesktop.machine1.host-login)"
+msgid "Log into the local host"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:128
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.shell)"
+msgid "Acquire a shell in a local container"
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:187
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.host-shell)"
+msgid "Acquire a shell on the local host"
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:246
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.open-pty)"
+msgid "Acquire a pseudo TTY in a local container"
+msgstr "Jāautentificējas, lai izveidotu krāsu profilu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:304
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.host-open-pty)"
+msgid "Acquire a pseudo TTY on the local host"
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:362
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.manage-machines)"
+msgid "Manage local virtual machines and containers"
+msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:421
+#, fuzzy
+msgctxt "Description(org.freedesktop.machine1.manage-images)"
+msgid "Manage local virtual machine and container images"
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna konfigurāciju"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:36
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.login)"
+msgid "Authentication is required to log into a local container."
+msgstr "Jāautentificējas, lai koriģētu krāsu profilu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:95
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-login)"
+msgid "Authentication is required to log into the local host."
+msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:153
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.shell)"
+msgid "Authentication is required to acquire a shell in a local container."
+msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:212
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-shell)"
+msgid "Authentication is required to acquire a shell on the local host."
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:271
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.open-pty)"
+msgid ""
+"Authentication is required to acquire a pseudo TTY in a local container."
+msgstr "Jāautentificējas, lai izveidotu krāsu profilu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:329
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
+msgid "Authentication is required to acquire a pseudo TTY on the local host."
+msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:387
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.manage-machines)"
+msgid ""
+"Authentication is required to manage local virtual machines and containers."
+msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:446
+#, fuzzy
+msgctxt "Message(org.freedesktop.machine1.manage-images)"
+msgid ""
+"Authentication is required to manage local virtual machine and container "
+"images."
+msgstr ""
+"Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna konfigurāciju"
 
 #~ msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
 #~ msgid "Change your own user data"
@@ -806,11 +1529,6 @@ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
 #~ "konfigurāciju"
 
 #, fuzzy
-#~ msgctxt "Description(org.freedesktop.consolekit.system.restart)"
-#~ msgid "Restart the system"
-#~ msgstr "Salabot sistēmu"
-
-#, fuzzy
 #~ msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
 #~ msgid ""
 #~ "Authentication is required to grant an application high priority "
@@ -822,339 +1540,6 @@ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
 #~ msgid ""
 #~ "Authentication is required to grant an application realtime scheduling"
 #~ msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.timedate1.set-time)"
-#~ msgid "Set system time"
-#~ msgstr "Atvērt sistēmas ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#~ msgid "Authentication is required to set the system timezone."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-#~ msgid ""
-#~ "Authentication is required to control whether the RTC stores the local or "
-#~ "UTC time."
-#~ msgstr "Jāautentificējas, lai pārbaudītu barošanas stāvokli"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-#~ msgid ""
-#~ "Authentication is required to control whether network time "
-#~ "synchronization shall be enabled."
-#~ msgstr ""
-#~ "Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna "
-#~ "konfigurāciju"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system shutdown."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-shutdown)"
-#~ msgid ""
-#~ "Authentication is required for an application to delay system shutdown."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-sleep)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system sleep."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-delay-sleep)"
-#~ msgid "Authentication is required for an application to delay system sleep."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-block-idle)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit automatic system "
-#~ "suspend."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-power-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the power key."
-#~ msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-suspend-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the suspend key."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
-#~ "cits lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-hibernate-key)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the hibernate key."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
-#~ "cits lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.inhibit-handle-lid-switch)"
-#~ msgid ""
-#~ "Authentication is required for an application to inhibit system handling "
-#~ "of the lid switch."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
-#~ "cits lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.set-user-linger)"
-#~ msgid "Authentication is required to run programs as a non-logged-in user."
-#~ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.attach-device)"
-#~ msgid "Authentication is required for attaching a device to a seat."
-#~ msgstr "Vajag autentificēties, lai atvērtu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.flush-devices)"
-#~ msgid ""
-#~ "Authentication is required for resetting how devices are attached to "
-#~ "seats."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai dzēstu cikla ierīci, ko ir iestatījis cits "
-#~ "lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.power-off)"
-#~ msgid "Authentication is required for powering off the system."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.power-off-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while other users "
-#~ "are logged in."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
-#~ "cits lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.power-off-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for powering off the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.reboot)"
-#~ msgid "Authentication is required for rebooting the system."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.reboot-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while other users are "
-#~ "logged in."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.reboot-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for rebooting the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.suspend)"
-#~ msgid "Authentication is required for suspending the system."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.suspend-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while other users "
-#~ "are logged in."
-#~ msgstr ""
-#~ "Vajag autentificēties, lai atmontētu visas datņu sistēmas, ko ir montējis "
-#~ "cits lietotājs"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.suspend-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for suspending the system while an application "
-#~ "asked to inhibit it."
-#~ msgstr "Vajag autentificēties, lai mainītu sistēmas konfigurāciju"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.hibernate)"
-#~ msgid "Authentication is required for hibernating the system."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-multiple-sessions)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while other users "
-#~ "are logged in."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.hibernate-ignore-inhibit)"
-#~ msgid ""
-#~ "Authentication is required for hibernating the system while an "
-#~ "application asked to inhibit it."
-#~ msgstr ""
-#~ "Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna "
-#~ "konfigurāciju"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.manage)"
-#~ msgid ""
-#~ "Authentication is required for managing active sessions, users and seats."
-#~ msgstr "Nepieciešama autentifikācija, lai mainītu lietotāja datus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.lock-sessions)"
-#~ msgid "Authentication is required to lock or unlock active sessions."
-#~ msgstr "Vajag autentificēties, lai atbloķētu šifrētu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.login1.set-wall-message)"
-#~ msgid "Authentication is required to set a wall message"
-#~ msgstr "Vajag autentificēties, lai iestatītu cikla ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.systemd1.reply-password)"
-#~ msgid ""
-#~ "Authentication is required to send the entered passphrase back to the "
-#~ "system."
-#~ msgstr "Vajag autentificēties, lai mainītu šifrētas ierīces paroli"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-units)"
-#~ msgid "Authentication is required to manage system services or other units."
-#~ msgstr ""
-#~ "Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.systemd1.manage-unit-files)"
-#~ msgid "Authentication is required to manage system service or unit files."
-#~ msgstr ""
-#~ "Nepieciešama autentifikācija, lai mainītu programmatūras avotu parametrus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.systemd1.set-environment)"
-#~ msgid ""
-#~ "Authentication is required to set or unset system and service manager "
-#~ "environment variables."
-#~ msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
-#~ msgid "Authentication is required to reload the systemd state."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.locale1.set-locale)"
-#~ msgid "Set system locale"
-#~ msgstr "Atsvaidzināt sistēmas avotus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.locale1.set-locale)"
-#~ msgid "Authentication is required to set the system locale."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
-#~ msgid "Authentication is required to set the system keyboard settings."
-#~ msgstr "Nepieciešama autentifikācija, lai atsvaidzinātu sistēmas resursus"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
-#~ msgid "Authentication is required to set the local host name."
-#~ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
-#~ msgid ""
-#~ "Authentication is required to set the statically configured local host "
-#~ "name, as well as the pretty host name."
-#~ msgstr "Jāautentificējas, lai instalētu krāsu profilus visiem lietotājiem"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
-#~ msgid "Authentication is required to set local machine information."
-#~ msgstr "Jāautentificējas, lai deaktivētu profilu, kas atbilst ierīcei"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.import1.import)"
-#~ msgid "Authentication is required to import a VM or container image"
-#~ msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.import1.export)"
-#~ msgid "Authentication is required to export a VM or container image"
-#~ msgstr "Jāautentificējas, lai izveidotu krāsu pārvaldītu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.import1.pull)"
-#~ msgid "Authentication is required to download a VM or container image"
-#~ msgstr "Vajag autentificēties, lai atvērtu ierīci"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.login)"
-#~ msgid "Authentication is required to log into a local container."
-#~ msgstr "Jāautentificējas, lai koriģētu krāsu profilu"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.host-login)"
-#~ msgid "Authentication is required to log into the local host."
-#~ msgstr "Vajag autentificēties, lai montētu datņu sistēmas"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.shell)"
-#~ msgid "Authentication is required to acquire a shell in a local container."
-#~ msgstr "Vajag autentificēties, lai salabotu un instalētu programmatūru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.host-shell)"
-#~ msgid "Authentication is required to acquire a shell on the local host."
-#~ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY in a local container."
-#~ msgstr "Jāautentificējas, lai izveidotu krāsu profilu"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.host-open-pty)"
-#~ msgid ""
-#~ "Authentication is required to acquire a pseudo TTY on the local host."
-#~ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.manage-machines)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machines and "
-#~ "containers."
-#~ msgstr "Vajag autentificēties, lai pārvaldītu maiņvietu"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.machine1.manage-images)"
-#~ msgid ""
-#~ "Authentication is required to manage local virtual machine and container "
-#~ "images."
-#~ msgstr ""
-#~ "Nepieciešama autentifikācija, lai mainītu pieteikšanās ekrāna "
-#~ "konfigurāciju"
 
 #~ msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"
 #~ msgid "Mount a filesystem"
@@ -1228,11 +1613,6 @@ msgstr "Jāautentificējas, lai izmantotu krāsu sensoru"
 #~ msgctxt "Description(org.freedesktop.udisks2.manage-swapspace)"
 #~ msgid "Manage swapspace"
 #~ msgstr "Pārvaldīt maiņvietu"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.udisks2.power-off-drive-system)"
-#~ msgid "Power off a system drive"
-#~ msgstr "Izgrūst datu nesēju no sistēmas dziņa"
 
 #, fuzzy
 #~ msgctxt "Description(org.freedesktop.udisks2.power-off-drive-other-seat)"
