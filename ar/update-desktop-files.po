@@ -9,10 +9,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2018-03-19 12:51+0000\n"
-"PO-Revision-Date: 2018-03-06 14:00+0000\n"
+"PO-Revision-Date: 2018-03-21 13:45+0000\n"
 "Last-Translator: George Yacoub <george.yacoub@arabize.com>\n"
 "Language-Team: Arabic <https://l10n.opensuse.org/projects/desktop-file-"
-"translations/update-desktop-files-master/ar/>\n"
+"translations/update-desktop-files-sle15/ar/>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,15 +61,12 @@ msgstr "بيئة نموذج الكائن الشبكي من GNU، بيئة سطح
 #: /usr/share/xsessions/gnome-xorg.desktop:2
 msgctxt "Name(gnome-xorg.desktop)"
 msgid "GNOME on Xorg"
-msgstr ""
+msgstr "جنوم في Xorg"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:54
-#, fuzzy
-#| msgctxt "Comment(mate.desktop)"
-#| msgid "This session logs you into MATE"
 msgctxt "Comment(gnome-xorg.desktop)"
 msgid "This session logs you into GNOME"
-msgstr "تسجل هذه الجلسة دخولك في مييت"
+msgstr "تُسجل هذه الجلسة دخولك إلى جنوم"
 
 #: /usr/share/xsessions/icewm.desktop:4
 msgctxt "Name(icewm.desktop)"
@@ -77,20 +74,14 @@ msgid "IceWM"
 msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:5
-#, fuzzy
-#| msgctxt "GenericName(icewm-session.desktop)"
-#| msgid "Window Manager"
 msgctxt "GenericName(icewm.desktop)"
 msgid "Window Manager"
 msgstr "مدير النافذة"
 
 #: /usr/share/xsessions/icewm.desktop:9
-#, fuzzy
-#| msgctxt "Comment(i3-with-shmlog.desktop)"
-#| msgid "improved dynamic tiling window manager"
 msgctxt "Comment(icewm.desktop)"
 msgid "Simple and fast window manger"
-msgstr "تحسين مدير نافذة البلاط الديناميكي"
+msgstr "مدير نوافذ سريع وبسيط"
 
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
@@ -235,12 +226,12 @@ msgstr "إضافة ملفات إعدادات كاملة"
 #: /etc/xdg/autostart/xhost-grant-root.desktop:2
 msgctxt "Name(xhost-grant-root.desktop)"
 msgid "X11 root access"
-msgstr ""
+msgstr "وصول جذر X11"
 
 #: /etc/xdg/autostart/xhost-grant-root.desktop:3
 msgctxt "Comment(xhost-grant-root.desktop)"
 msgid "Grant X11 access for root"
-msgstr ""
+msgstr "وصول Grant X11 للجذر"
 
 #: /etc/xdg/autostart/caribou-autostart.desktop:3
 msgctxt "Name(caribou-autostart.desktop)"
@@ -248,20 +239,14 @@ msgid "Caribou"
 msgstr "الكاريبية"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
-#, fuzzy
-#| msgctxt "Name(deja-dup-monitor.desktop)"
-#| msgid "Backup Monitor"
 msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "مراقب النسخ الاحتياطي"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
-#, fuzzy
-#| msgctxt "Comment(deja-dup-monitor.desktop)"
-#| msgid "Schedules backups at regular intervals"
 msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
-msgstr "نسخ احتياطي مجدول خلال فترات منتظمة"
+msgstr "جدولة النسخ الاحتياطي خلال فترات منتظمة"
 
 #: /etc/xdg/autostart/evolution-alarm-notify.desktop:3
 msgctxt "Name(evolution-alarm-notify.desktop)"
@@ -277,6 +262,8 @@ msgstr "إخطارات أحداث التقويم"
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
+"برنامج إضافي لإخطارات برنامج قرص جنوم المساعد الخاص بالبرنامج الخفي لإعدادات "
+"جنوم"
 
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
@@ -324,148 +311,94 @@ msgid "GNOME Keyring: Secret Service"
 msgstr "حلقة مفاتيح جنوم: خدمة سرية"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
 msgid "GNOME Settings Daemon's power plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج الطاقة الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-#| msgid "Cinnamon Settings Daemon - media-keys"
 msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
 msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "برنامج محرك لـ Cinnamon - مفاتيح الوسائط"
+msgstr "برنامج مفاتيح الوسائط الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
 msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج الحافظة الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
 msgid "GNOME Settings Daemon's color plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج اللون الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-keyboard"
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "برنامج محرك لـ Cinnamon - لوحة مفاتيح a11y"
+msgstr "برنامج لوحة مفاتيح a11y الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج إضافي للماوس الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-settings"
 msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
 msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "برنامج محرك لـ Cinnamon - إعدادات a11y"
+msgstr "برنامج إعدادات a11y الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-#| msgid "Cinnamon Settings Daemon - print-notifications"
 msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
 msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "برنامج محرك لـ Cinnamon- إخطارات الطباعة"
+msgstr "برنامج إخطارات الطباعة الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج الوقت والتاريخ الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
 msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج rfkill الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج المشاركة الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج لوحة مفاتيح البرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
 msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج إضافي للبطاقة الذكية الخاصة بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
 msgid "GNOME Settings Daemon's sound plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج الصوت الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج xsettings الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "عفريت إعدادات جنوم"
+msgstr "برنامج Wacom الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-#| msgid "Cinnamon Settings Daemon - housekeeping"
 msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "برنامج محرك لـ Cinnamon - التدبير المنزلي"
+msgstr "برنامج التدبير المنزلي الإضافي الخاص بالبرنامج الخفي لإعدادات جنوم"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-#| msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
 msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "برنامج محرك لـ Cinnamon - وكيل حافظ الشاشة"
+msgstr "برنامج وكيل شاشة التوقف الخاص بالبرنامج الإضافي لإعدادات جنوم"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -478,20 +411,14 @@ msgid "This session logs you into SLE Classic"
 msgstr "تسجل هذه الجلسة دخولك في جنوم التقليدية"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:2
-#, fuzzy
-#| msgctxt "Name(sle-classic.desktop)"
-#| msgid "SLE Classic"
 msgctxt "Name(sle-classic-xorg.desktop)"
 msgid "SLE Classic on Xorg"
-msgstr "جنوم تقليدية"
+msgstr "SLE تقليدي في Xorg"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:70
-#, fuzzy
-#| msgctxt "Comment(sle-classic.desktop)"
-#| msgid "This session logs you into SLE Classic"
 msgctxt "Comment(sle-classic-xorg.desktop)"
 msgid "This session logs you into SLE Classic"
-msgstr "تسجل هذه الجلسة دخولك في جنوم التقليدية"
+msgstr "تسجل هذه الجلسة دخولك في SLE التقليدي"
 
 #: /usr/share/xsessions/gnome-classic.desktop:70
 msgctxt "Name(gnome-classic.desktop)"
@@ -624,9 +551,6 @@ msgid "Update common folders names to match current locale"
 msgstr "حدّث أسماء المجلدات المشتركة لتطابق المحلية الحالية"
 
 #: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-#, fuzzy
-#| msgctxt "Name(user-dirs-update-gtk.desktop)"
-#| msgid "User folders update"
 msgctxt "Name(xdg-user-dirs.desktop)"
 msgid "User folders update"
 msgstr "تحديث مجلدات المستخدم"
