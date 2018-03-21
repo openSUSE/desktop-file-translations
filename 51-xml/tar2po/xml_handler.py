@@ -87,9 +87,9 @@ def extractXMLLangInfo(file, filepath, type):
 
     for filter in TRANSLATABLE_ELEMENTS[type]:
         for translatable_element in filter['path'](xml_tree):
-            name = filter['name'](translatable_element)
-            lang = filter['lang'](translatable_element)
-            content = filter['content'](translatable_element)
+            name = filter['name'](translatable_element).strip()
+            lang = filter['lang'](translatable_element).strip()
+            content = filter['content'](translatable_element).strip()
 
             if name not in translations:
                 translations[name] = {'file': filepath, 'line': translatable_element.sourceline, 'values': {}}
