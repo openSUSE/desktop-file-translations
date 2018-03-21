@@ -87,10 +87,6 @@ FILENAME_PATTERNS = {'update-desktop-files-yast':
                          re.compile("/etc/xdg/autostart/.*\\.desktop"),
                          re.compile(".*\\.desktop") # Catch-all
                      ],
-                     'polkitactions-freedesktop':
-                     [
-                         re.compile("/usr/share/polkit-1/actions/org\\.freedesktop.*\\.policy")
-                     ],
                      }
 
 
