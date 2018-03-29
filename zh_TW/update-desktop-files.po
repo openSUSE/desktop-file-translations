@@ -13,10 +13,10 @@ msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 12:51+0000\n"
-"PO-Revision-Date: 2018-03-05 08:24+0000\n"
+"PO-Revision-Date: 2018-03-29 05:31+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (Taiwan) <https://l10n.opensuse.org/projects/desktop-"
-"file-translations/update-desktop-files-master/zh_TW/>\n"
+"file-translations/update-desktop-files-sle-15/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -69,12 +69,9 @@ msgid "GNOME on Xorg"
 msgstr "GNOME 採行 Xorg"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:54
-#, fuzzy
-#| msgctxt "Comment(mate.desktop)"
-#| msgid "This session logs you into MATE"
 msgctxt "Comment(gnome-xorg.desktop)"
 msgid "This session logs you into GNOME"
-msgstr "這個作業階段讓您登入 MATE"
+msgstr "這個作業階段讓您登入 GNOME"
 
 #: /usr/share/xsessions/icewm.desktop:4
 msgctxt "Name(icewm.desktop)"
@@ -82,20 +79,14 @@ msgid "IceWM"
 msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:5
-#, fuzzy
-#| msgctxt "GenericName(icewm-session.desktop)"
-#| msgid "Window Manager"
 msgctxt "GenericName(icewm.desktop)"
 msgid "Window Manager"
 msgstr "視窗管理程式"
 
 #: /usr/share/xsessions/icewm.desktop:9
-#, fuzzy
-#| msgctxt "Comment(i3-with-shmlog.desktop)"
-#| msgid "improved dynamic tiling window manager"
 msgctxt "Comment(icewm.desktop)"
 msgid "Simple and fast window manger"
-msgstr "改進型動態並排顯示視窗管理程式"
+msgstr "簡單快捷的視窗管理程式"
 
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
@@ -240,12 +231,12 @@ msgstr "增加完整的設定檔案"
 #: /etc/xdg/autostart/xhost-grant-root.desktop:2
 msgctxt "Name(xhost-grant-root.desktop)"
 msgid "X11 root access"
-msgstr ""
+msgstr "X11 root 存取權"
 
 #: /etc/xdg/autostart/xhost-grant-root.desktop:3
 msgctxt "Comment(xhost-grant-root.desktop)"
 msgid "Grant X11 access for root"
-msgstr ""
+msgstr "授予 X11 root 存取權"
 
 #: /etc/xdg/autostart/caribou-autostart.desktop:3
 msgctxt "Name(caribou-autostart.desktop)"
@@ -253,20 +244,14 @@ msgid "Caribou"
 msgstr "Caribou"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
-#, fuzzy
-#| msgctxt "Name(deja-dup-monitor.desktop)"
-#| msgid "Backup Monitor"
 msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "備份監視器"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
-#, fuzzy
-#| msgctxt "Comment(deja-dup-monitor.desktop)"
-#| msgid "Schedules backups at regular intervals"
 msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
-msgstr "為定期備份排程"
+msgstr "定期排程備份"
 
 #: /etc/xdg/autostart/evolution-alarm-notify.desktop:3
 msgctxt "Name(evolution-alarm-notify.desktop)"
@@ -281,7 +266,7 @@ msgstr "行事曆事件通知"
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
-msgstr ""
+msgstr "GNOME 設定精靈的 gnome-disk-utility 通知外掛程式"
 
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
@@ -329,148 +314,94 @@ msgid "GNOME Keyring: Secret Service"
 msgstr "GNOME 鑰匙圈：保密服務"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
 msgid "GNOME Settings Daemon's power plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 power 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-#| msgid "Cinnamon Settings Daemon - media-keys"
 msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
 msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Cinnamon 設定精靈 - media-keys"
+msgstr "GNOME 設定精靈的 media-keys 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
 msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 clipboard 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
 msgid "GNOME Settings Daemon's color plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 color 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-keyboard"
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "Cinnamon 設定精靈 - a11y-keyboard"
+msgstr "GNOME 設定精靈的 a11y-keyboard 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 mouse 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-settings"
 msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
 msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Cinnamon 設定精靈 - a11y-settings"
+msgstr "GNOME 設定精靈的 a11y-settings 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-#| msgid "Cinnamon Settings Daemon - print-notifications"
 msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
 msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "Cinnamon 設定精靈 - print-notifications"
+msgstr "GNOME 設定精靈的 print-notifications 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 datetime 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
 msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 rfkill 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 sharing 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 keyboard 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
 msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 smartcard 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
 msgid "GNOME Settings Daemon's sound plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 sound 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 xsettings 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "GNOME 設定值伺服程式"
+msgstr "GNOME 設定精靈的 wacom 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-#| msgid "Cinnamon Settings Daemon - housekeeping"
 msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "Cinnamon 設定精靈 - housekeeping"
+msgstr "GNOME 設定精靈的 housekeeping 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-#| msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
 msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Cinnamon 設定精靈 - screensaver-proxy"
+msgstr "GNOME 設定精靈的 screensaver-proxy 外掛程式"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -483,17 +414,11 @@ msgid "This session logs you into SLE Classic"
 msgstr "這個作業階段讓您登入 SLE Classic"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:2
-#, fuzzy
-#| msgctxt "Name(sle-classic.desktop)"
-#| msgid "SLE Classic"
 msgctxt "Name(sle-classic-xorg.desktop)"
 msgid "SLE Classic on Xorg"
-msgstr "SLE Classic"
+msgstr "Xorg 上的 SLE Classic"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:70
-#, fuzzy
-#| msgctxt "Comment(sle-classic.desktop)"
-#| msgid "This session logs you into SLE Classic"
 msgctxt "Comment(sle-classic-xorg.desktop)"
 msgid "This session logs you into SLE Classic"
 msgstr "這個作業階段讓您登入 SLE Classic"
@@ -629,9 +554,6 @@ msgid "Update common folders names to match current locale"
 msgstr "更新常用資料夾名稱以符合目前的語言區域設定"
 
 #: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-#, fuzzy
-#| msgctxt "Name(user-dirs-update-gtk.desktop)"
-#| msgid "User folders update"
 msgctxt "Name(xdg-user-dirs.desktop)"
 msgid "User folders update"
 msgstr "使用者資料夾更新"
