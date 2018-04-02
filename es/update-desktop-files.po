@@ -14,10 +14,10 @@ msgstr ""
 "Project-Id-Version: update-desktop-files.es\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 12:51+0000\n"
-"PO-Revision-Date: 2018-03-05 18:22+0000\n"
+"PO-Revision-Date: 2018-04-02 23:55+0000\n"
 "Last-Translator: Juan Sarria <juansarriam@gmail.com>\n"
 "Language-Team: Spanish <https://l10n.opensuse.org/projects/desktop-file-"
-"translations/update-desktop-files-master/es/>\n"
+"translations/update-desktop-files-sle-15/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -70,12 +70,9 @@ msgid "GNOME on Xorg"
 msgstr "GNOME en Xorg"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:54
-#, fuzzy
-#| msgctxt "Comment(mate.desktop)"
-#| msgid "This session logs you into MATE"
 msgctxt "Comment(gnome-xorg.desktop)"
 msgid "This session logs you into GNOME"
-msgstr "Esta sesión accede a MATE"
+msgstr "Esta sesión accede a GNOME"
 
 #: /usr/share/xsessions/icewm.desktop:4
 msgctxt "Name(icewm.desktop)"
@@ -83,20 +80,14 @@ msgid "IceWM"
 msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:5
-#, fuzzy
-#| msgctxt "GenericName(icewm-session.desktop)"
-#| msgid "Window Manager"
 msgctxt "GenericName(icewm.desktop)"
 msgid "Window Manager"
 msgstr "Gestor de ventanas"
 
 #: /usr/share/xsessions/icewm.desktop:9
-#, fuzzy
-#| msgctxt "Comment(i3-with-shmlog.desktop)"
-#| msgid "improved dynamic tiling window manager"
 msgctxt "Comment(icewm.desktop)"
 msgid "Simple and fast window manger"
-msgstr "Gestor dinámico de ventanas de tipo mosaico mejorado"
+msgstr "Gestor de ventanas sencillo y rápido"
 
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
@@ -241,12 +232,12 @@ msgstr "Añadir ficheros de configuración completos"
 #: /etc/xdg/autostart/xhost-grant-root.desktop:2
 msgctxt "Name(xhost-grant-root.desktop)"
 msgid "X11 root access"
-msgstr ""
+msgstr "Acceso a raíz de X11"
 
 #: /etc/xdg/autostart/xhost-grant-root.desktop:3
 msgctxt "Comment(xhost-grant-root.desktop)"
 msgid "Grant X11 access for root"
-msgstr ""
+msgstr "Otorga acceso a raíz a X11"
 
 #: /etc/xdg/autostart/caribou-autostart.desktop:3
 msgctxt "Name(caribou-autostart.desktop)"
@@ -254,17 +245,11 @@ msgid "Caribou"
 msgstr "Caribou"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
-#, fuzzy
-#| msgctxt "Name(deja-dup-monitor.desktop)"
-#| msgid "Backup Monitor"
 msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "Monitor de copias de seguridad"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
-#, fuzzy
-#| msgctxt "Comment(deja-dup-monitor.desktop)"
-#| msgid "Schedules backups at regular intervals"
 msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
 msgstr "Copias de seguridad programadas periódicamente"
@@ -283,6 +268,8 @@ msgstr "Notificaciones de acontecimientos del calendario"
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
+"Complemento de notificación de gnome-disk-utility para daemon de "
+"configuración de GNOME"
 
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
@@ -330,148 +317,94 @@ msgid "GNOME Keyring: Secret Service"
 msgstr "Depósito de claves de GNOME: Servicio de secretos"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
 msgid "GNOME Settings Daemon's power plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de alimentación del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-#| msgid "Cinnamon Settings Daemon - media-keys"
 msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
 msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Daemon de configuración de Cinnamon: media-keys"
+msgstr "Complemento de media-keys del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
 msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de portapapeles del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
 msgid "GNOME Settings Daemon's color plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de color del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-keyboard"
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "Daemon de configuración de Cinnamon: a11y-keyboard"
+msgstr "Complemento de a11y-keyboard del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de ratón del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-settings"
 msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
 msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Daemon de configuración de Cinnamon: a11y-settings"
+msgstr "Complemento de a11y-settings del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-#| msgid "Cinnamon Settings Daemon - print-notifications"
 msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
 msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "Daemon de configuración de Cinnamon: print-notifications"
+msgstr "Complemento de print-notifications del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de fecha y hora del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
 msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de rfkill del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de uso compartido del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de teclado del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
 msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de tarjeta inteligente del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
 msgid "GNOME Settings Daemon's sound plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de sonido del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de xsettings del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "Administrador de preferencias de GNOME"
+msgstr "Complemento de wacom del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-#| msgid "Cinnamon Settings Daemon - housekeeping"
 msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "Daemon de configuración de Cinnamon: housekeeping"
+msgstr "Complemento de housekeeping del daemon de configuración de GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-#| msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
 msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Daemon de configuración de Cinnamon: screensaver-proxy"
+msgstr "Complemento de screensaver-proxy del daemon de configuración de GNOME"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -484,17 +417,11 @@ msgid "This session logs you into SLE Classic"
 msgstr "Esta sesión inicia SLE clásico"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:2
-#, fuzzy
-#| msgctxt "Name(sle-classic.desktop)"
-#| msgid "SLE Classic"
 msgctxt "Name(sle-classic-xorg.desktop)"
 msgid "SLE Classic on Xorg"
-msgstr "SLE clásico"
+msgstr "SLE clásico en Xorg"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:70
-#, fuzzy
-#| msgctxt "Comment(sle-classic.desktop)"
-#| msgid "This session logs you into SLE Classic"
 msgctxt "Comment(sle-classic-xorg.desktop)"
 msgid "This session logs you into SLE Classic"
 msgstr "Esta sesión inicia SLE clásico"
@@ -632,9 +559,6 @@ msgstr ""
 "configuración regional actual"
 
 #: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-#, fuzzy
-#| msgctxt "Name(user-dirs-update-gtk.desktop)"
-#| msgid "User folders update"
 msgctxt "Name(xdg-user-dirs.desktop)"
 msgid "User folders update"
 msgstr "Actualización de las carpetas del usuario"
