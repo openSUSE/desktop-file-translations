@@ -10,10 +10,10 @@ msgstr ""
 "Project-Id-Version: update-desktop-files.hu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-19 12:51+0000\n"
-"PO-Revision-Date: 2018-03-05 21:02+0000\n"
+"PO-Revision-Date: 2018-04-02 17:32+0000\n"
 "Last-Translator: Robert Taisz <robert.taisz@emerald.hu>\n"
 "Language-Team: Hungarian <https://l10n.opensuse.org/projects/desktop-file-"
-"translations/update-desktop-files-master/hu/>\n"
+"translations/update-desktop-files-sle-15/hu/>\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,12 +66,9 @@ msgid "GNOME on Xorg"
 msgstr "GNOME Xorgon"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:54
-#, fuzzy
-#| msgctxt "Comment(mate.desktop)"
-#| msgid "This session logs you into MATE"
 msgctxt "Comment(gnome-xorg.desktop)"
 msgid "This session logs you into GNOME"
-msgstr "Bejelentkezés a MATE környezetbe"
+msgstr "Bejelentkezés a GNOME környezetbe"
 
 #: /usr/share/xsessions/icewm.desktop:4
 msgctxt "Name(icewm.desktop)"
@@ -79,20 +76,14 @@ msgid "IceWM"
 msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:5
-#, fuzzy
-#| msgctxt "GenericName(icewm-session.desktop)"
-#| msgid "Window Manager"
 msgctxt "GenericName(icewm.desktop)"
 msgid "Window Manager"
 msgstr "Ablakkezelő"
 
 #: /usr/share/xsessions/icewm.desktop:9
-#, fuzzy
-#| msgctxt "Comment(i3-with-shmlog.desktop)"
-#| msgid "improved dynamic tiling window manager"
 msgctxt "Comment(icewm.desktop)"
 msgid "Simple and fast window manger"
-msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
+msgstr "Egyszerű és gyors ablakkezelő"
 
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
@@ -237,12 +228,12 @@ msgstr "Teljes konfigurációs fájlok hozzáadása"
 #: /etc/xdg/autostart/xhost-grant-root.desktop:2
 msgctxt "Name(xhost-grant-root.desktop)"
 msgid "X11 root access"
-msgstr ""
+msgstr "Gyökér X11 hozzáférés"
 
 #: /etc/xdg/autostart/xhost-grant-root.desktop:3
 msgctxt "Comment(xhost-grant-root.desktop)"
 msgid "Grant X11 access for root"
-msgstr ""
+msgstr "X11 hozzáférés megadása a gyökérhez"
 
 #: /etc/xdg/autostart/caribou-autostart.desktop:3
 msgctxt "Name(caribou-autostart.desktop)"
@@ -250,17 +241,11 @@ msgid "Caribou"
 msgstr "Caribou"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
-#, fuzzy
-#| msgctxt "Name(deja-dup-monitor.desktop)"
-#| msgid "Backup Monitor"
 msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "Biztonságimentés-figyelő"
 
 #: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
-#, fuzzy
-#| msgctxt "Comment(deja-dup-monitor.desktop)"
-#| msgid "Schedules backups at regular intervals"
 msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
 msgstr "Ütemezett biztonsági mentés rendszeres időközönként"
@@ -278,7 +263,7 @@ msgstr "Naptáresemény-értesítések"
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
-msgstr ""
+msgstr "gnome-disk-utility értesítési beépülő modul a GNOME beállításdémonhoz"
 
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
@@ -326,148 +311,94 @@ msgid "GNOME Keyring: Secret Service"
 msgstr "GNOME kulcstartó – titokszolgáltatás"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
 msgid "GNOME Settings Daemon's power plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon energiagazdálkodási beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-#| msgid "Cinnamon Settings Daemon - media-keys"
 msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
 msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Cinnamon beállításdémon – médiabillentyűk"
+msgstr "GNOME beállításdémon – médiabillentyűk beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
 msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon vágólapkezelő beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
 msgid "GNOME Settings Daemon's color plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon színkezelő beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-keyboard"
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "Cinnamon beállításdémon – a11y-billentyűzet"
+msgstr "GNOME beállításdémon – a11y-billentyűzet beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon egérkezelő beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-#| msgid "Cinnamon Settings Daemon - a11y-settings"
 msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
 msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Cinnamon beállításdémon – a11y-beállítások"
+msgstr "GNOME beállításdémon – a11y-beállítások beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-#| msgid "Cinnamon Settings Daemon - print-notifications"
 msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
 msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "Cinnamon beállításdémon – nyomtatási értesítések"
+msgstr "GNOME beállításdémon – nyomtatási értesítések beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon dátum- és időkezelő beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
 msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon rfkill beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon megosztási beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon billentyűzetkezelő beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
 msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon – intelligens kártyák beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
 msgid "GNOME Settings Daemon's sound plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon – hangkezelő beépülő modul"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon – xsettings beépülő modul"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "GNOME beállításdémon"
+msgstr "GNOME beállításdémon – wacom beépülő modul"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-#| msgid "Cinnamon Settings Daemon - housekeeping"
 msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "Cinnamon beállításdémon – karbantartás"
+msgstr "Cinnamon beállításdémon – karbantartási beépülő modul"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-#, fuzzy
-#| msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-#| msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
 msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Cinnamon beállításdémon – képernyőkímélő proxy"
+msgstr "GNOME beállításdémon – képernyőkímélő proxy beépülő modulja"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -480,17 +411,11 @@ msgid "This session logs you into SLE Classic"
 msgstr "Bejelentkezés a klasszikus SLE környezetbe"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:2
-#, fuzzy
-#| msgctxt "Name(sle-classic.desktop)"
-#| msgid "SLE Classic"
 msgctxt "Name(sle-classic-xorg.desktop)"
 msgid "SLE Classic on Xorg"
-msgstr "Klasszikus SLE"
+msgstr "Klasszikus SLE Xorg kiszolgálón"
 
 #: /usr/share/xsessions/sle-classic-xorg.desktop:70
-#, fuzzy
-#| msgctxt "Comment(sle-classic.desktop)"
-#| msgid "This session logs you into SLE Classic"
 msgctxt "Comment(sle-classic-xorg.desktop)"
 msgid "This session logs you into SLE Classic"
 msgstr "Bejelentkezés a klasszikus SLE környezetbe"
@@ -626,9 +551,6 @@ msgid "Update common folders names to match current locale"
 msgstr "Általános mappanevek frissítése a jelenlegi területi beállításra"
 
 #: /etc/xdg/autostart/xdg-user-dirs.desktop:3
-#, fuzzy
-#| msgctxt "Name(user-dirs-update-gtk.desktop)"
-#| msgid "User folders update"
 msgctxt "Name(xdg-user-dirs.desktop)"
 msgid "User folders update"
 msgstr "Felhasználói mappák frissítése"
