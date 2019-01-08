@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2018-03-23 06:08+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/desktop-file-"
@@ -17,6 +17,16 @@ msgstr ""
 "X-Generator: Weblate 2.18\n"
 "X-Poedit-Language: Slovak\n"
 "X-Poedit-Country: SLOVAKIA\n"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:3
+msgctxt "Name(amzdownloader.desktop)"
+msgid "AMZ Downloader"
+msgstr "Sťahovač AMZ"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:42
+msgctxt "Comment(amzdownloader.desktop)"
+msgid "Download with AMZ Downloader"
+msgstr "Stiahnuť so sťahovačom AMZ"
 
 #: /usr/share/applications/kde4/org.kde.amarok.desktop:4
 msgctxt "Name(org.kde.amarok.desktop)"
@@ -58,16 +68,6 @@ msgctxt "X-KDE-Keywords(org.kde.amarok_containers.desktop)"
 msgid "music,podcast"
 msgstr "hudba,podcast"
 
-#: /usr/share/applications/kde4/amzdownloader.desktop:3
-msgctxt "Name(amzdownloader.desktop)"
-msgid "AMZ Downloader"
-msgstr "Sťahovač AMZ"
-
-#: /usr/share/applications/kde4/amzdownloader.desktop:42
-msgctxt "Comment(amzdownloader.desktop)"
-msgid "Download with AMZ Downloader"
-msgstr "Stiahnuť so sťahovačom AMZ"
-
 #: /usr/share/applications/kde4/audex.desktop:2
 msgctxt "Name(audex.desktop)"
 msgid "Audex"
@@ -103,7 +103,7 @@ msgctxt "Name(kde_wacom_tabletfinder.desktop)"
 msgid "Wacom Tablet finder"
 msgstr "Hľadač Wacom tabletu"
 
-#: /usr/share/applications/kde_wacom_tabletfinder.desktop:35
+#: /usr/share/applications/kde_wacom_tabletfinder.desktop:37
 msgctxt "GenericName(kde_wacom_tabletfinder.desktop)"
 msgid "Helper tool to detect Wacom Tablets"
 msgstr "Pomocný nástroj na detekciu Wacom tabletov"
@@ -128,31 +128,6 @@ msgctxt "GenericName(kinfocenter.desktop)"
 msgid "Info Center"
 msgstr "Informačné centrum"
 
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
-msgctxt "GenericName(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Nastavenie systému KDE"
-
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
-msgctxt "Name(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Nastavenie systému KDE"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:2
-msgctxt "Name(krandrtray.desktop)"
-msgid "KRandRTray"
-msgstr "KRandRTray"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:91
-msgctxt "GenericName(krandrtray.desktop)"
-msgid "Screen Resize & Rotate"
-msgstr "Zmena veľkosti a otočenie obrazovky"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:180
-msgctxt "Comment(krandrtray.desktop)"
-msgid "A panel applet for resizing and reorientating X screens."
-msgstr "Applet na zmenu veľkosti a orientácie obrazoviek v X."
-
 #: /usr/share/applications/kde4/systemsettings.desktop:9
 msgctxt "GenericName(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
@@ -162,16 +137,6 @@ msgstr "Systémové nastavenia"
 msgctxt "Name(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
 msgstr "Systémové nastavenia"
-
-#: /usr/share/applications/kde4/kfontview.desktop:2
-msgctxt "Name(kfontview.desktop)"
-msgid "KFontView"
-msgstr "KFontView"
-
-#: /usr/share/applications/kde4/kfontview.desktop:97
-msgctxt "GenericName(kfontview.desktop)"
-msgid "Font Viewer"
-msgstr "Prehliadač písiem"
 
 #: /usr/share/applications/kde4/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -193,15 +158,50 @@ msgctxt "Name(kmenuedit.desktop)"
 msgid "Menu Editor"
 msgstr "Editor menu"
 
-#: /usr/share/applications/kde4/kmailservice.desktop:11
-msgctxt "Name(kmailservice.desktop)"
-msgid "KMailService"
-msgstr "KMailService"
+#: /usr/share/applications/kde4/krandrtray.desktop:2
+msgctxt "Name(krandrtray.desktop)"
+msgid "KRandRTray"
+msgstr "KRandRTray"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:91
+msgctxt "GenericName(krandrtray.desktop)"
+msgid "Screen Resize & Rotate"
+msgstr "Zmena veľkosti a otočenie obrazovky"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:180
+msgctxt "Comment(krandrtray.desktop)"
+msgid "A panel applet for resizing and reorientating X screens."
+msgstr "Applet na zmenu veľkosti a orientácie obrazoviek v X."
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
+msgctxt "GenericName(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Nastavenie systému KDE"
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
+msgctxt "Name(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Nastavenie systému KDE"
+
+#: /usr/share/applications/kde4/kfontview.desktop:2
+msgctxt "Name(kfontview.desktop)"
+msgid "KFontView"
+msgstr "KFontView"
+
+#: /usr/share/applications/kde4/kfontview.desktop:97
+msgctxt "GenericName(kfontview.desktop)"
+msgid "Font Viewer"
+msgstr "Prehliadač písiem"
 
 #: /usr/share/applications/kde4/ktelnetservice.desktop:10
 msgctxt "Name(ktelnetservice.desktop)"
 msgid "KTelnetService"
 msgstr "KTelnetService"
+
+#: /usr/share/applications/kde4/kmailservice.desktop:11
+msgctxt "Name(kmailservice.desktop)"
+msgid "KMailService"
+msgstr "KMailService"
 
 #: /usr/share/applications/kde4/kdiff3.desktop:2
 msgctxt "Name(kdiff3.desktop)"
@@ -293,16 +293,6 @@ msgctxt "GenericName(kpassgen.desktop)"
 msgid "Password Generator"
 msgstr "Generátor hesiel"
 
-#: /usr/share/applications/kde4/kppplogview.desktop:2
-msgctxt "Name(kppplogview.desktop)"
-msgid "KPPPLogview"
-msgstr "Prehliadač záznamov KPPP"
-
-#: /usr/share/applications/kde4/kppplogview.desktop:71
-msgctxt "GenericName(kppplogview.desktop)"
-msgid "Internet Dial-Up Tool Log Viewer"
-msgstr "Prehliadač záznamov pre vytáčané pripojenie na Internet"
-
 #: /usr/share/applications/kde4/Kppp.desktop:2
 msgctxt "GenericName(Kppp.desktop)"
 msgid "Internet Dial-Up Tool"
@@ -312,6 +302,16 @@ msgstr "Vytáčané pripojenie na Internet"
 msgctxt "Name(Kppp.desktop)"
 msgid "KPPP"
 msgstr "KPPP"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:2
+msgctxt "Name(kppplogview.desktop)"
+msgid "KPPPLogview"
+msgstr "Prehliadač záznamov KPPP"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:71
+msgctxt "GenericName(kppplogview.desktop)"
+msgid "Internet Dial-Up Tool Log Viewer"
+msgstr "Prehliadač záznamov pre vytáčané pripojenie na Internet"
 
 #: /usr/share/applications/kde4/kradio4.desktop:2
 msgctxt "GenericName(kradio4.desktop)"
@@ -327,11 +327,6 @@ msgstr "kradio4"
 msgctxt "Comment(kradio4.desktop)"
 msgid "V4L/V4L2-Radio Application for KDE4"
 msgstr "V4L/V4L2-Radio aplikácia pre KDE4"
-
-#: /usr/share/applications/kde4/kraft.desktop:7
-msgctxt "Name(kraft.desktop)"
-msgid "Kraft"
-msgstr "Kraft"
 
 #: /usr/share/applications/kde4/krcdnotifieritem.desktop:3
 msgctxt "Name(krcdnotifieritem.desktop)"
@@ -388,6 +383,11 @@ msgctxt "GenericName(kvpnc.desktop)"
 msgid "VPNC FrontEnd"
 msgstr "Rozhranie pre VPNC"
 
+#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
+msgctxt "Name(kwalletmanager-kwalletd.desktop)"
+msgid "Wallet Management Tool"
+msgstr "Nástroj pre správu Wallet"
+
 #: /usr/share/applications/kde4/kwalletmanager.desktop:2
 msgctxt "Name(kwalletmanager.desktop)"
 msgid "KWalletManager"
@@ -398,15 +398,14 @@ msgctxt "GenericName(kwalletmanager.desktop)"
 msgid "Wallet Management Tool"
 msgstr "Nástroj pre správu Wallet"
 
-#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
-msgctxt "Name(kwalletmanager-kwalletd.desktop)"
-msgid "Wallet Management Tool"
-msgstr "Nástroj pre správu Wallet"
-
 #: /usr/share/applications/kdesystemsettings.desktop:118
 msgctxt "Comment(kdesystemsettings.desktop)"
 msgid "Configuration tools for your computer"
 msgstr "Koniguračné nástroje pre váš počítač"
+
+#~ msgctxt "Name(kraft.desktop)"
+#~ msgid "Kraft"
+#~ msgstr "Kraft"
 
 #~ msgctxt "Name(amarok_containers.desktop)"
 #~ msgid "Amarok"

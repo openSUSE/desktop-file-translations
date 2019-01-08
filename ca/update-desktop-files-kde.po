@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2018-03-22 19:01+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/desktop-file-"
@@ -15,6 +15,16 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 2.18\n"
 "X-Poedit-Bookmarks: -1,15,-1,-1,-1,-1,-1,861,-1,-1\n"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:3
+msgctxt "Name(amzdownloader.desktop)"
+msgid "AMZ Downloader"
+msgstr "Descarregador AMZ"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:42
+msgctxt "Comment(amzdownloader.desktop)"
+msgid "Download with AMZ Downloader"
+msgstr "Baixa amb AMZ Downloader"
 
 #: /usr/share/applications/kde4/org.kde.amarok.desktop:4
 msgctxt "Name(org.kde.amarok.desktop)"
@@ -56,16 +66,6 @@ msgctxt "X-KDE-Keywords(org.kde.amarok_containers.desktop)"
 msgid "music,podcast"
 msgstr "música,podcast"
 
-#: /usr/share/applications/kde4/amzdownloader.desktop:3
-msgctxt "Name(amzdownloader.desktop)"
-msgid "AMZ Downloader"
-msgstr "Descarregador AMZ"
-
-#: /usr/share/applications/kde4/amzdownloader.desktop:42
-msgctxt "Comment(amzdownloader.desktop)"
-msgid "Download with AMZ Downloader"
-msgstr "Baixa amb AMZ Downloader"
-
 #: /usr/share/applications/kde4/audex.desktop:2
 msgctxt "Name(audex.desktop)"
 msgid "Audex"
@@ -101,7 +101,7 @@ msgctxt "Name(kde_wacom_tabletfinder.desktop)"
 msgid "Wacom Tablet finder"
 msgstr "Detecció per a tauletes Wacom"
 
-#: /usr/share/applications/kde_wacom_tabletfinder.desktop:35
+#: /usr/share/applications/kde_wacom_tabletfinder.desktop:37
 msgctxt "GenericName(kde_wacom_tabletfinder.desktop)"
 msgid "Helper tool to detect Wacom Tablets"
 msgstr "Eina d'ajuda per a detectar tauletes Wacom"
@@ -126,33 +126,6 @@ msgctxt "GenericName(kinfocenter.desktop)"
 msgid "Info Center"
 msgstr "Centre d'informació"
 
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
-msgctxt "GenericName(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Arranjament del sistema del KDE"
-
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
-msgctxt "Name(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Arranjament del sistema del KDE"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:2
-msgctxt "Name(krandrtray.desktop)"
-msgid "KRandRTray"
-msgstr "KSafataRandR"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:91
-msgctxt "GenericName(krandrtray.desktop)"
-msgid "Screen Resize & Rotate"
-msgstr "Redimensiona i gira la pantalla"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:180
-msgctxt "Comment(krandrtray.desktop)"
-msgid "A panel applet for resizing and reorientating X screens."
-msgstr ""
-"Una miniaplicació del plafó per a redimensionar i reorientar les pantalles "
-"de X."
-
 #: /usr/share/applications/kde4/systemsettings.desktop:9
 msgctxt "GenericName(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
@@ -162,16 +135,6 @@ msgstr "Arranjament del sistema"
 msgctxt "Name(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
 msgstr "Arranjament del sistema"
-
-#: /usr/share/applications/kde4/kfontview.desktop:2
-msgctxt "Name(kfontview.desktop)"
-msgid "KFontView"
-msgstr "KFontView"
-
-#: /usr/share/applications/kde4/kfontview.desktop:97
-msgctxt "GenericName(kfontview.desktop)"
-msgid "Font Viewer"
-msgstr "Visor de tipus de lletra"
 
 #: /usr/share/applications/kde4/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -193,15 +156,52 @@ msgctxt "Name(kmenuedit.desktop)"
 msgid "Menu Editor"
 msgstr "Editor del menú"
 
-#: /usr/share/applications/kde4/kmailservice.desktop:11
-msgctxt "Name(kmailservice.desktop)"
-msgid "KMailService"
-msgstr "KServeiCorreu"
+#: /usr/share/applications/kde4/krandrtray.desktop:2
+msgctxt "Name(krandrtray.desktop)"
+msgid "KRandRTray"
+msgstr "KSafataRandR"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:91
+msgctxt "GenericName(krandrtray.desktop)"
+msgid "Screen Resize & Rotate"
+msgstr "Redimensiona i gira la pantalla"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:180
+msgctxt "Comment(krandrtray.desktop)"
+msgid "A panel applet for resizing and reorientating X screens."
+msgstr ""
+"Una miniaplicació del plafó per a redimensionar i reorientar les pantalles "
+"de X."
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
+msgctxt "GenericName(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Arranjament del sistema del KDE"
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
+msgctxt "Name(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Arranjament del sistema del KDE"
+
+#: /usr/share/applications/kde4/kfontview.desktop:2
+msgctxt "Name(kfontview.desktop)"
+msgid "KFontView"
+msgstr "KFontView"
+
+#: /usr/share/applications/kde4/kfontview.desktop:97
+msgctxt "GenericName(kfontview.desktop)"
+msgid "Font Viewer"
+msgstr "Visor de tipus de lletra"
 
 #: /usr/share/applications/kde4/ktelnetservice.desktop:10
 msgctxt "Name(ktelnetservice.desktop)"
 msgid "KTelnetService"
 msgstr "KServeiTelnet"
+
+#: /usr/share/applications/kde4/kmailservice.desktop:11
+msgctxt "Name(kmailservice.desktop)"
+msgid "KMailService"
+msgstr "KServeiCorreu"
 
 #: /usr/share/applications/kde4/kdiff3.desktop:2
 msgctxt "Name(kdiff3.desktop)"
@@ -293,16 +293,6 @@ msgctxt "GenericName(kpassgen.desktop)"
 msgid "Password Generator"
 msgstr "Generador de contrasenyes"
 
-#: /usr/share/applications/kde4/kppplogview.desktop:2
-msgctxt "Name(kppplogview.desktop)"
-msgid "KPPPLogview"
-msgstr "KPPPVistaRegistre"
-
-#: /usr/share/applications/kde4/kppplogview.desktop:71
-msgctxt "GenericName(kppplogview.desktop)"
-msgid "Internet Dial-Up Tool Log Viewer"
-msgstr "Visor del registre de l'eina de connexió telefònica a Internet"
-
 #: /usr/share/applications/kde4/Kppp.desktop:2
 msgctxt "GenericName(Kppp.desktop)"
 msgid "Internet Dial-Up Tool"
@@ -312,6 +302,16 @@ msgstr "Eina per a la connexió telefònica a Internet"
 msgctxt "Name(Kppp.desktop)"
 msgid "KPPP"
 msgstr "KPPP"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:2
+msgctxt "Name(kppplogview.desktop)"
+msgid "KPPPLogview"
+msgstr "KPPPVistaRegistre"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:71
+msgctxt "GenericName(kppplogview.desktop)"
+msgid "Internet Dial-Up Tool Log Viewer"
+msgstr "Visor del registre de l'eina de connexió telefònica a Internet"
 
 #: /usr/share/applications/kde4/kradio4.desktop:2
 msgctxt "GenericName(kradio4.desktop)"
@@ -327,11 +327,6 @@ msgstr "kràdio4"
 msgctxt "Comment(kradio4.desktop)"
 msgid "V4L/V4L2-Radio Application for KDE4"
 msgstr "Aplicació de ràdio per al KDE4 V4L/V4L2"
-
-#: /usr/share/applications/kde4/kraft.desktop:7
-msgctxt "Name(kraft.desktop)"
-msgid "Kraft"
-msgstr "Kraft"
 
 #: /usr/share/applications/kde4/krcdnotifieritem.desktop:3
 msgctxt "Name(krcdnotifieritem.desktop)"
@@ -388,6 +383,11 @@ msgctxt "GenericName(kvpnc.desktop)"
 msgid "VPNC FrontEnd"
 msgstr "Programa de VPNC"
 
+#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
+msgctxt "Name(kwalletmanager-kwalletd.desktop)"
+msgid "Wallet Management Tool"
+msgstr "Eina de gestió de carteres"
+
 #: /usr/share/applications/kde4/kwalletmanager.desktop:2
 msgctxt "Name(kwalletmanager.desktop)"
 msgid "KWalletManager"
@@ -398,15 +398,14 @@ msgctxt "GenericName(kwalletmanager.desktop)"
 msgid "Wallet Management Tool"
 msgstr "Eina de gestió de carteres"
 
-#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
-msgctxt "Name(kwalletmanager-kwalletd.desktop)"
-msgid "Wallet Management Tool"
-msgstr "Eina de gestió de carteres"
-
 #: /usr/share/applications/kdesystemsettings.desktop:118
 msgctxt "Comment(kdesystemsettings.desktop)"
 msgid "Configuration tools for your computer"
 msgstr "Eines de configuració per a l'ordinador"
+
+#~ msgctxt "Name(kraft.desktop)"
+#~ msgid "Kraft"
+#~ msgstr "Kraft"
 
 #~ msgctxt "Name(amarok_containers.desktop)"
 #~ msgid "Amarok"

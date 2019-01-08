@@ -36,7 +36,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenSUSE\n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2012-11-19 15:00+0200\n"
 "Last-Translator: Lucian Oprea <oprea.luci@gmail.com>\n"
 "Language-Team: Romanian <LL@li.org>\n"
@@ -47,6 +47,16 @@ msgstr ""
 "X-Generator: Narro 2.0 on http://tradu.softwareliber.ro\n"
 "Plural-Forms:  nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:3
+msgctxt "Name(amzdownloader.desktop)"
+msgid "AMZ Downloader"
+msgstr "Descărcător AMZ"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:42
+msgctxt "Comment(amzdownloader.desktop)"
+msgid "Download with AMZ Downloader"
+msgstr "Descarcă cu AMZ Downloader"
 
 #: /usr/share/applications/kde4/org.kde.amarok.desktop:4
 #, fuzzy
@@ -112,16 +122,6 @@ msgctxt "X-KDE-Keywords(org.kde.amarok_containers.desktop)"
 msgid "music,podcast"
 msgstr "muzică,podcast"
 
-#: /usr/share/applications/kde4/amzdownloader.desktop:3
-msgctxt "Name(amzdownloader.desktop)"
-msgid "AMZ Downloader"
-msgstr "Descărcător AMZ"
-
-#: /usr/share/applications/kde4/amzdownloader.desktop:42
-msgctxt "Comment(amzdownloader.desktop)"
-msgid "Download with AMZ Downloader"
-msgstr "Descarcă cu AMZ Downloader"
-
 #: /usr/share/applications/kde4/audex.desktop:2
 msgctxt "Name(audex.desktop)"
 msgid "Audex"
@@ -160,7 +160,7 @@ msgctxt "Name(kde_wacom_tabletfinder.desktop)"
 msgid "Wacom Tablet finder"
 msgstr ""
 
-#: /usr/share/applications/kde_wacom_tabletfinder.desktop:35
+#: /usr/share/applications/kde_wacom_tabletfinder.desktop:37
 msgctxt "GenericName(kde_wacom_tabletfinder.desktop)"
 msgid "Helper tool to detect Wacom Tablets"
 msgstr ""
@@ -185,32 +185,6 @@ msgctxt "GenericName(kinfocenter.desktop)"
 msgid "Info Center"
 msgstr "Centru de informații"
 
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
-msgctxt "GenericName(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Configurări de sistem"
-
-#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
-msgctxt "Name(kdesystemsettings.desktop)"
-msgid "KDE System Settings"
-msgstr "Configurări de sistem KDE"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:2
-msgctxt "Name(krandrtray.desktop)"
-msgid "KRandRTray"
-msgstr "KRandRTray"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:91
-msgctxt "GenericName(krandrtray.desktop)"
-msgid "Screen Resize & Rotate"
-msgstr "Redimensionare și rotire ecran"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:180
-msgctxt "Comment(krandrtray.desktop)"
-msgid "A panel applet for resizing and reorientating X screens."
-msgstr ""
-"O miniaplicație de panou care redimensionează și reorientează ecranele X."
-
 #: /usr/share/applications/kde4/systemsettings.desktop:9
 msgctxt "GenericName(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
@@ -220,16 +194,6 @@ msgstr "Configurări de sistem"
 msgctxt "Name(systemsettings.desktop)"
 msgid "Configure KDE 4 Applications"
 msgstr "Configurări de sistem"
-
-#: /usr/share/applications/kde4/kfontview.desktop:2
-msgctxt "Name(kfontview.desktop)"
-msgid "KFontView"
-msgstr "KFontView"
-
-#: /usr/share/applications/kde4/kfontview.desktop:97
-msgctxt "GenericName(kfontview.desktop)"
-msgid "Font Viewer"
-msgstr "Vizualizator de fonturi"
 
 #: /usr/share/applications/kde4/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -251,15 +215,51 @@ msgctxt "Name(kmenuedit.desktop)"
 msgid "Menu Editor"
 msgstr "Editor de meniuri"
 
-#: /usr/share/applications/kde4/kmailservice.desktop:11
-msgctxt "Name(kmailservice.desktop)"
-msgid "KMailService"
-msgstr "Serviciu KMail"
+#: /usr/share/applications/kde4/krandrtray.desktop:2
+msgctxt "Name(krandrtray.desktop)"
+msgid "KRandRTray"
+msgstr "KRandRTray"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:91
+msgctxt "GenericName(krandrtray.desktop)"
+msgid "Screen Resize & Rotate"
+msgstr "Redimensionare și rotire ecran"
+
+#: /usr/share/applications/kde4/krandrtray.desktop:180
+msgctxt "Comment(krandrtray.desktop)"
+msgid "A panel applet for resizing and reorientating X screens."
+msgstr ""
+"O miniaplicație de panou care redimensionează și reorientează ecranele X."
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:8
+msgctxt "GenericName(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Configurări de sistem"
+
+#: /usr/share/applications/kde4/kdesystemsettings.desktop:62
+msgctxt "Name(kdesystemsettings.desktop)"
+msgid "KDE System Settings"
+msgstr "Configurări de sistem KDE"
+
+#: /usr/share/applications/kde4/kfontview.desktop:2
+msgctxt "Name(kfontview.desktop)"
+msgid "KFontView"
+msgstr "KFontView"
+
+#: /usr/share/applications/kde4/kfontview.desktop:97
+msgctxt "GenericName(kfontview.desktop)"
+msgid "Font Viewer"
+msgstr "Vizualizator de fonturi"
 
 #: /usr/share/applications/kde4/ktelnetservice.desktop:10
 msgctxt "Name(ktelnetservice.desktop)"
 msgid "KTelnetService"
 msgstr "Serviciu KTelnet"
+
+#: /usr/share/applications/kde4/kmailservice.desktop:11
+msgctxt "Name(kmailservice.desktop)"
+msgid "KMailService"
+msgstr "Serviciu KMail"
 
 #: /usr/share/applications/kde4/kdiff3.desktop:2
 msgctxt "Name(kdiff3.desktop)"
@@ -351,16 +351,6 @@ msgctxt "GenericName(kpassgen.desktop)"
 msgid "Password Generator"
 msgstr ""
 
-#: /usr/share/applications/kde4/kppplogview.desktop:2
-msgctxt "Name(kppplogview.desktop)"
-msgid "KPPPLogview"
-msgstr "KPPPLogview"
-
-#: /usr/share/applications/kde4/kppplogview.desktop:71
-msgctxt "GenericName(kppplogview.desktop)"
-msgid "Internet Dial-Up Tool Log Viewer"
-msgstr "Vizualizator jurnal pentru Unealta de Internet dial-up"
-
 #: /usr/share/applications/kde4/Kppp.desktop:2
 msgctxt "GenericName(Kppp.desktop)"
 msgid "Internet Dial-Up Tool"
@@ -370,6 +360,16 @@ msgstr "Unealtă de Internet dial-up"
 msgctxt "Name(Kppp.desktop)"
 msgid "KPPP"
 msgstr "KPPP"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:2
+msgctxt "Name(kppplogview.desktop)"
+msgid "KPPPLogview"
+msgstr "KPPPLogview"
+
+#: /usr/share/applications/kde4/kppplogview.desktop:71
+msgctxt "GenericName(kppplogview.desktop)"
+msgid "Internet Dial-Up Tool Log Viewer"
+msgstr "Vizualizator jurnal pentru Unealta de Internet dial-up"
 
 #: /usr/share/applications/kde4/kradio4.desktop:2
 msgctxt "GenericName(kradio4.desktop)"
@@ -385,11 +385,6 @@ msgstr "kradio4"
 msgctxt "Comment(kradio4.desktop)"
 msgid "V4L/V4L2-Radio Application for KDE4"
 msgstr "Aplicația V4L/V4L2-Radio pentru KDE4"
-
-#: /usr/share/applications/kde4/kraft.desktop:7
-msgctxt "Name(kraft.desktop)"
-msgid "Kraft"
-msgstr ""
 
 #: /usr/share/applications/kde4/krcdnotifieritem.desktop:3
 msgctxt "Name(krcdnotifieritem.desktop)"
@@ -446,6 +441,11 @@ msgctxt "GenericName(kvpnc.desktop)"
 msgid "VPNC FrontEnd"
 msgstr "Interfață VPNC"
 
+#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
+msgctxt "Name(kwalletmanager-kwalletd.desktop)"
+msgid "Wallet Management Tool"
+msgstr "Administrare portofel"
+
 #: /usr/share/applications/kde4/kwalletmanager.desktop:2
 msgctxt "Name(kwalletmanager.desktop)"
 msgid "KWalletManager"
@@ -453,11 +453,6 @@ msgstr "KWalletManager"
 
 #: /usr/share/applications/kde4/kwalletmanager.desktop:59
 msgctxt "GenericName(kwalletmanager.desktop)"
-msgid "Wallet Management Tool"
-msgstr "Administrare portofel"
-
-#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
-msgctxt "Name(kwalletmanager-kwalletd.desktop)"
 msgid "Wallet Management Tool"
 msgstr "Administrare portofel"
 

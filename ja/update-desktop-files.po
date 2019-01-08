@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2018-03-16 05:08+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/desktop-file-"
@@ -60,35 +60,15 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "AT-SPI D-Bus バス"
 
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "一般的なオプション"
+#: /usr/share/autoinstall/modules/software.desktop:22
+msgctxt "Name(software.desktop)"
+msgid "Package Selection"
+msgstr "パッケージ選択"
 
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr "一般的な自動インストールオプションの設定"
-
-#: /usr/share/autoinstall/modules/files.desktop:22
-msgctxt "Name(files.desktop)"
-msgid "Complete Configuration Files"
-msgstr "設定ファイルの仕上げ"
-
-#: /usr/share/autoinstall/modules/files.desktop:23
-msgctxt "GenericName(files.desktop)"
-msgid "Add Complete Configuration Files"
-msgstr "完全な設定ファイルを追加する"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "独自のスクリプト"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "独自のスクリプトを追加または編集する"
+#: /usr/share/autoinstall/modules/software.desktop:23
+msgctxt "GenericName(software.desktop)"
+msgid "Configure Package Selection and Software Settings"
+msgstr "パッケージの選択とソフトウエアの設定"
 
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
@@ -100,16 +80,6 @@ msgctxt "GenericName(partitioning.desktop)"
 msgid "Configure Partitioning and Storage  Settings"
 msgstr "パーティションとストレージの設定"
 
-#: /usr/share/autoinstall/modules/software.desktop:22
-msgctxt "Name(software.desktop)"
-msgid "Package Selection"
-msgstr "パッケージ選択"
-
-#: /usr/share/autoinstall/modules/software.desktop:23
-msgctxt "GenericName(software.desktop)"
-msgid "Configure Package Selection and Software Settings"
-msgstr "パッケージの選択とソフトウエアの設定"
-
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
 msgid "Reporting & Logging"
@@ -119,6 +89,36 @@ msgstr "レポートとログ"
 msgctxt "GenericName(report.desktop)"
 msgid "Configure Reporting and Logging Options"
 msgstr "レポート作成やログの設定"
+
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "一般的なオプション"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr "一般的な自動インストールオプションの設定"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "独自のスクリプト"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "独自のスクリプトを追加または編集する"
+
+#: /usr/share/autoinstall/modules/files.desktop:22
+msgctxt "Name(files.desktop)"
+msgid "Complete Configuration Files"
+msgstr "設定ファイルの仕上げ"
+
+#: /usr/share/autoinstall/modules/files.desktop:23
+msgctxt "GenericName(files.desktop)"
+msgid "Add Complete Configuration Files"
+msgstr "完全な設定ファイルを追加する"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -145,16 +145,6 @@ msgctxt "Name(baloo_file.desktop)"
 msgid "Baloo File Daemon"
 msgstr "Baloo ファイルデーモン"
 
-#: /etc/xdg/autostart/blueberry-tray.desktop:3
-msgctxt "Name(blueberry-tray.desktop)"
-msgid "blueberry"
-msgstr "blueberry"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:4
-msgctxt "Comment(blueberry-tray.desktop)"
-msgid "Blueberry tray icon"
-msgstr "Blueberry トレイアイコン"
-
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:2
 msgctxt "Name(blueberry-obex-agent.desktop)"
 msgid "Bluetooth OBEX Agent"
@@ -169,6 +159,16 @@ msgstr "Bluetooth を介してファイルの受信を許可します"
 msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
 msgstr "ファイル; bluetooth; obex; 受信;"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:3
+msgctxt "Name(blueberry-tray.desktop)"
+msgid "blueberry"
+msgstr "blueberry"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:4
+msgctxt "Comment(blueberry-tray.desktop)"
+msgid "Blueberry tray icon"
+msgstr "Blueberry トレイアイコン"
 
 #: /etc/xdg/autostart/blueman.desktop:2
 msgctxt "Name(blueman.desktop)"
@@ -200,12 +200,12 @@ msgctxt "Name(metadata.desktop)"
 msgid "Next"
 msgstr "次へ"
 
-#: /usr/share/xsessions/bspwm.desktop:3
+#: /usr/share/xsessions/bspwm.desktop:2
 msgctxt "Name(bspwm.desktop)"
 msgid "bspwm"
 msgstr "bspwm"
 
-#: /usr/share/xsessions/bspwm.desktop:4
+#: /usr/share/xsessions/bspwm.desktop:3
 msgctxt "Comment(bspwm.desktop)"
 msgid "Binary space partitioning window manager"
 msgstr "バイナリ (二分木) 領域分割型ウインドウマネージャ"
@@ -255,110 +255,100 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-msgid "Cinnamon Settings Daemon - media-keys"
-msgstr "Cinnamon 設定デーモン - media-keys"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
-msgid "Cinnamon Settings Daemon - background"
-msgstr "Cinnamon 設定デーモン - 背景"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-msgid "Cinnamon Settings Daemon - screensaver-proxy"
-msgstr "Cinnamon 設定デーモン - screensaver-proxy"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - keyboard"
-msgstr "Cinnamon 設定デーモン - キーボード"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
-msgid "Cinnamon Settings Daemon - smartcard"
-msgstr "Cinnamon 設定デーモン - スマートカード"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "Cinnamon 設定デーモン - クリップボード"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "Cinnamon 設定デーモン - カーソル"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
-msgid "Cinnamon Settings Daemon - color"
-msgstr "Cinnamon 設定デーモン - 色"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "Cinnamon 設定デーモン - power"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Cinnamon 設定デーモン - automount"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "Cinnamon 設定デーモン - サウンド"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Cinnamon 設定デーモン - a11y-keyboard"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "Cinnamon 設定デーモン - xrandr"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "Cinnamon 設定デーモン - print-notifications"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "Cinnamon 設定デーモン - housekeeping"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
 msgid "Cinnamon Settings Daemon - xsettings"
 msgstr "Cinnamon 設定デーモン - xsettings"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-settings"
-msgstr "Cinnamon 設定デーモン - a11y-settings"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr "Cinnamon 設定デーモン - screensaver-proxy"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
-msgid "Cinnamon Settings Daemon - mouse"
-msgstr "Cinnamon 設定デーモン - マウス"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr "Cinnamon 設定デーモン - 背景"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "Cinnamon 設定デーモン - housekeeping"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Cinnamon 設定デーモン - power"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "Cinnamon 設定デーモン - print-notifications"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Cinnamon 設定デーモン - a11y-keyboard"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Cinnamon 設定デーモン - サウンド"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
 msgid "Cinnamon Settings Daemon - orientation"
 msgstr "Cinnamon 設定デーモン - orientation"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr "Cinnamon 設定デーモン - a11y-settings"
 
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "このセッションは Cinnamon へのログインを行ないます"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Cinnamon 設定デーモン - 色"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Cinnamon 設定デーモン - automount"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "Cinnamon 設定デーモン - クリップボード"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr "Cinnamon 設定デーモン - スマートカード"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Cinnamon 設定デーモン - カーソル"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Cinnamon 設定デーモン - マウス"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Cinnamon 設定デーモン - xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr "Cinnamon 設定デーモン - media-keys"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr "Cinnamon 設定デーモン - キーボード"
 
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
@@ -371,6 +361,16 @@ msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "このセッションは Cinnamon (ソフトウエア描画を利用します) へのログインを行ない"
 "ます"
+
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "このセッションは Cinnamon へのログインを行ないます"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
@@ -433,6 +433,19 @@ msgctxt "Name(eekboard-autostart.desktop)"
 msgid "Eekboard"
 msgstr "Eekboard"
 
+#: /usr/share/xsessions/enlightenment.desktop:3
+msgctxt "Name(enlightenment.desktop)"
+msgid "Enlightenment"
+msgstr "Enlightenment"
+
+#: /usr/share/xsessions/enlightenment.desktop:18
+#, fuzzy
+#| msgctxt "Comment(enlightenment.desktop)"
+#| msgid "Log in using Enlightenment (Version 0.21.8)"
+msgctxt "Comment(enlightenment.desktop)"
+msgid "Log in using Enlightenment (Version 0.22.3)"
+msgstr "Enlightenment (バージョン 0.21.8) を利用してログイン"
+
 #: /usr/share/xsessions/epymc_xsession.desktop:4
 msgctxt "Name(epymc_xsession.desktop)"
 msgid "Emotion Media Center"
@@ -473,7 +486,7 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "ファイアウォール・アプレット"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:45
+#: /etc/xdg/autostart/firewall-applet.desktop:46
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "ファイアウォール・アプレット"
@@ -494,7 +507,7 @@ msgctxt "Name(gsettings-data-convert.desktop)"
 msgid "GSettings Data Conversion"
 msgstr "GSettings データ変換"
 
-#: /etc/xdg/autostart/gsettings-data-convert.desktop:60
+#: /etc/xdg/autostart/gsettings-data-convert.desktop:62
 msgctxt "Comment(gsettings-data-convert.desktop)"
 msgid "Migrates user settings from GConf to dconf"
 msgstr "ユーザーの設定を GConf から dconf に移行します"
@@ -514,11 +527,6 @@ msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr "GNOME 設定デーモン向け gnome-disk-utility 通知プラグイン"
 
-#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
-msgctxt "Name(gnome-initial-setup-first-login.desktop)"
-msgid "Initial Setup"
-msgstr "初期セットアップ"
-
 #: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
 msgctxt "Name(gnome-welcome-tour.desktop)"
 msgid "Welcome"
@@ -528,6 +536,11 @@ msgstr "ようこそ"
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
 msgstr "GNOME 初期セットアップコピーワーカー"
+
+#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
+msgctxt "Name(gnome-initial-setup-first-login.desktop)"
+msgid "Initial Setup"
+msgstr "初期セットアップ"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
@@ -581,25 +594,80 @@ msgid ""
 "desktop environment"
 msgstr "GNUオブジェクトモデル環境,完全にフリーで使い易いデスクトップ環境"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "GNOME 設定デーモンのクリップボードプラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "GNOME 設定デーモンの screensaver-proxy プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
+msgid "GNOME Settings Daemon's housekeeping plugin"
+msgstr "GNOME 設定デーモンの housekeeping プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "GNOME 設定デーモンの rfkill プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "GNOME 設定デーモンの a11y-settings プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "GNOME 設定デーモンのカラープラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "GNOME 設定デーモンの media-keys プラグイン"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
 msgstr "GNOME 設定デーモンのキーボードプラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
-msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "GNOME 設定デーモンのスマートカードプラグイン"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
 msgstr "GNOME 設定デーモンのマウスプラグイン"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
+msgid "GNOME Settings Daemon's sharing plugin"
+msgstr "GNOME 設定デーモンの共有化プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
+msgid "GNOME Settings Daemon's xsettings plugin"
+msgstr "GNOME 設定デーモンの xsettings プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "GNOME 設定デーモンのサウンドプラグイン"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
 msgstr "GNOME 設定デーモンの wacom プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr "GNOME 設定デーモンの print-notifications プラグイン"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
+msgid "GNOME Settings Daemon's power plugin"
+msgstr "GNOME 設定デーモンの電源プラグイン"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
@@ -611,65 +679,10 @@ msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
 msgstr "GNOME 設定デーモンの datetime プラグイン"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "GNOME 設定デーモンの screensaver-proxy プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
-msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "GNOME 設定デーモンの共有化プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "GNOME 設定デーモンの a11y-settings プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
-msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "GNOME 設定デーモンの media-keys プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
-msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "GNOME 設定デーモンの print-notifications プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "GNOME 設定デーモンのクリップボードプラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
-msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "GNOME 設定デーモンの xsettings プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
-msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "GNOME 設定デーモンの housekeeping プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
-msgid "GNOME Settings Daemon's power plugin"
-msgstr "GNOME 設定デーモンの電源プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "GNOME 設定デーモンのサウンドプラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "GNOME 設定デーモンの rfkill プラグイン"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
-msgstr "GNOME 設定デーモンのカラープラグイン"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
+msgstr "GNOME 設定デーモンのスマートカードプラグイン"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -761,21 +774,6 @@ msgctxt "Keywords(i3-with-shmlog.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr "タイリング; wm; ウインドウマネージャ; ウインドウ; マネージャ;"
 
-#: /usr/share/xsessions/icewm.desktop:4
-msgctxt "Name(icewm.desktop)"
-msgid "IceWM"
-msgstr "IceWM"
-
-#: /usr/share/xsessions/icewm.desktop:5
-msgctxt "GenericName(icewm.desktop)"
-msgid "Window Manager"
-msgstr "ウインドウマネージャ"
-
-#: /usr/share/xsessions/icewm.desktop:9
-msgctxt "Comment(icewm.desktop)"
-msgid "Simple and fast window manger"
-msgstr "シンプルで高速なウインドウマネージャ"
-
 #: /usr/share/xsessions/icewm-session.desktop:4
 msgctxt "Name(icewm-session.desktop)"
 msgid "IceWM Session"
@@ -791,6 +789,21 @@ msgctxt "Comment(icewm-session.desktop)"
 msgid "This session logs you into IceWM"
 msgstr "Icewm セッションにログインします"
 
+#: /usr/share/xsessions/icewm.desktop:4
+msgctxt "Name(icewm.desktop)"
+msgid "IceWM"
+msgstr "IceWM"
+
+#: /usr/share/xsessions/icewm.desktop:5
+msgctxt "GenericName(icewm.desktop)"
+msgid "Window Manager"
+msgstr "ウインドウマネージャ"
+
+#: /usr/share/xsessions/icewm.desktop:9
+msgctxt "Comment(icewm.desktop)"
+msgid "Simple and fast window manger"
+msgstr "シンプルで高速なウインドウマネージャ"
+
 #: /etc/xdg/autostart/kalarm.autostart.desktop:3
 msgctxt "Name(kalarm.autostart.desktop)"
 msgid "KAlarm"
@@ -800,6 +813,11 @@ msgstr "KAlarm"
 msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "ログイン時に KAlarm を自動起動"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Stripes"
 
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -821,11 +839,6 @@ msgctxt "Name(plasma-desktop.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Plasma デスクトップワークスペース"
 
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Stripes"
-
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
@@ -846,11 +859,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad プロジェクト"
-
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
@@ -861,10 +869,10 @@ msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
 msgstr "KiCad 印刷回路ボード"
 
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "ミキサーの音量設定を復元する"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "KiCad プロジェクト"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -875,6 +883,11 @@ msgstr "サウンドミキサー"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "ミキサーの音量設定を復元する"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -906,12 +919,12 @@ msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
 msgstr "Kerberos 認証"
 
-#: /etc/xdg/autostart/krb5-auth-dialog.desktop:23
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:24
 msgctxt "Comment(krb5-auth-dialog.desktop)"
 msgid "Kerberos Network Authentication Dialog"
 msgstr "Kerberos ネットワーク認証ダイアログ"
 
-#: /etc/xdg/autostart/krb5-auth-dialog.desktop:53
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:55
 msgctxt "Keywords(krb5-auth-dialog.desktop)"
 msgid "kerberos;authentication;"
 msgstr "Kerberos; 認証;"
@@ -980,6 +993,16 @@ msgstr "ランナー"
 msgctxt "Name(lxqt-xscreensaver-autostart.desktop)"
 msgid "XScreenSaver"
 msgstr "Xスクリーンセーバ"
+
+#: /usr/share/xsessions/lxqt.desktop:5
+msgctxt "Name(lxqt.desktop)"
+msgid "LXQt Desktop"
+msgstr "LXQt デスクトップ"
+
+#: /usr/share/xsessions/lxqt.desktop:6
+msgctxt "Comment(lxqt.desktop)"
+msgid "Lightweight Qt Desktop"
+msgstr "Qt デスクトップ"
 
 #: /etc/xdg/autostart/lxpolkit.desktop:3
 msgctxt "Name(lxpolkit.desktop)"
@@ -1081,12 +1104,12 @@ msgctxt "Name(mate-user-share-obexpush.desktop)"
 msgid "Personal File Sharing obexpush"
 msgstr "obexpush によるファイルの共有"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:38
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
 msgctxt "Comment(mate-user-share-obexpush.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "個人的なファイルの共有機能を起動します (可能な場合)"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:108
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
 msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共有; ファイル; bluetooth; obex; http; ネットワーク; コピー; 送信;"
@@ -1096,12 +1119,12 @@ msgctxt "Name(mate-user-share-obexftp.desktop)"
 msgid "Personal File Sharing obexftp"
 msgstr "obexftp によるファイルの共有"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:38
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:41
 msgctxt "Comment(mate-user-share-obexftp.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "個人用ファイル共有を起動します (可能な場合)"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:108
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:112
 msgctxt "Keywords(mate-user-share-obexftp.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共有; ファイル; bluetooth; obex; http; ネットワーク; コピー; 送信;"
@@ -1111,12 +1134,12 @@ msgctxt "Name(mate-user-share-webdav.desktop)"
 msgid "Personal File Sharing webdav"
 msgstr "webdav によるファイルの共有"
 
-#: /etc/xdg/autostart/mate-user-share-webdav.desktop:38
+#: /etc/xdg/autostart/mate-user-share-webdav.desktop:41
 msgctxt "Comment(mate-user-share-webdav.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "個人的なファイルの共有機能を起動します (可能な場合)"
 
-#: /etc/xdg/autostart/mate-user-share-webdav.desktop:108
+#: /etc/xdg/autostart/mate-user-share-webdav.desktop:112
 msgctxt "Keywords(mate-user-share-webdav.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共有; ファイル; bluetooth; obex; http; ネットワーク; コピー; 送信;"
@@ -1176,16 +1199,6 @@ msgctxt "Name(vmware-user-autostart.desktop)"
 msgid "VMware User Agent"
 msgstr "VMware ユーザエージェント"
 
-#: /usr/share/xsessions/openbox-kde.desktop:2
-msgctxt "Name(openbox-kde.desktop)"
-msgid "KDE/Openbox"
-msgstr "KDE/Openbox"
-
-#: /usr/share/xsessions/openbox-kde.desktop:3
-msgctxt "Comment(openbox-kde.desktop)"
-msgid "Use the Openbox window manager inside of the K Desktop Environment"
-msgstr "K デスクトップ環境内で Openbox ウインドウマネージャを使用する"
-
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1206,10 +1219,30 @@ msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "GNOME デスクトップ環境内で Openbox ウインドウマネージャを使用する"
 
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "K デスクトップ環境内で Openbox ウインドウマネージャを使用する"
+
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
 msgid "Orca screen reader"
 msgstr "Orca スクリーンリーダ"
+
+#: /etc/xdg/autostart/pam-dbus-notify.desktop:2
+msgctxt "Name(pam-dbus-notify.desktop)"
+msgid "pam-dbus Handler"
+msgstr ""
+
+#: /etc/xdg/autostart/pam-dbus-notify.desktop:3
+msgctxt "Comment(pam-dbus-notify.desktop)"
+msgid "Answers authentication requests by pam-dbus"
+msgstr ""
 
 #: /etc/xdg/autostart/pam_kwallet_init.desktop:2
 msgctxt "Name(pam_kwallet_init.desktop)"
@@ -1251,6 +1284,16 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio; トレイ; システムトレイ; アプレット; 音量;"
 
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr "PCB レイアウト"
+
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr "PCB ネットリスト"
+
 #: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
 msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
@@ -1261,20 +1304,10 @@ msgctxt "Comment(x-excellon.desktop)"
 msgid "Excellon drill file"
 msgstr "Excellon drill ファイル"
 
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr "PCB レイアウト"
-
 #: /usr/share/mimelnk/application/x-gerber.desktop:3
 msgctxt "Comment(x-gerber.desktop)"
 msgid "Gerber file"
 msgstr "Gerber ファイル"
-
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
-msgstr "PCB ネットリスト"
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
 msgctxt "Name(lxqt-desktop.desktop)"
@@ -1296,6 +1329,26 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit 更新アプレット"
 
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "空のパネル"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "空のパネル"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "アプリケーションメニューバー"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "グローバルメニューアプレットを含むパネル"
+
 #: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop)"
 msgid "Desktop"
@@ -1306,25 +1359,15 @@ msgctxt "Summary(org.kde.plasma.desktop)"
 msgid "Desktop view furniture"
 msgstr "デスクトップビューの装飾品"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "デスクトップ"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "宣言型ツールボックス"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "クリーンでシンプルなレイアウト"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "空のパネル"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "空のパネル"
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Plasma の管理"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1339,65 +1382,15 @@ msgstr ""
 "アプリケーションランチャーやタスクマネージャ、システムトレイの機能を含む既定"
 "のパネル"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "宣言型ツールボックス"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "デスクトップ"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Plasma の管理"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "アプリケーションメニューバー"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "グローバルメニューアプレットを含むパネル"
-
-#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "One Stands Out"
-msgstr "One Stands Out"
-
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "By the water"
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Evening Glow"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "冷たいさざ波"
-
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "パステル・ヒル"
-
-#: /usr/share/wallpapers/Kite/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Kite"
-msgstr "Kite"
-
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "落ち葉"
-
-#: /usr/share/wallpapers/Path/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "パス"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "クリーンでシンプルなレイアウト"
 
 #: /usr/share/wallpapers/Grey/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1419,6 +1412,46 @@ msgctxt "Name(metadata.desktop)"
 msgid "Flying Konqui"
 msgstr "Flying Konqui"
 
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "By the water"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "冷たいさざ波"
+
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Pastel Hills"
+msgstr "パステル・ヒル"
+
+#: /usr/share/wallpapers/Kite/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Kite"
+msgstr "Kite"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "落ち葉"
+
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr "Evening Glow"
+
+#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "One Stands Out"
+msgstr "One Stands Out"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "パス"
+
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
 msgid "Breeze"
@@ -1429,27 +1462,27 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "KDE VDG 提供の Breeze デスクトップデザイン言語"
 
-#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
-msgctxt "Name(org.kde.plasmashell.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plasma デスクトップワークスペース"
-
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
 msgid "KRunner"
 msgstr "KRunner"
+
+#: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
+msgctxt "Name(org.kde.plasmashell.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plasma デスクトップワークスペース"
 
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /usr/share/xsessions/plasma5.desktop:7
+#: /usr/share/xsessions/plasma5.desktop:6
 msgctxt "Name(plasma5.desktop)"
 msgid "Plasma"
 msgstr "Plasma"
 
-#: /usr/share/xsessions/plasma5.desktop:52
+#: /usr/share/xsessions/plasma5.desktop:51
 msgctxt "Comment(plasma5.desktop)"
 msgid "Plasma by KDE"
 msgstr "Plasma by KDE"
@@ -1509,15 +1542,15 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "PulseAudio サウンドシステムを開始"
 
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr "QElectroTech タイトルブロックテンプレート"
-
 #: /usr/share/mimelnk/application/x-qet-project.desktop:7
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "QElectroTech プロジェクトファイル"
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
+msgstr "QElectroTech タイトルブロックテンプレート"
 
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
@@ -1543,26 +1576,6 @@ msgstr "RSIBreak"
 msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "適度な休息を、あなたに"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "Lumina デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "XFCE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
@@ -1594,20 +1607,25 @@ msgctxt "Comment(sawfish-kde4.desktop)"
 msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "KDE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:2
-msgctxt "Name(vnd.scribus.desktop)"
-msgid "Scribus"
-msgstr "Scribus"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:5
-msgctxt "Comment(vnd.scribus.desktop)"
-msgid "Page Layout and Publication"
-msgstr "ページレイアウトと出版"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "Lumina デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:51
-msgctxt "GenericName(vnd.scribus.desktop)"
-msgid "Page Layout (Development)"
-msgstr "ページレイアウト (開発)"
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "XFCE デスクトップ環境内で Sawfish ウインドウマネージャを使用します"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1656,15 +1674,15 @@ msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "ファイルシステム上のファイルを追跡して情報を回収します"
 
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Tracker メタデータ抽出器"
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:2
+msgctxt "Name(tracker-miner-rss.desktop)"
+msgid "Tracker RSS/ATOM Feeds Miner"
+msgstr "RSS/ATOM 配信元の収集"
 
-#: /etc/xdg/autostart/tracker-extract.desktop:43
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "ローカルファイルからのメタデータ抽出"
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
+msgctxt "Comment(tracker-miner-rss.desktop)"
+msgid "Fetch RSS/ATOM feeds"
+msgstr "RSS/ATOM 形式の配信元を収集します"
 
 #: /etc/xdg/autostart/tracker-miner-apps.desktop:2
 msgctxt "Name(tracker-miner-apps.desktop)"
@@ -1676,30 +1694,25 @@ msgctxt "Comment(tracker-miner-apps.desktop)"
 msgid "Indexes information about applications installed"
 msgstr "インストール済みのアプリケーションに関する情報に索引を作成する"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:2
-msgctxt "Name(tracker-miner-rss.desktop)"
-msgid "Tracker RSS/ATOM Feeds Miner"
-msgstr "RSS/ATOM 配信元の収集"
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Tracker メタデータ抽出器"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
-msgctxt "Comment(tracker-miner-rss.desktop)"
-msgid "Fetch RSS/ATOM feeds"
-msgstr "RSS/ATOM 形式の配信元を収集します"
+#: /etc/xdg/autostart/tracker-extract.desktop:43
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "ローカルファイルからのメタデータ抽出"
 
 #: /etc/xdg/autostart/tracker-store.desktop:2
 msgctxt "Name(tracker-store.desktop)"
 msgid "Tracker Store"
 msgstr "Tracker ストア"
 
-#: /etc/xdg/autostart/tracker-store.desktop:49
+#: /etc/xdg/autostart/tracker-store.desktop:50
 msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr "メタデータベースへ格納してマネージャーを検索します"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr "TreeLine ファイル"
 
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
@@ -1710,6 +1723,11 @@ msgstr "TreePad ファイル"
 msgctxt "Comment(x-treeline-gz.desktop)"
 msgid "Compressed TreeLine File"
 msgstr "圧縮済み TreeLine ファイル"
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
+msgstr "TreeLine ファイル"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1736,7 +1754,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "ユーザー・フォルダーの更新"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:72
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr "標準フォルダーの名前を現在の言語に合わせて更新します"
@@ -1872,16 +1890,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Firstboot 処理の有効化と無効化"
 
-#: /usr/share/autoinstall/modules/deploy_image.desktop:23
-msgctxt "Name(deploy_image.desktop)"
-msgid "Image deployment"
-msgstr "イメージの配置"
-
-#: /usr/share/autoinstall/modules/deploy_image.desktop:24
-msgctxt "GenericName(deploy_image.desktop)"
-msgid "Configure image deployment"
-msgstr "イメージの配置の設定"
-
 #: /usr/share/autoinstall/modules/ssh_import.desktop:23
 msgctxt "Name(ssh_import.desktop)"
 msgid "SSH Key Import"
@@ -1892,6 +1900,16 @@ msgctxt "GenericName(ssh_import.desktop)"
 msgid "Importing SSH keys from a previous installation"
 msgstr "以前のインストールから SSH 鍵を取り込む"
 
+#: /usr/share/autoinstall/modules/deploy_image.desktop:23
+msgctxt "Name(deploy_image.desktop)"
+msgid "Image deployment"
+msgstr "イメージの配置"
+
+#: /usr/share/autoinstall/modules/deploy_image.desktop:24
+msgctxt "GenericName(deploy_image.desktop)"
+msgid "Configure image deployment"
+msgstr "イメージの配置の設定"
+
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"
 msgid "Zeitgeist Datahub"
@@ -1901,6 +1919,18 @@ msgstr "Zeitgeist Datahub"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "受動ロガー向け Zeitgeist Datahub の起動"
+
+#~ msgctxt "Name(vnd.scribus.desktop)"
+#~ msgid "Scribus"
+#~ msgstr "Scribus"
+
+#~ msgctxt "Comment(vnd.scribus.desktop)"
+#~ msgid "Page Layout and Publication"
+#~ msgstr "ページレイアウトと出版"
+
+#~ msgctxt "GenericName(vnd.scribus.desktop)"
+#~ msgid "Page Layout (Development)"
+#~ msgstr "ページレイアウト (開発)"
 
 #~ msgctxt "Name(glipper-autostart.desktop)"
 #~ msgid "Glipper"
@@ -1921,14 +1951,6 @@ msgstr "受動ロガー向け Zeitgeist Datahub の起動"
 #~ msgctxt "GenericName(pulseaudio.desktop)"
 #~ msgid ""
 #~ msgstr " "
-
-#~ msgctxt "Name(enlightenment.desktop)"
-#~ msgid "Enlightenment"
-#~ msgstr "Enlightenment"
-
-#~ msgctxt "Comment(enlightenment.desktop)"
-#~ msgid "Log in using Enlightenment (Version 0.21.8)"
-#~ msgstr "Enlightenment (バージョン 0.21.8) を利用してログイン"
 
 #~ msgctxt "Name(gnome-break-timer-autostart.desktop)"
 #~ msgid "Break Timer"
@@ -2141,14 +2163,6 @@ msgstr "受動ロガー向け Zeitgeist Datahub の起動"
 #~ msgctxt "Name(lxqt-qlipper-autostart.desktop)"
 #~ msgid "Qlipper"
 #~ msgstr "Qlipper"
-
-#~ msgctxt "Name(lxqt.desktop)"
-#~ msgid "LXQt Desktop"
-#~ msgstr "LXQt デスクトップ"
-
-#~ msgctxt "Comment(lxqt.desktop)"
-#~ msgid "Lightweight Qt Desktop"
-#~ msgstr "Qt デスクトップ"
 
 #~ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 #~ msgid "Combines the current application menu into your shell"

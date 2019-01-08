@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -10,13 +10,26 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: /usr/share/appdata/DisplayCAL.appdata.xml:7
-msgctxt "Name(displaycal.desktop)"
-msgid "DisplayCAL"
-msgstr ""
+#: /usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml:7
+msgctxt "Name(org.freedesktop.appstream.cli)"
+msgid "AppStream CLI"
+msgstr "Textové uživatelské rozhraní pro AppStream"
 
-#: /usr/share/appdata/DisplayCAL.appdata.xml:8
-msgctxt "Summary(displaycal.desktop)"
+#: /usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml:31
+msgctxt "Summary(org.freedesktop.appstream.cli)"
+msgid "An utility to work with AppStream metadata"
+msgstr "Nástroj pro práci s AppStream metadaty"
+
+#: /usr/share/metainfo/net.displaycal.DisplayCAL.appdata.xml:7
+#, fuzzy
+#| msgctxt "Name(eog-exif-display)"
+#| msgid "Exif Display"
+msgctxt "Name(net.displaycal.DisplayCAL)"
+msgid "DisplayCAL"
+msgstr "Zobrazení informací Exif"
+
+#: /usr/share/metainfo/net.displaycal.DisplayCAL.appdata.xml:9
+msgctxt "Summary(net.displaycal.DisplayCAL)"
 msgid ""
 "Display calibration and profiling with a focus on accuracy and versatility"
 msgstr ""
@@ -40,7 +53,7 @@ msgctxt "Name(nm-connection-editor.desktop)"
 msgid "NetworkManager"
 msgstr "Monitor sítě"
 
-#: /usr/share/appdata/nm-connection-editor.appdata.xml:37
+#: /usr/share/appdata/nm-connection-editor.appdata.xml:39
 msgctxt "Summary(nm-connection-editor.desktop)"
 msgid "NetworkManager connection editor"
 msgstr "Editor připojení NetworkManager"
@@ -71,6 +84,22 @@ msgctxt "Summary(network-manager-l2tp)"
 msgid "Client for L2TP based virtual private networks"
 msgstr "Klient pro virtuální soukromé sítě Cisco IPSec"
 
+#: /usr/share/appdata/network-manager-openconnect.metainfo.xml:8
+#, fuzzy
+#| msgctxt "Name(org.kde.okular-ooo)"
+#| msgid "OpenDocument"
+msgctxt "Name(network-manager-openconnect)"
+msgid "OpenConnect VPN client"
+msgstr "OpenDocument"
+
+#: /usr/share/appdata/network-manager-openconnect.metainfo.xml:23
+#, fuzzy
+#| msgctxt "Summary(network-manager-vpnc)"
+#| msgid "Client for Cisco IPsec virtual private networks"
+msgctxt "Summary(network-manager-openconnect)"
+msgid "Client for Cisco AnyConnect SSL VPN virtual private networks"
+msgstr "Klient pro virtuální soukromé sítě Cisco IPSec"
+
 #: /usr/share/appdata/network-manager-openvpn.metainfo.xml:8
 #, fuzzy
 #| msgctxt "Name(org.kde.okular-ooo)"
@@ -79,7 +108,7 @@ msgctxt "Name(network-manager-openvpn)"
 msgid "OpenVPN client"
 msgstr "OpenDocument"
 
-#: /usr/share/appdata/network-manager-openvpn.metainfo.xml:25
+#: /usr/share/appdata/network-manager-openvpn.metainfo.xml:27
 #, fuzzy
 #| msgctxt "Summary(network-manager-vpnc)"
 #| msgid "Client for Cisco IPsec virtual private networks"
@@ -105,7 +134,7 @@ msgctxt "Name(network-manager-vpnc)"
 msgid "Legacy Cisco VPNC client"
 msgstr "Původní klient Cisco VPNC"
 
-#: /usr/share/appdata/network-manager-vpnc.metainfo.xml:22
+#: /usr/share/appdata/network-manager-vpnc.metainfo.xml:25
 msgctxt "Summary(network-manager-vpnc)"
 msgid "Client for Cisco IPsec virtual private networks"
 msgstr "Klient pro virtuální soukromé sítě Cisco IPSec"
@@ -118,6 +147,17 @@ msgstr ""
 #: /usr/share/metainfo/QMPlay2.appdata.xml:6
 msgctxt "Summary(QMPlay2.desktop)"
 msgid "Video and audio player"
+msgstr ""
+
+#: /usr/share/appdata/RemoteBox.appdata.xml:7
+#, fuzzy
+msgctxt "Name(RemoteBox.desktop)"
+msgid "RemoteBox: VirtualBox Client"
+msgstr "Prohlížeč vzdálené plochy"
+
+#: /usr/share/appdata/RemoteBox.appdata.xml:8
+msgctxt "Summary(RemoteBox.desktop)"
+msgid "A remote client for administering VirtualBox and its guests"
 msgstr ""
 
 #: /usr/share/appdata/com.github.dahenson.agenda.appdata.xml:6
@@ -156,14 +196,14 @@ msgctxt "Summary(org.kde.amarok.desktop)"
 msgid "Audio Player"
 msgstr "Přehrávač hudby"
 
-#: /usr/share/appdata/amsynth.appdata.xml:5
-msgctxt "Name(amsynth.desktop)"
-msgid "Analog Modelling SYNTHesizer"
+#: /usr/share/appdata/lv2-amsynth-plugin.metainfo.xml:5
+msgctxt "Name(lv2-amsynth-plugin)"
+msgid "lv2 plugin"
 msgstr ""
 
-#: /usr/share/appdata/amsynth.appdata.xml:9
-msgctxt "Summary(amsynth.desktop)"
-msgid "Analog modelling (a.k.a virtual analog) software synthesizer"
+#: /usr/share/appdata/lv2-amsynth-plugin.metainfo.xml:6
+msgctxt "Summary(lv2-amsynth-plugin)"
+msgid "Plugin for the LV2 audio standard"
 msgstr ""
 
 #: /usr/share/appdata/dssi-amsynth-plugin.metainfo.xml:5
@@ -176,6 +216,16 @@ msgctxt "Summary(dssi-amsynth-plugin)"
 msgid "Plugin for the DSSI audio API"
 msgstr ""
 
+#: /usr/share/appdata/amsynth.appdata.xml:5
+msgctxt "Name(amsynth.desktop)"
+msgid "Analog Modelling SYNTHesizer"
+msgstr ""
+
+#: /usr/share/appdata/amsynth.appdata.xml:9
+msgctxt "Summary(amsynth.desktop)"
+msgid "Analog modelling (a.k.a virtual analog) software synthesizer"
+msgstr ""
+
 #: /usr/share/appdata/vst-amsynth-plugin.metainfo.xml:5
 msgctxt "Name(vst-amsynth-plugin)"
 msgid "VST plugin"
@@ -186,22 +236,12 @@ msgctxt "Summary(vst-amsynth-plugin)"
 msgid "Amsynth plugin for the VST protocol"
 msgstr ""
 
-#: /usr/share/appdata/lv2-amsynth-plugin.metainfo.xml:5
-msgctxt "Name(lv2-amsynth-plugin)"
-msgid "lv2 plugin"
-msgstr ""
-
-#: /usr/share/appdata/lv2-amsynth-plugin.metainfo.xml:6
-msgctxt "Summary(lv2-amsynth-plugin)"
-msgid "Plugin for the LV2 audio standard"
-msgstr ""
-
-#: /usr/share/appdata/anjuta.appdata.xml:6
+#: /usr/share/metainfo/anjuta.appdata.xml:6
 msgctxt "Name(anjuta.desktop)"
 msgid "Anjuta"
 msgstr "Anjuta"
 
-#: /usr/share/appdata/anjuta.appdata.xml:70
+#: /usr/share/metainfo/anjuta.appdata.xml:70
 msgctxt "Summary(anjuta.desktop)"
 msgid "Develop software in an integrated development environment"
 msgstr "Vývoj softwaru v integrovaném vývojovém prostředí"
@@ -303,7 +343,7 @@ msgctxt "Name(org.gnome.bijiben.desktop)"
 msgid "Bijiben"
 msgstr ""
 
-#: /usr/share/metainfo/org.gnome.bijiben.appdata.xml:7
+#: /usr/share/metainfo/org.gnome.bijiben.appdata.xml:40
 msgctxt "Summary(org.gnome.bijiben.desktop)"
 msgid "Quickly jot notes"
 msgstr ""
@@ -412,52 +452,43 @@ msgctxt "Summary(calibre-gui.desktop)"
 msgid "The one stop solution to all your e-book needs"
 msgstr "Univerzální řešení pro všechny potřeby e-knih"
 
-#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:6
-msgctxt "Name(org.kde.calligrasheets.desktop)"
-msgid "Calligra Sheets"
-msgstr "Calligra Sheets"
+#: /usr/share/metainfo/org.kde.calligraplan.appdata.xml:6
+msgctxt "Name(org.kde.calligraplan.desktop)"
+msgid "Plan"
+msgstr "Plan"
 
-#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:23
-msgctxt "Summary(org.kde.calligrasheets.desktop)"
-msgid "Spreadsheet"
-msgstr "Sešit"
+#: /usr/share/metainfo/org.kde.calligraplan.appdata.xml:33
+#, fuzzy
+msgctxt "Summary(org.kde.calligraplan.desktop)"
+msgid "Project Management"
+msgstr "Sledovat správu napájení"
+
+#: /usr/share/metainfo/org.kde.calligragemini.appdata.xml:6
+msgctxt "Name(org.kde.calligragemini.desktop)"
+msgid "Gemini"
+msgstr ""
+
+#: /usr/share/metainfo/org.kde.calligragemini.appdata.xml:22
+msgctxt "Summary(org.kde.calligragemini.desktop)"
+msgid "Office Suite"
+msgstr "Kancelářská sada"
 
 #: /usr/share/metainfo/org.kde.calligrastage.appdata.xml:6
 msgctxt "Name(org.kde.calligrastage.desktop)"
 msgid "Calligra Stage"
 msgstr "Calligra Stage"
 
-#: /usr/share/metainfo/org.kde.calligrastage.appdata.xml:23
+#: /usr/share/metainfo/org.kde.calligrastage.appdata.xml:27
 msgctxt "Summary(org.kde.calligrastage.desktop)"
 msgid "Presentation"
 msgstr "Prezentace"
-
-#: /usr/share/metainfo/org.kde.karbon.appdata.xml:6
-msgctxt "Name(org.kde.karbon.desktop)"
-msgid "Karbon"
-msgstr "Karbon"
-
-#: /usr/share/metainfo/org.kde.karbon.appdata.xml:32
-msgctxt "Summary(org.kde.karbon.desktop)"
-msgid "Scalable Graphics"
-msgstr "Škálovatelná grafika"
-
-#: /usr/share/metainfo/org.kde.braindump.appdata.xml:6
-msgctxt "Name(org.kde.braindump.desktop)"
-msgid "Braindump"
-msgstr "Braindump"
-
-#: /usr/share/metainfo/org.kde.braindump.appdata.xml:33
-msgctxt "Summary(org.kde.braindump.desktop)"
-msgid "Notes and ideas gathering"
-msgstr ""
 
 #: /usr/share/metainfo/org.kde.calligrawords.appdata.xml:6
 msgctxt "Name(org.kde.calligrawords.desktop)"
 msgid "Calligra Words"
 msgstr "Calligra Words"
 
-#: /usr/share/metainfo/org.kde.calligrawords.appdata.xml:23
+#: /usr/share/metainfo/org.kde.calligrawords.appdata.xml:27
 #, fuzzy
 #| msgctxt "Summary(focuswriter.desktop)"
 #| msgid "Fullscreen word processor"
@@ -465,16 +496,25 @@ msgctxt "Summary(org.kde.calligrawords.desktop)"
 msgid "Word Processor"
 msgstr "Textový procesor v režimu na celou obrazovku"
 
-#: /usr/share/metainfo/org.kde.calligraplan.appdata.xml:6
-msgctxt "Name(org.kde.calligraplan.desktop)"
-msgid "Plan"
-msgstr "Plan"
+#: /usr/share/metainfo/org.kde.karbon.appdata.xml:6
+msgctxt "Name(org.kde.karbon.desktop)"
+msgid "Karbon"
+msgstr "Karbon"
 
-#: /usr/share/metainfo/org.kde.calligraplan.appdata.xml:31
-#, fuzzy
-msgctxt "Summary(org.kde.calligraplan.desktop)"
-msgid "Project Management"
-msgstr "Sledovat správu napájení"
+#: /usr/share/metainfo/org.kde.karbon.appdata.xml:33
+msgctxt "Summary(org.kde.karbon.desktop)"
+msgid "Scalable Graphics"
+msgstr "Škálovatelná grafika"
+
+#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:6
+msgctxt "Name(org.kde.calligrasheets.desktop)"
+msgid "Calligra Sheets"
+msgstr "Calligra Sheets"
+
+#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:27
+msgctxt "Summary(org.kde.calligrasheets.desktop)"
+msgid "Spreadsheet"
+msgstr "Sešit"
 
 #: /usr/share/metainfo/org.kde.cantor.appdata.xml:6
 msgctxt "Name(org.kde.cantor.desktop)"
@@ -583,16 +623,14 @@ msgctxt "Summary(com.github.davidmhewitt.clipped.desktop)"
 msgid "Manage your clipboard with ease"
 msgstr "Poskytuje přístup k historii schránky"
 
-#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:6
-msgctxt "Name(com.hughski.ColorHug.DisplayAnalysis.desktop)"
-msgid "ColorHug Display Analysis"
+#: /usr/share/appdata/com.hughski.ColorHug.Backlight.appdata.xml:6
+msgctxt "Name(com.hughski.ColorHug.Backlight.desktop)"
+msgid "ColorHug Backlight Utility"
 msgstr ""
 
-#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:20
-msgctxt "Summary(com.hughski.ColorHug.DisplayAnalysis.desktop)"
-msgid ""
-"Sample the display over time to observe PWM, input latency and refresh "
-"artifacts"
+#: /usr/share/appdata/com.hughski.ColorHug.Backlight.appdata.xml:17
+msgctxt "Summary(com.hughski.ColorHug.Backlight.desktop)"
+msgid "Sample the ambient light level to control the backlight"
 msgstr ""
 
 #: /usr/share/appdata/com.hughski.ColorHug.FlashLoader.appdata.xml:6
@@ -605,14 +643,16 @@ msgctxt "Summary(com.hughski.ColorHug.FlashLoader.desktop)"
 msgid "Update the firmware on the ColorHug colorimeter"
 msgstr ""
 
-#: /usr/share/appdata/com.hughski.ColorHug.Backlight.appdata.xml:6
-msgctxt "Name(com.hughski.ColorHug.Backlight.desktop)"
-msgid "ColorHug Backlight Utility"
+#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:6
+msgctxt "Name(com.hughski.ColorHug.DisplayAnalysis.desktop)"
+msgid "ColorHug Display Analysis"
 msgstr ""
 
-#: /usr/share/appdata/com.hughski.ColorHug.Backlight.appdata.xml:17
-msgctxt "Summary(com.hughski.ColorHug.Backlight.desktop)"
-msgid "Sample the ambient light level to control the backlight"
+#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:20
+msgctxt "Summary(com.hughski.ColorHug.DisplayAnalysis.desktop)"
+msgid ""
+"Sample the display over time to observe PWM, input latency and refresh "
+"artifacts"
 msgstr ""
 
 #: /usr/share/appdata/com.hughski.ColorHug.CcmxLoader.appdata.xml:6
@@ -682,6 +722,16 @@ msgstr ""
 #: /usr/share/appdata/crawl.appdata.xml:7
 msgctxt "Summary(crawl.desktop)"
 msgid "Roguelike dungeon exploration game"
+msgstr ""
+
+#: /usr/share/appdata/cura.appdata.xml:7
+msgctxt "Name(cura.desktop)"
+msgid "Cura LulzBot Edition"
+msgstr ""
+
+#: /usr/share/appdata/cura.appdata.xml:8
+msgctxt "Summary(cura.desktop)"
+msgid "The world's most advanced 3d printer software"
 msgstr ""
 
 #: /usr/share/appdata/d-feet.appdata.xml:6
@@ -776,7 +826,7 @@ msgctxt "Name(org.kde.discover.packagekit)"
 msgid "PackageKit backend"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.discover.packagekit.appdata.xml:26
+#: /usr/share/metainfo/org.kde.discover.packagekit.appdata.xml:29
 msgctxt "Summary(org.kde.discover.packagekit)"
 msgid "Integrates distribution applications into Discover"
 msgstr ""
@@ -786,7 +836,7 @@ msgctxt "Name(org.kde.discover.flatpak)"
 msgid "Flatpak backend"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.discover.flatpak.appdata.xml:26
+#: /usr/share/metainfo/org.kde.discover.flatpak.appdata.xml:29
 msgctxt "Summary(org.kde.discover.flatpak)"
 msgid "Integrates Flatpak applications into Discover"
 msgstr ""
@@ -844,15 +894,35 @@ msgctxt "Summary(dreampie.desktop)"
 msgid "Interactive Python console"
 msgstr "Interaktivní geometrie"
 
-#: /usr/share/appdata/dustrac.appdata.xml:6
+#: /usr/share/appdata/dunelegacy.appdata.xml:6
+msgctxt "Name(dunelegacy.desktop)"
+msgid "Dune Legacy"
+msgstr ""
+
+#: /usr/share/appdata/dunelegacy.appdata.xml:7
+msgctxt "Summary(dunelegacy.desktop)"
+msgid "A modern Dune II reimplementation"
+msgstr ""
+
+#: /usr/share/metainfo/dustrac.appdata.xml:6
 msgctxt "Name(dustrac-game.desktop)"
 msgid "Dust Racing 2D"
 msgstr ""
 
-#: /usr/share/appdata/dustrac.appdata.xml:7
+#: /usr/share/metainfo/dustrac.appdata.xml:7
 msgctxt "Summary(dustrac-game.desktop)"
 msgid "Traditional top-down car racing game including a level editor."
 msgstr ""
+
+#: /usr/share/appdata/easytag.appdata.xml:8
+msgctxt "Name(easytag.desktop)"
+msgid "EasyTAG"
+msgstr "EasyTAG"
+
+#: /usr/share/appdata/easytag.appdata.xml:30
+msgctxt "Summary(easytag.desktop)"
+msgid "Edit audio file metadata"
+msgstr "Upravujte si metadata zvukových souborů"
 
 #: /usr/share/appdata/easytag-nautilus.metainfo.xml:5
 msgctxt "Name(easytag-nautilus)"
@@ -865,16 +935,6 @@ msgid "Open directories and audio files with EasyTAG using the context menu"
 msgstr ""
 "Otevírejte složky a zvukové soubory pomocí aplikace EasyTAG v kontextové "
 "nabídce"
-
-#: /usr/share/appdata/easytag.appdata.xml:8
-msgctxt "Name(easytag.desktop)"
-msgid "EasyTAG"
-msgstr "EasyTAG"
-
-#: /usr/share/appdata/easytag.appdata.xml:30
-msgctxt "Summary(easytag.desktop)"
-msgid "Edit audio file metadata"
-msgstr "Upravujte si metadata zvukových souborů"
 
 #: /usr/share/metainfo/org.roger-ferrer.Eiciel.appdata.xml:7
 msgctxt "Name(org.roger-ferrer.Eiciel)"
@@ -904,7 +964,7 @@ msgctxt "Name(io.elementary.appcenter.desktop)"
 msgid "AppCenter"
 msgstr "Centrum nápovědy"
 
-#: /usr/share/appdata/io.elementary.appcenter.appdata.xml:56
+#: /usr/share/appdata/io.elementary.appcenter.appdata.xml:62
 #, fuzzy
 #| msgctxt "Summary(eog.desktop)"
 #| msgid "Browse and rotate images"
@@ -917,23 +977,13 @@ msgctxt "Name(org.kde.elisa.desktop)"
 msgid "Elisa"
 msgstr "Elisa"
 
-#: /usr/share/metainfo/org.kde.elisa.appdata.xml:31
+#: /usr/share/metainfo/org.kde.elisa.appdata.xml:33
 #, fuzzy
 #| msgctxt "Summary(org.kde.juk.desktop)"
 #| msgid "Music Player"
 msgctxt "Summary(org.kde.elisa.desktop)"
 msgid "Simple Music Player"
 msgstr "Přehrávač hudby"
-
-#: /usr/share/metainfo/empathy.appdata.xml:6
-msgctxt "Name(org.gnome.empathy)"
-msgid "Empathy"
-msgstr "Empathy"
-
-#: /usr/share/metainfo/empathy.appdata.xml:88
-msgctxt "Summary(org.gnome.empathy)"
-msgid "Chat on Google Talk, Facebook, MSN and many other chat services"
-msgstr "Diskutovat na serverech Google Talk, Facebook, MSN a mnoha dalších"
 
 #: /usr/share/appdata/endless-sky.appdata.xml:4
 msgctxt "Name(endless-sky.desktop)"
@@ -977,6 +1027,46 @@ msgid ""
 "OpenPGP message encryption and authentication for Thunderbird and SeaMonkey."
 msgstr ""
 
+#: /usr/share/appdata/eog-hide-titlebar.metainfo.xml:6
+msgctxt "Name(eog-hide-titlebar)"
+msgid "Hide Titlebar"
+msgstr "Skrýt lištu záhlaví"
+
+#: /usr/share/appdata/eog-hide-titlebar.metainfo.xml:38
+msgctxt "Summary(eog-hide-titlebar)"
+msgid "Hides the titlebar of maximized windows"
+msgstr "Skryje lištu záhlaví kvůli maximalizaci okna"
+
+#: /usr/share/appdata/eog-map.metainfo.xml:6
+msgctxt "Name(eog-map)"
+msgid "Map"
+msgstr "Mapa"
+
+#: /usr/share/appdata/eog-map.metainfo.xml:56
+msgctxt "Summary(eog-map)"
+msgid "Displays on a map in the side panel where the picture was taken"
+msgstr "Na mapě v postranním panelu zobrazí, kde byl obrázek pořízen"
+
+#: /usr/share/appdata/eog-postasa.metainfo.xml:6
+msgctxt "Name(eog-postasa)"
+msgid "Picasa Web Uploader"
+msgstr "Nahrávání na Picasa Web"
+
+#: /usr/share/appdata/eog-postasa.metainfo.xml:36
+msgctxt "Summary(eog-postasa)"
+msgid "Supports uploading photos to Google Picasa Web"
+msgstr "Podpora nahrávání fotografií do služby Google Picase Web"
+
+#: /usr/share/appdata/eog-export-to-folder.metainfo.xml:6
+msgctxt "Name(eog-export-to-folder)"
+msgid "Export to Folder"
+msgstr "Exportovat do složky"
+
+#: /usr/share/appdata/eog-export-to-folder.metainfo.xml:38
+msgctxt "Summary(eog-export-to-folder)"
+msgid "Export the current image to a separate directory"
+msgstr "Exportuje aktuální obrázek do zvláštní složky"
+
 #: /usr/share/appdata/eog-fullscreenbg.metainfo.xml:6
 msgctxt "Name(eog-fullscreenbg)"
 msgid "Fullscreen Background"
@@ -986,6 +1076,37 @@ msgstr "Pozadí celé obrazovky"
 msgctxt "Summary(eog-fullscreenbg)"
 msgid "Enables changing background in fullscreen mode"
 msgstr "Povolí změnu pozadí v režimu celé obrazovky"
+
+#: /usr/share/appdata/eog-exif-display.metainfo.xml:6
+msgctxt "Name(eog-exif-display)"
+msgid "Exif Display"
+msgstr "Zobrazení informací Exif"
+
+#: /usr/share/appdata/eog-exif-display.metainfo.xml:36
+msgctxt "Summary(eog-exif-display)"
+msgid "Displays Exif tags in the side panel and optionally the statusbar"
+msgstr ""
+"Zobrazí informace Exif v postranním panelu a volitelně ve stavové liště"
+
+#: /usr/share/appdata/eog-light-theme.metainfo.xml:6
+msgctxt "Name(eog-light-theme)"
+msgid "Disable Dark Theme"
+msgstr "Vypnout tmavý motiv"
+
+#: /usr/share/appdata/eog-light-theme.metainfo.xml:36
+msgctxt "Summary(eog-light-theme)"
+msgid "Disables dark theme"
+msgstr "Vypne tmavý motiv"
+
+#: /usr/share/appdata/eog-send-by-mail.metainfo.xml:6
+msgctxt "Name(eog-send-by-mail)"
+msgid "Send by Mail"
+msgstr "Poslat e-mailem"
+
+#: /usr/share/appdata/eog-send-by-mail.metainfo.xml:49
+msgctxt "Summary(eog-send-by-mail)"
+msgid "Sends an image attached to a new mail"
+msgstr "Pošle obrázek přiložený do nového e-mailu"
 
 #: /usr/share/appdata/eog-maximize-windows.metainfo.xml:5
 #, fuzzy
@@ -1000,16 +1121,6 @@ msgctxt "Summary(eog-maximize-windows)"
 msgid "New windows will open maximized"
 msgstr "Nová okna otevře maximalizovaná"
 
-#: /usr/share/appdata/eog-export-to-folder.metainfo.xml:6
-msgctxt "Name(eog-export-to-folder)"
-msgid "Export to Folder"
-msgstr "Exportovat do složky"
-
-#: /usr/share/appdata/eog-export-to-folder.metainfo.xml:38
-msgctxt "Summary(eog-export-to-folder)"
-msgid "Export the current image to a separate directory"
-msgstr "Exportuje aktuální obrázek do zvláštní složky"
-
 #: /usr/share/appdata/eog-pythonconsole.metainfo.xml:6
 #, fuzzy
 #| msgctxt "Summary(org.kde.kig.desktop)"
@@ -1018,84 +1129,13 @@ msgctxt "Name(eog-pythonconsole)"
 msgid "Python Console"
 msgstr "Interaktivní geometrie"
 
-#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:55
+#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:56
 #, fuzzy
 #| msgctxt "Summary(org.kde.kig.desktop)"
 #| msgid "Interactive Geometry"
 msgctxt "Summary(eog-pythonconsole)"
 msgid "Adds a Python console"
 msgstr "Interaktivní geometrie"
-
-#: /usr/share/appdata/eog-postasa.metainfo.xml:6
-msgctxt "Name(eog-postasa)"
-msgid "Picasa Web Uploader"
-msgstr "Nahrávání na Picasa Web"
-
-#: /usr/share/appdata/eog-postasa.metainfo.xml:36
-msgctxt "Summary(eog-postasa)"
-msgid "Supports uploading photos to Google Picasa Web"
-msgstr "Podpora nahrávání fotografií do služby Google Picase Web"
-
-#: /usr/share/appdata/eog-send-by-mail.metainfo.xml:6
-msgctxt "Name(eog-send-by-mail)"
-msgid "Send by Mail"
-msgstr "Poslat e-mailem"
-
-#: /usr/share/appdata/eog-send-by-mail.metainfo.xml:49
-msgctxt "Summary(eog-send-by-mail)"
-msgid "Sends an image attached to a new mail"
-msgstr "Pošle obrázek přiložený do nového e-mailu"
-
-#: /usr/share/appdata/eog-hide-titlebar.metainfo.xml:6
-msgctxt "Name(eog-hide-titlebar)"
-msgid "Hide Titlebar"
-msgstr "Skrýt lištu záhlaví"
-
-#: /usr/share/appdata/eog-hide-titlebar.metainfo.xml:38
-msgctxt "Summary(eog-hide-titlebar)"
-msgid "Hides the titlebar of maximized windows"
-msgstr "Skryje lištu záhlaví kvůli maximalizaci okna"
-
-#: /usr/share/appdata/eog-light-theme.metainfo.xml:6
-msgctxt "Name(eog-light-theme)"
-msgid "Disable Dark Theme"
-msgstr "Vypnout tmavý motiv"
-
-#: /usr/share/appdata/eog-light-theme.metainfo.xml:36
-msgctxt "Summary(eog-light-theme)"
-msgid "Disables dark theme"
-msgstr "Vypne tmavý motiv"
-
-#: /usr/share/appdata/eog-fit-to-width.metainfo.xml:6
-msgctxt "Name(eog-fit-to-width)"
-msgid "Zoom to Fit Image Width"
-msgstr "Přizpůsobit přiblížení šířce obrázku"
-
-#: /usr/share/appdata/eog-fit-to-width.metainfo.xml:36
-msgctxt "Summary(eog-fit-to-width)"
-msgid "Adjusts the zoom to have the image’s width fit into the window"
-msgstr "Přizpůsobí přiblížení tak, aby obrázek zabíral celou šířku okna"
-
-#: /usr/share/appdata/eog-map.metainfo.xml:6
-msgctxt "Name(eog-map)"
-msgid "Map"
-msgstr "Mapa"
-
-#: /usr/share/appdata/eog-map.metainfo.xml:55
-msgctxt "Summary(eog-map)"
-msgid "Displays on a map in the side panel where the picture was taken"
-msgstr "Na mapě v postranním panelu zobrazí, kde byl obrázek pořízen"
-
-#: /usr/share/appdata/eog-exif-display.metainfo.xml:6
-msgctxt "Name(eog-exif-display)"
-msgid "Exif Display"
-msgstr "Zobrazení informací Exif"
-
-#: /usr/share/appdata/eog-exif-display.metainfo.xml:36
-msgctxt "Summary(eog-exif-display)"
-msgid "Displays Exif tags in the side panel and optionally the statusbar"
-msgstr ""
-"Zobrazí informace Exif v postranním panelu a volitelně ve stavové liště"
 
 #: /usr/share/appdata/eog-slideshowshuffle.metainfo.xml:6
 #, fuzzy
@@ -1110,17 +1150,27 @@ msgctxt "Summary(eog-slideshowshuffle)"
 msgid "Shuffles the photos in slideshow mode"
 msgstr "Promíchání fotografií v režimu promítání"
 
+#: /usr/share/appdata/eog-fit-to-width.metainfo.xml:6
+msgctxt "Name(eog-fit-to-width)"
+msgid "Zoom to Fit Image Width"
+msgstr "Přizpůsobit přiblížení šířce obrázku"
+
+#: /usr/share/appdata/eog-fit-to-width.metainfo.xml:36
+msgctxt "Summary(eog-fit-to-width)"
+msgid "Adjusts the zoom to have the image’s width fit into the window"
+msgstr "Přizpůsobí přiblížení tak, aby obrázek zabíral celou šířku okna"
+
 #: /usr/share/appdata/eog.appdata.xml:6
 msgctxt "Name(eog.desktop)"
 msgid "Eye of GNOME"
 msgstr "Eye of GNOME"
 
-#: /usr/share/appdata/eog.appdata.xml:81
+#: /usr/share/appdata/eog.appdata.xml:76
 msgctxt "Summary(eog.desktop)"
 msgid "Browse and rotate images"
 msgstr "Procházení a otáčení obrázků"
 
-#: /usr/share/appdata/org.gnome.Epiphany.appdata.xml:6
+#: /usr/share/metainfo/org.gnome.Epiphany.appdata.xml:6
 #, fuzzy
 #| msgctxt "Name(epiphany.desktop)"
 #| msgid "GNOME Web"
@@ -1128,7 +1178,7 @@ msgctxt "Name(org.gnome.Epiphany.desktop)"
 msgid "GNOME Web"
 msgstr "WWW GNOME"
 
-#: /usr/share/appdata/org.gnome.Epiphany.appdata.xml:53
+#: /usr/share/metainfo/org.gnome.Epiphany.appdata.xml:54
 #, fuzzy
 #| msgctxt "Summary(epiphany.desktop)"
 #| msgid "Web browser for GNOME"
@@ -1166,35 +1216,15 @@ msgctxt "Summary(evince-pdfocument)"
 msgid "Adds support for reading PDF Documents"
 msgstr "Přidává podporu pro čtení dokumentů PDF"
 
-#: /usr/share/appdata/evince-dvidocument.metainfo.xml:5
-msgctxt "Name(evince-dvidocument)"
-msgid "DVI Documents"
-msgstr "Dokumenty DVI"
+#: /usr/share/appdata/evince-psdocument.metainfo.xml:5
+msgctxt "Name(evince-psdocument)"
+msgid "PostScript Documents"
+msgstr "Dokumenty PostScript"
 
-#: /usr/share/appdata/evince-dvidocument.metainfo.xml:99
-msgctxt "Summary(evince-dvidocument)"
-msgid "Adds support for reading DVI documents"
-msgstr "Přidává podporu pro čtení dokumentů DVI"
-
-#: /usr/share/appdata/evince-djvudocument.metainfo.xml:5
-msgctxt "Name(evince-djvudocument)"
-msgid "DjVu Documents"
-msgstr "Dokumenty DjVu"
-
-#: /usr/share/appdata/evince-djvudocument.metainfo.xml:87
-msgctxt "Summary(evince-djvudocument)"
-msgid "Adds support for reading DjVu documents"
-msgstr "Přidává podporu pro čtení dokumentů DjVu"
-
-#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:5
-msgctxt "Name(evince-xpsdocument)"
-msgid "XPS Documents"
-msgstr "Dokumenty XPS"
-
-#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:76
-msgctxt "Summary(evince-xpsdocument)"
-msgid "Adds support for reading XPS documents"
-msgstr "Přidává podporu pro čtení dokumentů XPS"
+#: /usr/share/appdata/evince-psdocument.metainfo.xml:98
+msgctxt "Summary(evince-psdocument)"
+msgid "Adds support for reading PostScript documents"
+msgstr "Přidává podporu pro čtení postskriptových dokumentů"
 
 #: /usr/share/appdata/evince-tiffdocument.metainfo.xml:5
 msgctxt "Name(evince-tiffdocument)"
@@ -1216,15 +1246,35 @@ msgctxt "Summary(evince-comicsdocument)"
 msgid "Adds support for reading comic books"
 msgstr "Přidává podporu pro čtení komiksů"
 
-#: /usr/share/appdata/evince-psdocument.metainfo.xml:5
-msgctxt "Name(evince-psdocument)"
-msgid "PostScript Documents"
-msgstr "Dokumenty PostScript"
+#: /usr/share/appdata/evince-djvudocument.metainfo.xml:5
+msgctxt "Name(evince-djvudocument)"
+msgid "DjVu Documents"
+msgstr "Dokumenty DjVu"
 
-#: /usr/share/appdata/evince-psdocument.metainfo.xml:98
-msgctxt "Summary(evince-psdocument)"
-msgid "Adds support for reading PostScript documents"
-msgstr "Přidává podporu pro čtení postskriptových dokumentů"
+#: /usr/share/appdata/evince-djvudocument.metainfo.xml:87
+msgctxt "Summary(evince-djvudocument)"
+msgid "Adds support for reading DjVu documents"
+msgstr "Přidává podporu pro čtení dokumentů DjVu"
+
+#: /usr/share/appdata/evince-dvidocument.metainfo.xml:5
+msgctxt "Name(evince-dvidocument)"
+msgid "DVI Documents"
+msgstr "Dokumenty DVI"
+
+#: /usr/share/appdata/evince-dvidocument.metainfo.xml:99
+msgctxt "Summary(evince-dvidocument)"
+msgid "Adds support for reading DVI documents"
+msgstr "Přidává podporu pro čtení dokumentů DVI"
+
+#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:5
+msgctxt "Name(evince-xpsdocument)"
+msgid "XPS Documents"
+msgstr "Dokumenty XPS"
+
+#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:76
+msgctxt "Summary(evince-xpsdocument)"
+msgid "Adds support for reading XPS documents"
+msgstr "Přidává podporu pro čtení dokumentů XPS"
 
 #: /usr/share/appdata/evolution-ews.metainfo.xml:5
 msgctxt "Name(evolution-ews)"
@@ -1256,16 +1306,6 @@ msgctxt "Summary(evolution.desktop)"
 msgid "Manage your email, contacts and schedule"
 msgstr "Spravujte svůj e-mail, kontakty a rozvrh"
 
-#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:5
-msgctxt "Name(evolution-bogofilter)"
-msgid "Bogofilter"
-msgstr "Bogofilter"
-
-#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:66
-msgctxt "Summary(evolution-bogofilter)"
-msgid "Junk filter using Bogofilter"
-msgstr "Filtr nevyžádané pošty používá Bogofilter"
-
 #: /usr/share/appdata/evolution-spamassassin.metainfo.xml:5
 msgctxt "Name(evolution-spamassassin)"
 msgid "SpamAssassin"
@@ -1286,26 +1326,26 @@ msgctxt "Summary(evolution-pst)"
 msgid "Import Outlook messages from PST file"
 msgstr ""
 
+#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:5
+msgctxt "Name(evolution-bogofilter)"
+msgid "Bogofilter"
+msgstr "Bogofilter"
+
+#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:66
+msgctxt "Summary(evolution-bogofilter)"
+msgid "Junk filter using Bogofilter"
+msgstr "Filtr nevyžádané pošty používá Bogofilter"
+
 #: /usr/share/metainfo/org.kde.falkon.appdata.xml:6
 msgctxt "Name(org.kde.falkon.desktop)"
 msgid "Falkon"
 msgstr "Falkon"
 
-#: /usr/share/metainfo/org.kde.falkon.appdata.xml:26
+#: /usr/share/metainfo/org.kde.falkon.appdata.xml:29
 #, fuzzy
 msgctxt "Summary(org.kde.falkon.desktop)"
 msgid "Web Browser"
 msgstr "Webový prohlížeč"
-
-#: /usr/share/appdata/org.gnome.FeedReader.appdata.xml:6
-msgctxt "Name(org.gnome.FeedReader.desktop)"
-msgid "FeedReader"
-msgstr ""
-
-#: /usr/share/appdata/org.gnome.FeedReader.appdata.xml:7
-msgctxt "Summary(org.gnome.FeedReader.desktop)"
-msgid "RSS client for various webservices"
-msgstr ""
 
 #: /usr/share/metainfo/org.gnome.FileRoller.appdata.xml:7
 #, fuzzy
@@ -1325,7 +1365,7 @@ msgctxt "Name(org.kde.filelight.desktop)"
 msgid "Filelight"
 msgstr "Filelight"
 
-#: /usr/share/metainfo/org.kde.filelight.appdata.xml:33
+#: /usr/share/metainfo/org.kde.filelight.appdata.xml:34
 msgctxt "Summary(org.kde.filelight.desktop)"
 msgid ""
 "Filelight creates an interactive map of concentric segmented-rings that "
@@ -1405,6 +1445,16 @@ msgctxt "Summary(org.freedesktop.fwupd)"
 msgid "Update device firmware on Linux"
 msgstr ""
 
+#: /usr/share/metainfo/org.gajim.Gajim.appdata.xml:9
+msgctxt "Name(org.gajim.Gajim.desktop)"
+msgid "Gajim"
+msgstr ""
+
+#: /usr/share/metainfo/org.gajim.Gajim.appdata.xml:10
+msgctxt "Summary(org.gajim.Gajim.desktop)"
+msgid "A GTK+ Jabber client"
+msgstr ""
+
 #: /usr/share/appdata/galculator.appdata.xml:6
 #, fuzzy
 msgctxt "Name(galculator.desktop)"
@@ -1470,10 +1520,243 @@ msgctxt "Name(org.gnome.Geary.desktop)"
 msgid "Geary"
 msgstr "Geary"
 
-#: /usr/share/appdata/org.gnome.Geary.appdata.xml:64
+#: /usr/share/appdata/org.gnome.Geary.appdata.xml:66
 msgctxt "Summary(org.gnome.Geary.desktop)"
 msgid "Send and receive email"
 msgstr "Odesílejte a přijímejte e-maily"
+
+#: /usr/share/appdata/gedit-translate.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Name(terminator.desktop)"
+#| msgid "Terminator"
+msgctxt "Name(gedit-translate)"
+msgid "Translate"
+msgstr "Terminator"
+
+#: /usr/share/appdata/gedit-translate.metainfo.xml:24
+msgctxt "Summary(gedit-translate)"
+msgid "Translates text into different languages"
+msgstr "Překládá texty do různých národních jazyků"
+
+#: /usr/share/appdata/gedit-bookmarks.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Name(evince-comicsdocument)"
+#| msgid "Comic Books"
+msgctxt "Name(gedit-bookmarks)"
+msgid "Bookmarks"
+msgstr "Komiksy"
+
+#: /usr/share/appdata/gedit-bookmarks.metainfo.xml:85
+msgctxt "Summary(gedit-bookmarks)"
+msgid "Easy document navigation with bookmarks"
+msgstr "Jednoduché procházení dokumentem pomocí záložek"
+
+#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:5
+msgctxt "Name(gedit-colorschemer)"
+msgid "Color Scheme Editor"
+msgstr "Editor barevného schématu"
+
+#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:41
+msgctxt "Summary(gedit-colorschemer)"
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr ""
+"Vytváření a úpravy barevného schématu používaného ke zvýrazňování syntaxe"
+
+#: /usr/share/appdata/gedit-commander.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Name(gcm-viewer.desktop)"
+#| msgid "GNOME Color Manager"
+msgctxt "Name(gedit-commander)"
+msgid "Commander"
+msgstr "Správa barev GNOME"
+
+#: /usr/share/appdata/gedit-commander.metainfo.xml:45
+msgctxt "Summary(gedit-commander)"
+msgid "Command line interface for advanced editing"
+msgstr "Rozhraní příkazového řádku k pokročilým úpravám"
+
+#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:5
+msgctxt "Name(gedit-drawspaces)"
+msgid "Draw spaces"
+msgstr "Vykreslovat mezery"
+
+#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:47
+msgctxt "Summary(gedit-drawspaces)"
+msgid "Draw Spaces and Tabs"
+msgstr "Vykresluje mezery a tabulátory"
+
+#: /usr/share/appdata/gedit-multiedit.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-multiedit)"
+msgid "Multi edit"
+msgstr "MultiWriter"
+
+#: /usr/share/appdata/gedit-multiedit.metainfo.xml:38
+#, fuzzy
+msgctxt "Summary(gedit-multiedit)"
+msgid "Edit document in multiple places at once"
+msgstr "Zapisujte soubor ISO na více zařízení USB najednou"
+
+#: /usr/share/appdata/gedit-git.metainfo.xml:5
+msgctxt "Name(gedit-git)"
+msgid "Git"
+msgstr "Git"
+
+#: /usr/share/appdata/gedit-git.metainfo.xml:43
+msgctxt "Summary(gedit-git)"
+msgid ""
+"Use git information to display which lines and files changed since last "
+"commit"
+msgstr ""
+"Používá informace git k zobrazení, které řádky a soubory se od posledního "
+"zařazení změnily"
+
+#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:5
+msgctxt "Name(gedit-wordcompletion)"
+msgid "Word completion"
+msgstr "Doplňování slov"
+
+#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:40
+msgctxt "Summary(gedit-wordcompletion)"
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Navrhuje automatické doplnění podle slov, která se v dokumentu již vyskytují"
+
+#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-colorpicker)"
+msgid "Color picker"
+msgstr "Kapátko"
+
+#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:42
+msgctxt "Summary(gedit-colorpicker)"
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr "Výběr a vkládání barev z dialogového okna (pro HTML, CSS, PHP)"
+
+#: /usr/share/appdata/gedit-charmap.metainfo.xml:5
+msgctxt "Name(gedit-charmap)"
+msgid "Charmap"
+msgstr "Mapa znaků"
+
+#: /usr/share/appdata/gedit-charmap.metainfo.xml:41
+msgctxt "Summary(gedit-charmap)"
+msgid "Select characters from a character map"
+msgstr "Výběr znaků z mapy znaků"
+
+#: /usr/share/appdata/gedit-joinlines.metainfo.xml:5
+msgctxt "Name(gedit-joinlines)"
+msgid "Join lines/ Split lines"
+msgstr "Spojit/rozdělit řádky"
+
+#: /usr/share/appdata/gedit-joinlines.metainfo.xml:40
+msgctxt "Summary(gedit-joinlines)"
+msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
+msgstr "Spojí nebo rozdělí několi řádků přes Ctrl+J a Ctrl+Shift+J"
+
+#: /usr/share/appdata/gedit-findinfiles.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Summary(org.kde.kfind.desktop)"
+#| msgid "Find Files/Folders"
+msgctxt "Name(gedit-findinfiles)"
+msgid "Find in Files"
+msgstr "Najít soubory/složky"
+
+#: /usr/share/appdata/gedit-findinfiles.metainfo.xml:37
+msgctxt "Summary(gedit-findinfiles)"
+msgid "Find text in all files of a folder"
+msgstr "Hledá text ve všech souborech ve složce"
+
+#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:5
+msgctxt "Name(gedit-smartspaces)"
+msgid "Smart Spaces"
+msgstr "Inteligentní mezery"
+
+#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:45
+msgctxt "Summary(gedit-smartspaces)"
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr ""
+"Umožňuje rušit odsazení při používání mezer stejně snadno, jako při "
+"používání tabulátorů"
+
+#: /usr/share/appdata/gedit-dashboard.metainfo.xml:5
+msgctxt "Name(gedit-dashboard)"
+msgid "Dashboard"
+msgstr "Ovládací tabule"
+
+#: /usr/share/appdata/gedit-dashboard.metainfo.xml:43
+msgctxt "Summary(gedit-dashboard)"
+msgid "Displays a grid of recently/most used files upon opening a new tab"
+msgstr ""
+"Zobrazí tabulku nedávno/často použitých souborů před otevřením nové karty"
+
+#: /usr/share/appdata/gedit-synctex.metainfo.xml:5
+msgctxt "Name(gedit-synctex)"
+msgid "SyncTeX"
+msgstr "SyncTeX"
+
+#: /usr/share/appdata/gedit-synctex.metainfo.xml:44
+msgctxt "Summary(gedit-synctex)"
+msgid "Synchronize between LaTeX and PDF with gedit and evince"
+msgstr "Synchronizuje mezi formáty LaTeX a PDF v aplikacích gedit a evince"
+
+#: /usr/share/appdata/gedit-textsize.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-textsize)"
+msgid "Text size"
+msgstr "Text"
+
+#: /usr/share/appdata/gedit-textsize.metainfo.xml:41
+msgctxt "Summary(gedit-textsize)"
+msgid "Easily increase and decrease the text size"
+msgstr "Snadné zvětšování a zmenšování velikosti textu"
+
+#: /usr/share/appdata/gedit-bracketcompletion.metainfo.xml:5
+msgctxt "Name(gedit-bracketcompletion)"
+msgid "Bracket Completion"
+msgstr "Doplňování závorek"
+
+#: /usr/share/appdata/gedit-bracketcompletion.metainfo.xml:49
+msgctxt "Summary(gedit-bracketcompletion)"
+msgid "Automatically add a closing bracket when you insert one"
+msgstr "Automaticky přidává zavírací závorku, když nějakou závorku vložíte."
+
+#: /usr/share/appdata/gedit-codecomment.metainfo.xml:5
+msgctxt "Name(gedit-codecomment)"
+msgid "Code Comment"
+msgstr "Komentování kódu"
+
+#: /usr/share/appdata/gedit-codecomment.metainfo.xml:45
+msgctxt "Summary(gedit-codecomment)"
+msgid "Comment or uncomment blocks of code"
+msgstr "Zakomentovat nebo odkomentovat blok kódu"
+
+#: /usr/share/appdata/gedit-terminal.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Summary(org.kde.konsole.desktop)"
+#| msgid "Terminal"
+msgctxt "Name(gedit-terminal)"
+msgid "Terminal"
+msgstr "Terminál"
+
+#: /usr/share/appdata/gedit-terminal.metainfo.xml:64
+msgctxt "Summary(gedit-terminal)"
+msgid "A simple terminal widget accessible from the bottom panel"
+msgstr "Jednoduchý prvek s terminálem přístupným ve spodním panelu"
+
+#: /usr/share/appdata/gedit-zeitgeist.metainfo.xml:5
+msgctxt "Name(gedit-zeitgeist)"
+msgid "Zeitgeist Data provider"
+msgstr "Poskytovatel dat Zeitgeist"
+
+#: /usr/share/appdata/gedit-zeitgeist.metainfo.xml:38
+msgctxt "Summary(gedit-zeitgeist)"
+msgid ""
+"Records user activity and giving easy access to recently-used and frequently-"
+"used files"
+msgstr ""
+"Zaznamenává činnosti a poskytuje snadný přístup k nedávno použitým a často "
+"používaným souborům"
 
 #: /usr/share/appdata/org.gnome.gedit.appdata.xml:6
 msgctxt "Name(org.gnome.gedit.desktop)"
@@ -1523,7 +1806,7 @@ msgctxt "Name(glabels-3.0.desktop)"
 msgid "gLabels"
 msgstr "gLabels"
 
-#: /usr/share/appdata/glabels-3.appdata.xml:14
+#: /usr/share/appdata/glabels-3.appdata.xml:24
 msgctxt "Summary(glabels-3.0.desktop)"
 msgid "Create labels, business cards and media covers"
 msgstr "Vytvářejte etikety, vizitky a obaly médií"
@@ -1538,7 +1821,7 @@ msgctxt "Summary(org.gnome.gnome-2048.desktop)"
 msgid "Obtain the 2048 tile"
 msgstr "Získejte kámen 2048"
 
-#: /usr/share/appdata/org.gnome.Boxes.appdata.xml:5
+#: /usr/share/metainfo/org.gnome.Boxes.appdata.xml:5
 #, fuzzy
 #| msgctxt "Name(org.gnome.Logs.desktop)"
 #| msgid "GNOME Logs"
@@ -1546,7 +1829,7 @@ msgctxt "Name(org.gnome.Boxes.desktop)"
 msgid "GNOME Boxes"
 msgstr "Záznamy GNOME"
 
-#: /usr/share/appdata/org.gnome.Boxes.appdata.xml:46
+#: /usr/share/metainfo/org.gnome.Boxes.appdata.xml:49
 msgctxt "Summary(org.gnome.Boxes.desktop)"
 msgid "Simple remote and virtual machines"
 msgstr ""
@@ -1624,7 +1907,7 @@ msgctxt "Name(org.gnome.ColorProfileViewer.desktop)"
 msgid "GNOME Color Manager"
 msgstr "Správa barev GNOME"
 
-#: /usr/share/metainfo/org.gnome.ColorProfileViewer.appdata.xml:70
+#: /usr/share/metainfo/org.gnome.ColorProfileViewer.appdata.xml:71
 #, fuzzy
 #| msgctxt "Summary(gcm-viewer.desktop)"
 #| msgid "Inspect and compare installed color profiles"
@@ -1676,7 +1959,7 @@ msgctxt "Name(org.gnome.Dictionary.desktop)"
 msgid "GNOME Dictionary"
 msgstr "Slovník GNOME"
 
-#: /usr/share/appdata/org.gnome.Dictionary.appdata.xml:51
+#: /usr/share/appdata/org.gnome.Dictionary.appdata.xml:52
 msgctxt "Summary(org.gnome.Dictionary.desktop)"
 msgid "Check word definitions and spellings in an online dictionary"
 msgstr "Kontrolovat slova a pravopis v on-line slovníku"
@@ -1697,22 +1980,6 @@ msgctxt "Summary(org.gnome.DiskUtility.desktop)"
 msgid "Disk management utility for GNOME"
 msgstr "Správa úkolů pro GNOME"
 
-#: /usr/share/appdata/org.gnome.Books.appdata.xml:7
-#, fuzzy
-#| msgctxt "Name(evince-comicsdocument)"
-#| msgid "Comic Books"
-msgctxt "Name(org.gnome.Books.desktop)"
-msgid "Books"
-msgstr "Komiksy"
-
-#: /usr/share/appdata/org.gnome.Books.appdata.xml:63
-#, fuzzy
-#| msgctxt "Summary(org.gnome.Contacts.desktop)"
-#| msgid "A contacts manager for GNOME"
-msgctxt "Summary(org.gnome.Books.desktop)"
-msgid "An e-book manager application for GNOME"
-msgstr "Správa kontaktů pro GNOME"
-
 #: /usr/share/appdata/org.gnome.Documents.appdata.xml:7
 #, fuzzy
 #| msgctxt "Name(evince-pdfocument)"
@@ -1729,6 +1996,22 @@ msgctxt "Summary(org.gnome.Documents.desktop)"
 msgid "A document manager application for GNOME"
 msgstr "Správa kontaktů pro GNOME"
 
+#: /usr/share/appdata/org.gnome.Books.appdata.xml:7
+#, fuzzy
+#| msgctxt "Name(evince-comicsdocument)"
+#| msgid "Comic Books"
+msgctxt "Name(org.gnome.Books.desktop)"
+msgid "Books"
+msgstr "Komiksy"
+
+#: /usr/share/appdata/org.gnome.Books.appdata.xml:63
+#, fuzzy
+#| msgctxt "Summary(org.gnome.Contacts.desktop)"
+#| msgid "A contacts manager for GNOME"
+msgctxt "Summary(org.gnome.Books.desktop)"
+msgid "An e-book manager application for GNOME"
+msgstr "Správa kontaktů pro GNOME"
+
 #: /usr/share/metainfo/org.gnome.font-viewer.appdata.xml:6
 #, fuzzy
 #| msgctxt "Name(org.gnome.Contacts.desktop)"
@@ -1737,7 +2020,7 @@ msgctxt "Name(org.gnome.font-viewer.desktop)"
 msgid "GNOME Fonts"
 msgstr "Kontakty GNOME"
 
-#: /usr/share/metainfo/org.gnome.font-viewer.appdata.xml:41
+#: /usr/share/metainfo/org.gnome.font-viewer.appdata.xml:50
 msgctxt "Summary(org.gnome.font-viewer.desktop)"
 msgid "View fonts on your system"
 msgstr "Zobrazte si písma ve svém systému"
@@ -1782,12 +2065,12 @@ msgctxt "Summary(gnome-mahjongg.desktop)"
 msgid "Match tiles and clear the board"
 msgstr "Najděte stejné kameny a vyčistěte tak herní desku"
 
-#: /usr/share/appdata/org.gnome.Maps.appdata.xml:6
+#: /usr/share/metainfo/org.gnome.Maps.appdata.xml:6
 msgctxt "Name(org.gnome.Maps.desktop)"
 msgid "GNOME Maps"
 msgstr "Mapy GNOME"
 
-#: /usr/share/appdata/org.gnome.Maps.appdata.xml:54
+#: /usr/share/metainfo/org.gnome.Maps.appdata.xml:55
 msgctxt "Summary(org.gnome.Maps.desktop)"
 msgid "Find places around the world"
 msgstr "Vyhledávejte místa na celém světě"
@@ -1962,15 +2245,35 @@ msgctxt "Summary(org.gnome.Screenshot.desktop)"
 msgid "Save images of your screen or individual windows"
 msgstr "Uložit snímky obrazovky"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Flatpak)"
-msgid "Flatpak Support"
-msgstr "Podpora pro Flatpak"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Fwupd)"
+msgid "Firmware Upgrade Support"
+msgstr "Podpora aktualizací firmwaru"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:47
-msgctxt "Summary(org.gnome.Software.Plugin.Flatpak)"
-msgid "Flatpak is a framework for desktop applications on Linux"
-msgstr "Flatpak je systém pro provozování aplikací na Linuxu"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:46
+msgctxt "Summary(org.gnome.Software.Plugin.Fwupd)"
+msgid "Provides support for firmware upgrades"
+msgstr "Poskytuje podporu pro povyšování verzí firmwaru"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Epiphany)"
+msgid "Web Apps Support"
+msgstr "Podpora webových aplikací"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:48
+msgctxt "Summary(org.gnome.Software.Plugin.Epiphany)"
+msgid "Run popular web applications in a browser"
+msgstr "Spouštějte si populární webové aplikace v prohlížeči"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Steam.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Steam)"
+msgid "Steam Support"
+msgstr "Podpora pro Steam"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Steam.metainfo.xml:47
+msgctxt "Summary(org.gnome.Software.Plugin.Steam)"
+msgid "The ultimate entertainment platform from Valve"
+msgstr "Platforma pro vrcholnou zábavu od firmy Valve"
 
 #: /usr/share/metainfo/org.gnome.Software.appdata.xml:7
 msgctxt "Name(org.gnome.Software.desktop)"
@@ -1992,35 +2295,15 @@ msgctxt "Summary(org.gnome.Software.Plugin.Odrs)"
 msgid "ODRS is a service providing user reviews of applications"
 msgstr "ODRS je služba poskytující uživatelům hodnocení aplikací"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Fwupd)"
-msgid "Firmware Upgrade Support"
-msgstr "Podpora aktualizací firmwaru"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Flatpak)"
+msgid "Flatpak Support"
+msgstr "Podpora pro Flatpak"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:46
-msgctxt "Summary(org.gnome.Software.Plugin.Fwupd)"
-msgid "Provides support for firmware upgrades"
-msgstr "Poskytuje podporu pro povyšování verzí firmwaru"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Steam.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Steam)"
-msgid "Steam Support"
-msgstr "Podpora pro Steam"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Steam.metainfo.xml:47
-msgctxt "Summary(org.gnome.Software.Plugin.Steam)"
-msgid "The ultimate entertainment platform from Valve"
-msgstr "Platforma pro vrcholnou zábavu od firmy Valve"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Epiphany)"
-msgid "Web Apps Support"
-msgstr "Podpora webových aplikací"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:48
-msgctxt "Summary(org.gnome.Software.Plugin.Epiphany)"
-msgid "Run popular web applications in a browser"
-msgstr "Spouštějte si populární webové aplikace v prohlížeči"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:47
+msgctxt "Summary(org.gnome.Software.Plugin.Flatpak)"
+msgid "Flatpak is a framework for desktop applications on Linux"
+msgstr "Flatpak je systém pro provozování aplikací na Linuxu"
 
 #: /usr/share/appdata/org.gnome.SoundRecorder.appdata.xml:4
 #, fuzzy
@@ -2059,7 +2342,7 @@ msgctxt "Summary(gnome-system-monitor.desktop)"
 msgid "View and manage system resources"
 msgstr "Zobrazit a spravovat systémové prostředky"
 
-#: /usr/share/appdata/org.gnome.taquin.appdata.xml:6
+#: /usr/share/metainfo/org.gnome.taquin.appdata.xml:6
 #, fuzzy
 #| msgctxt "Name(gnome-mines.desktop)"
 #| msgid "GNOME Mines"
@@ -2067,7 +2350,7 @@ msgctxt "Name(org.gnome.taquin.desktop)"
 msgid "GNOME Taquin"
 msgstr "Miny GNOME"
 
-#: /usr/share/appdata/org.gnome.taquin.appdata.xml:51
+#: /usr/share/metainfo/org.gnome.taquin.appdata.xml:53
 msgctxt "Summary(org.gnome.taquin.desktop)"
 msgid "Slide tiles to their correct places"
 msgstr "Presuňte díly na jejich správné místo"
@@ -2128,6 +2411,19 @@ msgstr "Počasí"
 msgctxt "Summary(org.gnome.Weather.Application.desktop)"
 msgid "Show weather conditions and forecast"
 msgstr "Zobrazte si povětrnostní podmínky a předpověď počasí"
+
+#: /usr/share/appdata/gnucash.appdata.xml:6
+msgctxt "Name(org.gnucash.Gnucash)"
+msgid "GnuCash"
+msgstr ""
+
+#: /usr/share/appdata/gnucash.appdata.xml:43
+#, fuzzy
+#| msgctxt "Summary(evolution.desktop)"
+#| msgid "Manage your email, contacts and schedule"
+msgctxt "Summary(org.gnucash.Gnucash)"
+msgid "Manage your finances, accounts, and investments"
+msgstr "Spravujte svůj e-mail, kontakty a rozvrh"
 
 #: /usr/share/metainfo/com.github.jmoerman.go-for-it.appdata.xml:4
 msgctxt "Name(com.github.jmoerman.go-for-it.desktop)"
@@ -2200,6 +2496,16 @@ msgctxt "Summary(gstreamer-plugins-bad)"
 msgid "Multimedia playback for AIFF, DVB, GSM, MIDI, MXF and Opus"
 msgstr ""
 
+#: /usr/share/appdata/gstreamer-plugins-base.appdata.xml:6
+msgctxt "Name(gstreamer-plugin-base)"
+msgid "GStreamer Multimedia Codecs - Base"
+msgstr ""
+
+#: /usr/share/appdata/gstreamer-plugins-base.appdata.xml:7
+msgctxt "Summary(gstreamer-plugin-base)"
+msgid "Multimedia playback for Ogg, Theora and Vorbis"
+msgstr ""
+
 #: /usr/share/appdata/org.gnome.gThumb.appdata.xml:7
 #, fuzzy
 #| msgctxt "Summary(org.kde.gwenview.desktop)"
@@ -2208,7 +2514,7 @@ msgctxt "Name(org.gnome.gThumb.desktop)"
 msgid "gThumb Image Viewer"
 msgstr "Prohlížeč obrázků"
 
-#: /usr/share/appdata/org.gnome.gThumb.appdata.xml:67
+#: /usr/share/appdata/org.gnome.gThumb.appdata.xml:68
 #, fuzzy
 #| msgctxt "Summary(org.gnome.Nautilus.desktop)"
 #| msgid "Access and organize files"
@@ -2435,7 +2741,7 @@ msgctxt "Name(org.kde.juk.desktop)"
 msgid "JuK"
 msgstr "JuK"
 
-#: /usr/share/metainfo/org.kde.juk.appdata.xml:44
+#: /usr/share/metainfo/org.kde.juk.appdata.xml:45
 msgctxt "Summary(org.kde.juk.desktop)"
 msgid "Music Player"
 msgstr "Přehrávač hudby"
@@ -2449,6 +2755,19 @@ msgstr "K3b"
 msgctxt "Summary(org.kde.k3b.desktop)"
 msgid "Disk Burning"
 msgstr "Vypalování médií"
+
+#: /usr/share/metainfo/org.kde.kaccounts.owncloud.appdata.xml:4
+msgctxt "Name(owncloud_kaccounts_ui)"
+msgid "OwnCloud KAccounts QML plugin"
+msgstr "QML modul KAccounts pro OwnCloud"
+
+#: /usr/share/metainfo/org.kde.kaccounts.owncloud.appdata.xml:40
+#, fuzzy
+#| msgctxt "Name(owncloud_kaccounts_ui)"
+#| msgid "OwnCloud KAccounts QML plugin"
+msgctxt "Summary(owncloud_kaccounts_ui)"
+msgid "Use OwnCloud with KAccounts"
+msgstr "QML modul KAccounts pro OwnCloud"
 
 #: /usr/share/metainfo/org.kde.kaddressbook.appdata.xml:6
 msgctxt "Name(org.kde.kaddressbook.desktop)"
@@ -2562,16 +2881,6 @@ msgctxt "Summary(com.github.robertsanseries.karim.desktop)"
 msgid "Download Video"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.kate.appdata.xml:6
-msgctxt "Name(org.kde.kate.desktop)"
-msgid "Kate"
-msgstr "Kate"
-
-#: /usr/share/metainfo/org.kde.kate.appdata.xml:47
-msgctxt "Summary(org.kde.kate.desktop)"
-msgid "Advanced Text Editor"
-msgstr "Pokročilý textový editor"
-
 #: /usr/share/metainfo/org.kde.kwrite.appdata.xml:6
 msgctxt "Name(org.kde.kwrite.desktop)"
 msgid "KWrite"
@@ -2581,6 +2890,16 @@ msgstr "KWrite"
 msgctxt "Summary(org.kde.kwrite.desktop)"
 msgid "Text Editor"
 msgstr "Textový editor"
+
+#: /usr/share/metainfo/org.kde.kate.appdata.xml:6
+msgctxt "Name(org.kde.kate.desktop)"
+msgid "Kate"
+msgstr "Kate"
+
+#: /usr/share/metainfo/org.kde.kate.appdata.xml:47
+msgctxt "Summary(org.kde.kate.desktop)"
+msgid "Advanced Text Editor"
+msgstr "Pokročilý textový editor"
 
 #: /usr/share/metainfo/org.kde.plasma.katesessions.appdata.xml:4
 msgctxt "Name(org.kde.plasma.katesessions)"
@@ -2642,25 +2961,25 @@ msgctxt "Summary(org.kde.kcalc.desktop)"
 msgid "Scientific Calculator"
 msgstr "Vědecká kalkulačka"
 
-#: /usr/share/metainfo/org.kde.wacomtablet.metainfo.xml:6
-msgctxt "Name(org.kde.wacomtablet)"
-msgid "KDE Wacom tablet module"
-msgstr ""
-
-#: /usr/share/metainfo/org.kde.wacomtablet.metainfo.xml:7
-msgctxt "Summary(org.kde.wacomtablet)"
-msgid "Configuration GUI for graphical tablets"
-msgstr ""
-
 #: /usr/share/metainfo/org.kde.plasma.wacomtablet.appdata.xml:4
 msgctxt "Name(org.kde.plasma.wacomtablet)"
 msgid "Wacom Tablet Settings"
 msgstr "Nastavení tabletu Wacom"
 
-#: /usr/share/metainfo/org.kde.plasma.wacomtablet.appdata.xml:47
+#: /usr/share/metainfo/org.kde.plasma.wacomtablet.appdata.xml:48
 msgctxt "Summary(org.kde.plasma.wacomtablet)"
 msgid "Hotplugging and profile support for Wacom tablets"
 msgstr "Podpora profilů a hotplug pro tablety Wacom"
+
+#: /usr/share/metainfo/org.kde.wacomtablet.metainfo.xml:6
+msgctxt "Name(org.kde.wacomtablet)"
+msgid "KDE Wacom tablet module"
+msgstr ""
+
+#: /usr/share/metainfo/org.kde.wacomtablet.metainfo.xml:25
+msgctxt "Summary(org.kde.wacomtablet)"
+msgid "Configuration GUI for graphical tablets"
+msgstr ""
 
 #: /usr/share/metainfo/org.kde.plasma.printmanager.appdata.xml:4
 msgctxt "Name(org.kde.plasma.printmanager)"
@@ -2715,12 +3034,12 @@ msgid ""
 "Community-driven port of the Windows application “KeePass Password Safe”"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.kexi.appdata.xml:6
+#: /usr/share/metainfo/org.kde.kexi-3.1.appdata.xml:6
 msgctxt "Name(org.kde.kexi.desktop)"
 msgid "Kexi"
 msgstr "Kexi"
 
-#: /usr/share/metainfo/org.kde.kexi.appdata.xml:33
+#: /usr/share/metainfo/org.kde.kexi-3.1.appdata.xml:34
 msgctxt "Summary(org.kde.kexi.desktop)"
 msgid "Visual database apps builder"
 msgstr ""
@@ -2750,7 +3069,7 @@ msgctxt "Name(org.kde.kgoldrunner.desktop)"
 msgid "KGoldrunner"
 msgstr "KGoldrunner"
 
-#: /usr/share/metainfo/org.kde.kgoldrunner.appdata.xml:34
+#: /usr/share/metainfo/org.kde.kgoldrunner.appdata.xml:35
 msgctxt "Summary(org.kde.kgoldrunner.desktop)"
 msgid "Hunt Gold, Dodge Enemies and Solve Puzzles"
 msgstr ""
@@ -2822,7 +3141,7 @@ msgctxt "Name(org.kde.kigo.desktop)"
 msgid "Kigo"
 msgstr "Kigo"
 
-#: /usr/share/metainfo/org.kde.kigo.appdata.xml:33
+#: /usr/share/metainfo/org.kde.kigo.appdata.xml:34
 msgctxt "Summary(org.kde.kigo.desktop)"
 msgid "Go Board Game"
 msgstr "Desková hra Go"
@@ -2837,6 +3156,29 @@ msgstr "KImageMapEditor"
 msgctxt "Summary(org.kde.kimagemapeditor.desktop)"
 msgid "HTML Image Map Editor"
 msgstr "Textový editor"
+
+#: /usr/share/metainfo/org.kde.kio-gdrive.appdata.xml:6
+msgctxt "Name(org.kde.kio-gdrive)"
+msgid "KIO GDrive"
+msgstr "KIO GDrive"
+
+#: /usr/share/metainfo/org.kde.kio-gdrive.appdata.xml:25
+msgctxt "Summary(org.kde.kio-gdrive)"
+msgid "Google Drive integration with KDE Plasma and KDE applications"
+msgstr "Integrace Google Drive do KDE Plasma a aplikací KDE"
+
+#: /usr/share/metainfo/org.kde.filestash.appdata.xml:6
+#, fuzzy
+#| msgctxt "Name(org.pantheon.files.desktop)"
+#| msgid "Files"
+msgctxt "Name(org.kde.filestash.desktop)"
+msgid "FileStash"
+msgstr "Soubory"
+
+#: /usr/share/metainfo/org.kde.filestash.appdata.xml:7
+msgctxt "Summary(org.kde.filestash.desktop)"
+msgid "A lightweight solution for virtual folder support in KDE Applications."
+msgstr ""
 
 #: /usr/share/metainfo/org.kde.kiriki.appdata.xml:6
 msgctxt "Name(org.kde.kiriki.desktop)"
@@ -2943,7 +3285,7 @@ msgctxt "Name(org.kde.kmarkdownwebviewpart)"
 msgid "Markdown Viewer KPart"
 msgstr "KPart pro prohlížení souborů Markdown"
 
-#: /usr/share/metainfo/org.kde.kmarkdownwebviewpart.metainfo.xml:37
+#: /usr/share/metainfo/org.kde.kmarkdownwebviewpart.metainfo.xml:38
 msgctxt "Summary(org.kde.kmarkdownwebviewpart)"
 msgid "Rendered display of Markdown files in KParts-using software"
 msgstr "Zpracované zobrazení Markdown v aplikacích využívajících KParts"
@@ -2953,7 +3295,7 @@ msgctxt "Name(org.kde.kmines.desktop)"
 msgid "KMines"
 msgstr "KMines"
 
-#: /usr/share/metainfo/org.kde.kmines.appdata.xml:34
+#: /usr/share/metainfo/org.kde.kmines.appdata.xml:35
 msgctxt "Summary(org.kde.kmines.desktop)"
 msgid "Minesweeper-like Game"
 msgstr "Hra s minovým polem"
@@ -3002,7 +3344,7 @@ msgctxt "Name(org.kde.knavalbattle.desktop)"
 msgid "Naval Battle"
 msgstr "Námořní bitva"
 
-#: /usr/share/metainfo/org.kde.knavalbattle.appdata.xml:33
+#: /usr/share/metainfo/org.kde.knavalbattle.appdata.xml:34
 msgctxt "Summary(org.kde.knavalbattle.desktop)"
 msgid "Battle Ship Game"
 msgstr "Hra na lodě"
@@ -3022,7 +3364,7 @@ msgctxt "Name(org.kde.kolf.desktop)"
 msgid "Kolf"
 msgstr "Kolf"
 
-#: /usr/share/metainfo/org.kde.kolf.appdata.xml:28
+#: /usr/share/metainfo/org.kde.kolf.appdata.xml:29
 msgctxt "Summary(org.kde.kolf.desktop)"
 msgid "Miniature Golf"
 msgstr "Miniaturní golf"
@@ -3032,7 +3374,7 @@ msgctxt "Name(org.kde.kollision.desktop)"
 msgid "Kollision"
 msgstr "Kollision"
 
-#: /usr/share/metainfo/org.kde.kollision.appdata.xml:38
+#: /usr/share/metainfo/org.kde.kollision.appdata.xml:39
 msgctxt "Summary(org.kde.kollision.desktop)"
 msgid "Casual ball game"
 msgstr ""
@@ -3075,7 +3417,7 @@ msgctxt "Name(org.kde.konquest.desktop)"
 msgid "Konquest"
 msgstr "Konqueror"
 
-#: /usr/share/metainfo/org.kde.konquest.appdata.xml:33
+#: /usr/share/metainfo/org.kde.konquest.appdata.xml:34
 msgctxt "Summary(org.kde.konquest.desktop)"
 msgid "Galactic Strategy Game"
 msgstr "Strategická galaktická hra"
@@ -3126,12 +3468,22 @@ msgctxt "Summary(org.kde.korganizer.desktop)"
 msgid "KOrganizer is a calendar and scheduling application"
 msgstr "KOrganizer je aplikace kalendáře a plánovacích komponent"
 
+#: /usr/share/metainfo/org.kde.kphotoalbum.appdata.xml:6
+msgctxt "Name(org.kde.kphotoalbum.desktop)"
+msgid "KPhotoAlbum"
+msgstr "KPhotoAlbum"
+
+#: /usr/share/metainfo/org.kde.kphotoalbum.appdata.xml:27
+msgctxt "Summary(org.kde.kphotoalbum.desktop)"
+msgid "KDE image management software"
+msgstr ""
+
 #: /usr/share/appdata/krb5-auth-dialog.appdata.xml:5
 msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication Dialog"
 msgstr "Dialogové okno autentizace Kerberos"
 
-#: /usr/share/appdata/krb5-auth-dialog.appdata.xml:16
+#: /usr/share/appdata/krb5-auth-dialog.appdata.xml:17
 msgctxt "Summary(krb5-auth-dialog.desktop)"
 msgid "Request, renew and view Kerberos tickets"
 msgstr "Žádosti o tikety Kerberos a jejich obnovení a zobrazení"
@@ -3151,7 +3503,7 @@ msgctxt "Name(org.kde.kreversi.desktop)"
 msgid "KReversi"
 msgstr "KReversi"
 
-#: /usr/share/metainfo/org.kde.kreversi.appdata.xml:32
+#: /usr/share/metainfo/org.kde.kreversi.appdata.xml:33
 #, fuzzy
 #| msgctxt "Summary(org.kde.kanagram.desktop)"
 #| msgid "Letter Order Game"
@@ -3174,7 +3526,7 @@ msgctxt "Name(org.kde.krita.desktop)"
 msgid "Krita"
 msgstr "Krita"
 
-#: /usr/share/metainfo/org.kde.krita.appdata.xml:25
+#: /usr/share/metainfo/org.kde.krita.appdata.xml:26
 msgctxt "Summary(org.kde.krita.desktop)"
 msgid "Digital Painting, Creative Freedom"
 msgstr "Digitální malování, svoboda tvorby"
@@ -3224,7 +3576,7 @@ msgctxt "Name(org.kde.ksirk.desktop)"
 msgid "KSirk"
 msgstr "KSirk"
 
-#: /usr/share/metainfo/org.kde.ksirk.appdata.xml:29
+#: /usr/share/metainfo/org.kde.ksirk.appdata.xml:30
 msgctxt "Summary(org.kde.ksirk.desktop)"
 msgid "World Domination Strategy Game"
 msgstr "Strategická hra o světovou nadvládu"
@@ -3234,7 +3586,7 @@ msgctxt "Name(org.kde.ksnakeduel.desktop)"
 msgid "KSnakeDuel"
 msgstr "KSnakeDuel"
 
-#: /usr/share/metainfo/org.kde.ksnakeduel.appdata.xml:33
+#: /usr/share/metainfo/org.kde.ksnakeduel.appdata.xml:34
 #, fuzzy
 #| msgctxt "Summary(org.kde.katomic.desktop)"
 #| msgid "Sokoban-like Logic Game"
@@ -3247,7 +3599,7 @@ msgctxt "Name(org.kde.kspaceduel.desktop)"
 msgid "KSpaceDuel"
 msgstr "KSpaceDuel"
 
-#: /usr/share/metainfo/org.kde.kspaceduel.appdata.xml:33
+#: /usr/share/metainfo/org.kde.kspaceduel.appdata.xml:34
 #, fuzzy
 #| msgctxt "Summary(org.kde.bomber.desktop)"
 #| msgid "Arcade Bombing Game"
@@ -3260,7 +3612,7 @@ msgctxt "Name(org.kde.ksquares.desktop)"
 msgid "KSquares"
 msgstr "KSquares"
 
-#: /usr/share/metainfo/org.kde.ksquares.appdata.xml:34
+#: /usr/share/metainfo/org.kde.ksquares.appdata.xml:35
 msgctxt "Summary(org.kde.ksquares.desktop)"
 msgid "Connect the dots to create squares"
 msgstr "Spojte tečky a vytvořte čtverce"
@@ -3280,7 +3632,7 @@ msgctxt "Name(org.kde.ksudoku.desktop)"
 msgid "KSudoku"
 msgstr "KSudoku"
 
-#: /usr/share/metainfo/org.kde.ksudoku.appdata.xml:38
+#: /usr/share/metainfo/org.kde.ksudoku.appdata.xml:39
 msgctxt "Summary(org.kde.ksudoku.desktop)"
 msgid "Complete a numeric puzzle with the numbers from one to nine"
 msgstr "Vyplňte číselné puzzle čísly od jedné do devíti"
@@ -3330,10 +3682,20 @@ msgctxt "Name(org.kde.kubrick.desktop)"
 msgid "Kubrick"
 msgstr "Kubrick"
 
-#: /usr/share/metainfo/org.kde.kubrick.appdata.xml:32
+#: /usr/share/metainfo/org.kde.kubrick.appdata.xml:33
 msgctxt "Summary(org.kde.kubrick.desktop)"
 msgid "3-D Game based on Rubik's Cube"
 msgstr "3D hra založená na rubikově kostce"
+
+#: /usr/share/metainfo/br.com.kurso.kurso.appdata.xml:6
+msgctxt "Name(br.com.kurso)"
+msgid "Kurso de Esperanto"
+msgstr ""
+
+#: /usr/share/metainfo/br.com.kurso.kurso.appdata.xml:7
+msgctxt "Summary(br.com.kurso)"
+msgid "Multimedia application for teaching oneself Esperanto"
+msgstr ""
 
 #: /usr/share/metainfo/org.kde.kwave.appdata.xml:6
 msgctxt "Name(org.kde.kwave.desktop)"
@@ -3384,14 +3746,14 @@ msgctxt "Summary(org.gnome.latexila.desktop)"
 msgid "Integrated LaTeX environment"
 msgstr "Integrované prostředí LaTeX"
 
-#: /usr/share/metainfo/org.kde.latte.plasmoid.appdata.xml:4
-msgctxt "Name(org.kde.latte.plasmoid)"
-msgid "Latte Plasmoid"
+#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:5
+msgctxt "Name(org.kde.latte.shell)"
+msgid "Latte Shell"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.latte.plasmoid.appdata.xml:21
-msgctxt "Summary(org.kde.latte.plasmoid)"
-msgid "Plasmoid from the Latte Dock"
+#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:23
+msgctxt "Summary(org.kde.latte.shell)"
+msgid "Shell provided for the Latte Dock"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.latte-dock.appdata.xml:4
@@ -3417,24 +3779,14 @@ msgctxt "Summary(audoban.applet.separator)"
 msgid "For all your separation tasks"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:5
-msgctxt "Name(org.kde.latte.shell)"
-msgid "Latte Shell"
+#: /usr/share/metainfo/org.kde.latte.plasmoid.appdata.xml:4
+msgctxt "Name(org.kde.latte.plasmoid)"
+msgid "Latte Plasmoid"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:23
-msgctxt "Summary(org.kde.latte.shell)"
-msgid "Shell provided for the Latte Dock"
-msgstr ""
-
-#: /usr/share/appdata/writer.appdata.xml:6
-msgctxt "Name(writer.desktop)"
-msgid "LibreOffice Writer"
-msgstr ""
-
-#: /usr/share/appdata/writer.appdata.xml:7
-msgctxt "Summary(writer.desktop)"
-msgid "Word processor part of the LibreOffice productivity suite"
+#: /usr/share/metainfo/org.kde.latte.plasmoid.appdata.xml:21
+msgctxt "Summary(org.kde.latte.plasmoid)"
+msgid "Plasmoid from the Latte Dock"
 msgstr ""
 
 #: /usr/share/appdata/draw.appdata.xml:6
@@ -3447,14 +3799,34 @@ msgctxt "Summary(draw.desktop)"
 msgid "Graphics editor part of the LibreOffice productivity suite"
 msgstr ""
 
-#: /usr/share/appdata/base.appdata.xml:6
-msgctxt "Name(base.desktop)"
-msgid "LibreOffice Base"
+#: /usr/share/appdata/impress.appdata.xml:6
+msgctxt "Name(impress.desktop)"
+msgid "LibreOffice Impress"
 msgstr ""
 
-#: /usr/share/appdata/base.appdata.xml:7
-msgctxt "Summary(base.desktop)"
-msgid "Database manager part of the LibreOffice productivity suite"
+#: /usr/share/appdata/impress.appdata.xml:7
+msgctxt "Summary(impress.desktop)"
+msgid "Presentation program of the LibreOffice productivity suite"
+msgstr ""
+
+#: /usr/share/appdata/calc.appdata.xml:6
+msgctxt "Name(calc.desktop)"
+msgid "LibreOffice Calc"
+msgstr ""
+
+#: /usr/share/appdata/calc.appdata.xml:7
+msgctxt "Summary(calc.desktop)"
+msgid "Spreadsheet program of the LibreOffice productivity suite"
+msgstr ""
+
+#: /usr/share/appdata/writer.appdata.xml:6
+msgctxt "Name(writer.desktop)"
+msgid "LibreOffice Writer"
+msgstr ""
+
+#: /usr/share/appdata/writer.appdata.xml:7
+msgctxt "Summary(writer.desktop)"
+msgid "Word processor part of the LibreOffice productivity suite"
 msgstr ""
 
 #: /usr/share/appdata/org.libreoffice.kde.metainfo.xml:13
@@ -3468,24 +3840,14 @@ msgid ""
 "Improves LibreOffice integration within the KDE Plasma desktop environment"
 msgstr ""
 
-#: /usr/share/appdata/calc.appdata.xml:6
-msgctxt "Name(calc.desktop)"
-msgid "LibreOffice Calc"
+#: /usr/share/appdata/base.appdata.xml:6
+msgctxt "Name(base.desktop)"
+msgid "LibreOffice Base"
 msgstr ""
 
-#: /usr/share/appdata/calc.appdata.xml:7
-msgctxt "Summary(calc.desktop)"
-msgid "Spreadsheet program of the LibreOffice productivity suite"
-msgstr ""
-
-#: /usr/share/appdata/impress.appdata.xml:6
-msgctxt "Name(impress.desktop)"
-msgid "LibreOffice Impress"
-msgstr ""
-
-#: /usr/share/appdata/impress.appdata.xml:7
-msgctxt "Summary(impress.desktop)"
-msgid "Presentation program of the LibreOffice productivity suite"
+#: /usr/share/appdata/base.appdata.xml:7
+msgctxt "Summary(base.desktop)"
+msgid "Database manager part of the LibreOffice productivity suite"
 msgstr ""
 
 #: /usr/share/appdata/liferea.appdata.xml:5
@@ -3531,16 +3893,16 @@ msgctxt "Summary(org.kde.lokalize.desktop)"
 msgid "Computer-aided translation system"
 msgstr "Systém pro překlad pomocí počítače"
 
-#: /usr/share/metainfo/org.gnome.Lollypop.appdata.xml:6
-msgctxt "Name(org.gnome.Lollypop.desktop)"
+#: /usr/share/metainfo/org.gnome.Lollypop.appdata.xml:7
+msgctxt "Name(org.gnome.Lollypop)"
 msgid "Lollypop"
 msgstr ""
 
-#: /usr/share/metainfo/org.gnome.Lollypop.appdata.xml:9
+#: /usr/share/metainfo/org.gnome.Lollypop.appdata.xml:19
 #, fuzzy
 #| msgctxt "Summary(gnome-music.desktop)"
 #| msgid "Play and organize your music collection"
-msgctxt "Summary(org.gnome.Lollypop.desktop)"
+msgctxt "Summary(org.gnome.Lollypop)"
 msgid "Play and organize your music collection"
 msgstr "Přehrávat a organizovat svou hudební sbírku"
 
@@ -3549,7 +3911,7 @@ msgctxt "Name(org.kde.lskat.desktop)"
 msgid "LSkat"
 msgstr "LSkat"
 
-#: /usr/share/metainfo/org.kde.lskat.appdata.xml:31
+#: /usr/share/metainfo/org.kde.lskat.appdata.xml:32
 msgctxt "Summary(org.kde.lskat.desktop)"
 msgid "Card Game"
 msgstr "Karetní hra"
@@ -3564,16 +3926,6 @@ msgctxt "Summary(lugaru.desktop)"
 msgid "Third person ninja rabbit fighting game"
 msgstr ""
 
-#: /usr/share/appdata/mame.appdata.xml:6
-msgctxt "Name(mame.desktop)"
-msgid "MAME"
-msgstr ""
-
-#: /usr/share/appdata/mame.appdata.xml:7
-msgctxt "Summary(mame.desktop)"
-msgid "Multiple Arcade Machine Emulator"
-msgstr ""
-
 #: /usr/share/appdata/mame-mess.appdata.xml:6
 msgctxt "Name(mame-mess.desktop)"
 msgid "MAME-MESS"
@@ -3581,6 +3933,16 @@ msgstr ""
 
 #: /usr/share/appdata/mame-mess.appdata.xml:7
 msgctxt "Summary(mame-mess.desktop)"
+msgid "Multiple Arcade Machine Emulator"
+msgstr ""
+
+#: /usr/share/appdata/mame.appdata.xml:6
+msgctxt "Name(mame.desktop)"
+msgid "MAME"
+msgstr ""
+
+#: /usr/share/appdata/mame.appdata.xml:7
+msgctxt "Summary(mame.desktop)"
 msgid "Multiple Arcade Machine Emulator"
 msgstr ""
 
@@ -3660,16 +4022,16 @@ msgctxt "Summary(mate-terminal.desktop)"
 msgid "A terminal emulator for the MATE desktop environment"
 msgstr "Emulátor terminálu pro prostředí plochy MATE"
 
-#: /usr/share/appdata/mate-screenshot.appdata.xml:6
+#: /usr/share/appdata/mate-search-tool.appdata.xml:6
 #, fuzzy
-msgctxt "Name(mate-screenshot.desktop)"
-msgid "MATE Screenshot"
-msgstr "Snímek obrazovky"
+msgctxt "Name(mate-search-tool.desktop)"
+msgid "MATE Search Tool"
+msgstr "Vylaďovací nástroj GNOME"
 
-#: /usr/share/appdata/mate-screenshot.appdata.xml:7
-msgctxt "Summary(mate-screenshot.desktop)"
-msgid "A screenshot utility for MATE Desktop"
-msgstr "Zachycení snímku obrazovky pro MATE"
+#: /usr/share/appdata/mate-search-tool.appdata.xml:7
+msgctxt "Summary(mate-search-tool.desktop)"
+msgid "A file searching tool for MATE Desktop"
+msgstr "Vyhledávání souborů pro MATE"
 
 #: /usr/share/appdata/mate-disk-usage-analyzer.appdata.xml:6
 msgctxt "Name(mate-disk-usage-analyzer.desktop)"
@@ -3681,16 +4043,16 @@ msgctxt "Summary(mate-disk-usage-analyzer.desktop)"
 msgid "A disk usage analyzing tool for MATE Desktop"
 msgstr "Nástroj pro zobrazení využití místa na disku"
 
-#: /usr/share/appdata/mate-search-tool.appdata.xml:6
+#: /usr/share/appdata/mate-screenshot.appdata.xml:6
 #, fuzzy
-msgctxt "Name(mate-search-tool.desktop)"
-msgid "MATE Search Tool"
-msgstr "Vylaďovací nástroj GNOME"
+msgctxt "Name(mate-screenshot.desktop)"
+msgid "MATE Screenshot"
+msgstr "Snímek obrazovky"
 
-#: /usr/share/appdata/mate-search-tool.appdata.xml:7
-msgctxt "Summary(mate-search-tool.desktop)"
-msgid "A file searching tool for MATE Desktop"
-msgstr "Vyhledávání souborů pro MATE"
+#: /usr/share/appdata/mate-screenshot.appdata.xml:7
+msgctxt "Summary(mate-screenshot.desktop)"
+msgid "A screenshot utility for MATE Desktop"
+msgstr "Zachycení snímku obrazovky pro MATE"
 
 #: /usr/share/appdata/mate-dictionary.appdata.xml:6
 #, fuzzy
@@ -3715,6 +4077,18 @@ msgstr "Kalendář"
 msgctxt "Summary(org.pantheon.maya.desktop)"
 msgid "View and schedule events"
 msgstr "Prohlížet a plánovat události"
+
+#: /usr/share/metainfo/mediainfo-gui.metainfo.xml:7
+msgctxt "Name(mediainfo-gui.desktop)"
+msgid "MediaInfo"
+msgstr ""
+
+#: /usr/share/metainfo/mediainfo-gui.metainfo.xml:8
+msgctxt "Summary(mediainfo-gui.desktop)"
+msgid ""
+"Convenient unified display of the most relevant technical and tag data for "
+"video and audio files"
+msgstr ""
 
 #: /usr/share/appdata/meld.appdata.xml:6
 msgctxt "Name(meld.desktop)"
@@ -3849,7 +4223,7 @@ msgctxt "Name(org.gnome.Nautilus.desktop)"
 msgid "Nautilus"
 msgstr "Nautilus"
 
-#: /usr/share/appdata/org.gnome.Nautilus.appdata.xml:96
+#: /usr/share/appdata/org.gnome.Nautilus.appdata.xml:98
 msgctxt "Summary(org.gnome.Nautilus.desktop)"
 msgid "Access and organize files"
 msgstr "Přístup k souborům a jejich správa"
@@ -3863,6 +4237,14 @@ msgstr "Hudba"
 msgctxt "Summary(org.pantheon.noise.desktop)"
 msgid "The official elementary music player"
 msgstr ""
+
+#: /usr/share/metainfo/nomacs.appdata.xml:12
+#, fuzzy
+#| msgctxt "Summary(eog.desktop)"
+#| msgid "Browse and rotate images"
+msgctxt "Summary(nomacs.desktop)"
+msgid "View and edit images"
+msgstr "Procházení a otáčení obrázků"
 
 #: /usr/share/appdata/com.github.lainsce.notejot.appdata.xml:6
 #, fuzzy
@@ -3920,45 +4302,15 @@ msgctxt "Summary(org.kde.okteta.desktop)"
 msgid "Hex editor"
 msgstr "Hexa editor"
 
-#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:7
-msgctxt "Name(org.kde.okular-xps)"
-msgid "XPS"
-msgstr "XPS"
+#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:7
+msgctxt "Name(org.kde.okular-chm)"
+msgid "CHM Documents"
+msgstr "Dokumenty CHM"
 
-#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-xps)"
-msgid "Adds support for reading XPS documents"
-msgstr "Přidává podporu pro čtení dokumentů XPS"
-
-#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:7
-msgctxt "Name(org.kde.okular-spectre)"
-msgid "PostScript"
-msgstr "PostScript"
-
-#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:42
-msgctxt "Summary(org.kde.okular-spectre)"
-msgid "Adds support for reading PostScript documents"
-msgstr "Přidává podporu pro čtení dokumentů PostScript"
-
-#: /usr/share/metainfo/org.kde.okular-epub.metainfo.xml:7
-msgctxt "Name(org.kde.okular-epub)"
-msgid "EPub"
-msgstr "EPub"
-
-#: /usr/share/metainfo/org.kde.okular-epub.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-epub)"
-msgid "Adds support for reading E-Books"
-msgstr "Přidává podporu pro čtení e-booků"
-
-#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:7
-msgctxt "Name(org.kde.okular-kimgio)"
-msgid "Images"
-msgstr "Obrázky"
-
-#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-kimgio)"
-msgid "Adds support for reading many image formats"
-msgstr "Přidává podporu pro čtení formátů obrázků"
+#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-chm)"
+msgid "Adds support for reading CHM documents"
+msgstr "Přidává podporu pro čtení dokumentů CHM"
 
 #: /usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml:7
 msgctxt "Name(org.kde.okular-comicbook)"
@@ -3980,6 +4332,16 @@ msgctxt "Summary(org.kde.okular-fax)"
 msgid "Adds support for reading Fax documents"
 msgstr "Přidává podporu pro čtení dokumentů faxu"
 
+#: /usr/share/metainfo/org.kde.okular-epub.metainfo.xml:7
+msgctxt "Name(org.kde.okular-epub)"
+msgid "EPub"
+msgstr "EPub"
+
+#: /usr/share/metainfo/org.kde.okular-epub.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-epub)"
+msgid "Adds support for reading E-Books"
+msgstr "Přidává podporu pro čtení e-booků"
+
 #: /usr/share/metainfo/org.kde.okular-dvi.metainfo.xml:7
 msgctxt "Name(org.kde.okular-dvi)"
 msgid "DVI Documents"
@@ -3989,6 +4351,99 @@ msgstr "Dokumenty DVI"
 msgctxt "Summary(org.kde.okular-dvi)"
 msgid "Adds support for reading DVI documents"
 msgstr "Přidává podporu pro čtení dokumentů DVI"
+
+#: /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml:7
+msgctxt "Name(org.kde.okular-djvu)"
+msgid "DjVu Documents"
+msgstr "Dokumenty DjVu"
+
+#: /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-djvu)"
+msgid "Adds support for reading DjVu documents"
+msgstr "Přidává podporu pro čtení dokumentů DjVu"
+
+#: /usr/share/metainfo/org.kde.okular-plucker.metainfo.xml:7
+msgctxt "Name(org.kde.okular-plucker)"
+msgid "Plucker"
+msgstr "Plucker"
+
+#: /usr/share/metainfo/org.kde.okular-plucker.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-plucker)"
+msgid "Adds support for reading Plucker documents"
+msgstr "Přidává podporu pro čtení dokumentů Plucker"
+
+#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:7
+msgctxt "Name(org.kde.okular-md)"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:35
+#, fuzzy
+#| msgctxt "Summary(org.kde.okular-fax)"
+#| msgid "Adds support for reading Fax documents"
+msgctxt "Summary(org.kde.okular-md)"
+msgid "Adds support for reading Markdown documents"
+msgstr "Přidává podporu pro čtení dokumentů faxu"
+
+#: /usr/share/metainfo/org.kde.okular.appdata.xml:6
+msgctxt "Name(org.kde.okular.desktop)"
+msgid "Okular"
+msgstr "Okular"
+
+#: /usr/share/metainfo/org.kde.okular.appdata.xml:39
+msgctxt "Summary(org.kde.okular.desktop)"
+msgid "Document Viewer"
+msgstr "Prohlížeč dokumentů"
+
+#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:7
+msgctxt "Name(org.kde.okular-spectre)"
+msgid "PostScript"
+msgstr "PostScript"
+
+#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:42
+msgctxt "Summary(org.kde.okular-spectre)"
+msgid "Adds support for reading PostScript documents"
+msgstr "Přidává podporu pro čtení dokumentů PostScript"
+
+#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:7
+msgctxt "Name(org.kde.okular-fb)"
+msgid "FictionBook"
+msgstr "FictionBook"
+
+#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-fb)"
+msgid "Adds support for reading FictionBooks"
+msgstr "Přidává podporu pro čtení formátu FictionBook"
+
+#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:7
+msgctxt "Name(org.kde.okular-kimgio)"
+msgid "Images"
+msgstr "Obrázky"
+
+#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-kimgio)"
+msgid "Adds support for reading many image formats"
+msgstr "Přidává podporu pro čtení formátů obrázků"
+
+#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:7
+msgctxt "Name(org.kde.okular-mobipocket)"
+msgid "Mobipocket"
+msgstr "Mobipocket"
+
+#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-mobipocket)"
+msgid "Adds support for reading Mobipocket E-books"
+msgstr "Přidává podporu pro čtení e-booků Mobipocket"
+
+#: /usr/share/metainfo/org.kde.okular-txt.metainfo.xml:7
+msgctxt "Name(org.kde.okular-txt)"
+msgid "Text"
+msgstr "Text"
+
+#: /usr/share/metainfo/org.kde.okular-txt.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-txt)"
+msgid "Adds support for reading plain text documents"
+msgstr "Přidává podporu pro čtení dokumentů v čistém textu"
 
 #: /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml:7
 msgctxt "Name(org.kde.okular-poppler)"
@@ -4010,85 +4465,25 @@ msgctxt "Summary(org.kde.okular-tiff)"
 msgid "Adds support for reading Tiff documents"
 msgstr "Přidává podporu pro čtení dokumentů Tiff"
 
-#: /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml:7
-msgctxt "Name(org.kde.okular-djvu)"
-msgid "DjVu Documents"
-msgstr "Dokumenty DjVu"
+#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:7
+msgctxt "Name(org.kde.okular-xps)"
+msgid "XPS"
+msgstr "XPS"
 
-#: /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-djvu)"
-msgid "Adds support for reading DjVu documents"
-msgstr "Přidává podporu pro čtení dokumentů DjVu"
+#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-xps)"
+msgid "Adds support for reading XPS documents"
+msgstr "Přidává podporu pro čtení dokumentů XPS"
 
 #: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:7
 msgctxt "Name(org.kde.okular-ooo)"
 msgid "OpenDocument"
 msgstr "OpenDocument"
 
-#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:40
+#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:41
 msgctxt "Summary(org.kde.okular-ooo)"
 msgid "Adds support for reading OpenDocument text files"
 msgstr "Přidává podporu pro čtení textových souborů OpenDocument"
-
-#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:7
-msgctxt "Name(org.kde.okular-fb)"
-msgid "FictionBook"
-msgstr "FictionBook"
-
-#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-fb)"
-msgid "Adds support for reading FictionBooks"
-msgstr "Přidává podporu pro čtení formátu FictionBook"
-
-#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:7
-msgctxt "Name(org.kde.okular-chm)"
-msgid "CHM Documents"
-msgstr "Dokumenty CHM"
-
-#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-chm)"
-msgid "Adds support for reading CHM documents"
-msgstr "Přidává podporu pro čtení dokumentů CHM"
-
-#: /usr/share/metainfo/org.kde.okular-txt.metainfo.xml:7
-msgctxt "Name(org.kde.okular-txt)"
-msgid "Text"
-msgstr "Text"
-
-#: /usr/share/metainfo/org.kde.okular-txt.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-txt)"
-msgid "Adds support for reading plain text documents"
-msgstr "Přidává podporu pro čtení dokumentů v čistém textu"
-
-#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:7
-msgctxt "Name(org.kde.okular-mobipocket)"
-msgid "Mobipocket"
-msgstr "Mobipocket"
-
-#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-mobipocket)"
-msgid "Adds support for reading Mobipocket E-books"
-msgstr "Přidává podporu pro čtení e-booků Mobipocket"
-
-#: /usr/share/metainfo/org.kde.okular-plucker.metainfo.xml:7
-msgctxt "Name(org.kde.okular-plucker)"
-msgid "Plucker"
-msgstr "Plucker"
-
-#: /usr/share/metainfo/org.kde.okular-plucker.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-plucker)"
-msgid "Adds support for reading Plucker documents"
-msgstr "Přidává podporu pro čtení dokumentů Plucker"
-
-#: /usr/share/metainfo/org.kde.okular.appdata.xml:6
-msgctxt "Name(org.kde.okular.desktop)"
-msgid "Okular"
-msgstr "Okular"
-
-#: /usr/share/metainfo/org.kde.okular.appdata.xml:39
-msgctxt "Summary(org.kde.okular.desktop)"
-msgid "Document Viewer"
-msgstr "Prohlížeč dokumentů"
 
 #: /usr/share/appdata/openclonk.appdata.xml:6
 msgctxt "Name(openclonk.desktop)"
@@ -4261,7 +4656,7 @@ msgctxt "Name(org.kde.picmi.desktop)"
 msgid "Picmi"
 msgstr "Picmi"
 
-#: /usr/share/metainfo/org.kde.picmi.appdata.xml:39
+#: /usr/share/metainfo/org.kde.picmi.appdata.xml:40
 msgctxt "Summary(org.kde.picmi.desktop)"
 msgid "Puzzle game based on number logic"
 msgstr "Hra puzzle založená na číselné logice"
@@ -4301,7 +4696,7 @@ msgctxt "Name(pitivi.desktop)"
 msgid "Pitivi"
 msgstr "Pitivi"
 
-#: /usr/share/appdata/pitivi.appdata.xml:27
+#: /usr/share/appdata/pitivi.appdata.xml:30
 #, fuzzy
 #| msgctxt "Summary(meld.desktop)"
 #| msgid "Compare and merge your files"
@@ -4334,33 +4729,30 @@ msgctxt "Name(org.kde.plasma.vault)"
 msgid "Vaults"
 msgstr "Sejfy"
 
-#: /usr/share/metainfo/org.kde.plasma.vault.appdata.xml:38
+#: /usr/share/metainfo/org.kde.plasma.vault.appdata.xml:39
 msgctxt "Summary(org.kde.plasma.vault)"
 msgid "Create encrypted vaults"
 msgstr "Vytvářejte šifrované sejfy"
 
-#: /usr/share/metainfo/org.kde.potd.appdata.xml:4
-msgctxt "Name(org.kde.potd)"
-msgid "Picture of the Day"
-msgstr "Obrázek dne"
+#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemloadviewer)"
+msgid "System Load Viewer"
+msgstr "Prohlížeč zátěže systému"
 
-#: /usr/share/metainfo/org.kde.potd.appdata.xml:56
-#, fuzzy
-#| msgctxt "Summary(org.kde.plasma.comic)"
-#| msgid "View comic strips from the Internet"
-msgctxt "Summary(org.kde.potd)"
-msgid "A new picture from the Internet each day"
-msgstr "Ukáže komiksový proužek z internetu"
+#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:59
+msgctxt "Summary(org.kde.plasma.systemloadviewer)"
+msgid "Tiny CPU/RAM/Swap monitor"
+msgstr "Malý monitor CPU/RAM/Swap"
 
-#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:4
-msgctxt "Name(org.kde.plasma.calculator)"
-msgid "Calculator"
-msgstr "Kalkulačka"
+#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:4
+msgctxt "Name(org.kde.plasma.quicklaunch)"
+msgid "Quicklaunch"
+msgstr "Rychlé spuštění"
 
-#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:62
-msgctxt "Summary(org.kde.plasma.calculator)"
-msgid "Calculate simple sums"
-msgstr "Jednoduché sčítání"
+#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.quicklaunch)"
+msgid "Launch your favourite Applications"
+msgstr "Spouštějte své oblíbené aplikace"
 
 #: /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml:4
 #, fuzzy
@@ -4388,6 +4780,36 @@ msgctxt "Summary(org.kde.plasma.weather)"
 msgid "Find out weather for today"
 msgstr "Zjistit počasí na dnešek"
 
+#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:4
+msgctxt "Name(org.kde.plasma.comic)"
+msgid "Comic Strip"
+msgstr "Komiksový proužek"
+
+#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:59
+msgctxt "Summary(org.kde.plasma.comic)"
+msgid "View comic strips from the Internet"
+msgstr "Ukáže komiksový proužek z internetu"
+
+#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:4
+msgctxt "Name(org.kde.plasma.grouping)"
+msgid "Grouping Plasmoid"
+msgstr "Seskupovací Plasmoid"
+
+#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:40
+msgctxt "Summary(org.kde.plasma.grouping)"
+msgid "Group Plasma widgets together"
+msgstr "Seskupit widgety Plasma dohromady"
+
+#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:4
+msgctxt "Name(org.kde.plasma.quickshare)"
+msgid "Quick Share"
+msgstr "Rychlé sdílení"
+
+#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.quickshare)"
+msgid "Paste text/images to a remote server"
+msgstr "Vložit text/obrázky na vzdálený server"
+
 #: /usr/share/metainfo/org.kde.hunyango.appdata.xml:4
 msgctxt "Name(org.kde.hunyango)"
 msgid "Hunyango"
@@ -4400,32 +4822,6 @@ msgstr "Hunyango"
 msgctxt "Summary(org.kde.hunyango)"
 msgid "Hunyango wallpaper"
 msgstr "Hunyango"
-
-#: /usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml:4
-#, fuzzy
-#| msgctxt "Name(org.kde.plasma.activitybar)"
-#| msgid "Activity Bar"
-msgctxt "Name(org.kde.plasma.activitypager)"
-msgid "Activity Pager"
-msgstr "Pruh aktivit"
-
-#: /usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml:42
-#, fuzzy
-#| msgctxt "Summary(org.kde.plasma.pager)"
-#| msgid "Switch between virtual desktops"
-msgctxt "Summary(org.kde.plasma.activitypager)"
-msgid "Switch between activities"
-msgstr "Přepínač mezi virtuálními plochami"
-
-#: /usr/share/metainfo/org.kde.haenau.appdata.xml:4
-msgctxt "Name(org.kde.haenau)"
-msgid "Haenau"
-msgstr "Haenau"
-
-#: /usr/share/metainfo/org.kde.haenau.appdata.xml:47
-msgctxt "Summary(org.kde.haenau)"
-msgid "Haenau wallpaper"
-msgstr "Tapeta Haenau"
 
 #: /usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml:4
 #, fuzzy
@@ -4440,85 +4836,60 @@ msgctxt "Summary(org.kde.plasma.konsoleprofiles)"
 msgid "List and launch Konsole profiles"
 msgstr "Seznam a spouštění profilů Konsole"
 
-#: /usr/share/metainfo/org.kde.plasma.notes.appdata.xml:4
-msgctxt "Name(org.kde.plasma.notes)"
-msgid "Notes"
-msgstr "Poznámky"
+#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma_applet_dict)"
+msgid "Dictionary"
+msgstr "Slovník GNOME"
 
-#: /usr/share/metainfo/org.kde.plasma.notes.appdata.xml:65
-msgctxt "Summary(org.kde.plasma.notes)"
-msgid "Desktop sticky notes"
-msgstr "Lepící poznámkové papírky na plochu"
+#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:64
+msgctxt "Summary(org.kde.plasma_applet_dict)"
+msgid ""
+"Look up the meaning of words and their translation into different languages"
+msgstr "Vyhledat význam slov a jejich překlad do různých jazyků"
 
-#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:4
-msgctxt "Name(org.kde.plasma.comic)"
-msgid "Comic Strip"
-msgstr "Komiksový proužek"
+#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:4
+msgctxt "Name(org.kde.plasma.colorpicker)"
+msgid "Color Picker"
+msgstr "Kapátko"
 
-#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:59
-msgctxt "Summary(org.kde.plasma.comic)"
-msgid "View comic strips from the Internet"
+#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:63
+msgctxt "Summary(org.kde.plasma.colorpicker)"
+msgid "Pick a color from the desktop"
+msgstr "Vzít barvu z plochy"
+
+#: /usr/share/metainfo/org.kde.potd.appdata.xml:4
+msgctxt "Name(org.kde.potd)"
+msgid "Picture of the Day"
+msgstr "Obrázek dne"
+
+#: /usr/share/metainfo/org.kde.potd.appdata.xml:56
+#, fuzzy
+#| msgctxt "Summary(org.kde.plasma.comic)"
+#| msgid "View comic strips from the Internet"
+msgctxt "Summary(org.kde.potd)"
+msgid "A new picture from the Internet each day"
 msgstr "Ukáže komiksový proužek z internetu"
 
-#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:4
-msgctxt "Name(org.kde.plasma.mediaframe)"
-msgid "Media frame"
-msgstr "Rámec médií"
+#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:4
+msgctxt "Name(org.kde.plasma.fuzzyclock)"
+msgid "Fuzzy Clock"
+msgstr "Nejasné hodiny"
 
-#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:42
-msgctxt "Summary(org.kde.plasma.mediaframe)"
-msgid "(Picture) Frame"
-msgstr "Rámeček (obrázku)"
+#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:59
+msgctxt "Summary(org.kde.plasma.fuzzyclock)"
+msgid "Time displayed in a less precise format"
+msgstr "Zobrazení času v nejasném formátu"
 
-#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemloadviewer)"
-msgid "System Load Viewer"
-msgstr "Prohlížeč zátěže systému"
+#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.showdesktop)"
+msgid "Show Desktop"
+msgstr "Zobrazit plochu"
 
-#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:59
-msgctxt "Summary(org.kde.plasma.systemloadviewer)"
-msgid "Tiny CPU/RAM/Swap monitor"
-msgstr "Malý monitor CPU/RAM/Swap"
-
-#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:4
-msgctxt "Name(org.kde.plasma.timer)"
-msgid "Timer"
-msgstr "Stopky"
-
-#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:61
-msgctxt "Summary(org.kde.plasma.timer)"
-msgid "Countdown over a specified time period"
-msgstr "Odpočítávání událostí"
-
-#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:4
-msgctxt "Name(org.kde.plasma.grouping)"
-msgid "Grouping Plasmoid"
-msgstr "Seskupovací Plasmoid"
-
-#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:40
-msgctxt "Summary(org.kde.plasma.grouping)"
-msgid "Group Plasma widgets together"
-msgstr "Seskupit widgety Plasma dohromady"
-
-#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:4
-msgctxt "Name(org.kde.plasma.quicklaunch)"
-msgid "Quicklaunch"
-msgstr "Rychlé spuštění"
-
-#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.quicklaunch)"
-msgid "Launch your favourite Applications"
-msgstr "Spouštějte své oblíbené aplikace"
-
-#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:4
-msgctxt "Name(org.kde.plasma.fifteenpuzzle)"
-msgid "Fifteen Puzzle"
-msgstr "Hra Patnáct"
-
-#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:59
-msgctxt "Summary(org.kde.plasma.fifteenpuzzle)"
-msgid "Put the pieces in order"
-msgstr "Zkuste dílky správně poskládat"
+#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:61
+msgctxt "Summary(org.kde.plasma.showdesktop)"
+msgid "Show the Plasma desktop"
+msgstr "Zobrazení plochy Plasmy"
 
 #: /usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml:4
 #, fuzzy
@@ -4536,35 +4907,61 @@ msgctxt "Summary(org.kde.plasma.kickerdash)"
 msgid "A fullscreen application launcher"
 msgstr "Spouštěč aplikací"
 
-#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:4
-msgctxt "Name(org.kde.plasma.webbrowser)"
-msgid "Web browser"
-msgstr "Webový prohlížeč"
+#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:4
+msgctxt "Name(org.kde.plasma.fifteenpuzzle)"
+msgid "Fifteen Puzzle"
+msgstr "Hra Patnáct"
 
-#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:44
-msgctxt "Summary(org.kde.plasma.webbrowser)"
-msgid "Add a webpage on your desktop"
-msgstr ""
+#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:59
+msgctxt "Summary(org.kde.plasma.fifteenpuzzle)"
+msgid "Put the pieces in order"
+msgstr "Zkuste dílky správně poskládat"
 
-#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:4
-msgctxt "Name(org.kde.plasma.colorpicker)"
-msgid "Color Picker"
-msgstr "Kapátko"
+#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:4
+msgctxt "Name(org.kde.plasma.mediaframe)"
+msgid "Media frame"
+msgstr "Rámec médií"
 
-#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:63
-msgctxt "Summary(org.kde.plasma.colorpicker)"
-msgid "Pick a color from the desktop"
-msgstr "Vzít barvu z plochy"
+#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:42
+msgctxt "Summary(org.kde.plasma.mediaframe)"
+msgid "(Picture) Frame"
+msgstr "Rámeček (obrázku)"
 
-#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:4
-msgctxt "Name(org.kde.plasma.fuzzyclock)"
-msgid "Fuzzy Clock"
-msgstr "Nejasné hodiny"
+#: /usr/share/metainfo/org.kde.plasma.notes.appdata.xml:4
+msgctxt "Name(org.kde.plasma.notes)"
+msgid "Notes"
+msgstr "Poznámky"
 
-#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:59
-msgctxt "Summary(org.kde.plasma.fuzzyclock)"
-msgid "Time displayed in a less precise format"
-msgstr "Zobrazení času v nejasném formátu"
+#: /usr/share/metainfo/org.kde.plasma.notes.appdata.xml:65
+msgctxt "Summary(org.kde.plasma.notes)"
+msgid "Desktop sticky notes"
+msgstr "Lepící poznámkové papírky na plochu"
+
+#: /usr/share/metainfo/org.kde.haenau.appdata.xml:4
+msgctxt "Name(org.kde.haenau)"
+msgid "Haenau"
+msgstr "Haenau"
+
+#: /usr/share/metainfo/org.kde.haenau.appdata.xml:47
+msgctxt "Summary(org.kde.haenau)"
+msgid "Haenau wallpaper"
+msgstr "Tapeta Haenau"
+
+#: /usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml:4
+#, fuzzy
+#| msgctxt "Name(org.kde.plasma.activitybar)"
+#| msgid "Activity Bar"
+msgctxt "Name(org.kde.plasma.activitypager)"
+msgid "Activity Pager"
+msgstr "Pruh aktivit"
+
+#: /usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml:42
+#, fuzzy
+#| msgctxt "Summary(org.kde.plasma.pager)"
+#| msgid "Switch between virtual desktops"
+msgctxt "Summary(org.kde.plasma.activitypager)"
+msgid "Switch between activities"
+msgstr "Přepínač mezi virtuálními plochami"
 
 #: /usr/share/metainfo/org.kde.plasma.userswitcher.appdata.xml:4
 msgctxt "Name(org.kde.plasma.userswitcher)"
@@ -4576,6 +4973,16 @@ msgctxt "Summary(org.kde.plasma.userswitcher)"
 msgid "Quickly switch between different users"
 msgstr ""
 
+#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:4
+msgctxt "Name(org.kde.plasma.calculator)"
+msgid "Calculator"
+msgstr "Kalkulačka"
+
+#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:62
+msgctxt "Summary(org.kde.plasma.calculator)"
+msgid "Calculate simple sums"
+msgstr "Jednoduché sčítání"
+
 #: /usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml:4
 msgctxt "Name(org.kde.plasma.minimizeall)"
 msgid "Minimize all Windows"
@@ -4586,27 +4993,15 @@ msgctxt "Summary(org.kde.plasma.minimizeall)"
 msgid "Shows the desktop by minimizing all windows"
 msgstr "Zobrazit plochu minimalizací všech oken"
 
-#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma_applet_dict)"
-msgid "Dictionary"
-msgstr "Slovník GNOME"
+#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:4
+msgctxt "Name(org.kde.plasma.timer)"
+msgid "Timer"
+msgstr "Stopky"
 
-#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:64
-msgctxt "Summary(org.kde.plasma_applet_dict)"
-msgid ""
-"Look up the meaning of words and their translation into different languages"
-msgstr "Vyhledat význam slov a jejich překlad do různých jazyků"
-
-#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.showdesktop)"
-msgid "Show Desktop"
-msgstr "Zobrazit plochu"
-
-#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:61
-msgctxt "Summary(org.kde.plasma.showdesktop)"
-msgid "Show the Plasma desktop"
-msgstr "Zobrazení plochy Plasmy"
+#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:61
+msgctxt "Summary(org.kde.plasma.timer)"
+msgid "Countdown over a specified time period"
+msgstr "Odpočítávání událostí"
 
 #: /usr/share/metainfo/org.kde.plasma.diskquota.appdata.xml:4
 msgctxt "Name(org.kde.plasma.diskquota)"
@@ -4618,25 +5013,15 @@ msgctxt "Summary(org.kde.plasma.diskquota)"
 msgid "Shows details about disk quota"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:4
-msgctxt "Name(org.kde.plasma.quickshare)"
-msgid "Quick Share"
-msgstr "Rychlé sdílení"
+#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:4
+msgctxt "Name(org.kde.plasma.webbrowser)"
+msgid "Web browser"
+msgstr "Webový prohlížeč"
 
-#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:46
-msgctxt "Summary(org.kde.plasma.quickshare)"
-msgid "Paste text/images to a remote server"
-msgstr "Vložit text/obrázky na vzdálený server"
-
-#: /usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml:4
-msgctxt "Name(org.kde.plasma.showActivityManager)"
-msgid "Activities"
-msgstr "Aktivity"
-
-#: /usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml:62
-msgctxt "Summary(org.kde.plasma.showActivityManager)"
-msgid "Shows the activity manager"
-msgstr "Zobrazí správce aktivit"
+#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:44
+msgctxt "Summary(org.kde.plasma.webbrowser)"
+msgid "Add a webpage on your desktop"
+msgstr ""
 
 #: /usr/share/metainfo/org.kde.paneltoolbox.appdata.xml:4
 msgctxt "Name(org.kde.paneltoolbox)"
@@ -4648,37 +5033,6 @@ msgctxt "Summary(org.kde.paneltoolbox)"
 msgid "Manage Plasma panel"
 msgstr "Spravovat panel Plasmy"
 
-#: /usr/share/metainfo/org.kde.plasma.kicker.appdata.xml:4
-msgctxt "Name(org.kde.plasma.kicker)"
-msgid "Application Menu"
-msgstr "Nabídka aplikací"
-
-#: /usr/share/metainfo/org.kde.plasma.kicker.appdata.xml:53
-msgctxt "Summary(org.kde.plasma.kicker)"
-msgid "A launcher based on cascading popup menus"
-msgstr "Spouštěč založený na vyskakovacích nabídkách v kaskádě"
-
-#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:4
-msgctxt "Name(org.kde.plasma.trash)"
-msgid "Trashcan"
-msgstr "Koš"
-
-#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:83
-#, fuzzy
-msgctxt "Summary(org.kde.plasma.trash)"
-msgid "Provides access to the files sent to trash"
-msgstr "Poskytuje přístup k historii schránky"
-
-#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.kimpanel)"
-msgid "Input Method Panel"
-msgstr "Panel vstupních metod"
-
-#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:44
-msgctxt "Summary(org.kde.plasma.kimpanel)"
-msgid "A generic input method panel"
-msgstr "Obecný panel vstupních metod"
-
 #: /usr/share/metainfo/org.kde.plasma.taskmanager.appdata.xml:4
 msgctxt "Name(org.kde.plasma.taskmanager)"
 msgid "Task Manager"
@@ -4688,16 +5042,6 @@ msgstr "Správce úloh"
 msgctxt "Summary(org.kde.plasma.taskmanager)"
 msgid "Switch between running applications"
 msgstr "Přepínač mezi běžícími aplikacemi"
-
-#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:4
-msgctxt "Name(org.kde.plasma.kickoff)"
-msgid "Application Launcher"
-msgstr "Spouštěč aplikací"
-
-#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:89
-msgctxt "Summary(org.kde.plasma.kickoff)"
-msgid "Launcher to start applications"
-msgstr "Aplikace pro spouštění aplikací"
 
 #: /usr/share/metainfo/org.kde.plasma.pager.appdata.xml:4
 msgctxt "Name(org.kde.plasma.pager)"
@@ -4719,6 +5063,47 @@ msgctxt "Summary(org.kde.plasma.folder)"
 msgid "Display the contents of folders"
 msgstr "Zobrazit obsah složek"
 
+#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:4
+msgctxt "Name(org.kde.plasma.trash)"
+msgid "Trashcan"
+msgstr "Koš"
+
+#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:83
+#, fuzzy
+msgctxt "Summary(org.kde.plasma.trash)"
+msgid "Provides access to the files sent to trash"
+msgstr "Poskytuje přístup k historii schránky"
+
+#: /usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml:4
+msgctxt "Name(org.kde.plasma.showActivityManager)"
+msgid "Activities"
+msgstr "Aktivity"
+
+#: /usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml:62
+msgctxt "Summary(org.kde.plasma.showActivityManager)"
+msgid "Shows the activity manager"
+msgstr "Zobrazí správce aktivit"
+
+#: /usr/share/metainfo/org.kde.plasma.kicker.appdata.xml:4
+msgctxt "Name(org.kde.plasma.kicker)"
+msgid "Application Menu"
+msgstr "Nabídka aplikací"
+
+#: /usr/share/metainfo/org.kde.plasma.kicker.appdata.xml:53
+msgctxt "Summary(org.kde.plasma.kicker)"
+msgid "A launcher based on cascading popup menus"
+msgstr "Spouštěč založený na vyskakovacích nabídkách v kaskádě"
+
+#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.kimpanel)"
+msgid "Input Method Panel"
+msgstr "Panel vstupních metod"
+
+#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:44
+msgctxt "Summary(org.kde.plasma.kimpanel)"
+msgid "A generic input method panel"
+msgstr "Obecný panel vstupních metod"
+
 #: /usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml:4
 msgctxt "Name(org.kde.plasma.windowlist)"
 msgid "Window list"
@@ -4728,6 +5113,16 @@ msgstr "Seznam oken"
 msgctxt "Summary(org.kde.plasma.windowlist)"
 msgid "Plasmoid to show list of opened windows"
 msgstr "Zobrazit seznam otevřených oken"
+
+#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:4
+msgctxt "Name(org.kde.plasma.kickoff)"
+msgid "Application Launcher"
+msgstr "Spouštěč aplikací"
+
+#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:89
+msgctxt "Summary(org.kde.plasma.kickoff)"
+msgid "Launcher to start applications"
+msgstr "Aplikace pro spouštění aplikací"
 
 #: /usr/share/metainfo/org.kde.plasmashell.metainfo.xml:6
 #, fuzzy
@@ -4777,17 +5172,6 @@ msgctxt "Summary(org.kde.plasma.pkupdates)"
 msgid "Get software updates"
 msgstr "Získejte aktualizace software"
 
-#: /usr/share/metainfo/org.kde.cuttlefish.appdata.xml:6
-#, fuzzy
-msgctxt "Name(org.kde.cuttlefish.desktop)"
-msgid "Cuttlefish"
-msgstr "Cuttlefish"
-
-#: /usr/share/metainfo/org.kde.cuttlefish.appdata.xml:41
-msgctxt "Summary(org.kde.cuttlefish.desktop)"
-msgid "Icon Previewer for Artists and Developers"
-msgstr ""
-
 #: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:4
 msgctxt "Name(org.kde.plasmoidviewershell)"
 msgid "PlasmoidViewerShell"
@@ -4796,6 +5180,16 @@ msgstr ""
 #: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:38
 msgctxt "Summary(org.kde.plasmoidviewershell)"
 msgid "PlasmoidViewer Shell"
+msgstr ""
+
+#: /usr/share/metainfo/org.kde.plasma.lookandfeelexplorer.appdata.xml:4
+msgctxt "Name(org.kde.plasma.lookandfeelexplorer)"
+msgid "Plasma Look And Feel Explorer"
+msgstr "Prohlížeč vzhledu a chování Plasmy"
+
+#: /usr/share/metainfo/org.kde.plasma.lookandfeelexplorer.appdata.xml:39
+msgctxt "Summary(org.kde.plasma.lookandfeelexplorer)"
+msgid "Explore and edit your Plasma Look And Feel themes"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.plasma.themeexplorer.appdata.xml:4
@@ -4809,35 +5203,15 @@ msgctxt "Summary(org.kde.plasma.themeexplorer)"
 msgid "Explore and edit your Plasma themes"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.plasma.lookandfeelexplorer.appdata.xml:4
-msgctxt "Name(org.kde.plasma.lookandfeelexplorer)"
-msgid "Plasma Look And Feel Explorer"
-msgstr "Prohlížeč vzhledu a chování Plasmy"
+#: /usr/share/metainfo/org.kde.cuttlefish.appdata.xml:6
+#, fuzzy
+msgctxt "Name(org.kde.cuttlefish.desktop)"
+msgid "Cuttlefish"
+msgstr "Cuttlefish"
 
-#: /usr/share/metainfo/org.kde.plasma.lookandfeelexplorer.appdata.xml:39
-msgctxt "Summary(org.kde.plasma.lookandfeelexplorer)"
-msgid "Explore and edit your Plasma Look And Feel themes"
-msgstr ""
-
-#: /usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemtray)"
-msgid "System Tray"
-msgstr "Systémová část panelu"
-
-#: /usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml:91
-msgctxt "Summary(org.kde.plasma.systemtray)"
-msgid "Access hidden applications minimized in the system tray"
-msgstr ""
-"Přístup ke skrytým aplikacím, které jsou minimalizované v systémové oblasti"
-
-#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:4
-msgctxt "Name(org.kde.plasma.appmenu)"
-msgid "Global Menu"
-msgstr "Nabídka aplikací"
-
-#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:42
-msgctxt "Summary(org.kde.plasma.appmenu)"
-msgid "Global menubar on top of the screen"
+#: /usr/share/metainfo/org.kde.cuttlefish.appdata.xml:41
+msgctxt "Summary(org.kde.cuttlefish.desktop)"
+msgid "Icon Previewer for Artists and Developers"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml:4
@@ -4850,48 +5224,38 @@ msgctxt "Summary(org.kde.plasma.activitybar)"
 msgid "Tab bar to switch activities"
 msgstr "Lišta pro přepínání aktivit"
 
-#: /usr/share/metainfo/org.kde.image.appdata.xml:4
-msgctxt "Name(org.kde.image)"
-msgid "Image"
-msgstr "Obrázek"
+#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:4
+msgctxt "Name(org.kde.plasma.lock_logout)"
+msgid "Lock/Logout"
+msgstr "Odhlášení/uzamčení"
 
-#: /usr/share/metainfo/org.kde.image.appdata.xml:82
-msgctxt "Summary(org.kde.image)"
-msgid "Wallpaper view for images"
-msgstr ""
+#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:86
+msgctxt "Summary(org.kde.plasma.lock_logout)"
+msgid "Lock the screen or log out"
+msgstr "Uzamknout obrazovku nebo se odhlásit"
 
-#: /usr/share/metainfo/org.kde.color.appdata.xml:4
-msgctxt "Name(org.kde.color)"
-msgid "Plain Color"
-msgstr "Prostá barva"
+#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:4
+msgctxt "Name(org.kde.slideshow)"
+msgid "Slideshow"
+msgstr "Promítání"
 
-#: /usr/share/metainfo/org.kde.color.appdata.xml:52
+#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:79
 #, fuzzy
-#| msgctxt "Name(org.kde.color)"
-#| msgid "Plain Color"
-msgctxt "Summary(org.kde.color)"
-msgid "Plain color wallpaper"
-msgstr "Prostá barva"
+#| msgctxt "Name(org.kde.slideshow)"
+#| msgid "Slideshow"
+msgctxt "Summary(org.kde.slideshow)"
+msgid "Slideshow wallpaper"
+msgstr "Promítání"
 
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.cpu)"
-msgid "CPU Load Monitor"
-msgstr "Monitor zatížení CPU"
+#: /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml:4
+msgctxt "Name(org.kde.plasma.mediacontroller)"
+msgid "Media Player"
+msgstr "Přehrávač médií"
 
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:45
-msgctxt "Summary(org.kde.plasma.systemmonitor.cpu)"
-msgid "Monitor the load of the CPUs"
-msgstr "Monitorovat zatížení procesor(ů)"
-
-#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:4
-msgctxt "Name(org.kde.plasma.devicenotifier)"
-msgid "Device Notifier"
-msgstr "Upozornění na zařízení"
-
-#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:80
-msgctxt "Summary(org.kde.plasma.devicenotifier)"
-msgid "Notifications and access for new devices"
-msgstr "Upozorňování a přístup k novým zařízením"
+#: /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml:50
+msgctxt "Summary(org.kde.plasma.mediacontroller)"
+msgid "Media Player Controls"
+msgstr "Ovládání přehrávače médií"
 
 #: /usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml:4
 msgctxt "Name(org.kde.plasma.analogclock)"
@@ -4913,38 +5277,15 @@ msgctxt "Summary(org.kde.plasma.notifications)"
 msgid "Display notifications and jobs"
 msgstr "Oznámení a úlohy"
 
-#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:4
-msgctxt "Name(org.kde.slideshow)"
-msgid "Slideshow"
-msgstr "Promítání"
+#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:4
+msgctxt "Name(org.kde.plasma.appmenu)"
+msgid "Global Menu"
+msgstr "Nabídka aplikací"
 
-#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:79
-#, fuzzy
-#| msgctxt "Name(org.kde.slideshow)"
-#| msgid "Slideshow"
-msgctxt "Summary(org.kde.slideshow)"
-msgid "Slideshow wallpaper"
-msgstr "Promítání"
-
-#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:4
-msgctxt "Name(org.kde.plasma.battery)"
-msgid "Battery and Brightness"
-msgstr "Baterie a Jas"
-
-#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:45
-msgctxt "Summary(org.kde.plasma.battery)"
-msgid "See the power status of your battery"
-msgstr "Zobrazí stav nabití vaší baterie"
-
-#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:4
-msgctxt "Name(org.kde.plasma.lock_logout)"
-msgid "Lock/Logout"
-msgstr "Odhlášení/uzamčení"
-
-#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:86
-msgctxt "Summary(org.kde.plasma.lock_logout)"
-msgid "Lock the screen or log out"
-msgstr "Uzamknout obrazovku nebo se odhlásit"
+#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.appmenu)"
+msgid "Global menubar on top of the screen"
+msgstr ""
 
 #: /usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml:4
 msgctxt "Name(org.kde.plasma.systemmonitor.net)"
@@ -4956,6 +5297,57 @@ msgctxt "Summary(org.kde.plasma.systemmonitor.net)"
 msgid "A network usage monitor"
 msgstr "Monitor využití sítě"
 
+#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:4
+msgctxt "Name(org.kde.plasma.clipboard)"
+msgid "Clipboard"
+msgstr "Schránka"
+
+#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:49
+msgctxt "Summary(org.kde.plasma.clipboard)"
+msgid "Provides access to the clipboard history"
+msgstr "Poskytuje přístup k historii schránky"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.diskactivity)"
+msgid "Hard Disk I/O Monitor"
+msgstr "Monitor I/O pevného disku"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.systemmonitor.diskactivity)"
+msgid "An applet that monitors hard disk throughput and input/output"
+msgstr "Aplet, jenž monitoruje propustnost disku a vstup/výstup"
+
+#: /usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemtray)"
+msgid "System Tray"
+msgstr "Systémová část panelu"
+
+#: /usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml:91
+msgctxt "Summary(org.kde.plasma.systemtray)"
+msgid "Access hidden applications minimized in the system tray"
+msgstr ""
+"Přístup ke skrytým aplikacím, které jsou minimalizované v systémové oblasti"
+
+#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:4
+msgctxt "Name(org.kde.plasma.battery)"
+msgid "Battery and Brightness"
+msgstr "Baterie a Jas"
+
+#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.battery)"
+msgid "See the power status of your battery"
+msgstr "Zobrazí stav nabití vaší baterie"
+
+#: /usr/share/metainfo/org.kde.image.appdata.xml:4
+msgctxt "Name(org.kde.image)"
+msgid "Image"
+msgstr "Obrázek"
+
+#: /usr/share/metainfo/org.kde.image.appdata.xml:82
+msgctxt "Summary(org.kde.image)"
+msgid "Wallpaper view for images"
+msgstr ""
+
 #: /usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml:4
 msgctxt "Name(org.kde.plasma.digitalclock)"
 msgid "Digital Clock"
@@ -4966,45 +5358,15 @@ msgctxt "Summary(org.kde.plasma.digitalclock)"
 msgid "Time displayed in a digital format"
 msgstr "Čas zobrazený v digitální podobě"
 
-#: /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml:4
-msgctxt "Name(org.kde.plasma.mediacontroller)"
-msgid "Media Player"
-msgstr "Přehrávač médií"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.cpu)"
+msgid "CPU Load Monitor"
+msgstr "Monitor zatížení CPU"
 
-#: /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml:50
-msgctxt "Summary(org.kde.plasma.mediacontroller)"
-msgid "Media Player Controls"
-msgstr "Ovládání přehrávače médií"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.memory)"
-msgid "Memory Status"
-msgstr "Stav paměti"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:67
-msgctxt "Summary(org.kde.plasma.systemmonitor.memory)"
-msgid "A RAM usage monitor"
-msgstr "Monitor využití RAM"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.diskusage)"
-msgid "Hard Disk Space Usage"
-msgstr "Využití místa na pevném disku"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml:55
-msgctxt "Summary(org.kde.plasma.systemmonitor.diskusage)"
-msgid "An applet that monitors hard disk space usage and percentage"
-msgstr "Aplet, jenž monitoruje zaplnění místa na disku"
-
-#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:4
-msgctxt "Name(org.kde.plasma.clipboard)"
-msgid "Clipboard"
-msgstr "Schránka"
-
-#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:49
-msgctxt "Summary(org.kde.plasma.clipboard)"
-msgid "Provides access to the clipboard history"
-msgstr "Poskytuje přístup k historii schránky"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.systemmonitor.cpu)"
+msgid "Monitor the load of the CPUs"
+msgstr "Monitorovat zatížení procesor(ů)"
 
 #: /usr/share/metainfo/org.kde.plasma.calendar.appdata.xml:4
 msgctxt "Name(org.kde.plasma.calendar)"
@@ -5016,15 +5378,48 @@ msgctxt "Summary(org.kde.plasma.calendar)"
 msgid "Month display with your appointments and events"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.diskactivity)"
-msgid "Hard Disk I/O Monitor"
-msgstr "Monitor I/O pevného disku"
+#: /usr/share/metainfo/org.kde.color.appdata.xml:4
+msgctxt "Name(org.kde.color)"
+msgid "Plain Color"
+msgstr "Prostá barva"
 
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.systemmonitor.diskactivity)"
-msgid "An applet that monitors hard disk throughput and input/output"
-msgstr "Aplet, jenž monitoruje propustnost disku a vstup/výstup"
+#: /usr/share/metainfo/org.kde.color.appdata.xml:52
+#, fuzzy
+#| msgctxt "Name(org.kde.color)"
+#| msgid "Plain Color"
+msgctxt "Summary(org.kde.color)"
+msgid "Plain color wallpaper"
+msgstr "Prostá barva"
+
+#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:4
+msgctxt "Name(org.kde.plasma.devicenotifier)"
+msgid "Device Notifier"
+msgstr "Upozornění na zařízení"
+
+#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:80
+msgctxt "Summary(org.kde.plasma.devicenotifier)"
+msgid "Notifications and access for new devices"
+msgstr "Upozorňování a přístup k novým zařízením"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.diskusage)"
+msgid "Hard Disk Space Usage"
+msgstr "Využití místa na pevném disku"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml:55
+msgctxt "Summary(org.kde.plasma.systemmonitor.diskusage)"
+msgid "An applet that monitors hard disk space usage and percentage"
+msgstr "Aplet, jenž monitoruje zaplnění místa na disku"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.memory)"
+msgid "Memory Status"
+msgstr "Stav paměti"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:67
+msgctxt "Summary(org.kde.plasma.systemmonitor.memory)"
+msgid "A RAM usage monitor"
+msgstr "Monitor využití RAM"
 
 #: /usr/share/metainfo/org.kde.activeWindowControl.appdata.xml:4
 msgctxt "Name(org.kde.activeWindowControl)"
@@ -5134,6 +5529,16 @@ msgstr ""
 #: /usr/share/metainfo/qsynth.appdata.xml:8
 msgctxt "Summary(qsynth.desktop)"
 msgid "A fluidsynth Qt GUI Interface"
+msgstr ""
+
+#: /usr/share/metainfo/qTox.appdata.xml:7
+msgctxt "Name(qtox.desktop)"
+msgid "qTox"
+msgstr ""
+
+#: /usr/share/metainfo/qTox.appdata.xml:8
+msgctxt "Summary(qtox.desktop)"
+msgid "Powerful Tox chat client that follows the Tox design guidelines."
 msgstr ""
 
 #: /usr/share/metainfo/qtractor.appdata.xml:7
@@ -5358,7 +5763,7 @@ msgctxt "Name(seahorse.desktop)"
 msgid "Seahorse"
 msgstr "Seahorse"
 
-#: /usr/share/appdata/seahorse.appdata.xml:39
+#: /usr/share/appdata/seahorse.appdata.xml:52
 msgctxt "Summary(seahorse.desktop)"
 msgid "Manage your passwords and encryption keys"
 msgstr "Spravujte svá hesla a šifrovací klíče"
@@ -5373,17 +5778,6 @@ msgctxt "Summary(seamonkey-composer.desktop)"
 msgid "Web Page Creation with the successor of the Mozilla Application Suite"
 msgstr ""
 
-#: /usr/share/appdata/seamonkey-mail.appdata.xml:5
-#, fuzzy
-msgctxt "Name(seamonkey-mail.desktop)"
-msgid "SeaMonkey Mail Client"
-msgstr "Poštovní klient pro IMAP"
-
-#: /usr/share/appdata/seamonkey-mail.appdata.xml:7
-msgctxt "Summary(seamonkey-mail.desktop)"
-msgid "Mail component of the successor to the Mozilla Application Suite"
-msgstr ""
-
 #: /usr/share/appdata/seamonkey.appdata.xml:5
 #, fuzzy
 msgctxt "Name(seamonkey.desktop)"
@@ -5393,6 +5787,17 @@ msgstr "Správce souborů & prohlížeč Webu pro prostředí KDE"
 #: /usr/share/appdata/seamonkey.appdata.xml:7
 msgctxt "Summary(seamonkey.desktop)"
 msgid "Web Browser component of the successor to the Mozilla Application Suite"
+msgstr ""
+
+#: /usr/share/appdata/seamonkey-mail.appdata.xml:5
+#, fuzzy
+msgctxt "Name(seamonkey-mail.desktop)"
+msgid "SeaMonkey Mail Client"
+msgstr "Poštovní klient pro IMAP"
+
+#: /usr/share/appdata/seamonkey-mail.appdata.xml:7
+msgctxt "Summary(seamonkey-mail.desktop)"
+msgid "Mail component of the successor to the Mozilla Application Suite"
 msgstr ""
 
 #: /usr/share/metainfo/shotwell.appdata.xml:8
@@ -5442,12 +5847,18 @@ msgid "A feature-rich screen recorder that supports X11 and OpenGL"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.skanlite.appdata.xml:6
-msgctxt "Name(org.kde.scanlite.desktop)"
+#, fuzzy
+#| msgctxt "Name(org.kde.scanlite.desktop)"
+#| msgid "Skanlite"
+msgctxt "Name(org.kde.skanlite.desktop)"
 msgid "Skanlite"
 msgstr "Skanlite"
 
-#: /usr/share/metainfo/org.kde.skanlite.appdata.xml:22
-msgctxt "Summary(org.kde.scanlite.desktop)"
+#: /usr/share/metainfo/org.kde.skanlite.appdata.xml:30
+#, fuzzy
+#| msgctxt "Summary(org.kde.scanlite.desktop)"
+#| msgid "Image Scanning Application"
+msgctxt "Summary(org.kde.skanlite.desktop)"
 msgid "Image Scanning Application"
 msgstr "Aplikace pro skenování obrázků"
 
@@ -5657,6 +6068,16 @@ msgctxt "Summary(tali.desktop)"
 msgid "Roll dice and score points"
 msgstr "Vrhněte kostky a získejte za to body"
 
+#: /usr/share/metainfo/org.semiletov.tea.appdata.xml:7
+msgctxt "Name(org.semiletov.tea)"
+msgid "TEA"
+msgstr ""
+
+#: /usr/share/metainfo/org.semiletov.tea.appdata.xml:8
+msgctxt "Summary(org.semiletov.tea)"
+msgid "Powerful text editor in Qt"
+msgstr ""
+
 #: /usr/share/appdata/telegram-purple.metainfo.xml:9
 msgctxt "Name(telegram-purple)"
 msgid "Telegram"
@@ -5762,16 +6183,6 @@ msgctxt "Summary(com.github.rapidfingers.translator.desktop)"
 msgid "Translator"
 msgstr "Terminator"
 
-#: /usr/share/appdata/transmission-gtk.appdata.xml:5
-msgctxt "Name(transmission-gtk.desktop)"
-msgid "Transmission BitTorrent Client"
-msgstr "BitTorrent klient Transmission"
-
-#: /usr/share/appdata/transmission-gtk.appdata.xml:70
-msgctxt "Summary(transmission-gtk.desktop)"
-msgid "Lightweight, yet powerful BitTorrent client"
-msgstr ""
-
 #: /usr/share/appdata/transmission-qt.appdata.xml:5
 #, fuzzy
 #| msgctxt "Name(transmission-gtk.desktop)"
@@ -5785,6 +6196,16 @@ msgctxt "Summary(transmission-qt.desktop)"
 msgid "Lightweight, yet powerful BitTorrent client"
 msgstr ""
 
+#: /usr/share/appdata/transmission-gtk.appdata.xml:5
+msgctxt "Name(transmission-gtk.desktop)"
+msgid "Transmission BitTorrent Client"
+msgstr "BitTorrent klient Transmission"
+
+#: /usr/share/appdata/transmission-gtk.appdata.xml:70
+msgctxt "Summary(transmission-gtk.desktop)"
+msgid "Lightweight, yet powerful BitTorrent client"
+msgstr ""
+
 #: /usr/share/appdata/trigger-rally.appdata.xml:6
 msgctxt "Name(trigger-rally.desktop)"
 msgid "Trigger Rally"
@@ -5794,6 +6215,16 @@ msgstr ""
 msgctxt "Summary(trigger-rally.desktop)"
 msgid "Fast-paced single-player rally racing game"
 msgstr ""
+
+#: /usr/share/appdata/trojita.appdata.xml:6
+msgctxt "Name(trojita.desktop)"
+msgid "Trojitá"
+msgstr "Trojitá"
+
+#: /usr/share/appdata/trojita.appdata.xml:32
+msgctxt "Summary(trojita.desktop)"
+msgid "IMAP E-mail Client"
+msgstr "Poštovní klient pro IMAP"
 
 #: /usr/share/appdata/tvbrowser.appdata.xml:6
 #, fuzzy
@@ -6032,6 +6463,16 @@ msgctxt "Summary(xfce4-screenshooter.desktop)"
 msgid "Application and panel plugin to take screenshots"
 msgstr ""
 
+#: /usr/share/appdata/xiphos.appdata.xml:7
+msgctxt "Name(xiphos.desktop)"
+msgid "Xiphos"
+msgstr ""
+
+#: /usr/share/appdata/xiphos.appdata.xml:8
+msgctxt "Summary(xiphos.desktop)"
+msgid "Bible Study Guide"
+msgstr ""
+
 #: /usr/share/appdata/xournal.appdata.xml:5
 msgctxt "Name(xournal.desktop)"
 msgid "Xournal"
@@ -6060,7 +6501,7 @@ msgctxt "Name(org.kde.yakuake.desktop)"
 msgid "Yakuake"
 msgstr "Yakuake"
 
-#: /usr/share/metainfo/org.kde.yakuake.appdata.xml:38
+#: /usr/share/metainfo/org.kde.yakuake.appdata.xml:39
 msgctxt "Summary(org.kde.yakuake.desktop)"
 msgid "Drop-down Terminal"
 msgstr "Vysouvací terminál"
@@ -6097,6 +6538,25 @@ msgctxt "Summary(org.kde.renku.desktop)"
 msgid "Note Taking Application"
 msgstr "Aplikace pro skenování obrázků"
 
+#~ msgctxt "Name(org.kde.braindump.desktop)"
+#~ msgid "Braindump"
+#~ msgstr "Braindump"
+
+#~ msgctxt "Name(org.gnome.empathy)"
+#~ msgid "Empathy"
+#~ msgstr "Empathy"
+
+#~ msgctxt "Summary(org.gnome.empathy)"
+#~ msgid "Chat on Google Talk, Facebook, MSN and many other chat services"
+#~ msgstr "Diskutovat na serverech Google Talk, Facebook, MSN a mnoha dalších"
+
+#, fuzzy
+#~| msgctxt "Summary(gnome-music.desktop)"
+#~| msgid "Play and organize your music collection"
+#~ msgctxt "Summary(org.gnome.Lollypop.desktop)"
+#~ msgid "Play and organize your music collection"
+#~ msgstr "Přehrávat a organizovat svou hudební sbírku"
+
 #~ msgctxt "Name(org.pantheon.audience.desktop)"
 #~ msgid "Audience"
 #~ msgstr "Audience"
@@ -6104,26 +6564,6 @@ msgstr "Aplikace pro skenování obrázků"
 #~ msgctxt "Name(org.kde.blogilo.desktop)"
 #~ msgid "Blogilo"
 #~ msgstr "Blogilo"
-
-#, fuzzy
-#~ msgctxt "Name(gedit-multiedit)"
-#~ msgid "Multi edit"
-#~ msgstr "MultiWriter"
-
-#, fuzzy
-#~ msgctxt "Summary(gedit-multiedit)"
-#~ msgid "Edit document in multiple places at once"
-#~ msgstr "Zapisujte soubor ISO na více zařízení USB najednou"
-
-#, fuzzy
-#~ msgctxt "Name(gedit-colorpicker)"
-#~ msgid "Color picker"
-#~ msgstr "Kapátko"
-
-#, fuzzy
-#~ msgctxt "Name(gedit-textsize)"
-#~ msgid "Text size"
-#~ msgstr "Text"
 
 #~ msgctxt "Name(org.gnome.font-viewer.desktop)"
 #~ msgid "GNOME Font Viewer"
@@ -6136,10 +6576,6 @@ msgstr "Aplikace pro skenování obrázků"
 #~ msgctxt "Summary(inkscape.desktop)"
 #~ msgid "Create and edit Scalable Vector Graphics images"
 #~ msgstr "Vytvářejte a upravujte vektorovou grafiku (SVG)"
-
-#~ msgctxt "Name(owncloud_kaccounts_ui)"
-#~ msgid "OwnCloud KAccounts QML plugin"
-#~ msgstr "QML modul KAccounts pro OwnCloud"
 
 #, fuzzy
 #~ msgctxt "Name(maya-calendar.desktop)"
@@ -6160,14 +6596,6 @@ msgstr "Aplikace pro skenování obrázků"
 #~ msgctxt "Name(tracker-preferences.desktop)"
 #~ msgid "Search and Indexing"
 #~ msgstr "Hledat a spustit"
-
-#~ msgctxt "Name(trojita.desktop)"
-#~ msgid "Trojitá"
-#~ msgstr "Trojitá"
-
-#~ msgctxt "Summary(trojita.desktop)"
-#~ msgid "IMAP E-mail Client"
-#~ msgstr "Poštovní klient pro IMAP"
 
 #, fuzzy
 #~ msgctxt "Name(vlc.desktop)"

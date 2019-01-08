@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.el\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "PO-Revision-Date: 2018-04-25 00:03+0000\n"
 "Last-Translator: Konstantina Tsolakoglou <konstantina@accountant.com>\n"
 "Language-Team: Greek <https://l10n.opensuse.org/projects/desktop-file-"
@@ -68,35 +68,15 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "Δίαυλος AT-SPI D-Bus"
 
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "Γενικές επιλογές"
+#: /usr/share/autoinstall/modules/software.desktop:22
+msgctxt "Name(software.desktop)"
+msgid "Package Selection"
+msgstr "Επιλογή πακέτων"
 
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr "Ρύθμιση γενικών επιλογών αυτόματης εγκατάστασης"
-
-#: /usr/share/autoinstall/modules/files.desktop:22
-msgctxt "Name(files.desktop)"
-msgid "Complete Configuration Files"
-msgstr "Αρχεία ολοκληρωμένων ρυθμίσεων"
-
-#: /usr/share/autoinstall/modules/files.desktop:23
-msgctxt "GenericName(files.desktop)"
-msgid "Add Complete Configuration Files"
-msgstr "Προσθήκη αρχείων ολοκληρωμένων ρυθμίσεων"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "Προσαρμοσμένα scripts"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "Προσθήκη ή επεξεργασία προσαρμοσμένων scripts"
+#: /usr/share/autoinstall/modules/software.desktop:23
+msgctxt "GenericName(software.desktop)"
+msgid "Configure Package Selection and Software Settings"
+msgstr ""
 
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
@@ -108,16 +88,6 @@ msgctxt "GenericName(partitioning.desktop)"
 msgid "Configure Partitioning and Storage  Settings"
 msgstr ""
 
-#: /usr/share/autoinstall/modules/software.desktop:22
-msgctxt "Name(software.desktop)"
-msgid "Package Selection"
-msgstr "Επιλογή πακέτων"
-
-#: /usr/share/autoinstall/modules/software.desktop:23
-msgctxt "GenericName(software.desktop)"
-msgid "Configure Package Selection and Software Settings"
-msgstr ""
-
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
 msgid "Reporting & Logging"
@@ -127,6 +97,36 @@ msgstr ""
 msgctxt "GenericName(report.desktop)"
 msgid "Configure Reporting and Logging Options"
 msgstr ""
+
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "Γενικές επιλογές"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr "Ρύθμιση γενικών επιλογών αυτόματης εγκατάστασης"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "Προσαρμοσμένα scripts"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "Προσθήκη ή επεξεργασία προσαρμοσμένων scripts"
+
+#: /usr/share/autoinstall/modules/files.desktop:22
+msgctxt "Name(files.desktop)"
+msgid "Complete Configuration Files"
+msgstr "Αρχεία ολοκληρωμένων ρυθμίσεων"
+
+#: /usr/share/autoinstall/modules/files.desktop:23
+msgctxt "GenericName(files.desktop)"
+msgid "Add Complete Configuration Files"
+msgstr "Προσθήκη αρχείων ολοκληρωμένων ρυθμίσεων"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -153,16 +153,6 @@ msgctxt "Name(baloo_file.desktop)"
 msgid "Baloo File Daemon"
 msgstr "Υπηρεσία αρχείων Baloo"
 
-#: /etc/xdg/autostart/blueberry-tray.desktop:3
-msgctxt "Name(blueberry-tray.desktop)"
-msgid "blueberry"
-msgstr "blueberry"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:4
-msgctxt "Comment(blueberry-tray.desktop)"
-msgid "Blueberry tray icon"
-msgstr ""
-
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:2
 msgctxt "Name(blueberry-obex-agent.desktop)"
 msgid "Bluetooth OBEX Agent"
@@ -177,6 +167,16 @@ msgstr "Επιτρέπει τη λήψη αρχείων μέσω Bluetooth"
 msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
 msgstr "αρχεία;bluetooth;obex;λήψη;files;bluetooth;obex;receive;"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:3
+msgctxt "Name(blueberry-tray.desktop)"
+msgid "blueberry"
+msgstr "blueberry"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:4
+msgctxt "Comment(blueberry-tray.desktop)"
+msgid "Blueberry tray icon"
+msgstr ""
 
 #: /etc/xdg/autostart/blueman.desktop:2
 msgctxt "Name(blueman.desktop)"
@@ -208,12 +208,12 @@ msgctxt "Name(metadata.desktop)"
 msgid "Next"
 msgstr "Επόμενο"
 
-#: /usr/share/xsessions/bspwm.desktop:3
+#: /usr/share/xsessions/bspwm.desktop:2
 msgctxt "Name(bspwm.desktop)"
 msgid "bspwm"
 msgstr "bspwm"
 
-#: /usr/share/xsessions/bspwm.desktop:4
+#: /usr/share/xsessions/bspwm.desktop:3
 msgctxt "Comment(bspwm.desktop)"
 msgid "Binary space partitioning window manager"
 msgstr ""
@@ -265,9 +265,19 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-msgid "Cinnamon Settings Daemon - media-keys"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgstr ""
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
@@ -275,69 +285,29 @@ msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
 msgid "Cinnamon Settings Daemon - background"
 msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ταπετσαρία"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-msgid "Cinnamon Settings Daemon - screensaver-proxy"
-msgstr ""
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - keyboard"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πληκτρολόγιο"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
-msgid "Cinnamon Settings Daemon - smartcard"
-msgstr ""
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πρόχειρο"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - δείκτης"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
-msgid "Cinnamon Settings Daemon - color"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - χρώμα"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
 msgid "Cinnamon Settings Daemon - power"
 msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ενέργεια"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - αυτόματη προσάρτηση"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ήχος"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πληκτρολόγιο-a11y"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "Υπηρεσία ρυθμίσεων Cinnamon - xrandr"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
 msgid "Cinnamon Settings Daemon - print-notifications"
 msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ειδοποιήσεις εκτύπωσης"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
-msgid "Cinnamon Settings Daemon - xsettings"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πληκτρολόγιο-a11y"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ήχος"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
 msgstr ""
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
@@ -345,30 +315,50 @@ msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
 msgid "Cinnamon Settings Daemon - a11y-settings"
 msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ρυθμίσεις-a11y"
 
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - χρώμα"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - αυτόματη προσάρτηση"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πρόχειρο"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr ""
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - δείκτης"
+
 #: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
 msgid "Cinnamon Settings Daemon - mouse"
 msgstr "Υπηρεσία ρυθμίσεων Cinnamon - ποντίκι"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
 msgstr ""
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr ""
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Αυτή η συνεδρία σας συνδέει στο Cinnamon"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr "Υπηρεσία ρυθμίσεων Cinnamon - πληκτρολόγιο"
 
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
@@ -380,6 +370,16 @@ msgstr ""
 msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr "Αυτή η συνεδρία σας συνδέει στο SLE Classic"
+
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Αυτή η συνεδρία σας συνδέει στο Cinnamon"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
@@ -448,6 +448,17 @@ msgctxt "Name(eekboard-autostart.desktop)"
 msgid "Eekboard"
 msgstr "Eekboard"
 
+#: /usr/share/xsessions/enlightenment.desktop:3
+msgctxt "Name(enlightenment.desktop)"
+msgid "Enlightenment"
+msgstr "Enlightenment"
+
+#: /usr/share/xsessions/enlightenment.desktop:18
+#, fuzzy
+msgctxt "Comment(enlightenment.desktop)"
+msgid "Log in using Enlightenment (Version 0.22.3)"
+msgstr "Είσοδος με το Enlightenment (Έκδοση 0.21.3)"
+
 #: /usr/share/xsessions/epymc_xsession.desktop:4
 #, fuzzy
 msgctxt "Name(epymc_xsession.desktop)"
@@ -489,7 +500,7 @@ msgctxt "Name(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Μικροεφαρμογή τείχους προστασίας"
 
-#: /etc/xdg/autostart/firewall-applet.desktop:45
+#: /etc/xdg/autostart/firewall-applet.desktop:46
 msgctxt "Comment(firewall-applet.desktop)"
 msgid "Firewall Applet"
 msgstr "Μικροεφαρμογή τείχους προστασίας"
@@ -511,7 +522,7 @@ msgctxt "Name(gsettings-data-convert.desktop)"
 msgid "GSettings Data Conversion"
 msgstr "Μετατροπή δεδομένων GSettings"
 
-#: /etc/xdg/autostart/gsettings-data-convert.desktop:60
+#: /etc/xdg/autostart/gsettings-data-convert.desktop:62
 msgctxt "Comment(gsettings-data-convert.desktop)"
 msgid "Migrates user settings from GConf to dconf"
 msgstr "Μεταφέρει τις ρυθμίσεις του χρήστη από το GConf στο dconf"
@@ -531,11 +542,6 @@ msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
 
-#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
-msgctxt "Name(gnome-initial-setup-first-login.desktop)"
-msgid "Initial Setup"
-msgstr "Αρχική εγκατάσταση"
-
 #: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
 msgctxt "Name(gnome-welcome-tour.desktop)"
 msgid "Welcome"
@@ -545,6 +551,11 @@ msgstr "Καλώς ήλθατε"
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
 msgstr ""
+
+#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
+msgctxt "Name(gnome-initial-setup-first-login.desktop)"
+msgid "Initial Setup"
+msgstr "Αρχική εγκατάσταση"
 
 #: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
 msgctxt "Name(gnome-keyring-secrets.desktop)"
@@ -603,20 +614,68 @@ msgstr ""
 "Το GNU Network Object Model Environment. Ένα πλήρης, ελεύθερο και εύκολο στη "
 "χρήση περιβάλλον επιφάνειας εργασίας"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
+msgid "GNOME Settings Daemon's housekeeping plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
 #, fuzzy
 #| msgctxt "Name(gnome-settings-daemon.desktop)"
 #| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
-msgid "GNOME Settings Daemon's smartcard plugin"
 msgstr "Υπηρεσία ρυθμίσεων GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
@@ -627,12 +686,49 @@ msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
 msgstr "Υπηρεσία ρυθμίσεων GNOME"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
+msgid "GNOME Settings Daemon's sharing plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
+msgid "GNOME Settings Daemon's xsettings plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
 #, fuzzy
 #| msgctxt "Name(gnome-settings-daemon.desktop)"
 #| msgid "GNOME Settings Daemon"
 msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
 msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "Υπηρεσία ρυθμίσεων GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr ""
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
+#, fuzzy
+#| msgctxt "Name(gnome-settings-daemon.desktop)"
+#| msgid "GNOME Settings Daemon"
+msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
+msgid "GNOME Settings Daemon's power plugin"
 msgstr "Υπηρεσία ρυθμίσεων GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
@@ -651,97 +747,12 @@ msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
 msgstr "Υπηρεσία ρυθμίσεων GNOME"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
 #, fuzzy
 #| msgctxt "Name(gnome-settings-daemon.desktop)"
 #| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
-msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
-msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
-msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr ""
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
-msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
-msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
-msgid "GNOME Settings Daemon's power plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "Υπηρεσία ρυθμίσεων GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-#, fuzzy
-#| msgctxt "Name(gnome-settings-daemon.desktop)"
-#| msgid "GNOME Settings Daemon"
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
 msgstr "Υπηρεσία ρυθμίσεων GNOME"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
@@ -835,22 +846,6 @@ msgctxt "Keywords(i3-with-shmlog.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr ""
 
-#: /usr/share/xsessions/icewm.desktop:4
-msgctxt "Name(icewm.desktop)"
-msgid "IceWM"
-msgstr ""
-
-#: /usr/share/xsessions/icewm.desktop:5
-#, fuzzy
-msgctxt "GenericName(icewm.desktop)"
-msgid "Window Manager"
-msgstr "WindowMaker"
-
-#: /usr/share/xsessions/icewm.desktop:9
-msgctxt "Comment(icewm.desktop)"
-msgid "Simple and fast window manger"
-msgstr ""
-
 #: /usr/share/xsessions/icewm-session.desktop:4
 #, fuzzy
 msgctxt "Name(icewm-session.desktop)"
@@ -868,6 +863,22 @@ msgctxt "Comment(icewm-session.desktop)"
 msgid "This session logs you into IceWM"
 msgstr "Αυτή η συνεδρία σας εισάγει στο Icewm"
 
+#: /usr/share/xsessions/icewm.desktop:4
+msgctxt "Name(icewm.desktop)"
+msgid "IceWM"
+msgstr ""
+
+#: /usr/share/xsessions/icewm.desktop:5
+#, fuzzy
+msgctxt "GenericName(icewm.desktop)"
+msgid "Window Manager"
+msgstr "WindowMaker"
+
+#: /usr/share/xsessions/icewm.desktop:9
+msgctxt "Comment(icewm.desktop)"
+msgid "Simple and fast window manger"
+msgstr ""
+
 #: /etc/xdg/autostart/kalarm.autostart.desktop:3
 msgctxt "Name(kalarm.autostart.desktop)"
 msgid "KAlarm"
@@ -877,6 +888,12 @@ msgstr "KAlarm"
 msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Αυτόματη εκκίνηση του KAlarm κατά τη σύνδεση"
+
+#: /usr/share/wallpapers/stripes.png.desktop:3
+#, fuzzy
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Ρίγες"
 
 #: /usr/share/autostart/klipper.desktop:2
 #, fuzzy
@@ -900,12 +917,6 @@ msgctxt "Name(plasma-desktop.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Χώρος επιφάνειας εργασίας Plasma"
 
-#: /usr/share/wallpapers/stripes.png.desktop:3
-#, fuzzy
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Ρίγες"
-
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
 msgid "KDEConnect daemon"
@@ -926,11 +937,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr ""
-
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
@@ -941,10 +947,10 @@ msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
 msgstr "Εκτυπωμένη Πλακέτα Κυκλωμάτων KiCad"
 
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Επαναφορά εντάσεων μείκτη"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr ""
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -955,6 +961,11 @@ msgstr "Μείκτης ήχου"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Επαναφορά εντάσεων μείκτη"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -989,12 +1000,12 @@ msgctxt "Name(krb5-auth-dialog.desktop)"
 msgid "Kerberos Authentication"
 msgstr "Πράκτορας πιστοποίησης PolicyKit"
 
-#: /etc/xdg/autostart/krb5-auth-dialog.desktop:23
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:24
 msgctxt "Comment(krb5-auth-dialog.desktop)"
 msgid "Kerberos Network Authentication Dialog"
 msgstr "Διάλογος πιστοποίησης δικτύου Kerberos"
 
-#: /etc/xdg/autostart/krb5-auth-dialog.desktop:53
+#: /etc/xdg/autostart/krb5-auth-dialog.desktop:55
 #, fuzzy
 msgctxt "Keywords(krb5-auth-dialog.desktop)"
 msgid "kerberos;authentication;"
@@ -1067,6 +1078,16 @@ msgstr "Εκτελεστής"
 msgctxt "Name(lxqt-xscreensaver-autostart.desktop)"
 msgid "XScreenSaver"
 msgstr "ΠροφύλαξηOθόνηςΧ"
+
+#: /usr/share/xsessions/lxqt.desktop:5
+msgctxt "Name(lxqt.desktop)"
+msgid "LXQt Desktop"
+msgstr "Επιφάνεια εργασίας LXQt"
+
+#: /usr/share/xsessions/lxqt.desktop:6
+msgctxt "Comment(lxqt.desktop)"
+msgid "Lightweight Qt Desktop"
+msgstr "Ελαφριά επιφάνεια εργασίας Qt"
 
 #: /etc/xdg/autostart/lxpolkit.desktop:3
 msgctxt "Name(lxpolkit.desktop)"
@@ -1172,12 +1193,12 @@ msgctxt "Name(mate-user-share-obexpush.desktop)"
 msgid "Personal File Sharing obexpush"
 msgstr ""
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:38
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
 msgctxt "Comment(mate-user-share-obexpush.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Εκκίνηση κοινής χρήσης προσωπικών αρχείων, αν είναι ενεργοποιημένη"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:108
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
 msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr ""
@@ -1187,12 +1208,12 @@ msgctxt "Name(mate-user-share-obexftp.desktop)"
 msgid "Personal File Sharing obexftp"
 msgstr ""
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:38
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:41
 msgctxt "Comment(mate-user-share-obexftp.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Εκκίνηση κοινής χρήσης προσωπικών αρχείων, αν είναι ενεργοποιημένη"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:108
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:112
 msgctxt "Keywords(mate-user-share-obexftp.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr ""
@@ -1202,12 +1223,12 @@ msgctxt "Name(mate-user-share-webdav.desktop)"
 msgid "Personal File Sharing webdav"
 msgstr "Προσωπικός διαμοιρασμός αρχείων webdav"
 
-#: /etc/xdg/autostart/mate-user-share-webdav.desktop:38
+#: /etc/xdg/autostart/mate-user-share-webdav.desktop:41
 msgctxt "Comment(mate-user-share-webdav.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "Εκκίνηση κοινής χρήσης προσωπικών αρχείων, αν είναι ενεργοποιημένη"
 
-#: /etc/xdg/autostart/mate-user-share-webdav.desktop:108
+#: /etc/xdg/autostart/mate-user-share-webdav.desktop:112
 msgctxt "Keywords(mate-user-share-webdav.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr ""
@@ -1273,18 +1294,6 @@ msgctxt "Name(vmware-user-autostart.desktop)"
 msgid "VMware User Agent"
 msgstr "Εφαρμογή Χρήστη VMware"
 
-#: /usr/share/xsessions/openbox-kde.desktop:2
-msgctxt "Name(openbox-kde.desktop)"
-msgid "KDE/Openbox"
-msgstr "KDE/Openbox"
-
-#: /usr/share/xsessions/openbox-kde.desktop:3
-msgctxt "Comment(openbox-kde.desktop)"
-msgid "Use the Openbox window manager inside of the K Desktop Environment"
-msgstr ""
-"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox εντός του περιβάλλοντος "
-"επιφάνειας εργασίας του KDE"
-
 #: /usr/share/xsessions/openbox.desktop:6
 #, fuzzy
 msgctxt "Name(openbox.desktop)"
@@ -1308,9 +1317,31 @@ msgstr ""
 "Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox μέσα στο περιβάλλον "
 "επιφάνειας εργασίας του GNOME"
 
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr ""
+"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox εντός του περιβάλλοντος "
+"επιφάνειας εργασίας του KDE"
+
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
 msgid "Orca screen reader"
+msgstr ""
+
+#: /etc/xdg/autostart/pam-dbus-notify.desktop:2
+msgctxt "Name(pam-dbus-notify.desktop)"
+msgid "pam-dbus Handler"
+msgstr ""
+
+#: /etc/xdg/autostart/pam-dbus-notify.desktop:3
+msgctxt "Comment(pam-dbus-notify.desktop)"
+msgid "Answers authentication requests by pam-dbus"
 msgstr ""
 
 #: /etc/xdg/autostart/pam_kwallet_init.desktop:2
@@ -1355,6 +1386,16 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr ""
 
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr ""
+
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr ""
+
 #: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
 msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
@@ -1365,19 +1406,9 @@ msgctxt "Comment(x-excellon.desktop)"
 msgid "Excellon drill file"
 msgstr ""
 
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr ""
-
 #: /usr/share/mimelnk/application/x-gerber.desktop:3
 msgctxt "Comment(x-gerber.desktop)"
 msgid "Gerber file"
-msgstr ""
-
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
 msgstr ""
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
@@ -1402,27 +1433,6 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "Ενημέρωση εφαρμογιδίου"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Επιφάνεια εργασίας"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Παρουσίαση της επιφάνειας εργασίας"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Επιφάνεια εργασίας"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Μια σαφής και απλή διάταξη"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
 #, fuzzy
 msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
@@ -1435,27 +1445,6 @@ msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
 msgid "Empty panel"
 msgstr "Πίνακας"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "Προκαθορισμένος πίνακας"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
-msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
-msgid ""
-"Default panel featuring application launcher, task manager and system tray"
-msgstr ""
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "Εργαλεία"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Διαχείριση Plasma"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
 #, fuzzy
 msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
@@ -1467,19 +1456,71 @@ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 msgid "Panel containing the global menu applet"
 msgstr ""
 
-#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Επιφάνεια εργασίας"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Παρουσίαση της επιφάνειας εργασίας"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "Εργαλεία"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Διαχείριση Plasma"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "Προκαθορισμένος πίνακας"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
+msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
+msgid ""
+"Default panel featuring application launcher, task manager and system tray"
+msgstr ""
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Επιφάνεια εργασίας"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Μια σαφής και απλή διάταξη"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "One Stands Out"
+msgid "Grey"
+msgstr "Γκρι"
+
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Colorful Cups"
+msgstr ""
+
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Darkest Hour"
+msgstr ""
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Flying Konqui"
 msgstr ""
 
 #: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "By the water"
-msgstr ""
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
 msgstr ""
 
 #: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
@@ -1503,29 +1544,19 @@ msgctxt "Name(metadata.desktop)"
 msgid "Fallen Leaf"
 msgstr "Πράσινο φύλλο"
 
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr ""
+
+#: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "One Stands Out"
+msgstr ""
+
 #: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Path"
-msgstr ""
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Γκρι"
-
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr ""
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr ""
-
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
@@ -1538,6 +1569,11 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Γλώσσα σχεδιασμού επιφάνειας εργασίας Breeze από το KDE VDG"
 
+#: /etc/xdg/autostart/krunner.desktop:3
+msgctxt "Name(krunner.desktop)"
+msgid "KRunner"
+msgstr "KRunner"
+
 #: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
 #, fuzzy
 #| msgctxt "Name(plasma-desktop.desktop)"
@@ -1546,17 +1582,12 @@ msgctxt "Name(org.kde.plasmashell.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Χώρος επιφάνειας εργασίας Plasma"
 
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
-
 #: /etc/xdg/autostart/xembedsniproxy.desktop:3
 msgctxt "Name(xembedsniproxy.desktop)"
 msgid "XembedSniProxy"
 msgstr "XembedSniProxy"
 
-#: /usr/share/xsessions/plasma5.desktop:7
+#: /usr/share/xsessions/plasma5.desktop:6
 #, fuzzy
 #| msgctxt "Name(plasma5.desktop)"
 #| msgid "Plasma 5"
@@ -1564,7 +1595,7 @@ msgctxt "Name(plasma5.desktop)"
 msgid "Plasma"
 msgstr "Plasma 5"
 
-#: /usr/share/xsessions/plasma5.desktop:52
+#: /usr/share/xsessions/plasma5.desktop:51
 msgctxt "Comment(plasma5.desktop)"
 msgid "Plasma by KDE"
 msgstr "Plasma από το KDE"
@@ -1624,15 +1655,15 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Έναρξη του συστήματος ήχου PulseAudio"
 
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr "Πρότυπο πινακίδας QElectroTech"
-
 #: /usr/share/mimelnk/application/x-qet-project.desktop:7
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "Αρχείο έργου QElectroTech"
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
+msgstr "Πρότυπο πινακίδας QElectroTech"
 
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
@@ -1664,32 +1695,6 @@ msgstr "RSIBreak"
 msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Ασχολείται με την ξεκούρασή σας"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-#, fuzzy
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr ""
-"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox μέσα στο περιβάλλον "
-"επιφάνειας εργασίας του GNOME"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-#, fuzzy
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr ""
-"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox μέσα στο περιβάλλον "
-"επιφάνειας εργασίας του GNOME"
 
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
@@ -1727,20 +1732,31 @@ msgstr ""
 "Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox εντός του περιβάλλοντος "
 "επιφάνειας εργασίας του KDE"
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:2
-msgctxt "Name(vnd.scribus.desktop)"
-msgid "Scribus"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
 msgstr ""
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:5
-msgctxt "Comment(vnd.scribus.desktop)"
-msgid "Page Layout and Publication"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+#, fuzzy
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr ""
+"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox μέσα στο περιβάλλον "
+"επιφάνειας εργασίας του GNOME"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
 msgstr ""
 
-#: /usr/share/mimelnk/application/vnd.scribus.desktop:51
-msgctxt "GenericName(vnd.scribus.desktop)"
-msgid "Page Layout (Development)"
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+#, fuzzy
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
 msgstr ""
+"Χρησιμοποιείστε τον διαχειριστή παραθύρων Openbox μέσα στο περιβάλλον "
+"επιφάνειας εργασίας του GNOME"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1787,15 +1803,15 @@ msgctxt "Comment(tracker-miner-fs.desktop)"
 msgid "Crawls and processes files on the file system"
 msgstr "Σαρώνει και επεξεργάζεται αρχεία στο σύστημα αρχείων"
 
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Εφαρμογή εξαγωγής μεταδεδομένων Tracker"
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:2
+msgctxt "Name(tracker-miner-rss.desktop)"
+msgid "Tracker RSS/ATOM Feeds Miner"
+msgstr "Εξορύκτης ροών RSS/ATOM"
 
-#: /etc/xdg/autostart/tracker-extract.desktop:43
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Εξάγει μεταδεδομένα από τοπικά αρχεία"
+#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
+msgctxt "Comment(tracker-miner-rss.desktop)"
+msgid "Fetch RSS/ATOM feeds"
+msgstr "Ανάκτηση ροών RSS/ATOM"
 
 #: /etc/xdg/autostart/tracker-miner-apps.desktop:2
 msgctxt "Name(tracker-miner-apps.desktop)"
@@ -1807,31 +1823,26 @@ msgctxt "Comment(tracker-miner-apps.desktop)"
 msgid "Indexes information about applications installed"
 msgstr "Οι πληροφορίες ευρετηρίων για τις εγκατεστημένες εφαρμογές"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:2
-msgctxt "Name(tracker-miner-rss.desktop)"
-msgid "Tracker RSS/ATOM Feeds Miner"
-msgstr "Εξορύκτης ροών RSS/ATOM"
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Εφαρμογή εξαγωγής μεταδεδομένων Tracker"
 
-#: /etc/xdg/autostart/tracker-miner-rss.desktop:46
-msgctxt "Comment(tracker-miner-rss.desktop)"
-msgid "Fetch RSS/ATOM feeds"
-msgstr "Ανάκτηση ροών RSS/ATOM"
+#: /etc/xdg/autostart/tracker-extract.desktop:43
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Εξάγει μεταδεδομένα από τοπικά αρχεία"
 
 #: /etc/xdg/autostart/tracker-store.desktop:2
 msgctxt "Name(tracker-store.desktop)"
 msgid "Tracker Store"
 msgstr "Αποθήκη του Tracker"
 
-#: /etc/xdg/autostart/tracker-store.desktop:49
+#: /etc/xdg/autostart/tracker-store.desktop:50
 msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr ""
 "Διαχειριστής αναζήτησης και αποθήκευσης μεταδεδομένων στη βάση δεδομένων"
-
-#: /usr/share/mimelnk/application/x-treeline.desktop:3
-msgctxt "Comment(x-treeline.desktop)"
-msgid "TreeLine File"
-msgstr ""
 
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
@@ -1841,6 +1852,11 @@ msgstr ""
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
 msgid "Compressed TreeLine File"
+msgstr ""
+
+#: /usr/share/mimelnk/application/x-treeline.desktop:3
+msgctxt "Comment(x-treeline.desktop)"
+msgid "TreeLine File"
 msgstr ""
 
 #: /usr/share/xsessions/twm.desktop:6
@@ -1869,7 +1885,7 @@ msgctxt "Name(user-dirs-update-gtk.desktop)"
 msgid "User folders update"
 msgstr "Ενημέρωση φακέλων χρήστη"
 
-#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:72
+#: /etc/xdg/autostart/user-dirs-update-gtk.desktop:76
 msgctxt "Comment(user-dirs-update-gtk.desktop)"
 msgid "Update common folders names to match current locale"
 msgstr ""
@@ -2017,16 +2033,6 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr ""
 
-#: /usr/share/autoinstall/modules/deploy_image.desktop:23
-msgctxt "Name(deploy_image.desktop)"
-msgid "Image deployment"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/deploy_image.desktop:24
-msgctxt "GenericName(deploy_image.desktop)"
-msgid "Configure image deployment"
-msgstr ""
-
 #: /usr/share/autoinstall/modules/ssh_import.desktop:23
 #, fuzzy
 msgctxt "Name(ssh_import.desktop)"
@@ -2036,6 +2042,16 @@ msgstr "Πράκτορας κλειδιού SSH"
 #: /usr/share/autoinstall/modules/ssh_import.desktop:24
 msgctxt "GenericName(ssh_import.desktop)"
 msgid "Importing SSH keys from a previous installation"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/deploy_image.desktop:23
+msgctxt "Name(deploy_image.desktop)"
+msgid "Image deployment"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/deploy_image.desktop:24
+msgctxt "GenericName(deploy_image.desktop)"
+msgid "Configure image deployment"
 msgstr ""
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
@@ -2107,15 +2123,6 @@ msgstr "Εκκίνηση Zeitgeist Datahub για παθητικούς κατα�
 #~ "X-Generator: Gtranslator 2.91.7\n"
 #~ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#~ msgctxt "Name(enlightenment.desktop)"
-#~ msgid "Enlightenment"
-#~ msgstr "Enlightenment"
-
-#, fuzzy
-#~ msgctxt "Comment(enlightenment.desktop)"
-#~ msgid "Log in using Enlightenment (Version 0.21.8)"
-#~ msgstr "Είσοδος με το Enlightenment (Έκδοση 0.21.3)"
-
 #~ msgctxt "Comment(icewm.desktop)"
 #~ msgid "A Windows 95-OS/2-Motif-like window manager"
 #~ msgstr "Ένας διαχειριστής παραθύρων παρόμοιος με τα Windows 95-OS/2-Motif"
@@ -2127,14 +2134,6 @@ msgstr "Εκκίνηση Zeitgeist Datahub για παθητικούς κατα�
 #~ msgctxt "Name(lxqt-qlipper-autostart.desktop)"
 #~ msgid "Qlipper"
 #~ msgstr "Qlipper"
-
-#~ msgctxt "Name(lxqt.desktop)"
-#~ msgid "LXQt Desktop"
-#~ msgstr "Επιφάνεια εργασίας LXQt"
-
-#~ msgctxt "Comment(lxqt.desktop)"
-#~ msgid "Lightweight Qt Desktop"
-#~ msgstr "Ελαφριά επιφάνεια εργασίας Qt"
 
 #~ msgctxt "Name(plasmashell.desktop)"
 #~ msgid "Plasma Desktop Workspace"

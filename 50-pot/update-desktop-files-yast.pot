@@ -1,20 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2018-03-21 09:42+0000\n"
+"POT-Creation-Date: 2019-01-08 09:45+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: /usr/share/applications/YaST2/autoyast.desktop:21
-msgctxt "Name(autoyast.desktop)"
-msgid "Autoinstallation Configuration"
-msgstr ""
-
-#: /usr/share/applications/YaST2/autoyast.desktop:22
-msgctxt "GenericName(autoyast.desktop)"
-msgid "Configuration system for autoinstallation"
-msgstr ""
 
 #: /usr/share/applications/YaST2/clone_system.desktop:21
 msgctxt "Name(clone_system.desktop)"
@@ -24,6 +14,16 @@ msgstr ""
 #: /usr/share/applications/YaST2/clone_system.desktop:22
 msgctxt "GenericName(clone_system.desktop)"
 msgid "Creating AutoYaST configuration file"
+msgstr ""
+
+#: /usr/share/applications/YaST2/autoyast.desktop:21
+msgctxt "Name(autoyast.desktop)"
+msgid "Autoinstallation Configuration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/autoyast.desktop:22
+msgctxt "GenericName(autoyast.desktop)"
+msgid "Configuration system for autoinstallation"
 msgstr ""
 
 #: /usr/share/applications/YaST2/gpmc.desktop:21
@@ -76,6 +76,11 @@ msgctxt "GenericName(apparmor.desktop)"
 msgid "AppArmor Configuration"
 msgstr ""
 
+#: /usr/share/applications/YaST2/audit-laf.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(audit-laf.desktop)"
+msgid "audit,auditd,auditctl,auditing,dispatcher,LAF"
+msgstr ""
+
 #: /usr/share/applications/YaST2/audit-laf.desktop:25
 msgctxt "Name(audit-laf.desktop)"
 msgid "Linux Audit Framework (LAF)"
@@ -84,6 +89,13 @@ msgstr ""
 #: /usr/share/applications/YaST2/audit-laf.desktop:26
 msgctxt "GenericName(audit-laf.desktop)"
 msgid "audit-laf"
+msgstr ""
+
+#: /usr/share/applications/YaST2/auth-client.desktop:15
+msgctxt "X-SuSE-YaST-Keywords(auth-client.desktop)"
+msgid ""
+"authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
+"activedirectory"
 msgstr ""
 
 #: /usr/share/applications/YaST2/auth-client.desktop:20
@@ -96,6 +108,13 @@ msgctxt "GenericName(auth-client.desktop)"
 msgid "User Logon Management"
 msgstr ""
 
+#: /usr/share/applications/YaST2/ldapkrb.desktop:14
+msgctxt "X-SuSE-YaST-Keywords(ldapkrb.desktop)"
+msgid ""
+"authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
+"activedirectory"
+msgstr ""
+
 #: /usr/share/applications/YaST2/ldapkrb.desktop:19
 msgctxt "Name(ldapkrb.desktop)"
 msgid "LDAP and Kerberos Client"
@@ -106,14 +125,9 @@ msgctxt "GenericName(ldapkrb.desktop)"
 msgid "LDAP And Kerberos Client"
 msgstr ""
 
-#: /usr/share/applications/YaST2/krb-server.desktop:16
-msgctxt "Name(krb-server.desktop)"
-msgid "Create New Kerberos Server"
-msgstr ""
-
-#: /usr/share/applications/YaST2/krb-server.desktop:17
-msgctxt "GenericName(krb-server.desktop)"
-msgid "Create New Kerberos Server"
+#: /usr/share/applications/YaST2/ldap-server.desktop:11
+msgctxt "X-SuSE-YaST-Keywords(ldap-server.desktop)"
+msgid "authentication,directory,ldap"
 msgstr ""
 
 #: /usr/share/applications/YaST2/ldap-server.desktop:16
@@ -124,6 +138,21 @@ msgstr ""
 #: /usr/share/applications/YaST2/ldap-server.desktop:17
 msgctxt "GenericName(ldap-server.desktop)"
 msgid "Create New Directory Server"
+msgstr ""
+
+#: /usr/share/applications/YaST2/krb-server.desktop:11
+msgctxt "X-SuSE-YaST-Keywords(krb-server.desktop)"
+msgid "authentication,kerberos,krb,krb5"
+msgstr ""
+
+#: /usr/share/applications/YaST2/krb-server.desktop:16
+msgctxt "Name(krb-server.desktop)"
+msgid "Create New Kerberos Server"
+msgstr ""
+
+#: /usr/share/applications/YaST2/krb-server.desktop:17
+msgctxt "GenericName(krb-server.desktop)"
+msgid "Create New Kerberos Server"
 msgstr ""
 
 #: /usr/share/applications/YaST2/bootloader.desktop:22
@@ -146,19 +175,19 @@ msgctxt "GenericName(cluster.desktop)"
 msgid "Configure Cluster"
 msgstr ""
 
+#: /usr/share/applications/YaST2/configuration_management.desktop:11
+msgctxt "X-SuSE-YaST-Keywords(configuration_management.desktop)"
+msgid "salt,privisioning,configuration_management"
+msgstr ""
+
 #: /usr/share/applications/YaST2/configuration_management.desktop:13
 msgctxt "Name(configuration_management.desktop)"
 msgid "YaST2 Configuration Management"
 msgstr ""
 
-#: /usr/share/applications/YaST2/keyboard.desktop:24
-msgctxt "Name(keyboard.desktop)"
-msgid "System Keyboard Layout"
-msgstr ""
-
-#: /usr/share/applications/YaST2/keyboard.desktop:25
-msgctxt "GenericName(keyboard.desktop)"
-msgid "Select the system keyboard"
+#: /usr/share/applications/YaST2/timezone.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(timezone.desktop)"
+msgid "time,timezone,clock"
 msgstr ""
 
 #: /usr/share/applications/YaST2/timezone.desktop:24
@@ -171,6 +200,11 @@ msgctxt "GenericName(timezone.desktop)"
 msgid "Control time zone, date, and system time"
 msgstr ""
 
+#: /usr/share/applications/YaST2/yast-language.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(yast-language.desktop)"
+msgid "language,locale,country"
+msgstr ""
+
 #: /usr/share/applications/YaST2/yast-language.desktop:25
 msgctxt "Name(yast-language.desktop)"
 msgid "Language"
@@ -179,6 +213,21 @@ msgstr ""
 #: /usr/share/applications/YaST2/yast-language.desktop:26
 msgctxt "GenericName(yast-language.desktop)"
 msgid "Change the language and install additional languages"
+msgstr ""
+
+#: /usr/share/applications/YaST2/keyboard.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(keyboard.desktop)"
+msgid "keyboard"
+msgstr ""
+
+#: /usr/share/applications/YaST2/keyboard.desktop:24
+msgctxt "Name(keyboard.desktop)"
+msgid "System Keyboard Layout"
+msgstr ""
+
+#: /usr/share/applications/YaST2/keyboard.desktop:25
+msgctxt "GenericName(keyboard.desktop)"
+msgid "Select the system keyboard"
 msgstr ""
 
 #: /usr/share/applications/YaST2/dhcp-server.desktop:25
@@ -371,16 +420,6 @@ msgctxt "GenericName(multipath.desktop)"
 msgid "multipath"
 msgstr ""
 
-#: /usr/share/applications/YaST2/host.desktop:22
-msgctxt "Name(host.desktop)"
-msgid "Hostnames"
-msgstr ""
-
-#: /usr/share/applications/YaST2/host.desktop:23
-msgctxt "GenericName(host.desktop)"
-msgid "Assign hostnames and aliases to IP addresses"
-msgstr ""
-
 #: /usr/share/applications/YaST2/remote.desktop:20
 msgctxt "Name(remote.desktop)"
 msgid "Remote Administration (VNC)"
@@ -389,6 +428,16 @@ msgstr ""
 #: /usr/share/applications/YaST2/remote.desktop:21
 msgctxt "GenericName(remote.desktop)"
 msgid "Set up remote administration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/host.desktop:22
+msgctxt "Name(host.desktop)"
+msgid "Hostnames"
+msgstr ""
+
+#: /usr/share/applications/YaST2/host.desktop:23
+msgctxt "GenericName(host.desktop)"
+msgid "Assign hostnames and aliases to IP addresses"
 msgstr ""
 
 #: /usr/share/applications/YaST2/lan.desktop:23
@@ -401,6 +450,11 @@ msgctxt "GenericName(lan.desktop)"
 msgid "Configure network cards, hostname and routing"
 msgstr ""
 
+#: /usr/share/applications/YaST2/lan.desktop:26
+msgctxt "X-SuSE-YaST-Keywords(lan.desktop)"
+msgid "network,lan,dns,routing"
+msgstr ""
+
 #: /usr/share/applications/YaST2/nfs.desktop:25
 msgctxt "Name(nfs.desktop)"
 msgid "NFS Client"
@@ -409,6 +463,11 @@ msgstr ""
 #: /usr/share/applications/YaST2/nfs.desktop:26
 msgctxt "GenericName(nfs.desktop)"
 msgid "Configure an NFS client"
+msgstr ""
+
+#: /usr/share/applications/YaST2/nfs_server.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(nfs_server.desktop)"
+msgid "share,NFS,file,mount"
 msgstr ""
 
 #: /usr/share/applications/YaST2/nfs_server.desktop:24
@@ -441,6 +500,11 @@ msgctxt "GenericName(nis_server.desktop)"
 msgid "Configure a NIS server"
 msgstr ""
 
+#: /usr/share/applications/YaST2/ntp-client.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(ntp-client.desktop)"
+msgid "time,sync,synchronization,NTP"
+msgstr ""
+
 #: /usr/share/applications/YaST2/ntp-client.desktop:23
 msgctxt "Name(ntp-client.desktop)"
 msgid "NTP Configuration"
@@ -461,6 +525,11 @@ msgctxt "GenericName(online_update_configuration.desktop)"
 msgid "Online Update Configuration"
 msgstr ""
 
+#: /usr/share/applications/YaST2/online_update.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(online_update.desktop)"
+msgid "software,update,online"
+msgstr ""
+
 #: /usr/share/applications/YaST2/online_update.desktop:21
 msgctxt "Name(online_update.desktop)"
 msgid "Online Update"
@@ -469,18 +538,6 @@ msgstr ""
 #: /usr/share/applications/YaST2/online_update.desktop:22
 msgctxt "GenericName(online_update.desktop)"
 msgid "Get patches to correct and improve your existing installation"
-msgstr ""
-
-#: /usr/share/applications/YaST2/sw_source.desktop:20
-msgctxt "Name(sw_source.desktop)"
-msgid "Software Repositories"
-msgstr ""
-
-#: /usr/share/applications/YaST2/sw_source.desktop:21
-msgctxt "GenericName(sw_source.desktop)"
-msgid ""
-"Choose the repositories for installation of software packages (CD, network, "
-"etc.), add the community repositories"
 msgstr ""
 
 #: /usr/share/applications/YaST2/checkmedia.desktop:21
@@ -503,6 +560,18 @@ msgctxt "GenericName(sw_single.desktop)"
 msgid "Install or remove software packages and manage software repositories"
 msgstr ""
 
+#: /usr/share/applications/YaST2/sw_source.desktop:20
+msgctxt "Name(sw_source.desktop)"
+msgid "Software Repositories"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sw_source.desktop:21
+msgctxt "GenericName(sw_source.desktop)"
+msgid ""
+"Choose the repositories for installation of software packages (CD, network, "
+"etc.), add the community repositories"
+msgstr ""
+
 #: /usr/share/applications/YaST2/printer.desktop:23
 msgctxt "Name(printer.desktop)"
 msgid "Printer"
@@ -523,14 +592,24 @@ msgctxt "GenericName(proxy.desktop)"
 msgid "Configure a proxy"
 msgstr ""
 
-#: /usr/share/applications/YaST2/rdp.desktop:23
+#: /usr/share/applications/YaST2/rdp.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(rdp.desktop)"
+msgid "remote,desktop,rdp"
+msgstr ""
+
+#: /usr/share/applications/YaST2/rdp.desktop:22
 msgctxt "Name(rdp.desktop)"
 msgid "Remote Administration (RDP)"
 msgstr ""
 
-#: /usr/share/applications/YaST2/rdp.desktop:24
+#: /usr/share/applications/YaST2/rdp.desktop:23
 msgctxt "GenericName(rdp.desktop)"
 msgid "Configure RDP (Remote Desktop Protocol)"
+msgstr ""
+
+#: /usr/share/applications/YaST2/rear.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(rear.desktop)"
+msgid "rear,backup"
 msgstr ""
 
 #: /usr/share/applications/YaST2/rear.desktop:22
@@ -543,6 +622,16 @@ msgctxt "GenericName(rear.desktop)"
 msgid "Configure Rear Backup"
 msgstr ""
 
+#: /usr/share/applications/YaST2/customer_center.desktop:19
+msgctxt "Name(customer_center.desktop)"
+msgid "Product Registration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/customer_center.desktop:20
+msgctxt "GenericName(customer_center.desktop)"
+msgid "Product Registration"
+msgstr ""
+
 #: /usr/share/applications/YaST2/add_extensions.desktop:14
 msgctxt "Name(add_extensions.desktop)"
 msgid "Add System Extensions or Modules"
@@ -553,14 +642,19 @@ msgctxt "GenericName(add_extensions.desktop)"
 msgid "Add System Extensions or Modules"
 msgstr ""
 
-#: /usr/share/applications/YaST2/customer_center.desktop:19
-msgctxt "Name(customer_center.desktop)"
-msgid "Product Registration"
+#: /usr/share/applications/YaST2/rmt.desktop:14
+msgctxt "Name(rmt.desktop)"
+msgid "RMT Configuration"
 msgstr ""
 
-#: /usr/share/applications/YaST2/customer_center.desktop:20
-msgctxt "GenericName(customer_center.desktop)"
-msgid "Product Registration"
+#: /usr/share/applications/YaST2/rmt.desktop:15
+msgctxt "GenericName(rmt.desktop)"
+msgid "RMT Configuration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/samba-client.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(samba-client.desktop)"
+msgid "authentication,samba,windows"
 msgstr ""
 
 #: /usr/share/applications/YaST2/samba-client.desktop:25
@@ -591,6 +685,11 @@ msgstr ""
 #: /usr/share/applications/YaST2/scanner.desktop:18
 msgctxt "GenericName(scanner.desktop)"
 msgid "Configure a scanner"
+msgstr ""
+
+#: /usr/share/applications/YaST2/security.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(security.desktop)"
+msgid "security,system settings"
 msgstr ""
 
 #: /usr/share/applications/YaST2/security.desktop:24
@@ -693,6 +792,11 @@ msgctxt "GenericName(sysconfig.desktop)"
 msgid "Change settings in /etc/sysconfig configuration files"
 msgstr ""
 
+#: /usr/share/applications/YaST2/tftp-server.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(tftp-server.desktop)"
+msgid "TFTP,server,boot,trivial,file,transfer,protocol"
+msgstr ""
+
 #: /usr/share/applications/YaST2/tftp-server.desktop:21
 msgctxt "Name(tftp-server.desktop)"
 msgid "TFTP Server"
@@ -738,6 +842,11 @@ msgctxt "Comment(update.desktop)"
 msgid "Update your system to the newest packages from FACTORY (expert tool)"
 msgstr ""
 
+#: /usr/share/applications/YaST2/users.desktop:21
+msgctxt "X-SuSE-YaST-Keywords(users.desktop)"
+msgid "user,group,authentication,login,password"
+msgstr ""
+
 #: /usr/share/applications/YaST2/users.desktop:26
 msgctxt "Name(users.desktop)"
 msgid "User and Group Management"
@@ -753,6 +862,16 @@ msgctxt "Name(virtualization.desktop)"
 msgid "Virtualization"
 msgstr ""
 
+#: /usr/share/applications/YaST2/relocation-server.desktop:21
+msgctxt "Name(relocation-server.desktop)"
+msgid "Relocation Server Configuration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/relocation-server.desktop:22
+msgctxt "GenericName(relocation-server.desktop)"
+msgid "Configure Host for Virtual Machine Migration"
+msgstr ""
+
 #: /usr/share/applications/YaST2/virtualization-config.desktop:20
 msgctxt "Name(virtualization-config.desktop)"
 msgid "Install Hypervisor and Tools"
@@ -763,14 +882,9 @@ msgctxt "GenericName(virtualization-config.desktop)"
 msgid "Install Xen or KVM with Management Tools"
 msgstr ""
 
-#: /usr/share/applications/YaST2/relocation-server.desktop:21
-msgctxt "Name(relocation-server.desktop)"
-msgid "Relocation Server Configuration"
-msgstr ""
-
-#: /usr/share/applications/YaST2/relocation-server.desktop:22
-msgctxt "GenericName(relocation-server.desktop)"
-msgid "Configure Host for Virtual Machine Migration"
+#: /usr/share/applications/YaST2/vpn.desktop:34
+msgctxt "X-SuSE-YaST-Keywords(vpn.desktop)"
+msgid "vpn,ipsec,gateway"
 msgstr ""
 
 #: /usr/share/applications/YaST2/vpn.desktop:39
@@ -783,14 +897,24 @@ msgctxt "GenericName(vpn.desktop)"
 msgid "Configure VPN gateway and clients using IPSec"
 msgstr ""
 
-#: /usr/share/applications/YaST2/messages.desktop:22
-msgctxt "Name(messages.desktop)"
-msgid "System Log"
+#: /usr/share/applications/YaST2/groups/software.desktop:15
+msgctxt "Name(software.desktop)"
+msgid "Software"
 msgstr ""
 
-#: /usr/share/applications/YaST2/messages.desktop:23
-msgctxt "GenericName(messages.desktop)"
-msgid "Display the system's log (/var/log/messages)"
+#: /usr/share/applications/YaST2/groups/network_services.desktop:15
+msgctxt "Name(network_services.desktop)"
+msgid "Network Services"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/system.desktop:15
+msgctxt "Name(system.desktop)"
+msgid "System"
+msgstr ""
+
+#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
+msgctxt "Name(high_availability.desktop)"
+msgid "High Availability"
 msgstr ""
 
 #: /usr/share/applications/YaST2/groups/misc.desktop:15
@@ -803,27 +927,17 @@ msgctxt "Name(hardware.desktop)"
 msgid "Hardware"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/network_services.desktop:15
-msgctxt "Name(network_services.desktop)"
-msgid "Network Services"
-msgstr ""
-
-#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
-msgctxt "Name(high_availability.desktop)"
-msgid "High Availability"
-msgstr ""
-
 #: /usr/share/applications/YaST2/groups/security.desktop:15
 msgctxt "Name(security.desktop)"
 msgid "Security and Users"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/software.desktop:15
-msgctxt "Name(software.desktop)"
-msgid "Software"
+#: /usr/share/applications/YaST2/messages.desktop:22
+msgctxt "Name(messages.desktop)"
+msgid "System Log"
 msgstr ""
 
-#: /usr/share/applications/YaST2/groups/system.desktop:15
-msgctxt "Name(system.desktop)"
-msgid "System"
+#: /usr/share/applications/YaST2/messages.desktop:23
+msgctxt "GenericName(messages.desktop)"
+msgid "Display the system's log (/var/log/messages)"
 msgstr ""
