@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2019-01-08 09:45+0000\n"
+"POT-Creation-Date: 2019-01-31 12:29+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,6 +9,105 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:12
+msgctxt "Description(org.freedesktop.ModemManager1.Control)"
+msgid "Control the Modem Manager daemon"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:25
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
+msgid "Unlock and control a mobile broadband device"
+msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:38
+msgctxt "Description(org.freedesktop.ModemManager1.Contacts)"
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:51
+msgctxt "Description(org.freedesktop.ModemManager1.Messaging)"
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:62
+msgctxt "Description(org.freedesktop.ModemManager1.Voice)"
+msgid "Accept incoming voice calls or start outgoing voice calls."
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:71
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Location)"
+msgid "Enable and view geographic location and positioning information"
+msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:84
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.USSD)"
+msgid "Query and utilize network information and services"
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:97
+#, fuzzy
+msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
+msgid "Query and manage firmware on a mobile broadband device"
+msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:15
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Control)"
+msgid "System policy prevents controlling the Modem Manager."
+msgstr "Овлашћења система онемогућавају контролу мрежних веза"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:28
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr ""
+"Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:41
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
+msgid ""
+"System policy prevents adding, modifying, or deleting this device's contacts."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:54
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
+msgid ""
+"System policy prevents sending or manipulating this device's text messages."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:63
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Voice)"
+msgid "System policy prevents voice calls."
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:74
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Location)"
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:87
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
+msgid ""
+"System policy prevents querying or utilizing network information and "
+"services."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.ModemManager1.policy:100
+#, fuzzy
+msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
+msgid "System policy prevents querying or managing this device's firmware."
+msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:12
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
@@ -20,7 +119,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.reload)"
 msgid "Reload NetworkManager configuration"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:123
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:129
 msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
 msgid ""
 "Put NetworkManager to sleep or wake it up (should only be used by system "
@@ -29,55 +128,55 @@ msgstr ""
 "Омогућава успављивање Управника мреже (користи се са Управником потрошње на "
 "систему)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:210
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:216
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
 msgid "Enable or disable WiFi devices"
 msgstr "Омогући или онемогући бежичне уређаје"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:298
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:304
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "Enable or disable mobile broadband devices"
 msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:386
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:392
 #, fuzzy
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid "Enable or disable WiMAX mobile broadband devices"
 msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:468
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:474
 msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
 msgid "Allow control of network connections"
 msgstr "Дозволи контролу мрежних веза"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:557
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:563
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
 msgid "Connection sharing via a protected WiFi network"
 msgstr "Веза се дели преко заштићене бежичне мреже"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:651
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:657
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "Connection sharing via an open WiFi network"
 msgstr "Веза се дели преко отворене бежичне мреже"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:745
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:751
 #, fuzzy
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "Modify personal network connections"
 msgstr "Дозволи контролу мрежних веза"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:825
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:831
 #, fuzzy
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "Modify network connections for all users"
 msgstr "Измени подешавања боје за уређај"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:905
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:911
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "Modify persistent system hostname"
 msgstr "Трајно измени име хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:999
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1005
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
 #| msgid "Modify system-wide configuration"
@@ -86,12 +185,12 @@ msgctxt ""
 msgid "Modify persistent global DNS configuration"
 msgstr "Измените свеопшта подешавања система"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1037
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1043
 msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
 msgid "Perform a checkpoint or rollback of interfaces configuration"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1059
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1069
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "Enable or disable WiFi devices"
@@ -99,7 +198,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
 msgid "Enable or disable device statistics"
 msgstr "Омогући или онемогући бежичне уређаје"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1080
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1096
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
 #| msgid "Enable or disable system networking"
@@ -113,29 +212,29 @@ msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-network)"
 msgid "System policy prevents enabling or disabling system networking"
 msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:107
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:110
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.reload)"
 msgid "System policy prevents reloading NetworkManager"
 msgstr "Овлашћења система онемогућавају контролу мрежних веза"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:163
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:169
 msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
 msgid "System policy prevents putting NetworkManager to sleep or waking it up"
 msgstr "Овлашћења система онемогућавају успављивање Управника мрежом"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:251
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:257
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 msgid "System policy prevents enabling or disabling WiFi devices"
 msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:339
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:345
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "System policy prevents enabling or disabling mobile broadband devices"
 msgstr ""
 "Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:424
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:430
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid ""
@@ -143,41 +242,41 @@ msgid ""
 msgstr ""
 "Овлашћења система онемогућавају управљање мобилним широкопојасним уређајима"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:509
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:515
 msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
 msgid "System policy prevents control of network connections"
 msgstr "Овлашћења система онемогућавају контролу мрежних веза"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:601
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:607
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
 msgid "System policy prevents sharing connections via a protected WiFi network"
 msgstr ""
 "Овлашћења система не дозвољавају дељење везе преко заштићене бежичне мреже"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:695
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:701
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "System policy prevents sharing connections via an open WiFi network"
 msgstr ""
 "Овлашћења система не дозвољавају дељење везе преко отворене бежичне мреже"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:781
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:787
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "System policy prevents modification of personal network settings"
 msgstr "Овлашћења система не дозвољавају измену хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:861
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:867
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "System policy prevents modification of network settings for all users"
 msgstr "Овлашћења система не дозвољавају измену хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:948
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:954
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "System policy prevents modification of the persistent system hostname"
 msgstr "Овлашћења система не дозвољавају измену хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1014
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1020
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -188,7 +287,7 @@ msgid ""
 "configuration"
 msgstr "Овлашћења система не дозвољавају измену хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1044
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1052
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -197,7 +296,7 @@ msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
 msgid "System policy prevents the creation of a checkpoint or its rollback"
 msgstr "Овлашћења система не дозвољавају измену хоста"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1066
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1079
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -205,7 +304,7 @@ msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-statistics)"
 msgid "System policy prevents enabling or disabling device statistics"
 msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1087
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1105
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -267,7 +366,7 @@ msgctxt "Description(org.freedesktop.packagekit.system-sources-configure)"
 msgid "Change software repository parameters"
 msgstr "Измени параметре извора софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:835
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:853
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
 #| msgid "Refresh system sources"
@@ -275,38 +374,38 @@ msgctxt "Description(org.freedesktop.packagekit.system-sources-refresh)"
 msgid "Refresh system repositories"
 msgstr "Освежи системске ризнице"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:863
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:899
 msgctxt ""
 "Description(org.freedesktop.packagekit.system-network-proxy-configure)"
 msgid "Set network proxy"
 msgstr "Постави мрежног посредника"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:953
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:989
 msgctxt "Description(org.freedesktop.packagekit.device-rebind)"
 msgid "Reload a device"
 msgstr "Поново учитај уређај"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1061
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1097
 msgctxt "Description(org.freedesktop.packagekit.upgrade-system)"
 msgid "Upgrade System"
 msgstr "Надогради систем"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1126
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1162
 msgctxt "Description(org.freedesktop.packagekit.repair-system)"
 msgid "Repair System"
 msgstr "Поправи систем"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1207
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1243
 msgctxt "Description(org.freedesktop.packagekit.trigger-offline-update)"
 msgid "Trigger offline updates"
 msgstr "Окини ванмрежна ажурирања"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1284
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1320
 msgctxt "Description(org.freedesktop.packagekit.trigger-offline-upgrade)"
 msgid "Trigger offline updates"
 msgstr "Окини ванмрежна ажурирања"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1361
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1397
 msgctxt "Description(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Clear offline update message"
 msgstr "Очисти поруку ванмрежног ажурирања"
@@ -363,7 +462,7 @@ msgctxt "Message(org.freedesktop.packagekit.system-update)"
 msgid "Authentication is required to update software"
 msgstr "Потребно је потврђивање идентитета за ажурирање софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:816
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:825
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
 #| msgid "Authentication is required to change software source parameters"
@@ -372,7 +471,7 @@ msgid "Authentication is required to change software repository parameters"
 msgstr ""
 "Потребно је потврђивање идентитета за измену параметара извора софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:844
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:871
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
 #| msgid "Authentication is required to refresh the system sources"
@@ -380,7 +479,7 @@ msgctxt "Message(org.freedesktop.packagekit.system-sources-refresh)"
 msgid "Authentication is required to refresh the system repositories"
 msgstr "Потребно је потврђивање идентитета за освежавање системских ризница"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:912
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:948
 msgctxt "Message(org.freedesktop.packagekit.system-network-proxy-configure)"
 msgid ""
 "Authentication is required to set the network proxy used for downloading "
@@ -389,34 +488,34 @@ msgstr ""
 "Потребно је потврђивање идентитета за подешавање мрежног посредника "
 "коришћеног за преузимање софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1002
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1038
 msgctxt "Message(org.freedesktop.packagekit.device-rebind)"
 msgid "Authentication is required to reload the device with a new driver"
 msgstr ""
 "Потребно је потврђивање идентитета за поновно учитавање уређаја са новим "
 "управљачким програмом"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1089
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1125
 msgctxt "Message(org.freedesktop.packagekit.upgrade-system)"
 msgid "Authentication is required to upgrade the operating system"
 msgstr "Потребно је потврђивање идентитета за надоградњу система"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1163
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1199
 msgctxt "Message(org.freedesktop.packagekit.repair-system)"
 msgid "Authentication is required to repair the installed software"
 msgstr "Потребно је потврђивање идентитета за поправку инсталираног софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1240
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1276
 msgctxt "Message(org.freedesktop.packagekit.trigger-offline-update)"
 msgid "Authentication is required to trigger offline updates"
 msgstr "Потребно је потврђивање идентитета за окидање ванмрежних ажурирања"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1317
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1353
 msgctxt "Message(org.freedesktop.packagekit.trigger-offline-upgrade)"
 msgid "Authentication is required to trigger offline updates"
 msgstr "Потребно је потврђивање идентитета за окидање ванмрежних ажурирања"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1394
+#: /usr/share/polkit-1/actions/org.freedesktop.packagekit.policy:1430
 msgctxt "Message(org.freedesktop.packagekit.clear-offline-update)"
 msgid "Authentication is required to clear the offline updates message"
 msgstr ""
@@ -516,11 +615,16 @@ msgstr "Покрени ДХЦП клијента"
 
 #: /usr/share/polkit-1/actions/org.blueman.policy:189
 #, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
-#| msgid "Save wallet configuration"
-msgctxt "Description(org.blueman.bluez.config)"
-msgid "Bluetooth Configuration"
-msgstr "Сачувај поставу новчаника"
+#| msgctxt "Description(org.blueman.dhcp.client)"
+#| msgid "Launch DHCP client"
+msgctxt "Description(org.blueman.pppd.pppconnect)"
+msgid "Launch PPP daemon"
+msgstr "Покрени ДХЦП клијента"
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:198
+msgctxt "Description(org.blueman.rfkill.setstate)"
+msgid "Set RfKill State"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.blueman.policy:55
 #, fuzzy
@@ -535,13 +639,21 @@ msgctxt "Message(org.blueman.dhcp.client)"
 msgid "Launching DHCP client requires privileges"
 msgstr "За покретање ДХЦП клијента су потребна овлашћења"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:233
+#: /usr/share/polkit-1/actions/org.blueman.policy:190
 #, fuzzy
-#| msgctxt "Message(org.kde.fontinst.manage)"
-#| msgid "Modifying the system-wide font configuration requires privileges."
-msgctxt "Message(org.blueman.bluez.config)"
-msgid "Changing Bluetooth system settings requires privileges"
-msgstr "Мењање поставе системских фонтова захтева овлашћења."
+#| msgctxt "Message(org.blueman.dhcp.client)"
+#| msgid "Launching DHCP client requires privileges"
+msgctxt "Message(org.blueman.pppd.pppconnect)"
+msgid "Launching PPP daemon requires privileges"
+msgstr "За покретање ДХЦП клијента су потребна овлашћења"
+
+#: /usr/share/polkit-1/actions/org.blueman.policy:199
+#, fuzzy
+#| msgctxt "Message(org.blueman.dhcp.client)"
+#| msgid "Launching DHCP client requires privileges"
+msgctxt "Message(org.blueman.rfkill.setstate)"
+msgid "Setting RfKill State requires privileges"
+msgstr "За покретање ДХЦП клијента су потребна овлашћења"
 
 #: /usr/share/polkit-1/actions/org.a11y.brlapi.policy:13
 msgctxt "Description(org.a11y.brlapi.write-display)"
@@ -556,6 +668,18 @@ msgctxt "Message(org.a11y.brlapi.write-display)"
 msgid "Privileges are required to access the braille display"
 msgstr "Потребна су овлашћења за промену времена на систему."
 
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
+msgctxt ""
+"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Modify the laptop brightness"
+msgstr "Измените осветљење преносног рачунара"
+
+#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:16
+msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+msgid "Authentication is required to modify the laptop brightness"
+msgstr ""
+"Потребно је потврђивање идентитета за промену осветљења преносног рачунара"
+
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
 #, fuzzy
 msgctxt "Description(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
@@ -568,18 +692,6 @@ msgctxt "Message(org.cinnamon.settingsdaemon.datetimemechanism.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Да измените подешавања времена и датума, морате да потврдите идентитет."
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:15
-msgctxt ""
-"Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Modify the laptop brightness"
-msgstr "Измените осветљење преносног рачунара"
-
-#: /usr/share/polkit-1/actions/org.cinnamon.settings-daemon.plugins.power.policy:16
-msgctxt "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
-msgid "Authentication is required to modify the laptop brightness"
-msgstr ""
-"Потребно је потврђивање идентитета за промену осветљења преносног рачунара"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
 #, fuzzy
@@ -682,6 +794,209 @@ msgstr ""
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "Потребно је потврђивање идентитета за коришћење сензора боје"
+
+#: /usr/share/polkit-1/actions/net.connman.vpn.policy:12
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.vpn.modify)"
+msgid "Settings configuration"
+msgstr "Сачувај поставу новчаника"
+
+#: /usr/share/polkit-1/actions/net.connman.vpn.policy:21
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.vpn.secret)"
+msgid "Secrets configuration"
+msgstr "Сачувај поставу новчаника"
+
+#: /usr/share/polkit-1/actions/net.connman.vpn.policy:13
+#, fuzzy
+msgctxt "Message(net.connman.vpn.modify)"
+msgid "Policy prevents modification of settings"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/net.connman.vpn.policy:22
+#, fuzzy
+msgctxt "Message(net.connman.vpn.secret)"
+msgid "Policy prevents modification of secrets"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:12
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.modify)"
+msgid "Settings configuration"
+msgstr "Сачувај поставу новчаника"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:21
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.secret)"
+msgid "Secrets configuration"
+msgstr "Сачувај поставу новчаника"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:13
+#, fuzzy
+msgctxt "Message(net.connman.modify)"
+msgid "Policy prevents modification of settings"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:22
+#, fuzzy
+msgctxt "Message(net.connman.secret)"
+msgid "Policy prevents modification of secrets"
+msgstr "Овлашћења система не дозвољавају измену хоста"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:11
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
+msgid "Get/Set server settings"
+msgstr "Добави/Постави подешавања сервера"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:91
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
+msgid "Get list of available devices"
+msgstr "Добави списак доступних уређаја"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:172
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+msgid "Set a printer as default printer"
+msgstr "Постави штампач као основни штампач"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:252
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+msgid "Enable/Disable a printer"
+msgstr "Укључи/искључи штампач"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:332
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+msgid "Add/Remove/Edit a local printer"
+msgstr "Додај/Уклони/Уреди месни штампач"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:413
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+msgid "Add/Remove/Edit a remote printer"
+msgstr "Додај/Уклони/Уреди удаљени штампач"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:494
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
+msgid "Add/Remove/Edit a class"
+msgstr "Додај/Уклони/Уреди разред"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:574
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
+msgid "Restart/Cancel/Edit a job"
+msgstr "Поново покрени/Откажи/Уреди посао"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:653
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+msgid "Restart/Cancel/Edit a job owned by another user"
+msgstr "Поново покрени/Откажи/Уреди посао у власништву другог корисника"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:731
+#, fuzzy
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
+msgid "Change printer settings"
+msgstr "Измените подешавања времена и датума на систему"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:812
+msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+msgid "Add/Remove/Edit a printer"
+msgstr "Додај/Уклони/Уреди штампач"
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:47
+#, fuzzy
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
+msgid "Privileges are required to get/set server settings."
+msgstr "Потребна су овлашћења за промену времена на систему."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:127
+#, fuzzy
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
+#| msgid "Privileges are required to change the system time."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+msgid "Privileges are required to get list of available devices."
+msgstr "Потребна су овлашћења за промену времена на систему."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:208
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.enroll)"
+#| msgid "Privileges are required to enroll new fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
+msgid ""
+"Privileges are required to set a printer, or a class, as default printer."
+msgstr "Потребна су овлашћења за учитавање отиска прста."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:288
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#| msgid "Privileges are required to enroll new fingerprints for other users."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
+msgid "Privileges are required to enable/disable a printer, or a class."
+msgstr "Потребна су овлашћења за учитавање отиска прста за остале кориснике."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:369
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
+msgid "Privileges are required to add/remove/edit a local printer."
+msgstr "Потребна су овлашћења за проверу отиска прста."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:450
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
+msgid "Privileges are required to add/remove/edit a remote printer."
+msgstr "Потребна су овлашћења за проверу отиска прста."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:530
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
+msgid "Privileges are required to add/remove/edit a class."
+msgstr "Потребна су овлашћења за проверу отиска прста."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:610
+#, fuzzy
+#| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
+#| msgid "Privileges are required to change the system time zone."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
+msgid "Privileges are required to restart/cancel/edit a job."
+msgstr "Потребна су овлашћења за промену временске зоне на систему."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:688
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.setusername)"
+#| msgid "Privileges are required to enroll new fingerprints for other users."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
+msgid ""
+"Privileges are required to restart/cancel/edit a job owned by another user."
+msgstr "Потребна су овлашћења за учитавање отиска прста за остале кориснике."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:768
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
+msgid ""
+"Privileges are required to change printer settings. This should only be "
+"needed from the Printers system settings panel."
+msgstr ""
+"Потребне су повластице за мењање подешавања штампача. Ово ће бити потребно "
+"једино из панела за системско подешавање штампача."
+
+#: /usr/share/polkit-1/actions/org.opensuse.cupspkhelper.mechanism.policy:849
+#, fuzzy
+#| msgctxt "Message(net.reactivated.fprint.device.verify)"
+#| msgid "Privileges are required to verify fingerprints."
+msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
+msgid "Privileges are required to add/remove/edit a printer."
+msgstr "Потребна су овлашћења за проверу отиска прста."
 
 #: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
@@ -921,7 +1236,7 @@ msgctxt "Description(org.freedesktop.fwupd.downgrade-internal)"
 msgid "Install old version of system firmware"
 msgstr "Инсталирај старије издање инсталираног пакета"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:175
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:176
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install)"
 #| msgid "Install signed package"
@@ -929,7 +1244,7 @@ msgctxt "Description(org.freedesktop.fwupd.update-hotplug-trusted)"
 msgid "Install signed device firmware"
 msgstr "Инсталирај потписани пакет"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:228
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:229
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install)"
 #| msgid "Install signed package"
@@ -937,7 +1252,7 @@ msgctxt "Description(org.freedesktop.fwupd.update-hotplug)"
 msgid "Install unsigned device firmware"
 msgstr "Инсталирај потписани пакет"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:281
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:282
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install)"
 #| msgid "Install signed package"
@@ -945,17 +1260,17 @@ msgctxt "Description(org.freedesktop.fwupd.downgrade-hotplug)"
 msgid "Install unsigned device firmware"
 msgstr "Инсталирај потписани пакет"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:332
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:334
 msgctxt "Description(org.freedesktop.fwupd.device-unlock)"
 msgid "Unlock the device to allow access"
 msgstr "Откључајте уређај да бисте дозволили приступ"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:385
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:387
 msgctxt "Description(org.freedesktop.fwupd.verify-update)"
 msgid "Update the stored device verification information"
 msgstr "Ажурирајте причуване податке потврђивања уређаја"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:431
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:433
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.color-manager.modify-profile)"
 #| msgid "Modify a color profile"
@@ -987,7 +1302,7 @@ msgctxt "Message(org.freedesktop.fwupd.downgrade-internal)"
 msgid "Authentication is required to downgrade the firmware on this machine"
 msgstr "Потребно је потврђивање идентитета за разграђивање софтвера"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:198
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:199
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
 #| msgid ""
@@ -999,7 +1314,7 @@ msgstr ""
 "Потребно је да се идентификујете да бисте напоменули фирмверу да се подигне "
 "у режиму подешавања интерфејса."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:251
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:252
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.login1.set-reboot-to-firmware-setup)"
 #| msgid ""
@@ -1011,7 +1326,7 @@ msgstr ""
 "Потребно је да се идентификујете да бисте напоменули фирмверу да се подигне "
 "у режиму подешавања интерфејса."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:304
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:305
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase)"
 #| msgid ""
@@ -1023,7 +1338,7 @@ msgid ""
 msgstr ""
 "Потребно је потврђивање идентитета за измену лозинке шифрованог уређаја"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:355
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:357
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.udisks2.open-device)"
 #| msgid "Authentication is required to open a device"
@@ -1031,7 +1346,7 @@ msgctxt "Message(org.freedesktop.fwupd.device-unlock)"
 msgid "Authentication is required to unlock a device"
 msgstr "Потребно је потврђивање идентитета за отварање уређаја"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:405
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:407
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.color-manager.modify-device)"
 #| msgid "Authentication is required to modify the color settings for a device"
@@ -1040,7 +1355,7 @@ msgid ""
 "Authentication is required to update the stored checksums for the device"
 msgstr "Потребно је потврђивање идентитета за мењање подешавања боје за уређај"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:449
+#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:452
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 #| msgid "Authentication is required to downgrade software"
@@ -1049,6 +1364,17 @@ msgid ""
 "Authentication is required to modify a configured remote used for firmware "
 "updates"
 msgstr "Потребно је потврђивање идентитета за разграђивање софтвера"
+
+#: /usr/share/polkit-1/actions/org.opensuse.zoneswitcher.policy:13
+msgctxt "Description(org.opensuse.zoneswitcher.control)"
+msgid "allow to switch firewall zones"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.opensuse.zoneswitcher.policy:14
+#, fuzzy
+msgctxt "Message(org.opensuse.zoneswitcher.control)"
+msgid "System policy prevents changing firewall zones"
+msgstr "Системске смернице спречавају постављање нивоа осветљаја."
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:11
 msgctxt "Description(org.gnome.gconf.defaults.set-system)"
@@ -1069,16 +1395,6 @@ msgstr "Неопходна су овлашћења за промену сист�
 msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Privileges are required to change GConf mandatory values"
 msgstr "Неопходна су овлашћења за промену обавезних вредности Гконфа"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
-msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
-msgid "Manage user accounts"
-msgstr "Управљајте корисничким налозима"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:82
-msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
-msgid "Authentication is required to change user data"
-msgstr "Потребно је потврђивање идентитета за промену корисничких података"
 
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
 msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
@@ -1102,6 +1418,16 @@ msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Потребно је потврђивање идентитета за укључивање или искључивање удаљеног "
 "пријављивања"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
+msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
+msgid "Manage user accounts"
+msgstr "Управљајте корисничким налозима"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:82
+msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
+msgid "Authentication is required to change user data"
+msgstr "Потребно је потврђивање идентитета за промену корисничких података"
 
 #: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:12
 msgctxt "Description(org.gnome.MultiWriter.probe)"
@@ -1189,12 +1515,12 @@ msgctxt "Description(org.gtk.vfs.file-operations-helper)"
 msgid "Perform file operations"
 msgstr "Обавите радње над датотеком"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:67
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:51
 msgctxt "Description(org.gtk.vfs.file-operations)"
 msgid "Perform file operations"
 msgstr "Обавите радње над датотеком"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:33
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:25
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -1202,7 +1528,7 @@ msgctxt "Message(org.gtk.vfs.file-operations-helper)"
 msgid "Authentication is required to perform file operations"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:93
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:69
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -1210,13 +1536,46 @@ msgctxt "Message(org.gtk.vfs.file-operations)"
 msgid "Authentication is required to perform file operations"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:9
-msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
+#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:7
+msgctxt "Description(com.hp.driveguard.toggle)"
+msgid "Toggle Protection"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:15
+#, fuzzy
+msgctxt "Description(com.hp.driveguard.install-setup)"
+msgid "Install HP drive-guard system setup"
+msgstr ""
+"Потребно је потврђивање идентитета за инсталирање подешавања више екрана за "
+"све кориснике"
+
+#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:8
+#, fuzzy
+msgctxt "Message(com.hp.driveguard.toggle)"
+msgid "Enable or disable HP drive-guard protection"
+msgstr "Укључите или искључите удаљено пријављивање"
+
+#: /usr/share/polkit-1/actions/com.hp.driveguard.policy:16
+#, fuzzy
+msgctxt "Message(com.hp.driveguard.install-setup)"
+msgid "Authentication is required to install HP drive-guard system setup"
+msgstr ""
+"Потребно је потврђивање идентитета за инсталирање подешавања више екрана за "
+"све кориснике"
+
+#: /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy:9
+#, fuzzy
+#| msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
+#| msgid "Set RTC wakeup time"
+msgctxt "Description(org.kde.kalarm.rtcwake.settimer)"
 msgid "Set RTC wakeup time"
 msgstr "Постави РТЦ време буђења"
 
-#: /usr/share/polkit-1/actions/org.kde.kalarmrtcwake.policy:47
-msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
+#: /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy:47
+#, fuzzy
+#| msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
+#| msgid "Set RTC wake-from-suspend time"
+msgctxt "Message(org.kde.kalarm.rtcwake.settimer)"
 msgid "Set RTC wake-from-suspend time"
 msgstr "Постави РТЦ време буђења из суспендованости"
 
@@ -1250,6 +1609,47 @@ msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
 msgid "Removes a previously installed SDDM theme"
 msgstr "Уклања претходно инсталирану тему за СДДМ"
 
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
+msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
+msgid "Change CPU Scheduler and priority"
+msgstr "Промени распоређивач ЦПУ‑а и приоритет"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:128
+msgctxt "Description(org.kde.ksysguard.processlisthelper.changeioscheduler)"
+msgid "Change IO Scheduler and priority"
+msgstr "Промени распоређивач У/И‑ја и приоритет"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:249
+msgctxt "Description(org.kde.ksysguard.processlisthelper.renice)"
+msgid "Change the priority of a process"
+msgstr "Промени приоритет процеса"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:375
+msgctxt "Description(org.kde.ksysguard.processlisthelper.sendsignal)"
+msgid "Kill or stop etc a process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:66
+msgctxt "Message(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
+msgid ""
+"Change which CPU scheduler is to schedule the running of a given process"
+msgstr "Мења распоређивач ЦПУ‑а којем се покорава дати процес"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:186
+msgctxt "Message(org.kde.ksysguard.processlisthelper.changeioscheduler)"
+msgid "Change how the read and writes of a given process are prioritized"
+msgstr "Мења приоритет читања и писања за дати процес"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:311
+msgctxt "Message(org.kde.ksysguard.processlisthelper.renice)"
+msgid "Change the niceness of a given process"
+msgstr "Мења финоћу датог процеса"
+
+#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:435
+msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
+msgid "Sends a given signal to a given process"
+msgstr "Шаље дати сигнал датом процесу"
+
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
 msgid "Save the date/time settings"
@@ -1259,6 +1659,16 @@ msgstr "Сачувај поставке датума и времена"
 msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
 msgid "System policies prevent you from saving the date/time settings."
 msgstr "Системске смернице спречавају уписивање поставки датума и времена."
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
+msgctxt "Description(org.kde.fontinst.manage)"
+msgid "Manage system-wide fonts."
+msgstr "Управљање системским фонтовима"
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
+msgctxt "Message(org.kde.fontinst.manage)"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
@@ -1301,16 +1711,6 @@ msgstr ""
 "За измену поставки менаџера пријављивања неопходна су администраторска "
 "овлашћења."
 
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
-msgctxt "Description(org.kde.fontinst.manage)"
-msgid "Manage system-wide fonts."
-msgstr "Управљање системским фонтовима"
-
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
-msgctxt "Message(org.kde.fontinst.manage)"
-msgid "Modifying the system-wide font configuration requires privileges."
-msgstr "Мењање поставе системских фонтова захтева овлашћења."
-
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
 msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
 msgid "Get brightness"
@@ -1340,47 +1740,6 @@ msgstr "Системске смернице спречавају постављ�
 msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
 msgid "System policies prevent you from getting the syspath"
 msgstr "Системске смернице спречавају добављање сис‑путање."
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
-msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
-msgid "Change CPU Scheduler and priority"
-msgstr "Промени распоређивач ЦПУ‑а и приоритет"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:128
-msgctxt "Description(org.kde.ksysguard.processlisthelper.changeioscheduler)"
-msgid "Change IO Scheduler and priority"
-msgstr "Промени распоређивач У/И‑ја и приоритет"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:249
-msgctxt "Description(org.kde.ksysguard.processlisthelper.renice)"
-msgid "Change the priority of a process"
-msgstr "Промени приоритет процеса"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:375
-msgctxt "Description(org.kde.ksysguard.processlisthelper.sendsignal)"
-msgid "Kill or stop etc a process"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:66
-msgctxt "Message(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
-msgid ""
-"Change which CPU scheduler is to schedule the running of a given process"
-msgstr "Мења распоређивач ЦПУ‑а којем се покорава дати процес"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:186
-msgctxt "Message(org.kde.ksysguard.processlisthelper.changeioscheduler)"
-msgid "Change how the read and writes of a given process are prioritized"
-msgstr "Мења приоритет читања и писања за дати процес"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:311
-msgctxt "Message(org.kde.ksysguard.processlisthelper.renice)"
-msgid "Change the niceness of a given process"
-msgstr "Мења финоћу датог процеса"
-
-#: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:435
-msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
-msgid "Sends a given signal to a given process"
-msgstr "Шаље дати сигнал датом процесу"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
@@ -1454,419 +1813,444 @@ msgid "List node devices"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:89
+msgctxt "Description(org.libvirt.api.connect.search-nwfilter-bindings)"
+msgid "List network filter bindings"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:98
 msgctxt "Description(org.libvirt.api.connect.search-nwfilters)"
 msgid "List network filters"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:98
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:107
 msgctxt "Description(org.libvirt.api.connect.search-secrets)"
 msgid "List secrets"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:107
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:116
 msgctxt "Description(org.libvirt.api.connect.search-storage-pools)"
 msgid "List storage pools"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:116
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:125
 msgctxt "Description(org.libvirt.api.connect.write)"
 msgid "Write host"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:125
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:134
 msgctxt "Description(org.libvirt.api.domain.block-read)"
 msgid "Read domain block"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:134
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:143
 msgctxt "Description(org.libvirt.api.domain.block-write)"
 msgid "Write domain block"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:143
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:152
 msgctxt "Description(org.libvirt.api.domain.core-dump)"
 msgid "Dump domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:152
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:161
 msgctxt "Description(org.libvirt.api.domain.delete)"
 msgid "Delete domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:161
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:170
 msgctxt "Description(org.libvirt.api.domain.fs-freeze)"
 msgid "Freeze and thaw domain filesystems"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:170
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:179
 msgctxt "Description(org.libvirt.api.domain.fs-trim)"
 msgid "Trim domain filesystems"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:179
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:188
 msgctxt "Description(org.libvirt.api.domain.getattr)"
 msgid "Access domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:188
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:197
 msgctxt "Description(org.libvirt.api.domain.hibernate)"
 msgid "Hibernate domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:197
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:206
 msgctxt "Description(org.libvirt.api.domain.init-control)"
 msgid "Domain init control"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:206
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:215
 msgctxt "Description(org.libvirt.api.domain.inject-nmi)"
 msgid "Inject domain NMI"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:215
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:224
 msgctxt "Description(org.libvirt.api.domain.mem-read)"
 msgid "Read domain memory"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:224
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:233
 msgctxt "Description(org.libvirt.api.domain.migrate)"
 msgid "Migrate domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:233
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:242
 msgctxt "Description(org.libvirt.api.domain.open-device)"
 msgid "Open domain device"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:242
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:251
 msgctxt "Description(org.libvirt.api.domain.open-graphics)"
 msgid "Open domain graphics"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:251
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:260
 msgctxt "Description(org.libvirt.api.domain.open-namespace)"
 msgid "Open domain namespace"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:260
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:269
 msgctxt "Description(org.libvirt.api.domain.pm-control)"
 msgid "Use domain power management"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:269
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:278
 msgctxt "Description(org.libvirt.api.domain.read)"
 msgid "Read domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:278
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:287
 msgctxt "Description(org.libvirt.api.domain.read-secure)"
 msgid "Read secure domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:287
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:296
 msgctxt "Description(org.libvirt.api.domain.reset)"
 msgid "Reset domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:296
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:305
 msgctxt "Description(org.libvirt.api.domain.save)"
 msgid "Save domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:305
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:314
 msgctxt "Description(org.libvirt.api.domain.screenshot)"
 msgid "Take domain screenshot"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:314
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:323
 msgctxt "Description(org.libvirt.api.domain.send-input)"
 msgid "Send domain input"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:323
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:332
 msgctxt "Description(org.libvirt.api.domain.send-signal)"
 msgid "Send domain signal"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:332
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:341
 msgctxt "Description(org.libvirt.api.domain.set-password)"
 msgid "Set password of the domain's account"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:341
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:350
 msgctxt "Description(org.libvirt.api.domain.set-time)"
 msgid "Write domain time"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:350
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:359
 msgctxt "Description(org.libvirt.api.domain.snapshot)"
 msgid "Snapshot domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:359
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:368
 msgctxt "Description(org.libvirt.api.domain.start)"
 msgid "Start domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:368
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:377
 msgctxt "Description(org.libvirt.api.domain.stop)"
 msgid "Stop domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:377
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:386
 msgctxt "Description(org.libvirt.api.domain.suspend)"
 msgid "Suspend domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:386
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:395
 msgctxt "Description(org.libvirt.api.domain.write)"
 msgid "Write domain"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:395
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:404
 msgctxt "Description(org.libvirt.api.interface.delete)"
 msgid "Delete interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:404
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:413
 msgctxt "Description(org.libvirt.api.interface.getattr)"
 msgid "Access interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:413
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:422
 msgctxt "Description(org.libvirt.api.interface.read)"
 msgid "Read interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:422
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:431
 msgctxt "Description(org.libvirt.api.interface.save)"
 msgid "Save interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:431
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:440
 msgctxt "Description(org.libvirt.api.interface.start)"
 msgid "Start interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:440
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:449
 msgctxt "Description(org.libvirt.api.interface.stop)"
 msgid "Stop interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:449
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:458
 msgctxt "Description(org.libvirt.api.interface.write)"
 msgid "Write interface"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:458
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:467
 msgctxt "Description(org.libvirt.api.network.delete)"
 msgid "Delete network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:467
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:476
 msgctxt "Description(org.libvirt.api.network.getattr)"
 msgid "Access network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:476
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:485
 msgctxt "Description(org.libvirt.api.network.read)"
 msgid "Read network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:485
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:494
 msgctxt "Description(org.libvirt.api.network.save)"
 msgid "Save network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:494
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:503
 msgctxt "Description(org.libvirt.api.network.start)"
 msgid "Start network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:503
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:512
 msgctxt "Description(org.libvirt.api.network.stop)"
 msgid "Stop network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:512
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:521
 msgctxt "Description(org.libvirt.api.network.write)"
 msgid "Write network"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:521
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:530
 #, fuzzy
 msgctxt "Description(org.libvirt.api.node-device.detach)"
 msgid "Detach node device"
 msgstr "Проверите уређај"
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:530
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:539
 msgctxt "Description(org.libvirt.api.node-device.getattr)"
 msgid "Access node device"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:539
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:548
 #, fuzzy
 msgctxt "Description(org.libvirt.api.node-device.read)"
 msgid "Read node device"
 msgstr "Проверите уређај"
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:548
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:557
 msgctxt "Description(org.libvirt.api.node-device.start)"
 msgid "Start node device"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:557
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:566
 msgctxt "Description(org.libvirt.api.node-device.stop)"
 msgid "Stop node device"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:566
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:575
 #, fuzzy
 msgctxt "Description(org.libvirt.api.node-device.write)"
 msgid "Write node device"
 msgstr "Проверите уређај"
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:575
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:584
 msgctxt "Description(org.libvirt.api.nwfilter.delete)"
 msgid "Delete network filter"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:584
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:593
 msgctxt "Description(org.libvirt.api.nwfilter.getattr)"
 msgid "Access network filter"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:593
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:602
 msgctxt "Description(org.libvirt.api.nwfilter.read)"
 msgid "Read network filter"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:602
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:611
 msgctxt "Description(org.libvirt.api.nwfilter.save)"
 msgid "Save network filter"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:611
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:620
 msgctxt "Description(org.libvirt.api.nwfilter.write)"
 msgid "Write network filter"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:620
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:629
+msgctxt "Description(org.libvirt.api.nwfilter-binding.create)"
+msgid "Create network filter binding"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:638
+msgctxt "Description(org.libvirt.api.nwfilter-binding.delete)"
+msgid "Delete network filter binding"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:647
+msgctxt "Description(org.libvirt.api.nwfilter-binding.getattr)"
+msgid "Access network filter"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:656
+msgctxt "Description(org.libvirt.api.nwfilter-binding.read)"
+msgid "Read network filter binding"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:665
 msgctxt "Description(org.libvirt.api.secret.delete)"
 msgid "Delete secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:629
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:674
 msgctxt "Description(org.libvirt.api.secret.getattr)"
 msgid "Access secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:638
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:683
 msgctxt "Description(org.libvirt.api.secret.read)"
 msgid "Read secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:647
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:692
 msgctxt "Description(org.libvirt.api.secret.read-secure)"
 msgid "Read secure secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:656
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:701
 msgctxt "Description(org.libvirt.api.secret.save)"
 msgid "Save secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:665
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:710
 msgctxt "Description(org.libvirt.api.secret.write)"
 msgid "Write secret"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:674
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:719
 msgctxt "Description(org.libvirt.api.storage-pool.delete)"
 msgid "Delete storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:683
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:728
 msgctxt "Description(org.libvirt.api.storage-pool.format)"
 msgid "Format storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:692
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:737
 msgctxt "Description(org.libvirt.api.storage-pool.getattr)"
 msgid "Access storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:701
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:746
 msgctxt "Description(org.libvirt.api.storage-pool.read)"
 msgid "Read storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:710
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:755
 msgctxt "Description(org.libvirt.api.storage-pool.refresh)"
 msgid "Refresh storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:719
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:764
 msgctxt "Description(org.libvirt.api.storage-pool.save)"
 msgid "Save storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:728
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:773
 msgctxt "Description(org.libvirt.api.storage-pool.search-storage-vols)"
 msgid "List storage pool volumes"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:737
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:782
 msgctxt "Description(org.libvirt.api.storage-pool.start)"
 msgid "Start storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:746
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:791
 msgctxt "Description(org.libvirt.api.storage-pool.stop)"
 msgid "Stop storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:755
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:800
 msgctxt "Description(org.libvirt.api.storage-pool.write)"
 msgid "Write storage pool"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:764
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:809
 msgctxt "Description(org.libvirt.api.storage-vol.create)"
 msgid "Create storage volume"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:773
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:818
 msgctxt "Description(org.libvirt.api.storage-vol.data-read)"
 msgid "Read storage volume data"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:782
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:827
 msgctxt "Description(org.libvirt.api.storage-vol.data-write)"
 msgid "Write storage volume data"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:791
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:836
 msgctxt "Description(org.libvirt.api.storage-vol.delete)"
 msgid "Delete storage volume"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:800
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:845
 msgctxt "Description(org.libvirt.api.storage-vol.format)"
 msgid "Format storage volume"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:809
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:854
 msgctxt "Description(org.libvirt.api.storage-vol.getattr)"
 msgid "Access storage volume"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:818
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:863
 msgctxt "Description(org.libvirt.api.storage-vol.read)"
 msgid "Read storage volume"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:827
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:872
 msgctxt "Description(org.libvirt.api.storage-vol.resize)"
 msgid "Resize storage volume"
 msgstr ""
@@ -1918,435 +2302,467 @@ msgid "Listing node devices requires authorization"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:90
+#, fuzzy
+msgctxt "Message(org.libvirt.api.connect.search-nwfilter-bindings)"
+msgid "Listing network filter bindings requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:99
 msgctxt "Message(org.libvirt.api.connect.search-nwfilters)"
 msgid "Listing network filters requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:99
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:108
 msgctxt "Message(org.libvirt.api.connect.search-secrets)"
 msgid "Listing secrets requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:108
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:117
 msgctxt "Message(org.libvirt.api.connect.search-storage-pools)"
 msgid "Listing storage pools requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:117
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:126
 #, fuzzy
 msgctxt "Message(org.libvirt.api.connect.write)"
 msgid "Writing the host configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:126
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:135
 msgctxt "Message(org.libvirt.api.domain.block-read)"
 msgid "Reading domain block devices requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:135
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:144
 msgctxt "Message(org.libvirt.api.domain.block-write)"
 msgid "Writing domain block devices requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:144
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:153
 msgctxt "Message(org.libvirt.api.domain.core-dump)"
 msgid "Dumping domain corefile requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:153
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:162
 msgctxt "Message(org.libvirt.api.domain.delete)"
 msgid "Deleting domain configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:162
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:171
 msgctxt "Message(org.libvirt.api.domain.fs-freeze)"
 msgid "Freezing and thawing domain filesystems requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:171
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:180
 msgctxt "Message(org.libvirt.api.domain.fs-trim)"
 msgid "Trimming domain filesystems requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:180
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:189
 msgctxt "Message(org.libvirt.api.domain.getattr)"
 msgid "Accessing the domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:189
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:198
 msgctxt "Message(org.libvirt.api.domain.hibernate)"
 msgid "Saving domain state requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:198
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:207
 msgctxt "Message(org.libvirt.api.domain.init-control)"
 msgid "Controlling domain init process requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:207
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:216
 msgctxt "Message(org.libvirt.api.domain.inject-nmi)"
 msgid "Injecting interrupt requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:216
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:225
 msgctxt "Message(org.libvirt.api.domain.mem-read)"
 msgid "Reading domain memory requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:225
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:234
 msgctxt "Message(org.libvirt.api.domain.migrate)"
 msgid "Migrating domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:234
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:243
 msgctxt "Message(org.libvirt.api.domain.open-device)"
 msgid "Opening domain devices requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:243
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:252
 msgctxt "Message(org.libvirt.api.domain.open-graphics)"
 msgid "Opening domain graphics console requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:252
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:261
 msgctxt "Message(org.libvirt.api.domain.open-namespace)"
 msgid "Opening domain namespaces requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:261
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:270
 msgctxt "Message(org.libvirt.api.domain.pm-control)"
 msgid "Using domain power management requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:270
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:279
 #, fuzzy
 msgctxt "Message(org.libvirt.api.domain.read)"
 msgid "Reading domain configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:279
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:288
 #, fuzzy
 msgctxt "Message(org.libvirt.api.domain.read-secure)"
 msgid "Reading secure domain configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:288
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:297
 msgctxt "Message(org.libvirt.api.domain.reset)"
 msgid "Resetting the domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:297
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:306
 msgctxt "Message(org.libvirt.api.domain.save)"
 msgid "Saving domain configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:306
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:315
 msgctxt "Message(org.libvirt.api.domain.screenshot)"
 msgid "Taking domain screenshots requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:315
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:324
 msgctxt "Message(org.libvirt.api.domain.send-input)"
 msgid "Sending input events to domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:324
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:333
 msgctxt "Message(org.libvirt.api.domain.send-signal)"
 msgid "Sending signals to processes in domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:333
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:342
 msgctxt "Message(org.libvirt.api.domain.set-password)"
 msgid "Setting the domain accounts' password requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:342
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:351
 msgctxt "Message(org.libvirt.api.domain.set-time)"
 msgid "Setting the domain time requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:351
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:360
 msgctxt "Message(org.libvirt.api.domain.snapshot)"
 msgid "Snapshotting domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:360
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:369
 msgctxt "Message(org.libvirt.api.domain.start)"
 msgid "Starting the domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:369
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:378
 msgctxt "Message(org.libvirt.api.domain.stop)"
 msgid "Stopping the domain requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:378
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:387
 msgctxt "Message(org.libvirt.api.domain.suspend)"
 msgid "Suspending domain CPUs requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:387
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:396
 #, fuzzy
 msgctxt "Message(org.libvirt.api.domain.write)"
 msgid "Writing domain configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:396
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:405
 msgctxt "Message(org.libvirt.api.interface.delete)"
 msgid "Deleting interface configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:405
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:414
 msgctxt "Message(org.libvirt.api.interface.getattr)"
 msgid "Accessing interface requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:414
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:423
 msgctxt "Message(org.libvirt.api.interface.read)"
 msgid "Reading interface configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:423
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:432
 msgctxt "Message(org.libvirt.api.interface.save)"
 msgid "Saving interface configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:432
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:441
 msgctxt "Message(org.libvirt.api.interface.start)"
 msgid "Starting interface requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:441
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:450
 msgctxt "Message(org.libvirt.api.interface.stop)"
 msgid "Stopping interface requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:450
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:459
 msgctxt "Message(org.libvirt.api.interface.write)"
 msgid "Writing interface configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:459
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:468
 msgctxt "Message(org.libvirt.api.network.delete)"
 msgid "Deleting network configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:468
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:477
 msgctxt "Message(org.libvirt.api.network.getattr)"
 msgid "Accessing network requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:477
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:486
 #, fuzzy
 msgctxt "Message(org.libvirt.api.network.read)"
 msgid "Reading network configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:486
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:495
 #, fuzzy
 msgctxt "Message(org.libvirt.api.network.save)"
 msgid "Saving network configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:495
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:504
 msgctxt "Message(org.libvirt.api.network.start)"
 msgid "Starting network requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:504
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:513
 msgctxt "Message(org.libvirt.api.network.stop)"
 msgid "Stopping network requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:513
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:522
 #, fuzzy
 msgctxt "Message(org.libvirt.api.network.write)"
 msgid "Writing network configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:522
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:531
 msgctxt "Message(org.libvirt.api.node-device.detach)"
 msgid "Detaching node device driver requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:531
-msgctxt "Message(org.libvirt.api.node-device.getattr)"
-msgid "Accesing node device requires authorization"
-msgstr ""
-
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:540
+#, fuzzy
+msgctxt "Message(org.libvirt.api.node-device.getattr)"
+msgid "Accessing node device requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:549
 #, fuzzy
 msgctxt "Message(org.libvirt.api.node-device.read)"
 msgid "Reading node device configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:549
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:558
 msgctxt "Message(org.libvirt.api.node-device.start)"
 msgid "Starting node device requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:558
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:567
 msgctxt "Message(org.libvirt.api.node-device.stop)"
 msgid "Stopping node device requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:567
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:576
 #, fuzzy
 msgctxt "Message(org.libvirt.api.node-device.write)"
 msgid "Writing node device configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:576
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:585
 msgctxt "Message(org.libvirt.api.nwfilter.delete)"
 msgid "Deleting network filter configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:585
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:594
 msgctxt "Message(org.libvirt.api.nwfilter.getattr)"
 msgid "Accessing network filter requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:594
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:603
 #, fuzzy
 msgctxt "Message(org.libvirt.api.nwfilter.read)"
 msgid "Reading network filter configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:603
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:612
 #, fuzzy
 msgctxt "Message(org.libvirt.api.nwfilter.save)"
 msgid "Saving network filter configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:612
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:621
 #, fuzzy
 msgctxt "Message(org.libvirt.api.nwfilter.write)"
 msgid "Writing network filter configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:621
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:630
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter-binding.create)"
+msgid "Creating network filter binding requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:639
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter-binding.delete)"
+msgid "Deleting network filter binding requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:648
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter-binding.getattr)"
+msgid "Accessing network filter requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:657
+#, fuzzy
+msgctxt "Message(org.libvirt.api.nwfilter-binding.read)"
+msgid "Reading network filter configuration requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
+
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:666
 msgctxt "Message(org.libvirt.api.secret.delete)"
 msgid "Deleting secret configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:630
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:675
 msgctxt "Message(org.libvirt.api.secret.getattr)"
 msgid "Accessing secret requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:639
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:684
 #, fuzzy
 msgctxt "Message(org.libvirt.api.secret.read)"
 msgid "Reading secret configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:648
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:693
 #, fuzzy
 msgctxt "Message(org.libvirt.api.secret.read-secure)"
 msgid "Reading secure secret configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:657
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:702
 #, fuzzy
 msgctxt "Message(org.libvirt.api.secret.save)"
 msgid "Saving secret configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:666
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:711
 #, fuzzy
 msgctxt "Message(org.libvirt.api.secret.write)"
 msgid "Writing secret configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:675
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:720
 msgctxt "Message(org.libvirt.api.storage-pool.delete)"
 msgid "Deleting storage pool configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:684
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:729
 msgctxt "Message(org.libvirt.api.storage-pool.format)"
 msgid "Formatting storage pool data requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:693
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:738
 msgctxt "Message(org.libvirt.api.storage-pool.getattr)"
 msgid "Accessing storage pool requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:702
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:747
 #, fuzzy
 msgctxt "Message(org.libvirt.api.storage-pool.read)"
 msgid "Reading storage pool configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:711
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:756
 msgctxt "Message(org.libvirt.api.storage-pool.refresh)"
 msgid "Refreshing storage pool volumes requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:720
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:765
 msgctxt "Message(org.libvirt.api.storage-pool.save)"
 msgid "Saving storage pool configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:729
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:774
 msgctxt "Message(org.libvirt.api.storage-pool.search-storage-vols)"
 msgid "Listing storage pool volumes requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:738
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:783
 msgctxt "Message(org.libvirt.api.storage-pool.start)"
 msgid "Starting storage pool configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:747
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:792
 #, fuzzy
 msgctxt "Message(org.libvirt.api.storage-pool.stop)"
 msgid "Stopping storage pool configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:756
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:801
 #, fuzzy
 msgctxt "Message(org.libvirt.api.storage-pool.write)"
 msgid "Writing storage pool configuration requires authorization"
 msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:765
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:810
 msgctxt "Message(org.libvirt.api.storage-vol.create)"
 msgid "Creating storage volume requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:774
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:819
 msgctxt "Message(org.libvirt.api.storage-vol.data-read)"
 msgid "Reading storage volume data requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:783
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:828
 msgctxt "Message(org.libvirt.api.storage-vol.data-write)"
 msgid "Writing storage volume data requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:792
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:837
 msgctxt "Message(org.libvirt.api.storage-vol.delete)"
 msgid "Deleting storage volume requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:801
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:846
 msgctxt "Message(org.libvirt.api.storage-vol.format)"
 msgid "Formatting storage volume data requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:810
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:855
+#, fuzzy
 msgctxt "Message(org.libvirt.api.storage-vol.getattr)"
-msgid "Acceessing storage volume requires authorization"
-msgstr ""
+msgid "Accessing storage volume requires authorization"
+msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:819
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:864
 msgctxt "Message(org.libvirt.api.storage-vol.read)"
 msgid "Reading storage volume configuration requires authorization"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.libvirt.api.policy:828
+#: /usr/share/polkit-1/actions/org.libvirt.api.policy:873
 msgctxt "Message(org.libvirt.api.storage-vol.resize)"
 msgid "Resizing  storage volume requires authorization"
 msgstr ""
@@ -2370,6 +2786,45 @@ msgstr ""
 msgctxt "Message(org.libvirt.unix.manage)"
 msgid "System policy prevents management of local virtualized systems"
 msgstr ""
+
+#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:11
+msgctxt "Description(net.lutris.resetxpad.pkexec.run)"
+msgid "Reset xpad module"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:12
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.eject-media)"
+#| msgid "Authentication is required to eject media"
+msgctxt "Message(net.lutris.resetxpad.pkexec.run)"
+msgid "Authentication is required to reset xpad"
+msgstr "Потребно је потврђивање идентитета за избацивање медијума"
+
+#: /usr/share/polkit-1/actions/net.lutris.xboxdrvctl.policy:11
+msgctxt "Description(net.lutris.xboxdrvctl.pkexec.run)"
+msgid "Run xboxdrvctl"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/net.lutris.xboxdrvctl.policy:12
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(net.lutris.xboxdrvctl.pkexec.run)"
+msgid "Authentication is required to run xboxdrvctl"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/net.lutris.xboxdrv.policy:11
+msgctxt "Description(net.lutris.xboxdrv.pkexec.run)"
+msgid "Run xboxdrv"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/net.lutris.xboxdrv.policy:12
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(net.lutris.xboxdrv.pkexec.run)"
+msgid "Authentication is required to run xboxdrv"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
 #: /usr/share/polkit-1/actions/org.mate.randr.policy:14
 msgctxt "Description(org.mate.randr.install-system-wide)"
@@ -2476,6 +2931,23 @@ msgid ""
 "use this service."
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.nemo.share.samba_install.policy:12
+msgctxt "Description(org.nemo-share.samba_install)"
+msgid ""
+"Install the 'samba' package and add the current user to the 'sambashare' "
+"group"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.nemo.share.samba_install.policy:13
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.package-install-untrusted)"
+#| msgid "Authentication is required to install untrusted software"
+msgctxt "Message(org.nemo-share.samba_install)"
+msgid ""
+"Authentication is required to install 'samba' and add the current user to "
+"the 'sambashare' group."
+msgstr "Потребно је потврђивање идентитета за неповерљивог софтвера"
+
 #: /usr/share/polkit-1/actions/org.nemo.root.policy:12
 msgctxt "Description(org.nemo.root)"
 msgid "Run Nemo with elevated privileges"
@@ -2561,7 +3033,7 @@ msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
 msgstr "Провери постајање дискретног ГПУ‑а"
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:40
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:42
 #, fuzzy
 #| msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
 #| msgid "System policies prevent you from getting the brightness level."
@@ -2569,6 +3041,91 @@ msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
 msgstr "Системске смернице спречавају добављање поставки нивоа осветљаја."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:11
+msgctxt "Description(org.freedesktop.realmd.discover-realm)"
+msgid "Discover realm"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:57
+msgctxt "Description(org.freedesktop.realmd.configure-realm)"
+msgid "Join machine to realm"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:107
+msgctxt "Description(org.freedesktop.realmd.deconfigure-realm)"
+msgid "Remove machine from realm"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:153
+msgctxt "Description(org.freedesktop.realmd.login-policy)"
+msgid "Change login policy"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:30
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(org.freedesktop.realmd.discover-realm)"
+msgid "Authentication is required to discover a kerberos realm"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:76
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.machine1.login)"
+#| msgid "Authentication is required to log into a local container."
+msgctxt "Message(org.freedesktop.realmd.configure-realm)"
+msgid "Authentication is required to join this machine to a realm or domain"
+msgstr ""
+"Потребно је да се идентификујете да бисте се пријавили у локални контејнер."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:126
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.color-manager.delete-profile)"
+#| msgid "Authentication is required to remove a color profile"
+msgctxt "Message(org.freedesktop.realmd.deconfigure-realm)"
+msgid ""
+"Authentication is required to remove this computer from a realm or domain."
+msgstr "Потребно је потврђивање идентитета за уклањање профила боје"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:173
+#, fuzzy
+msgctxt "Message(org.freedesktop.realmd.login-policy)"
+msgid ""
+"Authentication is required to change the policy of who can log in on this "
+"computer."
+msgstr ""
+"Потребно је потврђивање идентитета за промену свеопштих подешавања система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:9
+#, fuzzy
+#| msgctxt "Description(org.kde.ksysguard.processlisthelper.renice)"
+#| msgid "Change the priority of a process"
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid "Grant high priority scheduling to a user process"
+msgstr "Промени приоритет процеса"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:21
+msgctxt "Description(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Grant realtime scheduling to a user process"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:11
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
+msgid ""
+"Authentication is required to grant an application high priority scheduling"
+msgstr ""
+"Потребно је да се идентификујете да бисте дозволили програму да спречи "
+"гашење система."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.RealtimeKit1.policy:23
+#, fuzzy
+msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
+msgid "Authentication is required to grant an application realtime scheduling"
+msgstr ""
+"Потребно је да се идентификујете да бисте дозволили програму да одложи "
+"гашење система."
 
 #: /usr/share/polkit-1/actions/scap-workbench-oscap.policy:6
 msgctxt "Description(scap-workbench-oscap.run)"
@@ -2582,6 +3139,21 @@ msgid ""
 "\"Cancel\" to scan using your current permissions."
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.spice-space.lowlevelusbaccess.policy:12
+msgctxt "Description(org.spice-space.lowlevelusbaccess)"
+msgid "Low level USB device access"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.spice-space.lowlevelusbaccess.policy:13
+#, fuzzy
+#| msgctxt "Message(org.opensuse.cupspkhelper.mechanism.devices-get)"
+#| msgid "Privileges are required to get list of available devices."
+msgctxt "Message(org.spice-space.lowlevelusbaccess)"
+msgid ""
+"Privileges are required for low level USB device access (for usb device pass "
+"through)."
+msgstr "Потребне су повластице за добављање списка доступних уређаја."
+
 #: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:13
 msgctxt "Description(org.gnome.sysprof2.perf-event-open)"
 msgid "Open a perf event stream"
@@ -2592,6 +3164,82 @@ msgstr ""
 msgctxt "Message(org.gnome.sysprof2.perf-event-open)"
 msgid "Authentication is required to access system performance counters."
 msgstr "Потребно је потврђивање идентитета за промену корисничких података"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
+msgctxt "Description(org.freedesktop.locale1.set-locale)"
+msgid "Set system locale"
+msgstr "Поставите основни језик система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
+msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
+msgid "Set system keyboard settings"
+msgstr "Поставите подешавање системске тастатуре"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
+msgctxt "Message(org.freedesktop.locale1.set-locale)"
+msgid "Authentication is required to set the system locale."
+msgstr ""
+"Потребно је да се идентификујете да бисте поставили основни језик система."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
+msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
+msgid "Authentication is required to set the system keyboard settings."
+msgstr ""
+"Потребно је да се идентификујете да бисте поставили подешавања системске "
+"тастатуре."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "Поставите системско време"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "Поставите системску временску зону"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr "Поставите RTC на локалну временску зону или UTC зону"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr "Укључите или искључите усклађивање времена са мреже"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+#| msgid "Authentication is required to set the system timezone."
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr ""
+"Потребно је да се идентификујете да бисте поставили системску временску зону."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr ""
+"Потребно је да се идентификујете да бисте поставили системску временску зону."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr ""
+"Потребно је да се идентификујете да бисте подесили да ли RTC чува локално "
+"или UTC време."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr ""
+"Потребно је да се идентификујете да бисте подесили да ли се време усклађује "
+"са мреже."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
 msgctxt "Description(org.freedesktop.systemd1.reply-password)"
@@ -3066,82 +3714,6 @@ msgstr ""
 "Потребно је да се идентификујете да бисте поставили податке о локалној "
 "машини."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
-msgctxt "Description(org.freedesktop.timedate1.set-time)"
-msgid "Set system time"
-msgstr "Поставите системско време"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
-msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-msgid "Set system timezone"
-msgstr "Поставите системску временску зону"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
-msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-msgid "Set RTC to local timezone or UTC"
-msgstr "Поставите RTC на локалну временску зону или UTC зону"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
-msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-msgid "Turn network time synchronization on or off"
-msgstr "Укључите или искључите усклађивање времена са мреже"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#| msgid "Authentication is required to set the system timezone."
-msgctxt "Message(org.freedesktop.timedate1.set-time)"
-msgid "Authentication is required to set the system time."
-msgstr ""
-"Потребно је да се идентификујете да бисте поставили системску временску зону."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
-msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-msgid "Authentication is required to set the system timezone."
-msgstr ""
-"Потребно је да се идентификујете да бисте поставили системску временску зону."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
-msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-msgid ""
-"Authentication is required to control whether the RTC stores the local or "
-"UTC time."
-msgstr ""
-"Потребно је да се идентификујете да бисте подесили да ли RTC чува локално "
-"или UTC време."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
-msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-msgid ""
-"Authentication is required to control whether network time synchronization "
-"shall be enabled."
-msgstr ""
-"Потребно је да се идентификујете да бисте подесили да ли се време усклађује "
-"са мреже."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
-msgctxt "Description(org.freedesktop.locale1.set-locale)"
-msgid "Set system locale"
-msgstr "Поставите основни језик система"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
-msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
-msgid "Set system keyboard settings"
-msgstr "Поставите подешавање системске тастатуре"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
-msgctxt "Message(org.freedesktop.locale1.set-locale)"
-msgid "Authentication is required to set the system locale."
-msgstr ""
-"Потребно је да се идентификујете да бисте поставили основни језик система."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
-msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
-msgid "Authentication is required to set the system keyboard settings."
-msgstr ""
-"Потребно је да се идентификујете да бисте поставили подешавања системске "
-"тастатуре."
-
 #: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
 msgctxt "Description(org.freedesktop.import1.import)"
 msgid "Import a VM or container image"
@@ -3276,55 +3848,50 @@ msgstr ""
 "Потребно је да се идентификујете да бисте управљали локалним виртуелним "
 "машинама и сликама контејнера."
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
-msgctxt "Description(com.redhat.tuned.gui.run)"
-msgid "Run tuned-gui as root"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
-#, fuzzy
-#| msgctxt "Message(org.gnome.MultiWriter.probe)"
-#| msgid "Authentication is required to probe the device"
-msgctxt "Message(com.redhat.tuned.gui.run)"
-msgid "Authentication is required to run tuned-gui"
-msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
-
 #: /usr/share/polkit-1/actions/com.redhat.tuned.policy:11
 msgctxt "Description(com.redhat.tuned.active_profile)"
 msgid "Show active profile"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/com.redhat.tuned.policy:21
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.color-manager.device-inhibit)"
+#| msgid "Inhibit color profile selection"
+msgctxt "Description(com.redhat.tuned.profile_mode)"
+msgid "Show current profile selection mode"
+msgstr "Наследи избор профила боје"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:31
 msgctxt "Description(com.redhat.tuned.disable)"
 msgid "Disable Tuned"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:31
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:41
 msgctxt "Description(com.redhat.tuned.is_running)"
 msgid "Check whether Tuned is running"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:41
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:51
 msgctxt "Description(com.redhat.tuned.profile_info)"
 msgid "Show information about Tuned profile"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:51
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:61
 msgctxt "Description(com.redhat.tuned.profiles)"
 msgid "List Tuned profiles"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:61
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:71
 msgctxt "Description(com.redhat.tuned.profiles2)"
 msgid "List Tuned profiles"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:71
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:81
 msgctxt "Description(com.redhat.tuned.recommend_profile)"
 msgid "Show Tuned profile name which is recommended for your system"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:81
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:91
 #, fuzzy
 #| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
 #| msgid "Save wallet configuration"
@@ -3332,27 +3899,45 @@ msgctxt "Description(com.redhat.tuned.reload)"
 msgid "Reload Tuned configuration"
 msgstr "Сачувај поставу новчаника"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:91
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:101
 msgctxt "Description(com.redhat.tuned.start)"
 msgid "Start Tuned daemon"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:101
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:111
 msgctxt "Description(com.redhat.tuned.stop)"
 msgid "Stop Tuned daemon"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:111
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:121
 msgctxt "Description(com.redhat.tuned.switch_profile)"
 msgid "Switch Tuned profile"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:121
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:131
+msgctxt "Description(com.redhat.tuned.log_capture_start)"
+msgid "Start log capture"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:141
+msgctxt "Description(com.redhat.tuned.log_capture_finish)"
+msgid "Stop log capture and return captured log"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:151
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.color-manager.device-inhibit)"
+#| msgid "Inhibit color profile selection"
+msgctxt "Description(com.redhat.tuned.auto_profile)"
+msgid "Enable automatic profile selection mode"
+msgstr "Наследи избор профила боје"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:161
 msgctxt "Description(com.redhat.tuned.verify_profile)"
 msgid "Verify Tuned profile"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:131
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:171
 msgctxt "Description(com.redhat.tuned.verify_profile_ignore_missing)"
 msgid "Verify Tuned profile, ignore missing values"
 msgstr ""
@@ -3367,13 +3952,19 @@ msgstr "Потребно је потврђивање идентитета за �
 
 #: /usr/share/polkit-1/actions/com.redhat.tuned.policy:22
 #, fuzzy
+msgctxt "Message(com.redhat.tuned.profile_mode)"
+msgid "Authentication is required to show current profile selection mode"
+msgstr "Потребно је потврђивање идентитета за промену корисничких података"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:32
+#, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
 msgctxt "Message(com.redhat.tuned.disable)"
 msgid "Authentication is required to disable Tuned"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:32
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:42
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -3381,7 +3972,7 @@ msgctxt "Message(com.redhat.tuned.is_running)"
 msgid "Authentication is required to check whether Tuned is running"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:42
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:52
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -3389,43 +3980,43 @@ msgctxt "Message(com.redhat.tuned.profile_info)"
 msgid "Authentication is required to show information about Tuned profile"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:52
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:62
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.profiles)"
 msgid "Authentication is required to list Tuned profiles"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:62
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:72
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.profiles2)"
 msgid "Authentication is required to list Tuned profiles"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:72
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:82
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.recommend_profile)"
 msgid "Authentication is required to show recommended profile name"
 msgstr "Потребно је потврђивање идентитета за промену корисничких података"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:82
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:92
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.reload)"
 msgid "Authentication is required to reload Tuned configuration"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:92
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:102
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.start)"
 msgid "Authentication is required to start Tuned daemon"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:102
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:112
 #, fuzzy
 msgctxt "Message(com.redhat.tuned.stop)"
 msgid "Authentication is required to stop Tuned daemon"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:112
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:122
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -3433,7 +4024,25 @@ msgctxt "Message(com.redhat.tuned.switch_profile)"
 msgid "Authentication is required to switch Tuned profile"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:122
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:132
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.log_capture_start)"
+msgid "Authentication is required to start log capture"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:142
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.log_capture_finish)"
+msgid "Authentication is required to stop log capture"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:152
+#, fuzzy
+msgctxt "Message(com.redhat.tuned.auto_profile)"
+msgid "Authentication is required to change profile selection mode"
+msgstr "Потребно је потврђивање идентитета за управљање разменским простором"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:162
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -3441,13 +4050,522 @@ msgctxt "Message(com.redhat.tuned.verify_profile)"
 msgid "Authentication is required to verify Tuned profile"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
-#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:132
+#: /usr/share/polkit-1/actions/com.redhat.tuned.policy:172
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
 msgctxt "Message(com.redhat.tuned.verify_profile_ignore_missing)"
 msgid "Authentication is required to verify Tuned profile"
 msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
+msgctxt "Description(com.redhat.tuned.gui.run)"
+msgid "Run tuned-gui as root"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.gui.run)"
+msgid "Authentication is required to run tuned-gui"
+msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:14
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"
+msgid "Mount a filesystem"
+msgstr "Прикачите систем датотека"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:93
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-system)"
+msgid "Mount a filesystem on a system device"
+msgstr "Прикачите систем датотека на уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:172
+msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-other-seat)"
+msgid "Mount a filesystem from a device plugged into another seat"
+msgstr "Прикачите систем датотека са уређаја прикљученог на друго седиште"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:248
+msgctxt "Description(org.freedesktop.udisks2.filesystem-fstab)"
+msgid ""
+"Mount/unmount filesystems defined in the fstab file with the x-udisks-auth "
+"option"
+msgstr ""
+"Прикачите/откачите системе датотека одређене у датотеци фстаба са опцијом „x-"
+"udisks-auth“"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:325
+msgctxt "Description(org.freedesktop.udisks2.filesystem-unmount-others)"
+msgid "Unmount a device mounted by another user"
+msgstr "Откачите уређај који је прикачио други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:404
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock)"
+msgid "Unlock an encrypted device"
+msgstr "Откључајте шифровани уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:481
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-system)"
+msgid "Unlock an encrypted system device"
+msgstr "Откључајте шифровани уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:557
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
+msgid "Unlock an encrypted device plugged into another seat"
+msgstr "Закључајте шифровани уређај кога прикључио други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:631
+msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
+msgid ""
+"Unlock an encrypted device specified in the crypttab file with the x-udisks-"
+"auth option"
+msgstr ""
+"Откључајте шифровани уређај наведен у датотеци „crypttab“ са опцијом „x-"
+"udisks-auth“"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:708
+msgctxt "Description(org.freedesktop.udisks2.encrypted-lock-others)"
+msgid "Lock an encrypted device unlocked by another user"
+msgstr "Закључајте шифровани уређај који је откључао други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:786
+msgctxt "Description(org.freedesktop.udisks2.encrypted-change-passphrase)"
+msgid "Change passphrase for an encrypted device"
+msgstr "Измените лозинку за шифровани уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:862
+msgctxt ""
+"Description(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
+msgid "Change passphrase for an encrypted device"
+msgstr "Измените лозинку за шифровани уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:940
+msgctxt "Description(org.freedesktop.udisks2.loop-setup)"
+msgid "Manage loop devices"
+msgstr "Управљајте уређајима петље"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1017
+msgctxt "Description(org.freedesktop.udisks2.loop-delete-others)"
+msgid "Delete loop devices"
+msgstr "Избришите уређаје петље"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1089
+msgctxt "Description(org.freedesktop.udisks2.loop-modify-others)"
+msgid "Modify loop devices"
+msgstr "Измените уређаје петље"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1164
+msgctxt "Description(org.freedesktop.udisks2.manage-swapspace)"
+msgid "Manage swapspace"
+msgstr "Управљајте разменским простором"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1240
+msgctxt "Description(org.freedesktop.udisks2.manage-md-raid)"
+msgid "Manage RAID arrays"
+msgstr "Управљајте РАИД низовима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1311
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive)"
+msgid "Power off drive"
+msgstr "Искључите уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1381
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive-system)"
+msgid "Power off a system drive"
+msgstr "Искључите уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1451
+msgctxt "Description(org.freedesktop.udisks2.power-off-drive-other-seat)"
+msgid "Power off a drive attached to another seat"
+msgstr "Искључите уређај прикачен другом седишту"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1520
+msgctxt "Description(org.freedesktop.udisks2.eject-media)"
+msgid "Eject media"
+msgstr "Избаците медијум"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1599
+msgctxt "Description(org.freedesktop.udisks2.eject-media-system)"
+msgid "Eject media from a system drive"
+msgstr "Избаците медијум из уређаја система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1676
+msgctxt "Description(org.freedesktop.udisks2.eject-media-other-seat)"
+msgid "Eject media from a drive attached to another seat"
+msgstr "Избаците медијум из уређаја прикаченог другом седишту"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1751
+msgctxt "Description(org.freedesktop.udisks2.modify-device)"
+msgid "Modify a device"
+msgstr "Измените уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1828
+msgctxt "Description(org.freedesktop.udisks2.modify-device-system)"
+msgid "Modify a system device"
+msgstr "Измените уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1905
+msgctxt "Description(org.freedesktop.udisks2.modify-device-other-seat)"
+msgid "Modify a device"
+msgstr "Измените уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1980
+msgctxt "Description(org.freedesktop.udisks2.rescan)"
+msgid "Rescan a device"
+msgstr "Поново прегледај уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2055
+msgctxt "Description(org.freedesktop.udisks2.open-device)"
+msgid "Open a device"
+msgstr "Отворите уређај"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2132
+msgctxt "Description(org.freedesktop.udisks2.open-device-system)"
+msgid "Open a system device"
+msgstr "Отворите уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2212
+#, fuzzy
+#| msgctxt ""
+#| "Description(org.freedesktop.udisks2.read-system-configuration-secrets)"
+#| msgid "Modify system-wide configuration"
+msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
+msgid "Modify system-wide configuration"
+msgstr "Измените свеопшта подешавања система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2288
+msgctxt ""
+"Description(org.freedesktop.udisks2.read-system-configuration-secrets)"
+msgid "Modify system-wide configuration"
+msgstr "Измените свеопшта подешавања система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2365
+msgctxt "Description(org.freedesktop.udisks2.modify-drive-settings)"
+msgid "Modify drive settings"
+msgstr "Измените подешавања уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2442
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
+#| msgid "Update SMART data"
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
+msgid "Update SMART data"
+msgstr "Освежите СМАРТ податке"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2519
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-simulate)"
+msgid "Set SMART data from blob"
+msgstr "Подесите СМАРТ податке из блоба"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2588
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-selftest)"
+msgid "Run SMART self-test"
+msgstr "Покрените СМАРТ самопробу"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2664
+msgctxt "Description(org.freedesktop.udisks2.ata-smart-enable-disable)"
+msgid "Enable/Disable SMART"
+msgstr "Укључи/Искључи СМАРТ"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2736
+msgctxt "Description(org.freedesktop.udisks2.ata-check-power)"
+msgid "Check power state"
+msgstr "Провери стање напајања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2810
+msgctxt "Description(org.freedesktop.udisks2.ata-standby)"
+msgid "Send standby command"
+msgstr "Пошаљи наредбу мировања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2880
+msgctxt "Description(org.freedesktop.udisks2.ata-standby-system)"
+msgid "Send standby command to a system drive"
+msgstr "Пошаљи наредбу мировања на уређај система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2950
+msgctxt "Description(org.freedesktop.udisks2.ata-standby-other-seat)"
+msgid "Send standby command to drive on other seat"
+msgstr "Пошаљи наредбу мировања уређају на другом седишту"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3023
+msgctxt "Description(org.freedesktop.udisks2.ata-secure-erase)"
+msgid "Securely erase a hard disk"
+msgstr "Безбедно обриши чврсти диск"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3097
+msgctxt "Description(org.freedesktop.udisks2.cancel-job)"
+msgid "Cancel job"
+msgstr "Откажи посао"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3170
+msgctxt "Description(org.freedesktop.udisks2.cancel-job-other-user)"
+msgid "Cancel job started by another user"
+msgstr "Откажи посао који је почео други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:49
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:128
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-system)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:204
+msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-other-seat)"
+msgid "Authentication is required to mount the filesystem"
+msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:280
+msgctxt "Message(org.freedesktop.udisks2.filesystem-fstab)"
+msgid "Authentication is required to mount/unmount the filesystem"
+msgstr ""
+"Потребно је потврђивање идентитета за прикачињање/откачињање система датотека"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:360
+msgctxt "Message(org.freedesktop.udisks2.filesystem-unmount-others)"
+msgid ""
+"Authentication is required to unmount a filesystem mounted by another user"
+msgstr ""
+"Потребно је потврђивање идентитета за откачињање система датотека који је "
+"прикачио други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:439
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:515
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-system)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:589
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:663
+msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
+msgid "Authentication is required to unlock an encrypted device"
+msgstr "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:742
+msgctxt "Message(org.freedesktop.udisks2.encrypted-lock-others)"
+msgid ""
+"Authentication is required to lock an encrypted device unlocked by another "
+"user"
+msgstr ""
+"Потребно је потврђивање идентитета за закључавање уређаја који је закључао "
+"други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:820
+#, fuzzy
+#| msgctxt ""
+#| "Message(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
+#| msgid ""
+#| "Authentication is required to change the passphrase for an encrypted "
+#| "device"
+msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase)"
+msgid ""
+"Authentication is required to change the passphrase for an encrypted device"
+msgstr ""
+"Потребно је потврђивање идентитета за измену лозинке шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:896
+msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
+msgid ""
+"Authentication is required to change the passphrase for an encrypted device"
+msgstr ""
+"Потребно је потврђивање идентитета за измену лозинке шифрованог уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:973
+msgctxt "Message(org.freedesktop.udisks2.loop-setup)"
+msgid "Authentication is required to set up a loop device"
+msgstr "Потребно је потврђивање идентитета за подешавање уређаја петље"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1049
+msgctxt "Message(org.freedesktop.udisks2.loop-delete-others)"
+msgid ""
+"Authentication is required to delete a loop device set up by another user"
+msgstr ""
+"Потребно је потврђивање идентитета за брисање уређаја петље који је подесио "
+"други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1121
+msgctxt "Message(org.freedesktop.udisks2.loop-modify-others)"
+msgid ""
+"Authentication is required to modify a loop device set up by another user"
+msgstr ""
+"Потребно је потврђивање идентитета за измену уређаја петље који је подесио "
+"други корисник"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1197
+msgctxt "Message(org.freedesktop.udisks2.manage-swapspace)"
+msgid "Authentication is required to manage swapspace"
+msgstr "Потребно је потврђивање идентитета за управљање разменским простором"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1270
+msgctxt "Message(org.freedesktop.udisks2.manage-md-raid)"
+msgid "Authentication is required to manage RAID arrays"
+msgstr "Потребно је потврђивање идентитета за управљање РАИД низовима"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1342
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive)"
+msgid "Authentication is required to power off a drive"
+msgstr "Потребно је потврђивање идентитета за искључивање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1412
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive-system)"
+msgid "Authentication is required to power off a drive"
+msgstr "Потребно је потврђивање идентитета за искључивање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1480
+msgctxt "Message(org.freedesktop.udisks2.power-off-drive-other-seat)"
+msgid ""
+"Authentication is required to power off a drive plugged into another seat"
+msgstr ""
+"Потребно је потврђивање идентитета за искључивање уређаја прикљученог у "
+"друго седиште"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1555
+msgctxt "Message(org.freedesktop.udisks2.eject-media)"
+msgid "Authentication is required to eject media"
+msgstr "Потребно је потврђивање идентитета за избацивање медијума"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1632
+msgctxt "Message(org.freedesktop.udisks2.eject-media-system)"
+msgid "Authentication is required to eject media"
+msgstr "Потребно је потврђивање идентитета за избацивање медијума"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1708
+msgctxt "Message(org.freedesktop.udisks2.eject-media-other-seat)"
+msgid ""
+"Authentication is required to eject media from a drive plugged into another "
+"seat"
+msgstr ""
+"Потребно је потврђивање идентитета за избацивање медијума из уређаја "
+"прикљученог у друго седиште"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1785
+msgctxt "Message(org.freedesktop.udisks2.modify-device)"
+msgid "Authentication is required to modify a device"
+msgstr "Потребно је потврђивање идентитета за мењање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1862
+msgctxt "Message(org.freedesktop.udisks2.modify-device-system)"
+msgid "Authentication is required to modify a device"
+msgstr "Потребно је потврђивање идентитета за мењање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:1939
+msgctxt "Message(org.freedesktop.udisks2.modify-device-other-seat)"
+msgid "Authentication is required to modify a device plugged into another seat"
+msgstr ""
+"Потребно је потврђивање идентитета за измену уређаја прикљученог у друго "
+"седиште"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2013
+msgctxt "Message(org.freedesktop.udisks2.rescan)"
+msgid "Authentication is required to rescan a device"
+msgstr "Потребно је потврђивање идентитета за поновно прегледање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2090
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.open-device-system)"
+#| msgid "Authentication is required to open a device"
+msgctxt "Message(org.freedesktop.udisks2.open-device)"
+msgid "Authentication is required to open a device"
+msgstr "Потребно је потврђивање идентитета за отварање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2167
+msgctxt "Message(org.freedesktop.udisks2.open-device-system)"
+msgid "Authentication is required to open a device"
+msgstr "Потребно је потврђивање идентитета за отварање уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2246
+msgctxt "Message(org.freedesktop.udisks2.modify-system-configuration)"
+msgid "Authentication is required to modify system-wide configuration"
+msgstr ""
+"Потребно је потврђивање идентитета за промену свеопштих подешавања система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2322
+msgctxt "Message(org.freedesktop.udisks2.read-system-configuration-secrets)"
+msgid ""
+"Authentication is required to retrieve secrets from system-wide configuration"
+msgstr ""
+"Потребно је потврђивање идентитета за довлачења тајни из свеопштих "
+"подешавања система"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2398
+msgctxt "Message(org.freedesktop.udisks2.modify-drive-settings)"
+msgid "Authentication is required to modify drive settings"
+msgstr "Потребно је потврђивање идентитета за мењање подешавања уређаја"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2477
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-update)"
+msgid "Authentication is required to update SMART data"
+msgstr "Потребно је потврђивање идентитета за освежавање СМАРТ података"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2549
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-simulate)"
+msgid "Authentication is required to set SMART data from blob"
+msgstr ""
+"Потребно је потврђивање идентитета за подешавање СМАРТ података из блоба"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2622
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-selftest)"
+msgid "Authentication is required to run a SMART self-test"
+msgstr "Потребно је потврђивање идентитета за покретање СМАРТ самопробе"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2695
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.ata-smart-enable-disable)"
+#| msgid "Authentication is required to enable/disable SMART"
+msgctxt "Message(org.freedesktop.udisks2.ata-smart-enable-disable)"
+msgid "Authentication is required to enable/disable SMART"
+msgstr "Потребно је потврђивање идентитета за укључивање/искључивање СМАРТ-а"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2769
+msgctxt "Message(org.freedesktop.udisks2.ata-check-power)"
+msgid "Authentication is required to check the power state"
+msgstr "Потребно је потврђивање идентитета за проверу стања напајања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2840
+msgctxt "Message(org.freedesktop.udisks2.ata-standby)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2910
+msgctxt "Message(org.freedesktop.udisks2.ata-standby-system)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:2980
+msgctxt "Message(org.freedesktop.udisks2.ata-standby-other-seat)"
+msgid "Authentication is required to put a drive into standby mode"
+msgstr ""
+"Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3054
+msgctxt "Message(org.freedesktop.udisks2.ata-secure-erase)"
+msgid "Authentication is required to securely erase a hard disk"
+msgstr "Потребно је потврђивање идентитета за безбедно брисање чврстог диска"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3130
+msgctxt "Message(org.freedesktop.udisks2.cancel-job)"
+msgid "Authentication is required to cancel a job"
+msgstr "Потребно је потврђивање идентитета за отказивање посла"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:3201
+msgctxt "Message(org.freedesktop.udisks2.cancel-job-other-user)"
+msgid "Authentication is required to cancel a job started by another user"
+msgstr ""
+"Потребно је потврђивање идентитета за отказивање посла који је покренуо "
+"други корисник"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.urfkill.policy:9
 msgctxt "Description(org.freedesktop.urfkill.block)"
@@ -3503,194 +4621,59 @@ msgid "Authentication is required to modify the laptop display brightness"
 msgstr ""
 "Потребно је потврђивање идентитета за промену осветљења преносног рачунара"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:15
 #, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
-msgid "Reading languages settings"
-msgstr "Сачувај поставке менаџера пријављивања"
+#~| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#~| msgid "Save wallet configuration"
+#~ msgctxt "Description(org.blueman.bluez.config)"
+#~ msgid "Bluetooth Configuration"
+#~ msgstr "Сачувај поставу новчаника"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:23
-msgctxt "Description(org.opensuse.yast.modules.yapi.language.write)"
-msgid "Writing new language settings"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:16
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.language.read)"
-msgid "Authentication is required to read languages settings"
-msgstr "Потребно је потврђивање идентитета за промену корисничких података"
+#~| msgctxt "Message(org.kde.fontinst.manage)"
+#~| msgid "Modifying the system-wide font configuration requires privileges."
+#~ msgctxt "Message(org.blueman.bluez.config)"
+#~ msgid "Changing Bluetooth system settings requires privileges"
+#~ msgstr "Мењање поставе системских фонтова захтева овлашћења."
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.language.policy:24
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
-msgid "Authentication is required to edit language settings"
-msgstr "Потребно је потврђивање идентитета за промену корисничких података"
+#~ msgctxt "Description(org.opensuse.yast.modules.yapi.language.read)"
+#~ msgid "Reading languages settings"
+#~ msgstr "Сачувај поставке менаџера пријављивања"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:15
 #, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.time.read)"
-msgid "Reading system time settings"
-msgstr "Измените подешавања времена и датума на систему"
+#~ msgctxt "Message(org.opensuse.yast.modules.yapi.language.read)"
+#~ msgid "Authentication is required to read languages settings"
+#~ msgstr "Потребно је потврђивање идентитета за промену корисничких података"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:23
 #, fuzzy
-msgctxt "Description(org.opensuse.yast.modules.yapi.time.write)"
-msgid "Writing system time settings"
-msgstr "Измените подешавања времена и датума на систему"
+#~ msgctxt "Message(org.opensuse.yast.modules.yapi.language.write)"
+#~ msgid "Authentication is required to edit language settings"
+#~ msgstr "Потребно је потврђивање идентитета за промену корисничких података"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:16
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.time.read)"
-msgid "Authentication is required to read system time settings"
-msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+#~ msgctxt "Description(org.opensuse.yast.modules.yapi.time.read)"
+#~ msgid "Reading system time settings"
+#~ msgstr "Измените подешавања времена и датума на систему"
 
-#: /usr/share/polkit-1/actions/org.opensuse.yast.modules.yapi.time.policy:24
 #, fuzzy
-msgctxt "Message(org.opensuse.yast.modules.yapi.time.write)"
-msgid "Authentication is required to read system time settings"
-msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+#~ msgctxt "Description(org.opensuse.yast.modules.yapi.time.write)"
+#~ msgid "Writing system time settings"
+#~ msgstr "Измените подешавања времена и датума на систему"
+
+#, fuzzy
+#~ msgctxt "Message(org.opensuse.yast.modules.yapi.time.read)"
+#~ msgid "Authentication is required to read system time settings"
+#~ msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
+
+#, fuzzy
+#~ msgctxt "Message(org.opensuse.yast.modules.yapi.time.write)"
+#~ msgid "Authentication is required to read system time settings"
+#~ msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
 
 #, fuzzy
 #~ msgctxt "Message(org.selinux.config.pkexec.run)"
 #~ msgid "Authentication is required to run system-config-selinux"
 #~ msgstr "Потребно је потврђивање идентитета за испитивање уређаја"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.server-settings)"
-#~ msgid "Get/Set server settings"
-#~ msgstr "Добави/Постави подешавања сервера"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.devices-get)"
-#~ msgid "Get list of available devices"
-#~ msgstr "Добави списак доступних уређаја"
-
-#~ msgctxt ""
-#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-#~ msgid "Set a printer as default printer"
-#~ msgstr "Постави штампач као основни штампач"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-#~ msgid "Enable/Disable a printer"
-#~ msgstr "Укључи/искључи штампач"
-
-#~ msgctxt ""
-#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-#~ msgid "Add/Remove/Edit a local printer"
-#~ msgstr "Додај/Уклони/Уреди месни штампач"
-
-#~ msgctxt ""
-#~ "Description(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-#~ msgid "Add/Remove/Edit a remote printer"
-#~ msgstr "Додај/Уклони/Уреди удаљени штампач"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.class-edit)"
-#~ msgid "Add/Remove/Edit a class"
-#~ msgstr "Додај/Уклони/Уреди разред"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.job-edit)"
-#~ msgid "Restart/Cancel/Edit a job"
-#~ msgstr "Поново покрени/Откажи/Уреди посао"
-
-#~ msgctxt ""
-#~ "Description(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-#~ msgid "Restart/Cancel/Edit a job owned by another user"
-#~ msgstr "Поново покрени/Откажи/Уреди посао у власништву другог корисника"
-
-#, fuzzy
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.all-edit)"
-#~ msgid "Change printer settings"
-#~ msgstr "Измените подешавања времена и датума на систему"
-
-#~ msgctxt "Description(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-#~ msgid "Add/Remove/Edit a printer"
-#~ msgstr "Додај/Уклони/Уреди штампач"
-
-#, fuzzy
-#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settime)"
-#~| msgid "Privileges are required to change the system time."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.server-settings)"
-#~ msgid "Privileges are required to get/set server settings."
-#~ msgstr "Потребна су овлашћења за промену времена на систему."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.enroll)"
-#~| msgid "Privileges are required to enroll new fingerprints."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-set-default)"
-#~ msgid ""
-#~ "Privileges are required to set a printer, or a class, as default printer."
-#~ msgstr "Потребна су овлашћења за учитавање отиска прста."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#~| msgid "Privileges are required to enroll new fingerprints for other users."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-enable)"
-#~ msgid "Privileges are required to enable/disable a printer, or a class."
-#~ msgstr ""
-#~ "Потребна су овлашћења за учитавање отиска прста за остале кориснике."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#~| msgid "Privileges are required to verify fingerprints."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-local-edit)"
-#~ msgid "Privileges are required to add/remove/edit a local printer."
-#~ msgstr "Потребна су овлашћења за проверу отиска прста."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#~| msgid "Privileges are required to verify fingerprints."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printer-remote-edit)"
-#~ msgid "Privileges are required to add/remove/edit a remote printer."
-#~ msgstr "Потребна су овлашћења за проверу отиска прста."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#~| msgid "Privileges are required to verify fingerprints."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.class-edit)"
-#~ msgid "Privileges are required to add/remove/edit a class."
-#~ msgstr "Потребна су овлашћења за проверу отиска прста."
-
-#, fuzzy
-#~| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
-#~| msgid "Privileges are required to change the system time zone."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-edit)"
-#~ msgid "Privileges are required to restart/cancel/edit a job."
-#~ msgstr "Потребна су овлашћења за промену временске зоне на систему."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.setusername)"
-#~| msgid "Privileges are required to enroll new fingerprints for other users."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.job-not-owned-edit)"
-#~ msgid ""
-#~ "Privileges are required to restart/cancel/edit a job owned by another "
-#~ "user."
-#~ msgstr ""
-#~ "Потребна су овлашћења за учитавање отиска прста за остале кориснике."
-
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.all-edit)"
-#~ msgid ""
-#~ "Privileges are required to change printer settings. This should only be "
-#~ "needed from the Printers system settings panel."
-#~ msgstr ""
-#~ "Потребне су повластице за мењање подешавања штампача. Ово ће бити "
-#~ "потребно једино из панела за системско подешавање штампача."
-
-#, fuzzy
-#~| msgctxt "Message(net.reactivated.fprint.device.verify)"
-#~| msgid "Privileges are required to verify fingerprints."
-#~ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
-#~ msgid "Privileges are required to add/remove/edit a printer."
-#~ msgstr "Потребна су овлашћења за проверу отиска прста."
-
-#, fuzzy
-#~ msgctxt "Message(com.hp.driveguard.toggle)"
-#~ msgid "Enable or disable HP drive-guard protection"
-#~ msgstr "Укључите или искључите удаљено пријављивање"
-
-#, fuzzy
-#~ msgctxt "Message(com.hp.driveguard.install-setup)"
-#~ msgid "Authentication is required to install HP drive-guard system setup"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за инсталирање подешавања више екрана "
-#~ "за све кориснике"
 
 #~ msgctxt "Description(org.kde.kcontrol.kcmremotewidgets.save)"
 #~ msgid "Save remote widgets' policies"
@@ -3719,11 +4702,6 @@ msgstr "Потребно је потврђивање идентитета за �
 #~ msgctxt "Description(org.fedoraproject.FirewallD1.config.info)"
 #~ msgid "Firewall configuration"
 #~ msgstr "Сачувај поставу новчаника"
-
-#, fuzzy
-#~ msgctxt "Message(org.fedoraproject.FirewallD1.config.info)"
-#~ msgid "System policy prevents inspecting the firewall configuration"
-#~ msgstr "Системске смернице спречавају постављање нивоа осветљаја."
 
 #, fuzzy
 #~ msgctxt "Message(org.fedoraproject.FirewallD1.direct)"
@@ -3772,11 +4750,6 @@ msgstr "Потребно је потврђивање идентитета за �
 #~ msgstr "Поново покрените систем док су други корисници пријављени"
 
 #, fuzzy
-#~ msgctxt "Message(org.freedesktop.consolekit.system.stop)"
-#~ msgid "System policy prevents stopping the system"
-#~ msgstr "Овлашћења система не дозвољавају измену хоста"
-
-#, fuzzy
 #~ msgctxt "Message(org.freedesktop.consolekit.system.stop-multiple-users)"
 #~ msgid ""
 #~ "System policy prevents stopping the system when other users are logged in"
@@ -3793,452 +4766,3 @@ msgstr "Потребно је потврђивање идентитета за �
 #~ "System policy prevents restarting the system when other users are logged "
 #~ "in"
 #~ msgstr "Обуставите систем док су други корисници пријављени"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.ModemManager1.Device.Control)"
-#~ msgid "Unlock and control a mobile broadband device"
-#~ msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
-
-#, fuzzy
-#~ msgctxt "Description(org.freedesktop.ModemManager1.Firmware)"
-#~ msgid "Query and manage firmware on a mobile broadband device"
-#~ msgstr "Омогући или онемогући мобилне широкопојасне уређаје"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.Device.Control)"
-#~ msgid ""
-#~ "System policy prevents unlocking or controlling the mobile broadband "
-#~ "device."
-#~ msgstr ""
-#~ "Овлашћења система онемогућавају управљање мобилним широкопојасним "
-#~ "уређајима"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.Contacts)"
-#~ msgid ""
-#~ "System policy prevents adding, modifying, or deleting this device's "
-#~ "contacts."
-#~ msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.Messaging)"
-#~ msgid ""
-#~ "System policy prevents sending or maniuplating this device's text "
-#~ "messages."
-#~ msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.Location)"
-#~ msgid ""
-#~ "System policy prevents enabling or viewing geographic location "
-#~ "information."
-#~ msgstr "Овлашћења система онемогућавају управљање мрежом на систему"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.USSD)"
-#~ msgid ""
-#~ "System policy prevents querying or utilizing network information and "
-#~ "services."
-#~ msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.ModemManager1.Firmware)"
-#~ msgid "System policy prevents querying or managing this device's firmware."
-#~ msgstr "Овлашћења система онемогућавају управљање бежичним уређајима"
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-high-priority)"
-#~ msgid ""
-#~ "Authentication is required to grant an application high priority "
-#~ "scheduling"
-#~ msgstr ""
-#~ "Потребно је да се идентификујете да бисте дозволили програму да спречи "
-#~ "гашење система."
-
-#, fuzzy
-#~ msgctxt "Message(org.freedesktop.RealtimeKit1.acquire-real-time)"
-#~ msgid ""
-#~ "Authentication is required to grant an application realtime scheduling"
-#~ msgstr ""
-#~ "Потребно је да се идентификујете да бисте дозволили програму да одложи "
-#~ "гашење система."
-
-#~ msgctxt "Description(org.freedesktop.udisks2.filesystem-mount)"
-#~ msgid "Mount a filesystem"
-#~ msgstr "Прикачите систем датотека"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-system)"
-#~ msgid "Mount a filesystem on a system device"
-#~ msgstr "Прикачите систем датотека на уређај система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.filesystem-mount-other-seat)"
-#~ msgid "Mount a filesystem from a device plugged into another seat"
-#~ msgstr "Прикачите систем датотека са уређаја прикљученог на друго седиште"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.filesystem-fstab)"
-#~ msgid ""
-#~ "Mount/unmount filesystems defined in the fstab file with the x-udisks-"
-#~ "auth option"
-#~ msgstr ""
-#~ "Прикачите/откачите системе датотека одређене у датотеци фстаба са опцијом "
-#~ "„x-udisks-auth“"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.filesystem-unmount-others)"
-#~ msgid "Unmount a device mounted by another user"
-#~ msgstr "Откачите уређај који је прикачио други корисник"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock)"
-#~ msgid "Unlock an encrypted device"
-#~ msgstr "Откључајте шифровани уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-system)"
-#~ msgid "Unlock an encrypted system device"
-#~ msgstr "Откључајте шифровани уређај система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
-#~ msgid "Unlock an encrypted device plugged into another seat"
-#~ msgstr "Закључајте шифровани уређај кога прикључио други корисник"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
-#~ msgid ""
-#~ "Unlock an encrypted device specified in the crypttab file with the x-"
-#~ "udisks-auth option"
-#~ msgstr ""
-#~ "Откључајте шифровани уређај наведен у датотеци „crypttab“ са опцијом „x-"
-#~ "udisks-auth“"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-lock-others)"
-#~ msgid "Lock an encrypted device unlocked by another user"
-#~ msgstr "Закључајте шифровани уређај који је откључао други корисник"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.encrypted-change-passphrase)"
-#~ msgid "Change passphrase for an encrypted device"
-#~ msgstr "Измените лозинку за шифровани уређај"
-
-#~ msgctxt ""
-#~ "Description(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
-#~ msgid "Change passphrase for an encrypted device"
-#~ msgstr "Измените лозинку за шифровани уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.loop-setup)"
-#~ msgid "Manage loop devices"
-#~ msgstr "Управљајте уређајима петље"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.loop-delete-others)"
-#~ msgid "Delete loop devices"
-#~ msgstr "Избришите уређаје петље"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.loop-modify-others)"
-#~ msgid "Modify loop devices"
-#~ msgstr "Измените уређаје петље"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.manage-swapspace)"
-#~ msgid "Manage swapspace"
-#~ msgstr "Управљајте разменским простором"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.manage-md-raid)"
-#~ msgid "Manage RAID arrays"
-#~ msgstr "Управљајте РАИД низовима"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.power-off-drive)"
-#~ msgid "Power off drive"
-#~ msgstr "Искључите уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.power-off-drive-system)"
-#~ msgid "Power off a system drive"
-#~ msgstr "Искључите уређај система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.power-off-drive-other-seat)"
-#~ msgid "Power off a drive attached to another seat"
-#~ msgstr "Искључите уређај прикачен другом седишту"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.eject-media)"
-#~ msgid "Eject media"
-#~ msgstr "Избаците медијум"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.eject-media-system)"
-#~ msgid "Eject media from a system drive"
-#~ msgstr "Избаците медијум из уређаја система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.eject-media-other-seat)"
-#~ msgid "Eject media from a drive attached to another seat"
-#~ msgstr "Избаците медијум из уређаја прикаченог другом седишту"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.modify-device)"
-#~ msgid "Modify a device"
-#~ msgstr "Измените уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.modify-device-system)"
-#~ msgid "Modify a system device"
-#~ msgstr "Измените уређај система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.modify-device-other-seat)"
-#~ msgid "Modify a device"
-#~ msgstr "Измените уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.rescan)"
-#~ msgid "Rescan a device"
-#~ msgstr "Поново прегледај уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.open-device)"
-#~ msgid "Open a device"
-#~ msgstr "Отворите уређај"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.open-device-system)"
-#~ msgid "Open a system device"
-#~ msgstr "Отворите уређај система"
-
-#~ msgctxt ""
-#~ "Description(org.freedesktop.udisks2.read-system-configuration-secrets)"
-#~ msgid "Modify system-wide configuration"
-#~ msgstr "Измените свеопшта подешавања система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.modify-drive-settings)"
-#~ msgid "Modify drive settings"
-#~ msgstr "Измените подешавања уређаја"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-smart-simulate)"
-#~ msgid "Set SMART data from blob"
-#~ msgstr "Подесите СМАРТ податке из блоба"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-smart-selftest)"
-#~ msgid "Run SMART self-test"
-#~ msgstr "Покрените СМАРТ самопробу"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-smart-enable-disable)"
-#~ msgid "Enable/Disable SMART"
-#~ msgstr "Укључи/Искључи СМАРТ"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-check-power)"
-#~ msgid "Check power state"
-#~ msgstr "Провери стање напајања"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-standby)"
-#~ msgid "Send standby command"
-#~ msgstr "Пошаљи наредбу мировања"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-standby-system)"
-#~ msgid "Send standby command to a system drive"
-#~ msgstr "Пошаљи наредбу мировања на уређај система"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-standby-other-seat)"
-#~ msgid "Send standby command to drive on other seat"
-#~ msgstr "Пошаљи наредбу мировања уређају на другом седишту"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.ata-secure-erase)"
-#~ msgid "Securely erase a hard disk"
-#~ msgstr "Безбедно обриши чврсти диск"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.cancel-job)"
-#~ msgid "Cancel job"
-#~ msgstr "Откажи посао"
-
-#~ msgctxt "Description(org.freedesktop.udisks2.cancel-job-other-user)"
-#~ msgid "Cancel job started by another user"
-#~ msgstr "Откажи посао који је почео други корисник"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.filesystem-mount)"
-#~ msgid "Authentication is required to mount the filesystem"
-#~ msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-system)"
-#~ msgid "Authentication is required to mount the filesystem"
-#~ msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.filesystem-mount-other-seat)"
-#~ msgid "Authentication is required to mount the filesystem"
-#~ msgstr "Потребно је потврђивање идентитета за прикачињање система датотека"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.filesystem-fstab)"
-#~ msgid "Authentication is required to mount/unmount the filesystem"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за прикачињање/откачињање система "
-#~ "датотека"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.filesystem-unmount-others)"
-#~ msgid ""
-#~ "Authentication is required to unmount a filesystem mounted by another user"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за откачињање система датотека који је "
-#~ "прикачио други корисник"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock)"
-#~ msgid "Authentication is required to unlock an encrypted device"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-system)"
-#~ msgid "Authentication is required to unlock an encrypted device"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-other-seat)"
-#~ msgid "Authentication is required to unlock an encrypted device"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.encrypted-unlock-crypttab)"
-#~ msgid "Authentication is required to unlock an encrypted device"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за откључавање шифрованог уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.encrypted-lock-others)"
-#~ msgid ""
-#~ "Authentication is required to lock an encrypted device unlocked by "
-#~ "another user"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за закључавање уређаја који је "
-#~ "закључао други корисник"
-
-#~ msgctxt ""
-#~ "Message(org.freedesktop.udisks2.encrypted-change-passphrase-system)"
-#~ msgid ""
-#~ "Authentication is required to change the passphrase for an encrypted "
-#~ "device"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за измену лозинке шифрованог уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.loop-setup)"
-#~ msgid "Authentication is required to set up a loop device"
-#~ msgstr "Потребно је потврђивање идентитета за подешавање уређаја петље"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.loop-delete-others)"
-#~ msgid ""
-#~ "Authentication is required to delete a loop device set up by another user"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за брисање уређаја петље који је "
-#~ "подесио други корисник"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.loop-modify-others)"
-#~ msgid ""
-#~ "Authentication is required to modify a loop device set up by another user"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за измену уређаја петље који је "
-#~ "подесио други корисник"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.manage-swapspace)"
-#~ msgid "Authentication is required to manage swapspace"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за управљање разменским простором"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.manage-md-raid)"
-#~ msgid "Authentication is required to manage RAID arrays"
-#~ msgstr "Потребно је потврђивање идентитета за управљање РАИД низовима"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.power-off-drive)"
-#~ msgid "Authentication is required to power off a drive"
-#~ msgstr "Потребно је потврђивање идентитета за искључивање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.power-off-drive-system)"
-#~ msgid "Authentication is required to power off a drive"
-#~ msgstr "Потребно је потврђивање идентитета за искључивање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.power-off-drive-other-seat)"
-#~ msgid ""
-#~ "Authentication is required to power off a drive plugged into another seat"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за искључивање уређаја прикљученог у "
-#~ "друго седиште"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.eject-media)"
-#~ msgid "Authentication is required to eject media"
-#~ msgstr "Потребно је потврђивање идентитета за избацивање медијума"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.eject-media-system)"
-#~ msgid "Authentication is required to eject media"
-#~ msgstr "Потребно је потврђивање идентитета за избацивање медијума"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.eject-media-other-seat)"
-#~ msgid ""
-#~ "Authentication is required to eject media from a drive plugged into "
-#~ "another seat"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за избацивање медијума из уређаја "
-#~ "прикљученог у друго седиште"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.modify-device)"
-#~ msgid "Authentication is required to modify a device"
-#~ msgstr "Потребно је потврђивање идентитета за мењање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.modify-device-system)"
-#~ msgid "Authentication is required to modify a device"
-#~ msgstr "Потребно је потврђивање идентитета за мењање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.modify-device-other-seat)"
-#~ msgid ""
-#~ "Authentication is required to modify a device plugged into another seat"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за измену уређаја прикљученог у друго "
-#~ "седиште"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.rescan)"
-#~ msgid "Authentication is required to rescan a device"
-#~ msgstr "Потребно је потврђивање идентитета за поновно прегледање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.open-device-system)"
-#~ msgid "Authentication is required to open a device"
-#~ msgstr "Потребно је потврђивање идентитета за отварање уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.modify-system-configuration)"
-#~ msgid "Authentication is required to modify system-wide configuration"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за промену свеопштих подешавања система"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.read-system-configuration-secrets)"
-#~ msgid ""
-#~ "Authentication is required to retrieve secrets from system-wide "
-#~ "configuration"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за довлачења тајни из свеопштих "
-#~ "подешавања система"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.modify-drive-settings)"
-#~ msgid "Authentication is required to modify drive settings"
-#~ msgstr "Потребно је потврђивање идентитета за мењање подешавања уређаја"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-smart-update)"
-#~ msgid "Authentication is required to update SMART data"
-#~ msgstr "Потребно је потврђивање идентитета за освежавање СМАРТ података"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-smart-simulate)"
-#~ msgid "Authentication is required to set SMART data from blob"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за подешавање СМАРТ података из блоба"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-smart-selftest)"
-#~ msgid "Authentication is required to run a SMART self-test"
-#~ msgstr "Потребно је потврђивање идентитета за покретање СМАРТ самопробе"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-check-power)"
-#~ msgid "Authentication is required to check the power state"
-#~ msgstr "Потребно је потврђивање идентитета за проверу стања напајања"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-standby)"
-#~ msgid "Authentication is required to put a drive into standby mode"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-standby-system)"
-#~ msgid "Authentication is required to put a drive into standby mode"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-standby-other-seat)"
-#~ msgid "Authentication is required to put a drive into standby mode"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за стављање уређаја у режим мировања"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.ata-secure-erase)"
-#~ msgid "Authentication is required to securely erase a hard disk"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за безбедно брисање чврстог диска"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.cancel-job)"
-#~ msgid "Authentication is required to cancel a job"
-#~ msgstr "Потребно је потврђивање идентитета за отказивање посла"
-
-#~ msgctxt "Message(org.freedesktop.udisks2.cancel-job-other-user)"
-#~ msgid "Authentication is required to cancel a job started by another user"
-#~ msgstr ""
-#~ "Потребно је потврђивање идентитета за отказивање посла који је покренуо "
-#~ "други корисник"

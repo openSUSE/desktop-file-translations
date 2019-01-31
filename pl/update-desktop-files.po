@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2019-01-08 09:45+0000\n"
+"POT-Creation-Date: 2019-01-31 12:29+0000\n"
 "PO-Revision-Date: 2018-03-28 17:05+0000\n"
 "Last-Translator: Ewelina Michalowska <ewelina.michalowska@stgambit.com>\n"
 "Language-Team: Polish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -64,16 +64,6 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "Magistrala AT-SPI D-Bus"
 
-#: /usr/share/autoinstall/modules/software.desktop:22
-msgctxt "Name(software.desktop)"
-msgid "Package Selection"
-msgstr "Wybór pakietów"
-
-#: /usr/share/autoinstall/modules/software.desktop:23
-msgctxt "GenericName(software.desktop)"
-msgid "Configure Package Selection and Software Settings"
-msgstr "Konfiguruj ustawienia oprogramowania i wyboru pakietów"
-
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
 msgid "Partitioning"
@@ -83,6 +73,16 @@ msgstr "Partycjonowanie"
 msgctxt "GenericName(partitioning.desktop)"
 msgid "Configure Partitioning and Storage  Settings"
 msgstr "Konfiguruj ustawienia partycjonowania i przechowywania"
+
+#: /usr/share/autoinstall/modules/software.desktop:22
+msgctxt "Name(software.desktop)"
+msgid "Package Selection"
+msgstr "Wybór pakietów"
+
+#: /usr/share/autoinstall/modules/software.desktop:23
+msgctxt "GenericName(software.desktop)"
+msgid "Configure Package Selection and Software Settings"
+msgstr "Konfiguruj ustawienia oprogramowania i wyboru pakietów"
 
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
@@ -196,7 +196,7 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Breeze Dark"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:47
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:48
 msgctxt "Summary(org.kde.breezedark.desktop)"
 msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgstr "Język projektowania pulpitu Breeze Dark od KDE VDG"
@@ -261,100 +261,110 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "Demon ustawień środowiska Cinnamon — housekeeping"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
-msgid "Cinnamon Settings Daemon - xsettings"
-msgstr "Demon ustawień środowiska Cinnamon — xsettings"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
-msgid "Cinnamon Settings Daemon - screensaver-proxy"
-msgstr "Demon ustawień środowiska Cinnamon — screensaver-proxy"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Demon ustawień środowiska Cinnamon — a11y-keyboard"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
 msgid "Cinnamon Settings Daemon - background"
 msgstr "Demon ustawień środowiska Cinnamon — background"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "Demon ustawień środowiska Cinnamon — zasilanie"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "Demon ustawień środowiska Cinnamon — print-notifications"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Demon ustawień środowiska Cinnamon — a11y-keyboard"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
 msgid "Cinnamon Settings Daemon - sound"
 msgstr "Demon ustawień środowiska Cinnamon — dźwięk"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr "Demon ustawień środowiska Cinnamon — orientation"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-settings"
-msgstr "Demon ustawień środowiska Cinnamon — a11y-settings"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr "Demon ustawień środowiska Cinnamon — keyboard"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
 msgid "Cinnamon Settings Daemon - color"
 msgstr "Demon ustawień środowiska Cinnamon — kolor"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Demon ustawień środowiska Cinnamon — automount"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "Demon ustawień środowiska Cinnamon — clipboard"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
 msgid "Cinnamon Settings Daemon - smartcard"
 msgstr "Demon ustawień środowiska Cinnamon — smartcard"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "Demon ustawień środowiska Cinnamon — kursor"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
 msgid "Cinnamon Settings Daemon - mouse"
 msgstr "Demon ustawień środowiska Cinnamon — mysz"
 
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Demon ustawień środowiska Cinnamon — automount"
+
 #: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
 msgid "Cinnamon Settings Daemon - xrandr"
 msgstr "Demon ustawień środowiska Cinnamon — xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "Demon ustawień środowiska Cinnamon — print-notifications"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Demon ustawień środowiska Cinnamon — kursor"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr "Demon ustawień środowiska Cinnamon — xsettings"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "Demon ustawień środowiska Cinnamon — housekeeping"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Demon ustawień środowiska Cinnamon — zasilanie"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
 msgid "Cinnamon Settings Daemon - media-keys"
 msgstr "Demon ustawień środowiska Cinnamon — media-keys"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - keyboard"
-msgstr "Demon ustawień środowiska Cinnamon — keyboard"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "Demon ustawień środowiska Cinnamon — clipboard"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr "Demon ustawień środowiska Cinnamon — orientation"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
+msgid "Cinnamon Settings Daemon - screensaver-proxy"
+msgstr "Demon ustawień środowiska Cinnamon — screensaver-proxy"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr "Demon ustawień środowiska Cinnamon — a11y-settings"
+
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Sesja logowania do środowiska Cinnamon"
 
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
@@ -366,16 +376,6 @@ msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Sesja logowania do środowiska Cinnamon (używając renderowania programowego)"
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Sesja logowania do środowiska Cinnamon"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
@@ -465,7 +465,7 @@ msgctxt "Name(evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Powiadamianie o alarmach Evolution"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:68
+#: /etc/xdg/autostart/evolution-alarm-notify.desktop:69
 msgctxt "Comment(evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "Powiadomienia o wydarzeniach z kalendarza"
@@ -515,15 +515,15 @@ msgctxt "Comment(gsettings-data-convert.desktop)"
 msgid "Migrates user settings from GConf to dconf"
 msgstr "Migruje ustawienia użytkownika z GConf do dconf"
 
-#: /etc/xdg/autostart/git-annex.desktop:4
-msgctxt "Name(git-annex.desktop)"
-msgid "Git Annex Assistant"
-msgstr "Git Annex Assistant"
+#: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:3
+msgctxt "Name(gnome-break-timer-autostart.desktop)"
+msgid "Break Timer"
+msgstr "Break Timer"
 
-#: /etc/xdg/autostart/git-annex.desktop:5
-msgctxt "Comment(git-annex.desktop)"
-msgid "Autostart"
-msgstr "Autostart"
+#: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:8
+msgctxt "Comment(gnome-break-timer-autostart.desktop)"
+msgid "Provides a gentle reminder to take regular breaks"
+msgstr "Subtelnie przypomina o regularnym robieniu przerw"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.DiskUtilityNotify.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
@@ -557,6 +557,16 @@ msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "Pęk kluczy środowiska GNOME: usługa tajna"
 
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "Agent kluczy SSH"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:74
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "Pęk kluczy środowiska GNOME: agent SSH"
+
 #: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:3
 msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
@@ -566,16 +576,6 @@ msgstr "Przechowalnia certyfikatów i kluczy"
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "Pęk kluczy środowiska GNOME: składnik PKCS#11"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "Agent kluczy SSH"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:73
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "Pęk kluczy środowiska GNOME: agent SSH"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:2
 msgctxt "Name(gnome-xorg.desktop)"
@@ -601,95 +601,95 @@ msgstr ""
 "GNU Network Object Model Environment (GNOME). Kompletne, darmowe i łatwe w "
 "użyciu środowisko pulpitu"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "Wtyczka clipboard demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Wtyczka screensaver-proxy demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
-msgid "GNOME Settings Daemon's housekeeping plugin"
-msgstr "Wtyczka housekeeping demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "Wtyczka rfkill demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Wtyczka a11y-settings demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
-msgstr "Wtyczka color demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
-msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Wtyczka media-keys demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
-msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "Wtyczka keyboard demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
-msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "Wtyczka mouse demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
-msgid "GNOME Settings Daemon's sharing plugin"
-msgstr "Wtyczka sharing demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
-msgid "GNOME Settings Daemon's xsettings plugin"
-msgstr "Wtyczka xsettings demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "Wtyczka sound demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
-msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "Wtyczka wacom demona ustawień środowiska GNOME"
-
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
 msgid "GNOME Settings Daemon's print-notifications plugin"
 msgstr "Wtyczka print-notifications demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
-msgid "GNOME Settings Daemon's power plugin"
-msgstr "Wtyczka power demona ustawień środowiska GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
-msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "Wtyczka a11y-keyboard demona ustawień środowiska GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
 msgid "GNOME Settings Daemon's datetime plugin"
 msgstr "Wtyczka datetime demona ustawień środowiska GNOME"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "Wtyczka screensaver-proxy demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "Wtyczka wacom demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
+msgid "GNOME Settings Daemon's keyboard plugin"
+msgstr "Wtyczka keyboard demona ustawień środowiska GNOME"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
 msgid "GNOME Settings Daemon's smartcard plugin"
 msgstr "Wtyczka smartcard demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "Wtyczka rfkill demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
+msgid "GNOME Settings Daemon's xsettings plugin"
+msgstr "Wtyczka xsettings demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "Wtyczka a11y-settings demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "Wtyczka sound demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "Wtyczka clipboard demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
+msgid "GNOME Settings Daemon's sharing plugin"
+msgstr "Wtyczka sharing demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
+msgid "GNOME Settings Daemon's a11y-keyboard plugin"
+msgstr "Wtyczka a11y-keyboard demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "Wtyczka media-keys demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "Wtyczka color demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
+msgid "GNOME Settings Daemon's power plugin"
+msgstr "Wtyczka power demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
+msgid "GNOME Settings Daemon's housekeeping plugin"
+msgstr "Wtyczka housekeeping demona ustawień środowiska GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
+msgid "GNOME Settings Daemon's mouse plugin"
+msgstr "Wtyczka mouse demona ustawień środowiska GNOME"
 
 #: /usr/share/xsessions/sle-classic.desktop:2
 msgctxt "Name(sle-classic.desktop)"
@@ -725,6 +725,24 @@ msgstr "Touchpad"
 msgctxt "Comment(gsynaptics-init.desktop)"
 msgid "Set your touchpad preferences"
 msgstr "Ustaw preferencje touchpada"
+
+#: /etc/xdg/autostart/com.github.ztefn.haguichi.autostart.desktop:22
+msgctxt "Name(com.github.ztefn.haguichi.autostart.desktop)"
+msgid "Haguichi"
+msgstr "Haguichi"
+
+#: /etc/xdg/autostart/com.github.ztefn.haguichi.autostart.desktop:36
+#, fuzzy
+#| msgctxt "GenericName(nm-tray.desktop)"
+#| msgid "Network Management"
+msgctxt "GenericName(com.github.ztefn.haguichi.autostart.desktop)"
+msgid "Hamachi Network Manager"
+msgstr "Zarządzanie siecią"
+
+#: /etc/xdg/autostart/com.github.ztefn.haguichi.autostart.desktop:58
+msgctxt "Comment(com.github.ztefn.haguichi.autostart.desktop)"
+msgid "Join and create local networks over the Internet"
+msgstr "Dołączanie i tworzenie lokalnych sieci przez Internet"
 
 #: /etc/xdg/autostart/com.github.sgpthomas.hourglass-daemon.desktop:3
 msgctxt "Name(com.github.sgpthomas.hourglass-daemon.desktop)"
@@ -781,50 +799,41 @@ msgctxt "Keywords(i3-with-shmlog.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr "rozmieszczaniesąsiadująco;wm;menedżerokien;okno;menedżer;"
 
-#: /usr/share/xsessions/icewm-session.desktop:4
-msgctxt "Name(icewm-session.desktop)"
+#: /usr/share/xsessions/icewm.desktop:4
+#, fuzzy
+#| msgctxt "Name(icewm-session.desktop)"
+#| msgid "IceWM Session"
+msgctxt "Name(icewm.desktop)"
 msgid "IceWM Session"
 msgstr "Sesja IceWM"
-
-#: /usr/share/xsessions/icewm-session.desktop:5
-msgctxt "GenericName(icewm-session.desktop)"
-msgid "Window Manager"
-msgstr "Menedżer okien"
-
-#: /usr/share/xsessions/icewm-session.desktop:8
-msgctxt "Comment(icewm-session.desktop)"
-msgid "This session logs you into IceWM"
-msgstr "Sesja logowania do Icewm"
-
-#: /usr/share/xsessions/icewm.desktop:4
-msgctxt "Name(icewm.desktop)"
-msgid "IceWM"
-msgstr "IceWM"
 
 #: /usr/share/xsessions/icewm.desktop:5
 msgctxt "GenericName(icewm.desktop)"
 msgid "Window Manager"
 msgstr "Menedżer okien"
 
-#: /usr/share/xsessions/icewm.desktop:9
+#: /usr/share/xsessions/icewm.desktop:8
+#, fuzzy
+#| msgctxt "Comment(icewm-session.desktop)"
+#| msgid "This session logs you into IceWM"
 msgctxt "Comment(icewm.desktop)"
-msgid "Simple and fast window manger"
-msgstr "Prosty i szybki menedżer okien"
+msgid "This session logs you into IceWM"
+msgstr "Sesja logowania do Icewm"
 
 #: /etc/xdg/autostart/kalarm.autostart.desktop:3
 msgctxt "Name(kalarm.autostart.desktop)"
 msgid "KAlarm"
 msgstr "KAlarm"
 
-#: /etc/xdg/autostart/kalarm.autostart.desktop:78
+#: /etc/xdg/autostart/kalarm.autostart.desktop:77
 msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Samoczynne uruchamianie KAlarmu po zalogowaniu"
 
-#: /usr/share/wallpapers/stripes.png.desktop:3
-msgctxt "Wallpaper-Name(stripes.png.desktop)"
-msgid "Stripes"
-msgstr "Paski"
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Przestrzeń pulpitu Plasma"
 
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -841,10 +850,10 @@ msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Program narzędziowy historii wycinania i wklejania"
 
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Przestrzeń pulpitu Plasma"
+#: /usr/share/wallpapers/stripes.png.desktop:3
+msgctxt "Wallpaper-Name(stripes.png.desktop)"
+msgid "Stripes"
+msgstr "Paski"
 
 #: /etc/xdg/autostart/kdeconnectd.desktop:10
 msgctxt "Name(kdeconnectd.desktop)"
@@ -866,35 +875,35 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
-msgctxt "Comment(x-kicad-schematic.desktop)"
-msgid "KiCad Schematic"
-msgstr "Schemat programu KiCad"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "Projekt programu KiCad"
 
 #: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
 msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
 msgstr "Płytka drukowana programu KiCad"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "Projekt programu KiCad"
+#: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
+msgctxt "Comment(x-kicad-schematic.desktop)"
+msgid "KiCad Schematic"
+msgstr "Schemat programu KiCad"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Przywróć ustawienia głośności miksera"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
 msgid "Sound Mixer"
 msgstr "Mikser dźwięku"
 
-#: /etc/xdg/autostart/kmix_autostart.desktop:65
+#: /etc/xdg/autostart/kmix_autostart.desktop:66
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
-
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Przywróć ustawienia głośności miksera"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1245,6 +1254,33 @@ msgctxt "Name(orca-autostart.desktop)"
 msgid "Orca screen reader"
 msgstr "Czytnik ekranowy Orca"
 
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:4
+#, fuzzy
+#| msgctxt "Name(pk-update-icon.desktop)"
+#| msgid "PackageKit Update Applet"
+msgctxt "Name(org.guido-berhoerster.code.package-update-indicator.desktop)"
+msgid "Package Update Indicator"
+msgstr "Aplet aktualizacji PackageKit"
+
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:7
+#, fuzzy
+#| msgctxt "Name(pk-update-icon.desktop)"
+#| msgid "PackageKit Update Applet"
+msgctxt ""
+"GenericName(org.guido-berhoerster.code.package-update-indicator.desktop)"
+msgid "Package Update Indicator"
+msgstr "Aplet aktualizacji PackageKit"
+
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:11
+msgctxt "Comment(org.guido-berhoerster.code.package-update-indicator.desktop)"
+msgid "Notify about available software updates"
+msgstr ""
+
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:13
+msgctxt "Icon(org.guido-berhoerster.code.package-update-indicator.desktop)"
+msgid "system-software-update"
+msgstr ""
+
 #: /etc/xdg/autostart/pam-dbus-notify.desktop:2
 msgctxt "Name(pam-dbus-notify.desktop)"
 msgid "pam-dbus Handler"
@@ -1260,7 +1296,7 @@ msgctxt "Name(pam_kwallet_init.desktop)"
 msgid "KWallet PAM Socket Connection"
 msgstr "Połączenie do gniazda PAM programu KWallet"
 
-#: /etc/xdg/autostart/pam_kwallet_init.desktop:39
+#: /etc/xdg/autostart/pam_kwallet_init.desktop:40
 msgctxt "Comment(pam_kwallet_init.desktop)"
 msgid "Connect to KWallet PAM socket"
 msgstr "Połącz z gniazdem PAM programu KWallet"
@@ -1295,30 +1331,30 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio;zasobnik;pasek zadań;aplet;głośność;"
 
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr "Topologia płytki PCB"
-
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
-msgstr "Lista połączeń płytki PCB"
-
-#: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
-msgctxt "Comment(x-pcb-footprint.desktop)"
-msgid "PCB footprint"
-msgstr "Schemat wyprowadzeń płytki PCB"
+#: /usr/share/mimelnk/application/x-gerber.desktop:3
+msgctxt "Comment(x-gerber.desktop)"
+msgid "Gerber file"
+msgstr "Plik formatu Gerber"
 
 #: /usr/share/mimelnk/application/x-excellon.desktop:3
 msgctxt "Comment(x-excellon.desktop)"
 msgid "Excellon drill file"
 msgstr "Plik formatu Excellon"
 
-#: /usr/share/mimelnk/application/x-gerber.desktop:3
-msgctxt "Comment(x-gerber.desktop)"
-msgid "Gerber file"
-msgstr "Plik formatu Gerber"
+#: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
+msgctxt "Comment(x-pcb-footprint.desktop)"
+msgid "PCB footprint"
+msgstr "Schemat wyprowadzeń płytki PCB"
+
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr "Lista połączeń płytki PCB"
+
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr "Topologia płytki PCB"
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
 msgctxt "Name(lxqt-desktop.desktop)"
@@ -1340,16 +1376,6 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "Aplet aktualizacji PackageKit"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Pusty panel"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "Pusty panel"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
 msgid "Application Menu Bar"
@@ -1359,6 +1385,18 @@ msgstr "Pasek menu programów"
 msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 msgid "Panel containing the global menu applet"
 msgstr "Panel zawierający aplet globalnego menu"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
+msgid "Default Panel"
+msgstr "Domyślny panel"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
+msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
+msgid ""
+"Default panel featuring application launcher, task manager and system tray"
+msgstr ""
+"Domyślny panel zawierający aktywator programów, pasek zadań i tackę systemową"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop)"
@@ -1380,18 +1418,6 @@ msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Zarządzaj programem Plasma"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
-msgid "Default Panel"
-msgstr "Domyślny panel"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
-msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
-msgid ""
-"Default panel featuring application launcher, task manager and system tray"
-msgstr ""
-"Domyślny panel zawierający aktywator programów, pasek zadań i tackę systemową"
-
 #: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
 msgctxt "Name(org.kde.desktopcontainment)"
 msgid "Desktop Containment"
@@ -1402,65 +1428,75 @@ msgctxt "Summary(org.kde.desktopcontainment)"
 msgid "A clean and simple layout"
 msgstr "Schludny i prosty układ"
 
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Pusty panel"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "Pusty panel"
+
 #: /usr/share/wallpapers/Grey/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Grey"
 msgstr "Szary"
-
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Barwne kubki"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Najciemniejsza godzina"
-
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
-msgstr "Latający Konqui"
-
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Przy wodzie"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Zimna fala"
 
 #: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Pastel Hills"
 msgstr "Pastelowe wzgórza"
 
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "Ścieżka"
+
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "Latawiec"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Opadły liść"
+msgid "Colorful Cups"
+msgstr "Barwne kubki"
 
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Wieczorna poświata"
+msgid "By the water"
+msgstr "Przy wodzie"
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Flying Konqui"
+msgstr "Latający Konqui"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "One Stands Out"
 msgstr "Jeden się wyróżnia"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Ścieżka"
+msgid "Fallen Leaf"
+msgstr "Opadły liść"
+
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cold Ripple"
+msgstr "Zimna fala"
+
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr "Wieczorna poświata"
+
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Darkest Hour"
+msgstr "Najciemniejsza godzina"
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
@@ -1496,16 +1532,6 @@ msgstr "Plasma"
 msgctxt "Comment(plasma5.desktop)"
 msgid "Plasma by KDE"
 msgstr "Plasma od KDE"
-
-#: /etc/xdg/autostart/restorecond.desktop:2
-msgctxt "Name(restorecond.desktop)"
-msgid "File Context maintainer"
-msgstr "Moduł utrzymujący kontekst plików"
-
-#: /etc/xdg/autostart/restorecond.desktop:4
-msgctxt "Comment(restorecond.desktop)"
-msgid "Fix file context in owned by the user"
-msgstr "Napraw kontekst pliku w należącym do użytkownika"
 
 #: /etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop:2
 msgctxt "Name(polkit-gnome-authentication-agent-1.desktop)"
@@ -1554,11 +1580,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Uruchom systemu dźwięku PulseAudio"
 
-#: /usr/share/mimelnk/application/x-qet-project.desktop:7
-msgctxt "Comment(x-qet-project.desktop)"
-msgid "QElectroTech project file"
-msgstr "Plik projektu QElectroTech"
-
 #: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
 msgctxt "Comment(x-qet-titleblock.desktop)"
 msgid "QElectroTech title block template"
@@ -1568,6 +1589,36 @@ msgstr "Szablon tabliczki tytułowej QElectroTech"
 msgctxt "Comment(x-qet-element.desktop)"
 msgid "QElectroTech element file"
 msgstr "Plik elementu QElectroTech"
+
+#: /usr/share/mimelnk/application/x-qet-project.desktop:7
+msgctxt "Comment(x-qet-project.desktop)"
+msgid "QElectroTech project file"
+msgstr "Plik projektu QElectroTech"
+
+#: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
+msgctxt "Name(lxqt-qlipper-autostart.desktop)"
+msgid "Qlipper"
+msgstr "Qlipper"
+
+#: /etc/xdg/autostart/qtfm-tray.desktop:2
+msgctxt "Name(qtfm-tray.desktop)"
+msgid "QtFM Device Manager"
+msgstr ""
+
+#: /etc/xdg/autostart/qtfm-tray.desktop:3
+msgctxt "Comment(qtfm-tray.desktop)"
+msgid "QtFM Device Manager"
+msgstr ""
+
+#: /etc/xdg/autostart/restorecond.desktop:2
+msgctxt "Name(restorecond.desktop)"
+msgid "File Context maintainer"
+msgstr "Moduł utrzymujący kontekst plików"
+
+#: /etc/xdg/autostart/restorecond.desktop:4
+msgctxt "Comment(restorecond.desktop)"
+msgid "Fix file context in owned by the user"
+msgstr "Napraw kontekst pliku w należącym do użytkownika"
 
 #: /etc/xdg/autostart/roccateventhandler.desktop:2
 msgctxt "Name(roccateventhandler.desktop)"
@@ -1589,16 +1640,6 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Przypomina od czasu do czasu o odpoczynku"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
 msgid "Sawfish/MATE"
@@ -1609,15 +1650,15 @@ msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu MATE"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu KDE"
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu XFCE"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
@@ -1629,15 +1670,25 @@ msgctxt "Comment(sawfish-lumina.desktop)"
 msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
 msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu Lumina"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu XFCE"
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "Używaj menedżera okien Sawfish wewnątrz środowiska pulpitu KDE"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1694,16 +1745,6 @@ msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "Pobierz kanały RSS/Atom"
 
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
-msgctxt "Name(tracker-miner-apps.desktop)"
-msgid "Tracker Application Miner"
-msgstr "Przeszukiwanie programów Tracker"
-
-#: /etc/xdg/autostart/tracker-miner-apps.desktop:42
-msgctxt "Comment(tracker-miner-apps.desktop)"
-msgid "Indexes information about applications installed"
-msgstr "Indeksuje informacje o zainstalowanych programach"
-
 #: /etc/xdg/autostart/tracker-extract.desktop:2
 msgctxt "Name(tracker-extract.desktop)"
 msgid "Tracker Metadata Extractor"
@@ -1713,6 +1754,16 @@ msgstr "Wydobywanie metadanych programu Tracker"
 msgctxt "Comment(tracker-extract.desktop)"
 msgid "Extracts metadata from local files"
 msgstr "Wydobywanie metadanych z lokalnych plików"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:2
+msgctxt "Name(tracker-miner-apps.desktop)"
+msgid "Tracker Application Miner"
+msgstr "Przeszukiwanie programów Tracker"
+
+#: /etc/xdg/autostart/tracker-miner-apps.desktop:42
+msgctxt "Comment(tracker-miner-apps.desktop)"
+msgid "Indexes information about applications installed"
+msgstr "Indeksuje informacje o zainstalowanych programach"
 
 #: /etc/xdg/autostart/tracker-store.desktop:2
 msgctxt "Name(tracker-store.desktop)"
@@ -1724,11 +1775,6 @@ msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr "Menedżer przechowywania i wyszukiwania w bazie metadanych"
 
-#: /usr/share/mimelnk/application/x-treepad.desktop:3
-msgctxt "Comment(x-treepad.desktop)"
-msgid "TreePad File"
-msgstr "Plik programu TreePad"
-
 #: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
 msgctxt "Comment(x-treeline-gz.desktop)"
 msgid "Compressed TreeLine File"
@@ -1738,6 +1784,11 @@ msgstr "Skompresowany plik programu TreeLine"
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
 msgstr "Plik programu TreeLine"
+
+#: /usr/share/mimelnk/application/x-treepad.desktop:3
+msgctxt "Comment(x-treepad.desktop)"
+msgid "TreePad File"
+msgstr "Plik programu TreePad"
 
 #: /usr/share/xsessions/twm.desktop:6
 msgctxt "Name(twm.desktop)"
@@ -1786,7 +1837,7 @@ msgctxt "Name(xfce4-clipman-plugin-autostart.desktop)"
 msgid "Clipman"
 msgstr "Clipman"
 
-#: /etc/xdg/autostart/xfce4-clipman-plugin-autostart.desktop:51
+#: /etc/xdg/autostart/xfce4-clipman-plugin-autostart.desktop:52
 msgctxt "Comment(xfce4-clipman-plugin-autostart.desktop)"
 msgid "Clipboard manager"
 msgstr "Menedżer schowka"
@@ -1904,22 +1955,35 @@ msgctxt "GenericName(firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Włącz lub wyłącz uruchamianie sekwencji programu Firstboot"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:23
+#: /usr/share/autoinstall/modules/ssh_import.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(ssh_import.desktop)"
+msgid "import,key,ssh,installation"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
 msgctxt "Name(ssh_import.desktop)"
 msgid "SSH Key Import"
 msgstr "Import kluczy SSH"
 
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+#: /usr/share/autoinstall/modules/ssh_import.desktop:25
 msgctxt "GenericName(ssh_import.desktop)"
 msgid "Importing SSH keys from a previous installation"
 msgstr "Importowanie kluczy SSH z poprzedniej instalacji"
 
-#: /usr/share/autoinstall/modules/deploy_image.desktop:23
+#: /usr/share/autoinstall/modules/deploy_image.desktop:19
+#, fuzzy
+#| msgctxt "Name(deploy_image.desktop)"
+#| msgid "Image deployment"
+msgctxt "X-SuSE-YaST-Keywords(deploy_image.desktop)"
+msgid "image,deployment"
+msgstr "Wdrażanie obrazu"
+
+#: /usr/share/autoinstall/modules/deploy_image.desktop:24
 msgctxt "Name(deploy_image.desktop)"
 msgid "Image deployment"
 msgstr "Wdrażanie obrazu"
 
-#: /usr/share/autoinstall/modules/deploy_image.desktop:24
+#: /usr/share/autoinstall/modules/deploy_image.desktop:25
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Konfiguruj wdrażanie obrazu"
@@ -1933,6 +1997,26 @@ msgstr "Zeitgeist Datahub"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "Uruchom Zeitgeist Datahub dla pasywnych rejestratorów"
+
+#~ msgctxt "Name(git-annex.desktop)"
+#~ msgid "Git Annex Assistant"
+#~ msgstr "Git Annex Assistant"
+
+#~ msgctxt "Comment(git-annex.desktop)"
+#~ msgid "Autostart"
+#~ msgstr "Autostart"
+
+#~ msgctxt "GenericName(icewm-session.desktop)"
+#~ msgid "Window Manager"
+#~ msgstr "Menedżer okien"
+
+#~ msgctxt "Name(icewm.desktop)"
+#~ msgid "IceWM"
+#~ msgstr "IceWM"
+
+#~ msgctxt "Comment(icewm.desktop)"
+#~ msgid "Simple and fast window manger"
+#~ msgstr "Prosty i szybki menedżer okien"
 
 #~ msgctxt "Name(vnd.scribus.desktop)"
 #~ msgid "Scribus"
@@ -1978,14 +2062,6 @@ msgstr "Uruchom Zeitgeist Datahub dla pasywnych rejestratorów"
 #~ msgctxt "GenericName(pulseaudio.desktop)"
 #~ msgid ""
 #~ msgstr " "
-
-#~ msgctxt "Name(gnome-break-timer-autostart.desktop)"
-#~ msgid "Break Timer"
-#~ msgstr "Break Timer"
-
-#~ msgctxt "Comment(gnome-break-timer-autostart.desktop)"
-#~ msgid "Provides a gentle reminder to take regular breaks"
-#~ msgstr "Subtelnie przypomina o regularnym robieniu przerw"
 
 #~ msgctxt "Comment(icewm.desktop)"
 #~ msgid "A Windows 95-OS/2-Motif-like window manager"
@@ -2186,10 +2262,6 @@ msgstr "Uruchom Zeitgeist Datahub dla pasywnych rejestratorów"
 #~ msgctxt "Comment(libreoffice-drawing-template.desktop)"
 #~ msgid "OpenOffice.org 1.0 Drawing Template"
 #~ msgstr "Szablon rysunku OpenOffice.org 1.0"
-
-#~ msgctxt "Name(lxqt-qlipper-autostart.desktop)"
-#~ msgid "Qlipper"
-#~ msgstr "Qlipper"
 
 #~ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 #~ msgid "Combines the current application menu into your shell"

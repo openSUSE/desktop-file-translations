@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YaST (@memory@)\n"
-"POT-Creation-Date: 2019-01-08 09:45+0000\n"
+"POT-Creation-Date: 2019-01-31 12:29+0000\n"
 "PO-Revision-Date: 2012-02-12 09:27+0100\n"
 "Last-Translator: Karl Eichwalder <ke@suse.de>\n"
 "Language-Team: Esperanto <i18n@suse.de>\n"
@@ -13,18 +13,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: /usr/share/applications/kde4/amzdownloader.desktop:3
-#, fuzzy
-msgctxt "Name(amzdownloader.desktop)"
-msgid "AMZ Downloader"
-msgstr "Elŝuta administrilo"
-
-#: /usr/share/applications/kde4/amzdownloader.desktop:42
-#, fuzzy
-msgctxt "Comment(amzdownloader.desktop)"
-msgid "Download with AMZ Downloader"
-msgstr "Elŝuta administrilo"
 
 #: /usr/share/applications/kde4/org.kde.amarok.desktop:4
 #, fuzzy
@@ -54,6 +42,18 @@ msgstr "Amarok - Remalkovru vian muzikon!"
 msgctxt "X-KDE-Keywords(org.kde.amarok.desktop)"
 msgid "music,podcast"
 msgstr ""
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:3
+#, fuzzy
+msgctxt "Name(amzdownloader.desktop)"
+msgid "AMZ Downloader"
+msgstr "Elŝuta administrilo"
+
+#: /usr/share/applications/kde4/amzdownloader.desktop:42
+#, fuzzy
+msgctxt "Comment(amzdownloader.desktop)"
+msgid "Download with AMZ Downloader"
+msgstr "Elŝuta administrilo"
 
 #: /usr/share/applications/kde4/org.kde.amarok_containers.desktop:4
 #, fuzzy
@@ -134,25 +134,20 @@ msgctxt "GenericName(knetattach.desktop)"
 msgid "Network Folder Wizard"
 msgstr "Asistanto de retaj dosierujoj"
 
-#: /usr/share/applications/kde4/kinfocenter.desktop:9
-msgctxt "Name(kinfocenter.desktop)"
-msgid "KInfoCenter"
-msgstr "KInfoCenter"
+#: /usr/share/applications/kde4/krandrtray.desktop:2
+msgctxt "Name(krandrtray.desktop)"
+msgid "KRandRTray"
+msgstr "KRandRTray"
 
-#: /usr/share/applications/kde4/kinfocenter.desktop:99
-msgctxt "GenericName(kinfocenter.desktop)"
-msgid "Info Center"
-msgstr "Informocentro"
+#: /usr/share/applications/kde4/krandrtray.desktop:91
+msgctxt "GenericName(krandrtray.desktop)"
+msgid "Screen Resize & Rotate"
+msgstr "Regrandigi kaj turni ekranon"
 
-#: /usr/share/applications/kde4/systemsettings.desktop:9
-msgctxt "GenericName(systemsettings.desktop)"
-msgid "Configure KDE 4 Applications"
-msgstr "Sistema agordo"
-
-#: /usr/share/applications/kde4/systemsettings.desktop:91
-msgctxt "Name(systemsettings.desktop)"
-msgid "Configure KDE 4 Applications"
-msgstr "Sistema agordo"
+#: /usr/share/applications/kde4/krandrtray.desktop:180
+msgctxt "Comment(krandrtray.desktop)"
+msgid "A panel applet for resizing and reorientating X screens."
+msgstr "Panela aplikaĵeto por regrandigi kaj reorienti la X ekranojn."
 
 #: /usr/share/applications/kde4/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
@@ -168,26 +163,6 @@ msgstr "Ilo por la poŝo"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Ilo por la eltonda kaj alglua historio"
-
-#: /usr/share/applications/kde4/kmenuedit.desktop:9
-msgctxt "Name(kmenuedit.desktop)"
-msgid "Menu Editor"
-msgstr "Menuredaktilo"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:2
-msgctxt "Name(krandrtray.desktop)"
-msgid "KRandRTray"
-msgstr "KRandRTray"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:91
-msgctxt "GenericName(krandrtray.desktop)"
-msgid "Screen Resize & Rotate"
-msgstr "Regrandigi kaj turni ekranon"
-
-#: /usr/share/applications/kde4/krandrtray.desktop:180
-msgctxt "Comment(krandrtray.desktop)"
-msgid "A panel applet for resizing and reorientating X screens."
-msgstr "Panela aplikaĵeto por regrandigi kaj reorienti la X ekranojn."
 
 #: /usr/share/applications/kde4/kdesystemsettings.desktop:8
 msgctxt "GenericName(kdesystemsettings.desktop)"
@@ -208,6 +183,31 @@ msgstr "KFontView"
 msgctxt "GenericName(kfontview.desktop)"
 msgid "Font Viewer"
 msgstr "Tipara rigardilo"
+
+#: /usr/share/applications/kde4/systemsettings.desktop:9
+msgctxt "GenericName(systemsettings.desktop)"
+msgid "Configure KDE 4 Applications"
+msgstr "Sistema agordo"
+
+#: /usr/share/applications/kde4/systemsettings.desktop:91
+msgctxt "Name(systemsettings.desktop)"
+msgid "Configure KDE 4 Applications"
+msgstr "Sistema agordo"
+
+#: /usr/share/applications/kde4/kinfocenter.desktop:9
+msgctxt "Name(kinfocenter.desktop)"
+msgid "KInfoCenter"
+msgstr "KInfoCenter"
+
+#: /usr/share/applications/kde4/kinfocenter.desktop:99
+msgctxt "GenericName(kinfocenter.desktop)"
+msgid "Info Center"
+msgstr "Informocentro"
+
+#: /usr/share/applications/kde4/kmenuedit.desktop:9
+msgctxt "Name(kmenuedit.desktop)"
+msgid "Menu Editor"
+msgstr "Menuredaktilo"
 
 #: /usr/share/applications/kde4/ktelnetservice.desktop:10
 msgctxt "Name(ktelnetservice.desktop)"
@@ -284,21 +284,6 @@ msgctxt "GenericName(klinkstatus.desktop)"
 msgid "Link Checker"
 msgstr ""
 
-#: /usr/share/applications/kde4/kopete.desktop:3
-msgctxt "Name(kopete.desktop)"
-msgid "Kopete"
-msgstr "Kopete"
-
-#: /usr/share/applications/kde4/kopete.desktop:78
-msgctxt "GenericName(kopete.desktop)"
-msgid "Instant Messenger"
-msgstr "Tujmesaĝilo"
-
-#: /usr/share/applications/kde4/kopete.desktop:155
-msgctxt "Comment(kopete.desktop)"
-msgid "Instant Messenger"
-msgstr "Tujmesaĝilo"
-
 #: /usr/share/applications/kde4/kpassgen.desktop:2
 msgctxt "Name(kpassgen.desktop)"
 msgid "KPassGen"
@@ -309,16 +294,6 @@ msgctxt "GenericName(kpassgen.desktop)"
 msgid "Password Generator"
 msgstr ""
 
-#: /usr/share/applications/kde4/Kppp.desktop:2
-msgctxt "GenericName(Kppp.desktop)"
-msgid "Internet Dial-Up Tool"
-msgstr "Ilo por konekti al Interreto"
-
-#: /usr/share/applications/kde4/Kppp.desktop:72
-msgctxt "Name(Kppp.desktop)"
-msgid "KPPP"
-msgstr "KPPP"
-
 #: /usr/share/applications/kde4/kppplogview.desktop:2
 msgctxt "Name(kppplogview.desktop)"
 msgid "KPPPLogview"
@@ -328,6 +303,16 @@ msgstr "KPPPLogview"
 msgctxt "GenericName(kppplogview.desktop)"
 msgid "Internet Dial-Up Tool Log Viewer"
 msgstr "Raporta vidilo por telefona interreto"
+
+#: /usr/share/applications/kde4/Kppp.desktop:2
+msgctxt "GenericName(Kppp.desktop)"
+msgid "Internet Dial-Up Tool"
+msgstr "Ilo por konekti al Interreto"
+
+#: /usr/share/applications/kde4/Kppp.desktop:72
+msgctxt "Name(Kppp.desktop)"
+msgid "KPPP"
+msgstr "KPPP"
 
 #: /usr/share/applications/kde4/kradio4.desktop:2
 msgctxt "GenericName(kradio4.desktop)"
@@ -400,11 +385,6 @@ msgctxt "GenericName(kvpnc.desktop)"
 msgid "VPNC FrontEnd"
 msgstr ""
 
-#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
-msgctxt "Name(kwalletmanager-kwalletd.desktop)"
-msgid "Wallet Management Tool"
-msgstr "Paperuja administrilo"
-
 #: /usr/share/applications/kde4/kwalletmanager.desktop:2
 #, fuzzy
 msgctxt "Name(kwalletmanager.desktop)"
@@ -417,10 +397,27 @@ msgctxt "GenericName(kwalletmanager.desktop)"
 msgid "Wallet Management Tool"
 msgstr "Paperuja administrilo"
 
+#: /usr/share/applications/kde4/kwalletmanager-kwalletd.desktop:2
+msgctxt "Name(kwalletmanager-kwalletd.desktop)"
+msgid "Wallet Management Tool"
+msgstr "Paperuja administrilo"
+
 #: /usr/share/applications/kdesystemsettings.desktop:118
 msgctxt "Comment(kdesystemsettings.desktop)"
 msgid "Configuration tools for your computer"
 msgstr ""
+
+#~ msgctxt "Name(kopete.desktop)"
+#~ msgid "Kopete"
+#~ msgstr "Kopete"
+
+#~ msgctxt "GenericName(kopete.desktop)"
+#~ msgid "Instant Messenger"
+#~ msgstr "Tujmesaĝilo"
+
+#~ msgctxt "Comment(kopete.desktop)"
+#~ msgid "Instant Messenger"
+#~ msgstr "Tujmesaĝilo"
 
 #~ msgctxt "Name(amarok_containers.desktop)"
 #~ msgid "Amarok"
