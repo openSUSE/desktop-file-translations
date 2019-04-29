@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.fi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-31 12:29+0000\n"
+"POT-Creation-Date: 2019-04-29 07:46+0000\n"
 "PO-Revision-Date: 2019-02-05 12:02+0000\n"
 "Last-Translator: Tommi Nieminen <software@legisign.org>\n"
 "Language-Team: Finnish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -75,6 +75,38 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "AT-SPI D-Bus-väylä"
 
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+#, fuzzy
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "Lisää tai muokkaa omia skriptejä"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "Lisää tai muokkaa omia skriptejä"
+
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "Yleisasetukset"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Raportointi ja loki"
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+#, fuzzy
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Raportointi ja loki"
+
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
 msgid "Partitioning"
@@ -94,38 +126,6 @@ msgstr "Paketinvalinta"
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr ""
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Raportointi ja loki"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-#, fuzzy
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Raportointi ja loki"
-
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "Yleisasetukset"
-
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-#, fuzzy
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "Lisää tai muokkaa omia skriptejä"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "Lisää tai muokkaa omia skriptejä"
 
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
@@ -585,11 +585,6 @@ msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "Tervetuloa"
-
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -600,35 +595,35 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Alkuasetukset"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
-msgctxt "Name(gnome-keyring-secrets.desktop)"
-msgid "Secret Storage Service"
-msgstr "Salaisuuksien säilöntäpalvelu"
-
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
-msgctxt "Comment(gnome-keyring-secrets.desktop)"
-msgid "GNOME Keyring: Secret Service"
-msgstr "Gnomen avainnippu: Salainen palvelu"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:72
 msgctxt "Name(gnome-keyring-ssh.desktop)"
 msgid "SSH Key Agent"
 msgstr "SSH-avainten agentti"
 
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:143
 msgctxt "Comment(gnome-keyring-ssh.desktop)"
 msgid "GNOME Keyring: SSH Agent"
 msgstr "Gnomen avainnippu: SSH-agentti"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:73
 msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Varmenne- ja avainsäilö"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:143
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "Gnomen avainnippu: PKCS#11-komponentti"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:73
+msgctxt "Name(gnome-keyring-secrets.desktop)"
+msgid "Secret Storage Service"
+msgstr "Salaisuuksien säilöntäpalvelu"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:144
+msgctxt "Comment(gnome-keyring-secrets.desktop)"
+msgid "GNOME Keyring: Secret Service"
+msgstr "Gnomen avainnippu: Salainen palvelu"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:2
 msgctxt "Name(gnome-xorg.desktop)"
@@ -934,11 +929,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "KAlarmin automaattikäynnistys kirjauduttaessa"
 
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plasma-työpöytä"
-
 #: /usr/share/autostart/klipper.desktop:2
 #, fuzzy
 msgctxt "Name(klipper.desktop)"
@@ -955,6 +945,11 @@ msgstr "Leikepöydän hallintatyökalu"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Työkalu leikkaamiseen ja liittämiseen"
+
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plasma-työpöytä"
 
 #: /usr/share/wallpapers/stripes.png.desktop:3
 #, fuzzy
@@ -982,11 +977,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad-projekti"
-
 #: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
 msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
@@ -997,10 +987,10 @@ msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "KiCad-skeema"
 
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Palauta mikserin äänivoimakkuudet"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "KiCad-projekti"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -1011,6 +1001,11 @@ msgstr "Äänimikseri"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Palauta mikserin äänivoimakkuudet"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1498,15 +1493,38 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit-päivityssovelma"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "Sovellusvalikkopalkki"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Paneeli"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "Työpöydänlaajuisen valikkosovelman sisältävä paneeli"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+#, fuzzy
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "Paneeli"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Työpöytä"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Selkeä ja yksinkertainen asettelu"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Työpöydän sisustus"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1520,17 +1538,6 @@ msgid ""
 msgstr ""
 "Oletuspaneeli, jossa sovelluskäynnistin, tehtävänhallinta ja ilmoitusalue"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Työpöytä"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Työpöydän sisustus"
-
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
@@ -1541,57 +1548,60 @@ msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Plasman hallinta"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Työpöytä"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "Sovellusvalikkopalkki"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Selkeä ja yksinkertainen asettelu"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "Työpöydänlaajuisen valikkosovelman sisältävä paneeli"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Paneeli"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-#, fuzzy
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "Paneeli"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Harmaus"
+msgid "Darkest Hour"
+msgstr "Pimein hetki"
+
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "Veden äärellä"
+
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr "Iltaruskon kajo"
 
 #: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Pastel Hills"
 msgstr "Pastellikukkulat"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Polku"
+msgid "Cold Ripple"
+msgstr "Kylmä väre"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "Leija"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Värikkäät kupit"
+msgid "Fallen Leaf"
+msgstr "Pudonnut lehti"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Veden äärellä"
+msgid "Path"
+msgstr "Polku"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Harmaus"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1603,25 +1613,10 @@ msgctxt "Name(metadata.desktop)"
 msgid "One Stands Out"
 msgstr "Yksi eroaa muista"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Pudonnut lehti"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Kylmä väre"
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Iltaruskon kajo"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Pimein hetki"
+msgid "Colorful Cups"
+msgstr "Värikkäät kupit"
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
@@ -1632,6 +1627,11 @@ msgstr "Breeze"
 msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Työpöydän design-kieli Breeze KDE VDG:ltä"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
 
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
@@ -1645,11 +1645,6 @@ msgstr "KRunner"
 msgctxt "Name(org.kde.plasmashell.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Plasma-työpöytä"
-
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
 
 #: /usr/share/xsessions/plasma5.desktop:6
 #, fuzzy
@@ -1709,11 +1704,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Käynnistä PulseAudio-äänijärjestelmä"
 
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr "QElectroTech-otsikkolohkopohja"
-
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
 msgid "QElectroTech element file"
@@ -1723,6 +1713,11 @@ msgstr "QElectroTech-elementtitiedosto"
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "QElectroTech-projektitiedosto"
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
+msgstr "QElectroTech-otsikkolohkopohja"
 
 #: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
 msgctxt "Name(lxqt-qlipper-autostart.desktop)"
@@ -1738,6 +1733,19 @@ msgstr ""
 msgctxt "Comment(qtfm-tray.desktop)"
 msgid "QtFM Device Manager"
 msgstr ""
+
+#: /usr/share/xsessions/remmina-gnome.desktop:2
+msgctxt "Name(remmina-gnome.desktop)"
+msgid "GNOME + Remmina Kiosk"
+msgstr ""
+
+#: /usr/share/xsessions/remmina-gnome.desktop:3
+#, fuzzy
+#| msgctxt "Comment(gnome-classic.desktop)"
+#| msgid "This session logs you into GNOME Classic"
+msgctxt "Comment(remmina-gnome.desktop)"
+msgid "This session logs you into GNOME with remmina as the window manager"
+msgstr "Tämä istunto kirjaa sinut perinteiseen Gnomeen"
 
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
@@ -1769,16 +1777,26 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Varmistaa, että rentoudut aika ajoin"
 
-#: /usr/share/xsessions/sawfish-mate.desktop:2
-msgctxt "Name(sawfish-mate.desktop)"
-msgid "Sawfish/MATE"
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
 msgstr ""
 
-#: /usr/share/xsessions/sawfish-mate.desktop:3
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
 #, fuzzy
-msgctxt "Comment(sawfish-mate.desktop)"
-msgid "Use the Sawfish window manager inside of the MATE desktop environment"
-msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "Käytä Openbox-ikkunahallintaa KDE-työpöytäympäristössä"
+
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr ""
+
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr ""
 
 #: /usr/share/xsessions/sawfish-xfce.desktop:2
 msgctxt "Name(sawfish-xfce.desktop)"
@@ -1789,6 +1807,17 @@ msgstr ""
 #, fuzzy
 msgctxt "Comment(sawfish-xfce.desktop)"
 msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:2
+msgctxt "Name(sawfish-mate.desktop)"
+msgid "Sawfish/MATE"
+msgstr ""
+
+#: /usr/share/xsessions/sawfish-mate.desktop:3
+#, fuzzy
+msgctxt "Comment(sawfish-mate.desktop)"
+msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
@@ -1802,26 +1831,10 @@ msgctxt "Comment(sawfish-lumina.desktop)"
 msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
 msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
+#: /usr/share/mimelnk/application/x-sciprj.desktop:7
+msgctxt "Comment(x-sciprj.desktop)"
+msgid "SciDAVis project"
 msgstr ""
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-#, fuzzy
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "Käytä Openbox-ikkunahallintaa KDE-työpöytäympäristössä"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1857,6 +1870,11 @@ msgstr "Tulostusjonosovelma"
 msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Ilmoitusalueen kuvake tulostustöiden hallintaan"
+
+#: /etc/xdg/autostart/terminus_autorun.desktop:10
+msgctxt "Name(terminus_autorun.desktop)"
+msgid "A terminal with the capabilities of Guake and Terminator"
+msgstr ""
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
@@ -2085,6 +2103,22 @@ msgctxt "Comment(x-xoj.desktop)"
 msgid "Xournal note file"
 msgstr "Xournal-muistiinpanotiedosto"
 
+#: /usr/share/mimelnk/application/x-xopt.desktop:8
+#, fuzzy
+#| msgctxt "Comment(x-xoj.desktop)"
+#| msgid "Xournal note file"
+msgctxt "Comment(x-xopt.desktop)"
+msgid "Xournal++ template file"
+msgstr "Xournal-muistiinpanotiedosto"
+
+#: /usr/share/mimelnk/application/x-xopp.desktop:8
+#, fuzzy
+#| msgctxt "Comment(x-xoj.desktop)"
+#| msgid "Xournal note file"
+msgctxt "Comment(x-xopp.desktop)"
+msgid "Xournal++ note file"
+msgstr "Xournal-muistiinpanotiedosto"
+
 #: /usr/share/autoinstall/modules/firstboot.desktop:21
 msgctxt "Name(firstboot.desktop)"
 msgid "Firstboot Configuration"
@@ -2135,6 +2169,10 @@ msgstr "Zeitgeist Datahub"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "Käynnistä Zeitgeist Datahub for passive loggers"
+
+#~ msgctxt "Name(gnome-welcome-tour.desktop)"
+#~ msgid "Welcome"
+#~ msgstr "Tervetuloa"
 
 #, fuzzy
 #~ msgctxt "Name(icewm-session.desktop)"

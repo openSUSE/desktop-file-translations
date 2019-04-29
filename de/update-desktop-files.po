@@ -10,11 +10,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files 10.3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-01-31 12:29+0000\n"
+"POT-Creation-Date: 2019-04-29 07:46+0000\n"
 "PO-Revision-Date: 2019-04-09 16:31+0000\n"
 "Last-Translator: Vinzenz Vietzke <vinz@vinzv.de>\n"
-"Language-Team: German <https://l10n.opensuse.org/projects/"
-"desktop-file-translations/update-desktop-files-master/de/>\n"
+"Language-Team: German <https://l10n.opensuse.org/projects/desktop-file-"
+"translations/update-desktop-files-master/de/>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,6 +66,36 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "AT-SPI D-Bus Bus"
 
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "Benutzerdefinierte Skripts"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "Hinzufügen oder Ändern von eigenen Skripten"
+
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "Allgemeine Optionen"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr "Allgemeine Autoinstallationsoptionen konfigurieren"
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "Berichte & Protokollierung"
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "Konfiguration von Berichts- und Protokollierungseinstellungen"
+
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
 msgid "Partitioning"
@@ -85,36 +115,6 @@ msgstr "Paketauswahl"
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Konfiguration von Paketauswahl und Software-Einstellungen"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "Berichte & Protokollierung"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "Konfiguration von Berichts- und Protokollierungseinstellungen"
-
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "Allgemeine Optionen"
-
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr "Allgemeine Autoinstallationsoptionen konfigurieren"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "Benutzerdefinierte Skripts"
-
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "Hinzufügen oder Ändern von eigenen Skripten"
 
 #: /usr/share/autoinstall/modules/files.desktop:22
 msgctxt "Name(files.desktop)"
@@ -533,11 +533,6 @@ msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
 "gnome-disk-utility-Benachrichtigungsmodul für den GNOME-Einstellungs-Daemon"
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr "Willkommen"
-
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -549,35 +544,35 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Ersteinrichtung"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
-msgctxt "Name(gnome-keyring-secrets.desktop)"
-msgid "Secret Storage Service"
-msgstr "Sicherheitsdienst"
-
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
-msgctxt "Comment(gnome-keyring-secrets.desktop)"
-msgid "GNOME Keyring: Secret Service"
-msgstr "GNOME-Schlüsselbunddienst: Sicherheitsdienst"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:72
 msgctxt "Name(gnome-keyring-ssh.desktop)"
 msgid "SSH Key Agent"
 msgstr "SSH-Schlüsselagent"
 
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:143
 msgctxt "Comment(gnome-keyring-ssh.desktop)"
 msgid "GNOME Keyring: SSH Agent"
 msgstr "GNOME-Schlüsselbunddienst: SSH-Agent"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:73
 msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Zertifikat-/Schlüsselverwahrung"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:143
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "GNOME-Schlüsselbunddienst: PKCS#11-Komponente"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:73
+msgctxt "Name(gnome-keyring-secrets.desktop)"
+msgid "Secret Storage Service"
+msgstr "Sicherheitsdienst"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:144
+msgctxt "Comment(gnome-keyring-secrets.desktop)"
+msgid "GNOME Keyring: Secret Service"
+msgstr "GNOME-Schlüsselbunddienst: Sicherheitsdienst"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:2
 msgctxt "Name(gnome-xorg.desktop)"
@@ -824,11 +819,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Autostart von KAlarm bei der Anmeldung"
 
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plasma-Arbeitsflächenbereiche"
-
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -843,6 +833,11 @@ msgstr "Verwaltung des Clipboards"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Programm zur Verwaltung der Zwischenablage"
+
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plasma-Arbeitsflächenbereiche"
 
 #: /usr/share/wallpapers/stripes.png.desktop:3
 msgctxt "Wallpaper-Name(stripes.png.desktop)"
@@ -869,11 +864,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad Projekt"
-
 #: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
 msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
@@ -884,10 +874,10 @@ msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr "KiCad Schema"
 
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Lautstärken wiederherstellen"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr "KiCad Projekt"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -898,6 +888,11 @@ msgstr "Lautstärkeregler"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "KMix"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Lautstärken wiederherstellen"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1364,15 +1359,35 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit Aktualisierungsapplet"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "Applikations-Menüleiste"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "Leeres Feld"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "Bedienfeld mit globalem Menüapplet"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "Leeres Feld"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Arbeitsfläche"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Ein klares und einfaches Layout"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Arbeitsfläche"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Einrichtung der Ansicht einer Arbeitsfläche"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1386,16 +1401,6 @@ msgid ""
 msgstr ""
 "Standardbedienfeld mit Anwendungsstartprogramm, Task-Manager und Taskleiste"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Arbeitsfläche"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Einrichtung der Ansicht einer Arbeitsfläche"
-
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
@@ -1406,55 +1411,60 @@ msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Plasma verwalten"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Arbeitsfläche"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "Applikations-Menüleiste"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Ein klares und einfaches Layout"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "Bedienfeld mit globalem Menüapplet"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "Leeres Feld"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "Leeres Feld"
-
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Graustufen"
+msgid "Darkest Hour"
+msgstr "Zu dunkler Stunde"
+
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "Am Wasser"
+
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr "Abendröte"
 
 #: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Pastel Hills"
 msgstr "Pastel-Hügel"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Pfad"
+msgid "Cold Ripple"
+msgstr "Kaltes Plätschern"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "Drachen"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Farbige Tassen"
+msgid "Fallen Leaf"
+msgstr "Gefallenes Laub"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Am Wasser"
+msgid "Path"
+msgstr "Pfad"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Graustufen"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1466,25 +1476,10 @@ msgctxt "Name(metadata.desktop)"
 msgid "One Stands Out"
 msgstr "Einer fällt auf"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Gefallenes Laub"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Kaltes Plätschern"
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Abendröte"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Zu dunkler Stunde"
+msgid "Colorful Cups"
+msgstr "Farbige Tassen"
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
@@ -1496,6 +1491,11 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Breeze-Arbeitsflächendesign der KDE VG"
 
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
+
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
 msgid "KRunner"
@@ -1505,11 +1505,6 @@ msgstr "KRunner"
 msgctxt "Name(org.kde.plasmashell.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Plasma-Arbeitsflächenbereich"
-
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
 
 #: /usr/share/xsessions/plasma5.desktop:6
 msgctxt "Name(plasma5.desktop)"
@@ -1566,11 +1561,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Das PulseAudio Sound System starten"
 
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr "QElectroTech Schriftfeld"
-
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
 msgid "QElectroTech element file"
@@ -1580,6 +1570,11 @@ msgstr "QElectrotech Symbol"
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "QElectroTech Projekt"
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
+msgstr "QElectroTech Schriftfeld"
 
 #: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
 msgctxt "Name(lxqt-qlipper-autostart.desktop)"
@@ -1595,6 +1590,19 @@ msgstr "QtFM Gerätemanager"
 msgctxt "Comment(qtfm-tray.desktop)"
 msgid "QtFM Device Manager"
 msgstr "QtFM Gerätemanager"
+
+#: /usr/share/xsessions/remmina-gnome.desktop:2
+msgctxt "Name(remmina-gnome.desktop)"
+msgid "GNOME + Remmina Kiosk"
+msgstr ""
+
+#: /usr/share/xsessions/remmina-gnome.desktop:3
+#, fuzzy
+#| msgctxt "Comment(gnome-classic.desktop)"
+#| msgid "This session logs you into GNOME Classic"
+msgctxt "Comment(remmina-gnome.desktop)"
+msgid "This session logs you into GNOME with remmina as the window manager"
+msgstr "Diese Sitzung meldet Sie in GNOME Classic an"
 
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
@@ -1626,16 +1634,26 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Stellt sicher, dass Sie sich gelegentlich ausruhen"
 
-#: /usr/share/xsessions/sawfish-mate.desktop:2
-msgctxt "Name(sawfish-mate.desktop)"
-msgid "Sawfish/MATE"
-msgstr "Sawfish/MATE"
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
 
-#: /usr/share/xsessions/sawfish-mate.desktop:3
-msgctxt "Comment(sawfish-mate.desktop)"
-msgid "Use the Sawfish window manager inside of the MATE desktop environment"
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr ""
-"Verwendung des Sawfish-Fenstermanagers innerhalb der MATE-Arbeitsumgebung"
+"Verwendung des Sawfish-Fenstermanagers innerhalb der KDE-Arbeitsumgebung"
+
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
+
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr "Sawfish"
 
 #: /usr/share/xsessions/sawfish-xfce.desktop:2
 msgctxt "Name(sawfish-xfce.desktop)"
@@ -1648,6 +1666,17 @@ msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
 msgstr ""
 "Verwendung des Sawfish-Fenstermanagers innerhalb der XFCE-Arbeitsumgebung"
 
+#: /usr/share/xsessions/sawfish-mate.desktop:2
+msgctxt "Name(sawfish-mate.desktop)"
+msgid "Sawfish/MATE"
+msgstr "Sawfish/MATE"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:3
+msgctxt "Comment(sawfish-mate.desktop)"
+msgid "Use the Sawfish window manager inside of the MATE desktop environment"
+msgstr ""
+"Verwendung des Sawfish-Fenstermanagers innerhalb der MATE-Arbeitsumgebung"
+
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
 msgctxt "Name(sawfish-lumina.desktop)"
 msgid "Sawfish/Lumina"
@@ -1659,26 +1688,10 @@ msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
 msgstr ""
 "Verwendung des Sawfish-Fenstermanagers innerhalb der Lumina-Arbeitsumgebung"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr "Sawfish"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr ""
-"Verwendung des Sawfish-Fenstermanagers innerhalb der KDE-Arbeitsumgebung"
+#: /usr/share/mimelnk/application/x-sciprj.desktop:7
+msgctxt "Comment(x-sciprj.desktop)"
+msgid "SciDAVis project"
+msgstr "SciDAVis-Projekt"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1716,6 +1729,11 @@ msgstr "Applet für Druckerwarteschlange"
 msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Symbol für Benachrichtigungsfeld zur Verwaltung von Druckaufträgen"
+
+#: /etc/xdg/autostart/terminus_autorun.desktop:10
+msgctxt "Name(terminus_autorun.desktop)"
+msgid "A terminal with the capabilities of Guake and Terminator"
+msgstr ""
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
@@ -1936,6 +1954,22 @@ msgctxt "Comment(x-xoj.desktop)"
 msgid "Xournal note file"
 msgstr "Xournal-Notizdatei"
 
+#: /usr/share/mimelnk/application/x-xopt.desktop:8
+#, fuzzy
+#| msgctxt "Comment(x-xoj.desktop)"
+#| msgid "Xournal note file"
+msgctxt "Comment(x-xopt.desktop)"
+msgid "Xournal++ template file"
+msgstr "Xournal-Notizdatei"
+
+#: /usr/share/mimelnk/application/x-xopp.desktop:8
+#, fuzzy
+#| msgctxt "Comment(x-xoj.desktop)"
+#| msgid "Xournal note file"
+msgctxt "Comment(x-xopp.desktop)"
+msgid "Xournal++ note file"
+msgstr "Xournal-Notizdatei"
+
 #: /usr/share/autoinstall/modules/firstboot.desktop:21
 msgctxt "Name(firstboot.desktop)"
 msgid "Firstboot Configuration"
@@ -1985,6 +2019,10 @@ msgstr "Zeitgeist-Datahub-Dienst"
 msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "Startet den Zeitgeist-Datahub-Dienst für passive Protokollierung"
+
+#~ msgctxt "Name(gnome-welcome-tour.desktop)"
+#~ msgid "Welcome"
+#~ msgstr "Willkommen"
 
 #~ msgctxt "Name(git-annex.desktop)"
 #~ msgid "Git Annex Assistant"

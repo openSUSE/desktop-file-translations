@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2019-01-31 12:29+0000\n"
+"POT-Creation-Date: 2019-04-29 07:46+0000\n"
 "PO-Revision-Date: 2007-10-15 02:37+0200\n"
 "Last-Translator:   <developer@beotel.net>\n"
 "Language-Team: Serbian ( ) <sr@li.org>\n"
@@ -64,6 +64,36 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr ""
 
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr ""
+
 #: /usr/share/autoinstall/modules/partitioning.desktop:24
 msgctxt "Name(partitioning.desktop)"
 msgid "Partitioning"
@@ -82,36 +112,6 @@ msgstr ""
 #: /usr/share/autoinstall/modules/software.desktop:23
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
 msgstr ""
 
 #: /usr/share/autoinstall/modules/files.desktop:22
@@ -562,11 +562,6 @@ msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr ""
 
-#: /etc/xdg/autostart/gnome-welcome-tour.desktop:3
-msgctxt "Name(gnome-welcome-tour.desktop)"
-msgid "Welcome"
-msgstr ""
-
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
@@ -577,35 +572,35 @@ msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "Почетно подешавање"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:3
-msgctxt "Name(gnome-keyring-secrets.desktop)"
-msgid "Secret Storage Service"
-msgstr "Сервис са тајно складиштење"
-
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
-msgctxt "Comment(gnome-keyring-secrets.desktop)"
-msgid "GNOME Keyring: Secret Service"
-msgstr "Гномови привесци: сервис за тајност"
-
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:72
 msgctxt "Name(gnome-keyring-ssh.desktop)"
 msgid "SSH Key Agent"
 msgstr "Агент за ССХ кључеве"
 
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:143
 msgctxt "Comment(gnome-keyring-ssh.desktop)"
 msgid "GNOME Keyring: SSH Agent"
 msgstr "Гномови привесци: ССХ агент"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:3
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:73
 msgctxt "Name(gnome-keyring-pkcs11.desktop)"
 msgid "Certificate and Key Storage"
 msgstr "Складиште сертификата и кључева"
 
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:74
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:143
 msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
 msgid "GNOME Keyring: PKCS#11 Component"
 msgstr "Гномови привесци: ПКЦС#11 компонента"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:73
+msgctxt "Name(gnome-keyring-secrets.desktop)"
+msgid "Secret Storage Service"
+msgstr "Сервис са тајно складиштење"
+
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:144
+msgctxt "Comment(gnome-keyring-secrets.desktop)"
+msgid "GNOME Keyring: Secret Service"
+msgstr "Гномови привесци: сервис за тајност"
 
 #: /usr/share/xsessions/gnome-xorg.desktop:2
 msgctxt "Name(gnome-xorg.desktop)"
@@ -912,11 +907,6 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Аутоматско покретање К‑аларма по пријављивању"
 
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Плазма, радни простор површи"
-
 #: /usr/share/autostart/klipper.desktop:2
 #, fuzzy
 msgctxt "Name(klipper.desktop)"
@@ -933,6 +923,11 @@ msgstr "Управник исечака"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Алатка за историјат исецања и налепљивања"
+
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Плазма, радни простор површи"
 
 #: /usr/share/wallpapers/stripes.png.desktop:3
 #, fuzzy
@@ -960,11 +955,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "КГПГ"
 
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr ""
-
 #: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
 msgctxt "Comment(x-kicad-pcb.desktop)"
 msgid "KiCad Printed Circuit Board"
@@ -975,10 +965,10 @@ msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
 msgstr ""
 
-#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
-msgctxt "Name(restore_kmix_volumes.desktop)"
-msgid "Restore Mixer Volumes"
-msgstr "Обнови јачине миксете"
+#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
+msgctxt "Comment(x-kicad-project.desktop)"
+msgid "KiCad Project"
+msgstr ""
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -989,6 +979,11 @@ msgstr "Звучна миксета"
 msgctxt "Name(kmix_autostart.desktop)"
 msgid "KMix"
 msgstr "К‑миксета"
+
+#: /etc/xdg/autostart/restore_kmix_volumes.desktop:8
+msgctxt "Name(restore_kmix_volumes.desktop)"
+msgid "Restore Mixer Volumes"
+msgstr "Обнови јачине миксете"
 
 #: /etc/xdg/autostart/knemo.desktop:13
 msgctxt "Name(knemo.desktop)"
@@ -1474,16 +1469,39 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "Трагачев копач програма"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty Panel"
+msgstr "празан панел"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "Панел са аплетом глобалног менија"
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+#, fuzzy
+#| msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
+#| msgid "Empty Panel"
+msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
+msgid "Empty panel"
+msgstr "празан панел"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Површ"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Чист и једноставан распоред"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Рејзорова радна површ"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Намештај приказа површи"
 
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
@@ -1498,17 +1516,6 @@ msgstr ""
 "Подразумевани панел са покретачем програма, менаџером задатака и системском "
 "касетом"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Рејзорова радна површ"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Намештај приказа површи"
-
 #: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
@@ -1519,58 +1526,61 @@ msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "Управљајте Плазмом"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Површ"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Чист и једноставан распоред"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty Panel"
-msgstr "празан панел"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
 #, fuzzy
-#| msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
-#| msgid "Empty Panel"
-msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
-msgid "Empty panel"
-msgstr "празан панел"
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "Трагачев копач програма"
 
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "Панел са аплетом глобалног менија"
+
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "Сивило"
+msgid "Darkest Hour"
+msgstr "Најцрњи час"
+
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "Крај воде"
+
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Evening Glow"
+msgstr "Вечерњи сјај"
 
 #: /usr/share/wallpapers/PastelHills/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Pastel Hills"
 msgstr "Пастелни брежуљци"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "Стаза"
+msgid "Cold Ripple"
+msgstr "Хладно мрешкање"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "Змај"
 
-#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Colorful Cups"
-msgstr "Разнобојне шоље"
+msgid "Fallen Leaf"
+msgstr "Опао лист"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+#: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Крај воде"
+msgid "Path"
+msgstr "Стаза"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "Сивило"
 
 #: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1582,25 +1592,10 @@ msgctxt "Name(metadata.desktop)"
 msgid "One Stands Out"
 msgstr "Један се истиче"
 
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+#: /usr/share/wallpapers/ColorfulCups/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Опао лист"
-
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "Хладно мрешкање"
-
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Вечерњи сјај"
-
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Најцрњи час"
+msgid "Colorful Cups"
+msgstr "Разнобојне шоље"
 
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
@@ -1611,6 +1606,11 @@ msgstr "Поветарац"
 msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Језик дизајна површи Поветарац од КДЕ‑ВДГ‑а"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "Иксембед‑сни‑прокси"
 
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
@@ -1624,11 +1624,6 @@ msgstr "К‑извођач"
 msgctxt "Name(org.kde.plasmashell.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Плазма, радни простор површи"
-
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "Иксембед‑сни‑прокси"
 
 #: /usr/share/xsessions/plasma5.desktop:6
 #, fuzzy
@@ -1691,11 +1686,6 @@ msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "Покрени PulseAudio звучни систем"
 
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr ""
-
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
 msgid "QElectroTech element file"
@@ -1704,6 +1694,11 @@ msgstr ""
 #: /usr/share/mimelnk/application/x-qet-project.desktop:7
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
+msgstr ""
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
 msgstr ""
 
 #: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
@@ -1720,6 +1715,19 @@ msgstr ""
 msgctxt "Comment(qtfm-tray.desktop)"
 msgid "QtFM Device Manager"
 msgstr ""
+
+#: /usr/share/xsessions/remmina-gnome.desktop:2
+msgctxt "Name(remmina-gnome.desktop)"
+msgid "GNOME + Remmina Kiosk"
+msgstr ""
+
+#: /usr/share/xsessions/remmina-gnome.desktop:3
+#, fuzzy
+#| msgctxt "Comment(gnome-classic.desktop)"
+#| msgid "This session logs you into GNOME Classic"
+msgctxt "Comment(remmina-gnome.desktop)"
+msgid "This session logs you into GNOME with remmina as the window manager"
+msgstr "Ова сесија вас пријављује у класичан Гном"
 
 #: /etc/xdg/autostart/restorecond.desktop:2
 msgctxt "Name(restorecond.desktop)"
@@ -1751,16 +1759,26 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr ""
 
-#: /usr/share/xsessions/sawfish-mate.desktop:2
-msgctxt "Name(sawfish-mate.desktop)"
-msgid "Sawfish/MATE"
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
 msgstr ""
 
-#: /usr/share/xsessions/sawfish-mate.desktop:3
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
 #, fuzzy
-msgctxt "Comment(sawfish-mate.desktop)"
-msgid "Use the Sawfish window manager inside of the MATE desktop environment"
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
+
+#: /usr/share/xsessions/sawfish.desktop:3
+msgctxt "Name(sawfish.desktop)"
+msgid "Sawfish"
+msgstr ""
+
+#: /usr/share/xsessions/sawfish.desktop:5
+msgctxt "GenericName(sawfish.desktop)"
+msgid "Sawfish"
+msgstr ""
 
 #: /usr/share/xsessions/sawfish-xfce.desktop:2
 msgctxt "Name(sawfish-xfce.desktop)"
@@ -1771,6 +1789,17 @@ msgstr ""
 #, fuzzy
 msgctxt "Comment(sawfish-xfce.desktop)"
 msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
+
+#: /usr/share/xsessions/sawfish-mate.desktop:2
+msgctxt "Name(sawfish-mate.desktop)"
+msgid "Sawfish/MATE"
+msgstr ""
+
+#: /usr/share/xsessions/sawfish-mate.desktop:3
+#, fuzzy
+msgctxt "Comment(sawfish-mate.desktop)"
+msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
 
 #: /usr/share/xsessions/sawfish-lumina.desktop:2
@@ -1784,26 +1813,10 @@ msgctxt "Comment(sawfish-lumina.desktop)"
 msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
 msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
 
-#: /usr/share/xsessions/sawfish.desktop:3
-msgctxt "Name(sawfish.desktop)"
-msgid "Sawfish"
+#: /usr/share/mimelnk/application/x-sciprj.desktop:7
+msgctxt "Comment(x-sciprj.desktop)"
+msgid "SciDAVis project"
 msgstr ""
-
-#: /usr/share/xsessions/sawfish.desktop:5
-msgctxt "GenericName(sawfish.desktop)"
-msgid "Sawfish"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr ""
-
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-#, fuzzy
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
 
 #: /etc/xdg/autostart/seahorse-sharing.desktop:3
 msgctxt "Name(seahorse-sharing.desktop)"
@@ -1839,6 +1852,11 @@ msgstr "Програмче за ред штампања"
 msgctxt "Comment(print-applet.desktop)"
 msgid "System tray icon for managing print jobs"
 msgstr "Икона системске обавештајне зоне за управљање штампарским пословима"
+
+#: /etc/xdg/autostart/terminus_autorun.desktop:10
+msgctxt "Name(terminus_autorun.desktop)"
+msgid "A terminal with the capabilities of Guake and Terminator"
+msgstr ""
 
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
@@ -2058,6 +2076,16 @@ msgstr ""
 #: /usr/share/mimelnk/application/x-xoj.desktop:8
 msgctxt "Comment(x-xoj.desktop)"
 msgid "Xournal note file"
+msgstr ""
+
+#: /usr/share/mimelnk/application/x-xopt.desktop:8
+msgctxt "Comment(x-xopt.desktop)"
+msgid "Xournal++ template file"
+msgstr ""
+
+#: /usr/share/mimelnk/application/x-xopp.desktop:8
+msgctxt "Comment(x-xopp.desktop)"
+msgid "Xournal++ note file"
 msgstr ""
 
 #: /usr/share/autoinstall/modules/firstboot.desktop:21

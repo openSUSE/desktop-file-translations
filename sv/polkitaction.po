@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2019-01-31 12:29+0000\n"
+"POT-Creation-Date: 2019-04-29 07:46+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -127,7 +127,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.reload)"
 msgid "Reload NetworkManager configuration"
 msgstr "Läs om konfiguration för Nätverkshanteraren"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:129
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:131
 msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
 msgid ""
 "Put NetworkManager to sleep or wake it up (should only be used by system "
@@ -136,52 +136,60 @@ msgstr ""
 "Försätt Nätverkshanterare i vänteläge eller återställ efter det (bör endast "
 "användas av systemets strömhantering)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:216
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:218
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
 msgid "Enable or disable WiFi devices"
 msgstr "Aktivera eller inaktivera trådlösa enheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:304
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:306
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "Enable or disable mobile broadband devices"
 msgstr "Aktivera eller inaktivera mobila bredbandsenheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:392
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:394
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid "Enable or disable WiMAX mobile broadband devices"
 msgstr "Aktivera eller inaktivera mobila WiMAX-bredbandsenheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:474
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:476
 msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
 msgid "Allow control of network connections"
 msgstr "Tillåt kontroll av nätverksanslutningar"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:563
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:565
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
+#| msgid "Allow control of network connections"
+msgctxt "Description(org.freedesktop.NetworkManager.wifi.scan)"
+msgid "Allow control of Wi-Fi scans"
+msgstr "Tillåt kontroll av nätverksanslutningar"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:575
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
 msgid "Connection sharing via a protected WiFi network"
 msgstr "Anslutningsdelning via ett skyddat trådlöst nätverk"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:657
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:669
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "Connection sharing via an open WiFi network"
 msgstr "Anslutningsdelning via ett öppet trådlöst nätverk"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:751
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:763
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "Modify personal network connections"
 msgstr "Ändra personliga nätverksanslutningar"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:831
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:843
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "Modify network connections for all users"
 msgstr "Ändra nätverksanslutningar för alla användare"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:911
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:923
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "Modify persistent system hostname"
 msgstr "Ändra bestående värdnamn för systemet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1005
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1017
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
 #| msgid "Modify system-wide configuration"
@@ -190,13 +198,13 @@ msgctxt ""
 msgid "Modify persistent global DNS configuration"
 msgstr "Ändra systemkonfigurationen"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1043
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1056
 msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
 msgid "Perform a checkpoint or rollback of interfaces configuration"
 msgstr ""
 "Skapa en återställningspunkt eller rulla tillbaka gränssnittskonfiguration"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1069
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1093
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "Enable or disable WiFi devices"
@@ -204,7 +212,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
 msgid "Enable or disable device statistics"
 msgstr "Aktivera eller inaktivera trådlösa enheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1096
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1130
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
 #| msgid "Enable or disable system networking"
@@ -219,33 +227,33 @@ msgid "System policy prevents enabling or disabling system networking"
 msgstr ""
 "Systemets policy förhindrar aktivering eller inaktivering av systemnätverk"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:110
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:111
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.reload)"
 msgid "System policy prevents reloading NetworkManager"
 msgstr "Systemets policy förhindrar kontroll av nätverksanslutningar"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:169
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:171
 msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
 msgid "System policy prevents putting NetworkManager to sleep or waking it up"
 msgstr ""
 "Systemets policy förhindrar att Nätverkshanterare försätts i vänteläge eller "
 "återställs efter det"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:257
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:259
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 msgid "System policy prevents enabling or disabling WiFi devices"
 msgstr ""
 "Systemets policy förhindrar aktivering eller inaktivering av trådlösa enheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:345
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:347
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "System policy prevents enabling or disabling mobile broadband devices"
 msgstr ""
 "Systemets policy förhindrar aktivering eller inaktivering av mobila "
 "bredbandsenheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:430
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:432
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid ""
 "System policy prevents enabling or disabling WiMAX mobile broadband devices"
@@ -253,44 +261,50 @@ msgstr ""
 "Systemets policy förhindrar aktivering eller inaktivering av mobila WiMAX-"
 "bredbandsenheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:515
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:517
 msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
 msgid "System policy prevents control of network connections"
 msgstr "Systemets policy förhindrar kontroll av nätverksanslutningar"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:607
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:566
+#, fuzzy
+msgctxt "Message(org.freedesktop.NetworkManager.wifi.scan)"
+msgid "System policy prevents Wi-Fi scans"
+msgstr "Systemets policy förhindrar ändring av bestående värdnamn för systemet"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:619
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
 msgid "System policy prevents sharing connections via a protected WiFi network"
 msgstr ""
 "Systemets policy förhindrar delning av anslutningar via ett skyddat trådlöst "
 "nätverk"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:701
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:713
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
 msgid "System policy prevents sharing connections via an open WiFi network"
 msgstr ""
 "Systemets policy förhindrar delning av anslutningar via ett öppet trådlöst "
 "nätverk"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:787
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:799
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "System policy prevents modification of personal network settings"
 msgstr ""
 "Systemets policy förhindrar ändring av personliga nätverksinställningar"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:867
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:879
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "System policy prevents modification of network settings for all users"
 msgstr ""
 "Systemets policy förhindrar ändring av nätverksinställningar för alla "
 "användare"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:954
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:966
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "System policy prevents modification of the persistent system hostname"
 msgstr "Systemets policy förhindrar ändring av bestående värdnamn för systemet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1020
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1033
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -301,7 +315,7 @@ msgid ""
 "configuration"
 msgstr "Systemets policy förhindrar ändring av bestående värdnamn för systemet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1052
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1071
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -310,7 +324,7 @@ msgctxt "Message(org.freedesktop.NetworkManager.checkpoint-rollback)"
 msgid "System policy prevents the creation of a checkpoint or its rollback"
 msgstr "Systemets policy förhindrar ändring av bestående värdnamn för systemet"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1079
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1108
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -319,7 +333,7 @@ msgid "System policy prevents enabling or disabling device statistics"
 msgstr ""
 "Systemets policy förhindrar aktivering eller inaktivering av trådlösa enheter"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1105
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1145
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -1032,7 +1046,7 @@ msgctxt "Description(org.freedesktop.Flatpak.app-install)"
 msgid "Install signed application"
 msgstr "Installera signerat paket"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:58
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:53
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install)"
 #| msgid "Install signed package"
@@ -1040,17 +1054,17 @@ msgctxt "Description(org.freedesktop.Flatpak.runtime-install)"
 msgid "Install signed runtime"
 msgstr "Installera signerat paket"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:99
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:89
 msgctxt "Description(org.freedesktop.Flatpak.app-update)"
 msgid "Update signed application"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:140
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:134
 msgctxt "Description(org.freedesktop.Flatpak.runtime-update)"
 msgid "Update signed runtime"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:178
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:175
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
 #| msgid "Update SMART data"
@@ -1058,12 +1072,12 @@ msgctxt "Description(org.freedesktop.Flatpak.update-remote)"
 msgid "Update remote metadata"
 msgstr "Uppdatera SMART-data"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:211
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:208
 msgctxt "Description(org.freedesktop.Flatpak.modify-repo)"
 msgid "Update system repository"
 msgstr "Uppdaterar systemförråd"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:231
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:236
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
 #| msgid "Install untrusted local file"
@@ -1071,27 +1085,27 @@ msgctxt "Description(org.freedesktop.Flatpak.install-bundle)"
 msgid "Install bundle"
 msgstr "Installera opålitlig lokal fil"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:265
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:271
 msgctxt "Description(org.freedesktop.Flatpak.runtime-uninstall)"
 msgid "Uninstall runtime"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:299
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:306
 msgctxt "Description(org.freedesktop.Flatpak.app-uninstall)"
 msgid "Uninstall app"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:332
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:338
 msgctxt "Description(org.freedesktop.Flatpak.configure-remote)"
 msgid "Configure Remote"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:366
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:371
 msgctxt "Description(org.freedesktop.Flatpak.configure)"
 msgid "Configure"
 msgstr "Konfigurera"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:393
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:406
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.system-update)"
 #| msgid "Update software"
@@ -1099,7 +1113,15 @@ msgctxt "Description(org.freedesktop.Flatpak.appstream-update)"
 msgid "Update appstream"
 msgstr "Uppdatera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:31
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:440
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
+#| msgid "Update SMART data"
+msgctxt "Description(org.freedesktop.Flatpak.metadata-update)"
+msgid "Update metadata"
+msgstr "Uppdatera SMART-data"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:32
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1107,7 +1129,7 @@ msgctxt "Message(org.freedesktop.Flatpak.app-install)"
 msgid "Authentication is required to install software"
 msgstr "Autentisering krävas för att installera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:71
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:67
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1115,7 +1137,7 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-install)"
 msgid "Authentication is required to install software"
 msgstr "Autentisering krävas för att installera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:112
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:103
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1123,7 +1145,7 @@ msgctxt "Message(org.freedesktop.Flatpak.app-update)"
 msgid "Authentication is required to update software"
 msgstr "Autentisering krävs för att uppdatera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:153
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:148
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1131,7 +1153,7 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-update)"
 msgid "Authentication is required to update software"
 msgstr "Autentisering krävs för att uppdatera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:189
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:188
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1139,23 +1161,23 @@ msgctxt "Message(org.freedesktop.Flatpak.update-remote)"
 msgid "Authentication is required to update remote info"
 msgstr "Autentisering krävs för att uppdatera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:217
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:219
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.timedate1.set-time)"
 #| msgid "Authentication is required to set the system time."
 msgctxt "Message(org.freedesktop.Flatpak.modify-repo)"
-msgid "Authentication is required to update the system repository"
+msgid "Authentication is required to modify a system repository"
 msgstr "Autentisering krävs för ange systemtiden."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:244
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:251
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
 msgctxt "Message(org.freedesktop.Flatpak.install-bundle)"
-msgid "Authentication is required to install software"
+msgid "Authentication is required to install software from $(path)"
 msgstr "Autentisering krävas för att installera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:278
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:286
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1163,15 +1185,15 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-uninstall)"
 msgid "Authentication is required to uninstall software"
 msgstr "Autentisering krävas för att installera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:311
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:320
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
 msgctxt "Message(org.freedesktop.Flatpak.app-uninstall)"
-msgid "Authentication is required to uninstall software"
+msgid "Authentication is required to uninstall $(ref)"
 msgstr "Autentisering krävas för att installera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:345
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:353
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 #| msgid "Authentication is required to downgrade software"
@@ -1179,7 +1201,7 @@ msgctxt "Message(org.freedesktop.Flatpak.configure-remote)"
 msgid "Authentication is required to configure software repositories"
 msgstr "Autentisering krävs för att nedgradera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:372
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:381
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 #| msgid "Authentication is required to downgrade software"
@@ -1187,13 +1209,21 @@ msgctxt "Message(org.freedesktop.Flatpak.configure)"
 msgid "Authentication is required to configure software installation"
 msgstr "Autentisering krävs för att nedgradera programvara"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:405
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:420
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
 msgctxt "Message(org.freedesktop.Flatpak.appstream-update)"
-msgid "Authentication is required to update software"
+msgid "Authentication is required to update information about software"
 msgstr "Autentisering krävs för att uppdatera programvara"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:445
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.ata-smart-update)"
+#| msgid "Authentication is required to update SMART data"
+msgctxt "Message(org.freedesktop.Flatpak.metadata-update)"
+msgid "Authentication is required to update metadata"
+msgstr "Autentisering krävs för att uppdatera SMART-data"
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
 msgctxt "Description(net.reactivated.fprint.device.verify)"
@@ -1397,6 +1427,16 @@ msgctxt "Message(org.gnome.gconf.defaults.set-mandatory)"
 msgid "Privileges are required to change GConf mandatory values"
 msgstr "Behörighet krävs för att ändra obligatoriska GConf-värden"
 
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
+msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
+msgid "Enable or disable remote login"
+msgstr "Aktivera eller inaktivera fjärrinloggning"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:81
+msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
+msgid "Authentication is required to enable or disable remote login"
+msgstr "Autentisering krävs för att aktivera eller inaktivera fjärrinloggning"
+
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
 msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
 msgid "Change system time and date settings"
@@ -1407,16 +1447,6 @@ msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
 msgid "To change time or date settings, you need to authenticate."
 msgstr ""
 "Du måste autentisera dig för att ändra inställningar för tid eller datum."
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
-msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
-msgid "Enable or disable remote login"
-msgstr "Aktivera eller inaktivera fjärrinloggning"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:81
-msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
-msgid "Authentication is required to enable or disable remote login"
-msgstr "Autentisering krävs för att aktivera eller inaktivera fjärrinloggning"
 
 #: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
 msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
@@ -1506,25 +1536,23 @@ msgctxt "Message(org.gsmartcontrol)"
 msgid "Authentication is required to run GSmartControl"
 msgstr "Autentisering krävs för att undersöka enheten"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:7
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:8
 msgctxt "Description(org.gtk.vfs.file-operations-helper)"
 msgid "Perform file operations"
 msgstr "Utför filåtgärder"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:51
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:33
 msgctxt "Description(org.gtk.vfs.file-operations)"
 msgid "Perform file operations"
 msgstr "Utför filåtgärder"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:25
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:23
 #, fuzzy
-#| msgctxt "Message(org.gnome.MultiWriter.probe)"
-#| msgid "Authentication is required to probe the device"
 msgctxt "Message(org.gtk.vfs.file-operations-helper)"
-msgid "Authentication is required to perform file operations"
+msgid "Authentication is required to run gvfsd-admin daemon"
 msgstr "Autentisering krävs för att undersöka enheten"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:69
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:48
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -1612,6 +1640,47 @@ msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
 msgid "Removes a previously installed SDDM theme"
 msgstr "Tar bort ett tidigare installerat SDDM-tema"
 
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
+msgid "Save the date/time settings"
+msgstr "Spara inställningar av datum och tid"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
+msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
+msgid "System policies prevent you from saving the date/time settings."
+msgstr ""
+"Systemets policy förhindrar att du sparar inställningar av datum och tid."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "Get brightness"
+msgstr "Hämta ljusstyrka"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
+msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "Set brightness"
+msgstr "Ställ in ljusstyrka"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
+msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "Get syspath"
+msgstr "Hämta systemsökväg"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr "Systemets policy förhindrar att du hämtar ljusstyrkans nivå."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
+msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "System policies prevent you from setting the brightness level."
+msgstr "Systemets policy förhindrar att du ställer in ljusstyrkans nivå."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
+msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "System policies prevent you from getting the syspath"
+msgstr "Systemets policy förhindrar att du hämtar systemsökvägen."
+
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
 msgid "Change CPU Scheduler and priority"
@@ -1654,17 +1723,6 @@ msgstr "Ändra prioritetsvärdet för en given process"
 msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
 msgid "Sends a given signal to a given process"
 msgstr "Skicka en given signal till en given process"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
-msgid "Save the date/time settings"
-msgstr "Spara inställningar av datum och tid"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
-msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
-msgid "System policies prevent you from saving the date/time settings."
-msgstr ""
-"Systemets policy förhindrar att du sparar inställningar av datum och tid."
 
 #: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
 msgctxt "Description(org.kde.fontinst.manage)"
@@ -1716,46 +1774,6 @@ msgid ""
 msgstr ""
 "Administratörsbehörighet krävs för att ändra inloggningshanterarens "
 "inställningar"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "Get brightness"
-msgstr "Hämta ljusstyrka"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
-msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "Set brightness"
-msgstr "Ställ in ljusstyrka"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
-msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "Get syspath"
-msgstr "Hämta systemsökväg"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Systemets policy förhindrar att du hämtar ljusstyrkans nivå."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
-msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "System policies prevent you from setting the brightness level."
-msgstr "Systemets policy förhindrar att du ställer in ljusstyrkans nivå."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
-msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "System policies prevent you from getting the syspath"
-msgstr "Systemets policy förhindrar att du hämtar systemsökvägen."
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Save wallet configuration"
-msgstr "Spara plånboksinställning"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet.policy:45
-msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "Tillåt att plånboksinställningar sparas"
 
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
@@ -2793,18 +2811,18 @@ msgctxt "Message(org.libvirt.unix.manage)"
 msgid "System policy prevents management of local virtualized systems"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:11
-msgctxt "Description(net.lutris.resetxpad.pkexec.run)"
-msgid "Reset xpad module"
+#: /usr/share/polkit-1/actions/net.luckybackup.su.policy:11
+msgctxt "Description(net.luckybackup.su)"
+msgid "Launch luckyBackup as Superuser"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:12
+#: /usr/share/polkit-1/actions/net.luckybackup.su.policy:12
 #, fuzzy
-#| msgctxt "Message(org.freedesktop.udisks2.eject-media)"
-#| msgid "Authentication is required to eject media"
-msgctxt "Message(net.lutris.resetxpad.pkexec.run)"
-msgid "Authentication is required to reset xpad"
-msgstr "Autentisering krävs för att mata ut media"
+#| msgctxt "Message(org.freedesktop.udisks2.open-device)"
+#| msgid "Authentication is required to open a device"
+msgctxt "Message(net.luckybackup.su)"
+msgid "Authentication is required to launch luckyBackup"
+msgstr "Autentisering krävs för att öppna en enhet"
 
 #: /usr/share/polkit-1/actions/net.lutris.xboxdrvctl.policy:11
 msgctxt "Description(net.lutris.xboxdrvctl.pkexec.run)"
@@ -2818,6 +2836,19 @@ msgstr ""
 msgctxt "Message(net.lutris.xboxdrvctl.pkexec.run)"
 msgid "Authentication is required to run xboxdrvctl"
 msgstr "Autentisering krävs för att undersöka enheten"
+
+#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:11
+msgctxt "Description(net.lutris.resetxpad.pkexec.run)"
+msgid "Reset xpad module"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/net.lutris.resetxpad.policy:12
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.eject-media)"
+#| msgid "Authentication is required to eject media"
+msgctxt "Message(net.lutris.resetxpad.pkexec.run)"
+msgid "Authentication is required to reset xpad"
+msgstr "Autentisering krävs för att mata ut media"
 
 #: /usr/share/polkit-1/actions/net.lutris.xboxdrv.policy:11
 msgctxt "Description(net.lutris.xboxdrv.pkexec.run)"
@@ -3022,16 +3053,6 @@ msgid ""
 "program=$(program), command_line=$(command_line))"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Hämta maximalt värde på ljusstyrka"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr "Systemets policy förhindrar att du hämtar ljusstyrkans nivå."
-
 #: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
 msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid "Check existence of discrete gpu"
@@ -3044,6 +3065,16 @@ msgstr "Kontrollera om diskret grafikprocessor finns"
 msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
 msgid ""
 "System policies prevent you from checking the existence of discrete gpu."
+msgstr "Systemets policy förhindrar att du hämtar ljusstyrkans nivå."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "Get maximum brightness value"
+msgstr "Hämta maximalt värde på ljusstyrka"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+msgid "System policies prevent you from getting the brightness level."
 msgstr "Systemets policy förhindrar att du hämtar ljusstyrkans nivå."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:11
@@ -3188,59 +3219,6 @@ msgstr "Autentisering krävs för att ange systemlokal."
 msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
 msgid "Authentication is required to set the system keyboard settings."
 msgstr "Autentisering krävs för att ange systeminställningar för tangentbord."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
-msgctxt "Description(org.freedesktop.timedate1.set-time)"
-msgid "Set system time"
-msgstr "Ange systemtid"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
-msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-msgid "Set system timezone"
-msgstr "Ange systemets tidszon"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
-msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-msgid "Set RTC to local timezone or UTC"
-msgstr ""
-"Sätt realtidsklocka (RTC) till lokal tidszon eller koordinerad universell "
-"tid (UTC)"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
-msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-msgid "Turn network time synchronization on or off"
-msgstr "Växla synkronisering av nätverkstid på och av"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#| msgid "Authentication is required to set the system timezone."
-msgctxt "Message(org.freedesktop.timedate1.set-time)"
-msgid "Authentication is required to set the system time."
-msgstr "Autentisering krävs för att ange systemets tidszon."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
-msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-msgid "Authentication is required to set the system timezone."
-msgstr "Autentisering krävs för att ange systemets tidszon."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
-msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-msgid ""
-"Authentication is required to control whether the RTC stores the local or "
-"UTC time."
-msgstr ""
-"Autentisering krävs för att kunna kontrollera huruvida realtidsklockan (RTC) "
-"lagrar den lokala eller koordinerade universella tiden (UTC)."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
-msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-msgid ""
-"Authentication is required to control whether network time synchronization "
-"shall be enabled."
-msgstr ""
-"Autentisering krävs för att kontrollera huruvida synkronisering av "
-"nätverkstid ska vara aktiverat."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
 msgctxt "Description(org.freedesktop.systemd1.reply-password)"
@@ -3703,6 +3681,59 @@ msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
 msgid "Authentication is required to set local machine information."
 msgstr "Autentisering krävs för att ange lokal datorinformation."
 
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "Ange systemtid"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "Ange systemets tidszon"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr ""
+"Sätt realtidsklocka (RTC) till lokal tidszon eller koordinerad universell "
+"tid (UTC)"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr "Växla synkronisering av nätverkstid på och av"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+#| msgid "Authentication is required to set the system timezone."
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr "Autentisering krävs för att ange systemets tidszon."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr "Autentisering krävs för att ange systemets tidszon."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr ""
+"Autentisering krävs för att kunna kontrollera huruvida realtidsklockan (RTC) "
+"lagrar den lokala eller koordinerade universella tiden (UTC)."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr ""
+"Autentisering krävs för att kontrollera huruvida synkronisering av "
+"nätverkstid ska vara aktiverat."
+
 #: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
 msgctxt "Description(org.freedesktop.import1.import)"
 msgid "Import a VM or container image"
@@ -3829,6 +3860,19 @@ msgid ""
 msgstr ""
 "Autentisering krävs för att hantera lokala virtuella maskin- och "
 "behållaravbildningar."
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
+msgctxt "Description(com.redhat.tuned.gui.run)"
+msgid "Run tuned-gui as root"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
+#, fuzzy
+#| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#| msgid "Authentication is required to probe the device"
+msgctxt "Message(com.redhat.tuned.gui.run)"
+msgid "Authentication is required to run tuned-gui"
+msgstr "Autentisering krävs för att undersöka enheten"
 
 #: /usr/share/polkit-1/actions/com.redhat.tuned.policy:11
 msgctxt "Description(com.redhat.tuned.active_profile)"
@@ -4040,19 +4084,6 @@ msgstr "Autentisering krävs för att undersöka enheten"
 #| msgid "Authentication is required to probe the device"
 msgctxt "Message(com.redhat.tuned.verify_profile_ignore_missing)"
 msgid "Authentication is required to verify Tuned profile"
-msgstr "Autentisering krävs för att undersöka enheten"
-
-#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
-msgctxt "Description(com.redhat.tuned.gui.run)"
-msgid "Run tuned-gui as root"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:7
-#, fuzzy
-#| msgctxt "Message(org.gnome.MultiWriter.probe)"
-#| msgid "Authentication is required to probe the device"
-msgctxt "Message(com.redhat.tuned.gui.run)"
-msgid "Authentication is required to run tuned-gui"
 msgstr "Autentisering krävs för att undersöka enheten"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.UDisks2.policy:14
@@ -4587,6 +4618,21 @@ msgstr "Ändra ljusstyrkan på bärbar dator"
 msgctxt "Message(org.xfce.power.backlight-helper)"
 msgid "Authentication is required to modify the laptop display brightness"
 msgstr "Autentisering krävs för att ändra ljusstyrka för bärbara datorer"
+
+#, fuzzy
+#~| msgctxt "Message(org.gnome.MultiWriter.probe)"
+#~| msgid "Authentication is required to probe the device"
+#~ msgctxt "Message(org.gtk.vfs.file-operations-helper)"
+#~ msgid "Authentication is required to perform file operations"
+#~ msgstr "Autentisering krävs för att undersöka enheten"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#~ msgid "Save wallet configuration"
+#~ msgstr "Spara plånboksinställning"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmkwallet.save)"
+#~ msgid "Allow saving wallet configuration settings"
+#~ msgstr "Tillåt att plånboksinställningar sparas"
 
 #, fuzzy
 #~| msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
