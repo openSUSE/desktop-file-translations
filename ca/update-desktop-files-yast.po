@@ -3,11 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2018-03-01 13:19+0000\n"
+"POT-Creation-Date: 2019-04-29 07:46+0000\n"
 "PO-Revision-Date: 2019-06-13 15:49+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.opensuse.org/projects/"
-"desktop-file-translations/update-desktop-files-yast-master/ca/>\n"
+"Language-Team: Catalan <https://l10n.opensuse.org/projects/desktop-file-"
+"translations/update-desktop-files-yast-master/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -16,55 +16,88 @@ msgstr ""
 "X-Generator: Weblate 3.6.1\n"
 "X-Poedit-Bookmarks: -1,15,-1,-1,-1,-1,-1,861,-1,-1\n"
 
-#: /usr/share/applications/YaST2/clone_system.desktop:21
+#: /usr/share/applications/YaST2/clone_system.desktop:17
+#, fuzzy
+#| msgctxt "Name(clone_system.desktop)"
+#| msgid "Autoinstallation Cloning System"
+msgctxt "X-SuSE-YaST-Keywords(clone_system.desktop)"
+msgid "autoyast,installation,clone"
+msgstr "Sistema de clonació d'autoinstal·lació"
+
+#: /usr/share/applications/YaST2/clone_system.desktop:22
 msgctxt "Name(clone_system.desktop)"
 msgid "Autoinstallation Cloning System"
 msgstr "Sistema de clonació d'autoinstal·lació"
 
-#: /usr/share/applications/YaST2/clone_system.desktop:22
+#: /usr/share/applications/YaST2/clone_system.desktop:23
 msgctxt "GenericName(clone_system.desktop)"
 msgid "Creating AutoYaST configuration file"
 msgstr "Creant el fitxer de configuració de l'AutoYaST"
 
-#: /usr/share/applications/YaST2/autoyast.desktop:21
+#: /usr/share/applications/YaST2/autoyast.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(autoyast.desktop)"
+msgid "autoyast,installation"
+msgstr ""
+
+#: /usr/share/applications/YaST2/autoyast.desktop:22
 msgctxt "Name(autoyast.desktop)"
 msgid "Autoinstallation Configuration"
 msgstr "Configuració de l'autoinstal·lació"
 
-#: /usr/share/applications/YaST2/autoyast.desktop:22
+#: /usr/share/applications/YaST2/autoyast.desktop:23
 msgctxt "GenericName(autoyast.desktop)"
 msgid "Configuration system for autoinstallation"
 msgstr "Sistema de configuració per a l'autoinstal·lació"
 
-#: /usr/share/applications/YaST2/add-on-creator.desktop:23
-msgctxt "Name(add-on-creator.desktop)"
-msgid "Add-On Creator"
-msgstr "Creador complementari"
+#: /usr/share/applications/YaST2/gpmc.desktop:21
+msgctxt "Name(gpmc.desktop)"
+msgid "Group Policy Management Console"
+msgstr ""
 
-#: /usr/share/applications/YaST2/add-on-creator.desktop:24
-msgctxt "GenericName(add-on-creator.desktop)"
-msgid "Create Add-On product"
-msgstr "Creeu un producte complementari"
+#: /usr/share/applications/YaST2/gpmc.desktop:22
+msgctxt "GenericName(gpmc.desktop)"
+msgid "Manage Group Policy"
+msgstr ""
 
-#: /usr/share/applications/YaST2/add-on.desktop:23
+#: /usr/share/applications/YaST2/add-on.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(add-on.desktop)"
+msgid "update,packages,repositories,software"
+msgstr ""
+
+#: /usr/share/applications/YaST2/add-on.desktop:24
 msgctxt "Name(add-on.desktop)"
 msgid "Add-On Products"
 msgstr "Productes complementaris"
 
-#: /usr/share/applications/YaST2/add-on.desktop:24
+#: /usr/share/applications/YaST2/add-on.desktop:25
 msgctxt "GenericName(add-on.desktop)"
 msgid "Install or remove add-on products"
 msgstr "Instal·leu o suprimiu productes complementaris"
 
-#: /usr/share/applications/YaST2/vendor.desktop:20
+#: /usr/share/applications/YaST2/vendor.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(vendor.desktop)"
+msgid "vendor,cd,driver,update,packages,repositories,software"
+msgstr ""
+
+#: /usr/share/applications/YaST2/vendor.desktop:21
 msgctxt "Name(vendor.desktop)"
 msgid "Vendor Driver CD"
 msgstr "CD de controladors del proveïdor"
 
-#: /usr/share/applications/YaST2/vendor.desktop:21
+#: /usr/share/applications/YaST2/vendor.desktop:22
 msgctxt "GenericName(vendor.desktop)"
 msgid "Install a driver from a vendor-specific CD-ROM"
 msgstr "Instal·leu un controlador des d'un CD-ROM d'un proveïdor específic"
+
+#: /usr/share/applications/YaST2/aduc.desktop:21
+msgctxt "Name(aduc.desktop)"
+msgid "Active Directory Users and Computers"
+msgstr ""
+
+#: /usr/share/applications/YaST2/aduc.desktop:22
+msgctxt "GenericName(aduc.desktop)"
+msgid "Manage Active Directory Users and Computers"
+msgstr ""
 
 #: /usr/share/applications/YaST2/alternatives.desktop:15
 msgctxt "Name(alternatives.desktop)"
@@ -76,15 +109,25 @@ msgctxt "GenericName(alternatives.desktop)"
 msgid "Manage update-alternatives switching"
 msgstr "Gestió de commutació d'alternatives d'actualització"
 
-#: /usr/share/applications/YaST2/apparmor.desktop:21
+#: /usr/share/applications/YaST2/apparmor.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(apparmor.desktop)"
+msgid "security,LSM,MAC,DAC,access,control"
+msgstr ""
+
+#: /usr/share/applications/YaST2/apparmor.desktop:22
 msgctxt "Name(apparmor.desktop)"
 msgid "AppArmor Configuration"
 msgstr "Configuració d'AppArmor"
 
-#: /usr/share/applications/YaST2/apparmor.desktop:22
+#: /usr/share/applications/YaST2/apparmor.desktop:23
 msgctxt "GenericName(apparmor.desktop)"
 msgid "AppArmor Configuration"
 msgstr "Configureu l'AppArmor"
+
+#: /usr/share/applications/YaST2/audit-laf.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(audit-laf.desktop)"
+msgid "audit,auditd,auditctl,auditing,dispatcher,LAF"
+msgstr ""
 
 #: /usr/share/applications/YaST2/audit-laf.desktop:25
 msgctxt "Name(audit-laf.desktop)"
@@ -96,6 +139,30 @@ msgctxt "GenericName(audit-laf.desktop)"
 msgid "audit-laf"
 msgstr "audit-laf"
 
+#: /usr/share/applications/YaST2/auth-client.desktop:15
+msgctxt "X-SuSE-YaST-Keywords(auth-client.desktop)"
+msgid ""
+"authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
+"activedirectory"
+msgstr ""
+
+#: /usr/share/applications/YaST2/auth-client.desktop:20
+msgctxt "Name(auth-client.desktop)"
+msgid "User Logon Management"
+msgstr "Gestió de sessió d'usuari"
+
+#: /usr/share/applications/YaST2/auth-client.desktop:21
+msgctxt "GenericName(auth-client.desktop)"
+msgid "User Logon Management"
+msgstr "Gestió de sessió d'usuari"
+
+#: /usr/share/applications/YaST2/ldapkrb.desktop:14
+msgctxt "X-SuSE-YaST-Keywords(ldapkrb.desktop)"
+msgid ""
+"authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
+"activedirectory"
+msgstr ""
+
 #: /usr/share/applications/YaST2/ldapkrb.desktop:19
 msgctxt "Name(ldapkrb.desktop)"
 msgid "LDAP and Kerberos Client"
@@ -106,110 +173,107 @@ msgctxt "GenericName(ldapkrb.desktop)"
 msgid "LDAP And Kerberos Client"
 msgstr "LDAP i client Kerberos"
 
-#: /usr/share/applications/YaST2/auth-client.desktop:19
-msgctxt "Name(auth-client.desktop)"
-msgid "User Logon Management"
-msgstr "Gestió de sessió d'usuari"
-
-#: /usr/share/applications/YaST2/auth-client.desktop:20
-msgctxt "GenericName(auth-client.desktop)"
-msgid "User Logon Management"
-msgstr "Gestió de sessió d'usuari"
-
-#: /usr/share/applications/YaST2/openldap-mirrormode.desktop:22
-msgctxt "Name(openldap-mirrormode.desktop)"
-msgid "OpenLDAP MirrorMode"
-msgstr "OpenLDAP MirrorMode"
-
-#: /usr/share/applications/YaST2/openldap-mirrormode.desktop:23
-msgctxt "GenericName(openldap-mirrormode.desktop)"
-msgid "Manage OpenLDAP MirrorMode Nodes"
-msgstr "Gestió del nodes d'OpenLDAP MirrorMode"
-
-#: /usr/share/applications/YaST2/auth-server.desktop:24
-msgctxt "Name(auth-server.desktop)"
-msgid "Authentication Server"
+#: /usr/share/applications/YaST2/ldap-server.desktop:11
+#, fuzzy
+#| msgctxt "Name(auth-server.desktop)"
+#| msgid "Authentication Server"
+msgctxt "X-SuSE-YaST-Keywords(ldap-server.desktop)"
+msgid "authentication,directory,ldap"
 msgstr "Servidor d'autenticació"
 
-#: /usr/share/applications/YaST2/auth-server.desktop:25
-msgctxt "GenericName(auth-server.desktop)"
-msgid "Configure an Authentication Server"
-msgstr "Configureu un servidor d'autenticació"
+#: /usr/share/applications/YaST2/ldap-server.desktop:16
+msgctxt "Name(ldap-server.desktop)"
+msgid "Create New Directory Server"
+msgstr ""
 
-#: /usr/share/applications/YaST2/bootloader.desktop:22
-msgctxt "Name(bootloader.desktop)"
-msgid "Boot Loader"
-msgstr "Carregador d'arrencada"
+#: /usr/share/applications/YaST2/ldap-server.desktop:17
+msgctxt "GenericName(ldap-server.desktop)"
+msgid "Create New Directory Server"
+msgstr ""
 
-#: /usr/share/applications/YaST2/bootloader.desktop:23
-msgctxt "GenericName(bootloader.desktop)"
-msgid "Configure the boot loader"
-msgstr "Configureu el carregador de l'arrencada"
+#: /usr/share/applications/YaST2/krb-server.desktop:11
+#, fuzzy
+#| msgctxt "Name(auth-server.desktop)"
+#| msgid "Authentication Server"
+msgctxt "X-SuSE-YaST-Keywords(krb-server.desktop)"
+msgid "authentication,kerberos,krb,krb5"
+msgstr "Servidor d'autenticació"
 
-#: /usr/share/applications/YaST2/wol.desktop:20
+#: /usr/share/applications/YaST2/krb-server.desktop:16
+msgctxt "Name(krb-server.desktop)"
+msgid "Create New Kerberos Server"
+msgstr ""
+
+#: /usr/share/applications/YaST2/krb-server.desktop:17
+msgctxt "GenericName(krb-server.desktop)"
+msgid "Create New Kerberos Server"
+msgstr ""
+
+#: /usr/share/applications/YaST2/wol.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(wol.desktop)"
+msgid "lan,wake,network,wol"
+msgstr ""
+
+#: /usr/share/applications/YaST2/wol.desktop:21
 msgctxt "Name(wol.desktop)"
 msgid "Wake-on-LAN"
 msgstr "Engegada per LAN"
 
-#: /usr/share/applications/YaST2/wol.desktop:21
+#: /usr/share/applications/YaST2/wol.desktop:22
 msgctxt "GenericName(wol.desktop)"
 msgid "Configure Wake-on-Lan"
 msgstr "Configura l'engegada per Lan"
 
-#: /usr/share/applications/YaST2/ca_mgm.desktop:24
-msgctxt "Name(ca_mgm.desktop)"
-msgid "CA Management"
-msgstr "Gestió de CA"
+#: /usr/share/applications/YaST2/bootloader.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(bootloader.desktop)"
+msgid "bootloader,GRUB,system,EFI"
+msgstr ""
 
-#: /usr/share/applications/YaST2/ca_mgm.desktop:25
-msgctxt "GenericName(ca_mgm.desktop)"
-msgid "Configure CAs, certificates, and requests"
-msgstr "Configureu CA, certificats i peticions"
+#: /usr/share/applications/YaST2/bootloader.desktop:23
+msgctxt "Name(bootloader.desktop)"
+msgid "Boot Loader"
+msgstr "Carregador d'arrencada"
 
-#: /usr/share/applications/YaST2/common_cert.desktop:22
-msgctxt "Name(common_cert.desktop)"
-msgid "Common Server Certificate"
-msgstr "Certificat de servidor comú"
+#: /usr/share/applications/YaST2/bootloader.desktop:24
+msgctxt "GenericName(bootloader.desktop)"
+msgid "Configure the boot loader"
+msgstr "Configureu el carregador de l'arrencada"
 
-#: /usr/share/applications/YaST2/common_cert.desktop:23
-msgctxt "GenericName(common_cert.desktop)"
-msgid "Install an SSL certificate for server services"
-msgstr "Instal·leu un certificat SSL per a serveis de servidor"
+#: /usr/share/applications/YaST2/cluster.desktop:19
+#, fuzzy
+#| msgctxt "Name(high_availability.desktop)"
+#| msgid "High Availability"
+msgctxt "X-SuSE-YaST-Keywords(cluster.desktop)"
+msgid "high,availability"
+msgstr "Alta disponibilitat"
 
-#: /usr/share/applications/YaST2/cluster.desktop:23
+#: /usr/share/applications/YaST2/cluster.desktop:24
 msgctxt "Name(cluster.desktop)"
 msgid "Cluster"
 msgstr "Clúster"
 
-#: /usr/share/applications/YaST2/cluster.desktop:24
+#: /usr/share/applications/YaST2/cluster.desktop:25
 msgctxt "GenericName(cluster.desktop)"
 msgid "Configure Cluster"
 msgstr "Configureu Clúster"
 
 #: /usr/share/applications/YaST2/configuration_management.desktop:13
+#, fuzzy
+#| msgctxt "Name(configuration_management.desktop)"
+#| msgid "YaST2 Configuration Management"
+msgctxt "X-SuSE-YaST-Keywords(configuration_management.desktop)"
+msgid "salt,privisioning,configuration_management"
+msgstr "Gestió de configuració YaST2"
+
+#: /usr/share/applications/YaST2/configuration_management.desktop:18
 msgctxt "Name(configuration_management.desktop)"
 msgid "YaST2 Configuration Management"
 msgstr "Gestió de configuració YaST2"
 
-#: /usr/share/applications/YaST2/keyboard.desktop:24
-msgctxt "Name(keyboard.desktop)"
-msgid "System Keyboard Layout"
-msgstr "Disposició del teclat de sistema"
-
-#: /usr/share/applications/YaST2/keyboard.desktop:25
-msgctxt "GenericName(keyboard.desktop)"
-msgid "Select the system keyboard"
-msgstr "Seleccioneu el teclat del sistema"
-
-#: /usr/share/applications/YaST2/yast-language.desktop:25
-msgctxt "Name(yast-language.desktop)"
-msgid "Language"
-msgstr "Llengua"
-
-#: /usr/share/applications/YaST2/yast-language.desktop:26
-msgctxt "GenericName(yast-language.desktop)"
-msgid "Change the language and install additional languages"
-msgstr "Canvieu la llengua i instal·leu-ne d'addicionals"
+#: /usr/share/applications/YaST2/timezone.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(timezone.desktop)"
+msgid "time,timezone,clock"
+msgstr ""
 
 #: /usr/share/applications/YaST2/timezone.desktop:24
 msgctxt "Name(timezone.desktop)"
@@ -221,55 +285,35 @@ msgctxt "GenericName(timezone.desktop)"
 msgid "Control time zone, date, and system time"
 msgstr "Controleu la zona horària, la data i l'hora del sistema"
 
-#: /usr/share/applications/YaST2/messages.desktop:22
-msgctxt "Name(messages.desktop)"
-msgid "System Log"
-msgstr "Historial del sistema"
+#: /usr/share/applications/YaST2/yast-language.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(yast-language.desktop)"
+msgid "language,locale,country"
+msgstr ""
 
-#: /usr/share/applications/YaST2/messages.desktop:23
-msgctxt "GenericName(messages.desktop)"
-msgid "Display the system's log (/var/log/messages)"
-msgstr "Vegeu l'historial del sistema (/var/log/messages)"
+#: /usr/share/applications/YaST2/yast-language.desktop:25
+msgctxt "Name(yast-language.desktop)"
+msgid "Language"
+msgstr "Llengua"
 
-#: /usr/share/applications/YaST2/groups/system.desktop:15
-msgctxt "Name(system.desktop)"
-msgid "System"
-msgstr "Sistema"
+#: /usr/share/applications/YaST2/yast-language.desktop:26
+msgctxt "GenericName(yast-language.desktop)"
+msgid "Change the language and install additional languages"
+msgstr "Canvieu la llengua i instal·leu-ne d'addicionals"
 
-#: /usr/share/applications/YaST2/groups/misc.desktop:15
-msgctxt "Name(misc.desktop)"
-msgid "Miscellaneous"
-msgstr "Miscel·lània"
+#: /usr/share/applications/YaST2/keyboard.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(keyboard.desktop)"
+msgid "keyboard,language,locale,country"
+msgstr ""
 
-#: /usr/share/applications/YaST2/groups/security.desktop:15
-msgctxt "Name(security.desktop)"
-msgid "Security and Users"
-msgstr "Seguretat i usuaris"
+#: /usr/share/applications/YaST2/keyboard.desktop:24
+msgctxt "Name(keyboard.desktop)"
+msgid "System Keyboard Layout"
+msgstr "Disposició del teclat de sistema"
 
-#: /usr/share/applications/YaST2/groups/support.desktop:15
-msgctxt "Name(support.desktop)"
-msgid "Support"
-msgstr "Suport"
-
-#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
-msgctxt "Name(high_availability.desktop)"
-msgid "High Availability"
-msgstr "Alta disponibilitat"
-
-#: /usr/share/applications/YaST2/groups/network_services.desktop:15
-msgctxt "Name(network_services.desktop)"
-msgid "Network Services"
-msgstr "Serveis de xarxa"
-
-#: /usr/share/applications/YaST2/groups/hardware.desktop:15
-msgctxt "Name(hardware.desktop)"
-msgid "Hardware"
-msgstr "Maquinari"
-
-#: /usr/share/applications/YaST2/groups/software.desktop:15
-msgctxt "Name(software.desktop)"
-msgid "Software"
-msgstr "Programari"
+#: /usr/share/applications/YaST2/keyboard.desktop:25
+msgctxt "GenericName(keyboard.desktop)"
+msgid "Select the system keyboard"
+msgstr "Seleccioneu el teclat del sistema"
 
 #: /usr/share/applications/YaST2/dhcp-server.desktop:25
 msgctxt "Name(dhcp-server.desktop)"
@@ -281,45 +325,55 @@ msgctxt "GenericName(dhcp-server.desktop)"
 msgid "Configure a DHCP server"
 msgstr "Configureu un servidor DHCP"
 
-#: /usr/share/applications/YaST2/dns-server.desktop:24
+#: /usr/share/applications/YaST2/dns-server.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(dns-server.desktop)"
+msgid "dns,domain,nameserver,network,lookup"
+msgstr ""
+
+#: /usr/share/applications/YaST2/dns-server.desktop:25
 msgctxt "Name(dns-server.desktop)"
 msgid "DNS Server"
 msgstr "Servidor DNS"
 
-#: /usr/share/applications/YaST2/dns-server.desktop:25
+#: /usr/share/applications/YaST2/dns-server.desktop:26
 msgctxt "GenericName(dns-server.desktop)"
 msgid "Configure a DNS server"
 msgstr "Configureu un servidor DNS"
 
-#: /usr/share/applications/YaST2/docker-config.desktop:19
-msgctxt "Name(docker-config.desktop)"
-msgid "Docker"
-msgstr "Acoblador"
+#: /usr/share/applications/YaST2/drbd.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(drbd.desktop)"
+msgid "high,availability,ha,storage,block,device,cluster"
+msgstr ""
 
-#: /usr/share/applications/YaST2/docker-config.desktop:20
-msgctxt "GenericName(docker-config.desktop)"
-msgid "Docker"
-msgstr "Acoblador"
-
-#: /usr/share/applications/YaST2/drbd.desktop:22
+#: /usr/share/applications/YaST2/drbd.desktop:23
 msgctxt "Name(drbd.desktop)"
 msgid "DRBD"
 msgstr "DRBD"
 
-#: /usr/share/applications/YaST2/drbd.desktop:23
+#: /usr/share/applications/YaST2/drbd.desktop:24
 msgctxt "GenericName(drbd.desktop)"
 msgid "Configure the DRBD(Distributed Replicated Block Device) device"
 msgstr "Configureu el dispositiu DRBD (Distributed Replicated Block Device)"
 
-#: /usr/share/applications/YaST2/fcoe-client.desktop:22
+#: /usr/share/applications/YaST2/fcoe-client.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(fcoe-client.desktop)"
+msgid "fibre,channel,ethernet,network"
+msgstr ""
+
+#: /usr/share/applications/YaST2/fcoe-client.desktop:23
 msgctxt "Name(fcoe-client.desktop)"
 msgid "FCoE Client Configuration"
 msgstr "Configuració del client FCoE"
 
-#: /usr/share/applications/YaST2/fcoe-client.desktop:23
+#: /usr/share/applications/YaST2/fcoe-client.desktop:24
 msgctxt "GenericName(fcoe-client.desktop)"
 msgid "Fibre Channel over Ethernet Configuration"
 msgstr "Configuració de canal de fibra sobre Ethernet"
+
+#: /usr/share/applications/YaST2/firewall.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(firewall.desktop)"
+msgid "security,network"
+msgstr ""
 
 #: /usr/share/applications/YaST2/firewall.desktop:23
 msgctxt "Name(firewall.desktop)"
@@ -331,112 +385,177 @@ msgctxt "GenericName(firewall.desktop)"
 msgid "Configure a firewall"
 msgstr "Configureu un tallafoc"
 
-#: /usr/share/applications/YaST2/fonts.desktop:20
-msgctxt "Name(fonts.desktop)"
-msgid "Fonts"
-msgstr "Tipus de lletra"
+#: /usr/share/applications/YaST2/ftp-server.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(ftp-server.desktop)"
+msgid "FTP,server,boot,file,transfer,protocol,network"
+msgstr ""
 
-#: /usr/share/applications/YaST2/fonts.desktop:21
-msgctxt "GenericName(fonts.desktop)"
-msgid "Configuring Fonts"
-msgstr "Configuració de tipus de lletres"
-
-#: /usr/share/applications/YaST2/ftp-server.desktop:22
+#: /usr/share/applications/YaST2/ftp-server.desktop:23
 msgctxt "Name(ftp-server.desktop)"
 msgid "FTP Server"
 msgstr "Servidor FTP"
 
-#: /usr/share/applications/YaST2/ftp-server.desktop:23
+#: /usr/share/applications/YaST2/ftp-server.desktop:24
+#, fuzzy
+#| msgctxt "GenericName(ftp-server.desktop)"
+#| msgid "Module for configuration FTP daemon (vsftpd or pure-ftpd)"
 msgctxt "GenericName(ftp-server.desktop)"
-msgid "Module for configuration FTP daemon (vsftpd or pure-ftpd)"
+msgid "Module for configuration FTP daemon (vsftpd)"
 msgstr "Mòdul per a la configuració del dimoni FTP (vsftpd o pure-ftpd)"
 
-#: /usr/share/applications/YaST2/geo-cluster.desktop:22
+#: /usr/share/applications/YaST2/geo-cluster.desktop:21
+msgctxt "X-SuSE-YaST-Keywords(geo-cluster.desktop)"
+msgid "cluster,availability,high"
+msgstr ""
+
+#: /usr/share/applications/YaST2/geo-cluster.desktop:26
 msgctxt "Name(geo-cluster.desktop)"
 msgid "Geo Cluster"
 msgstr "Geo Clúster"
 
-#: /usr/share/applications/YaST2/geo-cluster.desktop:23
+#: /usr/share/applications/YaST2/geo-cluster.desktop:27
 msgctxt "GenericName(geo-cluster.desktop)"
 msgid "Configuration Geo Cluster"
 msgstr "Configuració de Geo Clúster"
 
-#: /usr/share/applications/YaST2/http-server.desktop:23
+#: /usr/share/applications/YaST2/http-server.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(http-server.desktop)"
+msgid "http,network,internet,apache,web,www"
+msgstr ""
+
+#: /usr/share/applications/YaST2/http-server.desktop:24
 msgctxt "Name(http-server.desktop)"
 msgid "HTTP Server"
 msgstr "Servidor HTTP"
 
-#: /usr/share/applications/YaST2/http-server.desktop:24
+#: /usr/share/applications/YaST2/http-server.desktop:25
 msgctxt "GenericName(http-server.desktop)"
 msgid "Configure an Apache 2 server"
 msgstr "Configureu un servidor Apache 2"
 
-#: /usr/share/applications/YaST2/inetd.desktop:23
-msgctxt "Name(inetd.desktop)"
-msgid "Network Services (xinetd)"
-msgstr "Serveis de xarxa (xinetd)"
+#: /usr/share/applications/YaST2/upgrade.desktop:9
+msgctxt "Name(upgrade.desktop)"
+msgid "Upgrade"
+msgstr ""
 
-#: /usr/share/applications/YaST2/inetd.desktop:24
-msgctxt "GenericName(inetd.desktop)"
-msgid "Configure network services (xinetd)"
-msgstr "Configureu serveis de xarxa (xinetd)"
+#: /usr/share/applications/YaST2/upgrade.desktop:10
+#, fuzzy
+#| msgctxt "Name(messages.desktop)"
+#| msgid "System Log"
+msgctxt "GenericName(upgrade.desktop)"
+msgid "System Upgrade"
+msgstr "Historial del sistema"
 
-#: /usr/share/applications/YaST2/release_notes.desktop:12
+#: /usr/share/applications/YaST2/upgrade.desktop:11
+msgctxt "Comment(upgrade.desktop)"
+msgid "Upgrade system to the newer version"
+msgstr ""
+
+#: /usr/share/applications/YaST2/installation.desktop:9
+#, fuzzy
+#| msgctxt "Name(instserver.desktop)"
+#| msgid "Installation Server"
+msgctxt "Name(installation.desktop)"
+msgid "Installation"
+msgstr "Servidor d'instal·lació"
+
+#: /usr/share/applications/YaST2/installation.desktop:10
+#, fuzzy
+#| msgctxt "Name(messages.desktop)"
+#| msgid "System Log"
+msgctxt "GenericName(installation.desktop)"
+msgid "System Upgrade"
+msgstr "Historial del sistema"
+
+#: /usr/share/applications/YaST2/installation.desktop:11
+msgctxt "Comment(installation.desktop)"
+msgid "Install system to the system"
+msgstr ""
+
+#: /usr/share/applications/YaST2/release_notes.desktop:8
+msgctxt "X-SuSE-YaST-Keywords(release_notes.desktop)"
+msgid "support,installation,notes,documentation"
+msgstr ""
+
+#: /usr/share/applications/YaST2/release_notes.desktop:13
 msgctxt "Name(release_notes.desktop)"
 msgid "Release Notes"
 msgstr "Notes de la versió"
 
-#: /usr/share/applications/YaST2/release_notes.desktop:13
+#: /usr/share/applications/YaST2/release_notes.desktop:14
 msgctxt "GenericName(release_notes.desktop)"
 msgid "Show Release Notes"
 msgstr "Vegeu les notes de la versió"
 
-#: /usr/share/applications/YaST2/instserver.desktop:19
+#: /usr/share/applications/YaST2/instserver.desktop:15
+#, fuzzy
+#| msgctxt "Name(instserver.desktop)"
+#| msgid "Installation Server"
+msgctxt "X-SuSE-YaST-Keywords(instserver.desktop)"
+msgid "installation,server"
+msgstr "Servidor d'instal·lació"
+
+#: /usr/share/applications/YaST2/instserver.desktop:20
 msgctxt "Name(instserver.desktop)"
 msgid "Installation Server"
 msgstr "Servidor d'instal·lació"
 
-#: /usr/share/applications/YaST2/instserver.desktop:20
+#: /usr/share/applications/YaST2/instserver.desktop:21
 msgctxt "GenericName(instserver.desktop)"
 msgid "Configure and manage installation servers"
 msgstr "Configureu i gestioneu servidors d'instal·lació"
 
-#: /usr/share/applications/YaST2/iplb.desktop:22
+#: /usr/share/applications/YaST2/iplb.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(iplb.desktop)"
+msgid "network,ip,loadbalancing"
+msgstr ""
+
+#: /usr/share/applications/YaST2/iplb.desktop:23
 msgctxt "Name(iplb.desktop)"
 msgid "IP Load Balancing"
 msgstr "Equilibri de càrrega IP"
 
-#: /usr/share/applications/YaST2/iplb.desktop:23
+#: /usr/share/applications/YaST2/iplb.desktop:24
 msgctxt "GenericName(iplb.desktop)"
 msgid "Configure IPLB(IP Load Balancing)"
 msgstr "Configureu IPLB(IP Load Balancing)"
 
-#: /usr/share/applications/YaST2/iscsi-client.desktop:23
+#: /usr/share/applications/YaST2/iscsi-client.desktop:24
 msgctxt "Name(iscsi-client.desktop)"
 msgid "iSCSI Initiator"
 msgstr "Iniciador iSCSI"
 
-#: /usr/share/applications/YaST2/iscsi-client.desktop:24
+#: /usr/share/applications/YaST2/iscsi-client.desktop:25
 msgctxt "GenericName(iscsi-client.desktop)"
 msgid "Configure an iSCSI initiator"
 msgstr "Configureu un iniciador iSCSI"
 
-#: /usr/share/applications/YaST2/iscsi-lio-server.desktop:22
+#: /usr/share/applications/YaST2/iscsi-lio-server.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(iscsi-lio-server.desktop)"
+msgid "iscsi,lio,network,system"
+msgstr ""
+
+#: /usr/share/applications/YaST2/iscsi-lio-server.desktop:21
 msgctxt "Name(iscsi-lio-server.desktop)"
 msgid "iSCSI LIO Target"
 msgstr "Destinació iSCSI LIO"
 
-#: /usr/share/applications/YaST2/iscsi-lio-server.desktop:23
+#: /usr/share/applications/YaST2/iscsi-lio-server.desktop:22
 msgctxt "GenericName(iscsi-lio-server.desktop)"
 msgid "Configure an iSCSI target via LIO"
 msgstr "Configureu una destinació iSCSI a través de LIO"
 
-#: /usr/share/applications/YaST2/isns.desktop:21
+#: /usr/share/applications/YaST2/isns.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(isns.desktop)"
+msgid "internet,storage,name,network,server,devices,iscsi,scsi"
+msgstr ""
+
+#: /usr/share/applications/YaST2/isns.desktop:22
 msgctxt "Name(isns.desktop)"
 msgid "iSNS Server"
 msgstr "Servidor iSNS"
 
-#: /usr/share/applications/YaST2/isns.desktop:22
+#: /usr/share/applications/YaST2/isns.desktop:23
 msgctxt "GenericName(isns.desktop)"
 msgid "Configure an iSNS server"
 msgstr "Configureu un servidor iSNS"
@@ -451,75 +570,116 @@ msgctxt "GenericName(journal.desktop)"
 msgid "Read systemd journal entries"
 msgstr "Llegiu les entrades del diari del Systemd"
 
-#: /usr/share/applications/YaST2/kdump.desktop:24
+#: /usr/share/applications/YaST2/kdump.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(kdump.desktop)"
+msgid "system,kernel,crash,dump"
+msgstr ""
+
+#: /usr/share/applications/YaST2/kdump.desktop:25
 msgctxt "Name(kdump.desktop)"
 msgid "Kernel Kdump"
 msgstr "Kdump del nucli"
 
-#: /usr/share/applications/YaST2/kdump.desktop:25
+#: /usr/share/applications/YaST2/kdump.desktop:26
 msgctxt "GenericName(kdump.desktop)"
 msgid "Kernel Kdump Configuration Tool"
 msgstr "Eina de configuració del nucli Kdump"
 
-#: /usr/share/applications/YaST2/live-installer.desktop:21
-msgctxt "Name(live-installer.desktop)"
-msgid "Live Installer"
-msgstr "Instal·lador en viu"
+#: /usr/share/applications/YaST2/mail.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(mail.desktop)"
+msgid "network,internet"
+msgstr ""
 
-#: /usr/share/applications/YaST2/live-installer.desktop:22
-msgctxt "GenericName(live-installer.desktop)"
-msgid "Install current configuration to your system"
-msgstr "Instal·leu la configuració actual al vostre sistema"
-
-#: /usr/share/applications/YaST2/mail.desktop:22
+#: /usr/share/applications/YaST2/mail.desktop:23
 msgctxt "Name(mail.desktop)"
 msgid "Mail Server"
 msgstr "Servidor de correu"
 
-#: /usr/share/applications/YaST2/mail.desktop:23
+#: /usr/share/applications/YaST2/mail.desktop:24
 msgctxt "GenericName(mail.desktop)"
 msgid "Configure mail"
 msgstr "Configureu el correu"
 
-#: /usr/share/applications/YaST2/multipath.desktop:21
+#: /usr/share/applications/YaST2/migration.desktop:17
+#, fuzzy
+#| msgctxt "Name(online_update_configuration.desktop)"
+#| msgid "Online Update Configuration"
+msgctxt "Name(migration.desktop)"
+msgid "Online Migration"
+msgstr "Configuració de l'actualització en línia"
+
+#: /usr/share/applications/YaST2/migration.desktop:18
+#, fuzzy
+#| msgctxt "Name(online_update_configuration.desktop)"
+#| msgid "Online Update Configuration"
+msgctxt "GenericName(migration.desktop)"
+msgid "Online Migration"
+msgstr "Configuració de l'actualització en línia"
+
+#: /usr/share/applications/YaST2/multipath.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(multipath.desktop)"
+msgid "network,tcp"
+msgstr ""
+
+#: /usr/share/applications/YaST2/multipath.desktop:22
 msgctxt "Name(multipath.desktop)"
 msgid "Multipath"
 msgstr "Multicamí"
 
-#: /usr/share/applications/YaST2/multipath.desktop:22
+#: /usr/share/applications/YaST2/multipath.desktop:23
 msgctxt "GenericName(multipath.desktop)"
 msgid "multipath"
 msgstr "multicamí"
 
-#: /usr/share/applications/YaST2/lan.desktop:22
+#: /usr/share/applications/YaST2/lan.desktop:23
 msgctxt "Name(lan.desktop)"
 msgid "Network Settings"
 msgstr "Paràmetres de la xarxa"
 
-#: /usr/share/applications/YaST2/lan.desktop:23
+#: /usr/share/applications/YaST2/lan.desktop:24
 msgctxt "GenericName(lan.desktop)"
 msgid "Configure network cards, hostname and routing"
 msgstr "Configureu targetes de xarxa, noms d'amfitrions i encaminaments"
 
-#: /usr/share/applications/YaST2/remote.desktop:20
-msgctxt "Name(remote.desktop)"
-msgid "Remote Administration (VNC)"
-msgstr "Administració remota (VNC)"
+#: /usr/share/applications/YaST2/lan.desktop:26
+msgctxt "X-SuSE-YaST-Keywords(lan.desktop)"
+msgid "network,lan,dns,routing"
+msgstr ""
 
-#: /usr/share/applications/YaST2/remote.desktop:21
-msgctxt "GenericName(remote.desktop)"
-msgid "Set up remote administration"
-msgstr "Configureu l'administració remota"
+#: /usr/share/applications/YaST2/host.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(host.desktop)"
+msgid "name,network,lan,wireless"
+msgstr ""
 
-#: /usr/share/applications/YaST2/host.desktop:22
+#: /usr/share/applications/YaST2/host.desktop:23
 msgctxt "Name(host.desktop)"
 msgid "Hostnames"
 msgstr "Noms d'amfitrions"
 
-#: /usr/share/applications/YaST2/host.desktop:23
+#: /usr/share/applications/YaST2/host.desktop:24
 msgctxt "GenericName(host.desktop)"
 msgid "Assign hostnames and aliases to IP addresses"
 msgstr "Assigneu noms d'amfitrió i àlies a les adreces IP"
+
+#: /usr/share/applications/YaST2/remote.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(remote.desktop)"
+msgid "vnc,network,remote"
+msgstr ""
+
+#: /usr/share/applications/YaST2/remote.desktop:21
+msgctxt "Name(remote.desktop)"
+msgid "Remote Administration (VNC)"
+msgstr "Administració remota (VNC)"
+
+#: /usr/share/applications/YaST2/remote.desktop:22
+msgctxt "GenericName(remote.desktop)"
+msgid "Set up remote administration"
+msgstr "Configureu l'administració remota"
+
+#: /usr/share/applications/YaST2/nfs.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(nfs.desktop)"
+msgid "network,file,directory,share"
+msgstr ""
 
 #: /usr/share/applications/YaST2/nfs.desktop:25
 msgctxt "Name(nfs.desktop)"
@@ -531,6 +691,11 @@ msgctxt "GenericName(nfs.desktop)"
 msgid "Configure an NFS client"
 msgstr "Configura un client NFS"
 
+#: /usr/share/applications/YaST2/nfs_server.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(nfs_server.desktop)"
+msgid "share,NFS,file,mount,network"
+msgstr ""
+
 #: /usr/share/applications/YaST2/nfs_server.desktop:24
 msgctxt "Name(nfs_server.desktop)"
 msgid "NFS Server"
@@ -541,25 +706,46 @@ msgctxt "GenericName(nfs_server.desktop)"
 msgid "Configure an NFS server"
 msgstr "Configura un servidor NFS"
 
-#: /usr/share/applications/YaST2/nis.desktop:22
+#: /usr/share/applications/YaST2/nis.desktop:18
+#, fuzzy
+#| msgctxt "Name(auth-server.desktop)"
+#| msgid "Authentication Server"
+msgctxt "X-SuSE-YaST-Keywords(nis.desktop)"
+msgid "authentication,network,users"
+msgstr "Servidor d'autenticació"
+
+#: /usr/share/applications/YaST2/nis.desktop:23
 msgctxt "Name(nis.desktop)"
 msgid "NIS Client"
 msgstr "Client NIS"
 
-#: /usr/share/applications/YaST2/nis.desktop:23
+#: /usr/share/applications/YaST2/nis.desktop:24
 msgctxt "GenericName(nis.desktop)"
 msgid "Configure a NIS client"
 msgstr "Configureu un client NIS"
 
-#: /usr/share/applications/YaST2/nis_server.desktop:22
+#: /usr/share/applications/YaST2/nis_server.desktop:18
+#, fuzzy
+#| msgctxt "Name(auth-server.desktop)"
+#| msgid "Authentication Server"
+msgctxt "X-SuSE-YaST-Keywords(nis_server.desktop)"
+msgid "authentication,network,users"
+msgstr "Servidor d'autenticació"
+
+#: /usr/share/applications/YaST2/nis_server.desktop:23
 msgctxt "Name(nis_server.desktop)"
 msgid "NIS Server"
 msgstr "Servidor NIS"
 
-#: /usr/share/applications/YaST2/nis_server.desktop:23
+#: /usr/share/applications/YaST2/nis_server.desktop:24
 msgctxt "GenericName(nis_server.desktop)"
 msgid "Configure a NIS server"
 msgstr "Configureu un servidor NIS"
+
+#: /usr/share/applications/YaST2/ntp-client.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(ntp-client.desktop)"
+msgid "time,sync,synchronization,NTP"
+msgstr ""
 
 #: /usr/share/applications/YaST2/ntp-client.desktop:23
 msgctxt "Name(ntp-client.desktop)"
@@ -571,15 +757,25 @@ msgctxt "GenericName(ntp-client.desktop)"
 msgid "Configure an NTP client or server"
 msgstr "Configureu un servidor o un client NTP"
 
-#: /usr/share/applications/YaST2/online_update_configuration.desktop:17
+#: /usr/share/applications/YaST2/online_update_configuration.desktop:13
+msgctxt "X-SuSE-YaST-Keywords(online_update_configuration.desktop)"
+msgid "online,update,YOU,patch"
+msgstr ""
+
+#: /usr/share/applications/YaST2/online_update_configuration.desktop:18
 msgctxt "Name(online_update_configuration.desktop)"
 msgid "Online Update Configuration"
 msgstr "Configuració de l'actualització en línia"
 
-#: /usr/share/applications/YaST2/online_update_configuration.desktop:18
+#: /usr/share/applications/YaST2/online_update_configuration.desktop:19
 msgctxt "GenericName(online_update_configuration.desktop)"
 msgid "Online Update Configuration"
 msgstr "Configuració de l'actualització en línia"
+
+#: /usr/share/applications/YaST2/online_update.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(online_update.desktop)"
+msgid "software,update,online,YOU,packages,RPM"
+msgstr ""
 
 #: /usr/share/applications/YaST2/online_update.desktop:21
 msgctxt "Name(online_update.desktop)"
@@ -591,22 +787,20 @@ msgctxt "GenericName(online_update.desktop)"
 msgid "Get patches to correct and improve your existing installation"
 msgstr "Obtingueu pedaços per corregir i millorar la instal·lació existent"
 
-#: /usr/share/applications/YaST2/sw_single.desktop:20
-msgctxt "Name(sw_single.desktop)"
-msgid "Software Management"
-msgstr "Gestió de programari"
+#: /usr/share/applications/YaST2/sw_source.desktop:16
+#, fuzzy
+#| msgctxt "Name(sw_source.desktop)"
+#| msgid "Software Repositories"
+msgctxt "X-SuSE-YaST-Keywords(sw_source.desktop)"
+msgid "software,packages,rpm,repositories"
+msgstr "Repositoris de programari"
 
-#: /usr/share/applications/YaST2/sw_single.desktop:21
-msgctxt "GenericName(sw_single.desktop)"
-msgid "Install or remove software packages and manage software repositories"
-msgstr "Instal·leu o suprimiu paquets i gestioneu repositoris de programari"
-
-#: /usr/share/applications/YaST2/sw_source.desktop:20
+#: /usr/share/applications/YaST2/sw_source.desktop:21
 msgctxt "Name(sw_source.desktop)"
 msgid "Software Repositories"
 msgstr "Repositoris de programari"
 
-#: /usr/share/applications/YaST2/sw_source.desktop:21
+#: /usr/share/applications/YaST2/sw_source.desktop:22
 msgctxt "GenericName(sw_source.desktop)"
 msgid ""
 "Choose the repositories for installation of software packages (CD, network, "
@@ -615,15 +809,35 @@ msgstr ""
 "Escolliu els repositoris per a la instal·lació de paquets de programari (CD, "
 "xarxa, etc.), afegiu els repositoris de comunitat"
 
-#: /usr/share/applications/YaST2/checkmedia.desktop:21
+#: /usr/share/applications/YaST2/checkmedia.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(checkmedia.desktop)"
+msgid "software,media,check,dvd,cd,packages,repositories"
+msgstr ""
+
+#: /usr/share/applications/YaST2/checkmedia.desktop:22
 msgctxt "Name(checkmedia.desktop)"
 msgid "Media Check"
 msgstr "Comprovació de suports"
 
-#: /usr/share/applications/YaST2/checkmedia.desktop:22
+#: /usr/share/applications/YaST2/checkmedia.desktop:23
 msgctxt "GenericName(checkmedia.desktop)"
 msgid "Verify CD and DVD media integrity"
 msgstr "Verifiqueu la integritat dels suports de CD i DVD"
+
+#: /usr/share/applications/YaST2/sw_single.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(sw_single.desktop)"
+msgid "software,packages,rpm,repositories,installation,deletion"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sw_single.desktop:21
+msgctxt "Name(sw_single.desktop)"
+msgid "Software Management"
+msgstr "Gestió de programari"
+
+#: /usr/share/applications/YaST2/sw_single.desktop:22
+msgctxt "GenericName(sw_single.desktop)"
+msgid "Install or remove software packages and manage software repositories"
+msgstr "Instal·leu o suprimiu paquets i gestioneu repositoris de programari"
 
 #: /usr/share/applications/YaST2/printer.desktop:23
 msgctxt "Name(printer.desktop)"
@@ -635,45 +849,43 @@ msgctxt "GenericName(printer.desktop)"
 msgid "Configure printers"
 msgstr "Configureu impressores"
 
-#: /usr/share/applications/YaST2/product-creator.desktop:21
-msgctxt "Name(product-creator.desktop)"
-msgid "Product Creator"
-msgstr "Creador de productes"
+#: /usr/share/applications/YaST2/proxy.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(proxy.desktop)"
+msgid "network,internet,access"
+msgstr ""
 
-#: /usr/share/applications/YaST2/product-creator.desktop:22
-msgctxt "GenericName(product-creator.desktop)"
-msgid "Create new products from existing repositories"
-msgstr "Creeu productes nous des dels repositoris existents"
-
-#: /usr/share/applications/YaST2/image-creator.desktop:21
-msgctxt "Name(image-creator.desktop)"
-msgid "Image Creator"
-msgstr "Creador d'imatges"
-
-#: /usr/share/applications/YaST2/image-creator.desktop:22
-msgctxt "GenericName(image-creator.desktop)"
-msgid "Create the Live CD, USB or XEN image"
-msgstr "Creeu la imatge viva de CD, USB o XEN"
-
-#: /usr/share/applications/YaST2/proxy.desktop:22
+#: /usr/share/applications/YaST2/proxy.desktop:23
 msgctxt "Name(proxy.desktop)"
 msgid "Proxy"
 msgstr "Intermediari"
 
-#: /usr/share/applications/YaST2/proxy.desktop:23
+#: /usr/share/applications/YaST2/proxy.desktop:24
 msgctxt "GenericName(proxy.desktop)"
 msgid "Configure a proxy"
 msgstr "Configureu un servidor intermediari"
 
-#: /usr/share/applications/YaST2/rdp.desktop:23
+#: /usr/share/applications/YaST2/rdp.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(rdp.desktop)"
+msgid "remote,desktop,rdp,network,windows"
+msgstr ""
+
+#: /usr/share/applications/YaST2/rdp.desktop:22
 msgctxt "Name(rdp.desktop)"
 msgid "Remote Administration (RDP)"
 msgstr "Administració remota (RDP)"
 
-#: /usr/share/applications/YaST2/rdp.desktop:24
+#: /usr/share/applications/YaST2/rdp.desktop:23
 msgctxt "GenericName(rdp.desktop)"
 msgid "Configure RDP (Remote Desktop Protocol)"
 msgstr "Configuració d'RDP (Remote Desktop Protocol)"
+
+#: /usr/share/applications/YaST2/rear.desktop:17
+#, fuzzy
+#| msgctxt "Name(rear.desktop)"
+#| msgid "Rear Backup"
+msgctxt "X-SuSE-YaST-Keywords(rear.desktop)"
+msgid "rear,backup"
+msgstr "Còpia de seguretat de Rear"
 
 #: /usr/share/applications/YaST2/rear.desktop:22
 msgctxt "Name(rear.desktop)"
@@ -685,25 +897,56 @@ msgctxt "GenericName(rear.desktop)"
 msgid "Configure Rear Backup"
 msgstr "Configureu la còpia de seguretat de Rear"
 
-#: /usr/share/applications/YaST2/customer_center.desktop:19
+#: /usr/share/applications/YaST2/customer_center.desktop:15
+msgctxt "X-SuSE-YaST-Keywords(customer_center.desktop)"
+msgid "scc,software,registration,smt,rmt,module,extension"
+msgstr ""
+
+#: /usr/share/applications/YaST2/customer_center.desktop:20
 msgctxt "Name(customer_center.desktop)"
 msgid "Product Registration"
 msgstr "Registre del producte"
 
-#: /usr/share/applications/YaST2/customer_center.desktop:20
+#: /usr/share/applications/YaST2/customer_center.desktop:21
 msgctxt "GenericName(customer_center.desktop)"
 msgid "Product Registration"
 msgstr "Registre del producte"
 
-#: /usr/share/applications/YaST2/add_extensions.desktop:14
+#: /usr/share/applications/YaST2/add_extensions.desktop:10
+msgctxt "X-SuSE-YaST-Keywords(add_extensions.desktop)"
+msgid "extensions,modules,software,registration,scc,package,repositories"
+msgstr ""
+
+#: /usr/share/applications/YaST2/add_extensions.desktop:15
 msgctxt "Name(add_extensions.desktop)"
 msgid "Add System Extensions or Modules"
 msgstr "Afegiu extensions o mòduls de sistema"
 
-#: /usr/share/applications/YaST2/add_extensions.desktop:15
+#: /usr/share/applications/YaST2/add_extensions.desktop:16
 msgctxt "GenericName(add_extensions.desktop)"
 msgid "Add System Extensions or Modules"
 msgstr "Afegiu extensions o mòduls de sistema"
+
+#: /usr/share/applications/YaST2/rmt.desktop:14
+#, fuzzy
+#| msgctxt "Name(ntp-client.desktop)"
+#| msgid "NTP Configuration"
+msgctxt "Name(rmt.desktop)"
+msgid "RMT Configuration"
+msgstr "Configuració de NTP"
+
+#: /usr/share/applications/YaST2/rmt.desktop:15
+#, fuzzy
+#| msgctxt "Name(ntp-client.desktop)"
+#| msgid "NTP Configuration"
+msgctxt "GenericName(rmt.desktop)"
+msgid "RMT Configuration"
+msgstr "Configuració de NTP"
+
+#: /usr/share/applications/YaST2/samba-client.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(samba-client.desktop)"
+msgid "authentication,samba,windows"
+msgstr ""
 
 #: /usr/share/applications/YaST2/samba-client.desktop:25
 msgctxt "Name(samba-client.desktop)"
@@ -715,25 +958,58 @@ msgctxt "GenericName(samba-client.desktop)"
 msgid "Configure the Windows Domain Membership"
 msgstr "Configureu la pertinença del domini Windows"
 
-#: /usr/share/applications/YaST2/samba-server.desktop:24
+#: /usr/share/applications/YaST2/samba-provision.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(samba-provision.desktop)"
+msgid "authentication,samba,windows"
+msgstr ""
+
+#: /usr/share/applications/YaST2/samba-provision.desktop:25
+msgctxt "Name(samba-provision.desktop)"
+msgid "Provision an Active Directory Domain Controller"
+msgstr ""
+
+#: /usr/share/applications/YaST2/samba-provision.desktop:26
+#, fuzzy
+#| msgctxt "GenericName(auth-server.desktop)"
+#| msgid "Configure an Authentication Server"
+msgctxt "GenericName(samba-provision.desktop)"
+msgid "Configure an Active Directory Domain Controller"
+msgstr "Configureu un servidor d'autenticació"
+
+#: /usr/share/applications/YaST2/samba-server.desktop:20
+msgctxt "X-SuSE-YaST-Keywords(samba-server.desktop)"
+msgid "authentication,samba,windows,network"
+msgstr ""
+
+#: /usr/share/applications/YaST2/samba-server.desktop:25
 msgctxt "Name(samba-server.desktop)"
 msgid "Samba Server"
 msgstr "Servidor Samba"
 
-#: /usr/share/applications/YaST2/samba-server.desktop:25
+#: /usr/share/applications/YaST2/samba-server.desktop:26
 msgctxt "GenericName(samba-server.desktop)"
 msgid "Configure a Samba server"
 msgstr "Configureu un servidor Samba"
 
-#: /usr/share/applications/YaST2/scanner.desktop:17
+#: /usr/share/applications/YaST2/scanner.desktop:15
+msgctxt "X-SuSE-YaST-Keywords(scanner.desktop)"
+msgid "system,hardware,photo,document,ocr"
+msgstr ""
+
+#: /usr/share/applications/YaST2/scanner.desktop:18
 msgctxt "Name(scanner.desktop)"
 msgid "Scanner"
 msgstr "Escàner"
 
-#: /usr/share/applications/YaST2/scanner.desktop:18
+#: /usr/share/applications/YaST2/scanner.desktop:19
 msgctxt "GenericName(scanner.desktop)"
 msgid "Configure a scanner"
 msgstr "Configureu un escàner"
+
+#: /usr/share/applications/YaST2/security.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(security.desktop)"
+msgid "security,system settings"
+msgstr ""
 
 #: /usr/share/applications/YaST2/security.desktop:24
 msgctxt "Name(security.desktop)"
@@ -745,12 +1021,17 @@ msgctxt "GenericName(security.desktop)"
 msgid "Configure local security settings"
 msgstr "Configureu paràmetres de seguretat locals"
 
-#: /usr/share/applications/YaST2/services-manager.desktop:22
+#: /usr/share/applications/YaST2/services-manager.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(services-manager.desktop)"
+msgid "systemd,system,background"
+msgstr ""
+
+#: /usr/share/applications/YaST2/services-manager.desktop:23
 msgctxt "Name(services-manager.desktop)"
 msgid "Services Manager"
 msgstr "Gestor de serveis"
 
-#: /usr/share/applications/YaST2/services-manager.desktop:23
+#: /usr/share/applications/YaST2/services-manager.desktop:24
 msgctxt "GenericName(services-manager.desktop)"
 msgid "Configure running services and the default target"
 msgstr "Configureu els serveis en execució i la destinació predeterminada"
@@ -765,65 +1046,55 @@ msgctxt "GenericName(slp-server.desktop)"
 msgid "Configure a SLP server"
 msgstr "Configureu un servidor SLP"
 
-#: /usr/share/applications/YaST2/smt.desktop:24
-msgctxt "Name(smt.desktop)"
-msgid "SMT Server Management"
-msgstr "Gestió de servidor SMT"
-
-#: /usr/share/applications/YaST2/smt.desktop:25
-msgctxt "GenericName(smt.desktop)"
-msgid "SMT Server Management"
-msgstr "Gestió de servidor SMT"
-
-#: /usr/share/applications/YaST2/smt-wizard.desktop:24
-msgctxt "Name(smt-wizard.desktop)"
-msgid "SMT Configuration Wizard"
-msgstr "Assitent de configuració d'SMT"
-
-#: /usr/share/applications/YaST2/smt-wizard.desktop:25
-msgctxt "GenericName(smt-wizard.desktop)"
-msgid "SMT Server Configuration Wizard"
-msgstr "Assitent de configuració de servidor SMT"
-
-#: /usr/share/applications/YaST2/smt-server.desktop:24
-msgctxt "Name(smt-server.desktop)"
-msgid "SMT Server Configuration"
-msgstr "Configuració de servidor SMT"
-
-#: /usr/share/applications/YaST2/smt-server.desktop:25
-msgctxt "GenericName(smt-server.desktop)"
-msgid "SMT Server Configuration"
-msgstr "Configuració de servidor SMT"
-
-#: /usr/share/applications/YaST2/snapper.desktop:21
-msgctxt "Name(snapper.desktop)"
-msgid "Snapper"
-msgstr "Instantànies"
+#: /usr/share/applications/YaST2/snapper.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(snapper.desktop)"
+msgid "disk,backup,restore"
+msgstr ""
 
 #: /usr/share/applications/YaST2/snapper.desktop:22
-msgctxt "GenericName(snapper.desktop)"
-msgid "snapper"
-msgstr "instantànies"
+msgctxt "Name(snapper.desktop)"
+msgid "Filesystem Snapshots"
+msgstr ""
 
-#: /usr/share/applications/YaST2/sound.desktop:22
+#: /usr/share/applications/YaST2/snapper.desktop:23
+msgctxt "GenericName(snapper.desktop)"
+msgid "Manage Btrfs / LVM filesystem snapshots"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sound.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(sound.desktop)"
+msgid "hardware,system,audio"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sound.desktop:23
 msgctxt "Name(sound.desktop)"
 msgid "Sound"
 msgstr "So"
 
-#: /usr/share/applications/YaST2/sound.desktop:23
+#: /usr/share/applications/YaST2/sound.desktop:24
 msgctxt "GenericName(sound.desktop)"
 msgid "Configure your sound card"
 msgstr "Configureu la targeta de so"
 
-#: /usr/share/applications/YaST2/squid.desktop:22
+#: /usr/share/applications/YaST2/squid.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(squid.desktop)"
+msgid "proxy,network,internet"
+msgstr ""
+
+#: /usr/share/applications/YaST2/squid.desktop:23
 msgctxt "Name(squid.desktop)"
 msgid "Squid"
 msgstr "Calamar"
 
-#: /usr/share/applications/YaST2/squid.desktop:23
+#: /usr/share/applications/YaST2/squid.desktop:24
 msgctxt "GenericName(squid.desktop)"
 msgid "Configure a Squid cache proxy server"
 msgstr "Configureu un servidor proxy Squid cache"
+
+#: /usr/share/applications/YaST2/disk.desktop:15
+msgctxt "X-SuSE-YaST-Keywords(disk.desktop)"
+msgid "storage,disk,system,partition"
+msgstr ""
 
 #: /usr/share/applications/YaST2/disk.desktop:20
 msgctxt "Name(disk.desktop)"
@@ -837,30 +1108,55 @@ msgstr ""
 "Gestioneu les particions dels discs durs (inclosos RAID, LVM i sistemes de "
 "fitxers encriptats)"
 
-#: /usr/share/applications/YaST2/sudo.desktop:20
+#: /usr/share/applications/YaST2/sudo.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(sudo.desktop)"
+msgid "root,permissions,users,authentication,administrator"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sudo.desktop:21
 msgctxt "Name(sudo.desktop)"
 msgid "Sudo"
 msgstr "Sudo"
 
-#: /usr/share/applications/YaST2/sudo.desktop:21
+#: /usr/share/applications/YaST2/sudo.desktop:22
 msgctxt "GenericName(sudo.desktop)"
 msgid "Configure sudo"
 msgstr "Configureu sudo"
 
+#: /usr/share/applications/YaST2/support.desktop:16
+msgctxt "X-SuSE-YaST-Keywords(support.desktop)"
+msgid "help,logfile"
+msgstr ""
+
 #: /usr/share/applications/YaST2/support.desktop:21
+msgctxt "Name(support.desktop)"
+msgid "Support"
+msgstr "Suport"
+
+#: /usr/share/applications/YaST2/support.desktop:22
 msgctxt "GenericName(support.desktop)"
 msgid "support"
 msgstr "suport"
 
-#: /usr/share/applications/YaST2/sysconfig.desktop:22
+#: /usr/share/applications/YaST2/sysconfig.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(sysconfig.desktop)"
+msgid "system,sysconfig,editor,configuration"
+msgstr ""
+
+#: /usr/share/applications/YaST2/sysconfig.desktop:23
 msgctxt "Name(sysconfig.desktop)"
 msgid "/etc/sysconfig Editor"
 msgstr "Editor de /etc/sysconfig"
 
-#: /usr/share/applications/YaST2/sysconfig.desktop:23
+#: /usr/share/applications/YaST2/sysconfig.desktop:24
 msgctxt "GenericName(sysconfig.desktop)"
 msgid "Change settings in /etc/sysconfig configuration files"
 msgstr "Canvieu els paràmetres dels fitxers de configuració a /etc/sysconfig"
+
+#: /usr/share/applications/YaST2/tftp-server.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(tftp-server.desktop)"
+msgid "TFTP,server,boot,trivial,file,transfer,protocol,network"
+msgstr ""
 
 #: /usr/share/applications/YaST2/tftp-server.desktop:22
 msgctxt "Name(tftp-server.desktop)"
@@ -872,44 +1168,80 @@ msgctxt "GenericName(tftp-server.desktop)"
 msgid "Configure a TFTP server"
 msgstr "Configureu un servidor TFTP"
 
-#: /usr/share/applications/YaST2/system_settings.desktop:21
+#: /usr/share/applications/YaST2/system_settings.desktop:17
+#, fuzzy
+#| msgctxt "Name(hardware.desktop)"
+#| msgid "Hardware"
+msgctxt "X-SuSE-YaST-Keywords(system_settings.desktop)"
+msgid "hardware,system"
+msgstr "Maquinari"
+
+#: /usr/share/applications/YaST2/system_settings.desktop:22
 msgctxt "Name(system_settings.desktop)"
 msgid "Kernel Settings"
 msgstr "Paràmetres del nucli"
 
-#: /usr/share/applications/YaST2/system_settings.desktop:22
+#: /usr/share/applications/YaST2/system_settings.desktop:23
 msgctxt "GenericName(system_settings.desktop)"
 msgid "Configure Low-Level System Options"
 msgstr "Configureu opcions de sistema de baix nivell"
 
-#: /usr/share/applications/YaST2/hwinfo.desktop:21
+#: /usr/share/applications/YaST2/hwinfo.desktop:17
+#, fuzzy
+#| msgctxt "GenericName(hwinfo.desktop)"
+#| msgid "View hardware information"
+msgctxt "X-SuSE-YaST-Keywords(hwinfo.desktop)"
+msgid "hardware,scan,system,information"
+msgstr "Vegeu informació sobre el maquinari"
+
+#: /usr/share/applications/YaST2/hwinfo.desktop:22
 msgctxt "Name(hwinfo.desktop)"
 msgid "Hardware Information"
 msgstr "Informació del maquinari"
 
-#: /usr/share/applications/YaST2/hwinfo.desktop:22
+#: /usr/share/applications/YaST2/hwinfo.desktop:23
 msgctxt "GenericName(hwinfo.desktop)"
 msgid "View hardware information"
 msgstr "Vegeu informació sobre el maquinari"
 
-#: /usr/share/applications/YaST2/update.desktop:21
+#: /usr/share/applications/YaST2/update.desktop:17
+msgctxt "X-SuSE-YaST-Keywords(update.desktop)"
+msgid "update,packages,factory,rpm"
+msgstr ""
+
+#: /usr/share/applications/YaST2/update.desktop:22
 msgctxt "Name(update.desktop)"
 msgid "FACTORY Update"
 msgstr "Actualització FACTORY"
 
-#: /usr/share/applications/YaST2/update.desktop:22
+#: /usr/share/applications/YaST2/update.desktop:23
 msgctxt "GenericName(update.desktop)"
 msgid "Update your system to the newest packages from FACTORY (expert tool)"
 msgstr ""
 "Actualitzeu el sistema als paquets més nous de la versió FACTORY (eina "
 "experta)"
 
-#: /usr/share/applications/YaST2/update.desktop:23
+#: /usr/share/applications/YaST2/update.desktop:24
 msgctxt "Comment(update.desktop)"
 msgid "Update your system to the newest packages from FACTORY (expert tool)"
 msgstr ""
 "Actualitzeu el sistema als paquets més nous de la versió FACTORY (eina "
 "experta)"
+
+#: /usr/share/applications/YaST2/usbauth.desktop:29
+msgctxt "Name(usbauth.desktop)"
+msgid "usbauth"
+msgstr ""
+
+#: /usr/share/applications/YaST2/usbauth.desktop:30
+msgctxt "GenericName(usbauth.desktop)"
+msgid "Modify the usbauth firewall config"
+msgstr ""
+
+#: /usr/share/applications/YaST2/users.desktop:21
+msgctxt "X-SuSE-YaST-Keywords(users.desktop)"
+msgid "user,group,authentication,login,password"
+msgstr ""
 
 #: /usr/share/applications/YaST2/users.desktop:26
 msgctxt "Name(users.desktop)"
@@ -921,30 +1253,46 @@ msgctxt "GenericName(users.desktop)"
 msgid "Add, Edit, Delete Users or User Groups"
 msgstr "Afegiu, editeu, suprimiu usuaris o grups d'usuaris"
 
-#: /usr/share/applications/YaST2/virtualization-config.desktop:20
+#: /usr/share/applications/YaST2/virtualization-config.desktop:16
+#, fuzzy
+#| msgctxt "Name(virtualization.desktop)"
+#| msgid "Virtualization"
+msgctxt "X-SuSE-YaST-Keywords(virtualization-config.desktop)"
+msgid "vm,virtualization"
+msgstr "Virtualizatzació"
+
+#: /usr/share/applications/YaST2/virtualization-config.desktop:21
 msgctxt "Name(virtualization-config.desktop)"
 msgid "Install Hypervisor and Tools"
 msgstr "Instal·lació d'hipervisor i eines"
 
-#: /usr/share/applications/YaST2/virtualization-config.desktop:21
+#: /usr/share/applications/YaST2/virtualization-config.desktop:22
 msgctxt "GenericName(virtualization-config.desktop)"
 msgid "Install Xen or KVM with Management Tools"
 msgstr "Instal·lació de Xen o KVM amb eines de gestió"
 
-#: /usr/share/applications/YaST2/groups/virtualization.desktop:15
-msgctxt "Name(virtualization.desktop)"
-msgid "Virtualization"
+#: /usr/share/applications/YaST2/relocation-server.desktop:17
+#, fuzzy
+#| msgctxt "Name(virtualization.desktop)"
+#| msgid "Virtualization"
+msgctxt "X-SuSE-YaST-Keywords(relocation-server.desktop)"
+msgid "vm,virtualization"
 msgstr "Virtualizatzació"
 
-#: /usr/share/applications/YaST2/relocation-server.desktop:21
+#: /usr/share/applications/YaST2/relocation-server.desktop:22
 msgctxt "Name(relocation-server.desktop)"
 msgid "Relocation Server Configuration"
 msgstr "Configuració del servidor de reubicació"
 
-#: /usr/share/applications/YaST2/relocation-server.desktop:22
+#: /usr/share/applications/YaST2/relocation-server.desktop:23
 msgctxt "GenericName(relocation-server.desktop)"
 msgid "Configure Host for Virtual Machine Migration"
 msgstr "Configura l'amfitrió per a migració d'equips virtuals"
+
+#: /usr/share/applications/YaST2/vpn.desktop:34
+msgctxt "X-SuSE-YaST-Keywords(vpn.desktop)"
+msgid "vpn,ipsec,gateway"
+msgstr ""
 
 #: /usr/share/applications/YaST2/vpn.desktop:39
 msgctxt "Name(vpn.desktop)"
@@ -955,3 +1303,178 @@ msgstr "Passarel·la i clients de XPV"
 msgctxt "GenericName(vpn.desktop)"
 msgid "Configure VPN gateway and clients using IPSec"
 msgstr "Configureu la passarel·la i els clients de XPV usant IPSec"
+
+#: /usr/share/applications/YaST2/groups/high_availability.desktop:15
+msgctxt "Name(high_availability.desktop)"
+msgid "High Availability"
+msgstr "Alta disponibilitat"
+
+#: /usr/share/applications/YaST2/groups/network_services.desktop:15
+msgctxt "Name(network_services.desktop)"
+msgid "Network Services"
+msgstr "Serveis de xarxa"
+
+#: /usr/share/applications/YaST2/groups/virtualization.desktop:11
+#, fuzzy
+#| msgctxt "Name(virtualization.desktop)"
+#| msgid "Virtualization"
+msgctxt "X-SuSE-YaST-Keywords(virtualization.desktop)"
+msgid "vm,virtualization"
+msgstr "Virtualizatzació"
+
+#: /usr/share/applications/YaST2/groups/virtualization.desktop:16
+msgctxt "Name(virtualization.desktop)"
+msgid "Virtualization"
+msgstr "Virtualizatzació"
+
+#: /usr/share/applications/YaST2/groups/security.desktop:15
+msgctxt "Name(security.desktop)"
+msgid "Security and Users"
+msgstr "Seguretat i usuaris"
+
+#: /usr/share/applications/YaST2/groups/misc.desktop:15
+msgctxt "Name(misc.desktop)"
+msgid "Miscellaneous"
+msgstr "Miscel·lània"
+
+#: /usr/share/applications/YaST2/groups/system.desktop:15
+msgctxt "Name(system.desktop)"
+msgid "System"
+msgstr "Sistema"
+
+#: /usr/share/applications/YaST2/groups/hardware.desktop:15
+msgctxt "Name(hardware.desktop)"
+msgid "Hardware"
+msgstr "Maquinari"
+
+#: /usr/share/applications/YaST2/groups/software.desktop:15
+msgctxt "Name(software.desktop)"
+msgid "Software"
+msgstr "Programari"
+
+#: /usr/share/applications/YaST2/messages.desktop:18
+msgctxt "X-SuSE-YaST-Keywords(messages.desktop)"
+msgid "system,log,messages"
+msgstr ""
+
+#: /usr/share/applications/YaST2/messages.desktop:23
+msgctxt "Name(messages.desktop)"
+msgid "System Log"
+msgstr "Historial del sistema"
+
+#: /usr/share/applications/YaST2/messages.desktop:24
+msgctxt "GenericName(messages.desktop)"
+msgid "Display the system's log (/var/log/messages)"
+msgstr "Vegeu l'historial del sistema (/var/log/messages)"
+
+#~ msgctxt "Name(add-on-creator.desktop)"
+#~ msgid "Add-On Creator"
+#~ msgstr "Creador complementari"
+
+#~ msgctxt "GenericName(add-on-creator.desktop)"
+#~ msgid "Create Add-On product"
+#~ msgstr "Creeu un producte complementari"
+
+#~ msgctxt "Name(openldap-mirrormode.desktop)"
+#~ msgid "OpenLDAP MirrorMode"
+#~ msgstr "OpenLDAP MirrorMode"
+
+#~ msgctxt "GenericName(openldap-mirrormode.desktop)"
+#~ msgid "Manage OpenLDAP MirrorMode Nodes"
+#~ msgstr "Gestió del nodes d'OpenLDAP MirrorMode"
+
+#~ msgctxt "Name(ca_mgm.desktop)"
+#~ msgid "CA Management"
+#~ msgstr "Gestió de CA"
+
+#~ msgctxt "GenericName(ca_mgm.desktop)"
+#~ msgid "Configure CAs, certificates, and requests"
+#~ msgstr "Configureu CA, certificats i peticions"
+
+#~ msgctxt "Name(common_cert.desktop)"
+#~ msgid "Common Server Certificate"
+#~ msgstr "Certificat de servidor comú"
+
+#~ msgctxt "GenericName(common_cert.desktop)"
+#~ msgid "Install an SSL certificate for server services"
+#~ msgstr "Instal·leu un certificat SSL per a serveis de servidor"
+
+#~ msgctxt "Name(docker-config.desktop)"
+#~ msgid "Docker"
+#~ msgstr "Acoblador"
+
+#~ msgctxt "GenericName(docker-config.desktop)"
+#~ msgid "Docker"
+#~ msgstr "Acoblador"
+
+#~ msgctxt "Name(fonts.desktop)"
+#~ msgid "Fonts"
+#~ msgstr "Tipus de lletra"
+
+#~ msgctxt "GenericName(fonts.desktop)"
+#~ msgid "Configuring Fonts"
+#~ msgstr "Configuració de tipus de lletres"
+
+#~ msgctxt "Name(inetd.desktop)"
+#~ msgid "Network Services (xinetd)"
+#~ msgstr "Serveis de xarxa (xinetd)"
+
+#~ msgctxt "GenericName(inetd.desktop)"
+#~ msgid "Configure network services (xinetd)"
+#~ msgstr "Configureu serveis de xarxa (xinetd)"
+
+#~ msgctxt "Name(live-installer.desktop)"
+#~ msgid "Live Installer"
+#~ msgstr "Instal·lador en viu"
+
+#~ msgctxt "GenericName(live-installer.desktop)"
+#~ msgid "Install current configuration to your system"
+#~ msgstr "Instal·leu la configuració actual al vostre sistema"
+
+#~ msgctxt "Name(product-creator.desktop)"
+#~ msgid "Product Creator"
+#~ msgstr "Creador de productes"
+
+#~ msgctxt "GenericName(product-creator.desktop)"
+#~ msgid "Create new products from existing repositories"
+#~ msgstr "Creeu productes nous des dels repositoris existents"
+
+#~ msgctxt "Name(image-creator.desktop)"
+#~ msgid "Image Creator"
+#~ msgstr "Creador d'imatges"
+
+#~ msgctxt "GenericName(image-creator.desktop)"
+#~ msgid "Create the Live CD, USB or XEN image"
+#~ msgstr "Creeu la imatge viva de CD, USB o XEN"
+
+#~ msgctxt "Name(smt.desktop)"
+#~ msgid "SMT Server Management"
+#~ msgstr "Gestió de servidor SMT"
+
+#~ msgctxt "GenericName(smt.desktop)"
+#~ msgid "SMT Server Management"
+#~ msgstr "Gestió de servidor SMT"
+
+#~ msgctxt "Name(smt-wizard.desktop)"
+#~ msgid "SMT Configuration Wizard"
+#~ msgstr "Assitent de configuració d'SMT"
+
+#~ msgctxt "GenericName(smt-wizard.desktop)"
+#~ msgid "SMT Server Configuration Wizard"
+#~ msgstr "Assitent de configuració de servidor SMT"
+
+#~ msgctxt "Name(smt-server.desktop)"
+#~ msgid "SMT Server Configuration"
+#~ msgstr "Configuració de servidor SMT"
+
+#~ msgctxt "GenericName(smt-server.desktop)"
+#~ msgid "SMT Server Configuration"
+#~ msgstr "Configuració de servidor SMT"
+
+#~ msgctxt "Name(snapper.desktop)"
+#~ msgid "Snapper"
+#~ msgstr "Instantànies"
+
+#~ msgctxt "GenericName(snapper.desktop)"
+#~ msgid "snapper"
+#~ msgstr "instantànies"
