@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: update-desktop-files-yast.nl\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-29 07:46+0000\n"
-"PO-Revision-Date: 2019-08-02 01:50+0000\n"
+"PO-Revision-Date: 2019-08-03 11:51+0000\n"
 "Last-Translator: Freek de Kruijf <freek@opensuse.org>\n"
 "Language-Team: Dutch <https://l10n.opensuse.org/projects/"
 "desktop-file-translations/update-desktop-files-yast-master/nl/>\n"
@@ -121,7 +121,7 @@ msgstr "Omschakelen van bijwerkalternatieven beheren"
 #: /usr/share/applications/YaST2/apparmor.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(apparmor.desktop)"
 msgid "security,LSM,MAC,DAC,access,control"
-msgstr ""
+msgstr "beveiliging,LSM,MAC,DAC,toegang,besturing"
 
 #: /usr/share/applications/YaST2/apparmor.desktop:22
 msgctxt "Name(apparmor.desktop)"
@@ -136,7 +136,7 @@ msgstr "AppArmor-configuratie"
 #: /usr/share/applications/YaST2/audit-laf.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(audit-laf.desktop)"
 msgid "audit,auditd,auditctl,auditing,dispatcher,LAF"
-msgstr ""
+msgstr "audit,auditd,auditctl,auditing,dispatcher,LAF"
 
 #: /usr/share/applications/YaST2/audit-laf.desktop:25
 msgctxt "Name(audit-laf.desktop)"
@@ -154,6 +154,8 @@ msgid ""
 "authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
 "activedirectory"
 msgstr ""
+"authenticatie,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,activedire"
+"ctory"
 
 #: /usr/share/applications/YaST2/auth-client.desktop:20
 msgctxt "Name(auth-client.desktop)"
@@ -171,6 +173,8 @@ msgid ""
 "authentication,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,"
 "activedirectory"
 msgstr ""
+"authenticatie,sssd,pam,ldap,kerberos,krb,krb5,windows,microsoft,ad,activedire"
+"ctory"
 
 #: /usr/share/applications/YaST2/ldapkrb.desktop:19
 msgctxt "Name(ldapkrb.desktop)"
@@ -183,45 +187,39 @@ msgid "LDAP And Kerberos Client"
 msgstr "LDAP en Kerberos client"
 
 #: /usr/share/applications/YaST2/ldap-server.desktop:11
-#, fuzzy
-#| msgctxt "Name(auth-server.desktop)"
-#| msgid "Authentication Server"
 msgctxt "X-SuSE-YaST-Keywords(ldap-server.desktop)"
 msgid "authentication,directory,ldap"
-msgstr "Authenticatieserver"
+msgstr "authenticatie,directory,ldap"
 
 #: /usr/share/applications/YaST2/ldap-server.desktop:16
 msgctxt "Name(ldap-server.desktop)"
 msgid "Create New Directory Server"
-msgstr ""
+msgstr "Nieuwe directory-server aanmaken"
 
 #: /usr/share/applications/YaST2/ldap-server.desktop:17
 msgctxt "GenericName(ldap-server.desktop)"
 msgid "Create New Directory Server"
-msgstr ""
+msgstr "Nieuwe directory-server aanmaken"
 
 #: /usr/share/applications/YaST2/krb-server.desktop:11
-#, fuzzy
-#| msgctxt "Name(auth-server.desktop)"
-#| msgid "Authentication Server"
 msgctxt "X-SuSE-YaST-Keywords(krb-server.desktop)"
 msgid "authentication,kerberos,krb,krb5"
-msgstr "Authenticatieserver"
+msgstr "authenticatie,kerberos,krb,krb5"
 
 #: /usr/share/applications/YaST2/krb-server.desktop:16
 msgctxt "Name(krb-server.desktop)"
 msgid "Create New Kerberos Server"
-msgstr ""
+msgstr "Nieuwe Kerberos-server aanmaken"
 
 #: /usr/share/applications/YaST2/krb-server.desktop:17
 msgctxt "GenericName(krb-server.desktop)"
 msgid "Create New Kerberos Server"
-msgstr ""
+msgstr "Nieuwe Kerberos-server aanmaken"
 
 #: /usr/share/applications/YaST2/wol.desktop:16
 msgctxt "X-SuSE-YaST-Keywords(wol.desktop)"
 msgid "lan,wake,network,wol"
-msgstr ""
+msgstr "lan,wake,netwerk,wol"
 
 #: /usr/share/applications/YaST2/wol.desktop:21
 msgctxt "Name(wol.desktop)"
@@ -236,7 +234,7 @@ msgstr "Wake-on-Lan configureren"
 #: /usr/share/applications/YaST2/bootloader.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(bootloader.desktop)"
 msgid "bootloader,GRUB,system,EFI"
-msgstr ""
+msgstr "bootloader,GRUB,systeem,EFI"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/bootloader.desktop
@@ -254,12 +252,9 @@ msgstr "Bootloader instellen"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-# /usr/share/applications/YaST2/heartbeat.desktop
 #: /usr/share/applications/YaST2/cluster.desktop:19
-#, fuzzy
-#| msgctxt "Name(high_availability.desktop)"
-#| msgid "High Availability"
 msgctxt "X-SuSE-YaST-Keywords(cluster.desktop)"
 msgid "high,availability"
-msgstr "Hoge beschikbaarheid"
+msgstr "hoog,beschikbaarheid"
 
 #: /usr/share/applications/YaST2/cluster.desktop:24
 msgctxt "Name(cluster.desktop)"
@@ -272,12 +267,9 @@ msgid "Configure Cluster"
 msgstr "Cluster instellen"
 
 #: /usr/share/applications/YaST2/configuration_management.desktop:13
-#, fuzzy
-#| msgctxt "Name(configuration_management.desktop)"
-#| msgid "YaST2 Configuration Management"
 msgctxt "X-SuSE-YaST-Keywords(configuration_management.desktop)"
 msgid "salt,privisioning,configuration_management"
-msgstr "YaST2-configuratiebeheer"
+msgstr "salt,voorzien van,configuratie_beheer"
 
 #: /usr/share/applications/YaST2/configuration_management.desktop:18
 msgctxt "Name(configuration_management.desktop)"
@@ -287,7 +279,7 @@ msgstr "YaST2-configuratiebeheer"
 #: /usr/share/applications/YaST2/timezone.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(timezone.desktop)"
 msgid "time,timezone,clock"
-msgstr ""
+msgstr "tijd,tijdzone,klok"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/timezone.desktop
@@ -306,7 +298,7 @@ msgstr "Tijdzone, datum en systeemtijd instellen"
 #: /usr/share/applications/YaST2/yast-language.desktop:20
 msgctxt "X-SuSE-YaST-Keywords(yast-language.desktop)"
 msgid "language,locale,country"
-msgstr ""
+msgstr "taal,taalcode,land"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/yast-language.desktop
@@ -325,7 +317,7 @@ msgstr "Wijzig de systeemtaal en installeer aanvullende talen"
 #: /usr/share/applications/YaST2/keyboard.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(keyboard.desktop)"
 msgid "keyboard,language,locale,country"
-msgstr ""
+msgstr "toetsenbord,taal,taalcode,land"
 
 #: /usr/share/applications/YaST2/keyboard.desktop:24
 msgctxt "Name(keyboard.desktop)"
@@ -350,7 +342,7 @@ msgstr "Een DHCP-server instellen"
 #: /usr/share/applications/YaST2/dns-server.desktop:20
 msgctxt "X-SuSE-YaST-Keywords(dns-server.desktop)"
 msgid "dns,domain,nameserver,network,lookup"
-msgstr ""
+msgstr "dns,domein,nameserver,netwerk,opzoeken"
 
 #: /usr/share/applications/YaST2/dns-server.desktop:25
 msgctxt "Name(dns-server.desktop)"
@@ -365,7 +357,7 @@ msgstr "Een DNS-server instellen"
 #: /usr/share/applications/YaST2/drbd.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(drbd.desktop)"
 msgid "high,availability,ha,storage,block,device,cluster"
-msgstr ""
+msgstr "hoog,beschikbaarheid,ha,opslag,blok,apparaat,cluster"
 
 #: /usr/share/applications/YaST2/drbd.desktop:23
 msgctxt "Name(drbd.desktop)"
@@ -380,7 +372,7 @@ msgstr "Het DRBD (Distributed Replicated Block Device) apparaat instellen"
 #: /usr/share/applications/YaST2/fcoe-client.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(fcoe-client.desktop)"
 msgid "fibre,channel,ethernet,network"
-msgstr ""
+msgstr "fibre,channel,ethernet,netwerk"
 
 #: /usr/share/applications/YaST2/fcoe-client.desktop:23
 msgctxt "Name(fcoe-client.desktop)"
@@ -395,7 +387,7 @@ msgstr "Configuratie van Fibre-channel over Ethernet"
 #: /usr/share/applications/YaST2/firewall.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(firewall.desktop)"
 msgid "security,network"
-msgstr ""
+msgstr "beveiliging,netwerk"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/firewall.desktop
@@ -414,7 +406,7 @@ msgstr "Firewall instellen"
 #: /usr/share/applications/YaST2/ftp-server.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(ftp-server.desktop)"
 msgid "FTP,server,boot,file,transfer,protocol,network"
-msgstr ""
+msgstr "FTP,server,boot,bestand,overdracht,protocol,netwerk"
 
 #: /usr/share/applications/YaST2/ftp-server.desktop:23
 msgctxt "Name(ftp-server.desktop)"
@@ -422,17 +414,14 @@ msgid "FTP Server"
 msgstr "FTP server"
 
 #: /usr/share/applications/YaST2/ftp-server.desktop:24
-#, fuzzy
-#| msgctxt "GenericName(ftp-server.desktop)"
-#| msgid "Module for configuration FTP daemon (vsftpd or pure-ftpd)"
 msgctxt "GenericName(ftp-server.desktop)"
 msgid "Module for configuration FTP daemon (vsftpd)"
-msgstr "Module voor instellen van FTP daemon (vsftpd of pure-ftpd)"
+msgstr "Module voor cobfigureren van FTP daemon (vsftpd)"
 
 #: /usr/share/applications/YaST2/geo-cluster.desktop:21
 msgctxt "X-SuSE-YaST-Keywords(geo-cluster.desktop)"
 msgid "cluster,availability,high"
-msgstr ""
+msgstr "cluster,beschikbaarheid,hoog"
 
 #: /usr/share/applications/YaST2/geo-cluster.desktop:26
 msgctxt "Name(geo-cluster.desktop)"
@@ -447,7 +436,7 @@ msgstr "Configuratie van Geo-cluster"
 #: /usr/share/applications/YaST2/http-server.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(http-server.desktop)"
 msgid "http,network,internet,apache,web,www"
-msgstr ""
+msgstr "http,netwerk,internet,apache,web,www"
 
 #: /usr/share/applications/YaST2/http-server.desktop:24
 msgctxt "Name(http-server.desktop)"
@@ -462,46 +451,37 @@ msgstr "Een Apache 2-server instellen"
 #: /usr/share/applications/YaST2/upgrade.desktop:9
 msgctxt "Name(upgrade.desktop)"
 msgid "Upgrade"
-msgstr ""
+msgstr "Opwaardering"
 
 #: /usr/share/applications/YaST2/upgrade.desktop:10
-#, fuzzy
-#| msgctxt "Name(messages.desktop)"
-#| msgid "System Log"
 msgctxt "GenericName(upgrade.desktop)"
 msgid "System Upgrade"
-msgstr "Systeemlog"
+msgstr "Systeemopwaardering"
 
 #: /usr/share/applications/YaST2/upgrade.desktop:11
 msgctxt "Comment(upgrade.desktop)"
 msgid "Upgrade system to the newer version"
-msgstr ""
+msgstr "Waardeer systeem op naar de nieuwere versie"
 
 #: /usr/share/applications/YaST2/installation.desktop:9
-#, fuzzy
-#| msgctxt "Name(instserver.desktop)"
-#| msgid "Installation Server"
 msgctxt "Name(installation.desktop)"
 msgid "Installation"
-msgstr "Installatieserver"
+msgstr "Installatie"
 
 #: /usr/share/applications/YaST2/installation.desktop:10
-#, fuzzy
-#| msgctxt "Name(messages.desktop)"
-#| msgid "System Log"
 msgctxt "GenericName(installation.desktop)"
 msgid "System Upgrade"
-msgstr "Systeemlog"
+msgstr "Systeemopwaardering"
 
 #: /usr/share/applications/YaST2/installation.desktop:11
 msgctxt "Comment(installation.desktop)"
 msgid "Install system to the system"
-msgstr ""
+msgstr "Installeer systeem naar het systeem"
 
 #: /usr/share/applications/YaST2/release_notes.desktop:8
 msgctxt "X-SuSE-YaST-Keywords(release_notes.desktop)"
 msgid "support,installation,notes,documentation"
-msgstr ""
+msgstr "ondersteuning,installatie,notities,documentatie"
 
 #: /usr/share/applications/YaST2/release_notes.desktop:13
 msgctxt "Name(release_notes.desktop)"
@@ -514,12 +494,9 @@ msgid "Show Release Notes"
 msgstr "Uitgavenotities tonen"
 
 #: /usr/share/applications/YaST2/instserver.desktop:15
-#, fuzzy
-#| msgctxt "Name(instserver.desktop)"
-#| msgid "Installation Server"
 msgctxt "X-SuSE-YaST-Keywords(instserver.desktop)"
 msgid "installation,server"
-msgstr "Installatieserver"
+msgstr "installatie,server"
 
 #: /usr/share/applications/YaST2/instserver.desktop:20
 msgctxt "Name(instserver.desktop)"
@@ -534,7 +511,7 @@ msgstr "Installatieservers instellen en beheren"
 #: /usr/share/applications/YaST2/iplb.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(iplb.desktop)"
 msgid "network,ip,loadbalancing"
-msgstr ""
+msgstr "netwerk,ip,loadbalancing"
 
 #: /usr/share/applications/YaST2/iplb.desktop:23
 msgctxt "Name(iplb.desktop)"
@@ -559,7 +536,7 @@ msgstr "Een iSCSI-initiator instellen"
 #: /usr/share/applications/YaST2/iscsi-lio-server.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(iscsi-lio-server.desktop)"
 msgid "iscsi,lio,network,system"
-msgstr ""
+msgstr "iscsi,lio,netwerk,systeem"
 
 #: /usr/share/applications/YaST2/iscsi-lio-server.desktop:21
 msgctxt "Name(iscsi-lio-server.desktop)"
@@ -574,7 +551,7 @@ msgstr "Een iSCSI-target via LIO instellen"
 #: /usr/share/applications/YaST2/isns.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(isns.desktop)"
 msgid "internet,storage,name,network,server,devices,iscsi,scsi"
-msgstr ""
+msgstr "internet,opslag,naam,netwerk,server,apparaten,iscsi,scsi"
 
 #: /usr/share/applications/YaST2/isns.desktop:22
 msgctxt "Name(isns.desktop)"
@@ -599,7 +576,7 @@ msgstr "Journaal-items van systemd lezen"
 #: /usr/share/applications/YaST2/kdump.desktop:20
 msgctxt "X-SuSE-YaST-Keywords(kdump.desktop)"
 msgid "system,kernel,crash,dump"
-msgstr ""
+msgstr "systeem,kernel,crash,dump"
 
 #: /usr/share/applications/YaST2/kdump.desktop:25
 msgctxt "Name(kdump.desktop)"
@@ -614,7 +591,7 @@ msgstr "Configuratiehulpmiddel voor Kernel Kdump"
 #: /usr/share/applications/YaST2/mail.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(mail.desktop)"
 msgid "network,internet"
-msgstr ""
+msgstr "netwerk,internet"
 
 #: /usr/share/applications/YaST2/mail.desktop:23
 msgctxt "Name(mail.desktop)"
@@ -629,25 +606,19 @@ msgid "Configure mail"
 msgstr "E-mail instellen"
 
 #: /usr/share/applications/YaST2/migration.desktop:17
-#, fuzzy
-#| msgctxt "Name(online_update_configuration.desktop)"
-#| msgid "Online Update Configuration"
 msgctxt "Name(migration.desktop)"
 msgid "Online Migration"
-msgstr "Configuratie van online-bijwerken"
+msgstr "Online migratie"
 
 #: /usr/share/applications/YaST2/migration.desktop:18
-#, fuzzy
-#| msgctxt "Name(online_update_configuration.desktop)"
-#| msgid "Online Update Configuration"
 msgctxt "GenericName(migration.desktop)"
 msgid "Online Migration"
-msgstr "Configuratie van online-bijwerken"
+msgstr "Online migratie"
 
 #: /usr/share/applications/YaST2/multipath.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(multipath.desktop)"
 msgid "network,tcp"
-msgstr ""
+msgstr "netwerk,tcp"
 
 #: /usr/share/applications/YaST2/multipath.desktop:22
 msgctxt "Name(multipath.desktop)"
@@ -672,12 +643,12 @@ msgstr "Instellen van netwerkkaarten, hostnaam en routering"
 #: /usr/share/applications/YaST2/lan.desktop:26
 msgctxt "X-SuSE-YaST-Keywords(lan.desktop)"
 msgid "network,lan,dns,routing"
-msgstr ""
+msgstr "netwerk,lan,dns,routering"
 
 #: /usr/share/applications/YaST2/host.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(host.desktop)"
 msgid "name,network,lan,wireless"
-msgstr ""
+msgstr "naam,netwerk,lan,draadloos"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/host.desktop
@@ -696,7 +667,7 @@ msgstr "Hostnamen en aliassen toewijzen aan IP-adressen"
 #: /usr/share/applications/YaST2/remote.desktop:16
 msgctxt "X-SuSE-YaST-Keywords(remote.desktop)"
 msgid "vnc,network,remote"
-msgstr ""
+msgstr "vnc,netwerk,op afstand"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/remote.desktop
@@ -715,7 +686,7 @@ msgstr "Beheer op afstand opzetten"
 #: /usr/share/applications/YaST2/nfs.desktop:20
 msgctxt "X-SuSE-YaST-Keywords(nfs.desktop)"
 msgid "network,file,directory,share"
-msgstr ""
+msgstr "netwerk,bestand,map,share,delen"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/nfs.desktop
@@ -734,7 +705,7 @@ msgstr "NFS-client instellen"
 #: /usr/share/applications/YaST2/nfs_server.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(nfs_server.desktop)"
 msgid "share,NFS,file,mount,network"
-msgstr ""
+msgstr "delen,share,NFS,bestand,aankoppelen,netwerk"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/nfs_server.desktop
@@ -751,12 +722,9 @@ msgid "Configure an NFS server"
 msgstr "NFS-server instellen"
 
 #: /usr/share/applications/YaST2/nis.desktop:18
-#, fuzzy
-#| msgctxt "Name(auth-server.desktop)"
-#| msgid "Authentication Server"
 msgctxt "X-SuSE-YaST-Keywords(nis.desktop)"
 msgid "authentication,network,users"
-msgstr "Authenticatieserver"
+msgstr "authenticatie,netwerk,gebruikers"
 
 #: /usr/share/applications/YaST2/nis.desktop:23
 msgctxt "Name(nis.desktop)"
@@ -769,12 +737,9 @@ msgid "Configure a NIS client"
 msgstr "Een NIS-client instellen"
 
 #: /usr/share/applications/YaST2/nis_server.desktop:18
-#, fuzzy
-#| msgctxt "Name(auth-server.desktop)"
-#| msgid "Authentication Server"
 msgctxt "X-SuSE-YaST-Keywords(nis_server.desktop)"
 msgid "authentication,network,users"
-msgstr "Authenticatieserver"
+msgstr "authenticatie,netwerk,gebruikers"
 
 #: /usr/share/applications/YaST2/nis_server.desktop:23
 msgctxt "Name(nis_server.desktop)"
@@ -789,7 +754,7 @@ msgstr "Een NIS-server instellen"
 #: /usr/share/applications/YaST2/ntp-client.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(ntp-client.desktop)"
 msgid "time,sync,synchronization,NTP"
-msgstr ""
+msgstr "tijd,sync,synchronisatie,NTP"
 
 #: /usr/share/applications/YaST2/ntp-client.desktop:23
 msgctxt "Name(ntp-client.desktop)"
@@ -804,7 +769,7 @@ msgstr "Een NTP-client of server instellen"
 #: /usr/share/applications/YaST2/online_update_configuration.desktop:13
 msgctxt "X-SuSE-YaST-Keywords(online_update_configuration.desktop)"
 msgid "online,update,YOU,patch"
-msgstr ""
+msgstr "online,element voor bijwerken,update,YOU,patch"
 
 #: /usr/share/applications/YaST2/online_update_configuration.desktop:18
 msgctxt "Name(online_update_configuration.desktop)"
@@ -819,7 +784,7 @@ msgstr "Configuratie van online-bijwerken"
 #: /usr/share/applications/YaST2/online_update.desktop:16
 msgctxt "X-SuSE-YaST-Keywords(online_update.desktop)"
 msgid "software,update,online,YOU,packages,RPM"
-msgstr ""
+msgstr "software,element voor bijwerken,update,online,YOU,pakketten,RPM"
 
 #: /usr/share/applications/YaST2/online_update.desktop:21
 msgctxt "Name(online_update.desktop)"
@@ -833,12 +798,9 @@ msgstr ""
 "Patches ophalen om uw bestaande installatie te corrigeren of te verbeteren"
 
 #: /usr/share/applications/YaST2/sw_source.desktop:16
-#, fuzzy
-#| msgctxt "Name(sw_source.desktop)"
-#| msgid "Software Repositories"
 msgctxt "X-SuSE-YaST-Keywords(sw_source.desktop)"
 msgid "software,packages,rpm,repositories"
-msgstr "Softwarebronnen"
+msgstr "software,pakketten,rpm,opslagruimten"
 
 #: /usr/share/applications/YaST2/sw_source.desktop:21
 msgctxt "Name(sw_source.desktop)"
@@ -857,7 +819,7 @@ msgstr ""
 #: /usr/share/applications/YaST2/checkmedia.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(checkmedia.desktop)"
 msgid "software,media,check,dvd,cd,packages,repositories"
-msgstr ""
+msgstr "software,media,controle,dvd,cd,pakketten,opslagruimten"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/checkmedia.desktop
@@ -876,7 +838,7 @@ msgstr "Verifieer de integriteit van CD- en DVD-schijven"
 #: /usr/share/applications/YaST2/sw_single.desktop:16
 msgctxt "X-SuSE-YaST-Keywords(sw_single.desktop)"
 msgid "software,packages,rpm,repositories,installation,deletion"
-msgstr ""
+msgstr "software,pakketten,rpm,opslagruimten,installatie,verwijderen"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/sw_single.desktop
@@ -903,7 +865,7 @@ msgstr "Printers instellen"
 #: /usr/share/applications/YaST2/proxy.desktop:18
 msgctxt "X-SuSE-YaST-Keywords(proxy.desktop)"
 msgid "network,internet,access"
-msgstr ""
+msgstr "netwerk,internet,toegang"
 
 #: /usr/share/applications/YaST2/proxy.desktop:23
 msgctxt "Name(proxy.desktop)"
@@ -920,7 +882,7 @@ msgstr "Proxy instellen"
 #: /usr/share/applications/YaST2/rdp.desktop:17
 msgctxt "X-SuSE-YaST-Keywords(rdp.desktop)"
 msgid "remote,desktop,rdp,network,windows"
-msgstr ""
+msgstr "op afstand,bureaublad,desktop,rdp,netwerk,windows"
 
 # #-#-#-#-#  update-desktop-files.nl.po (update-desktop-files.nl)  #-#-#-#-#
 # /usr/share/applications/YaST2/remote.desktop
@@ -935,12 +897,9 @@ msgid "Configure RDP (Remote Desktop Protocol)"
 msgstr "RDP (Remote Desktop Protocol) configureren"
 
 #: /usr/share/applications/YaST2/rear.desktop:17
-#, fuzzy
-#| msgctxt "Name(rear.desktop)"
-#| msgid "Rear Backup"
 msgctxt "X-SuSE-YaST-Keywords(rear.desktop)"
 msgid "rear,backup"
-msgstr "Rear-backup"
+msgstr "rear,backup,reservekopie"
 
 #: /usr/share/applications/YaST2/rear.desktop:22
 msgctxt "Name(rear.desktop)"
@@ -957,7 +916,7 @@ msgstr "Rear-backup configureren"
 #: /usr/share/applications/YaST2/customer_center.desktop:15
 msgctxt "X-SuSE-YaST-Keywords(customer_center.desktop)"
 msgid "scc,software,registration,smt,rmt,module,extension"
-msgstr ""
+msgstr "scc,software,registratie,smt,rmt,module,extensie"
 
 #: /usr/share/applications/YaST2/customer_center.desktop:20
 msgctxt "Name(customer_center.desktop)"
@@ -972,7 +931,7 @@ msgstr "Productregistratie"
 #: /usr/share/applications/YaST2/add_extensions.desktop:10
 msgctxt "X-SuSE-YaST-Keywords(add_extensions.desktop)"
 msgid "extensions,modules,software,registration,scc,package,repositories"
-msgstr ""
+msgstr "extensies,modules,software,registratie,scc,pakket,opslagruimten"
 
 #: /usr/share/applications/YaST2/add_extensions.desktop:15
 msgctxt "Name(add_extensions.desktop)"
@@ -985,12 +944,9 @@ msgid "Add System Extensions or Modules"
 msgstr "Systeemextensies of -modulen toevoegen"
 
 #: /usr/share/applications/YaST2/rmt.desktop:14
-#, fuzzy
-#| msgctxt "Name(ntp-client.desktop)"
-#| msgid "NTP Configuration"
 msgctxt "Name(rmt.desktop)"
 msgid "RMT Configuration"
-msgstr "NTP-configuratie"
+msgstr "RMT-configuratie"
 
 #: /usr/share/applications/YaST2/rmt.desktop:15
 #, fuzzy
