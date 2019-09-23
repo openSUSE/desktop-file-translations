@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.hu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-29 07:46+0000\n"
+"POT-Creation-Date: 2019-09-23 12:11+0000\n"
 "PO-Revision-Date: 2018-04-02 20:03+0000\n"
 "Last-Translator: Robert Taisz <robert.taisz@emerald.hu>\n"
 "Language-Team: Hungarian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -65,25 +65,15 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "AT-SPI D-Bus busz"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "Egyéni scriptek"
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Particionálás"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "Egyéni scriptek hozzáadása vagy szerkesztése"
-
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "Általános beállítások"
-
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr "Általános automatikus telepítési beállítások megadása"
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Particionálási és tárolási beállítások megadása"
 
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
@@ -95,16 +85,6 @@ msgctxt "GenericName(report.desktop)"
 msgid "Configure Reporting and Logging Options"
 msgstr "Jelentések és Naplózás Beállítása"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Particionálás"
-
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Particionálási és tárolási beállítások megadása"
-
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
 msgid "Package Selection"
@@ -115,15 +95,35 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Csomagválasztásai és szoftverbeállítások megadása"
 
-#: /usr/share/autoinstall/modules/files.desktop:22
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "Általános beállítások"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr "Általános automatikus telepítési beállítások megadása"
+
+#: /usr/share/autoinstall/modules/files.desktop:23
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
 msgstr "Teljes konfigurációs fájlok"
 
-#: /usr/share/autoinstall/modules/files.desktop:23
+#: /usr/share/autoinstall/modules/files.desktop:24
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "Teljes konfigurációs fájlok hozzáadása"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "Egyéni scriptek"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "Egyéni scriptek hozzáadása vagy szerkesztése"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -151,6 +151,16 @@ msgctxt "Name(baloo_file.desktop)"
 msgid "Baloo File Daemon"
 msgstr "Baloo fájl démon"
 
+#: /etc/xdg/autostart/blueberry-tray.desktop:3
+msgctxt "Name(blueberry-tray.desktop)"
+msgid "blueberry"
+msgstr "blueberry"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:4
+msgctxt "Comment(blueberry-tray.desktop)"
+msgid "Blueberry tray icon"
+msgstr "Blueberry ikon"
+
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:2
 msgctxt "Name(blueberry-obex-agent.desktop)"
 msgid "Bluetooth OBEX Agent"
@@ -165,16 +175,6 @@ msgstr "Fájlok fogadasát teszi lehetővé Bluetooth-on keresztül"
 msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
 msgstr "fájlok;bluetooth;obex;fogadás;"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:3
-msgctxt "Name(blueberry-tray.desktop)"
-msgid "blueberry"
-msgstr "blueberry"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:4
-msgctxt "Comment(blueberry-tray.desktop)"
-msgid "Blueberry tray icon"
-msgstr "Blueberry ikon"
 
 #: /etc/xdg/autostart/blueman.desktop:2
 msgctxt "Name(blueman.desktop)"
@@ -261,100 +261,100 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Cinnamon beállításdémon – a11y-billentyűzet"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
 msgid "Cinnamon Settings Daemon - background"
 msgstr "Cinnamon beállításdémon – háttér"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "Cinnamon beállításdémon – hang"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - keyboard"
-msgstr "Cinnamon beállításdémon – billentyűzet"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
-msgid "Cinnamon Settings Daemon - color"
-msgstr "Cinnamon beállításdémon – szín"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
-msgid "Cinnamon Settings Daemon - smartcard"
-msgstr "Cinnamon beállításdémon – intelligens kártya"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
-msgid "Cinnamon Settings Daemon - mouse"
-msgstr "Cinnamon beállításdémon – egér"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Cinnamon beállításdémon – automatikus csatlakoztatás"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "Cinnamon beállításdémon – xrandr"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "Cinnamon beállításdémon – nyomtatási értesítések"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "Cinnamon beállításdémon – mutató"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
-msgid "Cinnamon Settings Daemon - xsettings"
-msgstr "Cinnamon beállításdémon – xsettings"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "Cinnamon beállításdémon – karbantartás"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "Cinnamon beállításdémon – tápellátás"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-msgid "Cinnamon Settings Daemon - media-keys"
-msgstr "Cinnamon beállításdémon – médiabillentyűk"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "Cinnamon beállításdémon – vágólap"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr "Cinnamon beállításdémon – tájolás"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
 msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgstr "Cinnamon beállításdémon – képernyőkímélő proxy"
 
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr "Cinnamon beállításdémon – intelligens kártya"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "Cinnamon beállításdémon – vágólap"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Cinnamon beállításdémon – egér"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr "Cinnamon beállításdémon – xsettings"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Cinnamon beállításdémon – a11y-billentyűzet"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Cinnamon beállításdémon – tápellátás"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Cinnamon beállításdémon – automatikus csatlakoztatás"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "Cinnamon beállításdémon – karbantartás"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr "Cinnamon beállításdémon – billentyűzet"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Cinnamon beállításdémon – xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr "Cinnamon beállításdémon – tájolás"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Cinnamon beállításdémon – hang"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "Cinnamon beállításdémon – nyomtatási értesítések"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Cinnamon beállításdémon – szín"
+
 #: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
 msgid "Cinnamon Settings Daemon - a11y-settings"
 msgstr "Cinnamon beállításdémon – a11y-beállítások"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr "Cinnamon beállításdémon – médiabillentyűk"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Cinnamon beállításdémon – mutató"
 
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
@@ -597,80 +597,50 @@ msgstr ""
 "GNU Network Object Model Environment (GNOME), egy teljes, ingyenes, könnyen "
 "kezelhető grafikus környezet"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
-msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "GNOME beállításdémon – nyomtatási értesítések beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
-msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "GNOME beállításdémon dátum- és időkezelő beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "GNOME beállításdémon – képernyőkímélő proxy beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
-msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "GNOME beállításdémon – wacom beépülő modul"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
-msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "GNOME beállításdémon billentyűzetkezelő beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
-msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "GNOME beállításdémon – intelligens kártyák beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "GNOME beállításdémon rfkill beépülő modulja"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "GNOME beállításdémon – médiabillentyűk beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
 msgstr "GNOME beállításdémon – xsettings beépülő modul"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "GNOME beállításdémon – a11y-beállítások beépülő modulja"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
+msgid "GNOME Settings Daemon's datetime plugin"
+msgstr "GNOME beállításdémon dátum- és időkezelő beépülő modulja"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "GNOME beállításdémon – hangkezelő beépülő modul"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "GNOME beállításdémon színkezelő beépülő modulja"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "GNOME beállításdémon vágólapkezelő beépülő modulja"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
+msgstr "GNOME beállításdémon – intelligens kártyák beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
 msgstr "GNOME beállításdémon megosztási beépülő modulja"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "GNOME beállításdémon – wacom beépülő modul"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
 msgstr "GNOME beállításdémon – a11y-billentyűzet beépülő modulja"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
-msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "GNOME beállításdémon – médiabillentyűk beépülő modulja"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
-msgstr "GNOME beállításdémon színkezelő beépülő modulja"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "GNOME beállításdémon – képernyőkímélő proxy beépülő modulja"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
@@ -682,20 +652,40 @@ msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
 msgstr "Cinnamon beállításdémon – karbantartási beépülő modul"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
+msgid "GNOME Settings Daemon's keyboard plugin"
+msgstr "GNOME beállításdémon billentyűzetkezelő beépülő modulja"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "GNOME beállításdémon vágólapkezelő beépülő modulja"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr "GNOME beállításdémon – nyomtatási értesítések beépülő modulja"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
 msgstr "GNOME beállításdémon egérkezelő beépülő modulja"
 
-#: /usr/share/xsessions/sle-classic.desktop:2
-msgctxt "Name(sle-classic.desktop)"
-msgid "SLE Classic"
-msgstr "Klasszikus SLE"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "GNOME beállításdémon – hangkezelő beépülő modul"
 
-#: /usr/share/xsessions/sle-classic.desktop:70
-msgctxt "Comment(sle-classic.desktop)"
-msgid "This session logs you into SLE Classic"
-msgstr "Bejelentkezés a klasszikus SLE környezetbe"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "GNOME beállításdémon rfkill beépülő modulja"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "GNOME beállításdémon – a11y-beállítások beépülő modulja"
 
 #: /usr/share/xsessions/gnome-classic.desktop:70
 msgctxt "Name(gnome-classic.desktop)"
@@ -706,6 +696,16 @@ msgstr "Klasszikus GNOME"
 msgctxt "Comment(gnome-classic.desktop)"
 msgid "This session logs you into GNOME Classic"
 msgstr "Bejelentkezés a klasszikus GNOME környezetbe"
+
+#: /usr/share/xsessions/sle-classic.desktop:2
+msgctxt "Name(sle-classic.desktop)"
+msgid "SLE Classic"
+msgstr "Klasszikus SLE"
+
+#: /usr/share/xsessions/sle-classic.desktop:70
+msgctxt "Comment(sle-classic.desktop)"
+msgid "This session logs you into SLE Classic"
+msgstr "Bejelentkezés a klasszikus SLE környezetbe"
 
 #: /etc/xdg/autostart/gnome-software-service.desktop:3
 msgctxt "Name(gnome-software-service.desktop)"
@@ -765,21 +765,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "HP-rendszertálca szolgáltatás"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
-
-#: /usr/share/xsessions/i3.desktop:9
-msgctxt "Keywords(i3.desktop)"
-msgid "tiling;wm;windowmanager;window;manager;"
-msgstr "mozaik;wm;ablakkezelő;ablak;kezelő;"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -792,6 +777,21 @@ msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:6
 msgctxt "Keywords(i3-with-shmlog.desktop)"
+msgid "tiling;wm;windowmanager;window;manager;"
+msgstr "mozaik;wm;ablakkezelő;ablak;kezelő;"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "továbbfejlesztett dinamikus mozaikos ablakkezelő"
+
+#: /usr/share/xsessions/i3.desktop:9
+msgctxt "Keywords(i3.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr "mozaik;wm;ablakkezelő;ablak;kezelő;"
 
@@ -826,6 +826,11 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "A KAlarm emlékeztető szolgáltatás automatikus elindítása"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Plazma munkaterület"
+
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -840,11 +845,6 @@ msgstr "Vágólapkezelő"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Kezelőprogram a vágólaphoz (naplózással)"
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Plazma munkaterület"
 
 #: /usr/share/wallpapers/stripes.png.desktop:3
 msgctxt "Wallpaper-Name(stripes.png.desktop)"
@@ -871,11 +871,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad nyomtatott áramkör"
-
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
@@ -885,6 +880,11 @@ msgstr "KiCad-séma"
 msgctxt "Comment(x-kicad-project.desktop)"
 msgid "KiCad Project"
 msgstr "KiCad-projekt"
+
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "KiCad nyomtatott áramkör"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -1112,21 +1112,6 @@ msgctxt "Name(mate-settings-daemon.desktop)"
 msgid "MATE Settings Daemon"
 msgstr "MATE beállításdémon"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
-msgctxt "Name(mate-user-share-obexpush.desktop)"
-msgid "Personal File Sharing obexpush"
-msgstr "Személyes fájlmegosztás (obexpush)"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
-msgctxt "Comment(mate-user-share-obexpush.desktop)"
-msgid "Launch Personal File Sharing if enabled"
-msgstr "Személyes fájlmegosztás indítása, ha engedélyezett"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
-msgctxt "Keywords(mate-user-share-obexpush.desktop)"
-msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr "megosztás;fájlok;bluetooth;obex;http;hálózat;másolás;küldés;"
-
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop:2
 msgctxt "Name(mate-user-share-obexftp.desktop)"
 msgid "Personal File Sharing obexftp"
@@ -1154,6 +1139,21 @@ msgstr "Személyes fájlmegosztás indítása, ha engedélyezett"
 
 #: /etc/xdg/autostart/mate-user-share-webdav.desktop:112
 msgctxt "Keywords(mate-user-share-webdav.desktop)"
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr "megosztás;fájlok;bluetooth;obex;http;hálózat;másolás;küldés;"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
+msgctxt "Name(mate-user-share-obexpush.desktop)"
+msgid "Personal File Sharing obexpush"
+msgstr "Személyes fájlmegosztás (obexpush)"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
+msgctxt "Comment(mate-user-share-obexpush.desktop)"
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Személyes fájlmegosztás indítása, ha engedélyezett"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
+msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "megosztás;fájlok;bluetooth;obex;http;hálózat;másolás;küldés;"
 
@@ -1212,6 +1212,16 @@ msgctxt "Name(vmware-user-autostart.desktop)"
 msgid "VMware User Agent"
 msgstr "VMware felhasználó ügynökprogram"
 
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Az Openbox ablakkezelőt használja a KDE asztali környezeten belül"
+
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1231,16 +1241,6 @@ msgstr "GNOME/Openbox"
 msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "Az Openbox ablakkezelőt használja a GNOME asztali környezeten belül"
-
-#: /usr/share/xsessions/openbox-kde.desktop:2
-msgctxt "Name(openbox-kde.desktop)"
-msgid "KDE/Openbox"
-msgstr "KDE/Openbox"
-
-#: /usr/share/xsessions/openbox-kde.desktop:3
-msgctxt "Comment(openbox-kde.desktop)"
-msgid "Use the Openbox window manager inside of the K Desktop Environment"
-msgstr "Az Openbox ablakkezelőt használja a KDE asztali környezeten belül"
 
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
@@ -1324,10 +1324,15 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio;tálca;rendszertálca;alkalmazás;hangerő;"
 
-#: /usr/share/mimelnk/application/x-gerber.desktop:3
-msgctxt "Comment(x-gerber.desktop)"
-msgid "Gerber file"
-msgstr "Gerber-fájl"
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr "PCB-hálózatlista"
+
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr "PCB-elrendezés"
 
 #: /usr/share/mimelnk/application/x-excellon.desktop:3
 msgctxt "Comment(x-excellon.desktop)"
@@ -1339,15 +1344,10 @@ msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
 msgstr "PCB-lenyomat"
 
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
-msgstr "PCB-hálózatlista"
-
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr "PCB-elrendezés"
+#: /usr/share/mimelnk/application/x-gerber.desktop:3
+msgctxt "Comment(x-gerber.desktop)"
+msgid "Gerber file"
+msgstr "Gerber-fájl"
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
 msgctxt "Name(lxqt-desktop.desktop)"
@@ -1379,26 +1379,6 @@ msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
 msgid "Empty panel"
 msgstr "Üres panel"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Munkaasztal"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Egy tiszta és egyszerű elrendezés"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Asztal"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Munkaasztal nézet bútor"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
 msgid "Default Panel"
@@ -1412,16 +1392,6 @@ msgstr ""
 "Alapértelmezett panel alkalmazásindítóval, feladatkezelővel és "
 "rendszertálcával"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "Deklaratív eszközdoboz"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Plasma kezelése"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
 msgid "Application Menu Bar"
@@ -1432,55 +1402,65 @@ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 msgid "Panel containing the global menu applet"
 msgstr "A globális menü kisalkalmazását tartalmazó panel"
 
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Legsötétebb óra"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Asztal"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Vízpart"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Munkaasztal nézet bútor"
 
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Reggeli ragyogás"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Munkaasztal"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "Pasztell dombok"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Egy tiszta és egyszerű elrendezés"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "Deklaratív eszközdoboz"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Plasma kezelése"
 
 #: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Cold Ripple"
 msgstr "Hideg hullám"
 
-#: /usr/share/wallpapers/Kite/metadata.desktop:2
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Kite"
-msgstr "Sárkány"
-
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Lehullott levél"
+msgid "Evening Glow"
+msgstr "Reggeli ragyogás"
 
 #: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Path"
 msgstr "Ösvény"
 
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Pastel Hills"
+msgstr "Pasztell dombok"
+
 #: /usr/share/wallpapers/Grey/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Grey"
 msgstr "Szürke"
 
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
-msgstr "Repülő Konqui"
+msgid "Darkest Hour"
+msgstr "Legsötétebb óra"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1492,6 +1472,26 @@ msgctxt "Name(metadata.desktop)"
 msgid "Colorful Cups"
 msgstr "Színes bögrék"
 
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "Vízpart"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "Lehullott levél"
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Flying Konqui"
+msgstr "Repülő Konqui"
+
+#: /usr/share/wallpapers/Kite/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Kite"
+msgstr "Sárkány"
+
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
 msgid "Breeze"
@@ -1502,15 +1502,15 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Breeze asztali designnyelv a KDE VDG-től"
 
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
-
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
 msgid "KRunner"
 msgstr "KRunner"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
 
 #: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
 msgctxt "Name(org.kde.plasmashell.desktop)"
@@ -1645,15 +1645,15 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Győződjön meg róla, hogy most pihen és aztán"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "A Sawfish ablakkezelő használata a Kde asztali környezeten belül"
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "A Sawfish ablakkezelő használata az XFCE asztali környezeten belül"
 
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
@@ -1665,15 +1665,25 @@ msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
 msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "A Sawfish ablakkezelő használata az XFCE asztali környezeten belül"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "A Sawfish ablakkezelő használata a Lumina asztali környezeten belül"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "A Sawfish ablakkezelő használata a Kde asztali környezeten belül"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1684,16 +1694,6 @@ msgstr "Sawfish/MATE"
 msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "A Sawfish ablakkezelő használata a MATE asztali környezeten belül"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "A Sawfish ablakkezelő használata a Lumina asztali környezeten belül"
 
 #: /usr/share/mimelnk/application/x-sciprj.desktop:7
 msgctxt "Comment(x-sciprj.desktop)"
@@ -1742,6 +1742,16 @@ msgctxt "Name(terminus_autorun.desktop)"
 msgid "A terminal with the capabilities of Guake and Terminator"
 msgstr ""
 
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Tracker metaadat-kinyerő"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:43
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Metaadatok kinyerése helyi fájlokból"
+
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
@@ -1761,16 +1771,6 @@ msgstr "Tracker RSS/ATOM hírforrás-adatbányász"
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "RSS/ATOM hírforrások lekérése"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Tracker metaadat-kinyerő"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:43
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Metaadatok kinyerése helyi fájlokból"
 
 #: /etc/xdg/autostart/tracker-miner-apps.desktop:2
 msgctxt "Name(tracker-miner-apps.desktop)"
@@ -1792,15 +1792,15 @@ msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr "Metaadat-adatbázis tároló és kereséskezelő"
 
-#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
-msgctxt "Comment(x-treeline-gz.desktop)"
-msgid "Compressed TreeLine File"
-msgstr "Tömörített TreeLine fájl"
-
 #: /usr/share/mimelnk/application/x-treeline.desktop:3
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
 msgstr "TreeLine fájl"
+
+#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
+msgctxt "Comment(x-treeline-gz.desktop)"
+msgid "Compressed TreeLine File"
+msgstr "Tömörített TreeLine fájl"
 
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
@@ -1975,30 +1975,26 @@ msgctxt "Comment(x-xopp.desktop)"
 msgid "Xournal++ note file"
 msgstr "Xournal-jegyzetfájl"
 
-#: /usr/share/autoinstall/modules/firstboot.desktop:21
-msgctxt "Name(firstboot.desktop)"
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+#| msgctxt "Name(firstboot.desktop)"
+#| msgid "Firstboot Configuration"
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
 msgid "Firstboot Configuration"
 msgstr "Firstboot-beállítások"
 
-#: /usr/share/autoinstall/modules/firstboot.desktop:22
-msgctxt "GenericName(firstboot.desktop)"
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+#, fuzzy
+#| msgctxt "GenericName(firstboot.desktop)"
+#| msgid "Enable or disable starting Firstboot sequence"
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Firstboot-sorozat indításának engedélyezése van letiltása"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:19
-msgctxt "X-SuSE-YaST-Keywords(ssh_import.desktop)"
-msgid "import,key,ssh,installation"
-msgstr ""
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "SSH-kulcs importálása"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:25
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
 
 #: /usr/share/autoinstall/modules/deploy_image.desktop:19
 #, fuzzy
@@ -2017,6 +2013,21 @@ msgstr "Rendszerkép telepítése"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Rendszerkép-telepítés beállítása"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(ssh_import.desktop)"
+msgid "import,key,ssh,installation"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "SSH-kulcs importálása"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:25
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "SSH-kulcsok importálása egy korábbi telepítésből"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2019-04-29 07:46+0000\n"
+"POT-Creation-Date: 2019-09-23 12:11+0000\n"
 "PO-Revision-Date: 2019-06-05 19:49+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/desktop-file-"
@@ -62,25 +62,15 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "Zbernica AT-SPI D-Bus"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:21
-msgctxt "Name(scripts.desktop)"
-msgid "Custom Scripts"
-msgstr "Vlastné skripty"
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "Rozdelenie disku"
 
-#: /usr/share/autoinstall/modules/scripts.desktop:22
-msgctxt "GenericName(scripts.desktop)"
-msgid "Add or Edit Custom Scripts"
-msgstr "Pridať alebo upraviť vlastné skripty"
-
-#: /usr/share/autoinstall/modules/general.desktop:22
-msgctxt "Name(general.desktop)"
-msgid "General Options"
-msgstr "Všeobecné voľby"
-
-#: /usr/share/autoinstall/modules/general.desktop:23
-msgctxt "GenericName(general.desktop)"
-msgid "Configure General Autoinstallation  Options"
-msgstr "Konfigurovať voľby automatickej inštalácie"
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "Konfigurovať rozdelenie disku a nastavenie úložísk"
 
 #: /usr/share/autoinstall/modules/report.desktop:22
 msgctxt "Name(report.desktop)"
@@ -92,16 +82,6 @@ msgctxt "GenericName(report.desktop)"
 msgid "Configure Reporting and Logging Options"
 msgstr "Konfigurovať voľby hlásenia a zaznamenávania"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "Rozdelenie disku"
-
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "Konfigurovať rozdelenie disku a nastavenie úložísk"
-
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
 msgid "Package Selection"
@@ -112,15 +92,35 @@ msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "Konfigurovať výber balíkov a nastavenie softvéru"
 
-#: /usr/share/autoinstall/modules/files.desktop:22
+#: /usr/share/autoinstall/modules/general.desktop:22
+msgctxt "Name(general.desktop)"
+msgid "General Options"
+msgstr "Všeobecné voľby"
+
+#: /usr/share/autoinstall/modules/general.desktop:23
+msgctxt "GenericName(general.desktop)"
+msgid "Configure General Autoinstallation  Options"
+msgstr "Konfigurovať voľby automatickej inštalácie"
+
+#: /usr/share/autoinstall/modules/files.desktop:23
 msgctxt "Name(files.desktop)"
 msgid "Complete Configuration Files"
 msgstr "Kompletné konfiguračné súbory"
 
-#: /usr/share/autoinstall/modules/files.desktop:23
+#: /usr/share/autoinstall/modules/files.desktop:24
 msgctxt "GenericName(files.desktop)"
 msgid "Add Complete Configuration Files"
 msgstr "Pridať kompletné konfiguračné súbory"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:21
+msgctxt "Name(scripts.desktop)"
+msgid "Custom Scripts"
+msgstr "Vlastné skripty"
+
+#: /usr/share/autoinstall/modules/scripts.desktop:22
+msgctxt "GenericName(scripts.desktop)"
+msgid "Add or Edit Custom Scripts"
+msgstr "Pridať alebo upraviť vlastné skripty"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -147,6 +147,16 @@ msgctxt "Name(baloo_file.desktop)"
 msgid "Baloo File Daemon"
 msgstr "Súborový démon Baloo"
 
+#: /etc/xdg/autostart/blueberry-tray.desktop:3
+msgctxt "Name(blueberry-tray.desktop)"
+msgid "blueberry"
+msgstr "blueberry"
+
+#: /etc/xdg/autostart/blueberry-tray.desktop:4
+msgctxt "Comment(blueberry-tray.desktop)"
+msgid "Blueberry tray icon"
+msgstr "Ikona na paneli úloh pre blueberry"
+
 #: /etc/xdg/autostart/blueberry-obex-agent.desktop:2
 msgctxt "Name(blueberry-obex-agent.desktop)"
 msgid "Bluetooth OBEX Agent"
@@ -161,16 +171,6 @@ msgstr "Umožňuje príjem súborov cez Bluetooth"
 msgctxt "Keywords(blueberry-obex-agent.desktop)"
 msgid "files;bluetooth;obex;receive;"
 msgstr "súbory;bluetooth;obex;príjem;"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:3
-msgctxt "Name(blueberry-tray.desktop)"
-msgid "blueberry"
-msgstr "blueberry"
-
-#: /etc/xdg/autostart/blueberry-tray.desktop:4
-msgctxt "Comment(blueberry-tray.desktop)"
-msgid "Blueberry tray icon"
-msgstr "Ikona na paneli úloh pre blueberry"
 
 #: /etc/xdg/autostart/blueman.desktop:2
 msgctxt "Name(blueman.desktop)"
@@ -257,100 +257,100 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Démon nastavení Cinnamon - a11y-klávesnica"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
 msgid "Cinnamon Settings Daemon - background"
 msgstr "Démon nastavení Cinnamon - pozadie"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "Démon nastavení Cinnamon - zvuk"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - keyboard"
-msgstr "Démon nastavení Cinnamon - klávesnica"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
-msgid "Cinnamon Settings Daemon - color"
-msgstr "Démon nastavení Cinnamon - farba"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
-msgid "Cinnamon Settings Daemon - smartcard"
-msgstr "Démon nastavení Cinnamon - smartcard"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
-msgid "Cinnamon Settings Daemon - mouse"
-msgstr "Démon nastavení Cinnamon - myš"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Démon nastavení Cinnamon - automount"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "Démon nastavení Cinnamon - xrandr"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "Démon nastavení Cinnamon - oznámenia tlače"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
-msgid "Cinnamon Settings Daemon - cursor"
-msgstr "Démon nastavení Cinnamon - kurzor"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
-msgid "Cinnamon Settings Daemon - xsettings"
-msgstr "Démon nastavení Cinnamon - xsettings"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "Démon nastavení Cinnamon - údržba"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "Démon nastavení Cinnamon - napájanie"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
-msgid "Cinnamon Settings Daemon - media-keys"
-msgstr "Démon nastavení Cinnamon - media-keys"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
-msgid "Cinnamon Settings Daemon - clipboard"
-msgstr "Démon nastavení Cinnamon - schránka"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr "Démon nastavení Cinnamon - orientácia"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
 msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgstr "Démon nastavení Cinnamon - screensaver-proxy"
 
+#: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
+msgid "Cinnamon Settings Daemon - smartcard"
+msgstr "Démon nastavení Cinnamon - smartcard"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-clipboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
+msgid "Cinnamon Settings Daemon - clipboard"
+msgstr "Démon nastavení Cinnamon - schránka"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Démon nastavení Cinnamon - myš"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
+msgid "Cinnamon Settings Daemon - xsettings"
+msgstr "Démon nastavení Cinnamon - xsettings"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Démon nastavení Cinnamon - a11y-klávesnica"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Démon nastavení Cinnamon - napájanie"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Démon nastavení Cinnamon - automount"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "Démon nastavení Cinnamon - údržba"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - keyboard"
+msgstr "Démon nastavení Cinnamon - klávesnica"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Démon nastavení Cinnamon - xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr "Démon nastavení Cinnamon - orientácia"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Démon nastavení Cinnamon - zvuk"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "Démon nastavení Cinnamon - oznámenia tlače"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
+msgid "Cinnamon Settings Daemon - color"
+msgstr "Démon nastavení Cinnamon - farba"
+
 #: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
 msgid "Cinnamon Settings Daemon - a11y-settings"
 msgstr "Démon nastavení Cinnamon - a11y-nastavenia"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
+msgid "Cinnamon Settings Daemon - media-keys"
+msgstr "Démon nastavení Cinnamon - media-keys"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
+msgid "Cinnamon Settings Daemon - cursor"
+msgstr "Démon nastavení Cinnamon - kurzor"
 
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
@@ -588,80 +588,50 @@ msgstr ""
 "The GNU Network Object Model Environment. Úplné, voľne šíriteľné a ľahko "
 "používateľné pracovné prostredie"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
-msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "Plugin oznámení tlače démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
-msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "Plugin dátumčas démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "Plugin screensaver-proxy démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
-msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "Plugin wacom démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
-msgid "GNOME Settings Daemon's keyboard plugin"
-msgstr "Plugin klávesnice démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
-msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "Plugin smartcard démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "Plugin rfkill démona nastavení GNOME"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+msgid "GNOME Settings Daemon's media-keys plugin"
+msgstr "Plugin media-keys démona nastavení GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.XSettings.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
 msgstr "Plugin xsettings démona nastavení GNOME"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "Plugin a11y-nastavení démona nastavení GNOME"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
+msgid "GNOME Settings Daemon's datetime plugin"
+msgstr "Plugin dátumčas démona nastavení GNOME"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "Plugin zvuku démona nastavení GNOME"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "Plugin farby démona nastavení GNOME"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "Plugin clipboard démona nastavení GNOME"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
+msgstr "Plugin smartcard démona nastavení GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
 msgstr "Plugin zdieľania démona nastavení GNOME"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "Plugin wacom démona nastavení GNOME"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
 msgid "GNOME Settings Daemon's a11y-keyboard plugin"
 msgstr "Plugin a11y-klávesnice démon nastavení GNOME"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
-msgid "GNOME Settings Daemon's media-keys plugin"
-msgstr "Plugin media-keys démona nastavení GNOME"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
-msgstr "Plugin farby démona nastavení GNOME"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "Plugin screensaver-proxy démona nastavení GNOME"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
@@ -673,20 +643,40 @@ msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
 msgstr "Plugin údržby démona nastavení GNOME"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
+msgid "GNOME Settings Daemon's keyboard plugin"
+msgstr "Plugin klávesnice démona nastavení GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+msgid "GNOME Settings Daemon's clipboard plugin"
+msgstr "Plugin clipboard démona nastavení GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr "Plugin oznámení tlače démona nastavení GNOME"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
 msgid "GNOME Settings Daemon's mouse plugin"
 msgstr "Plugin myši démona nastavení GNOME"
 
-#: /usr/share/xsessions/sle-classic.desktop:2
-msgctxt "Name(sle-classic.desktop)"
-msgid "SLE Classic"
-msgstr "Klasické prostredie SLE"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "Plugin zvuku démona nastavení GNOME"
 
-#: /usr/share/xsessions/sle-classic.desktop:70
-msgctxt "Comment(sle-classic.desktop)"
-msgid "This session logs you into SLE Classic"
-msgstr "Táto relácia vás prihlási do klasického prostredia SLE"
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "Plugin rfkill démona nastavení GNOME"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "Plugin a11y-nastavení démona nastavení GNOME"
 
 #: /usr/share/xsessions/gnome-classic.desktop:70
 msgctxt "Name(gnome-classic.desktop)"
@@ -697,6 +687,16 @@ msgstr "Klasické prostredie GNOME"
 msgctxt "Comment(gnome-classic.desktop)"
 msgid "This session logs you into GNOME Classic"
 msgstr "Táto relácia vás prihlási do klasického prostredia GNOME"
+
+#: /usr/share/xsessions/sle-classic.desktop:2
+msgctxt "Name(sle-classic.desktop)"
+msgid "SLE Classic"
+msgstr "Klasické prostredie SLE"
+
+#: /usr/share/xsessions/sle-classic.desktop:70
+msgctxt "Comment(sle-classic.desktop)"
+msgid "This session logs you into SLE Classic"
+msgstr "Táto relácia vás prihlási do klasického prostredia SLE"
 
 #: /etc/xdg/autostart/gnome-software-service.desktop:3
 msgctxt "Name(gnome-software-service.desktop)"
@@ -753,21 +753,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "Ikona na paneli úloh pre pre HP System službu"
 
-#: /usr/share/xsessions/i3.desktop:2
-msgctxt "Name(i3.desktop)"
-msgid "i3"
-msgstr "i3"
-
-#: /usr/share/xsessions/i3.desktop:3
-msgctxt "Comment(i3.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "zlepšený dynamický správca okien s dlaždicovaním"
-
-#: /usr/share/xsessions/i3.desktop:9
-msgctxt "Keywords(i3.desktop)"
-msgid "tiling;wm;windowmanager;window;manager;"
-msgstr "dláždenie;wm;windowmanager;okno;správca;"
-
 #: /usr/share/xsessions/i3-with-shmlog.desktop:2
 msgctxt "Name(i3-with-shmlog.desktop)"
 msgid "i3 (with debug log)"
@@ -780,6 +765,21 @@ msgstr "zlepšený dynamický správca okien s dlaždicovaním"
 
 #: /usr/share/xsessions/i3-with-shmlog.desktop:6
 msgctxt "Keywords(i3-with-shmlog.desktop)"
+msgid "tiling;wm;windowmanager;window;manager;"
+msgstr "dláždenie;wm;windowmanager;okno;správca;"
+
+#: /usr/share/xsessions/i3.desktop:2
+msgctxt "Name(i3.desktop)"
+msgid "i3"
+msgstr "i3"
+
+#: /usr/share/xsessions/i3.desktop:3
+msgctxt "Comment(i3.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "zlepšený dynamický správca okien s dlaždicovaním"
+
+#: /usr/share/xsessions/i3.desktop:9
+msgctxt "Keywords(i3.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr "dláždenie;wm;windowmanager;okno;správca;"
 
@@ -808,6 +808,11 @@ msgctxt "Comment(kalarm.autostart.desktop)"
 msgid "KAlarm autostart at login"
 msgstr "Automatické spustenie KAlarm pri prihlásení"
 
+#: /usr/share/autostart/plasma-desktop.desktop:4
+msgctxt "Name(plasma-desktop.desktop)"
+msgid "Plasma Desktop Workspace"
+msgstr "Pracovná plocha Plasma"
+
 #: /usr/share/autostart/klipper.desktop:2
 msgctxt "Name(klipper.desktop)"
 msgid "Klipper"
@@ -822,11 +827,6 @@ msgstr "Nástroj pre schránku"
 msgctxt "Comment(klipper.desktop)"
 msgid "A cut & paste history utility"
 msgstr "Nástroj pre históriu akcií \"Vystrihnúť a vložiť\""
-
-#: /usr/share/autostart/plasma-desktop.desktop:4
-msgctxt "Name(plasma-desktop.desktop)"
-msgid "Plasma Desktop Workspace"
-msgstr "Pracovná plocha Plasma"
 
 #: /usr/share/wallpapers/stripes.png.desktop:3
 msgctxt "Wallpaper-Name(stripes.png.desktop)"
@@ -853,11 +853,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad Doska plošných spojov"
-
 #: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
 msgctxt "Comment(x-kicad-schematic.desktop)"
 msgid "KiCad Schematic"
@@ -867,6 +862,11 @@ msgstr "KiCad Schéma"
 msgctxt "Comment(x-kicad-project.desktop)"
 msgid "KiCad Project"
 msgstr "KiCad Projekt"
+
+#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
+msgctxt "Comment(x-kicad-pcb.desktop)"
+msgid "KiCad Printed Circuit Board"
+msgstr "KiCad Doska plošných spojov"
 
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
@@ -1096,21 +1096,6 @@ msgctxt "Name(mate-settings-daemon.desktop)"
 msgid "MATE Settings Daemon"
 msgstr "Démon nastavení MATE"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
-msgctxt "Name(mate-user-share-obexpush.desktop)"
-msgid "Personal File Sharing obexpush"
-msgstr "Zdieľanie osobných súborov prostredníctvom obexpush"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
-msgctxt "Comment(mate-user-share-obexpush.desktop)"
-msgid "Launch Personal File Sharing if enabled"
-msgstr "Ak je povolené, spustiť Zdieľanie osobných súborov"
-
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
-msgctxt "Keywords(mate-user-share-obexpush.desktop)"
-msgid "share;files;bluetooth;obex;http;network;copy;send;"
-msgstr "zdieľať:súbory;bluetooth;obex;http;sieť;kopírovať;poslať;"
-
 #: /etc/xdg/autostart/mate-user-share-obexftp.desktop:2
 msgctxt "Name(mate-user-share-obexftp.desktop)"
 msgid "Personal File Sharing obexftp"
@@ -1138,6 +1123,21 @@ msgstr "Ak je povolené, spustiť Zdieľanie osobných súborov"
 
 #: /etc/xdg/autostart/mate-user-share-webdav.desktop:112
 msgctxt "Keywords(mate-user-share-webdav.desktop)"
+msgid "share;files;bluetooth;obex;http;network;copy;send;"
+msgstr "zdieľať:súbory;bluetooth;obex;http;sieť;kopírovať;poslať;"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
+msgctxt "Name(mate-user-share-obexpush.desktop)"
+msgid "Personal File Sharing obexpush"
+msgstr "Zdieľanie osobných súborov prostredníctvom obexpush"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
+msgctxt "Comment(mate-user-share-obexpush.desktop)"
+msgid "Launch Personal File Sharing if enabled"
+msgstr "Ak je povolené, spustiť Zdieľanie osobných súborov"
+
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
+msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "zdieľať:súbory;bluetooth;obex;http;sieť;kopírovať;poslať;"
 
@@ -1196,6 +1196,16 @@ msgctxt "Name(vmware-user-autostart.desktop)"
 msgid "VMware User Agent"
 msgstr "Používateľský agent VMware"
 
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Použiť Openbox správcu okien vnútri pracovného prostredia KDE"
+
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1215,16 +1225,6 @@ msgstr "GNOME/Openbox"
 msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "Použiť Openbox správcu okien vnútri pracovného prostredia GNOME"
-
-#: /usr/share/xsessions/openbox-kde.desktop:2
-msgctxt "Name(openbox-kde.desktop)"
-msgid "KDE/Openbox"
-msgstr "KDE/Openbox"
-
-#: /usr/share/xsessions/openbox-kde.desktop:3
-msgctxt "Comment(openbox-kde.desktop)"
-msgid "Use the Openbox window manager inside of the K Desktop Environment"
-msgstr "Použiť Openbox správcu okien vnútri pracovného prostredia KDE"
 
 #: /etc/xdg/autostart/orca-autostart.desktop:3
 msgctxt "Name(orca-autostart.desktop)"
@@ -1302,10 +1302,15 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio;lišta;systémová lišta;applet;hlasitosť;"
 
-#: /usr/share/mimelnk/application/x-gerber.desktop:3
-msgctxt "Comment(x-gerber.desktop)"
-msgid "Gerber file"
-msgstr "Súbor Gerber"
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr "PCB sieťovanie"
+
+#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
+msgctxt "Comment(x-pcb-layout.desktop)"
+msgid "PCB layout"
+msgstr "PCB rozloženie"
 
 #: /usr/share/mimelnk/application/x-excellon.desktop:3
 msgctxt "Comment(x-excellon.desktop)"
@@ -1317,15 +1322,10 @@ msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
 msgstr "PCB stopa"
 
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
-msgstr "PCB sieťovanie"
-
-#: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
-msgctxt "Comment(x-pcb-layout.desktop)"
-msgid "PCB layout"
-msgstr "PCB rozloženie"
+#: /usr/share/mimelnk/application/x-gerber.desktop:3
+msgctxt "Comment(x-gerber.desktop)"
+msgid "Gerber file"
+msgstr "Súbor Gerber"
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
 msgctxt "Name(lxqt-desktop.desktop)"
@@ -1357,26 +1357,6 @@ msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
 msgid "Empty panel"
 msgstr "Prázdny panel"
 
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "Plocha"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "Čisté a jednoduché rozloženie"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "Plocha"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "Zobrazenie plochy nábytok"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
 msgid "Default Panel"
@@ -1389,16 +1369,6 @@ msgid ""
 msgstr ""
 "Predvolený panel obsahujúci spúšťač aplikácií, správcu úloh a systémovú lištu"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
-msgctxt "Name(org.kde.desktoptoolbox)"
-msgid "Declarative Toolbox"
-msgstr "Deklaratívny nástroj"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
-msgctxt "Summary(org.kde.desktoptoolbox)"
-msgid "Manage Plasma"
-msgstr "Spravovať Plasmu"
-
 #: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
 msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
 msgid "Application Menu Bar"
@@ -1409,55 +1379,65 @@ msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
 msgid "Panel containing the global menu applet"
 msgstr "Panel obsahujúci applet globálneho menu"
 
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "Najtmavšia hodina"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "Plocha"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "Podľa vody"
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "Zobrazenie plochy nábytok"
 
-#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Evening Glow"
-msgstr "Večerná žiara"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "Plocha"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "Pastelové kopce"
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "Čisté a jednoduché rozloženie"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+msgctxt "Name(org.kde.desktoptoolbox)"
+msgid "Declarative Toolbox"
+msgstr "Deklaratívny nástroj"
+
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+msgctxt "Summary(org.kde.desktoptoolbox)"
+msgid "Manage Plasma"
+msgstr "Spravovať Plasmu"
 
 #: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Cold Ripple"
 msgstr "Studené vlnenie"
 
-#: /usr/share/wallpapers/Kite/metadata.desktop:2
+#: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Kite"
-msgstr "Šarkan"
-
-#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "Fallen Leaf"
-msgstr "Opadané listy"
+msgid "Evening Glow"
+msgstr "Večerná žiara"
 
 #: /usr/share/wallpapers/Path/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Path"
 msgstr "Cesta"
 
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Pastel Hills"
+msgstr "Pastelové kopce"
+
 #: /usr/share/wallpapers/Grey/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Grey"
 msgstr "Šedá"
 
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
-msgstr "Lietajúci Konqui"
+msgid "Darkest Hour"
+msgstr "Najtmavšia hodina"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1469,6 +1449,26 @@ msgctxt "Name(metadata.desktop)"
 msgid "Colorful Cups"
 msgstr "Farebné šálky"
 
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "Podľa vody"
+
+#: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Fallen Leaf"
+msgstr "Opadané listy"
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Flying Konqui"
+msgstr "Lietajúci Konqui"
+
+#: /usr/share/wallpapers/Kite/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Kite"
+msgstr "Šarkan"
+
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
 msgid "Breeze"
@@ -1479,15 +1479,15 @@ msgctxt "Summary(org.kde.breeze.desktop)"
 msgid "Breeze Desktop Design Language by the KDE VDG"
 msgstr "Jazyk dizajnu plochy vánok od KDE VDG"
 
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
-
 #: /etc/xdg/autostart/krunner.desktop:3
 msgctxt "Name(krunner.desktop)"
 msgid "KRunner"
 msgstr "KRunner"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
 
 #: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
 msgctxt "Name(org.kde.plasmashell.desktop)"
@@ -1619,15 +1619,15 @@ msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "Zaisťuje, že tu a tam odpočívate"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:2
-msgctxt "Name(sawfish-kde4.desktop)"
-msgid "Sawfish/KDE4"
-msgstr "Sawfish/KDE4"
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
 
-#: /usr/share/xsessions/sawfish-kde4.desktop:3
-msgctxt "Comment(sawfish-kde4.desktop)"
-msgid "Use the Sawfish window manager inside of the Kde desktop environment"
-msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia KDE"
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia XFCE"
 
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
@@ -1639,15 +1639,25 @@ msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
 msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
 
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia XFCE"
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia Lumina"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:2
+msgctxt "Name(sawfish-kde4.desktop)"
+msgid "Sawfish/KDE4"
+msgstr "Sawfish/KDE4"
+
+#: /usr/share/xsessions/sawfish-kde4.desktop:3
+msgctxt "Comment(sawfish-kde4.desktop)"
+msgid "Use the Sawfish window manager inside of the Kde desktop environment"
+msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia KDE"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1658,16 +1668,6 @@ msgstr "Sawfish/MATE"
 msgctxt "Comment(sawfish-mate.desktop)"
 msgid "Use the Sawfish window manager inside of the MATE desktop environment"
 msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia MATE"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "Použiť správcu okien Sawfish vnútri desktopového prostredia Lumina"
 
 #: /usr/share/mimelnk/application/x-sciprj.desktop:7
 msgctxt "Comment(x-sciprj.desktop)"
@@ -1714,6 +1714,16 @@ msgctxt "Name(terminus_autorun.desktop)"
 msgid "A terminal with the capabilities of Guake and Terminator"
 msgstr "Terminál so schopnosťami Guake a Terminator"
 
+#: /etc/xdg/autostart/tracker-extract.desktop:2
+msgctxt "Name(tracker-extract.desktop)"
+msgid "Tracker Metadata Extractor"
+msgstr "Nástroj na extrahovanie metadát pre sledovač"
+
+#: /etc/xdg/autostart/tracker-extract.desktop:43
+msgctxt "Comment(tracker-extract.desktop)"
+msgid "Extracts metadata from local files"
+msgstr "Extrahuje metadáta z lokálnych súborov"
+
 #: /etc/xdg/autostart/tracker-miner-fs.desktop:2
 msgctxt "Name(tracker-miner-fs.desktop)"
 msgid "Tracker File System Miner"
@@ -1733,16 +1743,6 @@ msgstr "Sledovač dolovača kanálov RSS/ATOM"
 msgctxt "Comment(tracker-miner-rss.desktop)"
 msgid "Fetch RSS/ATOM feeds"
 msgstr "Sleduje výber kanálov RSS/ATOM"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:2
-msgctxt "Name(tracker-extract.desktop)"
-msgid "Tracker Metadata Extractor"
-msgstr "Nástroj na extrahovanie metadát pre sledovač"
-
-#: /etc/xdg/autostart/tracker-extract.desktop:43
-msgctxt "Comment(tracker-extract.desktop)"
-msgid "Extracts metadata from local files"
-msgstr "Extrahuje metadáta z lokálnych súborov"
 
 #: /etc/xdg/autostart/tracker-miner-apps.desktop:2
 msgctxt "Name(tracker-miner-apps.desktop)"
@@ -1764,15 +1764,15 @@ msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr "Správca úložiska databázy metadát a vyhľadávania"
 
-#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
-msgctxt "Comment(x-treeline-gz.desktop)"
-msgid "Compressed TreeLine File"
-msgstr "Komprimovaný súbor TreeLine"
-
 #: /usr/share/mimelnk/application/x-treeline.desktop:3
 msgctxt "Comment(x-treeline.desktop)"
 msgid "TreeLine File"
 msgstr "Súbor TreeLine"
+
+#: /usr/share/mimelnk/application/x-treeline-gz.desktop:3
+msgctxt "Comment(x-treeline-gz.desktop)"
+msgid "Compressed TreeLine File"
+msgstr "Komprimovaný súbor TreeLine"
 
 #: /usr/share/mimelnk/application/x-treepad.desktop:3
 msgctxt "Comment(x-treepad.desktop)"
@@ -1943,30 +1943,26 @@ msgctxt "Comment(x-xopp.desktop)"
 msgid "Xournal++ note file"
 msgstr "Súbor poznámok Xournal++"
 
-#: /usr/share/autoinstall/modules/firstboot.desktop:21
-msgctxt "Name(firstboot.desktop)"
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+#| msgctxt "Name(firstboot.desktop)"
+#| msgid "Firstboot Configuration"
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
 msgid "Firstboot Configuration"
 msgstr "Konfigurácia Firstboot"
 
-#: /usr/share/autoinstall/modules/firstboot.desktop:22
-msgctxt "GenericName(firstboot.desktop)"
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+#, fuzzy
+#| msgctxt "GenericName(firstboot.desktop)"
+#| msgid "Enable or disable starting Firstboot sequence"
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
 msgid "Enable or disable starting Firstboot sequence"
 msgstr "Povoliť alebo zakázať spustenie sekvencie Firstboot"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:19
-msgctxt "X-SuSE-YaST-Keywords(ssh_import.desktop)"
-msgid "import,key,ssh,installation"
-msgstr "import,kľúč,ssh,inštalácia"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:24
-msgctxt "Name(ssh_import.desktop)"
-msgid "SSH Key Import"
-msgstr "Import kľúčov SSH"
-
-#: /usr/share/autoinstall/modules/ssh_import.desktop:25
-msgctxt "GenericName(ssh_import.desktop)"
-msgid "Importing SSH keys from a previous installation"
-msgstr "Importovanie SSH kľúčov z predchádzajúcej inštalácie"
 
 #: /usr/share/autoinstall/modules/deploy_image.desktop:19
 msgctxt "X-SuSE-YaST-Keywords(deploy_image.desktop)"
@@ -1982,6 +1978,21 @@ msgstr "Nasadzovanie obrazov"
 msgctxt "GenericName(deploy_image.desktop)"
 msgid "Configure image deployment"
 msgstr "Konfigurovať nasadzovanie obrazov"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:19
+msgctxt "X-SuSE-YaST-Keywords(ssh_import.desktop)"
+msgid "import,key,ssh,installation"
+msgstr "import,kľúč,ssh,inštalácia"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:24
+msgctxt "Name(ssh_import.desktop)"
+msgid "SSH Key Import"
+msgstr "Import kľúčov SSH"
+
+#: /usr/share/autoinstall/modules/ssh_import.desktop:25
+msgctxt "GenericName(ssh_import.desktop)"
+msgid "Importing SSH keys from a previous installation"
+msgstr "Importovanie SSH kľúčov z predchádzajúcej inštalácie"
 
 #: /etc/xdg/autostart/zeitgeist-datahub.desktop:2
 msgctxt "Name(zeitgeist-datahub.desktop)"

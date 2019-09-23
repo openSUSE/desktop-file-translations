@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2019-04-29 07:46+0000\n"
+"POT-Creation-Date: 2019-09-23 12:11+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgctxt "Name(org.freedesktop.appstream.cli)"
 msgid "AppStream CLI"
 msgstr "AppStream-CLI"
 
-#: /usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml:31
+#: /usr/share/metainfo/org.freedesktop.appstream.cli.metainfo.xml:36
 msgctxt "Summary(org.freedesktop.appstream.cli)"
 msgid "An utility to work with AppStream metadata"
 msgstr "Een hulpmiddel om te werken met AppStream-metagegevens"
@@ -242,6 +242,16 @@ msgctxt "Summary(amsynth.desktop)"
 msgid "Analog modelling (a.k.a virtual analog) software synthesizer"
 msgstr ""
 
+#: /usr/share/appdata/vst-amsynth-plugin.metainfo.xml:5
+msgctxt "Name(vst-amsynth-plugin)"
+msgid "VST plugin"
+msgstr ""
+
+#: /usr/share/appdata/vst-amsynth-plugin.metainfo.xml:6
+msgctxt "Summary(vst-amsynth-plugin)"
+msgid "Amsynth plugin for the VST protocol"
+msgstr ""
+
 #: /usr/share/appdata/dssi-amsynth-plugin.metainfo.xml:5
 msgctxt "Name(dssi-amsynth-plugin)"
 msgid "DSSI plugin"
@@ -260,16 +270,6 @@ msgstr ""
 #: /usr/share/appdata/lv2-amsynth-plugin.metainfo.xml:6
 msgctxt "Summary(lv2-amsynth-plugin)"
 msgid "Plugin for the LV2 audio standard"
-msgstr ""
-
-#: /usr/share/appdata/vst-amsynth-plugin.metainfo.xml:5
-msgctxt "Name(vst-amsynth-plugin)"
-msgid "VST plugin"
-msgstr ""
-
-#: /usr/share/appdata/vst-amsynth-plugin.metainfo.xml:6
-msgctxt "Summary(vst-amsynth-plugin)"
-msgid "Amsynth plugin for the VST protocol"
 msgstr ""
 
 #: /usr/share/metainfo/anjuta.appdata.xml:6
@@ -525,16 +525,6 @@ msgctxt "Summary(org.kde.calligrastage.desktop)"
 msgid "Presentation"
 msgstr "Presentatie"
 
-#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:6
-msgctxt "Name(org.kde.calligrasheets.desktop)"
-msgid "Calligra Sheets"
-msgstr "Calligra Sheets"
-
-#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:27
-msgctxt "Summary(org.kde.calligrasheets.desktop)"
-msgid "Spreadsheet"
-msgstr "Rekenblad"
-
 #: /usr/share/metainfo/org.kde.calligragemini.appdata.xml:6
 msgctxt "Name(org.kde.calligragemini.desktop)"
 msgid "Gemini"
@@ -557,6 +547,16 @@ msgstr "Calligra Words"
 msgctxt "Summary(org.kde.calligrawords.desktop)"
 msgid "Word Processor"
 msgstr "Schermvullende tekstverwerker"
+
+#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:6
+msgctxt "Name(org.kde.calligrasheets.desktop)"
+msgid "Calligra Sheets"
+msgstr "Calligra Sheets"
+
+#: /usr/share/metainfo/org.kde.calligrasheets.appdata.xml:27
+msgctxt "Summary(org.kde.calligrasheets.desktop)"
+msgid "Spreadsheet"
+msgstr "Rekenblad"
 
 #: /usr/share/metainfo/org.kde.karbon.appdata.xml:6
 msgctxt "Name(org.kde.karbon.desktop)"
@@ -698,6 +698,28 @@ msgctxt "Summary(com.github.davidmhewitt.clipped.desktop)"
 msgid "Manage your clipboard with ease"
 msgstr "Biedt toegang tot de geschiedenis van klembord"
 
+#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:6
+msgctxt "Name(com.hughski.ColorHug.DisplayAnalysis.desktop)"
+msgid "ColorHug Display Analysis"
+msgstr ""
+
+#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:20
+msgctxt "Summary(com.hughski.ColorHug.DisplayAnalysis.desktop)"
+msgid ""
+"Sample the display over time to observe PWM, input latency and refresh "
+"artifacts"
+msgstr ""
+
+#: /usr/share/appdata/com.hughski.ColorHug.FlashLoader.appdata.xml:6
+msgctxt "Name(com.hughski.ColorHug.FlashLoader.desktop)"
+msgid "ColorHug Firmware Updater"
+msgstr ""
+
+#: /usr/share/appdata/com.hughski.ColorHug.FlashLoader.appdata.xml:33
+msgctxt "Summary(com.hughski.ColorHug.FlashLoader.desktop)"
+msgid "Update the firmware on the ColorHug colorimeter"
+msgstr ""
+
 #: /usr/share/appdata/com.hughski.ColorHug.CcmxLoader.appdata.xml:6
 msgctxt "Name(com.hughski.ColorHug.CcmxLoader.desktop)"
 msgid "ColorHug CCMX Loader"
@@ -716,28 +738,6 @@ msgstr ""
 #: /usr/share/appdata/com.hughski.ColorHug.Backlight.appdata.xml:17
 msgctxt "Summary(com.hughski.ColorHug.Backlight.desktop)"
 msgid "Sample the ambient light level to control the backlight"
-msgstr ""
-
-#: /usr/share/appdata/com.hughski.ColorHug.FlashLoader.appdata.xml:6
-msgctxt "Name(com.hughski.ColorHug.FlashLoader.desktop)"
-msgid "ColorHug Firmware Updater"
-msgstr ""
-
-#: /usr/share/appdata/com.hughski.ColorHug.FlashLoader.appdata.xml:33
-msgctxt "Summary(com.hughski.ColorHug.FlashLoader.desktop)"
-msgid "Update the firmware on the ColorHug colorimeter"
-msgstr ""
-
-#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:6
-msgctxt "Name(com.hughski.ColorHug.DisplayAnalysis.desktop)"
-msgid "ColorHug Display Analysis"
-msgstr ""
-
-#: /usr/share/appdata/com.hughski.ColorHug.DisplayAnalysis.appdata.xml:20
-msgctxt "Summary(com.hughski.ColorHug.DisplayAnalysis.desktop)"
-msgid ""
-"Sample the display over time to observe PWM, input latency and refresh "
-"artifacts"
 msgstr ""
 
 #: /usr/share/appdata/com.github.ronnydo.colorpicker.appdata.xml:7
@@ -852,6 +852,19 @@ msgctxt "Summary(ca.desrt.dconf-editor.desktop)"
 msgid "A graphical tool for editing the dconf database"
 msgstr ""
 
+#: /usr/share/metainfo/deepin-screenshot.appdata.xml:6
+#, fuzzy
+#| msgctxt "Name(org.gnome.Screenshot.desktop)"
+#| msgid "GNOME Screenshot"
+msgctxt "Name(deepin-screenshot.desktop)"
+msgid "Deepin Screenshot"
+msgstr "Gnome Schermafdruk"
+
+#: /usr/share/metainfo/deepin-screenshot.appdata.xml:9
+msgctxt "Summary(deepin-screenshot.desktop)"
+msgid "Deepin Screenshot is Deepin Desktop Environment screenshot tool"
+msgstr ""
+
 #: /usr/share/appdata/deepin-system-monitor.appdata.xml:6
 #, fuzzy
 msgctxt "Name(deepin-system-monitor.desktop)"
@@ -920,6 +933,16 @@ msgctxt "Summary(org.kde.digikam.desktop)"
 msgid "Photo Management Program"
 msgstr "Energiebeheer observeren"
 
+#: /usr/share/metainfo/org.kde.discovernotifier.appdata.xml:4
+msgctxt "Name(org.kde.discovernotifier)"
+msgid "Updates"
+msgstr "Elementen voor bijwerken"
+
+#: /usr/share/metainfo/org.kde.discovernotifier.appdata.xml:45
+msgctxt "Summary(org.kde.discovernotifier)"
+msgid "Helps you keep your system up to date"
+msgstr "Helpt u om uw system bijgewerkt te houden"
+
 #: /usr/share/metainfo/org.kde.discover.appdata.xml:6
 msgctxt "Name(org.kde.discover.desktop)"
 msgid "Discover"
@@ -939,16 +962,6 @@ msgstr "Flatpak-backend"
 msgctxt "Summary(org.kde.discover.flatpak)"
 msgid "Integrates Flatpak applications into Discover"
 msgstr "Integreert Flatpak-toepassingen in Discover"
-
-#: /usr/share/metainfo/org.kde.discovernotifier.appdata.xml:4
-msgctxt "Name(org.kde.discovernotifier)"
-msgid "Updates"
-msgstr "Elementen voor bijwerken"
-
-#: /usr/share/metainfo/org.kde.discovernotifier.appdata.xml:45
-msgctxt "Summary(org.kde.discovernotifier)"
-msgid "Helps you keep your system up to date"
-msgstr "Helpt u om uw system bijgewerkt te houden"
 
 #: /usr/share/metainfo/org.kde.discover.packagekit.appdata.xml:4
 msgctxt "Name(org.kde.discover.packagekit)"
@@ -1013,16 +1026,6 @@ msgctxt "Summary(dustrac-game.desktop)"
 msgid "Traditional top-down car racing game including a level editor."
 msgstr ""
 
-#: /usr/share/appdata/easytag.appdata.xml:8
-msgctxt "Name(easytag.desktop)"
-msgid "EasyTAG"
-msgstr ""
-
-#: /usr/share/appdata/easytag.appdata.xml:30
-msgctxt "Summary(easytag.desktop)"
-msgid "Edit audio file metadata"
-msgstr ""
-
 #: /usr/share/appdata/easytag-nautilus.metainfo.xml:5
 msgctxt "Name(easytag-nautilus)"
 msgid "Open with EasyTAG"
@@ -1031,6 +1034,16 @@ msgstr ""
 #: /usr/share/appdata/easytag-nautilus.metainfo.xml:26
 msgctxt "Summary(easytag-nautilus)"
 msgid "Open directories and audio files with EasyTAG using the context menu"
+msgstr ""
+
+#: /usr/share/appdata/easytag.appdata.xml:8
+msgctxt "Name(easytag.desktop)"
+msgid "EasyTAG"
+msgstr ""
+
+#: /usr/share/appdata/easytag.appdata.xml:30
+msgctxt "Summary(easytag.desktop)"
+msgid "Edit audio file metadata"
 msgstr ""
 
 #: /usr/share/metainfo/org.roger-ferrer.Eiciel.appdata.xml:7
@@ -1124,6 +1137,16 @@ msgid ""
 "OpenPGP message encryption and authentication for Thunderbird and SeaMonkey."
 msgstr ""
 
+#: /usr/share/appdata/eog-fullscreenbg.metainfo.xml:6
+msgctxt "Name(eog-fullscreenbg)"
+msgid "Fullscreen Background"
+msgstr ""
+
+#: /usr/share/appdata/eog-fullscreenbg.metainfo.xml:39
+msgctxt "Summary(eog-fullscreenbg)"
+msgid "Enables changing background in fullscreen mode"
+msgstr ""
+
 #: /usr/share/appdata/eog-hide-titlebar.metainfo.xml:6
 msgctxt "Name(eog-hide-titlebar)"
 msgid "Hide Titlebar"
@@ -1133,22 +1156,6 @@ msgstr ""
 msgctxt "Summary(eog-hide-titlebar)"
 msgid "Hides the titlebar of maximized windows"
 msgstr ""
-
-#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:6
-#, fuzzy
-#| msgctxt "Summary(org.kde.kig.desktop)"
-#| msgid "Interactive Geometry"
-msgctxt "Name(eog-pythonconsole)"
-msgid "Python Console"
-msgstr "Interactieve meetkunde"
-
-#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:56
-#, fuzzy
-#| msgctxt "Summary(org.kde.kig.desktop)"
-#| msgid "Interactive Geometry"
-msgctxt "Summary(eog-pythonconsole)"
-msgid "Adds a Python console"
-msgstr "Interactieve meetkunde"
 
 #: /usr/share/appdata/eog-exif-display.metainfo.xml:6
 msgctxt "Name(eog-exif-display)"
@@ -1170,28 +1177,21 @@ msgctxt "Summary(eog-export-to-folder)"
 msgid "Export the current image to a separate directory"
 msgstr ""
 
-#: /usr/share/appdata/eog-map.metainfo.xml:6
-msgctxt "Name(eog-map)"
-msgid "Map"
-msgstr ""
-
-#: /usr/share/appdata/eog-map.metainfo.xml:56
-msgctxt "Summary(eog-map)"
-msgid "Displays on a map in the side panel where the picture was taken"
-msgstr ""
-
-#: /usr/share/appdata/eog-slideshowshuffle.metainfo.xml:6
+#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:6
 #, fuzzy
-#| msgctxt "Name(org.kde.slideshow)"
-#| msgid "Slideshow"
-msgctxt "Name(eog-slideshowshuffle)"
-msgid "Slideshow Shuffle"
-msgstr "Diavoorstelling"
+#| msgctxt "Summary(org.kde.kig.desktop)"
+#| msgid "Interactive Geometry"
+msgctxt "Name(eog-pythonconsole)"
+msgid "Python Console"
+msgstr "Interactieve meetkunde"
 
-#: /usr/share/appdata/eog-slideshowshuffle.metainfo.xml:55
-msgctxt "Summary(eog-slideshowshuffle)"
-msgid "Shuffles the photos in slideshow mode"
-msgstr ""
+#: /usr/share/appdata/eog-pythonconsole.metainfo.xml:56
+#, fuzzy
+#| msgctxt "Summary(org.kde.kig.desktop)"
+#| msgid "Interactive Geometry"
+msgctxt "Summary(eog-pythonconsole)"
+msgid "Adds a Python console"
+msgstr "Interactieve meetkunde"
 
 #: /usr/share/appdata/eog-postasa.metainfo.xml:6
 msgctxt "Name(eog-postasa)"
@@ -1201,26 +1201,6 @@ msgstr ""
 #: /usr/share/appdata/eog-postasa.metainfo.xml:36
 msgctxt "Summary(eog-postasa)"
 msgid "Supports uploading photos to Google Picasa Web"
-msgstr ""
-
-#: /usr/share/appdata/eog-fullscreenbg.metainfo.xml:6
-msgctxt "Name(eog-fullscreenbg)"
-msgid "Fullscreen Background"
-msgstr ""
-
-#: /usr/share/appdata/eog-fullscreenbg.metainfo.xml:39
-msgctxt "Summary(eog-fullscreenbg)"
-msgid "Enables changing background in fullscreen mode"
-msgstr ""
-
-#: /usr/share/appdata/eog-light-theme.metainfo.xml:6
-msgctxt "Name(eog-light-theme)"
-msgid "Disable Dark Theme"
-msgstr ""
-
-#: /usr/share/appdata/eog-light-theme.metainfo.xml:36
-msgctxt "Summary(eog-light-theme)"
-msgid "Disables dark theme"
 msgstr ""
 
 #: /usr/share/appdata/eog-maximize-windows.metainfo.xml:5
@@ -1254,6 +1234,39 @@ msgstr ""
 #: /usr/share/appdata/eog-send-by-mail.metainfo.xml:49
 msgctxt "Summary(eog-send-by-mail)"
 msgid "Sends an image attached to a new mail"
+msgstr ""
+
+#: /usr/share/appdata/eog-map.metainfo.xml:6
+msgctxt "Name(eog-map)"
+msgid "Map"
+msgstr ""
+
+#: /usr/share/appdata/eog-map.metainfo.xml:56
+msgctxt "Summary(eog-map)"
+msgid "Displays on a map in the side panel where the picture was taken"
+msgstr ""
+
+#: /usr/share/appdata/eog-light-theme.metainfo.xml:6
+msgctxt "Name(eog-light-theme)"
+msgid "Disable Dark Theme"
+msgstr ""
+
+#: /usr/share/appdata/eog-light-theme.metainfo.xml:36
+msgctxt "Summary(eog-light-theme)"
+msgid "Disables dark theme"
+msgstr ""
+
+#: /usr/share/appdata/eog-slideshowshuffle.metainfo.xml:6
+#, fuzzy
+#| msgctxt "Name(org.kde.slideshow)"
+#| msgid "Slideshow"
+msgctxt "Name(eog-slideshowshuffle)"
+msgid "Slideshow Shuffle"
+msgstr "Diavoorstelling"
+
+#: /usr/share/appdata/eog-slideshowshuffle.metainfo.xml:55
+msgctxt "Summary(eog-slideshowshuffle)"
+msgid "Shuffles the photos in slideshow mode"
 msgstr ""
 
 #: /usr/share/appdata/eog.appdata.xml:6
@@ -1316,16 +1329,6 @@ msgctxt "Summary(evince-djvudocument)"
 msgid "Adds support for reading DjVu documents"
 msgstr "Voegt ondersteuning toe voor het lezen van DjVu-documenten"
 
-#: /usr/share/appdata/evince-tiffdocument.metainfo.xml:5
-msgctxt "Name(evince-tiffdocument)"
-msgid "TIFF Documents"
-msgstr "TIFF-documenten"
-
-#: /usr/share/appdata/evince-tiffdocument.metainfo.xml:76
-msgctxt "Summary(evince-tiffdocument)"
-msgid "Adds support for reading TIFF documents"
-msgstr "Voegt ondersteuning toe voor het lezen TIFF-documenten"
-
 #: /usr/share/appdata/evince-dvidocument.metainfo.xml:5
 msgctxt "Name(evince-dvidocument)"
 msgid "DVI Documents"
@@ -1335,36 +1338,6 @@ msgstr "DVI-documenten"
 msgctxt "Summary(evince-dvidocument)"
 msgid "Adds support for reading DVI documents"
 msgstr "Voegt ondersteuning toe voor het lezen van DVI-documenten"
-
-#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:5
-msgctxt "Name(evince-xpsdocument)"
-msgid "XPS Documents"
-msgstr "XPS-documenten"
-
-#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:76
-msgctxt "Summary(evince-xpsdocument)"
-msgid "Adds support for reading XPS documents"
-msgstr "Voegt ondersteuning toe voor het lezen van XPS-documenten"
-
-#: /usr/share/appdata/evince-comicsdocument.metainfo.xml:5
-msgctxt "Name(evince-comicsdocument)"
-msgid "Comic Books"
-msgstr "Stripboeken"
-
-#: /usr/share/appdata/evince-comicsdocument.metainfo.xml:98
-msgctxt "Summary(evince-comicsdocument)"
-msgid "Adds support for reading comic books"
-msgstr "Voegt ondersteuning toe voor het lezen van stripboeken"
-
-#: /usr/share/appdata/evince-psdocument.metainfo.xml:5
-msgctxt "Name(evince-psdocument)"
-msgid "PostScript Documents"
-msgstr "PostScript-documenten"
-
-#: /usr/share/appdata/evince-psdocument.metainfo.xml:98
-msgctxt "Summary(evince-psdocument)"
-msgid "Adds support for reading PostScript documents"
-msgstr "Voegt ondersteuning toe voor het lezen van PostScript-documenten"
 
 #: /usr/share/appdata/evince-lang.metainfo.xml:6
 msgctxt "Name(evince-lang)"
@@ -1386,6 +1359,46 @@ msgctxt "Summary(evince-pdfocument)"
 msgid "Adds support for reading PDF Documents"
 msgstr "Voegt ondersteuning toe voor het lezen van PDF-documenten"
 
+#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:5
+msgctxt "Name(evince-xpsdocument)"
+msgid "XPS Documents"
+msgstr "XPS-documenten"
+
+#: /usr/share/appdata/evince-xpsdocument.metainfo.xml:76
+msgctxt "Summary(evince-xpsdocument)"
+msgid "Adds support for reading XPS documents"
+msgstr "Voegt ondersteuning toe voor het lezen van XPS-documenten"
+
+#: /usr/share/appdata/evince-psdocument.metainfo.xml:5
+msgctxt "Name(evince-psdocument)"
+msgid "PostScript Documents"
+msgstr "PostScript-documenten"
+
+#: /usr/share/appdata/evince-psdocument.metainfo.xml:98
+msgctxt "Summary(evince-psdocument)"
+msgid "Adds support for reading PostScript documents"
+msgstr "Voegt ondersteuning toe voor het lezen van PostScript-documenten"
+
+#: /usr/share/appdata/evince-comicsdocument.metainfo.xml:5
+msgctxt "Name(evince-comicsdocument)"
+msgid "Comic Books"
+msgstr "Stripboeken"
+
+#: /usr/share/appdata/evince-comicsdocument.metainfo.xml:98
+msgctxt "Summary(evince-comicsdocument)"
+msgid "Adds support for reading comic books"
+msgstr "Voegt ondersteuning toe voor het lezen van stripboeken"
+
+#: /usr/share/appdata/evince-tiffdocument.metainfo.xml:5
+msgctxt "Name(evince-tiffdocument)"
+msgid "TIFF Documents"
+msgstr "TIFF-documenten"
+
+#: /usr/share/appdata/evince-tiffdocument.metainfo.xml:76
+msgctxt "Summary(evince-tiffdocument)"
+msgid "Adds support for reading TIFF documents"
+msgstr "Voegt ondersteuning toe voor het lezen TIFF-documenten"
+
 #: /usr/share/appdata/evolution-ews.metainfo.xml:5
 msgctxt "Name(evolution-ews)"
 msgid "Exchange Web Services"
@@ -1406,15 +1419,15 @@ msgctxt "Summary(evolution-rss)"
 msgid "Read RSS feeds"
 msgstr ""
 
-#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:5
-msgctxt "Name(evolution-bogofilter)"
-msgid "Bogofilter"
-msgstr "Bogofilter"
+#: /usr/share/appdata/evolution-spamassassin.metainfo.xml:5
+msgctxt "Name(evolution-spamassassin)"
+msgid "SpamAssassin"
+msgstr "SpamAssassin"
 
-#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:67
-msgctxt "Summary(evolution-bogofilter)"
-msgid "Junk filter using Bogofilter"
-msgstr "Spamfilter gebruikmakend van Bogofilter"
+#: /usr/share/appdata/evolution-spamassassin.metainfo.xml:69
+msgctxt "Summary(evolution-spamassassin)"
+msgid "Junk filter using SpamAssassin"
+msgstr "Spamfilter gebruikmakend van SpamAssassin"
 
 #: /usr/share/appdata/evolution.appdata.xml:6
 msgctxt "Name(evolution.desktop)"
@@ -1426,6 +1439,16 @@ msgctxt "Summary(evolution.desktop)"
 msgid "Manage your email, contacts and schedule"
 msgstr "Uw e-mail, adresboek en agenda beheren"
 
+#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:5
+msgctxt "Name(evolution-bogofilter)"
+msgid "Bogofilter"
+msgstr "Bogofilter"
+
+#: /usr/share/appdata/evolution-bogofilter.metainfo.xml:67
+msgctxt "Summary(evolution-bogofilter)"
+msgid "Junk filter using Bogofilter"
+msgstr "Spamfilter gebruikmakend van Bogofilter"
+
 #: /usr/share/appdata/evolution-pst.metainfo.xml:5
 msgctxt "Name(evolution-pst)"
 msgid "Outlook PST import"
@@ -1435,16 +1458,6 @@ msgstr ""
 msgctxt "Summary(evolution-pst)"
 msgid "Import Outlook messages from PST file"
 msgstr ""
-
-#: /usr/share/appdata/evolution-spamassassin.metainfo.xml:5
-msgctxt "Name(evolution-spamassassin)"
-msgid "SpamAssassin"
-msgstr "SpamAssassin"
-
-#: /usr/share/appdata/evolution-spamassassin.metainfo.xml:69
-msgctxt "Summary(evolution-spamassassin)"
-msgid "Junk filter using SpamAssassin"
-msgstr "Spamfilter gebruikmakend van SpamAssassin"
 
 #: /usr/share/metainfo/org.kde.falkon.appdata.xml:6
 msgctxt "Name(org.kde.falkon.desktop)"
@@ -1666,28 +1679,6 @@ msgctxt "Summary(gedit-code-assistance)"
 msgid "Assistance when writing code"
 msgstr ""
 
-#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:5
-msgctxt "Name(gedit-colorschemer)"
-msgid "Color Scheme Editor"
-msgstr "Kleurenschemabewerker"
-
-#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:41
-msgctxt "Summary(gedit-colorschemer)"
-msgid "Create and edit the color scheme used for syntax highlighting"
-msgstr "Het kleurenschema gebruikt voor syntax-markering maken en bewerken"
-
-#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:5
-#, fuzzy
-msgctxt "Name(gedit-colorpicker)"
-msgid "Color picker"
-msgstr "Kleurenkiezer"
-
-#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:42
-msgctxt "Summary(gedit-colorpicker)"
-msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
-msgstr ""
-"Een kleur uit een dialoogvenster selecteren en invoegen (voor HTML, CSS, PHP)"
-
 #: /usr/share/appdata/gedit-joinlines.metainfo.xml:5
 msgctxt "Name(gedit-joinlines)"
 msgid "Join lines/ Split lines"
@@ -1697,6 +1688,27 @@ msgstr "Regels samenvoegen/splitsen"
 msgctxt "Summary(gedit-joinlines)"
 msgid "Join or split multiple lines through Ctrl+J and Ctrl+Shift+J"
 msgstr "Meerdere regels samenvoegen of splitsen met Ctrl+J en Ctrl+Shift+J"
+
+#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:5
+msgctxt "Name(gedit-drawspaces)"
+msgid "Draw spaces"
+msgstr "Spaties tonen"
+
+#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:47
+msgctxt "Summary(gedit-drawspaces)"
+msgid "Draw Spaces and Tabs"
+msgstr "Spaties en tabs tonen"
+
+#: /usr/share/appdata/gedit-textsize.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-textsize)"
+msgid "Text size"
+msgstr "Tekst"
+
+#: /usr/share/appdata/gedit-textsize.metainfo.xml:41
+msgctxt "Summary(gedit-textsize)"
+msgid "Easily increase and decrease the text size"
+msgstr "De tekst gemakkelijk groter of kleiner maken"
 
 #: /usr/share/appdata/gedit-bookmarks.metainfo.xml:5
 #, fuzzy
@@ -1711,19 +1723,6 @@ msgctxt "Summary(gedit-bookmarks)"
 msgid "Easy document navigation with bookmarks"
 msgstr "Gemakkelijke documentnavigatie met bladwijzers"
 
-#: /usr/share/appdata/gedit-commander.metainfo.xml:5
-#, fuzzy
-#| msgctxt "Name(gcm-viewer.desktop)"
-#| msgid "GNOME Color Manager"
-msgctxt "Name(gedit-commander)"
-msgid "Commander"
-msgstr "GNOME-kleurbeheer"
-
-#: /usr/share/appdata/gedit-commander.metainfo.xml:45
-msgctxt "Summary(gedit-commander)"
-msgid "Command line interface for advanced editing"
-msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
-
 #: /usr/share/appdata/gedit-dashboard.metainfo.xml:5
 msgctxt "Name(gedit-dashboard)"
 msgid "Dashboard"
@@ -1736,15 +1735,17 @@ msgstr ""
 "Een raster van recent/meest gebruikte bestanden weergeven bij het openen van "
 "een nieuw tabblad"
 
-#: /usr/share/appdata/gedit-charmap.metainfo.xml:5
-msgctxt "Name(gedit-charmap)"
-msgid "Charmap"
-msgstr "Tekenlijst"
+#: /usr/share/appdata/gedit-multiedit.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-multiedit)"
+msgid "Multi edit"
+msgstr "MultiWriter"
 
-#: /usr/share/appdata/gedit-charmap.metainfo.xml:41
-msgctxt "Summary(gedit-charmap)"
-msgid "Select characters from a character map"
-msgstr "Tekens selecteren in een tekenlijst"
+#: /usr/share/appdata/gedit-multiedit.metainfo.xml:38
+#, fuzzy
+msgctxt "Summary(gedit-multiedit)"
+msgid "Edit document in multiple places at once"
+msgstr "Schrijf een ISO-bestand naar meerdere USB-apparaten tegelijk"
 
 #: /usr/share/appdata/gedit-synctex.metainfo.xml:5
 msgctxt "Name(gedit-synctex)"
@@ -1755,16 +1756,6 @@ msgstr "SyncTeX"
 msgctxt "Summary(gedit-synctex)"
 msgid "Synchronize between LaTeX and PDF with gedit and evince"
 msgstr "Tussen LaTeX en PDF synchroniseren met gedit en evince"
-
-#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:5
-msgctxt "Name(gedit-smartspaces)"
-msgid "Smart Spaces"
-msgstr "Slimme spaties"
-
-#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:45
-msgctxt "Summary(gedit-smartspaces)"
-msgid "Allow to unindent like if you were using tabs while you’re using spaces"
-msgstr "Uitlijnen met tabs terwijl u eigenlijk spaties gebruikt"
 
 #: /usr/share/appdata/gedit-findinfiles.metainfo.xml:5
 #, fuzzy
@@ -1778,6 +1769,41 @@ msgstr "Bestanden/mappen zoeken"
 msgctxt "Summary(gedit-findinfiles)"
 msgid "Find text in all files of a folder"
 msgstr "Tekst zoeken in alle bestanden in een map"
+
+#: /usr/share/appdata/gedit-commander.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Name(gcm-viewer.desktop)"
+#| msgid "GNOME Color Manager"
+msgctxt "Name(gedit-commander)"
+msgid "Commander"
+msgstr "GNOME-kleurbeheer"
+
+#: /usr/share/appdata/gedit-commander.metainfo.xml:45
+msgctxt "Summary(gedit-commander)"
+msgid "Command line interface for advanced editing"
+msgstr "Opdrachtlijn-interface voor geavanceerd bewerken"
+
+#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:5
+#, fuzzy
+msgctxt "Name(gedit-colorpicker)"
+msgid "Color picker"
+msgstr "Kleurenkiezer"
+
+#: /usr/share/appdata/gedit-colorpicker.metainfo.xml:42
+msgctxt "Summary(gedit-colorpicker)"
+msgid "Select and insert a color from a dialog (for HTML, CSS, PHP)"
+msgstr ""
+"Een kleur uit een dialoogvenster selecteren en invoegen (voor HTML, CSS, PHP)"
+
+#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:5
+msgctxt "Name(gedit-colorschemer)"
+msgid "Color Scheme Editor"
+msgstr "Kleurenschemabewerker"
+
+#: /usr/share/appdata/gedit-colorschemer.metainfo.xml:41
+msgctxt "Summary(gedit-colorschemer)"
+msgid "Create and edit the color scheme used for syntax highlighting"
+msgstr "Het kleurenschema gebruikt voor syntax-markering maken en bewerken"
 
 #: /usr/share/appdata/gedit-git.metainfo.xml:5
 msgctxt "Name(gedit-git)"
@@ -1793,19 +1819,6 @@ msgstr ""
 "Git-informatie gebruiken om weer te geven welke regels en bestanden zijn "
 "veranderd sinds de laatste commit"
 
-#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:5
-msgctxt "Name(gedit-wordcompletion)"
-msgid "Word completion"
-msgstr "Woordaanvulling"
-
-#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:40
-msgctxt "Summary(gedit-wordcompletion)"
-msgid ""
-"Propose automatic completion using words already present in the document"
-msgstr ""
-"Automatische aanvulling voorstellen gebruikmakend van woorden die al in het "
-"document voorkomen"
-
 #: /usr/share/appdata/gedit-bracketcompletion.metainfo.xml:5
 msgctxt "Name(gedit-bracketcompletion)"
 msgid "Bracket Completion"
@@ -1815,50 +1828,6 @@ msgstr "Haakjes-voltooiing"
 msgctxt "Summary(gedit-bracketcompletion)"
 msgid "Automatically add a closing bracket when you insert one"
 msgstr "Als u een haakje invoegt, automatisch een haakje sluiten toevoegen"
-
-#: /usr/share/appdata/gedit-translate.metainfo.xml:5
-#, fuzzy
-#| msgctxt "Name(terminator.desktop)"
-#| msgid "Terminator"
-msgctxt "Name(gedit-translate)"
-msgid "Translate"
-msgstr "Terminator"
-
-#: /usr/share/appdata/gedit-translate.metainfo.xml:24
-msgctxt "Summary(gedit-translate)"
-msgid "Translates text into different languages"
-msgstr "Vertaalt tekst in verschillende talen"
-
-#: /usr/share/appdata/gedit-textsize.metainfo.xml:5
-#, fuzzy
-msgctxt "Name(gedit-textsize)"
-msgid "Text size"
-msgstr "Tekst"
-
-#: /usr/share/appdata/gedit-textsize.metainfo.xml:41
-msgctxt "Summary(gedit-textsize)"
-msgid "Easily increase and decrease the text size"
-msgstr "De tekst gemakkelijk groter of kleiner maken"
-
-#: /usr/share/appdata/gedit-codecomment.metainfo.xml:5
-msgctxt "Name(gedit-codecomment)"
-msgid "Code Comment"
-msgstr "Commentaar"
-
-#: /usr/share/appdata/gedit-codecomment.metainfo.xml:45
-msgctxt "Summary(gedit-codecomment)"
-msgid "Comment or uncomment blocks of code"
-msgstr "Een blok code van commentaar voorzien of uit commentaar halen"
-
-#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:5
-msgctxt "Name(gedit-drawspaces)"
-msgid "Draw spaces"
-msgstr "Spaties tonen"
-
-#: /usr/share/appdata/gedit-drawspaces.metainfo.xml:47
-msgctxt "Summary(gedit-drawspaces)"
-msgid "Draw Spaces and Tabs"
-msgstr "Spaties en tabs tonen"
 
 #: /usr/share/appdata/gedit-zeitgeist.metainfo.xml:5
 msgctxt "Name(gedit-zeitgeist)"
@@ -1874,17 +1843,51 @@ msgstr ""
 "Neemt gebruikersactiviteiten op en geeft gemakkelijk toegang tot vaak "
 "gebruikte en recente bestanden"
 
-#: /usr/share/appdata/gedit-multiedit.metainfo.xml:5
-#, fuzzy
-msgctxt "Name(gedit-multiedit)"
-msgid "Multi edit"
-msgstr "MultiWriter"
+#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:5
+msgctxt "Name(gedit-wordcompletion)"
+msgid "Word completion"
+msgstr "Woordaanvulling"
 
-#: /usr/share/appdata/gedit-multiedit.metainfo.xml:38
+#: /usr/share/appdata/gedit-wordcompletion.metainfo.xml:40
+msgctxt "Summary(gedit-wordcompletion)"
+msgid ""
+"Propose automatic completion using words already present in the document"
+msgstr ""
+"Automatische aanvulling voorstellen gebruikmakend van woorden die al in het "
+"document voorkomen"
+
+#: /usr/share/appdata/gedit-translate.metainfo.xml:5
 #, fuzzy
-msgctxt "Summary(gedit-multiedit)"
-msgid "Edit document in multiple places at once"
-msgstr "Schrijf een ISO-bestand naar meerdere USB-apparaten tegelijk"
+#| msgctxt "Name(terminator.desktop)"
+#| msgid "Terminator"
+msgctxt "Name(gedit-translate)"
+msgid "Translate"
+msgstr "Terminator"
+
+#: /usr/share/appdata/gedit-translate.metainfo.xml:24
+msgctxt "Summary(gedit-translate)"
+msgid "Translates text into different languages"
+msgstr "Vertaalt tekst in verschillende talen"
+
+#: /usr/share/appdata/gedit-codecomment.metainfo.xml:5
+msgctxt "Name(gedit-codecomment)"
+msgid "Code Comment"
+msgstr "Commentaar"
+
+#: /usr/share/appdata/gedit-codecomment.metainfo.xml:45
+msgctxt "Summary(gedit-codecomment)"
+msgid "Comment or uncomment blocks of code"
+msgstr "Een blok code van commentaar voorzien of uit commentaar halen"
+
+#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:5
+msgctxt "Name(gedit-smartspaces)"
+msgid "Smart Spaces"
+msgstr "Slimme spaties"
+
+#: /usr/share/appdata/gedit-smartspaces.metainfo.xml:45
+msgctxt "Summary(gedit-smartspaces)"
+msgid "Allow to unindent like if you were using tabs while you’re using spaces"
+msgstr "Uitlijnen met tabs terwijl u eigenlijk spaties gebruikt"
 
 #: /usr/share/appdata/gedit-terminal.metainfo.xml:5
 #, fuzzy
@@ -1898,6 +1901,16 @@ msgstr "Terminal"
 msgctxt "Summary(gedit-terminal)"
 msgid "A simple terminal widget accessible from the bottom panel"
 msgstr "Een simpele terminal-widget, toegankelijk van het paneel beneden"
+
+#: /usr/share/appdata/gedit-charmap.metainfo.xml:5
+msgctxt "Name(gedit-charmap)"
+msgid "Charmap"
+msgstr "Tekenlijst"
+
+#: /usr/share/appdata/gedit-charmap.metainfo.xml:41
+msgctxt "Summary(gedit-charmap)"
+msgid "Select characters from a character map"
+msgstr "Tekens selecteren in een tekenlijst"
 
 #: /usr/share/appdata/org.gnome.gedit.appdata.xml:6
 msgctxt "Name(org.gnome.gedit.desktop)"
@@ -2120,22 +2133,6 @@ msgctxt "Summary(org.gnome.DiskUtility.desktop)"
 msgid "Disk management utility for GNOME"
 msgstr "Takenbeheer voor Gnome"
 
-#: /usr/share/appdata/org.gnome.Documents.appdata.xml:7
-#, fuzzy
-#| msgctxt "Name(evince-pdfocument)"
-#| msgid "PDF Documents"
-msgctxt "Name(org.gnome.Documents.desktop)"
-msgid "Documents"
-msgstr "PDF-documenten"
-
-#: /usr/share/appdata/org.gnome.Documents.appdata.xml:78
-#, fuzzy
-#| msgctxt "Summary(org.gnome.Contacts.desktop)"
-#| msgid "A contacts manager for GNOME"
-msgctxt "Summary(org.gnome.Documents.desktop)"
-msgid "A document manager application for GNOME"
-msgstr "Contactenbeheer voor de Gnome-werkomgeving"
-
 #: /usr/share/appdata/org.gnome.Books.appdata.xml:7
 #, fuzzy
 #| msgctxt "Name(evince-comicsdocument)"
@@ -2150,6 +2147,22 @@ msgstr "Stripboeken"
 #| msgid "A contacts manager for GNOME"
 msgctxt "Summary(org.gnome.Books.desktop)"
 msgid "An e-book manager application for GNOME"
+msgstr "Contactenbeheer voor de Gnome-werkomgeving"
+
+#: /usr/share/appdata/org.gnome.Documents.appdata.xml:7
+#, fuzzy
+#| msgctxt "Name(evince-pdfocument)"
+#| msgid "PDF Documents"
+msgctxt "Name(org.gnome.Documents.desktop)"
+msgid "Documents"
+msgstr "PDF-documenten"
+
+#: /usr/share/appdata/org.gnome.Documents.appdata.xml:78
+#, fuzzy
+#| msgctxt "Summary(org.gnome.Contacts.desktop)"
+#| msgid "A contacts manager for GNOME"
+msgctxt "Summary(org.gnome.Documents.desktop)"
+msgid "A document manager application for GNOME"
 msgstr "Contactenbeheer voor de Gnome-werkomgeving"
 
 #: /usr/share/metainfo/org.gnome.font-viewer.appdata.xml:6
@@ -2382,25 +2395,15 @@ msgctxt "Summary(org.gnome.Screenshot.desktop)"
 msgid "Save images of your screen or individual windows"
 msgstr "Afbeeldingen van uw bureaublad of vensters maken"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Epiphany)"
-msgid "Web Apps Support"
-msgstr "Webapps-ondersteuning"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Flatpak)"
+msgid "Flatpak Support"
+msgstr "Flatpak-ondersteuning"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:48
-msgctxt "Summary(org.gnome.Software.Plugin.Epiphany)"
-msgid "Run popular web applications in a browser"
-msgstr "Voer populaire webtoepassingen uit in een browser"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Fwupd)"
-msgid "Firmware Upgrade Support"
-msgstr "Ondersteuning voor opwaarderen van firmware"
-
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:46
-msgctxt "Summary(org.gnome.Software.Plugin.Fwupd)"
-msgid "Provides support for firmware upgrades"
-msgstr "Biedt ondersteuning voor het opwaarderen van firmware"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:47
+msgctxt "Summary(org.gnome.Software.Plugin.Flatpak)"
+msgid "Flatpak is a framework for desktop applications on Linux"
+msgstr "Flatpak is een raamwerk voor bureaubladtoepassingen op Linux"
 
 #: /usr/share/metainfo/org.gnome.Software.Plugin.Steam.metainfo.xml:6
 msgctxt "Name(org.gnome.Software.Plugin.Steam)"
@@ -2412,15 +2415,15 @@ msgctxt "Summary(org.gnome.Software.Plugin.Steam)"
 msgid "The ultimate entertainment platform from Valve"
 msgstr "Het ultieme amusementsplatform van Valve"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Odrs.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Odrs)"
-msgid "Open Desktop Ratings Support"
-msgstr "Open Desktop Ratings-ondersteuning"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Fwupd)"
+msgid "Firmware Upgrade Support"
+msgstr "Ondersteuning voor opwaarderen van firmware"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Odrs.metainfo.xml:46
-msgctxt "Summary(org.gnome.Software.Plugin.Odrs)"
-msgid "ODRS is a service providing user reviews of applications"
-msgstr "ODRS is een dienst die gebruikersrecensies van toepassingen aanbiedt"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Fwupd.metainfo.xml:46
+msgctxt "Summary(org.gnome.Software.Plugin.Fwupd)"
+msgid "Provides support for firmware upgrades"
+msgstr "Biedt ondersteuning voor het opwaarderen van firmware"
 
 #: /usr/share/metainfo/org.gnome.Software.appdata.xml:7
 msgctxt "Name(org.gnome.Software.desktop)"
@@ -2432,15 +2435,25 @@ msgctxt "Summary(org.gnome.Software.desktop)"
 msgid "Application manager for GNOME"
 msgstr "Toepassingsbeheer voor Gnome"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:6
-msgctxt "Name(org.gnome.Software.Plugin.Flatpak)"
-msgid "Flatpak Support"
-msgstr "Flatpak-ondersteuning"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Epiphany)"
+msgid "Web Apps Support"
+msgstr "Webapps-ondersteuning"
 
-#: /usr/share/metainfo/org.gnome.Software.Plugin.Flatpak.metainfo.xml:47
-msgctxt "Summary(org.gnome.Software.Plugin.Flatpak)"
-msgid "Flatpak is a framework for desktop applications on Linux"
-msgstr "Flatpak is een raamwerk voor bureaubladtoepassingen op Linux"
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Epiphany.metainfo.xml:48
+msgctxt "Summary(org.gnome.Software.Plugin.Epiphany)"
+msgid "Run popular web applications in a browser"
+msgstr "Voer populaire webtoepassingen uit in een browser"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Odrs.metainfo.xml:6
+msgctxt "Name(org.gnome.Software.Plugin.Odrs)"
+msgid "Open Desktop Ratings Support"
+msgstr "Open Desktop Ratings-ondersteuning"
+
+#: /usr/share/metainfo/org.gnome.Software.Plugin.Odrs.metainfo.xml:46
+msgctxt "Summary(org.gnome.Software.Plugin.Odrs)"
+msgid "ODRS is a service providing user reviews of applications"
+msgstr "ODRS is een dienst die gebruikersrecensies van toepassingen aanbiedt"
 
 #: /usr/share/appdata/org.gnome.SoundRecorder.appdata.xml:4
 #, fuzzy
@@ -2676,6 +2689,22 @@ msgstr "Afbeeldingenviewer"
 msgctxt "Summary(org.gnome.gThumb.desktop)"
 msgid "View and organize your images"
 msgstr "Bestanden gebruiken en organiseren"
+
+#: /usr/share/metainfo/guake.appdata.xml:6
+#, fuzzy
+#| msgctxt "Name(org.kde.yakuake.desktop)"
+#| msgid "Yakuake"
+msgctxt "Name(guake.desktop)"
+msgid "Guake"
+msgstr "Yakuake"
+
+#: /usr/share/metainfo/guake.appdata.xml:7
+#, fuzzy
+#| msgctxt "Summary(org.kde.yakuake.desktop)"
+#| msgid "Drop-down Terminal"
+msgctxt "Summary(guake.desktop)"
+msgid "Top-down terminal"
+msgstr "Uitvouwbare terminalemulator"
 
 #: /usr/share/metainfo/org.kde.gwenview.appdata.xml:6
 msgctxt "Name(org.kde.gwenview.desktop)"
@@ -2989,22 +3018,22 @@ msgctxt "Summary(org.kde.kalarm.desktop)"
 msgid "Personal Alarm Scheduler"
 msgstr "Persoonlijke alarmplanner"
 
-#: /usr/share/metainfo/org.kde.kalgebra.appdata.xml:6
-msgctxt "Name(org.kde.kalgebra.desktop)"
-msgid "KAlgebra"
-msgstr "KAlgebra"
-
-#: /usr/share/metainfo/org.kde.kalgebra.appdata.xml:39
-msgctxt "Summary(org.kde.kalgebra.desktop)"
-msgid "Graph Calculator"
-msgstr "Rekenmachine met grafieken"
-
 #: /usr/share/metainfo/org.kde.kalgebramobile.appdata.xml:6
 #, fuzzy
 #| msgctxt "Name(org.kde.kalgebra.desktop)"
 #| msgid "KAlgebra"
 msgctxt "Name(org.kde.kalgebra.desktop)"
 msgid "KAlgebra Mobile"
+msgstr "KAlgebra"
+
+#: /usr/share/metainfo/org.kde.kalgebramobile.appdata.xml:28
+msgctxt "Summary(org.kde.kalgebra.desktop)"
+msgid "Graph Calculator"
+msgstr "Rekenmachine met grafieken"
+
+#: /usr/share/metainfo/org.kde.kalgebra.appdata.xml:6
+msgctxt "Name(org.kde.kalgebra.desktop)"
+msgid "KAlgebra"
 msgstr "KAlgebra"
 
 #: /usr/share/metainfo/org.kde.kalzium.appdata.xml:6
@@ -3449,16 +3478,6 @@ msgctxt "Summary(org.kde.Help.desktop)"
 msgid "Help Center"
 msgstr "Hulpcentrum"
 
-#: /usr/share/metainfo/net.sourceforge.kid3-qt.appdata.xml:7
-msgctxt "Name(net.sourceforge.kid3-qt.desktop)"
-msgid "Kid3"
-msgstr ""
-
-#: /usr/share/metainfo/net.sourceforge.kid3-qt.appdata.xml:8
-msgctxt "Summary(net.sourceforge.kid3-qt.desktop)"
-msgid "Edit audio file metadata"
-msgstr ""
-
 #: /usr/share/metainfo/net.sourceforge.kid3.appdata.xml:7
 msgctxt "Name(net.sourceforge.kid3.desktop)"
 msgid "Kid3"
@@ -3466,6 +3485,16 @@ msgstr ""
 
 #: /usr/share/metainfo/net.sourceforge.kid3.appdata.xml:8
 msgctxt "Summary(net.sourceforge.kid3.desktop)"
+msgid "Edit audio file metadata"
+msgstr ""
+
+#: /usr/share/metainfo/net.sourceforge.kid3-qt.appdata.xml:7
+msgctxt "Name(net.sourceforge.kid3-qt.desktop)"
+msgid "Kid3"
+msgstr ""
+
+#: /usr/share/metainfo/net.sourceforge.kid3-qt.appdata.xml:8
+msgctxt "Summary(net.sourceforge.kid3-qt.desktop)"
 msgid "Edit audio file metadata"
 msgstr ""
 
@@ -3616,6 +3645,16 @@ msgctxt "Summary(org.kde.klettres.desktop)"
 msgid "Learn The Alphabet"
 msgstr "Leer het alfabet"
 
+#: /usr/share/metainfo/org.kde.klickety.appdata.xml:6
+msgctxt "Name(org.kde.klickety.desktop)"
+msgid "Klickety"
+msgstr "Klickety"
+
+#: /usr/share/metainfo/org.kde.klickety.appdata.xml:38
+msgctxt "Summary(org.kde.klickety.desktop)"
+msgid "Klickety is an adaptation of the \"clickomania\" game"
+msgstr "Klickety is een aanpassing van het spel \"clickomania\""
+
 #: /usr/share/metainfo/org.kde.ksame.appdata.xml:6
 msgctxt "Name(org.kde.ksame.desktop)"
 msgid "KSame"
@@ -3629,16 +3668,6 @@ msgid ""
 msgstr ""
 "KSame is spelmodus van het spel Klickety, dat een aanpassing is van het spel "
 "\"clickomania\""
-
-#: /usr/share/metainfo/org.kde.klickety.appdata.xml:6
-msgctxt "Name(org.kde.klickety.desktop)"
-msgid "Klickety"
-msgstr "Klickety"
-
-#: /usr/share/metainfo/org.kde.klickety.appdata.xml:38
-msgctxt "Summary(org.kde.klickety.desktop)"
-msgid "Klickety is an adaptation of the \"clickomania\" game"
-msgstr "Klickety is een aanpassing van het spel \"clickomania\""
 
 #: /usr/share/metainfo/org.kde.klines.appdata.xml:6
 #, fuzzy
@@ -4055,7 +4084,7 @@ msgctxt "Name(org.kde.krusader.desktop)"
 msgid "Krusader"
 msgstr "Krusader"
 
-#: /usr/share/metainfo/org.kde.krusader.appdata.xml:37
+#: /usr/share/metainfo/org.kde.krusader.appdata.xml:40
 msgctxt "Summary(org.kde.krusader.desktop)"
 msgid "File Manager"
 msgstr "Bestandsbeheerder"
@@ -4167,7 +4196,7 @@ msgctxt "Name(org.kde.ktorrent.desktop)"
 msgid "KTorrent"
 msgstr "KTorrent"
 
-#: /usr/share/metainfo/org.kde.ktorrent.appdata.xml:35
+#: /usr/share/metainfo/org.kde.ktorrent.appdata.xml:37
 msgctxt "Summary(org.kde.ktorrent.desktop)"
 msgid "BitTorrent Client"
 msgstr "BitTorrent-cliënt"
@@ -4286,16 +4315,6 @@ msgctxt "Summary(org.gnome.latexila.desktop)"
 msgid "Integrated LaTeX environment"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:5
-msgctxt "Name(org.kde.latte.shell)"
-msgid "Latte Shell"
-msgstr "Latte-shell"
-
-#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:29
-msgctxt "Summary(org.kde.latte.shell)"
-msgid "Shell provided for the Latte Dock"
-msgstr "Shell geleverd voor de Latte Dock"
-
 #: /usr/share/metainfo/org.kde.latte.plasmoid.appdata.xml:4
 msgctxt "Name(org.kde.latte.plasmoid)"
 msgid "Latte Plasmoid"
@@ -4326,6 +4345,16 @@ msgctxt "Summary(audoban.applet.separator)"
 msgid "For all your separation tasks"
 msgstr "Voor al uw scheidingstaken"
 
+#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:5
+msgctxt "Name(org.kde.latte.shell)"
+msgid "Latte Shell"
+msgstr "Latte-shell"
+
+#: /usr/share/metainfo/org.kde.latte.shell.appdata.xml:29
+msgctxt "Summary(org.kde.latte.shell)"
+msgid "Shell provided for the Latte Dock"
+msgstr "Shell geleverd voor de Latte Dock"
+
 #: /usr/share/metainfo/org.qt-project.qtcreator.appdata.xml:5
 #, fuzzy
 #| msgctxt "Name(org.kde.akregator.desktop)"
@@ -4340,27 +4369,6 @@ msgid ""
 "Provides a cross-platform, complete integrated development environment (IDE) "
 "for application developers to create applications for multiple platforms and "
 "devices"
-msgstr ""
-
-#: /usr/share/appdata/impress.appdata.xml:6
-msgctxt "Name(impress.desktop)"
-msgid "LibreOffice Impress"
-msgstr ""
-
-#: /usr/share/appdata/impress.appdata.xml:7
-msgctxt "Summary(impress.desktop)"
-msgid "Presentation program of the LibreOffice productivity suite"
-msgstr ""
-
-#: /usr/share/appdata/org.libreoffice.kde.metainfo.xml:13
-msgctxt "Name(org.libreoffice.kde)"
-msgid "LibreOffice KDE Integration"
-msgstr ""
-
-#: /usr/share/appdata/org.libreoffice.kde.metainfo.xml:14
-msgctxt "Summary(org.libreoffice.kde)"
-msgid ""
-"Improves LibreOffice integration within the KDE Plasma desktop environment"
 msgstr ""
 
 #: /usr/share/appdata/writer.appdata.xml:6
@@ -4383,6 +4391,27 @@ msgctxt "Summary(base.desktop)"
 msgid "Database manager part of the LibreOffice productivity suite"
 msgstr ""
 
+#: /usr/share/appdata/draw.appdata.xml:6
+msgctxt "Name(draw.desktop)"
+msgid "LibreOffice Draw"
+msgstr ""
+
+#: /usr/share/appdata/draw.appdata.xml:7
+msgctxt "Summary(draw.desktop)"
+msgid "Graphics editor part of the LibreOffice productivity suite"
+msgstr ""
+
+#: /usr/share/appdata/org.libreoffice.kde.metainfo.xml:13
+msgctxt "Name(org.libreoffice.kde)"
+msgid "LibreOffice KDE Integration"
+msgstr ""
+
+#: /usr/share/appdata/org.libreoffice.kde.metainfo.xml:14
+msgctxt "Summary(org.libreoffice.kde)"
+msgid ""
+"Improves LibreOffice integration within the KDE Plasma desktop environment"
+msgstr ""
+
 #: /usr/share/appdata/calc.appdata.xml:6
 msgctxt "Name(calc.desktop)"
 msgid "LibreOffice Calc"
@@ -4393,14 +4422,14 @@ msgctxt "Summary(calc.desktop)"
 msgid "Spreadsheet program of the LibreOffice productivity suite"
 msgstr ""
 
-#: /usr/share/appdata/draw.appdata.xml:6
-msgctxt "Name(draw.desktop)"
-msgid "LibreOffice Draw"
+#: /usr/share/appdata/impress.appdata.xml:6
+msgctxt "Name(impress.desktop)"
+msgid "LibreOffice Impress"
 msgstr ""
 
-#: /usr/share/appdata/draw.appdata.xml:7
-msgctxt "Summary(draw.desktop)"
-msgid "Graphics editor part of the LibreOffice productivity suite"
+#: /usr/share/appdata/impress.appdata.xml:7
+msgctxt "Summary(impress.desktop)"
+msgid "Presentation program of the LibreOffice productivity suite"
 msgstr ""
 
 #: /usr/share/appdata/liferea.appdata.xml:5
@@ -4593,16 +4622,6 @@ msgctxt "Summary(mate-terminal.desktop)"
 msgid "A terminal emulator for the MATE desktop environment"
 msgstr "Een terminal emulator voor de MATE bureaublad omgeving"
 
-#: /usr/share/appdata/mate-disk-usage-analyzer.appdata.xml:6
-msgctxt "Name(mate-disk-usage-analyzer.desktop)"
-msgid "MATE Disk Usage Analyzer"
-msgstr ""
-
-#: /usr/share/appdata/mate-disk-usage-analyzer.appdata.xml:7
-msgctxt "Summary(mate-disk-usage-analyzer.desktop)"
-msgid "A disk usage analyzing tool for MATE Desktop"
-msgstr "Een schrijfgebruik analyse hulpmiddel voor MATE Bureaublad"
-
 #: /usr/share/appdata/mate-dictionary.appdata.xml:6
 msgctxt "Name(mate-dictionary.desktop)"
 msgid "MATE Dictionary"
@@ -4613,15 +4632,15 @@ msgctxt "Summary(mate-dictionary.desktop)"
 msgid "A dictionary for MATE Desktop"
 msgstr "Een woordenboek voor MATE Bureaublad"
 
-#: /usr/share/appdata/mate-screenshot.appdata.xml:6
-msgctxt "Name(mate-screenshot.desktop)"
-msgid "MATE Screenshot"
+#: /usr/share/appdata/mate-disk-usage-analyzer.appdata.xml:6
+msgctxt "Name(mate-disk-usage-analyzer.desktop)"
+msgid "MATE Disk Usage Analyzer"
 msgstr ""
 
-#: /usr/share/appdata/mate-screenshot.appdata.xml:7
-msgctxt "Summary(mate-screenshot.desktop)"
-msgid "A screenshot utility for MATE Desktop"
-msgstr "Een schermafdruk hulpprogramma voor MATE Bureaublad"
+#: /usr/share/appdata/mate-disk-usage-analyzer.appdata.xml:7
+msgctxt "Summary(mate-disk-usage-analyzer.desktop)"
+msgid "A disk usage analyzing tool for MATE Desktop"
+msgstr "Een schrijfgebruik analyse hulpmiddel voor MATE Bureaublad"
 
 #: /usr/share/appdata/mate-search-tool.appdata.xml:6
 #, fuzzy
@@ -4633,6 +4652,16 @@ msgstr "Gnome Afstelhulp"
 msgctxt "Summary(mate-search-tool.desktop)"
 msgid "A file searching tool for MATE Desktop"
 msgstr "Een hulpmiddel voor het zoeken naar bestanden voor MATE Bureaublad"
+
+#: /usr/share/appdata/mate-screenshot.appdata.xml:6
+msgctxt "Name(mate-screenshot.desktop)"
+msgid "MATE Screenshot"
+msgstr ""
+
+#: /usr/share/appdata/mate-screenshot.appdata.xml:7
+msgctxt "Summary(mate-screenshot.desktop)"
+msgid "A screenshot utility for MATE Desktop"
+msgstr "Een schermafdruk hulpprogramma voor MATE Bureaublad"
 
 #: /usr/share/appdata/org.pantheon.maya.appdata.xml:7
 #, fuzzy
@@ -4750,16 +4779,6 @@ msgstr "Minuet"
 msgctxt "Summary(org.kde.minuet.desktop)"
 msgid "Music Education Software"
 msgstr "Software voor muziekonderwijs"
-
-#: /usr/share/metainfo/org.bunkus.mkvtoolnix-gui.appdata.xml:5
-msgctxt "Name(org.bunkus.mkvtoolnix-gui)"
-msgid "MKVToolNix"
-msgstr ""
-
-#: /usr/share/metainfo/org.bunkus.mkvtoolnix-gui.appdata.xml:9
-msgctxt "Summary(org.bunkus.mkvtoolnix-gui)"
-msgid "Matroska files creator and tools"
-msgstr ""
 
 #: /usr/share/metainfo/net.sourceforge.molsketch.appdata.xml:7
 msgctxt "Name(net.sourceforge.molsketch)"
@@ -4922,106 +4941,10 @@ msgctxt "Name(org.kde.okteta.desktop)"
 msgid "Okteta"
 msgstr "Okteta"
 
-#: /usr/share/metainfo/org.kde.okteta.appdata.xml:43
+#: /usr/share/metainfo/org.kde.okteta.appdata.xml:44
 msgctxt "Summary(org.kde.okteta.desktop)"
 msgid "Hex editor"
 msgstr "Hexbewerker"
-
-#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:7
-msgctxt "Name(org.kde.okular-kimgio)"
-msgid "Images"
-msgstr "Afbeeldingen"
-
-#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-kimgio)"
-msgid "Adds support for reading many image formats"
-msgstr "Ondersteuning toevoegen om vele afbeeldingsformaten te lezen"
-
-#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:7
-msgctxt "Name(org.kde.okular-spectre)"
-msgid "PostScript"
-msgstr "PostScript"
-
-#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:42
-msgctxt "Summary(org.kde.okular-spectre)"
-msgid "Adds support for reading PostScript documents"
-msgstr "Voegt ondersteuning voor lezen van PostScript-documenten toe"
-
-#: /usr/share/metainfo/org.kde.okular-fax.metainfo.xml:7
-msgctxt "Name(org.kde.okular-fax)"
-msgid "Fax"
-msgstr "Fax"
-
-#: /usr/share/metainfo/org.kde.okular-fax.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-fax)"
-msgid "Adds support for reading Fax documents"
-msgstr "Voegt ondersteuning voor lezen van faxdocumenten toe"
-
-#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:7
-msgctxt "Name(org.kde.okular-chm)"
-msgid "CHM Documents"
-msgstr "CHM-documenten"
-
-#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-chm)"
-msgid "Adds support for reading CHM documents"
-msgstr "Voegt ondersteuning voor lezen van CHM-documenten toe"
-
-#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:7
-msgctxt "Name(org.kde.okular-xps)"
-msgid "XPS"
-msgstr "XPS"
-
-#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-xps)"
-msgid "Adds support for reading XPS documents"
-msgstr "Voegt ondersteuning voor lezen van XPS-documenten toe"
-
-#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:7
-msgctxt "Name(org.kde.okular-mobipocket)"
-msgid "Mobipocket"
-msgstr "Mobipocket"
-
-#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-mobipocket)"
-msgid "Adds support for reading Mobipocket E-books"
-msgstr "Voegt ondersteuning voor lezen van Mobipocket e-boeken toe"
-
-#: /usr/share/metainfo/org.kde.okular.kirigami.appdata.xml:6
-#, fuzzy
-#| msgctxt "Name(org.kde.okular.desktop)"
-#| msgid "Okular"
-msgctxt "Name(org.kde.okular.kirigami.desktop)"
-msgid "Okular Mobile"
-msgstr "Okular"
-
-#: /usr/share/metainfo/org.kde.okular.kirigami.appdata.xml:30
-#, fuzzy
-#| msgctxt "Summary(org.kde.okular.desktop)"
-#| msgid "Document Viewer"
-msgctxt "Summary(org.kde.okular.kirigami.desktop)"
-msgid "Document Viewer"
-msgstr "Documentenviewer"
-
-#: /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml:7
-msgctxt "Name(org.kde.okular-poppler)"
-msgid "PDF"
-msgstr "PDF"
-
-#: /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-poppler)"
-msgid "Adds support for reading PDF documents"
-msgstr "Voegt ondersteuning voor lezen van PDF-documenten toe"
-
-#: /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml:7
-msgctxt "Name(org.kde.okular-tiff)"
-msgid "Tiff"
-msgstr "Tiff"
-
-#: /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-tiff)"
-msgid "Adds support for reading Tiff documents"
-msgstr "Voegt ondersteuning voor lezen van Tiff-documenten toe"
 
 #: /usr/share/metainfo/org.kde.okular-dvi.metainfo.xml:7
 msgctxt "Name(org.kde.okular-dvi)"
@@ -5032,39 +4955,6 @@ msgstr "DVI-documenten"
 msgctxt "Summary(org.kde.okular-dvi)"
 msgid "Adds support for reading DVI documents"
 msgstr "Voegt ondersteuning voor lezen van DVI-documenten toe"
-
-#: /usr/share/metainfo/org.kde.okular.appdata.xml:6
-msgctxt "Name(org.kde.okular.desktop)"
-msgid "Okular"
-msgstr "Okular"
-
-#: /usr/share/metainfo/org.kde.okular.appdata.xml:40
-msgctxt "Summary(org.kde.okular.desktop)"
-msgid "Document Viewer"
-msgstr "Documentenviewer"
-
-#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:7
-msgctxt "Name(org.kde.okular-fb)"
-msgid "FictionBook"
-msgstr "Fictie boek"
-
-#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-fb)"
-msgid "Adds support for reading FictionBooks"
-msgstr "Voegt ondersteuning voor lezen van fictie boeken toe"
-
-#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:7
-msgctxt "Name(org.kde.okular-md)"
-msgid "Markdown"
-msgstr "Markdown"
-
-#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:39
-#, fuzzy
-#| msgctxt "Summary(org.kde.okular-fax)"
-#| msgid "Adds support for reading Fax documents"
-msgctxt "Summary(org.kde.okular-md)"
-msgid "Adds support for reading Markdown documents"
-msgstr "Voegt ondersteuning voor lezen van faxdocumenten toe"
 
 #: /usr/share/metainfo/org.kde.okular-comicbook.metainfo.xml:7
 msgctxt "Name(org.kde.okular-comicbook)"
@@ -5086,6 +4976,16 @@ msgctxt "Summary(org.kde.okular-txt)"
 msgid "Adds support for reading plain text documents"
 msgstr "Voegt ondersteuning voor lezen van gewone tekstdocumenten toe"
 
+#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:7
+msgctxt "Name(org.kde.okular-chm)"
+msgid "CHM Documents"
+msgstr "CHM-documenten"
+
+#: /usr/share/metainfo/org.kde.okular-chm.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-chm)"
+msgid "Adds support for reading CHM documents"
+msgstr "Voegt ondersteuning voor lezen van CHM-documenten toe"
+
 #: /usr/share/metainfo/org.kde.okular-plucker.metainfo.xml:7
 msgctxt "Name(org.kde.okular-plucker)"
 msgid "Plucker"
@@ -5095,6 +4995,76 @@ msgstr "Plucker"
 msgctxt "Summary(org.kde.okular-plucker)"
 msgid "Adds support for reading Plucker documents"
 msgstr "Voegt ondersteuning voor lezen van Plucker-documenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml:7
+msgctxt "Name(org.kde.okular-poppler)"
+msgid "PDF"
+msgstr "PDF"
+
+#: /usr/share/metainfo/org.kde.okular-poppler.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-poppler)"
+msgid "Adds support for reading PDF documents"
+msgstr "Voegt ondersteuning voor lezen van PDF-documenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:7
+msgctxt "Name(org.kde.okular-mobipocket)"
+msgid "Mobipocket"
+msgstr "Mobipocket"
+
+#: /usr/share/metainfo/org.kde.okular-mobipocket.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-mobipocket)"
+msgid "Adds support for reading Mobipocket E-books"
+msgstr "Voegt ondersteuning voor lezen van Mobipocket e-boeken toe"
+
+#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:7
+msgctxt "Name(org.kde.okular-xps)"
+msgid "XPS"
+msgstr "XPS"
+
+#: /usr/share/metainfo/org.kde.okular-xps.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-xps)"
+msgid "Adds support for reading XPS documents"
+msgstr "Voegt ondersteuning voor lezen van XPS-documenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:7
+msgctxt "Name(org.kde.okular-fb)"
+msgid "FictionBook"
+msgstr "Fictie boek"
+
+#: /usr/share/metainfo/org.kde.okular-fb.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-fb)"
+msgid "Adds support for reading FictionBooks"
+msgstr "Voegt ondersteuning voor lezen van fictie boeken toe"
+
+#: /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml:7
+msgctxt "Name(org.kde.okular-tiff)"
+msgid "Tiff"
+msgstr "Tiff"
+
+#: /usr/share/metainfo/org.kde.okular-tiff.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-tiff)"
+msgid "Adds support for reading Tiff documents"
+msgstr "Voegt ondersteuning voor lezen van Tiff-documenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:7
+msgctxt "Name(org.kde.okular-ooo)"
+msgid "OpenDocument"
+msgstr "OpenDocument"
+
+#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-ooo)"
+msgid "Adds support for reading OpenDocument text files"
+msgstr "Voegt ondersteuning voor lezen van OpenDocument tekstbestanden toe"
+
+#: /usr/share/metainfo/org.kde.okular.appdata.xml:6
+msgctxt "Name(org.kde.okular.desktop)"
+msgid "Okular"
+msgstr "Okular"
+
+#: /usr/share/metainfo/org.kde.okular.appdata.xml:40
+msgctxt "Summary(org.kde.okular.desktop)"
+msgid "Document Viewer"
+msgstr "Documentenviewer"
 
 #: /usr/share/metainfo/org.kde.okular-djvu.metainfo.xml:7
 msgctxt "Name(org.kde.okular-djvu)"
@@ -5106,6 +5076,65 @@ msgctxt "Summary(org.kde.okular-djvu)"
 msgid "Adds support for reading DjVu documents"
 msgstr "Voegt ondersteuning voor lezen van DjVu-documenten toe"
 
+#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:7
+msgctxt "Name(org.kde.okular-spectre)"
+msgid "PostScript"
+msgstr "PostScript"
+
+#: /usr/share/metainfo/org.kde.okular-spectre.metainfo.xml:42
+msgctxt "Summary(org.kde.okular-spectre)"
+msgid "Adds support for reading PostScript documents"
+msgstr "Voegt ondersteuning voor lezen van PostScript-documenten toe"
+
+#: /usr/share/metainfo/org.kde.okular.kirigami.appdata.xml:6
+#, fuzzy
+#| msgctxt "Name(org.kde.okular.desktop)"
+#| msgid "Okular"
+msgctxt "Name(org.kde.okular.kirigami.desktop)"
+msgid "Okular Mobile"
+msgstr "Okular"
+
+#: /usr/share/metainfo/org.kde.okular.kirigami.appdata.xml:30
+#, fuzzy
+#| msgctxt "Summary(org.kde.okular.desktop)"
+#| msgid "Document Viewer"
+msgctxt "Summary(org.kde.okular.kirigami.desktop)"
+msgid "Document Viewer"
+msgstr "Documentenviewer"
+
+#: /usr/share/metainfo/org.kde.okular-fax.metainfo.xml:7
+msgctxt "Name(org.kde.okular-fax)"
+msgid "Fax"
+msgstr "Fax"
+
+#: /usr/share/metainfo/org.kde.okular-fax.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-fax)"
+msgid "Adds support for reading Fax documents"
+msgstr "Voegt ondersteuning voor lezen van faxdocumenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:7
+msgctxt "Name(org.kde.okular-md)"
+msgid "Markdown"
+msgstr "Markdown"
+
+#: /usr/share/metainfo/org.kde.okular-md.metainfo.xml:39
+#, fuzzy
+#| msgctxt "Summary(org.kde.okular-fax)"
+#| msgid "Adds support for reading Fax documents"
+msgctxt "Summary(org.kde.okular-md)"
+msgid "Adds support for reading Markdown documents"
+msgstr "Voegt ondersteuning voor lezen van faxdocumenten toe"
+
+#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:7
+msgctxt "Name(org.kde.okular-kimgio)"
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: /usr/share/metainfo/org.kde.okular-kimgio.metainfo.xml:41
+msgctxt "Summary(org.kde.okular-kimgio)"
+msgid "Adds support for reading many image formats"
+msgstr "Ondersteuning toevoegen om vele afbeeldingsformaten te lezen"
+
 #: /usr/share/metainfo/org.kde.okular-epub.metainfo.xml:7
 msgctxt "Name(org.kde.okular-epub)"
 msgid "EPub"
@@ -5115,16 +5144,6 @@ msgstr "EPub"
 msgctxt "Summary(org.kde.okular-epub)"
 msgid "Adds support for reading E-Books"
 msgstr "Voegt ondersteuning voor lezen van e-boeken toe"
-
-#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:7
-msgctxt "Name(org.kde.okular-ooo)"
-msgid "OpenDocument"
-msgstr "OpenDocument"
-
-#: /usr/share/metainfo/org.kde.okular-ooo.metainfo.xml:41
-msgctxt "Summary(org.kde.okular-ooo)"
-msgid "Adds support for reading OpenDocument text files"
-msgstr "Voegt ondersteuning voor lezen van OpenDocument tekstbestanden toe"
 
 #: /usr/share/appdata/openclonk.appdata.xml:6
 msgctxt "Name(openclonk.desktop)"
@@ -5234,6 +5253,16 @@ msgctxt "Summary(org.pantheon.terminal.desktop)"
 msgid "Use the command line"
 msgstr ""
 
+#: /usr/share/metainfo/com.github.gkarsay.parlatype.libreoffice-helpers.metainfo.xml:6
+msgctxt "Name(com.github.gkarsay.parlatype.libreoffice-helpers)"
+msgid "LibreOffice/Parlatype Helpers"
+msgstr ""
+
+#: /usr/share/metainfo/com.github.gkarsay.parlatype.libreoffice-helpers.metainfo.xml:15
+msgctxt "Summary(com.github.gkarsay.parlatype.libreoffice-helpers)"
+msgid "Control Parlatype using LibreOffice macros"
+msgstr ""
+
 #: /usr/share/metainfo/com.github.gkarsay.parlatype.appdata.xml:6
 #, fuzzy
 #| msgctxt "Name(org.kde.parley.desktop)"
@@ -5246,16 +5275,6 @@ msgstr "Parley"
 msgctxt "Summary(com.github.gkarsay.parlatype.desktop)"
 msgid "Media player for manual speech transcription"
 msgstr "Mediaspeler voor handmatige spraaktranscriptie"
-
-#: /usr/share/metainfo/com.github.gkarsay.parlatype.libreoffice-helpers.metainfo.xml:6
-msgctxt "Name(com.github.gkarsay.parlatype.libreoffice-helpers)"
-msgid "LibreOffice/Parlatype Helpers"
-msgstr ""
-
-#: /usr/share/metainfo/com.github.gkarsay.parlatype.libreoffice-helpers.metainfo.xml:15
-msgctxt "Summary(com.github.gkarsay.parlatype.libreoffice-helpers)"
-msgid "Control Parlatype using LibreOffice macros"
-msgstr ""
 
 #: /usr/share/metainfo/org.kde.parley.appdata.xml:6
 msgctxt "Name(org.kde.parley.desktop)"
@@ -5455,64 +5474,55 @@ msgctxt "Summary(org.kde.plasma.vault)"
 msgid "Create encrypted vaults"
 msgstr "Versleutelde kluizen aanmaken"
 
-#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:4
-#, fuzzy
-msgctxt "Name(org.kde.plasma_applet_dict)"
-msgid "Dictionary"
-msgstr "Gnome-rekenmachine"
+#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:4
+msgctxt "Name(org.kde.plasma.webbrowser)"
+msgid "Web browser"
+msgstr "Webbrowser"
 
-#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:65
-msgctxt "Summary(org.kde.plasma_applet_dict)"
-msgid ""
-"Look up the meaning of words and their translation into different languages"
-msgstr ""
-"Zoek de betekenis van woorden en hun vertaling in verschillende talen op"
+#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:45
+msgctxt "Summary(org.kde.plasma.webbrowser)"
+msgid "Add a webpage on your desktop"
+msgstr "Een webpagina toevoegen aan uw bureaublad"
 
-#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:4
-msgctxt "Name(org.kde.plasma.mediaframe)"
-msgid "Media frame"
-msgstr "Mediaframe"
+#: /usr/share/metainfo/org.kde.plasma.weather.appdata.xml:4
+msgctxt "Name(org.kde.plasma.weather)"
+msgid "Weather Forecast"
+msgstr "Weersvoorspelling"
 
-#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.mediaframe)"
-msgid "(Picture) Frame"
-msgstr "(Afbeelding) frame"
+#: /usr/share/metainfo/org.kde.plasma.weather.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.weather)"
+msgid "Find out weather for today"
+msgstr "Zoek uit wat het weer vandaag wordt"
 
-#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemloadviewer)"
-msgid "System Load Viewer"
-msgstr "Systeembelastingweergave"
+#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:4
+msgctxt "Name(org.kde.plasma.quickshare)"
+msgid "Quick Share"
+msgstr "Snel Share maken"
 
-#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.systemloadviewer)"
-msgid "Tiny CPU/RAM/Swap monitor"
-msgstr "Kleine CPU/RAM/Swap-monitor"
+#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:47
+msgctxt "Summary(org.kde.plasma.quickshare)"
+msgid "Paste text/images to a remote server"
+msgstr "Tekst/afbeeldingen plakken op een externe server"
 
-#: /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml:4
-#, fuzzy
-#| msgctxt "Name(org.kde.plasma.analogclock)"
-#| msgid "Analog Clock"
-msgctxt "Name(org.kde.plasma.binaryclock)"
-msgid "Binary Clock"
-msgstr "Analoge klok"
+#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:4
+msgctxt "Name(org.kde.plasma.colorpicker)"
+msgid "Color Picker"
+msgstr "Kleurenkiezer"
 
-#: /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml:60
-#, fuzzy
-#| msgctxt "Summary(org.kde.plasma.digitalclock)"
-#| msgid "Time displayed in a digital format"
-msgctxt "Summary(org.kde.plasma.binaryclock)"
-msgid "Time displayed in binary format"
-msgstr "Tijd weergegeven in een digitale opmaak"
+#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:64
+msgctxt "Summary(org.kde.plasma.colorpicker)"
+msgid "Pick a color from the desktop"
+msgstr "Kies een kleur van het bureaublad"
 
-#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:4
-msgctxt "Name(org.kde.plasma.fifteenpuzzle)"
-msgid "Fifteen Puzzle"
-msgstr "Vijftien-puzzel"
+#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:4
+msgctxt "Name(org.kde.plasma.quicklaunch)"
+msgid "Quicklaunch"
+msgstr "Snelstarten"
 
-#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.fifteenpuzzle)"
-msgid "Put the pieces in order"
-msgstr "Zet de stukken in de juiste volgorde"
+#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:44
+msgctxt "Summary(org.kde.plasma.quicklaunch)"
+msgid "Launch your favourite Applications"
+msgstr "Uw favoriete programma's starten"
 
 #: /usr/share/metainfo/org.kde.plasma.userswitcher.appdata.xml:4
 msgctxt "Name(org.kde.plasma.userswitcher)"
@@ -5523,6 +5533,16 @@ msgstr "Wisselen van gebruiker"
 msgctxt "Summary(org.kde.plasma.userswitcher)"
 msgid "Quickly switch between different users"
 msgstr "Snel wisselen tussen verschillende gebruikers"
+
+#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:4
+msgctxt "Name(org.kde.plasma.comic)"
+msgid "Comic Strip"
+msgstr "Stripboek"
+
+#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.comic)"
+msgid "View comic strips from the Internet"
+msgstr "Toont stripboeken van het internet"
 
 #: /usr/share/metainfo/org.kde.potd.appdata.xml:4
 msgctxt "Name(org.kde.potd)"
@@ -5537,25 +5557,25 @@ msgctxt "Summary(org.kde.potd)"
 msgid "A new picture from the Internet each day"
 msgstr "Toont stripboeken van het internet"
 
-#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:4
-msgctxt "Name(org.kde.plasma.grouping)"
-msgid "Grouping Plasmoid"
-msgstr "Plasmoid-groepering"
+#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemloadviewer)"
+msgid "System Load Viewer"
+msgstr "Systeembelastingweergave"
 
-#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:41
-msgctxt "Summary(org.kde.plasma.grouping)"
-msgid "Group Plasma widgets together"
-msgstr "Plasma-widgets tezamen groeperen"
+#: /usr/share/metainfo/org.kde.plasma.systemloadviewer.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.systemloadviewer)"
+msgid "Tiny CPU/RAM/Swap monitor"
+msgstr "Kleine CPU/RAM/Swap-monitor"
 
-#: /usr/share/metainfo/org.kde.haenau.appdata.xml:4
-msgctxt "Name(org.kde.haenau)"
-msgid "Haenau"
-msgstr "Haenau"
+#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:4
+msgctxt "Name(org.kde.plasma.showdesktop)"
+msgid "Show Desktop"
+msgstr "Bureaublad tonen"
 
-#: /usr/share/metainfo/org.kde.haenau.appdata.xml:48
-msgctxt "Summary(org.kde.haenau)"
-msgid "Haenau wallpaper"
-msgstr "Haenau achtergrondafbeelding"
+#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:62
+msgctxt "Summary(org.kde.plasma.showdesktop)"
+msgid "Show the Plasma desktop"
+msgstr "Toont het Plasma-bureaublad"
 
 #: /usr/share/metainfo/org.kde.plasma.activitypager.appdata.xml:4
 #, fuzzy
@@ -5573,49 +5593,6 @@ msgctxt "Summary(org.kde.plasma.activitypager)"
 msgid "Switch between activities"
 msgstr "Schakel tussen virtuele bureaubladen"
 
-#: /usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml:4
-#, fuzzy
-#| msgctxt "Name(org.kde.konsole.desktop)"
-#| msgid "Konsole"
-msgctxt "Name(org.kde.plasma.konsoleprofiles)"
-msgid "Konsole Profiles"
-msgstr "Konsole"
-
-#: /usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.konsoleprofiles)"
-msgid "List and launch Konsole profiles"
-msgstr "Toon en start Konsole-profielen"
-
-#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:4
-msgctxt "Name(org.kde.plasma.fuzzyclock)"
-msgid "Fuzzy Clock"
-msgstr "Vage klok"
-
-#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.fuzzyclock)"
-msgid "Time displayed in a less precise format"
-msgstr "De tijd in iets minder nauwkeurig formaat"
-
-#: /usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml:4
-msgctxt "Name(org.kde.plasma.minimizeall)"
-msgid "Minimize all Windows"
-msgstr "Alle vensters minimaliseren"
-
-#: /usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml:44
-msgctxt "Summary(org.kde.plasma.minimizeall)"
-msgid "Shows the desktop by minimizing all windows"
-msgstr "Toont het bureaublad door alle vensters te minimaliseren"
-
-#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:4
-msgctxt "Name(org.kde.plasma.comic)"
-msgid "Comic Strip"
-msgstr "Stripboek"
-
-#: /usr/share/metainfo/org.kde.plasma.comic.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.comic)"
-msgid "View comic strips from the Internet"
-msgstr "Toont stripboeken van het internet"
-
 #: /usr/share/metainfo/org.kde.plasma.notes.appdata.xml:4
 msgctxt "Name(org.kde.plasma.notes)"
 msgid "Notes"
@@ -5625,16 +5602,6 @@ msgstr "Notities"
 msgctxt "Summary(org.kde.plasma.notes)"
 msgid "Desktop sticky notes"
 msgstr "Sticky's op het bureaublad"
-
-#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:4
-msgctxt "Name(org.kde.plasma.calculator)"
-msgid "Calculator"
-msgstr "Rekenmachine"
-
-#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:63
-msgctxt "Summary(org.kde.plasma.calculator)"
-msgid "Calculate simple sums"
-msgstr "Eenvoudige berekeningen"
 
 #: /usr/share/metainfo/org.kde.plasma.kickerdash.appdata.xml:4
 #, fuzzy
@@ -5652,6 +5619,49 @@ msgctxt "Summary(org.kde.plasma.kickerdash)"
 msgid "A fullscreen application launcher"
 msgstr "Programmastarter"
 
+#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:4
+msgctxt "Name(org.kde.plasma.mediaframe)"
+msgid "Media frame"
+msgstr "Mediaframe"
+
+#: /usr/share/metainfo/org.kde.plasma.mediaframe.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.mediaframe)"
+msgid "(Picture) Frame"
+msgstr "(Afbeelding) frame"
+
+#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:4
+msgctxt "Name(org.kde.plasma.fifteenpuzzle)"
+msgid "Fifteen Puzzle"
+msgstr "Vijftien-puzzel"
+
+#: /usr/share/metainfo/org.kde.plasma.fifteenpuzzle.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.fifteenpuzzle)"
+msgid "Put the pieces in order"
+msgstr "Zet de stukken in de juiste volgorde"
+
+#: /usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml:4
+#, fuzzy
+#| msgctxt "Name(org.kde.konsole.desktop)"
+#| msgid "Konsole"
+msgctxt "Name(org.kde.plasma.konsoleprofiles)"
+msgid "Konsole Profiles"
+msgstr "Konsole"
+
+#: /usr/share/metainfo/org.kde.plasma.konsoleprofiles.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.konsoleprofiles)"
+msgid "List and launch Konsole profiles"
+msgstr "Toon en start Konsole-profielen"
+
+#: /usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml:4
+msgctxt "Name(org.kde.plasma.minimizeall)"
+msgid "Minimize all Windows"
+msgstr "Alle vensters minimaliseren"
+
+#: /usr/share/metainfo/org.kde.plasma.minimizeall.appdata.xml:44
+msgctxt "Summary(org.kde.plasma.minimizeall)"
+msgid "Shows the desktop by minimizing all windows"
+msgstr "Toont het bureaublad door alle vensters te minimaliseren"
+
 #: /usr/share/metainfo/org.kde.hunyango.appdata.xml:4
 msgctxt "Name(org.kde.hunyango)"
 msgid "Hunyango"
@@ -5665,45 +5675,74 @@ msgctxt "Summary(org.kde.hunyango)"
 msgid "Hunyango wallpaper"
 msgstr "Hunyango"
 
-#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:4
-msgctxt "Name(org.kde.plasma.colorpicker)"
-msgid "Color Picker"
-msgstr "Kleurenkiezer"
+#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:4
+msgctxt "Name(org.kde.plasma.timer)"
+msgid "Timer"
+msgstr "Timer"
 
-#: /usr/share/metainfo/org.kde.plasma.colorpicker.appdata.xml:64
-msgctxt "Summary(org.kde.plasma.colorpicker)"
-msgid "Pick a color from the desktop"
-msgstr "Kies een kleur van het bureaublad"
+#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:62
+msgctxt "Summary(org.kde.plasma.timer)"
+msgid "Countdown over a specified time period"
+msgstr "Aftellen over een bepaalde periode"
 
-#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:4
-msgctxt "Name(org.kde.plasma.webbrowser)"
-msgid "Web browser"
-msgstr "Webbrowser"
+#: /usr/share/metainfo/org.kde.haenau.appdata.xml:4
+msgctxt "Name(org.kde.haenau)"
+msgid "Haenau"
+msgstr "Haenau"
 
-#: /usr/share/metainfo/org.kde.plasma.webbrowser.appdata.xml:45
-msgctxt "Summary(org.kde.plasma.webbrowser)"
-msgid "Add a webpage on your desktop"
-msgstr "Een webpagina toevoegen aan uw bureaublad"
+#: /usr/share/metainfo/org.kde.haenau.appdata.xml:48
+msgctxt "Summary(org.kde.haenau)"
+msgid "Haenau wallpaper"
+msgstr "Haenau achtergrondafbeelding"
 
-#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.showdesktop)"
-msgid "Show Desktop"
-msgstr "Bureaublad tonen"
+#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:4
+msgctxt "Name(org.kde.plasma.grouping)"
+msgid "Grouping Plasmoid"
+msgstr "Plasmoid-groepering"
 
-#: /usr/share/metainfo/org.kde.plasma.showdesktop.appdata.xml:62
-msgctxt "Summary(org.kde.plasma.showdesktop)"
-msgid "Show the Plasma desktop"
-msgstr "Toont het Plasma-bureaublad"
+#: /usr/share/metainfo/org.kde.plasma.grouping.appdata.xml:41
+msgctxt "Summary(org.kde.plasma.grouping)"
+msgid "Group Plasma widgets together"
+msgstr "Plasma-widgets tezamen groeperen"
 
-#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:4
-msgctxt "Name(org.kde.plasma.quicklaunch)"
-msgid "Quicklaunch"
-msgstr "Snelstarten"
+#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:4
+msgctxt "Name(org.kde.plasma.fuzzyclock)"
+msgid "Fuzzy Clock"
+msgstr "Vage klok"
 
-#: /usr/share/metainfo/org.kde.plasma.quicklaunch.appdata.xml:44
-msgctxt "Summary(org.kde.plasma.quicklaunch)"
-msgid "Launch your favourite Applications"
-msgstr "Uw favoriete programma's starten"
+#: /usr/share/metainfo/org.kde.plasma.fuzzyclock.appdata.xml:60
+msgctxt "Summary(org.kde.plasma.fuzzyclock)"
+msgid "Time displayed in a less precise format"
+msgstr "De tijd in iets minder nauwkeurig formaat"
+
+#: /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml:4
+#, fuzzy
+#| msgctxt "Name(org.kde.plasma.analogclock)"
+#| msgid "Analog Clock"
+msgctxt "Name(org.kde.plasma.binaryclock)"
+msgid "Binary Clock"
+msgstr "Analoge klok"
+
+#: /usr/share/metainfo/org.kde.plasma.binaryclock.appdata.xml:60
+#, fuzzy
+#| msgctxt "Summary(org.kde.plasma.digitalclock)"
+#| msgid "Time displayed in a digital format"
+msgctxt "Summary(org.kde.plasma.binaryclock)"
+msgid "Time displayed in binary format"
+msgstr "Tijd weergegeven in een digitale opmaak"
+
+#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:4
+#, fuzzy
+msgctxt "Name(org.kde.plasma_applet_dict)"
+msgid "Dictionary"
+msgstr "Gnome-rekenmachine"
+
+#: /usr/share/metainfo/org.kde.plasma_applet_dict.appdata.xml:65
+msgctxt "Summary(org.kde.plasma_applet_dict)"
+msgid ""
+"Look up the meaning of words and their translation into different languages"
+msgstr ""
+"Zoek de betekenis van woorden en hun vertaling in verschillende talen op"
 
 #: /usr/share/metainfo/org.kde.plasma.diskquota.appdata.xml:4
 msgctxt "Name(org.kde.plasma.diskquota)"
@@ -5715,95 +5754,15 @@ msgctxt "Summary(org.kde.plasma.diskquota)"
 msgid "Shows details about disk quota"
 msgstr "Toont details van schijfquota"
 
-#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:4
-msgctxt "Name(org.kde.plasma.quickshare)"
-msgid "Quick Share"
-msgstr "Snel Share maken"
+#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:4
+msgctxt "Name(org.kde.plasma.calculator)"
+msgid "Calculator"
+msgstr "Rekenmachine"
 
-#: /usr/share/metainfo/org.kde.plasma.quickshare.appdata.xml:47
-msgctxt "Summary(org.kde.plasma.quickshare)"
-msgid "Paste text/images to a remote server"
-msgstr "Tekst/afbeeldingen plakken op een externe server"
-
-#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:4
-msgctxt "Name(org.kde.plasma.timer)"
-msgid "Timer"
-msgstr "Timer"
-
-#: /usr/share/metainfo/org.kde.plasma.timer.appdata.xml:62
-msgctxt "Summary(org.kde.plasma.timer)"
-msgid "Countdown over a specified time period"
-msgstr "Aftellen over een bepaalde periode"
-
-#: /usr/share/metainfo/org.kde.plasma.weather.appdata.xml:4
-msgctxt "Name(org.kde.plasma.weather)"
-msgid "Weather Forecast"
-msgstr "Weersvoorspelling"
-
-#: /usr/share/metainfo/org.kde.plasma.weather.appdata.xml:60
-msgctxt "Summary(org.kde.plasma.weather)"
-msgid "Find out weather for today"
-msgstr "Zoek uit wat het weer vandaag wordt"
-
-#: /usr/share/metainfo/org.kde.plasma.icontasks.appdata.xml:4
-#, fuzzy
-#| msgctxt "Name(org.kde.plasma.taskmanager)"
-#| msgid "Task Manager"
-msgctxt "Name(org.kde.plasma.icontasks)"
-msgid "Icons-only Task Manager"
-msgstr "Takenbeheer"
-
-#: /usr/share/metainfo/org.kde.plasma.icontasks.appdata.xml:50
-#, fuzzy
-#| msgctxt "Summary(org.kde.plasma.taskmanager)"
-#| msgid "Switch between running applications"
-msgctxt "Summary(org.kde.plasma.icontasks)"
-msgid "Switch between running applications"
-msgstr "Schakel tussen draaiende programma's"
-
-#: /usr/share/metainfo/org.kde.paneltoolbox.appdata.xml:4
-msgctxt "Name(org.kde.paneltoolbox)"
-msgid "Panel Toolbox"
-msgstr "Paneelhulpmiddelen"
-
-#: /usr/share/metainfo/org.kde.paneltoolbox.appdata.xml:53
-msgctxt "Summary(org.kde.paneltoolbox)"
-msgid "Manage Plasma panel"
-msgstr "Plasmapaneel beheren"
-
-#: /usr/share/metainfo/org.kde.plasmashell.metainfo.xml:6
-msgctxt "Name(org.kde.plasmashell)"
-msgid "KDE Plasma Desktop"
-msgstr "KDE Plasma Bureaublad"
-
-#: /usr/share/metainfo/org.kde.plasmashell.metainfo.xml:47
-msgctxt "Summary(org.kde.plasmashell)"
-msgid ""
-"KDE's complete desktop experience. Simple by default, powerful when needed"
-msgstr ""
-"De complete bureaubladervaring van KDE. Standaard eenvoudig, krachtig indien "
-"nodig"
-
-#: /usr/share/metainfo/org.kde.plasma.folder.appdata.xml:4
-msgctxt "Name(org.kde.plasma.folder)"
-msgid "Folder View"
-msgstr "Mapweergave"
-
-#: /usr/share/metainfo/org.kde.plasma.folder.appdata.xml:47
-msgctxt "Summary(org.kde.plasma.folder)"
-msgid "Display the contents of folders"
-msgstr "Toon de inhoud van mappen"
-
-#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:4
-msgctxt "Name(org.kde.plasma.trash)"
-msgid "Trashcan"
-msgstr "Prullenbak"
-
-#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:83
-#, fuzzy
-msgctxt "Summary(org.kde.plasma.trash)"
-msgid "Provides access to the files sent to trash"
-msgstr "Biedt toegang tot de geschiedenis van klembord"
+#: /usr/share/metainfo/org.kde.plasma.calculator.appdata.xml:63
+msgctxt "Summary(org.kde.plasma.calculator)"
+msgid "Calculate simple sums"
+msgstr "Eenvoudige berekeningen"
 
 #: /usr/share/metainfo/org.kde.plasma.pager.appdata.xml:4
 msgctxt "Name(org.kde.plasma.pager)"
@@ -5814,26 +5773,6 @@ msgstr "Pager"
 msgctxt "Summary(org.kde.plasma.pager)"
 msgid "Switch between virtual desktops"
 msgstr "Schakel tussen virtuele bureaubladen"
-
-#: /usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml:4
-msgctxt "Name(org.kde.plasma.windowlist)"
-msgid "Window list"
-msgstr "Vensterlijst"
-
-#: /usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml:54
-msgctxt "Summary(org.kde.plasma.windowlist)"
-msgid "Plasmoid to show list of opened windows"
-msgstr "Plasmoid voor het tonen van een lijst van geopende vensters"
-
-#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:4
-msgctxt "Name(org.kde.plasma.kimpanel)"
-msgid "Input Method Panel"
-msgstr "Invoermethodepaneel"
-
-#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:44
-msgctxt "Summary(org.kde.plasma.kimpanel)"
-msgid "A generic input method panel"
-msgstr "Een paneel met een algemene invoermethode"
 
 #: /usr/share/metainfo/org.kde.plasma.kicker.appdata.xml:4
 msgctxt "Name(org.kde.plasma.kicker)"
@@ -5855,15 +5794,16 @@ msgctxt "Summary(org.kde.plasma.taskmanager)"
 msgid "Switch between running applications"
 msgstr "Schakel tussen draaiende programma's"
 
-#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:4
-msgctxt "Name(org.kde.plasma.kickoff)"
-msgid "Application Launcher"
-msgstr "Programmastarter"
+#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:4
+msgctxt "Name(org.kde.plasma.trash)"
+msgid "Trashcan"
+msgstr "Prullenbak"
 
-#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:89
-msgctxt "Summary(org.kde.plasma.kickoff)"
-msgid "Launcher to start applications"
-msgstr "Applet voor het starten van programma's"
+#: /usr/share/metainfo/org.kde.plasma.trash.appdata.xml:83
+#, fuzzy
+msgctxt "Summary(org.kde.plasma.trash)"
+msgid "Provides access to the files sent to trash"
+msgstr "Biedt toegang tot de geschiedenis van klembord"
 
 #: /usr/share/metainfo/org.kde.plasma.showActivityManager.appdata.xml:4
 msgctxt "Name(org.kde.plasma.showActivityManager)"
@@ -5874,6 +5814,85 @@ msgstr "Activiteiten"
 msgctxt "Summary(org.kde.plasma.showActivityManager)"
 msgid "Shows the activity manager"
 msgstr "Toont de activiteitenbeheerder"
+
+#: /usr/share/metainfo/org.kde.plasma.folder.appdata.xml:4
+msgctxt "Name(org.kde.plasma.folder)"
+msgid "Folder View"
+msgstr "Mapweergave"
+
+#: /usr/share/metainfo/org.kde.plasma.folder.appdata.xml:47
+msgctxt "Summary(org.kde.plasma.folder)"
+msgid "Display the contents of folders"
+msgstr "Toon de inhoud van mappen"
+
+#: /usr/share/metainfo/org.kde.plasmashell.metainfo.xml:6
+msgctxt "Name(org.kde.plasmashell)"
+msgid "KDE Plasma Desktop"
+msgstr "KDE Plasma Bureaublad"
+
+#: /usr/share/metainfo/org.kde.plasmashell.metainfo.xml:47
+msgctxt "Summary(org.kde.plasmashell)"
+msgid ""
+"KDE's complete desktop experience. Simple by default, powerful when needed"
+msgstr ""
+"De complete bureaubladervaring van KDE. Standaard eenvoudig, krachtig indien "
+"nodig"
+
+#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:4
+msgctxt "Name(org.kde.plasma.kimpanel)"
+msgid "Input Method Panel"
+msgstr "Invoermethodepaneel"
+
+#: /usr/share/metainfo/org.kde.plasma.kimpanel.appdata.xml:44
+msgctxt "Summary(org.kde.plasma.kimpanel)"
+msgid "A generic input method panel"
+msgstr "Een paneel met een algemene invoermethode"
+
+#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:4
+msgctxt "Name(org.kde.plasma.kickoff)"
+msgid "Application Launcher"
+msgstr "Programmastarter"
+
+#: /usr/share/metainfo/org.kde.plasma.kickoff.appdata.xml:89
+msgctxt "Summary(org.kde.plasma.kickoff)"
+msgid "Launcher to start applications"
+msgstr "Applet voor het starten van programma's"
+
+#: /usr/share/metainfo/org.kde.paneltoolbox.appdata.xml:4
+msgctxt "Name(org.kde.paneltoolbox)"
+msgid "Panel Toolbox"
+msgstr "Paneelhulpmiddelen"
+
+#: /usr/share/metainfo/org.kde.paneltoolbox.appdata.xml:53
+msgctxt "Summary(org.kde.paneltoolbox)"
+msgid "Manage Plasma panel"
+msgstr "Plasmapaneel beheren"
+
+#: /usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml:4
+msgctxt "Name(org.kde.plasma.windowlist)"
+msgid "Window list"
+msgstr "Vensterlijst"
+
+#: /usr/share/metainfo/org.kde.plasma.windowlist.appdata.xml:54
+msgctxt "Summary(org.kde.plasma.windowlist)"
+msgid "Plasmoid to show list of opened windows"
+msgstr "Plasmoid voor het tonen van een lijst van geopende vensters"
+
+#: /usr/share/metainfo/org.kde.plasma.icontasks.appdata.xml:4
+#, fuzzy
+#| msgctxt "Name(org.kde.plasma.taskmanager)"
+#| msgid "Task Manager"
+msgctxt "Name(org.kde.plasma.icontasks)"
+msgid "Icons-only Task Manager"
+msgstr "Takenbeheer"
+
+#: /usr/share/metainfo/org.kde.plasma.icontasks.appdata.xml:50
+#, fuzzy
+#| msgctxt "Summary(org.kde.plasma.taskmanager)"
+#| msgid "Switch between running applications"
+msgctxt "Summary(org.kde.plasma.icontasks)"
+msgid "Switch between running applications"
+msgstr "Schakel tussen draaiende programma's"
 
 #: /usr/share/metainfo/org.kde.plasma.volume.appdata.xml:4
 msgctxt "Name(org.kde.plasma.volume)"
@@ -5894,16 +5913,6 @@ msgstr "Software bijwerken"
 msgctxt "Summary(org.kde.plasma.pkupdates)"
 msgid "Get software updates"
 msgstr "Elementen voor software bijwerken ophalen"
-
-#: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:4
-msgctxt "Name(org.kde.plasmoidviewershell)"
-msgid "PlasmoidViewerShell"
-msgstr "PlasmoidViewerShell"
-
-#: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:39
-msgctxt "Summary(org.kde.plasmoidviewershell)"
-msgid "PlasmoidViewer Shell"
-msgstr "Shell van PlasmoidViewer"
 
 #: /usr/share/metainfo/org.kde.plasma.themeexplorer.appdata.xml:4
 msgctxt "Name(org.kde.plasma.themeexplorer)"
@@ -5935,25 +5944,15 @@ msgctxt "Summary(org.kde.plasma.lookandfeelexplorer)"
 msgid "Explore and edit your Plasma Look And Feel themes"
 msgstr "Uw Plasma-thema's voor uiterlijk en gedrag doorlopen en bewerken"
 
-#: /usr/share/metainfo/org.kde.plasma.calendar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.calendar)"
-msgid "Calendar"
-msgstr "Kalender"
+#: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:4
+msgctxt "Name(org.kde.plasmoidviewershell)"
+msgid "PlasmoidViewerShell"
+msgstr "PlasmoidViewerShell"
 
-#: /usr/share/metainfo/org.kde.plasma.calendar.appdata.xml:81
-msgctxt "Summary(org.kde.plasma.calendar)"
-msgid "Month display with your appointments and events"
-msgstr "Maandweergave met uw afspraken en gebeurtenissen"
-
-#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:4
-msgctxt "Name(org.kde.plasma.devicenotifier)"
-msgid "Device Notifier"
-msgstr "Apparaatmelder"
-
-#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:80
-msgctxt "Summary(org.kde.plasma.devicenotifier)"
-msgid "Notifications and access for new devices"
-msgstr "Maakt melding van nieuwe apparaten en biedt toegang tot deze apparaten"
+#: /usr/share/metainfo/org.kde.plasma.plasmoidviewershell.appdata.xml:39
+msgctxt "Summary(org.kde.plasmoidviewershell)"
+msgid "PlasmoidViewer Shell"
+msgstr "Shell van PlasmoidViewer"
 
 #: /usr/share/metainfo/org.kde.plasma.systemtray.appdata.xml:4
 msgctxt "Name(org.kde.plasma.systemtray)"
@@ -5965,28 +5964,15 @@ msgctxt "Summary(org.kde.plasma.systemtray)"
 msgid "Access hidden applications minimized in the system tray"
 msgstr "Biedt toegang tot programma's die in het systeemvak draaien"
 
-#: /usr/share/metainfo/org.kde.color.appdata.xml:4
-msgctxt "Name(org.kde.color)"
-msgid "Plain Color"
-msgstr "Vlakke kleur"
+#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:4
+msgctxt "Name(org.kde.plasma.devicenotifier)"
+msgid "Device Notifier"
+msgstr "Apparaatmelder"
 
-#: /usr/share/metainfo/org.kde.color.appdata.xml:52
-#, fuzzy
-#| msgctxt "Name(org.kde.color)"
-#| msgid "Plain Color"
-msgctxt "Summary(org.kde.color)"
-msgid "Plain color wallpaper"
-msgstr "Vlakke kleur"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.cpu)"
-msgid "CPU Load Monitor"
-msgstr "Monitor voor CPU-gebruik"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:46
-msgctxt "Summary(org.kde.plasma.systemmonitor.cpu)"
-msgid "Monitor the load of the CPUs"
-msgstr "Het gebruik van de CPU's monitoren"
+#: /usr/share/metainfo/org.kde.plasma.devicenotifier.appdata.xml:80
+msgctxt "Summary(org.kde.plasma.devicenotifier)"
+msgid "Notifications and access for new devices"
+msgstr "Maakt melding van nieuwe apparaten en biedt toegang tot deze apparaten"
 
 #: /usr/share/metainfo/org.kde.plasma.digitalclock.appdata.xml:4
 msgctxt "Name(org.kde.plasma.digitalclock)"
@@ -5998,88 +5984,15 @@ msgctxt "Summary(org.kde.plasma.digitalclock)"
 msgid "Time displayed in a digital format"
 msgstr "Tijd weergegeven in een digitale opmaak"
 
-#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:4
-msgctxt "Name(org.kde.plasma.battery)"
-msgid "Battery and Brightness"
-msgstr "Batterij en helderheid"
+#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:4
+msgctxt "Name(org.kde.plasma.clipboard)"
+msgid "Clipboard"
+msgstr "Klembord"
 
-#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:46
-msgctxt "Summary(org.kde.plasma.battery)"
-msgid "See the power status of your battery"
-msgstr "Zie de capaciteitsstatus van uw accu"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.memory)"
-msgid "Memory Status"
-msgstr "Geheugen-status"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:67
-msgctxt "Summary(org.kde.plasma.systemmonitor.memory)"
-msgid "A RAM usage monitor"
-msgstr "Volgt het RAM-gebruik"
-
-#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:4
-msgctxt "Name(org.kde.plasma.appmenu)"
-msgid "Global Menu"
-msgstr "Menu Toepassingen"
-
-#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.appmenu)"
-msgid "Global menubar on top of the screen"
-msgstr "Globale menubalk bovenaan het scherm"
-
-#: /usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml:4
-msgctxt "Name(org.kde.plasma.analogclock)"
-msgid "Analog Clock"
-msgstr "Analoge klok"
-
-#: /usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml:88
-msgctxt "Summary(org.kde.plasma.analogclock)"
-msgid "A clock with hands"
-msgstr "Een klok met wijzers"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.diskactivity)"
-msgid "Hard Disk I/O Monitor"
-msgstr "Volgt de activiteit van de harde schijf"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:56
-msgctxt "Summary(org.kde.plasma.systemmonitor.diskactivity)"
-msgid "An applet that monitors hard disk throughput and input/output"
-msgstr "Een applet die de activiteit van de harde schijf volgt"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml:4
-msgctxt "Name(org.kde.plasma.systemmonitor.net)"
-msgid "Network Monitor"
-msgstr "Netwerkmonitor"
-
-#: /usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml:67
-msgctxt "Summary(org.kde.plasma.systemmonitor.net)"
-msgid "A network usage monitor"
-msgstr "Toont het netwerkgebruik"
-
-#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:4
-msgctxt "Name(org.kde.slideshow)"
-msgid "Slideshow"
-msgstr "Diavoorstelling"
-
-#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:79
-#, fuzzy
-#| msgctxt "Name(org.kde.slideshow)"
-#| msgid "Slideshow"
-msgctxt "Summary(org.kde.slideshow)"
-msgid "Slideshow wallpaper"
-msgstr "Diavoorstelling"
-
-#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:4
-msgctxt "Name(org.kde.plasma.lock_logout)"
-msgid "Lock/Logout"
-msgstr "Vergrendelen/Afmelden"
-
-#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:86
-msgctxt "Summary(org.kde.plasma.lock_logout)"
-msgid "Lock the screen or log out"
-msgstr "Vergrendel het scherm of meldt u af"
+#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:49
+msgctxt "Summary(org.kde.plasma.clipboard)"
+msgid "Provides access to the clipboard history"
+msgstr "Biedt toegang tot de geschiedenis van klembord"
 
 #: /usr/share/metainfo/org.kde.image.appdata.xml:4
 msgctxt "Name(org.kde.image)"
@@ -6091,25 +6004,25 @@ msgctxt "Summary(org.kde.image)"
 msgid "Wallpaper view for images"
 msgstr "Achtergrondweergave voor afbeeldingen"
 
-#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:4
-msgctxt "Name(org.kde.plasma.clipboard)"
-msgid "Clipboard"
-msgstr "Klembord"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.net)"
+msgid "Network Monitor"
+msgstr "Netwerkmonitor"
 
-#: /usr/share/metainfo/org.kde.plasma.clipboard.appdata.xml:49
-msgctxt "Summary(org.kde.plasma.clipboard)"
-msgid "Provides access to the clipboard history"
-msgstr "Biedt toegang tot de geschiedenis van klembord"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.net.appdata.xml:67
+msgctxt "Summary(org.kde.plasma.systemmonitor.net)"
+msgid "A network usage monitor"
+msgstr "Toont het netwerkgebruik"
 
-#: /usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.activitybar)"
-msgid "Activity Bar"
-msgstr "Activiteitsbalk"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.diskactivity)"
+msgid "Hard Disk I/O Monitor"
+msgstr "Volgt de activiteit van de harde schijf"
 
-#: /usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml:77
-msgctxt "Summary(org.kde.plasma.activitybar)"
-msgid "Tab bar to switch activities"
-msgstr "Tabbalk om van activiteit te wisselen"
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskactivity.appdata.xml:56
+msgctxt "Summary(org.kde.plasma.systemmonitor.diskactivity)"
+msgid "An applet that monitors hard disk throughput and input/output"
+msgstr "Een applet die de activiteit van de harde schijf volgt"
 
 #: /usr/share/metainfo/org.kde.plasma.mediacontroller.appdata.xml:4
 msgctxt "Name(org.kde.plasma.mediacontroller)"
@@ -6131,6 +6044,36 @@ msgctxt "Summary(org.kde.plasma.notifications)"
 msgid "Display notifications and jobs"
 msgstr "Meldingen en taken tonen"
 
+#: /usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml:4
+msgctxt "Name(org.kde.plasma.analogclock)"
+msgid "Analog Clock"
+msgstr "Analoge klok"
+
+#: /usr/share/metainfo/org.kde.plasma.analogclock.appdata.xml:88
+msgctxt "Summary(org.kde.plasma.analogclock)"
+msgid "A clock with hands"
+msgstr "Een klok met wijzers"
+
+#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:4
+msgctxt "Name(org.kde.plasma.battery)"
+msgid "Battery and Brightness"
+msgstr "Batterij en helderheid"
+
+#: /usr/share/metainfo/org.kde.plasma.battery.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.battery)"
+msgid "See the power status of your battery"
+msgstr "Zie de capaciteitsstatus van uw accu"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.cpu)"
+msgid "CPU Load Monitor"
+msgstr "Monitor voor CPU-gebruik"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.cpu.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.systemmonitor.cpu)"
+msgid "Monitor the load of the CPUs"
+msgstr "Het gebruik van de CPU's monitoren"
+
 #: /usr/share/metainfo/org.kde.plasma.systemmonitor.diskusage.appdata.xml:4
 msgctxt "Name(org.kde.plasma.systemmonitor.diskusage)"
 msgid "Hard Disk Space Usage"
@@ -6140,6 +6083,82 @@ msgstr "Ruimtegebruik van de harde schijf"
 msgctxt "Summary(org.kde.plasma.systemmonitor.diskusage)"
 msgid "An applet that monitors hard disk space usage and percentage"
 msgstr "Een applet die het ruimtegebruik van de harde schijf volgt"
+
+#: /usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.activitybar)"
+msgid "Activity Bar"
+msgstr "Activiteitsbalk"
+
+#: /usr/share/metainfo/org.kde.plasma.activitybar.appdata.xml:77
+msgctxt "Summary(org.kde.plasma.activitybar)"
+msgid "Tab bar to switch activities"
+msgstr "Tabbalk om van activiteit te wisselen"
+
+#: /usr/share/metainfo/org.kde.color.appdata.xml:4
+msgctxt "Name(org.kde.color)"
+msgid "Plain Color"
+msgstr "Vlakke kleur"
+
+#: /usr/share/metainfo/org.kde.color.appdata.xml:52
+#, fuzzy
+#| msgctxt "Name(org.kde.color)"
+#| msgid "Plain Color"
+msgctxt "Summary(org.kde.color)"
+msgid "Plain color wallpaper"
+msgstr "Vlakke kleur"
+
+#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:4
+msgctxt "Name(org.kde.slideshow)"
+msgid "Slideshow"
+msgstr "Diavoorstelling"
+
+#: /usr/share/metainfo/org.kde.slideshow.appdata.xml:79
+#, fuzzy
+#| msgctxt "Name(org.kde.slideshow)"
+#| msgid "Slideshow"
+msgctxt "Summary(org.kde.slideshow)"
+msgid "Slideshow wallpaper"
+msgstr "Diavoorstelling"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:4
+msgctxt "Name(org.kde.plasma.systemmonitor.memory)"
+msgid "Memory Status"
+msgstr "Geheugen-status"
+
+#: /usr/share/metainfo/org.kde.plasma.systemmonitor.memory.appdata.xml:67
+msgctxt "Summary(org.kde.plasma.systemmonitor.memory)"
+msgid "A RAM usage monitor"
+msgstr "Volgt het RAM-gebruik"
+
+#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:4
+msgctxt "Name(org.kde.plasma.lock_logout)"
+msgid "Lock/Logout"
+msgstr "Vergrendelen/Afmelden"
+
+#: /usr/share/metainfo/org.kde.plasma.lock_logout.appdata.xml:86
+msgctxt "Summary(org.kde.plasma.lock_logout)"
+msgid "Lock the screen or log out"
+msgstr "Vergrendel het scherm of meldt u af"
+
+#: /usr/share/metainfo/org.kde.plasma.calendar.appdata.xml:4
+msgctxt "Name(org.kde.plasma.calendar)"
+msgid "Calendar"
+msgstr "Kalender"
+
+#: /usr/share/metainfo/org.kde.plasma.calendar.appdata.xml:81
+msgctxt "Summary(org.kde.plasma.calendar)"
+msgid "Month display with your appointments and events"
+msgstr "Maandweergave met uw afspraken en gebeurtenissen"
+
+#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:4
+msgctxt "Name(org.kde.plasma.appmenu)"
+msgid "Global Menu"
+msgstr "Menu Toepassingen"
+
+#: /usr/share/metainfo/org.kde.plasma.appmenu.appdata.xml:43
+msgctxt "Summary(org.kde.plasma.appmenu)"
+msgid "Global menubar on top of the screen"
+msgstr "Globale menubalk bovenaan het scherm"
 
 #: /usr/share/metainfo/org.kde.activeWindowControl.appdata.xml:4
 msgctxt "Name(org.kde.activeWindowControl)"
@@ -6541,16 +6560,6 @@ msgctxt "Summary(seahorse.desktop)"
 msgid "Manage your passwords and encryption keys"
 msgstr "Uw cryptografische sleutels en wachtwoorden beheren"
 
-#: /usr/share/appdata/seamonkey-composer.appdata.xml:5
-msgctxt "Name(seamonkey-composer.desktop)"
-msgid "SeaMonkey Composer"
-msgstr ""
-
-#: /usr/share/appdata/seamonkey-composer.appdata.xml:7
-msgctxt "Summary(seamonkey-composer.desktop)"
-msgid "Web Page Creation with the successor of the Mozilla Application Suite"
-msgstr ""
-
 #: /usr/share/appdata/seamonkey-mail.appdata.xml:5
 #, fuzzy
 msgctxt "Name(seamonkey-mail.desktop)"
@@ -6571,6 +6580,16 @@ msgstr "KDE's bestandsbeheerder & webbrowser"
 #: /usr/share/appdata/seamonkey.appdata.xml:7
 msgctxt "Summary(seamonkey.desktop)"
 msgid "Web Browser component of the successor to the Mozilla Application Suite"
+msgstr ""
+
+#: /usr/share/appdata/seamonkey-composer.appdata.xml:5
+msgctxt "Name(seamonkey-composer.desktop)"
+msgid "SeaMonkey Composer"
+msgstr ""
+
+#: /usr/share/appdata/seamonkey-composer.appdata.xml:7
+msgctxt "Summary(seamonkey-composer.desktop)"
+msgid "Web Page Creation with the successor of the Mozilla Application Suite"
 msgstr ""
 
 #: /usr/share/metainfo/shotwell.appdata.xml:8
@@ -7023,6 +7042,16 @@ msgctxt "Summary(com.github.rapidfingers.translator.desktop)"
 msgid "Translator"
 msgstr "Terminator"
 
+#: /usr/share/appdata/transmission-gtk.appdata.xml:5
+msgctxt "Name(transmission-gtk.desktop)"
+msgid "Transmission BitTorrent Client"
+msgstr "Transmission BitTorrent-client"
+
+#: /usr/share/appdata/transmission-gtk.appdata.xml:70
+msgctxt "Summary(transmission-gtk.desktop)"
+msgid "Lightweight, yet powerful BitTorrent client"
+msgstr ""
+
 #: /usr/share/appdata/transmission-qt.appdata.xml:5
 #, fuzzy
 #| msgctxt "Name(transmission-gtk.desktop)"
@@ -7033,16 +7062,6 @@ msgstr "Transmission BitTorrent-client"
 
 #: /usr/share/appdata/transmission-qt.appdata.xml:7
 msgctxt "Summary(transmission-qt.desktop)"
-msgid "Lightweight, yet powerful BitTorrent client"
-msgstr ""
-
-#: /usr/share/appdata/transmission-gtk.appdata.xml:5
-msgctxt "Name(transmission-gtk.desktop)"
-msgid "Transmission BitTorrent Client"
-msgstr "Transmission BitTorrent-client"
-
-#: /usr/share/appdata/transmission-gtk.appdata.xml:70
-msgctxt "Summary(transmission-gtk.desktop)"
 msgid "Lightweight, yet powerful BitTorrent client"
 msgstr ""
 
@@ -7168,7 +7187,7 @@ msgctxt "Name(org.videolan.vlc)"
 msgid "VLC"
 msgstr "VLC"
 
-#: /usr/share/metainfo/vlc.appdata.xml:85
+#: /usr/share/metainfo/vlc.appdata.xml:89
 msgctxt "Summary(org.videolan.vlc)"
 msgid "VLC media player, the open-source multimedia player"
 msgstr ""
@@ -7357,16 +7376,6 @@ msgctxt "Summary(xreader.desktop)"
 msgid "A Document Viewer"
 msgstr "Documentenviewer"
 
-#: /usr/share/appdata/xviewer-light-theme.metainfo.xml:5
-msgctxt "Name(xviewer-light-theme)"
-msgid "Disable Dark Theme"
-msgstr ""
-
-#: /usr/share/appdata/xviewer-light-theme.metainfo.xml:13
-msgctxt "Summary(xviewer-light-theme)"
-msgid "Disables dark theme"
-msgstr ""
-
 #: /usr/share/appdata/xviewer-slideshowshuffle.metainfo.xml:5
 #, fuzzy
 #| msgctxt "Name(org.kde.slideshow)"
@@ -7380,14 +7389,24 @@ msgctxt "Summary(xviewer-slideshowshuffle)"
 msgid "Shuffles the photos in slideshow mode"
 msgstr ""
 
-#: /usr/share/appdata/xviewer-fit-to-width.metainfo.xml:5
-msgctxt "Name(xviewer-fit-to-width)"
-msgid "Zoom to Fit Image Width"
+#: /usr/share/appdata/xviewer-light-theme.metainfo.xml:5
+msgctxt "Name(xviewer-light-theme)"
+msgid "Disable Dark Theme"
 msgstr ""
 
-#: /usr/share/appdata/xviewer-fit-to-width.metainfo.xml:13
-msgctxt "Summary(xviewer-fit-to-width)"
-msgid "Adjusts the zoom to have the image's width fit into the window"
+#: /usr/share/appdata/xviewer-light-theme.metainfo.xml:13
+msgctxt "Summary(xviewer-light-theme)"
+msgid "Disables dark theme"
+msgstr ""
+
+#: /usr/share/appdata/xviewer-postasa.metainfo.xml:5
+msgctxt "Name(xviewer-postasa)"
+msgid "Picasa Web Uploader"
+msgstr ""
+
+#: /usr/share/appdata/xviewer-postasa.metainfo.xml:13
+msgctxt "Summary(xviewer-postasa)"
+msgid "Supports uploading photos to Google Picasa Web"
 msgstr ""
 
 #: /usr/share/appdata/xviewer-exif-display.metainfo.xml:5
@@ -7400,27 +7419,14 @@ msgctxt "Summary(xviewer-exif-display)"
 msgid "Displays Exif tags in the side panel and optionally the statusbar"
 msgstr ""
 
-#: /usr/share/appdata/xviewer-map.metainfo.xml:5
-#, fuzzy
-#| msgctxt "Name(eog-map)"
-#| msgid "Map"
-msgctxt "Name(xviewer-map)"
-msgid "Map"
-msgstr "Kaart"
-
-#: /usr/share/appdata/xviewer-map.metainfo.xml:51
-msgctxt "Summary(xviewer-map)"
-msgid "Displays on a map in the side panel where the picture was taken"
+#: /usr/share/appdata/xviewer-fit-to-width.metainfo.xml:5
+msgctxt "Name(xviewer-fit-to-width)"
+msgid "Zoom to Fit Image Width"
 msgstr ""
 
-#: /usr/share/appdata/xviewer-send-by-mail.metainfo.xml:5
-msgctxt "Name(xviewer-send-by-mail)"
-msgid "Send by Mail"
-msgstr ""
-
-#: /usr/share/appdata/xviewer-send-by-mail.metainfo.xml:45
-msgctxt "Summary(xviewer-send-by-mail)"
-msgid "Sends an image attached to a new mail"
+#: /usr/share/appdata/xviewer-fit-to-width.metainfo.xml:13
+msgctxt "Summary(xviewer-fit-to-width)"
+msgid "Adjusts the zoom to have the image's width fit into the window"
 msgstr ""
 
 #: /usr/share/appdata/xviewer-export-to-folder.metainfo.xml:5
@@ -7449,14 +7455,27 @@ msgctxt "Summary(xviewer-pythonconsole)"
 msgid "Adds a Python console"
 msgstr "Interactieve meetkunde"
 
-#: /usr/share/appdata/xviewer-postasa.metainfo.xml:5
-msgctxt "Name(xviewer-postasa)"
-msgid "Picasa Web Uploader"
+#: /usr/share/appdata/xviewer-send-by-mail.metainfo.xml:5
+msgctxt "Name(xviewer-send-by-mail)"
+msgid "Send by Mail"
 msgstr ""
 
-#: /usr/share/appdata/xviewer-postasa.metainfo.xml:13
-msgctxt "Summary(xviewer-postasa)"
-msgid "Supports uploading photos to Google Picasa Web"
+#: /usr/share/appdata/xviewer-send-by-mail.metainfo.xml:45
+msgctxt "Summary(xviewer-send-by-mail)"
+msgid "Sends an image attached to a new mail"
+msgstr ""
+
+#: /usr/share/appdata/xviewer-map.metainfo.xml:5
+#, fuzzy
+#| msgctxt "Name(eog-map)"
+#| msgid "Map"
+msgctxt "Name(xviewer-map)"
+msgid "Map"
+msgstr "Kaart"
+
+#: /usr/share/appdata/xviewer-map.metainfo.xml:51
+msgctxt "Summary(xviewer-map)"
+msgid "Displays on a map in the side panel where the picture was taken"
 msgstr ""
 
 #: /usr/share/metainfo/org.kde.yakuake.appdata.xml:6
@@ -7479,16 +7498,6 @@ msgctxt "Summary(yamagi-quake2.desktop)"
 msgid "Enhanced Quake 2 Source Port"
 msgstr ""
 
-#: /usr/share/metainfo/org.kde.renku.appdata.xml:6
-msgctxt "Name(org.kde.renku.desktop)"
-msgid "Renku"
-msgstr "Renku"
-
-#: /usr/share/metainfo/org.kde.renku.appdata.xml:26
-msgctxt "Summary(org.kde.renku.desktop)"
-msgid "Note Taking Application"
-msgstr "Toepassing voor notities"
-
 #: /usr/share/metainfo/org.kde.zanshin.appdata.xml:6
 msgctxt "Name(org.kde.zanshin.desktop)"
 msgid "Zanshin"
@@ -7498,6 +7507,16 @@ msgstr "Zanshin"
 msgctxt "Summary(org.kde.zanshin.desktop)"
 msgid "TODO Management Application"
 msgstr "Beheertoepassing voor taken"
+
+#: /usr/share/metainfo/org.kde.renku.appdata.xml:6
+msgctxt "Name(org.kde.renku.desktop)"
+msgid "Renku"
+msgstr "Renku"
+
+#: /usr/share/metainfo/org.kde.renku.appdata.xml:26
+msgctxt "Summary(org.kde.renku.desktop)"
+msgid "Note Taking Application"
+msgstr "Toepassing voor notities"
 
 #: /usr/share/appdata/zathura-pdf-poppler.metainfo.xml:9
 msgctxt "Name(zathura-pdf-poppler.desktop)"
