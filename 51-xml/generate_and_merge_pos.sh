@@ -91,9 +91,11 @@ move_if_changed()
 for lang in $langs; do
         [ -d "${outputdir}"/"${lang}" ] || continue
 	pushd "${outputdir}"/"${lang}" > /dev/null
+	# TODO: This only iterates over already existing .po files and does not msginit
 	for pofile in *; do
 		log "${lang}" "${pofile}"
 		msguniq --use-first "${pofile}" > "${tmpdir}"/"${pofile}"
+		# TODO: For some reason these two msgmerge calls are not enough, there's a third one in 50-tools/update-po-files.sh
 		msgmerge --previous -q "${tmpdir}"/"${pofile}" "../${pofile%%\.po}.pot" > "${pofile}"
 		if [ -e "${resultdir}"/"${lang}"/"${pofile}" ]; then
 			# PO-file exists, merge.
