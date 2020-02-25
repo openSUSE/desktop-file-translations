@@ -23,6 +23,7 @@
      compressed `.desktop` files from the OBS API, and the second turns them
      into `.po` files, and merges the results into the already existing `.po`
      files in the repository.
+     See [51-xml/README.md](https://github.com/openSUSE/desktop-file-translations/blob/master/51-xml/README.md) for details.
 
   3. [desktop-translations](https://build.opensuse.org/package/show/X11:common:Factory/desktop-translations):
      This package contains a `_service` file referring to the
@@ -33,5 +34,5 @@
 ## Updating the .po files automatically
 
 The `.po` files in this repository need to be updated in regular intervals, this
-process can be automated with the files in `51-xml/`. Read the file `README.md`
+process can be automated with the files in `51-xml/`. Read the file [README.md](https://github.com/openSUSE/desktop-file-translations/blob/master/51-xml/README.md):
 contained within for instructions.
