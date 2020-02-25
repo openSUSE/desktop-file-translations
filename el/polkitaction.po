@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: tar2po\n"
-"POT-Creation-Date: 2019-09-23 12:11+0000\n"
+"POT-Creation-Date: 2020-02-25 14:03+0000\n"
 "PO-Revision-Date: 2017-05-16 14:43+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -138,7 +138,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.reload)"
 msgid "Reload NetworkManager configuration"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:131
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:139
 msgctxt "Description(org.freedesktop.NetworkManager.sleep-wake)"
 msgid ""
 "Put NetworkManager to sleep or wake it up (should only be used by system "
@@ -147,30 +147,33 @@ msgstr ""
 "Θέση της Διαχείρισης δικτύου σε αδράνεια ή ενεργοποίησή της (πρέπει να "
 "χρησιμοποιείται μόνο από τη διαχείριση ενέργειας του συστήματος)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:218
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:226
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "Enable or disable WiFi devices"
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "Enable or disable WiFi devices"
+msgid "Enable or disable Wi-Fi devices"
 msgstr "Ενεργοποίηση ή απενεργοποίηση συσκευών ασύρματης δικτύωσης (WiFi)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:306
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:314
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "Enable or disable mobile broadband devices"
 msgstr ""
 "Ενεργοποίηση ή απενεργοποίηση συσκευών ευρυζωνικότητας κινητής τηλεφωνίας"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:394
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:402
 msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid "Enable or disable WiMAX mobile broadband devices"
 msgstr ""
 "Ενεργοποίηση ή απενεργοποίηση WiMAX συσκευών ευρυζωνικότητας κινητής "
 "τηλεφωνίας"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:476
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:484
 msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
 msgid "Allow control of network connections"
 msgstr "Να επιτρέπεται ο έλεγχος των συνδέσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:565
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:573
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.network-control)"
 #| msgid "Allow control of network connections"
@@ -178,32 +181,38 @@ msgctxt "Description(org.freedesktop.NetworkManager.wifi.scan)"
 msgid "Allow control of Wi-Fi scans"
 msgstr "Να επιτρέπεται ο έλεγχος των συνδέσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:575
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:599
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
+#| msgid "Connection sharing via a protected WiFi network"
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "Connection sharing via a protected WiFi network"
+msgid "Connection sharing via a protected Wi-Fi network"
 msgstr "Κοινή χρήση σύνδεσης μέσω προστατευμένου ασύρματου δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:669
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:693
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
+#| msgid "Connection sharing via an open WiFi network"
 msgctxt "Description(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "Connection sharing via an open WiFi network"
+msgid "Connection sharing via an open Wi-Fi network"
 msgstr "Κοινή χρήση σύνδεσης μέσω ανοιχτού ασύρματου δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:763
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:787
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "Modify personal network connections"
 msgstr "Τροποποίηση προσωπικών συνδέσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:843
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:867
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "Modify network connections for all users"
 msgstr "Τροποποίηση συνδέσεων δικτύου για όλους τους χρήστες"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:923
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:947
 msgctxt "Description(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "Modify persistent system hostname"
 msgstr "Αλλαγή πάγιου ονόματος συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1017
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1042
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.modify-system-configuration)"
 #| msgid "Modify system-wide configuration"
@@ -212,12 +221,12 @@ msgctxt ""
 msgid "Modify persistent global DNS configuration"
 msgstr "Τροποποίηση διαμόρφωσης όλου του συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1056
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1083
 msgctxt "Description(org.freedesktop.NetworkManager.checkpoint-rollback)"
 msgid "Perform a checkpoint or rollback of interfaces configuration"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1093
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1121
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "Enable or disable WiFi devices"
@@ -225,7 +234,7 @@ msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-statistics)"
 msgid "Enable or disable device statistics"
 msgstr "Ενεργοποίηση ή απενεργοποίηση συσκευών ασύρματης δικτύωσης (WiFi)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1130
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1162
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.NetworkManager.enable-disable-network)"
 #| msgid "Enable or disable system networking"
@@ -241,34 +250,37 @@ msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει ενεργοποίηση ή απενεργοποίηση της "
 "δικτύωσης του συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:111
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:115
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.reload)"
 msgid "System policy prevents reloading NetworkManager"
 msgstr "Η πολιτική συστήματος δεν επιτρέπει τον έλεγχο των συνδέσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:171
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:179
 msgctxt "Message(org.freedesktop.NetworkManager.sleep-wake)"
 msgid "System policy prevents putting NetworkManager to sleep or waking it up"
 msgstr ""
 "Η πολιτική του συστήματος δεν επιτρέπει να τίθεται η διαχείριση δικτύου σε "
 "αδράνεια ή να ενεργοποιείται."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:259
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:267
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
+#| msgid "System policy prevents enabling or disabling WiFi devices"
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
-msgid "System policy prevents enabling or disabling WiFi devices"
+msgid "System policy prevents enabling or disabling Wi-Fi devices"
 msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει ενεργοποίηση ή απενεργοποίηση συσκευών "
 "ανοιχτού ασύρματου δικτύου (WiFi)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:347
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:355
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wwan)"
 msgid "System policy prevents enabling or disabling mobile broadband devices"
 msgstr ""
 "Η πολιτική του συστήματος δεν επιτρέπει την ενεργοποίηση ή απενεργοποίηση "
 "συσκευών ευρυζωνικότητας κινητής τηλεφωνίας"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:432
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:440
 msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wimax)"
 msgid ""
 "System policy prevents enabling or disabling WiMAX mobile broadband devices"
@@ -276,12 +288,12 @@ msgstr ""
 "Η πολιτική του συστήματος δεν επιτρέπει την ενεργοποίηση ή απενεργοποίηση "
 "WiMAX συσκευών ευρυζωνικότητας κινητής τηλεφωνίας"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:517
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:525
 msgctxt "Message(org.freedesktop.NetworkManager.network-control)"
 msgid "System policy prevents control of network connections"
 msgstr "Η πολιτική συστήματος δεν επιτρέπει τον έλεγχο των συνδέσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:566
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:582
 #, fuzzy
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.scan)"
 msgid "System policy prevents Wi-Fi scans"
@@ -289,40 +301,48 @@ msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση του πάγιου ονόματος "
 "συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:619
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:643
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
+#| msgid ""
+#| "System policy prevents sharing connections via a protected WiFi network"
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.protected)"
-msgid "System policy prevents sharing connections via a protected WiFi network"
+msgid ""
+"System policy prevents sharing connections via a protected Wi-Fi network"
 msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει κοινή χρήση συνδέσεων μέσω "
 "προστατευμένου ασύρματου δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:713
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:737
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
+#| msgid "System policy prevents sharing connections via an open WiFi network"
 msgctxt "Message(org.freedesktop.NetworkManager.wifi.share.open)"
-msgid "System policy prevents sharing connections via an open WiFi network"
+msgid "System policy prevents sharing connections via an open Wi-Fi network"
 msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει κοινή χρήση συνδέσεων μέσω ανοιχτού "
 "ασύρματου δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:799
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:823
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
 msgid "System policy prevents modification of personal network settings"
 msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:879
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:903
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.system)"
 msgid "System policy prevents modification of network settings for all users"
 msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου για "
 "όλους τους χρήστες"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:966
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:991
 msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 msgid "System policy prevents modification of the persistent system hostname"
 msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση του πάγιου ονόματος "
 "συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1033
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1059
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -335,7 +355,7 @@ msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση του πάγιου ονόματος "
 "συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1071
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1098
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.hostname)"
 #| msgid ""
@@ -346,7 +366,7 @@ msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση του πάγιου ονόματος "
 "συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1108
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1138
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -356,7 +376,7 @@ msgstr ""
 "Η πολιτική συστήματος δεν επιτρέπει ενεργοποίηση ή απενεργοποίηση συσκευών "
 "ανοιχτού ασύρματου δικτύου (WiFi)"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1145
+#: /usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy:1178
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.NetworkManager.enable-disable-wifi)"
 #| msgid "System policy prevents enabling or disabling WiFi devices"
@@ -579,32 +599,48 @@ msgstr ""
 "Απαιτείται πιστοποίηση για την εκκαθάριση μηνύματος ενημερώσεων εκτός "
 "σύνδεσης"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:11
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:8
 msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
 msgid "Change your own user data"
 msgstr "Αλλάξτε τα δεδομένα χρήστη σας"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:81
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:103
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.accounts.change-own-user-data)"
+#| msgid "Change your own user data"
+msgctxt "Description(org.freedesktop.accounts.change-own-password)"
+msgid "Change your own user password"
+msgstr "Αλλάξτε τα δεδομένα χρήστη σας"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:120
 msgctxt "Description(org.freedesktop.accounts.user-administration)"
 msgid "Manage user accounts"
 msgstr "Διαχείριση λογαριασμών χρηστών"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:151
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:215
 msgctxt "Description(org.freedesktop.accounts.set-login-option)"
 msgid "Change the login screen configuration"
 msgstr "Αλλαγή των ρυθμίσεων οθόνης σύνδεσης"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:42
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:52
 msgctxt "Message(org.freedesktop.accounts.change-own-user-data)"
 msgid "Authentication is required to change your own user data"
 msgstr "Απαιτείται πιστοποίηση για αλλαγή των δικών σας δεδομένων χρήστη"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:112
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:108
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.accounts.change-own-user-data)"
+#| msgid "Authentication is required to change your own user data"
+msgctxt "Message(org.freedesktop.accounts.change-own-password)"
+msgid "Authentication is required to change your own user password"
+msgstr "Απαιτείται πιστοποίηση για αλλαγή των δικών σας δεδομένων χρήστη"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:164
 msgctxt "Message(org.freedesktop.accounts.user-administration)"
 msgid "Authentication is required to change user data"
 msgstr "Απαιτείται πιστοποίηση για αλλαγή των δεδομένων χρήστη"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:182
+#: /usr/share/polkit-1/actions/org.freedesktop.accounts.policy:259
 msgctxt "Message(org.freedesktop.accounts.set-login-option)"
 msgid "Authentication is required to change the login screen configuration"
 msgstr ""
@@ -658,12 +694,12 @@ msgctxt "Description(org.blueman.network.setup)"
 msgid "Configure Bluetooth Network"
 msgstr "Διαμόρφωσε δίκτυο Bluetooth"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:102
+#: /usr/share/polkit-1/actions/org.blueman.policy:108
 msgctxt "Description(org.blueman.dhcp.client)"
 msgid "Launch DHCP client"
 msgstr "Εκκίνηση πελάτη DHCP"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:189
+#: /usr/share/polkit-1/actions/org.blueman.policy:201
 #, fuzzy
 #| msgctxt "Description(org.blueman.dhcp.client)"
 #| msgid "Launch DHCP client"
@@ -671,12 +707,12 @@ msgctxt "Description(org.blueman.pppd.pppconnect)"
 msgid "Launch PPP daemon"
 msgstr "Εκκίνηση πελάτη DHCP"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:198
+#: /usr/share/polkit-1/actions/org.blueman.policy:275
 msgctxt "Description(org.blueman.rfkill.setstate)"
 msgid "Set RfKill State"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:55
+#: /usr/share/polkit-1/actions/org.blueman.policy:57
 #, fuzzy
 #| msgctxt "Message(org.kde.fontinst.manage)"
 #| msgid "Modifying the system-wide font configuration requires privileges."
@@ -686,12 +722,12 @@ msgstr ""
 "Για την τροποποίηση της διαμόρφωσης των γραμματοσειρών του συστήματος "
 "χρειάζονται προνόμια."
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:143
+#: /usr/share/polkit-1/actions/org.blueman.policy:152
 msgctxt "Message(org.blueman.dhcp.client)"
 msgid "Launching DHCP client requires privileges"
 msgstr "Η εκκίνηση πελάτη DHCP απαιτεί δικαιώματα"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:190
+#: /usr/share/polkit-1/actions/org.blueman.policy:234
 #, fuzzy
 #| msgctxt "Message(org.blueman.dhcp.client)"
 #| msgid "Launching DHCP client requires privileges"
@@ -699,7 +735,7 @@ msgctxt "Message(org.blueman.pppd.pppconnect)"
 msgid "Launching PPP daemon requires privileges"
 msgstr "Η εκκίνηση πελάτη DHCP απαιτεί δικαιώματα"
 
-#: /usr/share/polkit-1/actions/org.blueman.policy:199
+#: /usr/share/polkit-1/actions/org.blueman.policy:308
 #, fuzzy
 #| msgctxt "Message(org.blueman.dhcp.client)"
 #| msgid "Launching DHCP client requires privileges"
@@ -719,6 +755,19 @@ msgstr ""
 msgctxt "Message(org.a11y.brlapi.write-display)"
 msgid "Privileges are required to access the braille display"
 msgstr "Απαιτούνται προνόμια διαχειριστή για αλλαγή της ώρας του συστήματος."
+
+#: /usr/share/polkit-1/actions/org.cinnamon.controlcenter.datetime.policy:10
+#, fuzzy
+msgctxt "Description(org.cinnamon.controlcenter.datetime.configure)"
+msgid "Change system time and date settings"
+msgstr "Αλλαγή ρυθμίσεων ώρας και ημερομηνίας του συστήματος"
+
+#: /usr/share/polkit-1/actions/org.cinnamon.controlcenter.datetime.policy:11
+#, fuzzy
+msgctxt "Message(org.cinnamon.controlcenter.datetime.configure)"
+msgid "To change time or date settings, you need to authenticate."
+msgstr ""
+"Πρέπει να γίνει πιστοποίηση για να αλλάξετε τις ρυθμίσεις ώρας ή ημερομηνίας."
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settingsdaemon.datetimemechanism.policy:11
 #, fuzzy
@@ -747,142 +796,109 @@ msgstr ""
 "υπολογιστή"
 
 #: /usr/share/polkit-1/actions/org.cinnamon.settings-users.policy:8
-#, fuzzy
 msgctxt "Message(org.cinnamon.settings-users)"
-msgid "Authentication is required to run the Users and Groups"
-msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+msgid "Users and Groups"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/org.freedesktop.color.policy:15
 msgctxt "Description(org.freedesktop.color-manager.create-device)"
 msgid "Create a color managed device"
 msgstr "Δημιουργία μιας συσκευής διαχείρισης χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:98
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:100
 msgctxt "Description(org.freedesktop.color-manager.create-profile)"
 msgid "Create a color profile"
 msgstr "Δημιουργία ενός προφίλ χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:185
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:187
 msgctxt "Description(org.freedesktop.color-manager.delete-device)"
 msgid "Remove a color managed device"
 msgstr "Αφαίρεση μιας συσκευής διαχείρισης χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:268
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:272
 msgctxt "Description(org.freedesktop.color-manager.delete-profile)"
 msgid "Remove a color profile"
 msgstr "Αφαίρεση χρωματικού προφίλ"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:354
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:358
 msgctxt "Description(org.freedesktop.color-manager.modify-device)"
 msgid "Modify color settings for a device"
 msgstr "Τροποποιήστε τις ρυθμίσεις χρωμάτων για μια συσκευή"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:440
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:444
 msgctxt "Description(org.freedesktop.color-manager.modify-profile)"
 msgid "Modify a color profile"
 msgstr "Τροποποιήσετε ένα προφίλ χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:532
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:536
 msgctxt "Description(org.freedesktop.color-manager.install-system-wide)"
 msgid "Install system color profiles"
 msgstr "Εγκατάσταση προφίλ χρωμάτων συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:615
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:619
 msgctxt "Description(org.freedesktop.color-manager.device-inhibit)"
 msgid "Inhibit color profile selection"
 msgstr "Αναστολλή επιλογής προφίλ χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:692
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:698
 msgctxt "Description(org.freedesktop.color-manager.sensor-lock)"
 msgid "Use color sensor"
 msgstr "Χρήση αισθητήρα χρώματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:51
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:52
 msgctxt "Message(org.freedesktop.color-manager.create-device)"
 msgid "Authentication is required to create a color managed device"
 msgstr ""
 "Απαιτείται έλεγχος ταυτότητας για να δημιουργήσετε μία συσκευή διαχείρισης "
 "χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:136
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:138
 msgctxt "Message(org.freedesktop.color-manager.create-profile)"
 msgid "Authentication is required to create a color profile"
 msgstr "Απαιτείται έλεγχος ταυτότητας για να δημιουργήσετε ένα προφίλ χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:221
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:224
 msgctxt "Message(org.freedesktop.color-manager.delete-device)"
 msgid "Authentication is required to remove a color managed device"
 msgstr ""
 "Απαιτείται έλεγχος ταυτότητας για να αφαιρέσετε μία συσκευή διαχείρισης "
 "χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:305
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:309
 msgctxt "Message(org.freedesktop.color-manager.delete-profile)"
 msgid "Authentication is required to remove a color profile"
 msgstr "Απαιτείται έλεγχος ταυτότητας για την αφαίρεση χρωματικού προφίλ"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:391
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:395
 msgctxt "Message(org.freedesktop.color-manager.modify-device)"
 msgid "Authentication is required to modify the color settings for a device"
 msgstr ""
 "Απαιτείται έλεγχος ταυτότητας για να τροποποιήσετε τις ρυθμίσεις χρωμάτων "
 "για μια συσκευή"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:478
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:482
 msgctxt "Message(org.freedesktop.color-manager.modify-profile)"
 msgid "Authentication is required to modify a color profile"
 msgstr "Απαιτείται έλεγχος ταυτότητας για να τροποποιήσετε ένα προφίλ χρωμάτων"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:567
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:571
 msgctxt "Message(org.freedesktop.color-manager.install-system-wide)"
 msgid "Authentication is required to install the color profile for all users"
 msgstr ""
 "Απαιτείται έλεγχος ταυτότητας για την εγκατάσταση του χρωματικού προφίλ για "
 "όλους τους χρήστες"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:646
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:651
 msgctxt "Message(org.freedesktop.color-manager.device-inhibit)"
 msgid "Authentication is required to disable profile matching for a device"
 msgstr ""
 "Απαιτείται έλεγχος ταυτότητας για να απενεργοποιήσετε το προφίλ που "
 "ταιριάζει σε μια συσκευή"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:728
+#: /usr/share/polkit-1/actions/org.freedesktop.color.policy:734
 msgctxt "Message(org.freedesktop.color-manager.sensor-lock)"
 msgid "Authentication is required to use the color sensor"
 msgstr "Απαιτείται έλεγχος ταυτότητας για τη χρήση του αισθητήρα χρώματος"
-
-#: /usr/share/polkit-1/actions/net.connman.policy:12
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-#| msgid "Save wallet configuration"
-msgctxt "Description(net.connman.modify)"
-msgid "Settings configuration"
-msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
-
-#: /usr/share/polkit-1/actions/net.connman.policy:21
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
-#| msgid "Save wallet configuration"
-msgctxt "Description(net.connman.secret)"
-msgid "Secrets configuration"
-msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
-
-#: /usr/share/polkit-1/actions/net.connman.policy:13
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
-#| msgid "System policy prevents modification of personal network settings"
-msgctxt "Message(net.connman.modify)"
-msgid "Policy prevents modification of settings"
-msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
-
-#: /usr/share/polkit-1/actions/net.connman.policy:22
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
-#| msgid "System policy prevents modification of personal network settings"
-msgctxt "Message(net.connman.secret)"
-msgid "Policy prevents modification of secrets"
-msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
 
 #: /usr/share/polkit-1/actions/net.connman.vpn.policy:12
 #, fuzzy
@@ -913,6 +929,38 @@ msgstr "Η πολιτική συστήματος δεν επιτρέπει τρ�
 #| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
 #| msgid "System policy prevents modification of personal network settings"
 msgctxt "Message(net.connman.vpn.secret)"
+msgid "Policy prevents modification of secrets"
+msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:12
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.modify)"
+msgid "Settings configuration"
+msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:21
+#, fuzzy
+#| msgctxt "Description(org.kde.kcontrol.kcmkwallet.save)"
+#| msgid "Save wallet configuration"
+msgctxt "Description(net.connman.secret)"
+msgid "Secrets configuration"
+msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:13
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+#| msgid "System policy prevents modification of personal network settings"
+msgctxt "Message(net.connman.modify)"
+msgid "Policy prevents modification of settings"
+msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
+
+#: /usr/share/polkit-1/actions/net.connman.policy:22
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.NetworkManager.settings.modify.own)"
+#| msgid "System policy prevents modification of personal network settings"
+msgctxt "Message(net.connman.secret)"
 msgid "Policy prevents modification of secrets"
 msgstr "Η πολιτική συστήματος δεν επιτρέπει τροποποίηση των ρυθμίσεων δικτύου"
 
@@ -1085,12 +1133,12 @@ msgctxt "Message(org.opensuse.cupspkhelper.mechanism.printeraddremove)"
 msgid "Privileges are required to add/remove/edit a printer."
 msgstr "Απαιτούνται προνόμια για την επαλήθευση των δακτυλικών αποτυπωμάτων."
 
-#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:10
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:15
 msgctxt "Description(org.gnome.DejaDup.duplicity)"
 msgid "Restore"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:11
+#: /usr/share/polkit-1/actions/org.gnome.DejaDup.policy:16
 #, fuzzy
 #| msgctxt "Message(org.mate.settingsdaemon.datetimemechanism.settimezone)"
 #| msgid "Privileges are required to change the system time zone."
@@ -1108,7 +1156,7 @@ msgctxt "Description(org.freedesktop.Flatpak.app-install)"
 msgid "Install signed application"
 msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:53
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:59
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install)"
 #| msgid "Install signed package"
@@ -1116,17 +1164,17 @@ msgctxt "Description(org.freedesktop.Flatpak.runtime-install)"
 msgid "Install signed runtime"
 msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:89
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:101
 msgctxt "Description(org.freedesktop.Flatpak.app-update)"
 msgid "Update signed application"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:134
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:150
 msgctxt "Description(org.freedesktop.Flatpak.runtime-update)"
 msgid "Update signed runtime"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:175
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:195
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
 #| msgid "Update SMART data"
@@ -1134,12 +1182,12 @@ msgctxt "Description(org.freedesktop.Flatpak.update-remote)"
 msgid "Update remote metadata"
 msgstr "Ενημέρωση δεδομένων SMART"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:208
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:234
 msgctxt "Description(org.freedesktop.Flatpak.modify-repo)"
 msgid "Update system repository"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:236
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:270
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.package-install-untrusted)"
 #| msgid "Install untrusted local file"
@@ -1147,27 +1195,27 @@ msgctxt "Description(org.freedesktop.Flatpak.install-bundle)"
 msgid "Install bundle"
 msgstr "Εγκατάσταση μη έμπιστου τοπικού αρχείου"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:271
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:312
 msgctxt "Description(org.freedesktop.Flatpak.runtime-uninstall)"
 msgid "Uninstall runtime"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:306
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:353
 msgctxt "Description(org.freedesktop.Flatpak.app-uninstall)"
 msgid "Uninstall app"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:338
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:392
 msgctxt "Description(org.freedesktop.Flatpak.configure-remote)"
 msgid "Configure Remote"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:371
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:431
 msgctxt "Description(org.freedesktop.Flatpak.configure)"
 msgid "Configure"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:406
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:472
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.packagekit.system-update)"
 #| msgid "Update software"
@@ -1175,7 +1223,7 @@ msgctxt "Description(org.freedesktop.Flatpak.appstream-update)"
 msgid "Update appstream"
 msgstr "Ενημέρωση λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:440
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:513
 #, fuzzy
 #| msgctxt "Description(org.freedesktop.udisks2.ata-smart-update)"
 #| msgid "Update SMART data"
@@ -1183,7 +1231,12 @@ msgctxt "Description(org.freedesktop.Flatpak.metadata-update)"
 msgid "Update metadata"
 msgstr "Ενημέρωση δεδομένων SMART"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:32
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:589
+msgctxt "Description(org.freedesktop.Flatpak.override-parental-controls)"
+msgid "Override parental controls"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:34
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1191,7 +1244,7 @@ msgctxt "Message(org.freedesktop.Flatpak.app-install)"
 msgid "Authentication is required to install software"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:67
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:75
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1199,7 +1252,7 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-install)"
 msgid "Authentication is required to install software"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:103
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:117
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1207,7 +1260,7 @@ msgctxt "Message(org.freedesktop.Flatpak.app-update)"
 msgid "Authentication is required to update software"
 msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:148
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:166
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1215,7 +1268,7 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-update)"
 msgid "Authentication is required to update software"
 msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:188
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:210
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1223,7 +1276,7 @@ msgctxt "Message(org.freedesktop.Flatpak.update-remote)"
 msgid "Authentication is required to update remote info"
 msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:219
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:248
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.timedate1.set-time)"
 #| msgid "Authentication is required to set the system time."
@@ -1231,7 +1284,7 @@ msgctxt "Message(org.freedesktop.Flatpak.modify-repo)"
 msgid "Authentication is required to modify a system repository"
 msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα του συστήματος."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:251
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:287
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1239,7 +1292,7 @@ msgctxt "Message(org.freedesktop.Flatpak.install-bundle)"
 msgid "Authentication is required to install software from $(path)"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:286
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:329
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1247,7 +1300,7 @@ msgctxt "Message(org.freedesktop.Flatpak.runtime-uninstall)"
 msgid "Authentication is required to uninstall software"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:320
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:369
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-install)"
 #| msgid "Authentication is required to install software"
@@ -1255,7 +1308,7 @@ msgctxt "Message(org.freedesktop.Flatpak.app-uninstall)"
 msgid "Authentication is required to uninstall $(ref)"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:353
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:409
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 #| msgid "Authentication is required to downgrade software"
@@ -1263,7 +1316,7 @@ msgctxt "Message(org.freedesktop.Flatpak.configure-remote)"
 msgid "Authentication is required to configure software repositories"
 msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:381
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:444
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
 #| msgid "Authentication is required to downgrade software"
@@ -1271,7 +1324,7 @@ msgctxt "Message(org.freedesktop.Flatpak.configure)"
 msgid "Authentication is required to configure software installation"
 msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:420
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:488
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.packagekit.system-update)"
 #| msgid "Authentication is required to update software"
@@ -1279,13 +1332,24 @@ msgctxt "Message(org.freedesktop.Flatpak.appstream-update)"
 msgid "Authentication is required to update information about software"
 msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:445
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:523
 #, fuzzy
 #| msgctxt "Message(org.freedesktop.udisks2.ata-smart-update)"
 #| msgid "Authentication is required to update SMART data"
 msgctxt "Message(org.freedesktop.Flatpak.metadata-update)"
 msgid "Authentication is required to update metadata"
 msgstr "Απαιτείται πιστοποίηση για ενημέρωση δεδομένων SMART"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.Flatpak.policy:596
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.system-sources-configure)"
+#| msgid "Authentication is required to change software source parameters"
+msgctxt "Message(org.freedesktop.Flatpak.override-parental-controls)"
+msgid ""
+"Authentication is required to install software which is restricted by your "
+"parental controls policy"
+msgstr ""
+"Απαιτείται πιστοποίηση για την αλλαγή των παραμέτρων των πηγών λογισμικού"
 
 #: /usr/share/polkit-1/actions/net.reactivated.fprint.device.policy:12
 msgctxt "Description(net.reactivated.fprint.device.verify)"
@@ -1320,150 +1384,6 @@ msgstr ""
 "Απαιτούνται προνόμια για την καταγραφή νέων δακτυλικών αποτυπωμάτων για "
 "άλλους χρήστες."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:12
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
-#| msgid "Install signed package"
-msgctxt "Description(org.freedesktop.fwupd.update-internal-trusted)"
-msgid "Install signed system firmware"
-msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:68
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
-#| msgid "Install signed package"
-msgctxt "Description(org.freedesktop.fwupd.update-internal)"
-msgid "Install unsigned system firmware"
-msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:124
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
-#| msgid "Install older version of installed package"
-msgctxt "Description(org.freedesktop.fwupd.downgrade-internal)"
-msgid "Install old version of system firmware"
-msgstr "Εγκατάσταση παλιότερης έκδοσης του εγκατεστημένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:176
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
-#| msgid "Install signed package"
-msgctxt "Description(org.freedesktop.fwupd.update-hotplug-trusted)"
-msgid "Install signed device firmware"
-msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:229
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
-#| msgid "Install signed package"
-msgctxt "Description(org.freedesktop.fwupd.update-hotplug)"
-msgid "Install unsigned device firmware"
-msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:282
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.packagekit.package-install)"
-#| msgid "Install signed package"
-msgctxt "Description(org.freedesktop.fwupd.downgrade-hotplug)"
-msgid "Install unsigned device firmware"
-msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:334
-msgctxt "Description(org.freedesktop.fwupd.device-unlock)"
-msgid "Unlock the device to allow access"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:387
-msgctxt "Description(org.freedesktop.fwupd.verify-update)"
-msgid "Update the stored device verification information"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:433
-#, fuzzy
-#| msgctxt "Description(org.freedesktop.color-manager.modify-profile)"
-#| msgid "Modify a color profile"
-msgctxt "Description(org.freedesktop.fwupd.modify-remote)"
-msgid "Modify a configured remote"
-msgstr "Τροποποιήσετε ένα προφίλ χρωμάτων"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:35
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.packagekit.system-update)"
-#| msgid "Authentication is required to update software"
-msgctxt "Message(org.freedesktop.fwupd.update-internal-trusted)"
-msgid "Authentication is required to update the firmware on this machine"
-msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:91
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.packagekit.system-update)"
-#| msgid "Authentication is required to update software"
-msgctxt "Message(org.freedesktop.fwupd.update-internal)"
-msgid "Authentication is required to update the firmware on this machine"
-msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:147
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
-#| msgid "Authentication is required to downgrade software"
-msgctxt "Message(org.freedesktop.fwupd.downgrade-internal)"
-msgid "Authentication is required to downgrade the firmware on this machine"
-msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:199
-#, fuzzy
-msgctxt "Message(org.freedesktop.fwupd.update-hotplug-trusted)"
-msgid "Authentication is required to update the firmware on a removable device"
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:252
-#, fuzzy
-msgctxt "Message(org.freedesktop.fwupd.update-hotplug)"
-msgid "Authentication is required to update the firmware on a removable device"
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:305
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase)"
-#| msgid ""
-#| "Authentication is required to change the passphrase for an encrypted "
-#| "device"
-msgctxt "Message(org.freedesktop.fwupd.downgrade-hotplug)"
-msgid ""
-"Authentication is required to downgrade the firmware on a removable device"
-msgstr ""
-"Απαιτείται πιστοποίηση για αλλαγή του συνθηματικού για μια κρυπτογραφημένη "
-"συσκευή"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:357
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.udisks2.open-device)"
-#| msgid "Authentication is required to open a device"
-msgctxt "Message(org.freedesktop.fwupd.device-unlock)"
-msgid "Authentication is required to unlock a device"
-msgstr "Απαιτείται πιστοποίηση για άνοιγμα συσκευής"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:407
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.color-manager.modify-device)"
-#| msgid "Authentication is required to modify the color settings for a device"
-msgctxt "Message(org.freedesktop.fwupd.verify-update)"
-msgid ""
-"Authentication is required to update the stored checksums for the device"
-msgstr ""
-"Απαιτείται έλεγχος ταυτότητας για να τροποποιήσετε τις ρυθμίσεις χρωμάτων "
-"για μια συσκευή"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.fwupd.policy:452
-#, fuzzy
-#| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
-#| msgid "Authentication is required to downgrade software"
-msgctxt "Message(org.freedesktop.fwupd.modify-remote)"
-msgid ""
-"Authentication is required to modify a configured remote used for firmware "
-"updates"
-msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
-
 #: /usr/share/polkit-1/actions/org.opensuse.zoneswitcher.policy:13
 msgctxt "Description(org.opensuse.zoneswitcher.control)"
 msgid "allow to switch firewall zones"
@@ -1475,6 +1395,39 @@ msgctxt "Message(org.opensuse.zoneswitcher.control)"
 msgid "System policy prevents changing firewall zones"
 msgstr ""
 "Οι πολιτικές του συστήματος αποτρέπουν τον ορισμό του επίπεδου λαμπρότητας."
+
+#: /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy:16
+msgctxt "Description(com.feralinteractive.GameMode.governor-helper)"
+msgid "Modify the CPU governor"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy:27
+#, fuzzy
+#| msgctxt ""
+#| "Description(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+#| msgid "Modify the laptop brightness"
+msgctxt "Description(com.feralinteractive.GameMode.gpu-helper)"
+msgid "Modify the GPU clock states"
+msgstr "Τροποποιήστε τη φωτεινότητα του φορητού υπολογιστή"
+
+#: /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy:17
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.udisks2.modify-device)"
+#| msgid "Authentication is required to modify a device"
+msgctxt "Message(com.feralinteractive.GameMode.governor-helper)"
+msgid "Authentication is required to modify the CPU governor"
+msgstr "Απαιτείται πιστοποίηση για τροποποίηση συσκευής"
+
+#: /usr/share/polkit-1/actions/com.feralinteractive.GameMode.policy:28
+#, fuzzy
+#| msgctxt ""
+#| "Message(org.cinnamon.settings-daemon.plugins.power.backlight-helper)"
+#| msgid "Authentication is required to modify the laptop brightness"
+msgctxt "Message(com.feralinteractive.GameMode.gpu-helper)"
+msgid "Authentication is required to modify the GPU clock states"
+msgstr ""
+"Απαιτείται πιστοποίηση για την τροποποίηση της φωτεινότητας του φορητού "
+"υπολογιστή"
 
 #: /usr/share/polkit-1/actions/org.gnome.gconf.defaults.policy:11
 msgctxt "Description(org.gnome.gconf.defaults.set-system)"
@@ -1498,38 +1451,38 @@ msgid "Privileges are required to change GConf mandatory values"
 msgstr ""
 "Απαιτούνται επιπλέον προνόμια για την αλλαγή των υποχρεωτικών τιμών του GConf"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:11
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:7
 msgctxt "Description(org.gnome.controlcenter.remote-login-helper)"
 msgid "Enable or disable remote login"
 msgstr "Ενεργοποίηση η απενεργοποίηση της απομακρυσμένης σύνδεσης"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:81
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.remote-login-helper.policy:77
 msgctxt "Message(org.gnome.controlcenter.remote-login-helper)"
 msgid "Authentication is required to enable or disable remote login"
 msgstr ""
 "Απαιτείται πιστοποίηση για την ενεργοποίηση ή απενεργοποίηση της "
 "απομακρυσμένης σύνδεσης"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:10
-msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
-msgid "Change system time and date settings"
-msgstr "Αλλαγή ρυθμίσεων ώρας και ημερομηνίας του συστήματος"
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:83
-msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
-msgid "To change time or date settings, you need to authenticate."
-msgstr ""
-"Πρέπει να γίνει πιστοποίηση για να αλλάξετε τις ρυθμίσεις ώρας ή ημερομηνίας."
-
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:10
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:7
 msgctxt "Description(org.gnome.controlcenter.user-accounts.administration)"
 msgid "Manage user accounts"
 msgstr "Διαχείριση λογαριασμών των χρηστών"
 
-#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:82
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.user-accounts.policy:80
 msgctxt "Message(org.gnome.controlcenter.user-accounts.administration)"
 msgid "Authentication is required to change user data"
 msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:7
+msgctxt "Description(org.gnome.controlcenter.datetime.configure)"
+msgid "Change system time and date settings"
+msgstr "Αλλαγή ρυθμίσεων ώρας και ημερομηνίας του συστήματος"
+
+#: /usr/share/polkit-1/actions/org.gnome.controlcenter.datetime.policy:80
+msgctxt "Message(org.gnome.controlcenter.datetime.configure)"
+msgid "To change time or date settings, you need to authenticate."
+msgstr ""
+"Πρέπει να γίνει πιστοποίηση για να αλλάξετε τις ρυθμίσεις ώρας ή ημερομηνίας."
 
 #: /usr/share/polkit-1/actions/org.gnome.MultiWriter.policy:12
 msgctxt "Description(org.gnome.MultiWriter.probe)"
@@ -1541,54 +1494,54 @@ msgctxt "Message(org.gnome.MultiWriter.probe)"
 msgid "Authentication is required to probe the device"
 msgstr "Απαιτείται πιστοποίηση για την ανίχνευση της συσκευής"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
-msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
-msgid "Modify the lit LED for a Wacom tablet"
-msgstr "Τροποποίηση του φωτισμού LED, για ένα tablet Wacom"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:147
-msgctxt ""
-"Description(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
-msgid "Modify the OLED image for a Wacom tablet"
-msgstr "Τροποποίηση της εικόνας OLED για ένα tablet Wacom"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:76
-msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
-msgid "Authentication is required to modify the lit LED for a Wacom tablet"
-msgstr ""
-"Απαιτείται πιστοποίηση για την τροποποίηση του φωτισμού LED για ένα tablet "
-"Wacom"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:201
-msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
-msgid "Authentication is required to modify the OLED image for a Wacom tablet"
-msgstr ""
-"Απαιτείται πιστοποίηση για την τροποποίηση της εικόνας OLED για ένα tablet "
-"Wacom"
-
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:15
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:16
 msgctxt "Description(org.gnome.settings-daemon.plugins.power.backlight-helper)"
 msgid "Modify the laptop brightness"
 msgstr "Τροποποιήστε τη φωτεινότητα του φορητού υπολογιστή"
 
-#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:82
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.power.policy:86
 msgctxt "Message(org.gnome.settings-daemon.plugins.power.backlight-helper)"
 msgid "Authentication is required to modify the laptop brightness"
 msgstr ""
 "Απαιτείται πιστοποίηση για την τροποποίηση της φωτεινότητας του φορητού "
 "υπολογιστή"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:11
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:15
+msgctxt "Description(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
+msgid "Modify the lit LED for a Wacom tablet"
+msgstr "Τροποποίηση του φωτισμού LED, για ένα tablet Wacom"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:155
+msgctxt ""
+"Description(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
+msgid "Modify the OLED image for a Wacom tablet"
+msgstr "Τροποποίηση της εικόνας OLED για ένα tablet Wacom"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:79
+msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-led-helper)"
+msgid "Authentication is required to modify the lit LED for a Wacom tablet"
+msgstr ""
+"Απαιτείται πιστοποίηση για την τροποποίηση του φωτισμού LED για ένα tablet "
+"Wacom"
+
+#: /usr/share/polkit-1/actions/org.gnome.settings-daemon.plugins.wacom.policy:213
+msgctxt "Message(org.gnome.settings-daemon.plugins.wacom.wacom-oled-helper)"
+msgid "Authentication is required to modify the OLED image for a Wacom tablet"
+msgstr ""
+"Απαιτείται πιστοποίηση για την τροποποίηση της εικόνας OLED για ένα tablet "
+"Wacom"
+
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:8
 msgctxt "Description(org.gnome.gnome-system-monitor.kill)"
 msgid "Kill process"
 msgstr "Βίαιος τερματισμός διεργασίας"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:129
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:137
 msgctxt "Description(org.gnome.gnome-system-monitor.renice)"
 msgid "Renice process"
 msgstr "Νέα προτεραιότητα διεργασίας"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:82
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:79
 #, fuzzy
 #| msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
 #| msgid "Privileges are required to control other users' processes"
@@ -1596,7 +1549,7 @@ msgctxt "Message(org.gnome.gnome-system-monitor.kill)"
 msgid "Privileges are required to control other users’ processes"
 msgstr "Απαιτούνται δικαιώματα για τον έλεγχο διεργασιών άλλων χρηστών"
 
-#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:200
+#: /usr/share/polkit-1/actions/org.gnome.gnome-system-monitor.policy:208
 msgctxt "Message(org.gnome.gnome-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
 msgstr "Απαιτούνται δικαιώματα για την αλλαγή προτεραιότητας διεργασιών"
@@ -1620,18 +1573,18 @@ msgctxt "Description(org.gtk.vfs.file-operations-helper)"
 msgid "Perform file operations"
 msgstr "Εκτέλεση λειτουργιών αρχείου"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:33
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:88
 msgctxt "Description(org.gtk.vfs.file-operations)"
 msgid "Perform file operations"
 msgstr "Εκτέλεση λειτουργιών αρχείου"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:23
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:47
 #, fuzzy
 msgctxt "Message(org.gtk.vfs.file-operations-helper)"
 msgid "Authentication is required to run gvfsd-admin daemon"
 msgstr "Απαιτείται πιστοποίηση για την ανίχνευση της συσκευής"
 
-#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:48
+#: /usr/share/polkit-1/actions/org.gtk.vfs.file-operations.policy:127
 #, fuzzy
 #| msgctxt "Message(org.gnome.MultiWriter.probe)"
 #| msgid "Authentication is required to probe the device"
@@ -1665,72 +1618,6 @@ msgid "Authentication is required to install HP drive-guard system setup"
 msgstr ""
 "Απαιτείται πιστοποίηση για να εγκαταστήσετε ρυθμίσεις πολλαπλών οθονών για "
 "όλους τους χρήστες"
-
-#: /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy:9
-#, fuzzy
-#| msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
-#| msgid "Set RTC wakeup time"
-msgctxt "Description(org.kde.kalarm.rtcwake.settimer)"
-msgid "Set RTC wakeup time"
-msgstr "Ρύθμιση της ώρας ξυπνήματος RTC"
-
-#: /usr/share/polkit-1/actions/org.kde.kalarm.rtcwake.policy:47
-#, fuzzy
-#| msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
-#| msgid "Set RTC wake-from-suspend time"
-msgctxt "Message(org.kde.kalarm.rtcwake.settimer)"
-msgid "Set RTC wake-from-suspend time"
-msgstr "Ρύθμιση της ώρας RTC «ξύπνημα από αναστολή»"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:10
-msgctxt "Description(org.kde.kcontrol.kcmsddm.installtheme)"
-msgid "Install an SDDM theme"
-msgstr "Εγκατάσταση ενός θέματος SDDM"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:84
-#, fuzzy
-#| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
-#| msgid "Save Settings"
-msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
-msgid "Save Settings"
-msgstr "Αποθήκευση ρυθμίσεων"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:169
-msgctxt "Description(org.kde.kcontrol.kcmsddm.uninstalltheme)"
-msgid "Uninstall an SDDM theme"
-msgstr "Απεγκατάσταση ενός θέματος SDDM"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:44
-msgctxt "Message(org.kde.kcontrol.kcmsddm.installtheme)"
-msgid "Extracts a zip file containing an SDDM theme to the SDDM theme location"
-msgstr ""
-"Εξάγει μια αρχειοθήκη zip που περιέχει ένα θέμα SDDM στην τοποθεσία θεμάτων "
-"SDDM"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:124
-#, fuzzy
-#| msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
-#| msgid "Save Settings in LightDM"
-msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
-msgid "Save Settings in SDDM"
-msgstr "Αποθήκευση ρυθμίσεων στο LightDM"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmsddm.policy:203
-msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
-msgid "Removes a previously installed SDDM theme"
-msgstr "Αφαίρεση ενός εγκατεστημένου θέματος SDDM"
-
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
-msgctxt "Description(org.kde.fontinst.manage)"
-msgid "Manage system-wide fonts."
-msgstr "Διαχείριση γραμματοσειρών συστήματος."
-
-#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
-msgctxt "Message(org.kde.fontinst.manage)"
-msgid "Modifying the system-wide font configuration requires privileges."
-msgstr ""
-"Για την τροποποίηση της διαμόρφωσης των γραμματοσειρών του συστήματος "
-"χρειάζονται προνόμια."
 
 #: /usr/share/polkit-1/actions/org.kde.ksysguard.processlisthelper.policy:9
 msgctxt "Description(org.kde.ksysguard.processlisthelper.changecpuscheduler)"
@@ -1775,6 +1662,62 @@ msgctxt "Message(org.kde.ksysguard.processlisthelper.sendsignal)"
 msgid "Sends a given signal to a given process"
 msgstr "Αποστολή ενός δοσμένου σήματος σε μία δοσμένη διεργασία"
 
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
+msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "Get brightness"
+msgstr "Ανάκτηση λαμπρότητας"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
+msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "Set brightness"
+msgstr "Ρύθμιση λαμπρότητας"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
+msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "Get syspath"
+msgstr "Λήψη syspath"
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
+msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+msgid "System policies prevent you from getting the brightness level."
+msgstr ""
+"Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου λαμπρότητας."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
+msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
+msgid "System policies prevent you from setting the brightness level."
+msgstr ""
+"Οι πολιτικές του συστήματος αποτρέπουν τον ορισμό του επίπεδου λαμπρότητας."
+
+#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
+msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
+msgid "System policies prevent you from getting the syspath"
+msgstr "Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του syspath"
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:9
+msgctxt "Description(org.kde.fontinst.manage)"
+msgid "Manage system-wide fonts."
+msgstr "Διαχείριση γραμματοσειρών συστήματος."
+
+#: /usr/share/polkit-1/actions/org.kde.fontinst.policy:71
+msgctxt "Message(org.kde.fontinst.manage)"
+msgid "Modifying the system-wide font configuration requires privileges."
+msgstr ""
+"Για την τροποποίηση της διαμόρφωσης των γραμματοσειρών του συστήματος "
+"χρειάζονται προνόμια."
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
+msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
+msgid "Save the date/time settings"
+msgstr "Αποθήκευση ρυθμίσεων ημερομηνίας και ώρας"
+
+#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
+msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
+msgid "System policies prevent you from saving the date/time settings."
+msgstr ""
+"Οι πολιτικές του συστήματος αποτρέπουν την αποθήκευση των ρυθμίσεων ώρας/"
+"ημερομηνίας."
+
 #: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkdm.policy:9
 msgctxt "Description(org.kde.kcontrol.kcmkdm.managefaces)"
 msgid "Manage user images shown in the Login Manager"
@@ -1817,85 +1760,19 @@ msgstr ""
 "Απαιτείται εξουσιοδότηση διαχειριστή για να τροποποιήσετε τις ρυθμίσεις "
 "Διαχειριστή εισόδου"
 
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmclock.save)"
-msgid "Save the date/time settings"
-msgstr "Αποθήκευση ρυθμίσεων ημερομηνίας και ώρας"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmclock.policy:73
-msgctxt "Message(org.kde.kcontrol.kcmclock.save)"
-msgid "System policies prevent you from saving the date/time settings."
-msgstr ""
-"Οι πολιτικές του συστήματος αποτρέπουν την αποθήκευση των ρυθμίσεων ώρας/"
-"ημερομηνίας."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:9
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "Get brightness"
-msgstr "Ανάκτηση λαμπρότητας"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:115
-msgctxt "Description(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "Set brightness"
-msgstr "Ρύθμιση λαμπρότητας"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:222
-msgctxt "Description(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "Get syspath"
-msgstr "Λήψη syspath"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:60
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr ""
-"Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου λαμπρότητας."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:166
-msgctxt "Message(org.kde.powerdevil.backlighthelper.setbrightness)"
-msgid "System policies prevent you from setting the brightness level."
-msgstr ""
-"Οι πολιτικές του συστήματος αποτρέπουν τον ορισμό του επίπεδου λαμπρότητας."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:258
-msgctxt "Message(org.kde.powerdevil.backlighthelper.syspath)"
-msgid "System policies prevent you from getting the syspath"
-msgstr "Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του syspath"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:9
-msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Save wallet configuration"
-msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
-
-#: /usr/share/polkit-1/actions/org.kde.kcontrol.kcmkwallet5.policy:47
-msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
-msgid "Allow saving wallet configuration settings"
-msgstr "Να επιτρέπεται η αποθήκευση της διαμόρφωσης πορτοφολιού"
-
 #: /usr/share/polkit-1/actions/org.linux.lmt.gui.policy:8
 #, fuzzy
 msgctxt "Message(org.linux.lmt.gui.policy)"
 msgid "Authentication is required to run Laptop Mode Tools Config"
 msgstr "Απαιτείται πιστοποίηση για την ανίχνευση της συσκευής"
 
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
-msgctxt "Description(org.libvirt.unix.monitor)"
-msgid "Monitor local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
-msgctxt "Description(org.libvirt.unix.manage)"
-msgid "Manage local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
-msgctxt "Message(org.libvirt.unix.monitor)"
-msgid "System policy prevents monitoring of local virtualized systems"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
-msgctxt "Message(org.libvirt.unix.manage)"
-msgid "System policy prevents management of local virtualized systems"
-msgstr ""
+#: /usr/share/polkit-1/actions/org.lxqt.backlight.pkexec.policy:6
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.accounts.user-administration)"
+#| msgid "Authentication is required to change user data"
+msgctxt "Message(org.lxqt.backlight.pkexec)"
+msgid "Authentication is required to Change Brightness"
+msgstr "Απαιτείται πιστοποίηση για αλλαγή των δεδομένων χρήστη"
 
 #: /usr/share/polkit-1/actions/org.libvirt.api.policy:8
 msgctxt "Description(org.libvirt.api.connect.detect-storage-pools)"
@@ -3066,6 +2943,33 @@ msgctxt "Message(org.libvirt.api.storage-vol.resize)"
 msgid "Resizing  storage volume requires authorization"
 msgstr ""
 
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:29
+msgctxt "Description(org.libvirt.unix.monitor)"
+msgid "Monitor local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:41
+msgctxt "Description(org.libvirt.unix.manage)"
+msgid "Manage local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:30
+msgctxt "Message(org.libvirt.unix.monitor)"
+msgid "System policy prevents monitoring of local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.libvirt.unix.policy:42
+msgctxt "Message(org.libvirt.unix.manage)"
+msgid "System policy prevents management of local virtualized systems"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.ubuntu.pkexec.lightdm-gtk-greeter-settings.policy:8
+#, fuzzy
+msgctxt "Message(com.ubuntu.pkexec.lightdm-gtk-greeter-settings)"
+msgid ""
+"Authentication is required to run Settings editor for LightDM GTK+ Greeter"
+msgstr "Απαιτείται πιστοποίηση για την ανίχνευση της συσκευής"
+
 #: /usr/share/polkit-1/actions/net.luckybackup.su.policy:11
 msgctxt "Description(net.luckybackup.su)"
 msgid "Launch luckyBackup as Superuser"
@@ -3203,29 +3107,53 @@ msgctxt "Message(org.mate.mate-system-monitor.renice)"
 msgid "Privileges are required to change the priority of processes"
 msgstr "Απαιτούνται δικαιώματα για την αλλαγή προτεραιότητας διεργασιών"
 
+#: /usr/share/polkit-1/actions/com.mesonbuild.install.policy:10
+msgctxt "Description(com.mesonbuild.install.run)"
+msgid "Install the given project via Meson"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/com.mesonbuild.install.policy:11
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.packagekit.package-install)"
+#| msgid "Authentication is required to install software"
+msgctxt "Message(com.mesonbuild.install.run)"
+msgid "Authentication is required to install this project"
+msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
+
 #: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:8
 msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-services)"
 msgid "Enable and start modem management services"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:28
+#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:42
 msgctxt "Description(ru.linuxonly.modem-manager-gui.manage-modem-mm07)"
 msgid "Use modem management service"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:14
+#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:21
 msgctxt "Message(ru.linuxonly.modem-manager-gui.manage-services)"
 msgid ""
 "Modem management services aren't running. You need to authenticate to enable "
 "and start these services."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:34
+#: /usr/share/polkit-1/actions/ru.linuxonly.modem-manager-gui.policy:54
 msgctxt "Message(ru.linuxonly.modem-manager-gui.manage-modem-mm07)"
 msgid ""
 "Modem management service needs your credentials. You need to authenticate to "
 "use this service."
 msgstr ""
+
+#: /usr/share/polkit-1/actions/org.xfce.mousepad.policy:16
+msgctxt "Description(org.xfce.mousepad)"
+msgid "Run Mousepad as root"
+msgstr "Εκτέλεση Mousepad ως διαχειριστής"
+
+#: /usr/share/polkit-1/actions/org.xfce.mousepad.policy:55
+#, fuzzy
+msgctxt "Message(org.xfce.mousepad)"
+msgid "Authentication is required to run Mousepad as root."
+msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
 
 #: /usr/share/polkit-1/actions/org.nemo.share.samba_install.policy:12
 msgctxt "Description(org.nemo-share.samba_install)"
@@ -3250,10 +3178,9 @@ msgid "Run Nemo with elevated privileges"
 msgstr ""
 
 #: /usr/share/polkit-1/actions/org.nemo.root.policy:13
-#, fuzzy
 msgctxt "Message(org.nemo.root)"
-msgid "Please enter your password to run Nemo as root"
-msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+msgid "Files"
+msgstr ""
 
 #: /usr/share/polkit-1/actions/net.launchpad.pantheon-files.policy:10
 msgctxt "Description(org.freedesktop.policykit.pkexec.pantheon-files)"
@@ -3288,25 +3215,12 @@ msgctxt "Message(org.debian.pcsc-lite.access_card)"
 msgid "Authentication is required to access the smart card"
 msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
-msgctxt "Description(org.freedesktop.policykit.exec)"
-msgid "Run a program as another user"
-msgstr ""
-
-#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:23
-#, fuzzy
-msgctxt "Message(org.freedesktop.policykit.exec)"
-msgid "Authentication is required to run a program as another user"
-msgstr ""
-"Απαιτείται πιστοποίηση για να επιτρέπεται σε μη συνδεμένους χρήστες να "
-"εκτελούν προγράμματα."
-
 #: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:10
 msgctxt "Description(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
 msgid "Run the polkit example program Frobnicate"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:24
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.examples.pkexec.policy:25
 msgctxt "Message(org.freedesktop.policykit.example.pkexec.run-frobnicate)"
 msgid ""
 "Authentication is required to run the polkit example program Frobnicate "
@@ -3314,31 +3228,18 @@ msgid ""
 "program=$(program), command_line=$(command_line))"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:9
-msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
-msgid "Check existence of discrete gpu"
-msgstr "Έλεγχος ύπαρξης ξεχωριστής κάρτας γραφικών"
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:9
+msgctxt "Description(org.freedesktop.policykit.exec)"
+msgid "Run a program as another user"
+msgstr ""
 
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.discretegpuhelper.policy:42
+#: /usr/share/polkit-1/actions/org.freedesktop.policykit.policy:24
 #, fuzzy
-#| msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
-#| msgid "System policies prevent you from getting the brightness level."
-msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
-msgid ""
-"System policies prevent you from checking the existence of discrete gpu."
+msgctxt "Message(org.freedesktop.policykit.exec)"
+msgid "Authentication is required to run a program as another user"
 msgstr ""
-"Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου λαμπρότητας."
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:97
-msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "Get maximum brightness value"
-msgstr "Ανάκτηση της μέγιστης τιμής λαμπρότητας"
-
-#: /usr/share/polkit-1/actions/org.kde.powerdevil.backlighthelper.policy:135
-msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
-msgid "System policies prevent you from getting the brightness level."
-msgstr ""
-"Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου φωτεινότητας."
+"Απαιτείται πιστοποίηση για να επιτρέπεται σε μη συνδεμένους χρήστες να "
+"εκτελούν προγράμματα."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.realmd.policy:11
 msgctxt "Description(org.freedesktop.realmd.discover-realm)"
@@ -3448,90 +3349,45 @@ msgid ""
 "through)."
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:13
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:8
+#, fuzzy
+#| msgctxt "Description(org.freedesktop.login1.power-off)"
+#| msgid "Power off the system"
+msgctxt "Description(org.gnome.sysprof3.profile)"
+msgid "Profile the system"
+msgstr "Σβήσιμο του συστήματος"
+
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:30
 msgctxt "Description(org.gnome.sysprof2.perf-event-open)"
 msgid "Open a perf event stream"
 msgstr ""
 
-#: /usr/share/polkit-1/actions/org.gnome.sysprof2.policy:14
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:71
+msgctxt "Description(org.gnome.sysprof2.get-kernel-symbols)"
+msgid "Get a list of kernel symbols and their address"
+msgstr ""
+
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:14
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.login1.reboot)"
+#| msgid "Authentication is required for rebooting the system."
+msgctxt "Message(org.gnome.sysprof3.profile)"
+msgid "Authentication is required to profile the system."
+msgstr "Απαιτείται πιστοποίηση για επανεκκίνηση του συστήματος."
+
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:45
 #, fuzzy
 msgctxt "Message(org.gnome.sysprof2.perf-event-open)"
 msgid "Authentication is required to access system performance counters."
 msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
-msgctxt "Description(org.freedesktop.locale1.set-locale)"
-msgid "Set system locale"
-msgstr "Ορισμός τοπικών ρυθμίσεων συστήματος"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
-msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
-msgid "Set system keyboard settings"
-msgstr "Ορισμός ρυθμίσεων πληκτρολογίου συστήματος"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
-msgctxt "Message(org.freedesktop.locale1.set-locale)"
-msgid "Authentication is required to set the system locale."
-msgstr ""
-"Απαιτείται πιστοποίηση για να ορίσετε τις τοπικές ρυθμίσεις του συστήματος."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
-msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
-msgid "Authentication is required to set the system keyboard settings."
-msgstr ""
-"Απαιτείται πιστοποίηση για να ορίσετε τις ρυθμίσεις πληκτρολογίου του "
-"συστήματος."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
-msgctxt "Description(org.freedesktop.timedate1.set-time)"
-msgid "Set system time"
-msgstr "Ορισμός ώρας συστήματος"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
-msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
-msgid "Set system timezone"
-msgstr "Ορισμός ζώνης ώρας συστήματος"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
-msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
-msgid "Set RTC to local timezone or UTC"
-msgstr "Ορισμός RTC στην τοπική ζώνη ώρας ή UTC"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
-msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
-msgid "Turn network time synchronization on or off"
-msgstr "Ενεργοποίηση/Απενεργοποίηση συγχρονισμού ώρας δικτύου"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#: /usr/share/polkit-1/actions/org.gnome.sysprof3.policy:85
 #, fuzzy
-#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-#| msgid "Authentication is required to set the system timezone."
-msgctxt "Message(org.freedesktop.timedate1.set-time)"
-msgid "Authentication is required to set the system time."
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα ζώνης του συστήματος."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
-msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
-msgid "Authentication is required to set the system timezone."
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα ζώνης του συστήματος."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
-msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
-msgid ""
-"Authentication is required to control whether the RTC stores the local or "
-"UTC time."
-msgstr ""
-"Απαιτείται πιστοποίηση για να ελέγξετε αν το RTC αποθηκεύει την τοπική ή την "
-"ώρα UTC."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
-msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
-msgid ""
-"Authentication is required to control whether network time synchronization "
-"shall be enabled."
-msgstr ""
-"Απαιτείται πιστοποίηση για να ελέγξετε αν ο συγχρονισμός ώρας δικτύου θα "
-"ενεργοποιηθεί."
+#| msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
+#| msgid "Authentication is required to set local machine information."
+msgctxt "Message(org.gnome.sysprof2.get-kernel-symbols)"
+msgid "Authentication is required to access Linux kernel information."
+msgstr "Απαιτείται πιστοποίηση για να ορίσετε πληροφορίες τοπικής μηχανής."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.systemd1.policy:10
 msgctxt "Description(org.freedesktop.systemd1.reply-password)"
@@ -3597,6 +3453,40 @@ msgstr "Απαιτείται πιστοποίηση για να ορίσετε �
 msgctxt "Message(org.freedesktop.systemd1.reload-daemon)"
 msgid "Authentication is required to reload the systemd state."
 msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα του συστήματος."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:10
+msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
+msgid "Set host name"
+msgstr "Ορισμός ονόματος οικοδεσπότη"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:72
+msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
+msgid "Set static host name"
+msgstr "Ορισμός στατικού ονόματος οικοδεσπότη"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:134
+msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
+msgid "Set machine information"
+msgstr "Ορισμός πληροφοριών μηχανής"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:37
+msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
+msgid "Authentication is required to set the local host name."
+msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:99
+msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
+msgid ""
+"Authentication is required to set the statically configured local host name, "
+"as well as the pretty host name."
+msgstr ""
+"Απαιτείται πιστοποίηση για να ορίσετε το στατικά ρυθμισμένο όνομα τοπικού "
+"οικοδεσπότη, καθώς και το pretty όνομα οικοδεσπότη."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:161
+msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
+msgid "Authentication is required to set local machine information."
+msgstr "Απαιτείται πιστοποίηση για να ορίσετε πληροφορίες τοπικής μηχανής."
 
 #: /usr/share/polkit-1/actions/org.freedesktop.login1.policy:10
 msgctxt "Description(org.freedesktop.login1.inhibit-block-shutdown)"
@@ -3988,39 +3878,115 @@ msgctxt "Message(org.freedesktop.login1.set-wall-message)"
 msgid "Authentication is required to set a wall message"
 msgstr "Απαιτείται πιστοποίηση για την εγκατάσταση του λογισμικού"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:10
-msgctxt "Description(org.freedesktop.hostname1.set-hostname)"
-msgid "Set host name"
-msgstr "Ορισμός ονόματος οικοδεσπότη"
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:10
+msgctxt "Description(org.freedesktop.locale1.set-locale)"
+msgid "Set system locale"
+msgstr "Ορισμός τοπικών ρυθμίσεων συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:72
-msgctxt "Description(org.freedesktop.hostname1.set-static-hostname)"
-msgid "Set static host name"
-msgstr "Ορισμός στατικού ονόματος οικοδεσπότη"
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:73
+msgctxt "Description(org.freedesktop.locale1.set-keyboard)"
+msgid "Set system keyboard settings"
+msgstr "Ορισμός ρυθμίσεων πληκτρολογίου συστήματος"
 
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:134
-msgctxt "Description(org.freedesktop.hostname1.set-machine-info)"
-msgid "Set machine information"
-msgstr "Ορισμός πληροφοριών μηχανής"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:37
-msgctxt "Message(org.freedesktop.hostname1.set-hostname)"
-msgid "Authentication is required to set the local host name."
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:99
-msgctxt "Message(org.freedesktop.hostname1.set-static-hostname)"
-msgid ""
-"Authentication is required to set the statically configured local host name, "
-"as well as the pretty host name."
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:37
+msgctxt "Message(org.freedesktop.locale1.set-locale)"
+msgid "Authentication is required to set the system locale."
 msgstr ""
-"Απαιτείται πιστοποίηση για να ορίσετε το στατικά ρυθμισμένο όνομα τοπικού "
-"οικοδεσπότη, καθώς και το pretty όνομα οικοδεσπότη."
+"Απαιτείται πιστοποίηση για να ορίσετε τις τοπικές ρυθμίσεις του συστήματος."
 
-#: /usr/share/polkit-1/actions/org.freedesktop.hostname1.policy:161
-msgctxt "Message(org.freedesktop.hostname1.set-machine-info)"
-msgid "Authentication is required to set local machine information."
-msgstr "Απαιτείται πιστοποίηση για να ορίσετε πληροφορίες τοπικής μηχανής."
+#: /usr/share/polkit-1/actions/org.freedesktop.locale1.policy:100
+msgctxt "Message(org.freedesktop.locale1.set-keyboard)"
+msgid "Authentication is required to set the system keyboard settings."
+msgstr ""
+"Απαιτείται πιστοποίηση για να ορίσετε τις ρυθμίσεις πληκτρολογίου του "
+"συστήματος."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:10
+msgctxt "Description(org.freedesktop.timedate1.set-time)"
+msgid "Set system time"
+msgstr "Ορισμός ώρας συστήματος"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:71
+msgctxt "Description(org.freedesktop.timedate1.set-timezone)"
+msgid "Set system timezone"
+msgstr "Ορισμός ζώνης ώρας συστήματος"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:131
+msgctxt "Description(org.freedesktop.timedate1.set-local-rtc)"
+msgid "Set RTC to local timezone or UTC"
+msgstr "Ορισμός RTC στην τοπική ζώνη ώρας ή UTC"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:191
+msgctxt "Description(org.freedesktop.timedate1.set-ntp)"
+msgid "Turn network time synchronization on or off"
+msgstr "Ενεργοποίηση/Απενεργοποίηση συγχρονισμού ώρας δικτύου"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:36
+#, fuzzy
+#| msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+#| msgid "Authentication is required to set the system timezone."
+msgctxt "Message(org.freedesktop.timedate1.set-time)"
+msgid "Authentication is required to set the system time."
+msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα ζώνης του συστήματος."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:97
+msgctxt "Message(org.freedesktop.timedate1.set-timezone)"
+msgid "Authentication is required to set the system timezone."
+msgstr "Απαιτείται πιστοποίηση για να ορίσετε την ώρα ζώνης του συστήματος."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:157
+msgctxt "Message(org.freedesktop.timedate1.set-local-rtc)"
+msgid ""
+"Authentication is required to control whether the RTC stores the local or "
+"UTC time."
+msgstr ""
+"Απαιτείται πιστοποίηση για να ελέγξετε αν το RTC αποθηκεύει την τοπική ή την "
+"ώρα UTC."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.timedate1.policy:218
+msgctxt "Message(org.freedesktop.timedate1.set-ntp)"
+msgid ""
+"Authentication is required to control whether network time synchronization "
+"shall be enabled."
+msgstr ""
+"Απαιτείται πιστοποίηση για να ελέγξετε αν ο συγχρονισμός ώρας δικτύου θα "
+"ενεργοποιηθεί."
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.import)"
+msgid "Import a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:68
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.export)"
+msgid "Export a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:126
+#, fuzzy
+msgctxt "Description(org.freedesktop.import1.pull)"
+msgid "Download a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:35
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.import)"
+msgid "Authentication is required to import a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:93
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.export)"
+msgid "Authentication is required to export a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
+
+#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:151
+#, fuzzy
+msgctxt "Message(org.freedesktop.import1.pull)"
+msgid "Authentication is required to download a VM or container image"
+msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
 
 #: /usr/share/polkit-1/actions/org.freedesktop.machine1.policy:10
 #, fuzzy
@@ -4120,42 +4086,6 @@ msgid ""
 "Authentication is required to manage local virtual machine and container "
 "images."
 msgstr "Απαιτείται πιστοποίηση για να ορίσετε πληροφορίες τοπικής μηχανής."
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:10
-#, fuzzy
-msgctxt "Description(org.freedesktop.import1.import)"
-msgid "Import a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:68
-#, fuzzy
-msgctxt "Description(org.freedesktop.import1.export)"
-msgid "Export a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:126
-#, fuzzy
-msgctxt "Description(org.freedesktop.import1.pull)"
-msgid "Download a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:35
-#, fuzzy
-msgctxt "Message(org.freedesktop.import1.import)"
-msgid "Authentication is required to import a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:93
-#, fuzzy
-msgctxt "Message(org.freedesktop.import1.export)"
-msgid "Authentication is required to export a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για κλείσιμο ενός οδηγού"
-
-#: /usr/share/polkit-1/actions/org.freedesktop.import1.policy:151
-#, fuzzy
-msgctxt "Message(org.freedesktop.import1.pull)"
-msgid "Authentication is required to download a VM or container image"
-msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
 
 #: /usr/share/polkit-1/actions/com.redhat.tuned.gui.policy:6
 msgctxt "Description(com.redhat.tuned.gui.run)"
@@ -4926,6 +4856,214 @@ msgid "Authentication is required to modify the laptop display brightness"
 msgstr ""
 "Απαιτείται πιστοποίηση για την τροποποίηση της φωτεινότητας του φορητού "
 "υπολογιστή"
+
+#, fuzzy
+#~ msgctxt "Message(org.cinnamon.settings-users)"
+#~ msgid "Authentication is required to run the Users and Groups"
+#~ msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#~| msgid "Install signed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.update-internal-trusted)"
+#~ msgid "Install signed system firmware"
+#~ msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#~| msgid "Install signed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.update-internal)"
+#~ msgid "Install unsigned system firmware"
+#~ msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-downgrade)"
+#~| msgid "Install older version of installed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.downgrade-internal)"
+#~ msgid "Install old version of system firmware"
+#~ msgstr "Εγκατάσταση παλιότερης έκδοσης του εγκατεστημένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#~| msgid "Install signed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.update-hotplug-trusted)"
+#~ msgid "Install signed device firmware"
+#~ msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#~| msgid "Install signed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.update-hotplug)"
+#~ msgid "Install unsigned device firmware"
+#~ msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.packagekit.package-install)"
+#~| msgid "Install signed package"
+#~ msgctxt "Description(org.freedesktop.fwupd.downgrade-hotplug)"
+#~ msgid "Install unsigned device firmware"
+#~ msgstr "Εγκατάσταση υπογεγραμμένου πακέτου"
+
+#, fuzzy
+#~| msgctxt "Description(org.freedesktop.color-manager.modify-profile)"
+#~| msgid "Modify a color profile"
+#~ msgctxt "Description(org.freedesktop.fwupd.modify-remote)"
+#~ msgid "Modify a configured remote"
+#~ msgstr "Τροποποιήσετε ένα προφίλ χρωμάτων"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.packagekit.system-update)"
+#~| msgid "Authentication is required to update software"
+#~ msgctxt "Message(org.freedesktop.fwupd.update-internal-trusted)"
+#~ msgid "Authentication is required to update the firmware on this machine"
+#~ msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.packagekit.system-update)"
+#~| msgid "Authentication is required to update software"
+#~ msgctxt "Message(org.freedesktop.fwupd.update-internal)"
+#~ msgid "Authentication is required to update the firmware on this machine"
+#~ msgstr "Απαιτείται πιστοποίηση για την ενημέρωση του λογισμικού"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+#~| msgid "Authentication is required to downgrade software"
+#~ msgctxt "Message(org.freedesktop.fwupd.downgrade-internal)"
+#~ msgid "Authentication is required to downgrade the firmware on this machine"
+#~ msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
+
+#, fuzzy
+#~ msgctxt "Message(org.freedesktop.fwupd.update-hotplug-trusted)"
+#~ msgid ""
+#~ "Authentication is required to update the firmware on a removable device"
+#~ msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
+
+#, fuzzy
+#~ msgctxt "Message(org.freedesktop.fwupd.update-hotplug)"
+#~ msgid ""
+#~ "Authentication is required to update the firmware on a removable device"
+#~ msgstr "Απαιτείται πιστοποίηση για να ορίσετε τοπικά όνομα οικοδεσπότη."
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.udisks2.encrypted-change-passphrase)"
+#~| msgid ""
+#~| "Authentication is required to change the passphrase for an encrypted "
+#~| "device"
+#~ msgctxt "Message(org.freedesktop.fwupd.downgrade-hotplug)"
+#~ msgid ""
+#~ "Authentication is required to downgrade the firmware on a removable device"
+#~ msgstr ""
+#~ "Απαιτείται πιστοποίηση για αλλαγή του συνθηματικού για μια "
+#~ "κρυπτογραφημένη συσκευή"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.udisks2.open-device)"
+#~| msgid "Authentication is required to open a device"
+#~ msgctxt "Message(org.freedesktop.fwupd.device-unlock)"
+#~ msgid "Authentication is required to unlock a device"
+#~ msgstr "Απαιτείται πιστοποίηση για άνοιγμα συσκευής"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.color-manager.modify-device)"
+#~| msgid ""
+#~| "Authentication is required to modify the color settings for a device"
+#~ msgctxt "Message(org.freedesktop.fwupd.verify-update)"
+#~ msgid ""
+#~ "Authentication is required to update the stored checksums for the device"
+#~ msgstr ""
+#~ "Απαιτείται έλεγχος ταυτότητας για να τροποποιήσετε τις ρυθμίσεις χρωμάτων "
+#~ "για μια συσκευή"
+
+#, fuzzy
+#~| msgctxt "Message(org.freedesktop.packagekit.package-downgrade)"
+#~| msgid "Authentication is required to downgrade software"
+#~ msgctxt "Message(org.freedesktop.fwupd.modify-remote)"
+#~ msgid ""
+#~ "Authentication is required to modify a configured remote used for "
+#~ "firmware updates"
+#~ msgstr "Απαιτείται πιστοποίηση για την υποβάθμιση του λογισμικού"
+
+#, fuzzy
+#~| msgctxt "Description(org.kde.kalarmrtcwake.settimer)"
+#~| msgid "Set RTC wakeup time"
+#~ msgctxt "Description(org.kde.kalarm.rtcwake.settimer)"
+#~ msgid "Set RTC wakeup time"
+#~ msgstr "Ρύθμιση της ώρας ξυπνήματος RTC"
+
+#, fuzzy
+#~| msgctxt "Message(org.kde.kalarmrtcwake.settimer)"
+#~| msgid "Set RTC wake-from-suspend time"
+#~ msgctxt "Message(org.kde.kalarm.rtcwake.settimer)"
+#~ msgid "Set RTC wake-from-suspend time"
+#~ msgstr "Ρύθμιση της ώρας RTC «ξύπνημα από αναστολή»"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmsddm.installtheme)"
+#~ msgid "Install an SDDM theme"
+#~ msgstr "Εγκατάσταση ενός θέματος SDDM"
+
+#, fuzzy
+#~| msgctxt "Description(org.kde.kcontrol.kcmlightdm.save)"
+#~| msgid "Save Settings"
+#~ msgctxt "Description(org.kde.kcontrol.kcmsddm.save)"
+#~ msgid "Save Settings"
+#~ msgstr "Αποθήκευση ρυθμίσεων"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+#~ msgid "Uninstall an SDDM theme"
+#~ msgstr "Απεγκατάσταση ενός θέματος SDDM"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmsddm.installtheme)"
+#~ msgid ""
+#~ "Extracts a zip file containing an SDDM theme to the SDDM theme location"
+#~ msgstr ""
+#~ "Εξάγει μια αρχειοθήκη zip που περιέχει ένα θέμα SDDM στην τοποθεσία "
+#~ "θεμάτων SDDM"
+
+#, fuzzy
+#~| msgctxt "Message(org.kde.kcontrol.kcmlightdm.save)"
+#~| msgid "Save Settings in LightDM"
+#~ msgctxt "Message(org.kde.kcontrol.kcmsddm.save)"
+#~ msgid "Save Settings in SDDM"
+#~ msgstr "Αποθήκευση ρυθμίσεων στο LightDM"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmsddm.uninstalltheme)"
+#~ msgid "Removes a previously installed SDDM theme"
+#~ msgstr "Αφαίρεση ενός εγκατεστημένου θέματος SDDM"
+
+#~ msgctxt "Description(org.kde.kcontrol.kcmkwallet5.save)"
+#~ msgid "Save wallet configuration"
+#~ msgstr "Αποθήκευση διαμόρφωσης πορτοφολιού KDE"
+
+#~ msgctxt "Message(org.kde.kcontrol.kcmkwallet5.save)"
+#~ msgid "Allow saving wallet configuration settings"
+#~ msgstr "Να επιτρέπεται η αποθήκευση της διαμόρφωσης πορτοφολιού"
+
+#, fuzzy
+#~ msgctxt "Message(org.nemo.root)"
+#~ msgid "Please enter your password to run Nemo as root"
+#~ msgstr "Απαιτείται πιστοποίηση για την αλλαγή δεδομένων του χρήστη"
+
+#~ msgctxt "Description(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+#~ msgid "Check existence of discrete gpu"
+#~ msgstr "Έλεγχος ύπαρξης ξεχωριστής κάρτας γραφικών"
+
+#, fuzzy
+#~| msgctxt "Message(org.kde.powerdevil.backlighthelper.brightness)"
+#~| msgid "System policies prevent you from getting the brightness level."
+#~ msgctxt "Message(org.kde.powerdevil.discretegpuhelper.hasdualgpu)"
+#~ msgid ""
+#~ "System policies prevent you from checking the existence of discrete gpu."
+#~ msgstr ""
+#~ "Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου λαμπρότητας."
+
+#~ msgctxt "Description(org.kde.powerdevil.backlighthelper.brightnessmax)"
+#~ msgid "Get maximum brightness value"
+#~ msgstr "Ανάκτηση της μέγιστης τιμής λαμπρότητας"
+
+#~ msgctxt "Message(org.kde.powerdevil.backlighthelper.brightnessmax)"
+#~ msgid "System policies prevent you from getting the brightness level."
+#~ msgstr ""
+#~ "Οι πολιτικές του συστήματος αποτρέπουν τη λήψη του επίπεδου φωτεινότητας."
 
 #, fuzzy
 #~| msgctxt "Message(org.gnome.MultiWriter.probe)"

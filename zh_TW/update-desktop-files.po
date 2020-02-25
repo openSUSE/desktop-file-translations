@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-23 12:11+0000\n"
+"POT-Creation-Date: 2020-02-25 14:03+0000\n"
 "PO-Revision-Date: 2018-03-29 08:01+0000\n"
 "Last-Translator: Grace Yu <grace.yu@excel-gits.com>\n"
 "Language-Team: Chinese (Taiwan) <https://l10n.opensuse.org/projects/desktop-"
@@ -41,15 +41,20 @@ msgid ""
 "devices"
 msgstr "設定 ICC 設定檔並載入所有已設定顯示裝置的校正曲線"
 
-#: /etc/xdg/autostart/nm-applet.desktop:2
+#: /etc/xdg/autostart/nm-applet.desktop:72
 msgctxt "Name(nm-applet.desktop)"
 msgid "Network"
 msgstr "網路"
 
-#: /etc/xdg/autostart/nm-applet.desktop:73
+#: /etc/xdg/autostart/nm-applet.desktop:106
 msgctxt "Comment(nm-applet.desktop)"
 msgid "Manage your network connections"
 msgstr "管理您的網路連線"
+
+#: /etc/xdg/autostart/nm-applet.desktop:120
+msgctxt "Icon(nm-applet.desktop)"
+msgid "nm-device-wireless"
+msgstr ""
 
 #: /usr/share/xsessions/WindowMaker.desktop:6
 msgctxt "Name(WindowMaker.desktop)"
@@ -66,26 +71,6 @@ msgctxt "Name(at-spi-dbus-bus.desktop)"
 msgid "AT-SPI D-Bus Bus"
 msgstr "AT-SPI D-Bus 匯流排"
 
-#: /usr/share/autoinstall/modules/partitioning.desktop:24
-msgctxt "Name(partitioning.desktop)"
-msgid "Partitioning"
-msgstr "磁碟分割"
-
-#: /usr/share/autoinstall/modules/partitioning.desktop:25
-msgctxt "GenericName(partitioning.desktop)"
-msgid "Configure Partitioning and Storage  Settings"
-msgstr "設定磁碟分割與儲存設定"
-
-#: /usr/share/autoinstall/modules/report.desktop:22
-msgctxt "Name(report.desktop)"
-msgid "Reporting & Logging"
-msgstr "報告與記錄"
-
-#: /usr/share/autoinstall/modules/report.desktop:23
-msgctxt "GenericName(report.desktop)"
-msgid "Configure Reporting and Logging Options"
-msgstr "設定報告與記錄選項"
-
 #: /usr/share/autoinstall/modules/software.desktop:22
 msgctxt "Name(software.desktop)"
 msgid "Package Selection"
@@ -95,6 +80,16 @@ msgstr "套件選擇"
 msgctxt "GenericName(software.desktop)"
 msgid "Configure Package Selection and Software Settings"
 msgstr "設定套件選擇與軟體設定"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:24
+msgctxt "Name(partitioning.desktop)"
+msgid "Partitioning"
+msgstr "磁碟分割"
+
+#: /usr/share/autoinstall/modules/partitioning.desktop:25
+msgctxt "GenericName(partitioning.desktop)"
+msgid "Configure Partitioning and Storage  Settings"
+msgstr "設定磁碟分割與儲存設定"
 
 #: /usr/share/autoinstall/modules/general.desktop:22
 msgctxt "Name(general.desktop)"
@@ -106,16 +101,6 @@ msgctxt "GenericName(general.desktop)"
 msgid "Configure General Autoinstallation  Options"
 msgstr "設定基本的自動化安裝選項"
 
-#: /usr/share/autoinstall/modules/files.desktop:23
-msgctxt "Name(files.desktop)"
-msgid "Complete Configuration Files"
-msgstr "完整的組態檔案"
-
-#: /usr/share/autoinstall/modules/files.desktop:24
-msgctxt "GenericName(files.desktop)"
-msgid "Add Complete Configuration Files"
-msgstr "增加完整的設定檔案"
-
 #: /usr/share/autoinstall/modules/scripts.desktop:21
 msgctxt "Name(scripts.desktop)"
 msgid "Custom Scripts"
@@ -125,6 +110,26 @@ msgstr "自定義腳本"
 msgctxt "GenericName(scripts.desktop)"
 msgid "Add or Edit Custom Scripts"
 msgstr "增加或編輯自訂化的腳本"
+
+#: /usr/share/autoinstall/modules/report.desktop:22
+msgctxt "Name(report.desktop)"
+msgid "Reporting & Logging"
+msgstr "報告與記錄"
+
+#: /usr/share/autoinstall/modules/report.desktop:23
+msgctxt "GenericName(report.desktop)"
+msgid "Configure Reporting and Logging Options"
+msgstr "設定報告與記錄選項"
+
+#: /usr/share/autoinstall/modules/files.desktop:23
+msgctxt "Name(files.desktop)"
+msgid "Complete Configuration Files"
+msgstr "完整的組態檔案"
+
+#: /usr/share/autoinstall/modules/files.desktop:24
+msgctxt "GenericName(files.desktop)"
+msgid "Add Complete Configuration Files"
+msgstr "增加完整的設定檔案"
 
 #: /usr/share/xsessions/awesome.desktop:2
 msgctxt "Name(awesome.desktop)"
@@ -181,7 +186,7 @@ msgctxt "Name(blueman.desktop)"
 msgid "Blueman Applet"
 msgstr "Blueman 小程式"
 
-#: /etc/xdg/autostart/blueman.desktop:45
+#: /etc/xdg/autostart/blueman.desktop:49
 msgctxt "Comment(blueman.desktop)"
 msgid "Blueman Bluetooth Manager"
 msgstr "Blueman 藍牙裝置管理軟體"
@@ -196,9 +201,12 @@ msgctxt "Name(org.kde.breezedark.desktop)"
 msgid "Breeze Dark"
 msgstr "Breeze Dark"
 
-#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:48
+#: /usr/share/metainfo/org.kde.breezedark.desktop.appdata.xml:49
+#, fuzzy
+#| msgctxt "Summary(org.kde.breezedark.desktop)"
+#| msgid "Breeze Dark Desktop Design Language by the KDE VDG"
 msgctxt "Summary(org.kde.breezedark.desktop)"
-msgid "Breeze Dark Desktop Design Language by the KDE VDG"
+msgid "Breeze Dark by the KDE VDG"
 msgstr "KDE VDG 團隊設計的 Breeze Dark 桌面設計語言"
 
 #: /usr/share/wallpapers/Next/metadata.desktop:2
@@ -261,15 +269,15 @@ msgctxt "Name(caribou-autostart.desktop)"
 msgid "Caribou"
 msgstr "Caribou"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
-msgid "Cinnamon Settings Daemon - background"
-msgstr "Cinnamon 設定精靈 - background"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-screensaver-proxy.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-screensaver-proxy.desktop)"
 msgid "Cinnamon Settings Daemon - screensaver-proxy"
 msgstr "Cinnamon 設定精靈 - screensaver-proxy"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-settings"
+msgstr "Cinnamon 設定精靈 - a11y-settings"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-smartcard.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-smartcard.desktop)"
@@ -281,90 +289,80 @@ msgctxt "Name(cinnamon-settings-daemon-clipboard.desktop)"
 msgid "Cinnamon Settings Daemon - clipboard"
 msgstr "Cinnamon 設定精靈 - clipboard"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
-msgid "Cinnamon Settings Daemon - mouse"
-msgstr "Cinnamon 設定精靈 - mouse"
-
 #: /etc/xdg/autostart/cinnamon-settings-daemon-xsettings.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-xsettings.desktop)"
 msgid "Cinnamon Settings Daemon - xsettings"
 msgstr "Cinnamon 設定精靈 - xsettings"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-keyboard"
-msgstr "Cinnamon 設定精靈 - a11y-keyboard"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
-msgid "Cinnamon Settings Daemon - power"
-msgstr "Cinnamon 設定精靈 - power"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
-msgid "Cinnamon Settings Daemon - automount"
-msgstr "Cinnamon 設定精靈 - automount"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
-msgid "Cinnamon Settings Daemon - housekeeping"
-msgstr "Cinnamon 設定精靈 - housekeeping"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-keyboard.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-keyboard.desktop)"
 msgid "Cinnamon Settings Daemon - keyboard"
 msgstr "Cinnamon 設定精靈 - keyboard"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
-msgid "Cinnamon Settings Daemon - xrandr"
-msgstr "Cinnamon 設定精靈 - xrandr"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
-msgid "Cinnamon Settings Daemon - orientation"
-msgstr "Cinnamon 設定精靈 - orientation"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
-msgid "Cinnamon Settings Daemon - sound"
-msgstr "Cinnamon 設定精靈 - sound"
-
-#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
-msgid "Cinnamon Settings Daemon - print-notifications"
-msgstr "Cinnamon 設定精靈 - print-notifications"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-automount.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-automount.desktop)"
+msgid "Cinnamon Settings Daemon - automount"
+msgstr "Cinnamon 設定精靈 - automount"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-color.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-color.desktop)"
 msgid "Cinnamon Settings Daemon - color"
 msgstr "Cinnamon 設定精靈 - color"
 
-#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-settings.desktop:3
-msgctxt "Name(cinnamon-settings-daemon-a11y-settings.desktop)"
-msgid "Cinnamon Settings Daemon - a11y-settings"
-msgstr "Cinnamon 設定精靈 - a11y-settings"
+#: /etc/xdg/autostart/cinnamon-settings-daemon-orientation.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-orientation.desktop)"
+msgid "Cinnamon Settings Daemon - orientation"
+msgstr "Cinnamon 設定精靈 - orientation"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-housekeeping.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-housekeeping.desktop)"
+msgid "Cinnamon Settings Daemon - housekeeping"
+msgstr "Cinnamon 設定精靈 - housekeeping"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-background.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-background.desktop)"
+msgid "Cinnamon Settings Daemon - background"
+msgstr "Cinnamon 設定精靈 - background"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-power.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-power.desktop)"
+msgid "Cinnamon Settings Daemon - power"
+msgstr "Cinnamon 設定精靈 - power"
 
 #: /etc/xdg/autostart/cinnamon-settings-daemon-media-keys.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-media-keys.desktop)"
 msgid "Cinnamon Settings Daemon - media-keys"
 msgstr "Cinnamon 設定精靈 - media-keys"
 
+#: /etc/xdg/autostart/cinnamon-settings-daemon-mouse.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-mouse.desktop)"
+msgid "Cinnamon Settings Daemon - mouse"
+msgstr "Cinnamon 設定精靈 - mouse"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-a11y-keyboard.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-a11y-keyboard.desktop)"
+msgid "Cinnamon Settings Daemon - a11y-keyboard"
+msgstr "Cinnamon 設定精靈 - a11y-keyboard"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-sound.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-sound.desktop)"
+msgid "Cinnamon Settings Daemon - sound"
+msgstr "Cinnamon 設定精靈 - sound"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-xrandr.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-xrandr.desktop)"
+msgid "Cinnamon Settings Daemon - xrandr"
+msgstr "Cinnamon 設定精靈 - xrandr"
+
+#: /etc/xdg/autostart/cinnamon-settings-daemon-print-notifications.desktop:3
+msgctxt "Name(cinnamon-settings-daemon-print-notifications.desktop)"
+msgid "Cinnamon Settings Daemon - print-notifications"
+msgstr "Cinnamon 設定精靈 - print-notifications"
+
 #: /etc/xdg/autostart/cinnamon-settings-daemon-cursor.desktop:3
 msgctxt "Name(cinnamon-settings-daemon-cursor.desktop)"
 msgid "Cinnamon Settings Daemon - cursor"
 msgstr "Cinnamon 設定精靈 - cursor"
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "此作業階段可讓您登入 Cinnamon"
 
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
@@ -375,6 +373,16 @@ msgstr "Cinnamon (軟件渲染)"
 msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr "此作業階段可讓您登入 Cinnamon (使用軟體轉譯)"
+
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "此作業階段可讓您登入 Cinnamon"
 
 #: /etc/xdg/autostart/lxqt-compton.desktop:3
 msgctxt "Name(lxqt-compton.desktop)"
@@ -391,35 +399,60 @@ msgctxt "Comment(lxqt-compton.desktop)"
 msgid "A X compositor"
 msgstr "一個 X 合成器"
 
-#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:4
+#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:7
 msgctxt "Name(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Backup Monitor"
 msgstr "備份監視器"
 
-#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:5
+#: /etc/xdg/autostart/org.gnome.DejaDup.Monitor.desktop:8
 msgctxt "Comment(org.gnome.DejaDup.Monitor.desktop)"
 msgid "Schedules backups at regular intervals"
 msgstr "定期排程備份"
 
-#: /usr/share/appdata/com.github.spheras.desktopfolder.appdata.xml:7
-msgctxt "Name(com.github.spheras.desktopfolder.desktop)"
+#: /usr/share/metainfo/com.github.spheras.desktopfolder.appdata.xml:6
+#, fuzzy
+#| msgctxt "Name(com.github.spheras.desktopfolder.desktop)"
+#| msgid "Desktop Folder"
+msgctxt "Name(com.github.spheras.desktopfolder)"
 msgid "Desktop Folder"
 msgstr "桌面資料夾"
 
-#: /usr/share/appdata/com.github.spheras.desktopfolder.appdata.xml:8
-msgctxt "Summary(com.github.spheras.desktopfolder.desktop)"
+#: /usr/share/metainfo/com.github.spheras.desktopfolder.appdata.xml:27
+#, fuzzy
+#| msgctxt "Summary(com.github.spheras.desktopfolder.desktop)"
+#| msgid "Bring your desktop back to life"
+msgctxt "Summary(com.github.spheras.desktopfolder)"
 msgid "Bring your desktop back to life"
 msgstr "使您的桌面生動有趣"
 
-#: /etc/xdg/autostart/com.github.spheras.desktopfolder.desktop:4
-msgctxt "Comment(com.github.spheras.desktopfolder.desktop)"
+#: /etc/xdg/autostart/com.github.spheras.desktopfolder-autostart.desktop:22
+#, fuzzy
+#| msgctxt "Name(com.github.spheras.desktopfolder.desktop)"
+#| msgid "Desktop Folder"
+msgctxt "Name(com.github.spheras.desktopfolder-autostart.desktop)"
+msgid "Desktop Folder"
+msgstr "桌面資料夾"
+
+#: /etc/xdg/autostart/com.github.spheras.desktopfolder-autostart.desktop:43
+#, fuzzy
+#| msgctxt "Comment(com.github.spheras.desktopfolder.desktop)"
+#| msgid "Organize your desktop with panels, notes and photos"
+msgctxt "Comment(com.github.spheras.desktopfolder-autostart.desktop)"
 msgid "Organize your desktop with panels, notes and photos"
 msgstr "使用面板、備註和相片組織您的桌面"
 
-#: /etc/xdg/autostart/com.github.spheras.desktopfolder.desktop:10
-msgctxt "Keywords(com.github.spheras.desktopfolder.desktop)"
+#: /etc/xdg/autostart/com.github.spheras.desktopfolder-autostart.desktop:46
+#, fuzzy
+#| msgctxt "Keywords(com.github.spheras.desktopfolder.desktop)"
+#| msgid "desktop;folder;file;organize;"
+msgctxt "Keywords(com.github.spheras.desktopfolder-autostart.desktop)"
 msgid "desktop;folder;file;organize;"
 msgstr "桌面;資料夾;檔案;組織;"
+
+#: /etc/xdg/autostart/org.kde.discover.notifier.desktop:2
+msgctxt "Name(org.kde.discover.notifier.desktop)"
+msgid "Discover"
+msgstr "Discover"
 
 #: /usr/share/xsessions/e16-session.desktop:4
 msgctxt "Name(e16-session.desktop)"
@@ -446,7 +479,7 @@ msgstr "Enlightenment"
 #| msgctxt "Comment(enlightenment.desktop)"
 #| msgid "Log in using Enlightenment (Version 0.21.8)"
 msgctxt "Comment(enlightenment.desktop)"
-msgid "Log in using Enlightenment (Version 0.22.3)"
+msgid "Log in using Enlightenment (Version 0.23.1)"
 msgstr "使用 Enlightenment 登入 (版本 0.21.8)"
 
 #: /usr/share/xsessions/epymc_xsession.desktop:4
@@ -459,13 +492,19 @@ msgctxt "Comment(epymc_xsession.desktop)"
 msgid "Log in directly in EpyMC"
 msgstr "於 EpyMC 直接登入"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:3
-msgctxt "Name(evolution-alarm-notify.desktop)"
+#: /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop:3
+#, fuzzy
+#| msgctxt "Name(evolution-alarm-notify.desktop)"
+#| msgid "Evolution Alarm Notify"
+msgctxt "Name(org.gnome.Evolution-alarm-notify.desktop)"
 msgid "Evolution Alarm Notify"
 msgstr "Evolution 鬧鈴通知"
 
-#: /etc/xdg/autostart/evolution-alarm-notify.desktop:69
-msgctxt "Comment(evolution-alarm-notify.desktop)"
+#: /etc/xdg/autostart/org.gnome.Evolution-alarm-notify.desktop:30
+#, fuzzy
+#| msgctxt "Comment(evolution-alarm-notify.desktop)"
+#| msgid "Calendar event notifications"
+msgctxt "Comment(org.gnome.Evolution-alarm-notify.desktop)"
 msgid "Calendar event notifications"
 msgstr "行事曆事件通知"
 
@@ -514,6 +553,21 @@ msgctxt "Comment(gsettings-data-convert.desktop)"
 msgid "Migrates user settings from GConf to dconf"
 msgstr "將使用者設定值從 GConf 轉移到 dconf"
 
+#: /etc/xdg/autostart/geoclue-demo-agent.desktop:2
+msgctxt "Name(geoclue-demo-agent.desktop)"
+msgid "Geoclue Demo agent"
+msgstr ""
+
+#: /etc/xdg/autostart/geoclue-demo-agent.desktop:3
+msgctxt "GenericName(geoclue-demo-agent.desktop)"
+msgid "Demo geoclue agent"
+msgstr ""
+
+#: /etc/xdg/autostart/geoclue-demo-agent.desktop:4
+msgctxt "Keywords(geoclue-demo-agent.desktop)"
+msgid "geolocation;"
+msgstr ""
+
 #: /etc/xdg/autostart/gnome-break-timer-autostart.desktop:3
 msgctxt "Name(gnome-break-timer-autostart.desktop)"
 msgid "Break Timer"
@@ -529,52 +583,62 @@ msgctxt "Name(org.gnome.SettingsDaemon.DiskUtilityNotify.desktop)"
 msgid "gnome-disk-utility notification plugin for GNOME Settings Daemon"
 msgstr "GNOME 設定精靈的 gnome-disk-utility 通知外掛程式"
 
+#: /etc/xdg/autostart/gnome-welcome-tour.desktop:74
+msgctxt "Name(gnome-welcome-tour.desktop)"
+msgid "Welcome"
+msgstr "歡迎"
+
 #: /etc/xdg/autostart/gnome-initial-setup-copy-worker.desktop:2
 msgctxt "Name(gnome-initial-setup-copy-worker.desktop)"
 msgid "GNOME Initial Setup Copy Worker"
 msgstr "GNOME 初始設定複製背景工作"
 
-#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:2
+#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:73
 msgctxt "Name(gnome-initial-setup-first-login.desktop)"
 msgid "Initial Setup"
 msgstr "初始設定"
 
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:72
-msgctxt "Name(gnome-keyring-ssh.desktop)"
-msgid "SSH Key Agent"
-msgstr "SSH 金鑰代理程式"
+#: /etc/xdg/autostart/gnome-initial-setup-first-login.desktop:105
+msgctxt "Icon(gnome-initial-setup-first-login.desktop)"
+msgid "preferences-system"
+msgstr "preferences-system"
 
-#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:143
-msgctxt "Comment(gnome-keyring-ssh.desktop)"
-msgid "GNOME Keyring: SSH Agent"
-msgstr "GNOME 鑰匙圈：SSH 代理程式"
-
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:73
-msgctxt "Name(gnome-keyring-pkcs11.desktop)"
-msgid "Certificate and Key Storage"
-msgstr "憑證與金鑰儲存區"
-
-#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:143
-msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
-msgid "GNOME Keyring: PKCS#11 Component"
-msgstr "GNOME 鑰匙圈：PKCS#11 元件"
-
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:73
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:74
 msgctxt "Name(gnome-keyring-secrets.desktop)"
 msgid "Secret Storage Service"
 msgstr "保密儲存區服務"
 
-#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:144
+#: /etc/xdg/autostart/gnome-keyring-secrets.desktop:147
 msgctxt "Comment(gnome-keyring-secrets.desktop)"
 msgid "GNOME Keyring: Secret Service"
 msgstr "GNOME 鑰匙圈：保密服務"
 
-#: /usr/share/xsessions/gnome-xorg.desktop:2
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:74
+msgctxt "Name(gnome-keyring-ssh.desktop)"
+msgid "SSH Key Agent"
+msgstr "SSH 金鑰代理程式"
+
+#: /etc/xdg/autostart/gnome-keyring-ssh.desktop:147
+msgctxt "Comment(gnome-keyring-ssh.desktop)"
+msgid "GNOME Keyring: SSH Agent"
+msgstr "GNOME 鑰匙圈：SSH 代理程式"
+
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:75
+msgctxt "Name(gnome-keyring-pkcs11.desktop)"
+msgid "Certificate and Key Storage"
+msgstr "憑證與金鑰儲存區"
+
+#: /etc/xdg/autostart/gnome-keyring-pkcs11.desktop:147
+msgctxt "Comment(gnome-keyring-pkcs11.desktop)"
+msgid "GNOME Keyring: PKCS#11 Component"
+msgstr "GNOME 鑰匙圈：PKCS#11 元件"
+
+#: /usr/share/xsessions/gnome-xorg.desktop:59
 msgctxt "Name(gnome-xorg.desktop)"
 msgid "GNOME on Xorg"
 msgstr "GNOME 採行 Xorg"
 
-#: /usr/share/xsessions/gnome-xorg.desktop:54
+#: /usr/share/xsessions/gnome-xorg.desktop:149
 msgctxt "Comment(gnome-xorg.desktop)"
 msgid "This session logs you into GNOME"
 msgstr "這個作業階段讓您登入 GNOME"
@@ -593,6 +657,59 @@ msgstr ""
 "GNU 網路物件模型環境(The GNU Network Object Model Environment，GNOME)。 一個"
 "完整、自由且易用的桌面環境"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
+msgid "GNOME Settings Daemon's color plugin"
+msgstr "GNOME 設定精靈的 color 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wwan.desktop:3
+#, fuzzy
+#| msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+#| msgid "GNOME Settings Daemon's wacom plugin"
+msgctxt "Name(org.gnome.SettingsDaemon.Wwan.desktop)"
+msgid "GNOME Settings Daemon's Wwan plugin"
+msgstr "GNOME 設定精靈的 wacom 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
+msgid "GNOME Settings Daemon's power plugin"
+msgstr "GNOME 設定精靈的 power 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
+msgid "GNOME Settings Daemon's smartcard plugin"
+msgstr "GNOME 設定精靈的 smartcard 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
+msgid "GNOME Settings Daemon's datetime plugin"
+msgstr "GNOME 設定精靈的 datetime 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
+msgid "GNOME Settings Daemon's sound plugin"
+msgstr "GNOME 設定精靈的 sound 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
+msgid "GNOME Settings Daemon's a11y-settings plugin"
+msgstr "GNOME 設定精靈的 a11y-settings 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
+msgid "GNOME Settings Daemon's rfkill plugin"
+msgstr "GNOME 設定精靈的 rfkill 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
+msgid "GNOME Settings Daemon's print-notifications plugin"
+msgstr "GNOME 設定精靈的 print-notifications 外掛程式"
+
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
+msgid "GNOME Settings Daemon's wacom plugin"
+msgstr "GNOME 設定精靈的 wacom 外掛程式"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.MediaKeys.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
 msgid "GNOME Settings Daemon's media-keys plugin"
@@ -603,92 +720,32 @@ msgctxt "Name(org.gnome.SettingsDaemon.XSettings.desktop)"
 msgid "GNOME Settings Daemon's xsettings plugin"
 msgstr "GNOME 設定精靈的 xsettings 外掛程式"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Datetime.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Datetime.desktop)"
-msgid "GNOME Settings Daemon's datetime plugin"
-msgstr "GNOME 設定精靈的 datetime 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Color.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Color.desktop)"
-msgid "GNOME Settings Daemon's color plugin"
-msgstr "GNOME 設定精靈的 color 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Smartcard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Smartcard.desktop)"
-msgid "GNOME Settings Daemon's smartcard plugin"
-msgstr "GNOME 設定精靈的 smartcard 外掛程式"
-
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sharing.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Sharing.desktop)"
 msgid "GNOME Settings Daemon's sharing plugin"
 msgstr "GNOME 設定精靈的 sharing 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Wacom.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Wacom.desktop)"
-msgid "GNOME Settings Daemon's wacom plugin"
-msgstr "GNOME 設定精靈的 wacom 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11yKeyboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
-msgid "GNOME Settings Daemon's a11y-keyboard plugin"
-msgstr "GNOME 設定精靈的 a11y-keyboard 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
-msgid "GNOME Settings Daemon's screensaver-proxy plugin"
-msgstr "GNOME 設定精靈的 screensaver-proxy 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Power.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
-msgid "GNOME Settings Daemon's power plugin"
-msgstr "GNOME 設定精靈的 power 外掛程式"
 
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Housekeeping.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Housekeeping.desktop)"
 msgid "GNOME Settings Daemon's housekeeping plugin"
 msgstr "GNOME 設定精靈的 housekeeping 外掛程式"
 
+#: /etc/xdg/autostart/org.gnome.SettingsDaemon.ScreensaverProxy.desktop:3
+msgctxt "Name(org.gnome.SettingsDaemon.ScreensaverProxy.desktop)"
+msgid "GNOME Settings Daemon's screensaver-proxy plugin"
+msgstr "GNOME 設定精靈的 screensaver-proxy 外掛程式"
+
 #: /etc/xdg/autostart/org.gnome.SettingsDaemon.Keyboard.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Keyboard.desktop)"
 msgid "GNOME Settings Daemon's keyboard plugin"
 msgstr "GNOME 設定精靈的 keyboard 外掛程式"
 
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Clipboard.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
-msgid "GNOME Settings Daemon's clipboard plugin"
-msgstr "GNOME 設定精靈的 clipboard 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.PrintNotifications.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.PrintNotifications.desktop)"
-msgid "GNOME Settings Daemon's print-notifications plugin"
-msgstr "GNOME 設定精靈的 print-notifications 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Mouse.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
-msgid "GNOME Settings Daemon's mouse plugin"
-msgstr "GNOME 設定精靈的 mouse 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Sound.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Sound.desktop)"
-msgid "GNOME Settings Daemon's sound plugin"
-msgstr "GNOME 設定精靈的 sound 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.Rfkill.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.Rfkill.desktop)"
-msgid "GNOME Settings Daemon's rfkill plugin"
-msgstr "GNOME 設定精靈的 rfkill 外掛程式"
-
-#: /etc/xdg/autostart/org.gnome.SettingsDaemon.A11ySettings.desktop:3
-msgctxt "Name(org.gnome.SettingsDaemon.A11ySettings.desktop)"
-msgid "GNOME Settings Daemon's a11y-settings plugin"
-msgstr "GNOME 設定精靈的 a11y-settings 外掛程式"
-
-#: /usr/share/xsessions/gnome-classic.desktop:70
+#: /usr/share/xsessions/gnome-classic.desktop:71
 msgctxt "Name(gnome-classic.desktop)"
 msgid "GNOME Classic"
 msgstr "GNOME Classic"
 
-#: /usr/share/xsessions/gnome-classic.desktop:139
+#: /usr/share/xsessions/gnome-classic.desktop:140
 msgctxt "Comment(gnome-classic.desktop)"
 msgid "This session logs you into GNOME Classic"
 msgstr "這個作業階段讓您登入 GNOME Classic"
@@ -702,6 +759,14 @@ msgstr "SLE Classic"
 msgctxt "Comment(sle-classic.desktop)"
 msgid "This session logs you into SLE Classic"
 msgstr "這個作業階段讓您登入 SLE Classic"
+
+#: /etc/xdg/autostart/gnome-shell-overrides-migration.desktop:3
+#, fuzzy
+#| msgctxt "Name(org.gnome.SettingsDaemon.MediaKeys.desktop)"
+#| msgid "GNOME Settings Daemon's media-keys plugin"
+msgctxt "Name(gnome-shell-overrides-migration.desktop)"
+msgid "GNOME settings overrides migration"
+msgstr "GNOME 設定精靈的 media-keys 外掛程式"
 
 #: /etc/xdg/autostart/gnome-software-service.desktop:3
 msgctxt "Name(gnome-software-service.desktop)"
@@ -761,21 +826,6 @@ msgctxt "Comment(hplip-systray.desktop)"
 msgid "HP System Tray Service"
 msgstr "HP 系統匣服務"
 
-#: /usr/share/xsessions/i3-with-shmlog.desktop:2
-msgctxt "Name(i3-with-shmlog.desktop)"
-msgid "i3 (with debug log)"
-msgstr "i3 (含除錯記錄)"
-
-#: /usr/share/xsessions/i3-with-shmlog.desktop:3
-msgctxt "Comment(i3-with-shmlog.desktop)"
-msgid "improved dynamic tiling window manager"
-msgstr "改進型動態並排顯示視窗管理程式"
-
-#: /usr/share/xsessions/i3-with-shmlog.desktop:6
-msgctxt "Keywords(i3-with-shmlog.desktop)"
-msgid "tiling;wm;windowmanager;window;manager;"
-msgstr "並排顯示;wm;視窗管理程式;視窗;管理程式;"
-
 #: /usr/share/xsessions/i3.desktop:2
 msgctxt "Name(i3.desktop)"
 msgid "i3"
@@ -788,6 +838,21 @@ msgstr "改進型動態並排顯示視窗管理程式"
 
 #: /usr/share/xsessions/i3.desktop:9
 msgctxt "Keywords(i3.desktop)"
+msgid "tiling;wm;windowmanager;window;manager;"
+msgstr "並排顯示;wm;視窗管理程式;視窗;管理程式;"
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:2
+msgctxt "Name(i3-with-shmlog.desktop)"
+msgid "i3 (with debug log)"
+msgstr "i3 (含除錯記錄)"
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:3
+msgctxt "Comment(i3-with-shmlog.desktop)"
+msgid "improved dynamic tiling window manager"
+msgstr "改進型動態並排顯示視窗管理程式"
+
+#: /usr/share/xsessions/i3-with-shmlog.desktop:6
+msgctxt "Keywords(i3-with-shmlog.desktop)"
 msgid "tiling;wm;windowmanager;window;manager;"
 msgstr "並排顯示;wm;視窗管理程式;視窗;管理程式;"
 
@@ -847,9 +912,12 @@ msgctxt "Wallpaper-Name(stripes.png.desktop)"
 msgid "Stripes"
 msgstr "條紋"
 
-#: /etc/xdg/autostart/kdeconnectd.desktop:10
-msgctxt "Name(kdeconnectd.desktop)"
-msgid "KDEConnect daemon"
+#: /etc/xdg/autostart/org.kde.kdeconnect.daemon.desktop:12
+#, fuzzy
+#| msgctxt "Name(kdeconnectd.desktop)"
+#| msgid "KDEConnect daemon"
+msgctxt "Name(org.kde.kdeconnect.daemon.desktop)"
+msgid "KDE Connect"
 msgstr "KDE連線作業"
 
 #: /etc/xdg/autostart/org.kde.kgpg.desktop:9
@@ -867,21 +935,6 @@ msgctxt "Name(org.kde.kgpg.desktop)"
 msgid "KGpg"
 msgstr "KGpg"
 
-#: /usr/share/mimelnk/application/x-kicad-schematic.desktop:6
-msgctxt "Comment(x-kicad-schematic.desktop)"
-msgid "KiCad Schematic"
-msgstr "KiCad 原理圖"
-
-#: /usr/share/mimelnk/application/x-kicad-project.desktop:6
-msgctxt "Comment(x-kicad-project.desktop)"
-msgid "KiCad Project"
-msgstr "KiCad 專案"
-
-#: /usr/share/mimelnk/application/x-kicad-pcb.desktop:7
-msgctxt "Comment(x-kicad-pcb.desktop)"
-msgid "KiCad Printed Circuit Board"
-msgstr "KiCad 印刷電路板"
-
 #: /etc/xdg/autostart/kmix_autostart.desktop:14
 msgctxt "GenericName(kmix_autostart.desktop)"
 msgid "Sound Mixer"
@@ -896,16 +949,6 @@ msgstr "音效調整_KMix"
 msgctxt "Name(restore_kmix_volumes.desktop)"
 msgid "Restore Mixer Volumes"
 msgstr "回復混音器音量"
-
-#: /etc/xdg/autostart/knemo.desktop:13
-msgctxt "Name(knemo.desktop)"
-msgid "KNemo"
-msgstr "KNemo"
-
-#: /etc/xdg/autostart/knemo.desktop:63
-msgctxt "GenericName(knemo.desktop)"
-msgid "Network Monitor"
-msgstr "網路監視器"
 
 #: /etc/xdg/autostart/konqy_preload.desktop:4
 msgctxt "Name(konqy_preload.desktop)"
@@ -1107,18 +1150,18 @@ msgctxt "Name(mate-settings-daemon.desktop)"
 msgid "MATE Settings Daemon"
 msgstr "MATE 設定值守護程式"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:2
-msgctxt "Name(mate-user-share-obexftp.desktop)"
-msgid "Personal File Sharing obexftp"
-msgstr "個人檔案分享 obexftp"
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
+msgctxt "Name(mate-user-share-obexpush.desktop)"
+msgid "Personal File Sharing obexpush"
+msgstr "個人檔案分享 obexpush"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:41
-msgctxt "Comment(mate-user-share-obexftp.desktop)"
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
+msgctxt "Comment(mate-user-share-obexpush.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "若啟用則執行個人檔案分享"
 
-#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:112
-msgctxt "Keywords(mate-user-share-obexftp.desktop)"
+#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
+msgctxt "Keywords(mate-user-share-obexpush.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共用;檔案;藍芽;obex;http;網絡;複製;傳送;"
 
@@ -1137,18 +1180,18 @@ msgctxt "Keywords(mate-user-share-webdav.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共用;檔案;藍芽;obex;http;網絡;複製;傳送;"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:2
-msgctxt "Name(mate-user-share-obexpush.desktop)"
-msgid "Personal File Sharing obexpush"
-msgstr "個人檔案分享 obexpush"
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:2
+msgctxt "Name(mate-user-share-obexftp.desktop)"
+msgid "Personal File Sharing obexftp"
+msgstr "個人檔案分享 obexftp"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:41
-msgctxt "Comment(mate-user-share-obexpush.desktop)"
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:41
+msgctxt "Comment(mate-user-share-obexftp.desktop)"
 msgid "Launch Personal File Sharing if enabled"
 msgstr "若啟用則執行個人檔案分享"
 
-#: /etc/xdg/autostart/mate-user-share-obexpush.desktop:112
-msgctxt "Keywords(mate-user-share-obexpush.desktop)"
+#: /etc/xdg/autostart/mate-user-share-obexftp.desktop:112
+msgctxt "Keywords(mate-user-share-obexftp.desktop)"
 msgid "share;files;bluetooth;obex;http;network;copy;send;"
 msgstr "共用;檔案;藍芽;obex;http;網絡;複製;傳送;"
 
@@ -1171,11 +1214,6 @@ msgstr "音樂播放器精靈"
 msgctxt "Comment(mpdris2.desktop)"
 msgid "MPRIS 2 support for MPD"
 msgstr "MPD 的 MPRIS 2 支援"
-
-#: /etc/xdg/autostart/nautilus-autostart.desktop:81
-msgctxt "Name(nautilus-autostart.desktop)"
-msgid "Files"
-msgstr "檔案"
 
 #: /etc/xdg/autostart/nm-tray.desktop:2
 msgctxt "Name(nm-tray.desktop)"
@@ -1207,16 +1245,6 @@ msgctxt "Name(vmware-user-autostart.desktop)"
 msgid "VMware User Agent"
 msgstr "VMware 使用者代理員"
 
-#: /usr/share/xsessions/openbox-kde.desktop:2
-msgctxt "Name(openbox-kde.desktop)"
-msgid "KDE/Openbox"
-msgstr "KDE/Openbox"
-
-#: /usr/share/xsessions/openbox-kde.desktop:3
-msgctxt "Comment(openbox-kde.desktop)"
-msgid "Use the Openbox window manager inside of the K Desktop Environment"
-msgstr "在 K 桌面環境內使用 Openbox 視窗管理員"
-
 #: /usr/share/xsessions/openbox.desktop:6
 msgctxt "Name(openbox.desktop)"
 msgid "Openbox"
@@ -1226,6 +1254,16 @@ msgstr "Openbox"
 msgctxt "Comment(openbox.desktop)"
 msgid "A lightweight window manager based on Blackbox"
 msgstr "一個基於 Blackbox 且輕量化的視窗管理程式"
+
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "在 K 桌面環境內使用 Openbox 視窗管理員"
 
 #: /usr/share/xsessions/openbox-gnome.desktop:2
 msgctxt "Name(openbox-gnome.desktop)"
@@ -1237,12 +1275,33 @@ msgctxt "Comment(openbox-gnome.desktop)"
 msgid "Use the Openbox window manager inside of the GNOME desktop environment"
 msgstr "在 GNOME 桌面環境內使用 Openbox 視窗管理員"
 
-#: /etc/xdg/autostart/orca-autostart.desktop:3
+#: /etc/xdg/autostart/org.opensuse.opensuse_welcome.desktop:4
+#, fuzzy
+#| msgctxt "Name(gnome-welcome-tour.desktop)"
+#| msgid "Welcome"
+msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
+msgid "Welcome"
+msgstr "歡迎"
+
+#: /etc/xdg/autostart/org.opensuse.opensuse_welcome.desktop:7
+msgctxt "Comment(org.opensuse.opensuse_welcome.desktop)"
+msgid "The openSUSE Welcome utility."
+msgstr ""
+
+#: /etc/xdg/autostart/org.opensuse.opensuse_welcome.desktop:9
+#, fuzzy
+#| msgctxt "Name(gnome-welcome-tour.desktop)"
+#| msgid "Welcome"
+msgctxt "GenericName(org.opensuse.opensuse_welcome.desktop)"
+msgid "Welcome Utility"
+msgstr "歡迎"
+
+#: /etc/xdg/autostart/orca-autostart.desktop:28
 msgctxt "Name(orca-autostart.desktop)"
 msgid "Orca screen reader"
 msgstr "Orca 螢幕閱讀器"
 
-#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:4
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:2
 #, fuzzy
 #| msgctxt "Name(pk-update-icon.desktop)"
 #| msgid "PackageKit Update Applet"
@@ -1250,7 +1309,7 @@ msgctxt "Name(org.guido-berhoerster.code.package-update-indicator.desktop)"
 msgid "Package Update Indicator"
 msgstr "PackageKit 更新面板程式"
 
-#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:7
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:3
 #, fuzzy
 #| msgctxt "Name(pk-update-icon.desktop)"
 #| msgid "PackageKit Update Applet"
@@ -1259,14 +1318,9 @@ msgctxt ""
 msgid "Package Update Indicator"
 msgstr "PackageKit 更新面板程式"
 
-#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:11
+#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:4
 msgctxt "Comment(org.guido-berhoerster.code.package-update-indicator.desktop)"
 msgid "Notify about available software updates"
-msgstr ""
-
-#: /etc/xdg/autostart/org.guido-berhoerster.code.package-update-indicator.desktop:13
-msgctxt "Icon(org.guido-berhoerster.code.package-update-indicator.desktop)"
-msgid "system-software-update"
 msgstr ""
 
 #: /etc/xdg/autostart/pam-dbus-notify.desktop:2
@@ -1284,7 +1338,7 @@ msgctxt "Name(pam_kwallet_init.desktop)"
 msgid "KWallet PAM Socket Connection"
 msgstr "KWallet PAM 通訊端連接"
 
-#: /etc/xdg/autostart/pam_kwallet_init.desktop:40
+#: /etc/xdg/autostart/pam_kwallet_init.desktop:42
 msgctxt "Comment(pam_kwallet_init.desktop)"
 msgid "Connect to KWallet PAM socket"
 msgstr "連接至 KWallet PAM 通訊端"
@@ -1319,30 +1373,30 @@ msgctxt "Keywords(pasystray.desktop)"
 msgid "pulseaudio;tray;system tray;applet;volume;"
 msgstr "pulseaudio;匣;系統匣;面板程式;音量;"
 
-#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
-msgctxt "Comment(x-pcb-netlist.desktop)"
-msgid "PCB netlist"
-msgstr "PCB 網絡清單"
+#: /usr/share/mimelnk/application/x-gerber.desktop:3
+msgctxt "Comment(x-gerber.desktop)"
+msgid "Gerber file"
+msgstr "Gerber 檔案"
 
 #: /usr/share/mimelnk/application/x-pcb-layout.desktop:3
 msgctxt "Comment(x-pcb-layout.desktop)"
 msgid "PCB layout"
 msgstr "PCB 佈線"
 
-#: /usr/share/mimelnk/application/x-excellon.desktop:3
-msgctxt "Comment(x-excellon.desktop)"
-msgid "Excellon drill file"
-msgstr "Excellon 鑽孔檔案"
-
 #: /usr/share/mimelnk/application/x-pcb-footprint.desktop:3
 msgctxt "Comment(x-pcb-footprint.desktop)"
 msgid "PCB footprint"
 msgstr "PCB 封裝"
 
-#: /usr/share/mimelnk/application/x-gerber.desktop:3
-msgctxt "Comment(x-gerber.desktop)"
-msgid "Gerber file"
-msgstr "Gerber 檔案"
+#: /usr/share/mimelnk/application/x-excellon.desktop:3
+msgctxt "Comment(x-excellon.desktop)"
+msgid "Excellon drill file"
+msgstr "Excellon 鑽孔檔案"
+
+#: /usr/share/mimelnk/application/x-pcb-netlist.desktop:3
+msgctxt "Comment(x-pcb-netlist.desktop)"
+msgid "PCB netlist"
+msgstr "PCB 網絡清單"
 
 #: /etc/xdg/autostart/lxqt-desktop.desktop:3
 msgctxt "Name(lxqt-desktop.desktop)"
@@ -1364,96 +1418,101 @@ msgctxt "Comment(pk-update-icon.desktop)"
 msgid "PackageKit Update Applet"
 msgstr "PackageKit 更新面板程式"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:4
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:5
+msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
+msgid "Application Menu Bar"
+msgstr "應用程式功能表列"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:46
+msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
+msgid "Panel containing the global menu applet"
+msgstr "包含全域功能表小程式的面板"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:5
 msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
 msgid "Empty Panel"
 msgstr "空白面板"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:56
+#: /usr/share/metainfo/org.kde.plasma.desktop.emptyPanel.appdata.xml:58
 msgctxt "Summary(org.kde.plasma.desktop.emptyPanel)"
 msgid "Empty panel"
 msgstr "空白面板"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:4
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:5
 msgctxt "Name(org.kde.plasma.desktop.defaultPanel)"
 msgid "Default Panel"
 msgstr "預設面板"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:50
+#: /usr/share/metainfo/org.kde.plasma.desktop.defaultPanel.appdata.xml:54
 msgctxt "Summary(org.kde.plasma.desktop.defaultPanel)"
 msgid ""
 "Default panel featuring application launcher, task manager and system tray"
 msgstr "含有應用程式啟動器、工作管理員和系統匣的預設面板"
 
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
-msgid "Application Menu Bar"
-msgstr "應用程式功能表列"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appmenubar.appdata.xml:43
-msgctxt "Summary(org.kde.plasma.desktop.appmenubar)"
-msgid "Panel containing the global menu applet"
-msgstr "包含全域功能表小程式的面板"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:4
-msgctxt "Name(org.kde.plasma.desktop)"
-msgid "Desktop"
-msgstr "桌面"
-
-#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:92
-msgctxt "Summary(org.kde.plasma.desktop)"
-msgid "Desktop view furniture"
-msgstr "桌面檢視設備"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:4
-msgctxt "Name(org.kde.desktopcontainment)"
-msgid "Desktop Containment"
-msgstr "桌面"
-
-#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:92
-msgctxt "Summary(org.kde.desktopcontainment)"
-msgid "A clean and simple layout"
-msgstr "乾淨、簡單的佈局"
-
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:4
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:5
 msgctxt "Name(org.kde.desktoptoolbox)"
 msgid "Declarative Toolbox"
 msgstr "宣告元件工具盒"
 
-#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:49
+#: /usr/share/metainfo/org.kde.desktoptoolbox.appdata.xml:50
 msgctxt "Summary(org.kde.desktoptoolbox)"
 msgid "Manage Plasma"
 msgstr "管理 Plasma"
 
-#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:5
+msgctxt "Name(org.kde.desktopcontainment)"
+msgid "Desktop Containment"
+msgstr "桌面"
+
+#: /usr/share/metainfo/org.kde.desktopcontainment.appdata.xml:94
+msgctxt "Summary(org.kde.desktopcontainment)"
+msgid "A clean and simple layout"
+msgstr "乾淨、簡單的佈局"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:5
+msgctxt "Name(org.kde.plasma.desktop)"
+msgid "Desktop"
+msgstr "桌面"
+
+#: /usr/share/metainfo/org.kde.plasma.desktop.appdata.xml:94
+msgctxt "Summary(org.kde.plasma.desktop)"
+msgid "Desktop view furniture"
+msgstr "桌面檢視設備"
+
+#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Cold Ripple"
-msgstr "水波紋"
+msgid "Flying Konqui"
+msgstr "飛翔的 Konqui"
+
+#: /usr/share/wallpapers/SafeLanding/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Safe Landing"
+msgstr "Safe Landing"
 
 #: /usr/share/wallpapers/EveningGlow/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Evening Glow"
 msgstr "傍晚的閃光"
 
-#: /usr/share/wallpapers/Path/metadata.desktop:2
+#: /usr/share/wallpapers/Opal/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Path"
-msgstr "路徑"
+msgid "Opal"
+msgstr "Opal"
 
-#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+#: /usr/share/wallpapers/Canopee/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Pastel Hills"
-msgstr "山丘"
+msgid "Canopée"
+msgstr "Canopée"
 
-#: /usr/share/wallpapers/Grey/metadata.desktop:2
+#: /usr/share/wallpapers/ColdRipple/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Grey"
-msgstr "灰色"
+msgid "Cold Ripple"
+msgstr "水波紋"
 
-#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
+#: /usr/share/wallpapers/Elarun/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Darkest Hour"
-msgstr "最黑暗的時刻"
+msgid "Elarun"
+msgstr "Elarun"
 
 #: /usr/share/wallpapers/OneStandsOut/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
@@ -1465,57 +1524,100 @@ msgctxt "Name(metadata.desktop)"
 msgid "Colorful Cups"
 msgstr "彩色杯子"
 
-#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
-msgctxt "Name(metadata.desktop)"
-msgid "By the water"
-msgstr "在水一方"
-
 #: /usr/share/wallpapers/FallenLeaf/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Fallen Leaf"
 msgstr "落葉"
 
-#: /usr/share/wallpapers/FlyingKonqui/metadata.desktop:2
+#: /usr/share/wallpapers/summer_1am/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
-msgid "Flying Konqui"
-msgstr "飛翔的 Konqui"
+msgid "summer 1am"
+msgstr "夏日凌晨"
+
+#: /usr/share/wallpapers/Grey/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Grey"
+msgstr "灰色"
+
+#: /usr/share/wallpapers/Cascade/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cascade"
+msgstr "Cascade"
+
+#: /usr/share/wallpapers/BytheWater/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "By the water"
+msgstr "在水一方"
+
+#: /usr/share/wallpapers/Path/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Path"
+msgstr "路徑"
+
+#: /usr/share/wallpapers/IceCold/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Ice Cold"
+msgstr "冷冰"
 
 #: /usr/share/wallpapers/Kite/metadata.desktop:2
 msgctxt "Name(metadata.desktop)"
 msgid "Kite"
 msgstr "風箏"
 
+#: /usr/share/wallpapers/Kokkini/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Kokkini"
+msgstr "Kokkini"
+
+#: /usr/share/wallpapers/PastelHills/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Pastel Hills"
+msgstr "山丘"
+
+#: /usr/share/wallpapers/DarkestHour/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Darkest Hour"
+msgstr "最黑暗的時刻"
+
+#: /usr/share/wallpapers/Cluster/metadata.desktop:2
+msgctxt "Name(metadata.desktop)"
+msgid "Cluster"
+msgstr "Cluster"
+
 #: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:4
 msgctxt "Name(org.kde.breeze.desktop)"
 msgid "Breeze"
 msgstr "微風"
 
-#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:48
+#: /usr/share/metainfo/org.kde.breeze.desktop.appdata.xml:51
+#, fuzzy
+#| msgctxt "Summary(org.kde.breeze.desktop)"
+#| msgid "Breeze Desktop Design Language by the KDE VDG"
 msgctxt "Summary(org.kde.breeze.desktop)"
-msgid "Breeze Desktop Design Language by the KDE VDG"
+msgid "Breeze by the KDE VDG"
 msgstr "KDE VDG 設計的微風桌面設計語言"
-
-#: /etc/xdg/autostart/krunner.desktop:3
-msgctxt "Name(krunner.desktop)"
-msgid "KRunner"
-msgstr "KRunner"
-
-#: /etc/xdg/autostart/xembedsniproxy.desktop:3
-msgctxt "Name(xembedsniproxy.desktop)"
-msgid "XembedSniProxy"
-msgstr "XembedSniProxy"
 
 #: /etc/xdg/autostart/org.kde.plasmashell.desktop:4
 msgctxt "Name(org.kde.plasmashell.desktop)"
 msgid "Plasma Desktop Workspace"
 msgstr "Plasma 桌面工作空間"
 
+#: /etc/xdg/autostart/gmenudbusmenuproxy.desktop:3
+msgctxt "Name(gmenudbusmenuproxy.desktop)"
+msgid "GMenuDBusMenuProxy"
+msgstr "GMenuDBusMenuProxy"
+
+#: /etc/xdg/autostart/xembedsniproxy.desktop:3
+msgctxt "Name(xembedsniproxy.desktop)"
+msgid "XembedSniProxy"
+msgstr "XembedSniProxy"
+
 #: /usr/share/xsessions/plasma5.desktop:6
 msgctxt "Name(plasma5.desktop)"
 msgid "Plasma"
 msgstr "Plasma"
 
-#: /usr/share/xsessions/plasma5.desktop:51
+#: /usr/share/xsessions/plasma5.desktop:55
 msgctxt "Comment(plasma5.desktop)"
 msgid "Plasma by KDE"
 msgstr "由 KDE 製作的 Plasma"
@@ -1535,7 +1637,7 @@ msgctxt "Name(polkit-kde-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "PolicyKit 驗證代理程式"
 
-#: /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop:39
+#: /etc/xdg/autostart/polkit-kde-authentication-agent-1.desktop:42
 msgctxt "Comment(polkit-kde-authentication-agent-1.desktop)"
 msgid "PolicyKit Authentication Agent"
 msgstr "PolicyKit 驗證代理程式"
@@ -1545,7 +1647,7 @@ msgctxt "Name(gpomme.desktop)"
 msgid "pommed GTK client"
 msgstr "pommed GTK 用戶端"
 
-#: /etc/xdg/autostart/powerdevil.desktop:5
+#: /etc/xdg/autostart/powerdevil.desktop:4
 msgctxt "Name(powerdevil.desktop)"
 msgid "Power Management"
 msgstr "電源管理"
@@ -1555,15 +1657,20 @@ msgctxt "Comment(powerdevil.desktop)"
 msgid "Battery, Display and CPU power management and notification"
 msgstr "電池、顯示與 CPU 電力管理與通知"
 
-#: /etc/xdg/autostart/pulseaudio.desktop:3
+#: /etc/xdg/autostart/pulseaudio.desktop:47
 msgctxt "Name(pulseaudio.desktop)"
 msgid "PulseAudio Sound System"
 msgstr "PulseAudio 音效系統"
 
-#: /etc/xdg/autostart/pulseaudio.desktop:48
+#: /etc/xdg/autostart/pulseaudio.desktop:92
 msgctxt "Comment(pulseaudio.desktop)"
 msgid "Start the PulseAudio Sound System"
 msgstr "啟動 PulseAudio 音效系統"
+
+#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
+msgctxt "Comment(x-qet-titleblock.desktop)"
+msgid "QElectroTech title block template"
+msgstr "QElectroTech 標題區塊範本"
 
 #: /usr/share/mimelnk/application/x-qet-element.desktop:7
 msgctxt "Comment(x-qet-element.desktop)"
@@ -1574,11 +1681,6 @@ msgstr "QElectroTech 元素檔案"
 msgctxt "Comment(x-qet-project.desktop)"
 msgid "QElectroTech project file"
 msgstr "QElectroTech 專案檔案"
-
-#: /usr/share/mimelnk/application/x-qet-titleblock.desktop:7
-msgctxt "Comment(x-qet-titleblock.desktop)"
-msgid "QElectroTech title block template"
-msgstr "QElectroTech 標題區塊範本"
 
 #: /etc/xdg/autostart/lxqt-qlipper-autostart.desktop:3
 msgctxt "Name(lxqt-qlipper-autostart.desktop)"
@@ -1593,6 +1695,16 @@ msgstr ""
 #: /etc/xdg/autostart/qtfm-tray.desktop:3
 msgctxt "Comment(qtfm-tray.desktop)"
 msgid "QtFM Device Manager"
+msgstr ""
+
+#: /etc/xdg/autostart/radiotray-ng.desktop:3
+msgctxt "Comment(radiotray-ng.desktop)"
+msgid "Internet Radio Player for Linux"
+msgstr ""
+
+#: /etc/xdg/autostart/radiotray-ng.desktop:7
+msgctxt "Name(radiotray-ng.desktop)"
+msgid "Radiotray-NG"
 msgstr ""
 
 #: /usr/share/xsessions/remmina-gnome.desktop:2
@@ -1633,20 +1745,10 @@ msgctxt "Name(rsibreak_autostart.desktop)"
 msgid "RSIBreak"
 msgstr "RSIBreak"
 
-#: /etc/xdg/autostart/rsibreak_autostart.desktop:55
+#: /etc/xdg/autostart/rsibreak_autostart.desktop:54
 msgctxt "Comment(rsibreak_autostart.desktop)"
 msgid "Makes sure you rest now and then"
 msgstr "確定您偶而會休息一下"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:2
-msgctxt "Name(sawfish-xfce.desktop)"
-msgid "Sawfish/XFCE"
-msgstr "Sawfish/XFCE"
-
-#: /usr/share/xsessions/sawfish-xfce.desktop:3
-msgctxt "Comment(sawfish-xfce.desktop)"
-msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
-msgstr "在 XFCE 桌面環境內使用 Sawfish  視窗管理程式"
 
 #: /usr/share/xsessions/sawfish.desktop:3
 msgctxt "Name(sawfish.desktop)"
@@ -1658,16 +1760,6 @@ msgctxt "GenericName(sawfish.desktop)"
 msgid "Sawfish"
 msgstr "Sawfish"
 
-#: /usr/share/xsessions/sawfish-lumina.desktop:2
-msgctxt "Name(sawfish-lumina.desktop)"
-msgid "Sawfish/Lumina"
-msgstr "Sawfish/Lumina"
-
-#: /usr/share/xsessions/sawfish-lumina.desktop:3
-msgctxt "Comment(sawfish-lumina.desktop)"
-msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
-msgstr "在 Lumina 桌面環境內使用 Sawfish 視窗管理程式"
-
 #: /usr/share/xsessions/sawfish-kde4.desktop:2
 msgctxt "Name(sawfish-kde4.desktop)"
 msgid "Sawfish/KDE4"
@@ -1677,6 +1769,26 @@ msgstr "Sawfish/KDE4"
 msgctxt "Comment(sawfish-kde4.desktop)"
 msgid "Use the Sawfish window manager inside of the Kde desktop environment"
 msgstr "在 Kde 桌面環境內使用 Sawfish 視窗管理程式"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:2
+msgctxt "Name(sawfish-xfce.desktop)"
+msgid "Sawfish/XFCE"
+msgstr "Sawfish/XFCE"
+
+#: /usr/share/xsessions/sawfish-xfce.desktop:3
+msgctxt "Comment(sawfish-xfce.desktop)"
+msgid "Use the Sawfish window manager inside of the XFCE desktop environment"
+msgstr "在 XFCE 桌面環境內使用 Sawfish  視窗管理程式"
+
+#: /usr/share/xsessions/sawfish-lumina.desktop:2
+msgctxt "Name(sawfish-lumina.desktop)"
+msgid "Sawfish/Lumina"
+msgstr "Sawfish/Lumina"
+
+#: /usr/share/xsessions/sawfish-lumina.desktop:3
+msgctxt "Comment(sawfish-lumina.desktop)"
+msgid "Use the Sawfish window manager inside of the Lumina desktop environment"
+msgstr "在 Lumina 桌面環境內使用 Sawfish 視窗管理程式"
 
 #: /usr/share/xsessions/sawfish-mate.desktop:2
 msgctxt "Name(sawfish-mate.desktop)"
@@ -1718,6 +1830,16 @@ msgctxt "Summary(sqlitebrowser.desktop)"
 msgid "DB Browser for SQLite is a light GUI editor for SQLite databases"
 msgstr "SQLite DB 瀏覽器是用於 SQLite 資料庫的輕量型 GUI 編輯器"
 
+#: /etc/xdg/autostart/suseprime-appindicator.desktop:2
+msgctxt "Name(suseprime-appindicator.desktop)"
+msgid "SUSEPrime Appindicator"
+msgstr ""
+
+#: /etc/xdg/autostart/suseprime-appindicator.desktop:4
+msgctxt "GenericName(suseprime-appindicator.desktop)"
+msgid "Desktop switcher for SUSEPrime"
+msgstr ""
+
 #: /etc/xdg/autostart/print-applet.desktop:2
 msgctxt "Name(print-applet.desktop)"
 msgid "Print Queue Applet"
@@ -1743,16 +1865,6 @@ msgctxt "Comment(tracker-extract.desktop)"
 msgid "Extracts metadata from local files"
 msgstr "從本地檔案解開元數據"
 
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:2
-msgctxt "Name(tracker-miner-fs.desktop)"
-msgid "Tracker File System Miner"
-msgstr "Tracker 檔案系統礦工"
-
-#: /etc/xdg/autostart/tracker-miner-fs.desktop:47
-msgctxt "Comment(tracker-miner-fs.desktop)"
-msgid "Crawls and processes files on the file system"
-msgstr "索引並處理檔案系統中的檔案"
-
 #: /etc/xdg/autostart/tracker-miner-rss.desktop:2
 msgctxt "Name(tracker-miner-rss.desktop)"
 msgid "Tracker RSS/ATOM Feeds Miner"
@@ -1773,12 +1885,22 @@ msgctxt "Comment(tracker-miner-apps.desktop)"
 msgid "Indexes information about applications installed"
 msgstr "已安裝應用程式的索引資訊"
 
-#: /etc/xdg/autostart/tracker-store.desktop:2
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:2
+msgctxt "Name(tracker-miner-fs.desktop)"
+msgid "Tracker File System Miner"
+msgstr "Tracker 檔案系統礦工"
+
+#: /etc/xdg/autostart/tracker-miner-fs.desktop:47
+msgctxt "Comment(tracker-miner-fs.desktop)"
+msgid "Crawls and processes files on the file system"
+msgstr "索引並處理檔案系統中的檔案"
+
+#: /etc/xdg/autostart/tracker-store.desktop:49
 msgctxt "Name(tracker-store.desktop)"
 msgid "Tracker Store"
 msgstr "Tracker 儲存區"
 
-#: /etc/xdg/autostart/tracker-store.desktop:50
+#: /etc/xdg/autostart/tracker-store.desktop:94
 msgctxt "Comment(tracker-store.desktop)"
 msgid "Metadata database store and lookup manager"
 msgstr "元數據資料庫儲存與查詢管理員"
@@ -1863,27 +1985,33 @@ msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "電源管理員"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:57
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Xfce 桌面的電力管理"
 
-#: /etc/xdg/autostart/xscreensaver.desktop:4
-msgctxt "Name(xscreensaver.desktop)"
+#: /etc/xdg/autostart/xfce4-screensaver.desktop:3
+#, fuzzy
+#| msgctxt "Name(mate-screensaver.desktop)"
+#| msgid "Screensaver"
+msgctxt "Name(xfce4-screensaver.desktop)"
 msgid "Screensaver"
 msgstr "螢幕保護程式"
 
-#: /etc/xdg/autostart/xscreensaver.desktop:53
-msgctxt "Comment(xscreensaver.desktop)"
+#: /etc/xdg/autostart/xfce4-screensaver.desktop:23
+#, fuzzy
+#| msgctxt "Comment(mate-screensaver.desktop)"
+#| msgid "Launch screensaver and locker program"
+msgctxt "Comment(xfce4-screensaver.desktop)"
 msgid "Launch screensaver and locker program"
-msgstr "啟動螢幕保護和鎖定程式"
+msgstr "啟動螢幕保護程式及鎖定程式"
 
 #: /usr/share/xsessions/xfce.desktop:3
 msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Xfce 工作階段"
 
-#: /usr/share/xsessions/xfce.desktop:52
+#: /usr/share/xsessions/xfce.desktop:57
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "使用這個工作階段來執行 Xfce 作為您的桌面環境"
@@ -1898,29 +2026,15 @@ msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Xfce 4 設定值幕後程式"
 
-#: /etc/xdg/autostart/xfce4-volumed-pulse.desktop:4
-msgctxt "Name(xfce4-volumed-pulse.desktop)"
-msgid "XFCE Volume Daemon (Pulseaudio)"
-msgstr "XFCE 音量精靈 (Pulseaudio)"
+#: /etc/xdg/autostart/xfdashboard-autostart.desktop:3
+msgctxt "Name(xfdashboard-autostart.desktop)"
+msgid "Xfdashboard"
+msgstr ""
 
-#: /etc/xdg/autostart/xfce4-volumed-pulse.desktop:5
-msgctxt "Comment(xfce4-volumed-pulse.desktop)"
-msgid ""
-"Daemon managing the volume multimedia keys and displaying volume "
-"notifications for Pulseaudio"
-msgstr "管理 Pulseaudio 多媒體鍵盤音量及顯示音量提示的精靈"
-
-#: /etc/xdg/autostart/xfce4-volumed.desktop:6
-msgctxt "Name(xfce4-volumed.desktop)"
-msgid "XFCE Volume Daemon"
-msgstr "XFCE 音量精靈"
-
-#: /etc/xdg/autostart/xfce4-volumed.desktop:8
-msgctxt "Comment(xfce4-volumed.desktop)"
-msgid ""
-"Daemon managing the volume multimedia keys and displaying volume "
-"notifications"
-msgstr "管理多媒體鍵盤音量及顯示音量提示 的精靈"
+#: /etc/xdg/autostart/xfdashboard-autostart.desktop:18
+msgctxt "Comment(xfdashboard-autostart.desktop)"
+msgid "Start xfdashboard as daemon in background"
+msgstr ""
 
 #: /etc/xdg/autostart/xiccd.desktop:4
 msgctxt "Name(xiccd.desktop)"
@@ -1947,20 +2061,20 @@ msgctxt "Comment(x-xoj.desktop)"
 msgid "Xournal note file"
 msgstr "Xournal 註解檔案"
 
-#: /usr/share/mimelnk/application/x-xopt.desktop:8
-#, fuzzy
-#| msgctxt "Comment(x-xoj.desktop)"
-#| msgid "Xournal note file"
-msgctxt "Comment(x-xopt.desktop)"
-msgid "Xournal++ template file"
-msgstr "Xournal 註解檔案"
-
-#: /usr/share/mimelnk/application/x-xopp.desktop:8
+#: /usr/share/mimelnk/application/x-xopp.desktop:7
 #, fuzzy
 #| msgctxt "Comment(x-xoj.desktop)"
 #| msgid "Xournal note file"
 msgctxt "Comment(x-xopp.desktop)"
 msgid "Xournal++ note file"
+msgstr "Xournal 註解檔案"
+
+#: /usr/share/mimelnk/application/x-xopt.desktop:7
+#, fuzzy
+#| msgctxt "Comment(x-xoj.desktop)"
+#| msgid "Xournal note file"
+msgctxt "Comment(x-xopt.desktop)"
+msgid "Xournal++ template file"
 msgstr "Xournal 註解檔案"
 
 #: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
@@ -2027,9 +2141,73 @@ msgctxt "Comment(zeitgeist-datahub.desktop)"
 msgid "Start the Zeitgeist Datahub for passive loggers"
 msgstr "為被動記錄程式啟動 Zeitgeist Datahub"
 
-#~ msgctxt "Name(gnome-welcome-tour.desktop)"
-#~ msgid "Welcome"
-#~ msgstr "歡迎"
+#~ msgctxt "Name(org.gnome.SettingsDaemon.A11yKeyboard.desktop)"
+#~ msgid "GNOME Settings Daemon's a11y-keyboard plugin"
+#~ msgstr "GNOME 設定精靈的 a11y-keyboard 外掛程式"
+
+#~ msgctxt "Name(org.gnome.SettingsDaemon.Clipboard.desktop)"
+#~ msgid "GNOME Settings Daemon's clipboard plugin"
+#~ msgstr "GNOME 設定精靈的 clipboard 外掛程式"
+
+#~ msgctxt "Name(org.gnome.SettingsDaemon.Mouse.desktop)"
+#~ msgid "GNOME Settings Daemon's mouse plugin"
+#~ msgstr "GNOME 設定精靈的 mouse 外掛程式"
+
+#~ msgctxt "Comment(x-kicad-schematic.desktop)"
+#~ msgid "KiCad Schematic"
+#~ msgstr "KiCad 原理圖"
+
+#~ msgctxt "Comment(x-kicad-project.desktop)"
+#~ msgid "KiCad Project"
+#~ msgstr "KiCad 專案"
+
+#~ msgctxt "Comment(x-kicad-pcb.desktop)"
+#~ msgid "KiCad Printed Circuit Board"
+#~ msgstr "KiCad 印刷電路板"
+
+#~ msgctxt "Name(knemo.desktop)"
+#~ msgid "KNemo"
+#~ msgstr "KNemo"
+
+#~ msgctxt "GenericName(knemo.desktop)"
+#~ msgid "Network Monitor"
+#~ msgstr "網路監視器"
+
+#~ msgctxt "Name(nautilus-autostart.desktop)"
+#~ msgid "Files"
+#~ msgstr "檔案"
+
+#~ msgctxt "Name(krunner.desktop)"
+#~ msgid "KRunner"
+#~ msgstr "KRunner"
+
+#~ msgctxt "Name(xscreensaver.desktop)"
+#~ msgid "Screensaver"
+#~ msgstr "螢幕保護程式"
+
+#~ msgctxt "Comment(xscreensaver.desktop)"
+#~ msgid "Launch screensaver and locker program"
+#~ msgstr "啟動螢幕保護和鎖定程式"
+
+#~ msgctxt "Name(xfce4-volumed-pulse.desktop)"
+#~ msgid "XFCE Volume Daemon (Pulseaudio)"
+#~ msgstr "XFCE 音量精靈 (Pulseaudio)"
+
+#~ msgctxt "Comment(xfce4-volumed-pulse.desktop)"
+#~ msgid ""
+#~ "Daemon managing the volume multimedia keys and displaying volume "
+#~ "notifications for Pulseaudio"
+#~ msgstr "管理 Pulseaudio 多媒體鍵盤音量及顯示音量提示的精靈"
+
+#~ msgctxt "Name(xfce4-volumed.desktop)"
+#~ msgid "XFCE Volume Daemon"
+#~ msgstr "XFCE 音量精靈"
+
+#~ msgctxt "Comment(xfce4-volumed.desktop)"
+#~ msgid ""
+#~ "Daemon managing the volume multimedia keys and displaying volume "
+#~ "notifications"
+#~ msgstr "管理多媒體鍵盤音量及顯示音量提示 的精靈"
 
 #~ msgctxt "Name(git-annex.desktop)"
 #~ msgid "Git Annex Assistant"
