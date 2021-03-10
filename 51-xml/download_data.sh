@@ -5,7 +5,7 @@
 
 set -euo pipefail
 
-project="openSUSE:Leap:15.2"
+project="openSUSE:Leap:15.3"
 repository="standard"
 arch="x86_64"
 # ssh -L 8730:obs-backend.publish.opensuse.org:873 openqa.opensuse.org
