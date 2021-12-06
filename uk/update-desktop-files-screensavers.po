@@ -13,17 +13,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files-screensavers.uk\n"
 "POT-Creation-Date: 2018-03-15 15:46+0000\n"
-"PO-Revision-Date: 2017-06-22 15:32+0000\n"
-"Last-Translator: Andriy Bandura <andriykopanytsia@gmail.com>\n"
-"Language-Team: Ukrainian <https://l10n.opensuse.org/projects/desktop-file-"
-"translations/update-desktop-files-screensavers-master/uk/>\n"
+"PO-Revision-Date: 2021-12-06 22:12+0000\n"
+"Last-Translator: Taras Panchenko <top39@ukr.net>\n"
+"Language-Team: Ukrainian <https://l10n.opensuse.org/projects/"
+"desktop-file-translations/update-desktop-files-screensavers-sle-15/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 2.13.1\n"
+"X-Generator: Weblate 4.8.1\n"
 
 #: /usr/share/applications/screensavers/chocolate-doom-screensaver.desktop:2
 msgctxt "Name(chocolate-doom-screensaver.desktop)"
@@ -849,7 +849,7 @@ msgstr ""
 #: /usr/share/applications/screensavers/quasicrystal.desktop:2
 msgctxt "Name(quasicrystal.desktop)"
 msgid "QuasiCrystal"
-msgstr "QuasiCrystal"
+msgstr "Квазікристал"
 
 #: /usr/share/applications/screensavers/quasicrystal.desktop:3
 msgctxt "Comment(quasicrystal.desktop)"
@@ -863,6 +863,13 @@ msgid ""
 "and \"Penrose\" screen savers. https://en.wikipedia.org/wiki/Quasicrystal "
 "Written by Jamie Zawinski."
 msgstr ""
+"Квазікристал - це впорядкована, але аперіодична структура. Двовимірні "
+"квазікристали можна створити, додавши набір площин, де x = sin(y). Різні "
+"складні аперіодичні площини створюються залежно від періоду, положення та "
+"обертання складових площин, а також від того, чи обертання площин рівномірно "
+"розподілено по колу (варіант «симетрія» вище) чи випадковий. Дивіться також "
+"заставки «RD-Bomb», «CWaves» і «Penrose». https://en.wikipedia.org/wiki/"
+"Quasicrystal Автор Jamie Zawinski."
 
 #: /usr/share/applications/screensavers/cage.desktop:2
 msgctxt "Name(cage.desktop)"
@@ -1538,7 +1545,7 @@ msgstr ""
 #: /usr/share/applications/screensavers/tessellimage.desktop:2
 msgctxt "Name(tessellimage.desktop)"
 msgid "Tessellimage"
-msgstr "Tessellimage"
+msgstr "Паркетаж"
 
 #: /usr/share/applications/screensavers/tessellimage.desktop:3
 msgctxt "Comment(tessellimage.desktop)"
@@ -1553,6 +1560,15 @@ msgid ""
 "in color/brightness. https://en.wikipedia.org/wiki/Delaunay_triangulation "
 "Written by Jamie Zawinski."
 msgstr ""
+"Перетворює зображення на трикутники за допомогою теселяції (паркетування) "
+"Делоне та анімує результат на різній глибині. Більше трикутників виділяється "
+"на візуально складні частини зображення. Це досягається шляхом спочатку "
+"обчислення першої похідної від зображення: відстані між кожним пікселем та "
+"його сусідами (що, по суті, є виявленням країв або тисненням). Потім "
+"контрольні точки Делоне вибираються шляхом вибору тих пікселів, значення "
+"відстані яких вище певного порогу: це пікселі, які мають найбільшу зміну "
+"кольору/яскравості. https://en.wikipedia.org/wiki/Delaunay_triangulation "
+"Автор Jamie Zawinski."
 
 #: /usr/share/applications/screensavers/cube21.desktop:2
 msgctxt "Name(cube21.desktop)"
@@ -2150,18 +2166,17 @@ msgid ""
 msgstr ""
 
 #: /usr/share/applications/screensavers/cubestack.desktop:2
-#, fuzzy
-#| msgctxt "Name(cubestorm.desktop)"
-#| msgid "CubeStorm"
 msgctxt "Name(cubestack.desktop)"
 msgid "CubeStack"
-msgstr "Нашестя кубів"
+msgstr "Купа кубів"
 
 #: /usr/share/applications/screensavers/cubestack.desktop:3
 msgctxt "Comment(cubestack.desktop)"
 msgid ""
 "An endless stack of unfolding, translucent cubes. Written by Jamie Zawinski."
 msgstr ""
+"Нескінченна купа напівпрозорих кубів, що розкладаються. Автор: Jamie "
+"Zawinski."
 
 #: /usr/share/applications/screensavers/stonerview.desktop:2
 msgctxt "Name(stonerview.desktop)"
@@ -2639,7 +2654,7 @@ msgstr ""
 #: /usr/share/applications/screensavers/apple2.desktop:2
 msgctxt "Name(apple2.desktop)"
 msgid "Apple2"
-msgstr "Apple2"
+msgstr "Apple]["
 
 #: /usr/share/applications/screensavers/apple2.desktop:3
 msgctxt "Comment(apple2.desktop)"
@@ -2655,11 +2670,22 @@ msgid ""
 "as a screen saver and you can use it as a terminal. https://en.wikipedia.org/"
 "wiki/Apple_II_series Written by Trevor Blackwell and Jamie Zawinski."
 msgstr ""
+"Комп’ютерний симулятор Apple ][+ у всій красі 1979 року. Він також відтворює "
+"зовнішній вигляд дисплея на кольоровому телевізорі того періоду. У «Базовому "
+"режимі програмування» змодельований користувач вводить програму BASIC і "
+"запускає її. У «Текстовому режимі» він відображає результати програми або "
+"вміст файлу чи URL-адреси. У «Режимі слайд-шоу» він вибирає випадкові "
+"зображення та відображає їх у межах обмежень апаратного забезпечення дисплея "
+"Apple ][ . (Шість доступних кольорів у режимі високої роздільної здатності!) "
+"У MacOS та Linux ця програма також є повністю функціональним емулятором "
+"VT100! Запустіть його як додаток, а не як заставку, і ви можете "
+"використовувати його як термінал. https://en.wikipedia.org/wiki/"
+"Apple_II_series Автори: Trevor Blackwell та Jamie Zawinski."
 
 #: /usr/share/applications/screensavers/hypertorus.desktop:2
 msgctxt "Name(hypertorus.desktop)"
 msgid "Hypertorus"
-msgstr ""
+msgstr "Гіпертор"
 
 #: /usr/share/applications/screensavers/hypertorus.desktop:3
 msgctxt "Comment(hypertorus.desktop)"
@@ -2671,6 +2697,11 @@ msgid ""
 "Clifford_torus https://en.wikipedia.org/wiki/Regular_polytope Written by "
 "Carsten Steger."
 msgstr ""
+"Тор Кліффорда: тор, що лежить на «поверхні» 4D гіперсфери. Натхненний книгою "
+"Thomas Banchoff «Beyond the Third Dimension: Geometry, Computer Graphics, "
+"and Higher Dimensions», Scientific American Library, 1990. https://en."
+"wikipedia.org/wiki/N-sphere https://en.wikipedia. org/wiki/Clifford_torus "
+"https://en.wikipedia.org/wiki/Regular_polytope Автор Carsten Steger."
 
 #: /usr/share/applications/screensavers/attraction.desktop:2
 msgctxt "Name(attraction.desktop)"
