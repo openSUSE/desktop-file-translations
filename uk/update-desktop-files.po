@@ -12,7 +12,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.uk\n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2017-06-22 15:32+0000\n"
 "Last-Translator: Andriy Bandura <andriykopanytsia@gmail.com>\n"
 "Language-Team: Ukrainian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -40,6 +40,16 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "типова openSUSE"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Цей сеанс записує вас у Cinnamon"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -50,16 +60,6 @@ msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Цей сеанс записує вас у Cinnamon (за допомогою програмного вимальовування)"
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Цей сеанс записує вас у Cinnamon"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -72,27 +72,65 @@ msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr ""
 "Потужний, сумісний з ICCCM менеджер вікон з підтримкою віртуальних стільниць"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Служба системного лотка HP"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Аплет стану принтера"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - Легке середовище стільниці X11"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Служба системного лотка HP"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Використовувати віконний менеджер Openbox в середовищі KDE"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "Використовувати віконний менеджер Openbox в середовищі GNOME"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Легкий менеджер вікон, заснований на Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Стільниця"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Демон сповіщень"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Менеджер живлення"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Менеджер живлення для робочого столу Xfce"
@@ -102,21 +140,61 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Сеанс Xfce"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr ""
 "Використайте цей сеанс для запуску Xfce як вашого стільничного середовища"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "Демон параметрів Xfce"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Демон параметрів Xfce"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+#| msgctxt "Name(firstboot.desktop)"
+#| msgid "Firstboot Configuration"
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "Налаштування першого завантаження"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+#, fuzzy
+#| msgctxt "GenericName(firstboot.desktop)"
+#| msgid "Enable or disable starting Firstboot sequence"
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr "Увімкнути або вимкнути запуску першого завантаження"
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Служба системного лотка HP"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Аплет стану принтера"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Служба системного лотка HP"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(z-displaycal-apply-profiles.desktop)"
 #~ msgid "Profile Loader"
@@ -839,21 +917,9 @@ msgstr "Демон параметрів Xfce"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Запуск програми блокування екрану"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - Легке середовище стільниці X11"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Глобальні клавіатурні скорочення"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "Демон сповіщень"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -1030,31 +1096,6 @@ msgstr "Демон параметрів Xfce"
 #~ msgid "VMware User Agent"
 #~ msgstr "Агент користувача VMware"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Легкий менеджер вікон, заснований на Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr "Використовувати віконний менеджер Openbox в середовищі KDE"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr "Використовувати віконний менеджер Openbox в середовищі GNOME"
-
 #, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
@@ -1139,10 +1180,6 @@ msgstr "Демон параметрів Xfce"
 #~ msgctxt "Comment(x-pcb-netlist.desktop)"
 #~ msgid "PCB netlist"
 #~ msgstr "PCB список з'єднань"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Стільниця"
 
 #~ msgctxt "Name(pk-update-icon.desktop)"
 #~ msgid "PackageKit Update Applet"
@@ -1648,20 +1685,6 @@ msgstr "Демон параметрів Xfce"
 #~ msgctxt "Comment(x-xopt.desktop)"
 #~ msgid "Xournal++ template file"
 #~ msgstr "файл нотатки Xournal"
-
-#, fuzzy
-#~| msgctxt "Name(firstboot.desktop)"
-#~| msgid "Firstboot Configuration"
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "Налаштування першого завантаження"
-
-#, fuzzy
-#~| msgctxt "GenericName(firstboot.desktop)"
-#~| msgid "Enable or disable starting Firstboot sequence"
-#~ msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Enable or disable starting Firstboot sequence"
-#~ msgstr "Увімкнути або вимкнути запуску першого завантаження"
 
 #, fuzzy
 #~| msgctxt "Name(deploy_image.desktop)"

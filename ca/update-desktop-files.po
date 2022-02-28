@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2020-07-14 12:36+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
 "Language-Team: Catalan <https://l10n.opensuse.org/projects/desktop-file-"
@@ -32,6 +32,16 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSE per defecte"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Aquesta sessió us fa entrar al Cinnamon"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -42,16 +52,6 @@ msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Aquesta sessió us fa entrar al Cinnamon (usant renderització de programari)"
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Aquesta sessió us fa entrar al Cinnamon"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -65,27 +65,67 @@ msgstr ""
 "Un poderós gestor de finestres per a múltiples escriptoris virtuals que "
 "compleix amb ICCCM"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Servei de safata de sistema d'HP"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Miniaplicació de l'estat de la impressora"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - Etorn d'escriptori Lightweight X11"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Servei de safata de sistema d'HP"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE / Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr ""
+"Usa el gestor de finestres Openbox dins de l'entorn d'escriptori del KDE"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME / Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr ""
+"Usa el gestor de finestres Openbox dins de l'entorn d'escriptori del GNOME"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Un lleuger gestor de finestres basat en Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Dimoni de notificacions"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Gestor d'energia"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Gestor d'energia per l'escriptori Xfce"
@@ -95,21 +135,55 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Sessió Xfce"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr ""
 "Empra aquesta sessió per executar l'Xfce com el vostre entorn d'escriptori"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "El dimoni gestor d'ajustaments de Xfce"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "El dimoni gestor d'ajustaments de Xfce"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr "Primera arrencada del YaST"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "Configuració de la primera arrencada"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr "Habilita o inhabilita l'inici de la seqüència de primera arrencada"
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Servei de safata de sistema d'HP"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Miniaplicació de l'estat de la impressora"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Servei de safata de sistema d'HP"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(z-displaycal-apply-profiles.desktop)"
 #~ msgid "Profile Loader"
@@ -823,21 +897,9 @@ msgstr "El dimoni gestor d'ajustaments de Xfce"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Obre el programa de bloqueig de la pantalla"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - Etorn d'escriptori Lightweight X11"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Dreceres de teclat globals"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "Dimoni de notificacions"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -1021,33 +1083,6 @@ msgstr "El dimoni gestor d'ajustaments de Xfce"
 #~ msgid "VMware User Agent"
 #~ msgstr "Agent d'usuari VMware"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Un lleuger gestor de finestres basat en Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE / Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr ""
-#~ "Usa el gestor de finestres Openbox dins de l'entorn d'escriptori del KDE"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME / Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr ""
-#~ "Usa el gestor de finestres Openbox dins de l'entorn d'escriptori del GNOME"
-
 #~ msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
 #~ msgid "Welcome"
 #~ msgstr "Benvingut/da"
@@ -1137,10 +1172,6 @@ msgstr "El dimoni gestor d'ajustaments de Xfce"
 #~ msgctxt "Comment(x-pcb-netlist.desktop)"
 #~ msgid "PCB netlist"
 #~ msgstr "Llista de xarxa PCB"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Escriptori"
 
 #~ msgctxt "Name(pk-update-icon.desktop)"
 #~ msgid "PackageKit Update Applet"
@@ -1658,18 +1689,6 @@ msgstr "El dimoni gestor d'ajustaments de Xfce"
 #~ msgctxt "Comment(x-xopt.desktop)"
 #~ msgid "Xournal++ template file"
 #~ msgstr "Fitxer de plantilla de Xournal++"
-
-#~ msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "YaST Firstboot"
-#~ msgstr "Primera arrencada del YaST"
-
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "Configuració de la primera arrencada"
-
-#~ msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Enable or disable starting Firstboot sequence"
-#~ msgstr "Habilita o inhabilita l'inici de la seqüència de primera arrencada"
 
 #~ msgctxt "X-SuSE-YaST-Keywords(deploy_image.desktop)"
 #~ msgid "image,deployment"

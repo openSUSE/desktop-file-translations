@@ -30,7 +30,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OpenSUSE\n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2012-11-19 14:59+0200\n"
 "Last-Translator: Lucian Oprea <oprea.luci@gmail.com>\n"
 "Language-Team: Romanian <LL@li.org>\n"
@@ -60,17 +60,6 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr ""
 
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr ""
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-#, fuzzy
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr "Această sesiune vă autentifică în SLE Clasic"
-
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
 msgid "Cinnamon"
@@ -81,6 +70,17 @@ msgstr ""
 msgctxt "Comment(cinnamon.desktop)"
 msgid "This session logs you into Cinnamon"
 msgstr "Această sesiune vă va autentifica în MATE"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr ""
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+#, fuzzy
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr "Această sesiune vă autentifică în SLE Clasic"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -93,28 +93,68 @@ msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr ""
 "Un manager de ferestre puternic compliant ICCCM ce suportă ecrane virtuale"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr ""
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - Mediu de lucru X11"
+
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Folosiți managerul de ferestre Openbox înăuntrul mediului de lucru K"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr ""
+"Folosiți managerul de ferestre Openbox înăuntrul mediului de lucru GNOME"
+
+#: /usr/share/xsessions/openbox.desktop:6
 #, fuzzy
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Mini-aplicație coadă tipărire"
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "KDE/Openbox"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr ""
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Un manager de ferestre minimal bazat pe Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+#, fuzzy
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Birou"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Demonul opțiunilor Xfce"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Manager de consum"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Management de consum pentru desktopul Xfce"
@@ -124,20 +164,47 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Sesiune Xfce"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Utilizați această sesiune pentru a inițializa mediul desktop Xfce"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "Demonul opțiunilor Xfce"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Demonul opțiunilor Xfce"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Mini-aplicație coadă tipărire"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(at-spi-dbus-bus.desktop)"
 #~ msgid "AT-SPI D-Bus Bus"
@@ -600,14 +667,6 @@ msgstr "Demonul opțiunilor Xfce"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Lansați programul de protecție și blocare a ecranului"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - Mediu de lucru X11"
-
 #, fuzzy
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -759,34 +818,6 @@ msgstr "Demonul opțiunilor Xfce"
 #~ msgstr "Agent utilizator VMWare"
 
 #, fuzzy
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Un manager de ferestre minimal bazat pe Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr ""
-#~ "Folosiți managerul de ferestre Openbox înăuntrul mediului de lucru K"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr ""
-#~ "Folosiți managerul de ferestre Openbox înăuntrul mediului de lucru GNOME"
-
-#, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
 #~ msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
@@ -816,11 +847,6 @@ msgstr "Demonul opțiunilor Xfce"
 #~ msgctxt "Name(pasystray.desktop)"
 #~ msgid "PulseAudio System Tray"
 #~ msgstr "Sistem sunet PulseAudio"
-
-#, fuzzy
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Birou"
 
 #~ msgctxt "Name(org.kde.plasma.desktop.emptyPanel)"
 #~ msgid "Empty Panel"

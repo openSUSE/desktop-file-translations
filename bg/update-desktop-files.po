@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2017-10-29 20:56+0000\n"
 "Last-Translator: strahil nikolov <hunter86_bg@yahoo.com>\n"
 "Language-Team: Bulgarian <https://l10n.opensuse.org/projects/desktop-file-"
@@ -30,17 +30,6 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr ""
 
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr ""
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-#, fuzzy
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr "Работната среда изглежда като класическия SLE (2.x)"
-
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
 msgid "Cinnamon"
@@ -51,6 +40,17 @@ msgstr ""
 msgctxt "Comment(cinnamon.desktop)"
 msgid "This session logs you into Cinnamon"
 msgstr "Влизане в MATE"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr ""
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+#, fuzzy
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr "Работната среда изглежда като класическия SLE (2.x)"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -64,28 +64,70 @@ msgstr ""
 "Мощен ICCCM-съвместим мениджър на прозорци с множество виртуални работни "
 "плотове"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "Работна среда LXDE"
+
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
 msgstr ""
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
 #, fuzzy
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Аплет за печат на опашката"
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Използвайте тази сесия за да стартирате Xfce като Ваша графична среда"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr ""
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+#, fuzzy
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+#, fuzzy
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "Използвайте тази сесия за да стартирате Xfce като Ваша графична среда"
+
+#: /usr/share/xsessions/openbox.desktop:6
+#, fuzzy
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Лек мениджър на прозорци, базиран на Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+#, fuzzy
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Работен плот"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Мениджърът на настройките на Xfce"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Управление на захранването"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Управление на захранването за Xfce среда"
@@ -95,20 +137,44 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Xfce сесия"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Използвайте тази сесия за да стартирате Xfce като Ваша графична среда"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr ""
+msgid "Xfce Settings Daemon"
+msgstr "Мениджърът на настройките на Xfce"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Мениджърът на настройките на Xfce"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "Добави конфигурационен файл"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Аплет за печат на опашката"
 
 #~ msgctxt "Name(nm-applet.desktop)"
 #~ msgid "Network"
@@ -600,10 +666,6 @@ msgstr "Мениджърът на настройките на Xfce"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Стартиране на предпазителя на екрана и заключване"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "Работна среда LXDE"
-
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
 #~ msgstr "Панел"
@@ -730,31 +792,6 @@ msgstr "Мениджърът на настройките на Xfce"
 #~ msgstr "Управление на мрежовите връзки"
 
 #, fuzzy
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Лек мениджър на прозорци, базиран на Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "Openbox"
-
-#, fuzzy
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "Openbox"
-
-#, fuzzy
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr ""
-#~ "Използвайте тази сесия за да стартирате Xfce като Ваша графична среда"
-
-#, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
 #~ msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
@@ -776,11 +813,6 @@ msgstr "Мениджърът на настройките на Xfce"
 #~ msgctxt "Comment(parcellite-startup.desktop)"
 #~ msgid "Clipboard Manager"
 #~ msgstr "Мениджър на системният буфер"
-
-#, fuzzy
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Работен плот"
 
 #, fuzzy
 #~ msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
@@ -1009,11 +1041,6 @@ msgstr "Мениджърът на настройките на Xfce"
 #~ msgctxt "GenericName(xiccd.desktop)"
 #~ msgid "X color management daemon"
 #~ msgstr "Демон за управление на захранването"
-
-#, fuzzy
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "Добави конфигурационен файл"
 
 #, fuzzy
 #~ msgctxt "Name(ssh_import.desktop)"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2020-02-26 01:54+0000\n"
 "Last-Translator: Yasuhiko Kamata <belphegor@belbel.or.jp>\n"
 "Language-Team: Japanese <https://l10n.opensuse.org/projects/desktop-file-"
@@ -31,6 +31,16 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSE デフォルト"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "このセッションは Cinnamon へのログインを行ないます"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -43,16 +53,6 @@ msgstr ""
 "このセッションは Cinnamon (ソフトウエア描画を利用します) へのログインを行ない"
 "ます"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "このセッションは Cinnamon へのログインを行ないます"
-
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
 msgid "FVWM"
@@ -64,27 +64,65 @@ msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr ""
 "複数の仮想デスクトップをサポートしたICCCM準拠のパワフルなウィンドウマネージャ"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "HP システムトレイサービス"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "プリンタ状態アプレット"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - 軽量な X11 デスクトップ環境"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "HP システムトレイサービス"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "K デスクトップ環境内で Openbox ウインドウマネージャを使用する"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "GNOME デスクトップ環境内で Openbox ウインドウマネージャを使用する"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Blackboxベースの軽量なウィンドウマネージャ"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "通知デーモン"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "電源管理"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Xfce デスクトップ用電源管理"
@@ -94,20 +132,54 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Xfce セッション"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Xfce をデスクトップ環境として起動するためにこのセッションを使用します"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "Xfce 設定デーモン"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Xfce 設定デーモン"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr "YaST 初回起動"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "初回起動時の設定"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr "初回起動時処理の有効化と無効化"
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "HP システムトレイサービス"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "プリンタ状態アプレット"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "HP システムトレイサービス"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(z-displaycal-apply-profiles.desktop)"
 #~ msgid "Profile Loader"
@@ -809,21 +881,9 @@ msgstr "Xfce 設定デーモン"
 #~ msgid "Launch screen locker program"
 #~ msgstr "スクリーンロックのプログラムを実行する"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - 軽量な X11 デスクトップ環境"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "グローバルキーボードショートカット"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "通知デーモン"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -1005,31 +1065,6 @@ msgstr "Xfce 設定デーモン"
 #~ msgid "VMware User Agent"
 #~ msgstr "VMware ユーザエージェント"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Blackboxベースの軽量なウィンドウマネージャ"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr "K デスクトップ環境内で Openbox ウインドウマネージャを使用する"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr "GNOME デスクトップ環境内で Openbox ウインドウマネージャを使用する"
-
 #~ msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
 #~ msgid "Welcome"
 #~ msgstr "ようこそ"
@@ -1119,10 +1154,6 @@ msgstr "Xfce 設定デーモン"
 #~ msgctxt "Comment(x-pcb-netlist.desktop)"
 #~ msgid "PCB netlist"
 #~ msgstr "PCB ネットリスト"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "デスクトップ"
 
 #~ msgctxt "Name(pk-update-icon.desktop)"
 #~ msgid "PackageKit Update Applet"
@@ -1634,18 +1665,6 @@ msgstr "Xfce 設定デーモン"
 #~ msgctxt "Comment(x-xopt.desktop)"
 #~ msgid "Xournal++ template file"
 #~ msgstr "Xournal++ テンプレートファイル"
-
-#~ msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "YaST Firstboot"
-#~ msgstr "YaST 初回起動"
-
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "初回起動時の設定"
-
-#~ msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Enable or disable starting Firstboot sequence"
-#~ msgstr "初回起動時処理の有効化と無効化"
 
 #~ msgctxt "X-SuSE-YaST-Keywords(deploy_image.desktop)"
 #~ msgid "image,deployment"

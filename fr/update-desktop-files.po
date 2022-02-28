@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2019-08-07 10:51+0000\n"
 "Last-Translator: Antoine Belvire <antoine.belvire@opensuse.org>\n"
 "Language-Team: French <https://l10n.opensuse.org/projects/desktop-file-"
@@ -36,6 +36,16 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSE par défaut"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Cette session vous connecte à Cinnamon"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -46,16 +56,6 @@ msgctxt "Comment(cinnamon2d.desktop)"
 msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Cette session vous connecte à Cinnamon (en utilisant le rendu logiciel)"
-
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Cette session vous connecte à Cinnamon"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -69,27 +69,69 @@ msgstr ""
 "Puissant gestionnaire de fenêtres de bureaux virtuels multiples compatible "
 "ICCCM"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Service de la barre d'état système HP"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Applet de l'état de l'imprimante"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - Environnement de bureau X11 léger"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "Service de la barre d'état système HP"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr ""
+"Utiliser le gestionnaire de fenêtres Openbox à l'intérieur de "
+"l'environnement de bureau KDE"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr ""
+"Utiliser le gestionnaire de fenêtres Openbox à l'intérieur de "
+"l'environnement de bureau GNOME"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Un gestionnaire de fenêtres léger basé sur Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Bureau"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Démon de notification"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Gestionnaire d’alimentation"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Gestion d’alimentation pour l’environnement de bureau Xfce"
@@ -99,21 +141,61 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Session Xfce"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr ""
 "Utilisez cette session pour exécuter Xfce comme environnement de bureau"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "Le démon des paramètres Xfce"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Le démon des paramètres Xfce"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+#| msgctxt "Name(firstboot.desktop)"
+#| msgid "Firstboot Configuration"
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "Configuration du premier démarrage"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+#, fuzzy
+#| msgctxt "GenericName(firstboot.desktop)"
+#| msgid "Enable or disable starting Firstboot sequence"
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr "Active ou désactive la séquence de premier démarrage"
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Service de la barre d'état système HP"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Applet de l'état de l'imprimante"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "Service de la barre d'état système HP"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(z-displaycal-apply-profiles.desktop)"
 #~ msgid "Profile Loader"
@@ -846,21 +928,9 @@ msgstr "Le démon des paramètres Xfce"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Lancer le verrouilleur d'écran"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - Environnement de bureau X11 léger"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Raccourcis clavier globaux"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "Démon de notification"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -1044,35 +1114,6 @@ msgstr "Le démon des paramètres Xfce"
 #~ msgid "VMware User Agent"
 #~ msgstr "Agent utilisateur VMware"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Un gestionnaire de fenêtres léger basé sur Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr ""
-#~ "Utiliser le gestionnaire de fenêtres Openbox à l'intérieur de "
-#~ "l'environnement de bureau KDE"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr ""
-#~ "Utiliser le gestionnaire de fenêtres Openbox à l'intérieur de "
-#~ "l'environnement de bureau GNOME"
-
 #, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
@@ -1168,10 +1209,6 @@ msgstr "Le démon des paramètres Xfce"
 #~ msgctxt "Comment(x-pcb-netlist.desktop)"
 #~ msgid "PCB netlist"
 #~ msgstr "Netlist de PCB"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Bureau"
 
 #~ msgctxt "Name(pk-update-icon.desktop)"
 #~ msgid "PackageKit Update Applet"
@@ -1679,20 +1716,6 @@ msgstr "Le démon des paramètres Xfce"
 #~ msgctxt "Comment(x-xopt.desktop)"
 #~ msgid "Xournal++ template file"
 #~ msgstr "Fichier modèle Xournal++"
-
-#, fuzzy
-#~| msgctxt "Name(firstboot.desktop)"
-#~| msgid "Firstboot Configuration"
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "Configuration du premier démarrage"
-
-#, fuzzy
-#~| msgctxt "GenericName(firstboot.desktop)"
-#~| msgid "Enable or disable starting Firstboot sequence"
-#~ msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Enable or disable starting Firstboot sequence"
-#~ msgstr "Active ou désactive la séquence de premier démarrage"
 
 #~ msgctxt "X-SuSE-YaST-Keywords(deploy_image.desktop)"
 #~ msgid "image,deployment"

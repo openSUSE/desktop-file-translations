@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2018-09-16 18:02+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
 "Language-Team: Danish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -38,16 +38,6 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSE standard"
 
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr "Cinnamon (software-rendering)"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr "Sessionen logger dig ind i Cinnamon (med software-rendering)"
-
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
 msgid "Cinnamon"
@@ -57,6 +47,16 @@ msgstr "Cinnamon"
 msgctxt "Comment(cinnamon.desktop)"
 msgid "This session logs you into Cinnamon"
 msgstr "Denne session logger dig ind i Cinnamon"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr "Cinnamon (software-rendering)"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr "Sessionen logger dig ind i Cinnamon (med software-rendering)"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -69,27 +69,65 @@ msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr ""
 "En kraftig ICCCM-kompliant vindueshåndtering med flere virtuelle desktoppe"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr ""
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Printerstatus-applet"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE - Lightweight X11-skrivebordsmiljø"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr ""
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Brug vindueshåndteringen Openbox indeni KDE-skrivebordsmiljøet"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "Brug vindueshåndteringen Openbox indeni GNOME-skrivebordsmiljøet"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "En letvægts vindueshåndtering baseret på Blackbox"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Skrivebord"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Beskedtjeneste"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Strømstyring"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Strømstyring til skrivebordsmiljøet Xfce"
@@ -99,20 +137,49 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Session til Xfce"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Brug denne session til at køre Xfce som dit skrivebord"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "Xfce-indstillingstjenesten"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Xfce-indstillingstjenesten"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+#, fuzzy
+#| msgctxt "Name(vncmanager-controller.desktop)"
+#| msgid "VNC Configuration"
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "VNC-konfiguration"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr ""
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Printerstatus-applet"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(nm-applet.desktop)"
 #~ msgid "Network"
@@ -707,21 +774,9 @@ msgstr "Xfce-indstillingstjenesten"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Start program for skærmlås"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE - Lightweight X11-skrivebordsmiljø"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Globale genvejstaster"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "Beskedtjeneste"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -870,31 +925,6 @@ msgstr "Xfce-indstillingstjenesten"
 #~ msgid "VMware User Agent"
 #~ msgstr "VMware brugeragent"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "En letvægts vindueshåndtering baseret på Blackbox"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr "Brug vindueshåndteringen Openbox indeni KDE-skrivebordsmiljøet"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr "Brug vindueshåndteringen Openbox indeni GNOME-skrivebordsmiljøet"
-
 #, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
@@ -948,10 +978,6 @@ msgstr "Xfce-indstillingstjenesten"
 #~ msgctxt "Comment(x-excellon.desktop)"
 #~ msgid "Excellon drill file"
 #~ msgstr "Excellon drill-fil"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Skrivebord"
 
 #~ msgctxt "Name(org.kde.plasma.desktop.appmenubar)"
 #~ msgid "Application Menu Bar"
@@ -1354,13 +1380,6 @@ msgstr "Xfce-indstillingstjenesten"
 #~ msgctxt "GenericName(xiccd.desktop)"
 #~ msgid "X color management daemon"
 #~ msgstr "Strømstyringstjeneste"
-
-#, fuzzy
-#~| msgctxt "Name(vncmanager-controller.desktop)"
-#~| msgid "VNC Configuration"
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "VNC-konfiguration"
 
 #~ msgctxt "Name(ssh_import.desktop)"
 #~ msgid "SSH Key Import"

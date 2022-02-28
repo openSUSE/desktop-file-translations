@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.fi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2020-12-28 00:26+0000\n"
 "Last-Translator: Kimmo Kujansuu <mrkujansuu@gmail.com>\n"
 "Language-Team: Finnish <https://l10n.opensuse.org/projects/desktop-file-"
@@ -47,6 +47,16 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "openSUSEn oletus"
 
+#: /usr/share/xsessions/cinnamon.desktop:2
+msgctxt "Name(cinnamon.desktop)"
+msgid "Cinnamon"
+msgstr "Cinnamon"
+
+#: /usr/share/xsessions/cinnamon.desktop:3
+msgctxt "Comment(cinnamon.desktop)"
+msgid "This session logs you into Cinnamon"
+msgstr "Tämä istunto kirjaa sinut Cinnamoniin"
+
 #: /usr/share/xsessions/cinnamon2d.desktop:2
 msgctxt "Name(cinnamon2d.desktop)"
 msgid "Cinnamon (Software Rendering)"
@@ -58,16 +68,6 @@ msgid "This session logs you into Cinnamon (using software rendering)"
 msgstr ""
 "Tämä istunto kirjaa sinut Cinnamoniin (ohjelmallista hahmonnusta käyttäen)"
 
-#: /usr/share/xsessions/cinnamon.desktop:2
-msgctxt "Name(cinnamon.desktop)"
-msgid "Cinnamon"
-msgstr "Cinnamon"
-
-#: /usr/share/xsessions/cinnamon.desktop:3
-msgctxt "Comment(cinnamon.desktop)"
-msgid "This session logs you into Cinnamon"
-msgstr "Tämä istunto kirjaa sinut Cinnamoniin"
-
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
 msgid "FVWM"
@@ -78,27 +78,65 @@ msgctxt "Comment(fvwm2.desktop)"
 msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr "Tehokas ICCCM-yhteensopiva usean virtuaalityöpöydän ikkunaohjelma"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "HP:n ilmoitusaluepalvelu"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr "LXDE"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Tulostimen tilasovelma"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr "LXDE – kevyt X11-työpöytäympäristö"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "HP:n ilmoitusaluepalvelu"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "KDE/Openbox"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Käytä Openbox-ikkunahallintaa KDE-työpöytäympäristössä"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "GNOME/Openbox"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "Openbox"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Kevyt, Blackboxiin pohjautuva ikkunaohjelma"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Työpöytä"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Name(lxqt-notifications.desktop)"
+#| msgid "Notification Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Ilmoituspalvelu"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Virranhallinta"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Xfce-työpöydän virrankäytön hallinta"
@@ -108,20 +146,54 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "Xfce-istunto"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Käytä tällä istunnolla XFCE:tä työpöytäympäristönäsi"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "XFCE-asetuspalveluprosessi"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "XFCE-asetuspalveluprosessi"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr "YaST – Ensikäynnistys"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr "Ensikäynnistyksen määritys"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr "Ota käyttöön tai poista käytöstä Firstboot-sekvenssin käynnistäminen"
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "HP:n ilmoitusaluepalvelu"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Tulostimen tilasovelma"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "HP:n ilmoitusaluepalvelu"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(z-displaycal-apply-profiles.desktop)"
 #~ msgid "Profile Loader"
@@ -807,21 +879,9 @@ msgstr "XFCE-asetuspalveluprosessi"
 #~ msgid "Launch screen locker program"
 #~ msgstr "Käynnistä näyttölukko"
 
-#~ msgctxt "Name(lxde.desktop)"
-#~ msgid "LXDE"
-#~ msgstr "LXDE"
-
-#~ msgctxt "Comment(lxde.desktop)"
-#~ msgid "LXDE - Lightweight X11 desktop environment"
-#~ msgstr "LXDE – kevyt X11-työpöytäympäristö"
-
 #~ msgctxt "Name(lxqt-globalkeyshortcuts.desktop)"
 #~ msgid "Global Keyboard Shortcuts"
 #~ msgstr "Yleiset pikanäppäimet"
-
-#~ msgctxt "Name(lxqt-notifications.desktop)"
-#~ msgid "Notification Daemon"
-#~ msgstr "Ilmoituspalvelu"
 
 #~ msgctxt "Name(lxqt-panel.desktop)"
 #~ msgid "Panel"
@@ -1012,31 +1072,6 @@ msgstr "XFCE-asetuspalveluprosessi"
 #~ msgid "VMware User Agent"
 #~ msgstr "VMware User Agent"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "Openbox"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Kevyt, Blackboxiin pohjautuva ikkunaohjelma"
-
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "KDE/Openbox"
-
-#~ msgctxt "Comment(openbox-kde.desktop)"
-#~ msgid "Use the Openbox window manager inside of the K Desktop Environment"
-#~ msgstr "Käytä Openbox-ikkunahallintaa KDE-työpöytäympäristössä"
-
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "GNOME/Openbox"
-
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr "Käytä Openbox-ikkunahallintaa GNOME-työpöytäympäristössä"
-
 #~ msgctxt "Name(org.opensuse.opensuse_welcome.desktop)"
 #~ msgid "Welcome"
 #~ msgstr "Tervetuloa"
@@ -1127,10 +1162,6 @@ msgstr "XFCE-asetuspalveluprosessi"
 #~ msgctxt "Comment(x-pcb-netlist.desktop)"
 #~ msgid "PCB netlist"
 #~ msgstr "PCB-netlist"
-
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Työpöytä"
 
 #~ msgctxt "Name(pk-update-icon.desktop)"
 #~ msgid "PackageKit Update Applet"
@@ -1622,19 +1653,6 @@ msgstr "XFCE-asetuspalveluprosessi"
 #~ msgctxt "Comment(x-xopt.desktop)"
 #~ msgid "Xournal++ template file"
 #~ msgstr "Xournal++-mallitiedosto"
-
-#~ msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "YaST Firstboot"
-#~ msgstr "YaST – Ensikäynnistys"
-
-#~ msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Firstboot Configuration"
-#~ msgstr "Ensikäynnistyksen määritys"
-
-#~ msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
-#~ msgid "Enable or disable starting Firstboot sequence"
-#~ msgstr ""
-#~ "Ota käyttöön tai poista käytöstä Firstboot-sekvenssin käynnistäminen"
 
 #~ msgctxt "Name(deploy_image.desktop)"
 #~ msgid "Image deployment"

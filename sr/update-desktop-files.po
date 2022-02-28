@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files\n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2007-10-15 02:37+0200\n"
 "Last-Translator:   <developer@beotel.net>\n"
 "Language-Team: Serbian ( ) <sr@li.org>\n"
@@ -37,17 +37,6 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr ""
 
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr ""
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-#, fuzzy
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr "Ова сесија вас пријављује у класичан Гном"
-
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
 msgid "Cinnamon"
@@ -58,6 +47,17 @@ msgstr ""
 msgctxt "Comment(cinnamon.desktop)"
 msgid "This session logs you into Cinnamon"
 msgstr "Ова сесија вас пријављује у Мејт"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr ""
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+#, fuzzy
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr "Ова сесија вас пријављује у класичан Гном"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -70,28 +70,68 @@ msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr ""
 "Моћни, ICCCM-сагласни, менаџер прозора са више виртуелних радних површина"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
 msgstr ""
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr ""
+
+#: /usr/share/xsessions/openbox-kde.desktop:2
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr ""
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
 #, fuzzy
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "Програмче за ред штампања"
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
 msgstr ""
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+#, fuzzy
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr ""
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "Лагани менаџер прозора заснован на Blackbox-у"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+#, fuzzy
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "Рејзорова радна површ"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "Домар поставки Иксфце-а"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "Управник потрошње"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "Управник потрошње за ИксФЦЕ радно окружење"
@@ -101,20 +141,43 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "ИксФЦЕ сесија"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr ""
+msgid "Xfce Settings Daemon"
+msgstr "Домар поставки Иксфце-а"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "Домар поставки Иксфце-а"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr ""
+
+#, fuzzy
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "Програмче за ред штампања"
 
 #~ msgctxt "Name(nm-applet.desktop)"
 #~ msgid "Network"
@@ -730,16 +793,6 @@ msgstr "Домар поставки Иксфце-а"
 #~ msgid "LXQt panel applet to handle network connections"
 #~ msgstr "Управљајте вашим везама мреже"
 
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "Лагани менаџер прозора заснован на Blackbox-у"
-
-#, fuzzy
-#~ msgctxt "Comment(openbox-gnome.desktop)"
-#~ msgid ""
-#~ "Use the Openbox window manager inside of the GNOME desktop environment"
-#~ msgstr "Користите ову сесију да покренете ИксФЦЕ као ваше радно окружење"
-
 #, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
@@ -776,11 +829,6 @@ msgstr "Домар поставки Иксфце-а"
 #~ msgctxt "Name(pasystray.desktop)"
 #~ msgid "PulseAudio System Tray"
 #~ msgstr "PulseAudio звучни систем"
-
-#, fuzzy
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "Рејзорова радна површ"
 
 #, fuzzy
 #~ msgctxt "Name(org.kde.plasma.desktop.appmenubar)"

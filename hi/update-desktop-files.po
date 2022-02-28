@@ -4,11 +4,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: update-desktop-files.hi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-02-02 22:28+0000\n"
+"POT-Creation-Date: 2022-02-28 17:21+0000\n"
 "PO-Revision-Date: 2021-04-22 15:57+0000\n"
 "Last-Translator: Panwar <caspian7pena@gmail.com>\n"
-"Language-Team: Hindi <https://l10n.opensuse.org/projects/"
-"desktop-file-translations/update-desktop-files-master/hi/>\n"
+"Language-Team: Hindi <https://l10n.opensuse.org/projects/desktop-file-"
+"translations/update-desktop-files-master/hi/>\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,16 +31,6 @@ msgctxt "Name(metadata.desktop)"
 msgid "openSUSE default"
 msgstr "ओपनSUSE डिफ़ॉल्ट"
 
-#: /usr/share/xsessions/cinnamon2d.desktop:2
-msgctxt "Name(cinnamon2d.desktop)"
-msgid "Cinnamon (Software Rendering)"
-msgstr "सिनेमन (सॉफ्टवेयर प्रस्तुतिकरण)"
-
-#: /usr/share/xsessions/cinnamon2d.desktop:3
-msgctxt "Comment(cinnamon2d.desktop)"
-msgid "This session logs you into Cinnamon (using software rendering)"
-msgstr "यह सत्र (सॉफ्टवेयर प्रस्तुतिकरण उपयोग कर) सिनेमन में लॉगिन करेगा"
-
 #: /usr/share/xsessions/cinnamon.desktop:2
 msgctxt "Name(cinnamon.desktop)"
 msgid "Cinnamon"
@@ -50,6 +40,16 @@ msgstr "सिनेमन"
 msgctxt "Comment(cinnamon.desktop)"
 msgid "This session logs you into Cinnamon"
 msgstr "यह सत्र सिनेमन में लॉगिन करेगा"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:2
+msgctxt "Name(cinnamon2d.desktop)"
+msgid "Cinnamon (Software Rendering)"
+msgstr "सिनेमन (सॉफ्टवेयर प्रस्तुतिकरण)"
+
+#: /usr/share/xsessions/cinnamon2d.desktop:3
+msgctxt "Comment(cinnamon2d.desktop)"
+msgid "This session logs you into Cinnamon (using software rendering)"
+msgstr "यह सत्र (सॉफ्टवेयर प्रस्तुतिकरण उपयोग कर) सिनेमन में लॉगिन करेगा"
 
 #: /usr/share/xsessions/fvwm2.desktop:6
 msgctxt "Name(fvwm2.desktop)"
@@ -61,27 +61,71 @@ msgctxt "Comment(fvwm2.desktop)"
 msgid "A powerful ICCCM-compliant multiple virtual desktop window manager"
 msgstr "सशक्त आईसीसीसीएम-सम्मत एकाधिक वर्चुअल डेस्कटॉप विंडो प्रबंधक"
 
-#: /etc/xdg/autostart/hplip-systray.desktop:4
-msgctxt "Name(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "एचपी सिस्टम ट्रे सेवा"
+#: /usr/share/xsessions/lxde.desktop:3
+msgctxt "Name(lxde.desktop)"
+msgid "LXDE"
+msgstr ""
 
-#: /etc/xdg/autostart/hplip-systray.desktop:5
-msgctxt "GenericName(hplip-systray.desktop)"
-msgid "Printer Status Applet"
-msgstr "प्रिंटर स्थिति एप्लेट"
+#: /usr/share/xsessions/lxde.desktop:4
+msgctxt "Comment(lxde.desktop)"
+msgid "LXDE - Lightweight X11 desktop environment"
+msgstr ""
 
-#: /etc/xdg/autostart/hplip-systray.desktop:6
-msgctxt "Comment(hplip-systray.desktop)"
-msgid "HP System Tray Service"
-msgstr "एचपी सिस्टम ट्रे सेवा"
+#: /usr/share/xsessions/openbox-kde.desktop:2
+#, fuzzy
+msgctxt "Name(openbox-kde.desktop)"
+msgid "KDE/Openbox"
+msgstr "ओपनबाक्स"
+
+#: /usr/share/xsessions/openbox-kde.desktop:3
+msgctxt "Comment(openbox-kde.desktop)"
+msgid "Use the Openbox window manager inside of the K Desktop Environment"
+msgstr ""
+
+#: /usr/share/xsessions/openbox-gnome.desktop:2
+#, fuzzy
+msgctxt "Name(openbox-gnome.desktop)"
+msgid "GNOME/Openbox"
+msgstr "ओपनबाक्स"
+
+#: /usr/share/xsessions/openbox-gnome.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfce.desktop)"
+#| msgid "Use this session to run Xfce as your desktop environment"
+msgctxt "Comment(openbox-gnome.desktop)"
+msgid "Use the Openbox window manager inside of the GNOME desktop environment"
+msgstr "इस सत्र द्वारा एक्सएफसीई डेस्कटॉप वातावरण उपयोग करें"
+
+#: /usr/share/xsessions/openbox.desktop:6
+msgctxt "Name(openbox.desktop)"
+msgid "Openbox"
+msgstr "ओपनबाक्स"
+
+#: /usr/share/xsessions/openbox.desktop:15
+msgctxt "Comment(openbox.desktop)"
+msgid "A lightweight window manager based on Blackbox"
+msgstr "ब्लेकबाक्स आधारित हल्का विंडो प्रबंधक"
+
+#: /etc/xdg/autostart/lxqt-desktop.desktop:3
+#, fuzzy
+msgctxt "Name(lxqt-desktop.desktop)"
+msgid "Desktop"
+msgstr "डेस्कटॉप"
+
+#: /etc/xdg/autostart/xfce4-notifyd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
+msgctxt "Name(xfce4-notifyd.desktop)"
+msgid "Xfce Notification Daemon"
+msgstr "एक्सएफसीई सेटिंग्स डेमॉन"
 
 #: /etc/xdg/autostart/xfce4-power-manager.desktop:2
 msgctxt "Name(xfce4-power-manager.desktop)"
 msgid "Power Manager"
 msgstr "ऊर्जा प्रबंधक"
 
-#: /etc/xdg/autostart/xfce4-power-manager.desktop:61
+#: /etc/xdg/autostart/xfce4-power-manager.desktop:63
 msgctxt "Comment(xfce4-power-manager.desktop)"
 msgid "Power management for the Xfce desktop"
 msgstr "एक्सएफसीई डेस्कटॉप हेतु ऊर्जा प्रबंधन"
@@ -91,20 +135,54 @@ msgctxt "Name(xfce.desktop)"
 msgid "Xfce Session"
 msgstr "एक्सएफसीई सत्र"
 
-#: /usr/share/xsessions/xfce.desktop:59
+#: /usr/share/xsessions/xfce.desktop:63
 msgctxt "Comment(xfce.desktop)"
 msgid "Use this session to run Xfce as your desktop environment"
 msgstr "इस सत्र द्वारा एक्सएफसीई डेस्कटॉप वातावरण उपयोग करें"
 
 #: /etc/xdg/autostart/xfsettingsd.desktop:3
+#, fuzzy
+#| msgctxt "Comment(xfsettingsd.desktop)"
+#| msgid "The Xfce Settings Daemon"
 msgctxt "Name(xfsettingsd.desktop)"
-msgid "Xfsettingsd"
-msgstr "Xfsettingsd"
+msgid "Xfce Settings Daemon"
+msgstr "एक्सएफसीई सेटिंग्स डेमॉन"
 
-#: /etc/xdg/autostart/xfsettingsd.desktop:4
+#: /etc/xdg/autostart/xfsettingsd.desktop:47
 msgctxt "Comment(xfsettingsd.desktop)"
 msgid "The Xfce Settings Daemon"
 msgstr "एक्सएफसीई सेटिंग्स डेमॉन"
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:22
+msgctxt "Name(org.opensuse.yast.Firstboot.desktop)"
+msgid "YaST Firstboot"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:23
+msgctxt "GenericName(org.opensuse.yast.Firstboot.desktop)"
+msgid "Firstboot Configuration"
+msgstr ""
+
+#: /usr/share/autoinstall/modules/org.opensuse.yast.Firstboot.desktop:24
+msgctxt "Comment(org.opensuse.yast.Firstboot.desktop)"
+msgid "Enable or disable starting Firstboot sequence"
+msgstr ""
+
+#~ msgctxt "Name(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "एचपी सिस्टम ट्रे सेवा"
+
+#~ msgctxt "GenericName(hplip-systray.desktop)"
+#~ msgid "Printer Status Applet"
+#~ msgstr "प्रिंटर स्थिति एप्लेट"
+
+#~ msgctxt "Comment(hplip-systray.desktop)"
+#~ msgid "HP System Tray Service"
+#~ msgstr "एचपी सिस्टम ट्रे सेवा"
+
+#~ msgctxt "Name(xfsettingsd.desktop)"
+#~ msgid "Xfsettingsd"
+#~ msgstr "Xfsettingsd"
 
 #~ msgctxt "Name(nm-applet.desktop)"
 #~ msgid "Network"
@@ -602,24 +680,6 @@ msgstr "एक्सएफसीई सेटिंग्स डेमॉन"
 #~ msgid "LXQt panel applet to handle network connections"
 #~ msgstr "अपना संजाल कनेक्शन नियंत्रित करें"
 
-#~ msgctxt "Name(openbox.desktop)"
-#~ msgid "Openbox"
-#~ msgstr "ओपनबाक्स"
-
-#~ msgctxt "Comment(openbox.desktop)"
-#~ msgid "A lightweight window manager based on Blackbox"
-#~ msgstr "ब्लेकबाक्स आधारित हल्का विंडो प्रबंधक"
-
-#, fuzzy
-#~ msgctxt "Name(openbox-kde.desktop)"
-#~ msgid "KDE/Openbox"
-#~ msgstr "ओपनबाक्स"
-
-#, fuzzy
-#~ msgctxt "Name(openbox-gnome.desktop)"
-#~ msgid "GNOME/Openbox"
-#~ msgstr "ओपनबाक्स"
-
 #, fuzzy
 #~| msgctxt "Name(gnome-welcome-tour.desktop)"
 #~| msgid "Welcome"
@@ -648,11 +708,6 @@ msgstr "एक्सएफसीई सेटिंग्स डेमॉन"
 #~ msgctxt "Name(pasystray.desktop)"
 #~ msgid "PulseAudio System Tray"
 #~ msgstr "पल्सऑडियो ध्वनि तंत्र"
-
-#, fuzzy
-#~ msgctxt "Name(lxqt-desktop.desktop)"
-#~ msgid "Desktop"
-#~ msgstr "डेस्कटॉप"
 
 #~ msgctxt "Name(org.kde.desktopcontainment)"
 #~ msgid "Desktop Containment"
