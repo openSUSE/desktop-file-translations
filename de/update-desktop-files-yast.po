@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: update-desktop-files-yast.de\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-23 12:11+0000\n"
-"PO-Revision-Date: 2022-03-03 12:41+0000\n"
+"PO-Revision-Date: 2022-03-03 17:12+0000\n"
 "Last-Translator: Gemineo <vistatec@gemineo.de>\n"
 "Language-Team: German <https://l10n.opensuse.org/projects/"
 "desktop-file-translations/update-desktop-files-yast-master/de/>\n"
@@ -48,9 +48,10 @@ msgid "autoyast,installation,clone"
 msgstr "autoyast,Installation,klonen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.CloneSystem.desktop:22
+#, fuzzy
 msgctxt "Name(org.opensuse.yast.CloneSystem.desktop)"
 msgid "YaST Clone System"
-msgstr "YaST Clone System"
+msgstr "YaST System klonen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.CloneSystem.desktop:23
 msgctxt "GenericName(org.opensuse.yast.CloneSystem.desktop)"
@@ -206,14 +207,16 @@ msgid "YaST User Logon"
 msgstr "YaST Benutzeranmeldung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.AuthClient.desktop:23
+#, fuzzy
 msgctxt "GenericName(org.opensuse.yast.AuthClient.desktop)"
 msgid "User Logon"
-msgstr "User Logon"
+msgstr "Benutzeranmeldung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.AuthClient.desktop:24
+#, fuzzy
 msgctxt "Comment(org.opensuse.yast.AuthClient.desktop)"
 msgid "User Logon Management"
-msgstr "User Logon Management"
+msgstr "Benutzeranmeldungs-Verwaltung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.LDAPKrb.desktop:15
 #, fuzzy
@@ -249,7 +252,7 @@ msgstr "Authentifizierung,Verzeichnis,ldap"
 #, fuzzy
 msgctxt "Name(org.opensuse.yast.LDAPServer.desktop)"
 msgid "YaST New Directory Server"
-msgstr "YaST – Neuer Verzeichnisserver"
+msgstr "YaST Neuer Verzeichnisserver"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.LDAPServer.desktop:18
 msgctxt "GenericName(org.opensuse.yast.LDAPServer.desktop)"
@@ -494,7 +497,7 @@ msgstr "Docker Konfiguration"
 #, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.DRBD.desktop)"
 msgid "high,availability,ha,storage,block,device,cluster"
-msgstr "hoch,Verfügbarkeit,ha,Speicher,Block,Gerät,Cluster"
+msgstr "hoch,Verfügbarkeit,HA,Speicher,Block,Gerät,Cluster"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.DRBD.desktop:23
 msgctxt "Name(org.opensuse.yast.DRBD.desktop)"
@@ -740,7 +743,7 @@ msgstr "Konfiguration eines iSCSI-Initiators"
 #, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.iSCILIOServer.desktop)"
 msgid "iscsi,lio,network,system"
-msgstr "ISCSI,LIO,Netzwerk,System"
+msgstr "iSCSI,LIO,Netzwerk,System"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.iSCILIOServer.desktop:22
 msgctxt "Name(org.opensuse.yast.iSCILIOServer.desktop)"
@@ -761,7 +764,7 @@ msgstr "Konfiguration eines iSCSI-Ziels über LIO"
 #, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.iSNS.desktop)"
 msgid "internet,storage,name,network,server,devices,iscsi,scsi"
-msgstr "Internet,Speicher,Name,Netzwerk,Server,Geräte,ISCSI,SCSI"
+msgstr "Internet,Speicher,Name,Netzwerk,Server,Geräte,iSCSI,SCSI"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.iSNS.desktop:22
 msgctxt "Name(org.opensuse.yast.iSNS.desktop)"
@@ -835,9 +838,10 @@ msgid "Configure your Mail Server"
 msgstr "Konfigurieren eines Mail-Servers"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Migration.desktop:18
+#, fuzzy
 msgctxt "Name(org.opensuse.yast.Migration.desktop)"
 msgid "YaST Online Migration"
-msgstr "YaST Online Migration"
+msgstr "YaST Online-Migration"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Migration.desktop:19
 msgctxt "GenericName(org.opensuse.yast.Migration.desktop)"
@@ -874,12 +878,13 @@ msgstr "Konfiguration eines iSCSI-Multipath"
 #, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Remote.desktop)"
 msgid "vnc,network,remote"
-msgstr "VNC,Netzwerk,remote"
+msgstr "VNC,Netzwerk,entfernt"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Remote.desktop:22
+#, fuzzy
 msgctxt "Name(org.opensuse.yast.Remote.desktop)"
 msgid "YaST Remote Administration"
-msgstr "YaST Remote Administration"
+msgstr "YaST Administration entfernter Rechner"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Remote.desktop:23
 #, fuzzy
@@ -958,9 +963,10 @@ msgid "Configure an NFS client"
 msgstr "Einen NFS-Client einrichten"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.NFSServer.desktop:20
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.NFSServer.desktop)"
 msgid "share,NFS,file,mount,network"
-msgstr ""
+msgstr "Freigabe,NFS,Datei,Einhängen,Netzwerk"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.NFSServer.desktop:25
 msgctxt "Name(org.opensuse.yast.NFSServer.desktop)"
@@ -1018,9 +1024,10 @@ msgid "Configure a NIS server"
 msgstr "Konfiguration eines NFS-Servers"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.NTPClient.desktop:19
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.NTPClient.desktop)"
 msgid "time,sync,synchronization,NTP"
-msgstr ""
+msgstr "Zeit,sync,Synchronisieren,NTP"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.NTPClient.desktop:24
 msgctxt "Name(org.opensuse.yast.NTPClient.desktop)"
@@ -1038,10 +1045,11 @@ msgid "Configure an NTP client or server"
 msgstr "Konfiguration eines NTP-Clients oder -Servers"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.OnlineUpdateConfiguration.desktop:14
+#, fuzzy
 msgctxt ""
 "X-SuSE-YaST-Keywords(org.opensuse.yast.OnlineUpdateConfiguration.desktop)"
 msgid "online,update,YOU,patch"
-msgstr ""
+msgstr "Online,Aktualisieren,YOU,Patch"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.OnlineUpdateConfiguration.desktop:19
 msgctxt "Name(org.opensuse.yast.OnlineUpdateConfiguration.desktop)"
@@ -1059,12 +1067,13 @@ msgstr "Konfiguration der Online-Aktualisierung"
 #| msgid "Online Update"
 msgctxt "Comment(org.opensuse.yast.OnlineUpdateConfiguration.desktop)"
 msgid "Configure Online Update Setup"
-msgstr "Online-Aktualisierung"
+msgstr "Online-Aktualisierung konfigurieren"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.OnlineUpdate.desktop:17
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.OnlineUpdate.desktop)"
 msgid "software,update,online,YOU,packages,RPM"
-msgstr ""
+msgstr "Software,Aktualisierung,Online,YOU,Pakete,RPM"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.OnlineUpdate.desktop:22
 msgctxt "Name(org.opensuse.yast.OnlineUpdate.desktop)"
@@ -1108,9 +1117,10 @@ msgstr ""
 "auswählen und Community-Repositories hinzufügen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.CheckMedia.desktop:18
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.CheckMedia.desktop)"
 msgid "software,media,check,dvd,cd,packages,repositories"
-msgstr ""
+msgstr "Software,Medien,Prüfung,DVD,CD,Pakete,Repositorys"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.CheckMedia.desktop:23
 msgctxt "Name(org.opensuse.yast.CheckMedia.desktop)"
@@ -1183,9 +1193,10 @@ msgid "Configure a proxy"
 msgstr "Einen Proxy einrichten"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.RDP.desktop:18
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.RDP.desktop)"
 msgid "remote,desktop,rdp,network,windows"
-msgstr ""
+msgstr "entfernt,Desktop,RDP,Netzwerk,Windows"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.RDP.desktop:23
 #, fuzzy
@@ -1193,7 +1204,7 @@ msgstr ""
 #| msgid "Remote Administration (VNC)"
 msgctxt "Name(org.opensuse.yast.RDP.desktop)"
 msgid "YaST Remote Administration"
-msgstr "Administration entfernter Rechner (VNC)"
+msgstr "YaST Administration entfernter Rechner"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.RDP.desktop:24
 msgctxt "GenericName(org.opensuse.yast.RDP.desktop)"
@@ -1211,15 +1222,12 @@ msgstr "RDP (Remote Desktop Protocol) einrichten"
 #| msgid "Rear Backup"
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Rear.desktop)"
 msgid "rear,backup"
-msgstr "Rear-Sicherung"
+msgstr "Rear,Sicherung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Rear.desktop:22
-#, fuzzy
-#| msgctxt "GenericName(org.opensuse.yast.Rear.desktop)"
-#| msgid "Rear Backup"
 msgctxt "Name(org.opensuse.yast.Rear.desktop)"
 msgid "YaST Rear Backup"
-msgstr "Rear-Sicherung"
+msgstr "YaST Rear-Sicherung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Rear.desktop:23
 msgctxt "GenericName(org.opensuse.yast.Rear.desktop)"
@@ -1232,9 +1240,10 @@ msgid "Configure Rear Backup"
 msgstr "Rear-Sicherung einrichten"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SCC.desktop:15
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.SCC.desktop)"
 msgid "scc,software,registration,smt,rmt,module,extension"
-msgstr ""
+msgstr "scc,Software,Registrierung,SMT,RMT,Modul,Erweiterung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SCC.desktop:20
 msgctxt "Name(org.opensuse.yast.SCC.desktop)"
@@ -1252,9 +1261,10 @@ msgid "Register your Product with the Vendor"
 msgstr "Registrieren Sie Ihr Produkt beim Hersteller"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SCC.AddExtensions.desktop:10
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.SCC.AddExtensions.desktop)"
 msgid "extensions,modules,software,registration,scc,package,repositories"
-msgstr ""
+msgstr "Erweiterungen,Module,Software,Registrierung,scc,Paket,Repositorys"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SCC.AddExtensions.desktop:15
 msgctxt "Name(org.opensuse.yast.SCC.AddExtensions.desktop)"
@@ -1272,7 +1282,7 @@ msgstr "Systemerweiterungen"
 #| msgid "Add System Extensions or Modules"
 msgctxt "Comment(org.opensuse.yast.SCC.AddExtensions.desktop)"
 msgid "Select System Extensions or Modules"
-msgstr "Systemerweiterungen oder Module hinzufügen"
+msgstr "Systemerweiterungen oder Module auswählen"
 
 #: /usr/share/applications/YaST2/rmt.desktop:14
 msgctxt "Name(rmt.desktop)"
@@ -1285,9 +1295,10 @@ msgid "RMT Configuration"
 msgstr "RMT-Konfiguration"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SambaClient.desktop:20
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.SambaClient.desktop)"
 msgid "authentication,samba,windows"
-msgstr ""
+msgstr "Authentifizierung,Samba,Windows"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SambaClient.desktop:25
 msgctxt "Name(org.opensuse.yast.SambaClient.desktop)"
@@ -1305,14 +1316,16 @@ msgid "Configure the Windows Domain Membership"
 msgstr "Mitgliedschaft in Windows-Domäne einrichten"
 
 #: /usr/share/applications/YaST2/samba-provision.desktop:20
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(samba-provision.desktop)"
 msgid "authentication,samba,windows"
-msgstr ""
+msgstr "Authentifizierung,Samba,Windows"
 
 #: /usr/share/applications/YaST2/samba-provision.desktop:25
+#, fuzzy
 msgctxt "Name(samba-provision.desktop)"
 msgid "Provision an Active Directory Domain Controller"
-msgstr ""
+msgstr "Bereitstellung eines Active Directory-Domänencontrollers"
 
 #: /usr/share/applications/YaST2/samba-provision.desktop:26
 #, fuzzy
@@ -1320,12 +1333,13 @@ msgstr ""
 #| msgid "Configure an Authentication Server"
 msgctxt "GenericName(samba-provision.desktop)"
 msgid "Configure an Active Directory Domain Controller"
-msgstr "Konfiguration eines Authentifizierungsservers"
+msgstr "Konfiguration eines Active Directory-Domänencontrollers"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SambaServer.desktop:20
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.SambaServer.desktop)"
 msgid "authentication,samba,windows,network"
-msgstr ""
+msgstr "Authentifizierung,Samba,Windows,Netzwerk"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SambaServer.desktop:25
 msgctxt "Name(org.opensuse.yast.SambaServer.desktop)"
@@ -1343,9 +1357,10 @@ msgid "Configure a Samba server"
 msgstr "Konfiguration eines Samba-Servers"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Scanner.desktop:15
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Scanner.desktop)"
 msgid "system,hardware,photo,document,ocr"
-msgstr ""
+msgstr "System,Hardware,Foto,Dokument,OCR"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Scanner.desktop:18
 msgctxt "Name(org.opensuse.yast.Scanner.desktop)"
@@ -1378,7 +1393,7 @@ msgstr "YaST Sicherheits-Center"
 #| msgid "Security and Users"
 msgctxt "GenericName(org.opensuse.yast.Security.desktop)"
 msgid "Security Center"
-msgstr "Sicherheit und Benutzer"
+msgstr "Security Center"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Security.desktop:26
 #, fuzzy
@@ -1386,7 +1401,7 @@ msgstr "Sicherheit und Benutzer"
 #| msgid "Configure local security settings"
 msgctxt "Comment(org.opensuse.yast.Security.desktop)"
 msgid "Configure local security settings and hardening"
-msgstr "Lokale Sicherheitseinstellungen einrichten"
+msgstr "Lokale Sicherheits- und Schutzeinstellungen einrichten"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.ServicesManager.desktop:20
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.ServicesManager.desktop)"
@@ -1399,7 +1414,7 @@ msgstr "systemd,System,Hintergrund"
 #| msgid "Services Manager"
 msgctxt "Name(org.opensuse.yast.ServicesManager.desktop)"
 msgid "YaST Services Manager"
-msgstr "Dienste-Verwaltung"
+msgstr "YaST Dienste-Verwaltung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.ServicesManager.desktop:26
 msgctxt "GenericName(org.opensuse.yast.ServicesManager.desktop)"
@@ -1413,9 +1428,10 @@ msgstr ""
 "Einrichten der laufenden Dienste und des Standard-Targets (früher Runlevel)"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SLPServer.desktop:17
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.SLPServer.desktop)"
 msgid "network,installation,repositories,products,serviceLocationProtocol"
-msgstr ""
+msgstr "Netzwerk,Installation,Repositorys,Produkte,ServiceLocationProtocol"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SLPServer.desktop:22
 msgctxt "Name(org.opensuse.yast.SLPServer.desktop)"
@@ -1453,9 +1469,10 @@ msgid "Manage Btrfs / LVM filesystem snapshots"
 msgstr "Verwalte Btrfs / LVM Dateisystemschnappschüsse"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sound.desktop:19
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Sound.desktop)"
 msgid "hardware,system,audio"
-msgstr ""
+msgstr "Hardware,System,Audio"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sound.desktop:24
 msgctxt "Name(org.opensuse.yast.Sound.desktop)"
@@ -1515,9 +1532,10 @@ msgstr ""
 "Dateisysteme)"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sudo.desktop:17
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Sudo.desktop)"
 msgid "root,permissions,users,authentication,administrator"
-msgstr ""
+msgstr "Root,Berechtigungen,Benutzer,Authentifizierung,Administrator"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sudo.desktop:22
 msgctxt "Name(org.opensuse.yast.Sudo.desktop)"
@@ -1555,9 +1573,10 @@ msgid "Collect support information from the system"
 msgstr "Sammle Supportinformationen aus dem System"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sysconfig.desktop:19
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Sysconfig.desktop)"
 msgid "system,sysconfig,editor,configuration"
-msgstr ""
+msgstr "System,sysconfig,Editor,Konfiguration"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sysconfig.desktop:24
 #, fuzzy
@@ -1565,7 +1584,7 @@ msgstr ""
 #| msgid "/etc/sysconfig Editor"
 msgctxt "Name(org.opensuse.yast.Sysconfig.desktop)"
 msgid "YaST Sysconfig Editor"
-msgstr "/etc/sysconfig-Editor"
+msgstr "YaST Sysconfig-Editor"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sysconfig.desktop:25
 #, fuzzy
@@ -1573,7 +1592,7 @@ msgstr "/etc/sysconfig-Editor"
 #| msgid "/etc/sysconfig Editor"
 msgctxt "GenericName(org.opensuse.yast.Sysconfig.desktop)"
 msgid "Sysconfig Editor"
-msgstr "/etc/sysconfig-Editor"
+msgstr "Sysconfig-Editor"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Sysconfig.desktop:26
 msgctxt "Comment(org.opensuse.yast.Sysconfig.desktop)"
@@ -1581,9 +1600,10 @@ msgid "Change settings in /etc/sysconfig configuration files"
 msgstr "Einstellungen in /etc/sysconfig-Konfigurationsdateien ändern"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.TFTPServer.desktop:18
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.TFTPServer.desktop)"
 msgid "TFTP,server,boot,trivial,file,transfer,protocol,network"
-msgstr ""
+msgstr "TFTP,Server,Boot,Trivial,Datei,Übertragung,Protokoll,Netzwerk"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.TFTPServer.desktop:23
 #, fuzzy
@@ -1591,7 +1611,7 @@ msgstr ""
 #| msgid "TFTP Server"
 msgctxt "Name(org.opensuse.yast.TFTPServer.desktop)"
 msgid "YaST TFTP Server"
-msgstr "TFTP-Server"
+msgstr "YaST TFTP-Server"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.TFTPServer.desktop:24
 #, fuzzy
@@ -1620,7 +1640,7 @@ msgstr "Hardware,Scan,System,Informationen"
 #| msgid "Hardware Information"
 msgctxt "Name(org.opensuse.yast.HWInfo.desktop)"
 msgid "YaST Hardware Information"
-msgstr "Hardware-Informationen"
+msgstr "YaST Hardware-Informationen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.HWInfo.desktop:23
 msgctxt "GenericName(org.opensuse.yast.HWInfo.desktop)"
@@ -1643,7 +1663,7 @@ msgstr "Hardware,System"
 #| msgid "Kernel Settings"
 msgctxt "Name(org.opensuse.yast.SystemSettings.desktop)"
 msgid "YaST Kernel Settings"
-msgstr "Kernel-Einstellungen"
+msgstr "YaST Kernel-Einstellungen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.SystemSettings.desktop:23
 msgctxt "GenericName(org.opensuse.yast.SystemSettings.desktop)"
@@ -1656,9 +1676,10 @@ msgid "Configure Low-Level System Options"
 msgstr "Konfiguration von Low-Level-Systemeinstellungen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Update.desktop:17
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Update.desktop)"
 msgid "update,packages,factory,rpm"
-msgstr ""
+msgstr "Aktualisierung,Pakete,Factory,RPM"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Update.desktop:22
 #, fuzzy
@@ -1666,7 +1687,7 @@ msgstr ""
 #| msgid "FACTORY Update"
 msgctxt "Name(org.opensuse.yast.Update.desktop)"
 msgid "YaST FACTORY Update"
-msgstr "FACTORY-Aktualisierung"
+msgstr "YaST FACTORY-Aktualisierung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Update.desktop:23
 msgctxt "GenericName(org.opensuse.yast.Update.desktop)"
@@ -1681,9 +1702,10 @@ msgstr ""
 "(Expertenwerkzeug)"
 
 #: /usr/share/applications/YaST2/usbauth.desktop:29
+#, fuzzy
 msgctxt "Name(usbauth.desktop)"
 msgid "usbauth"
-msgstr ""
+msgstr "usbauth"
 
 #: /usr/share/applications/YaST2/usbauth.desktop:30
 msgctxt "GenericName(usbauth.desktop)"
@@ -1691,9 +1713,10 @@ msgid "Modify the usbauth firewall config"
 msgstr "Modifiziere die usbauth firewall config"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Users.desktop:22
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.Users.desktop)"
 msgid "user,group,authentication,login,password"
-msgstr ""
+msgstr "Benutzer,Gruppe,Authentifizierung,Anmeldung,Passwort"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Users.desktop:27
 #, fuzzy
@@ -1701,7 +1724,7 @@ msgstr ""
 #| msgid "User and Group Management"
 msgctxt "Name(org.opensuse.yast.Users.desktop)"
 msgid "YaST User and Group Management"
-msgstr "Benutzer- und Gruppenverwaltung"
+msgstr "YaST Benutzer- und Gruppenverwaltung"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.Users.desktop:28
 msgctxt "GenericName(org.opensuse.yast.Users.desktop)"
@@ -1714,7 +1737,7 @@ msgstr "Benutzer- und Gruppenverwaltung"
 #| msgid "Add, Edit, Delete Users or User Groups"
 msgctxt "Comment(org.opensuse.yast.Users.desktop)"
 msgid "Add, Edit and Delete Users or User Groups"
-msgstr "Benutzer und Benutzergruppen hinzufügen, bearbeiten oder löschen"
+msgstr "Benutzer und Benutzergruppen hinzufügen, bearbeiten und löschen"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.VirtualizationConfig.desktop:16
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.VirtualizationConfig.desktop)"
@@ -1747,7 +1770,7 @@ msgstr "vm,Virtualisierung"
 #| msgid "Installation Server"
 msgctxt "Name(org.opensuse.yast.RelocationServer.desktop)"
 msgid "YaST Relocation Server"
-msgstr "Installationsserver"
+msgstr "YaST Relocation-Server"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.RelocationServer.desktop:23
 msgctxt "GenericName(org.opensuse.yast.RelocationServer.desktop)"
@@ -1760,14 +1783,16 @@ msgid "Configure Host for Virtual Machine Migration"
 msgstr "Host für die Migration einer Virtuellen Maschine konfigurieren"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.VPN.desktop:35
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(org.opensuse.yast.VPN.desktop)"
 msgid "vpn,ipsec,gateway"
-msgstr ""
+msgstr "VPN,IPsec,Gateway"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.VPN.desktop:40
+#, fuzzy
 msgctxt "Name(org.opensuse.yast.VPN.desktop)"
 msgid "YaST VPN"
-msgstr ""
+msgstr "YaST VPN"
 
 #: /usr/share/applications/YaST2/org.opensuse.yast.VPN.desktop:41
 msgctxt "GenericName(org.opensuse.yast.VPN.desktop)"
@@ -1780,9 +1805,10 @@ msgid "Configure VPN gateway and clients using IPSec"
 msgstr "VPN-Gateway und Clients über IPSec konfigurieren"
 
 #: /usr/share/applications/YaST2/messages.desktop:18
+#, fuzzy
 msgctxt "X-SuSE-YaST-Keywords(messages.desktop)"
 msgid "system,log,messages"
-msgstr ""
+msgstr "System,Protokoll,Meldungen"
 
 #: /usr/share/applications/YaST2/messages.desktop:23
 msgctxt "Name(messages.desktop)"
