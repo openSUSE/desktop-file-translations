@@ -236,7 +236,7 @@ def processTarFile(filepath, timestamp=datetime.utcnow()):
                 continue
 
             # Make path absolute, if not already
-            tar_file_path = tar_file.name if tar_file.name[0] == '/' else ('/' + tar_file.name)
+            tar_file_path = os.path.normpath(tar_file.name if tar_file.name[0] == '/' else ('/' + tar_file.name))
             tar_file_type = getFileType(tar_file_path)
             if tar_file_type is None:
                 print("Warning: Don't know how to handle {}".format(tar_file_path))

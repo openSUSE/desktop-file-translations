@@ -18,7 +18,7 @@
 
   2. [desktop-file-translations](https://github.com/openSUSE/desktop-file-translations):
      The `.po` files in the GitHub repository are regularly updated by running
-     the tools under `51-xml/download_data.sh` and `51-xml/generate_and_merge_pos.sh`
+     the tools under `51-xml/download_data.sh` or newer `51-xml/download_data_from_download-o-o.sh` and `51-xml/generate_and_merge_pos.sh`
      scripts and then committing the results. The first script fetches the
      compressed `.desktop` files from the OBS API, and the second turns them
      into `.po` files, and merges the results into the already existing `.po`
