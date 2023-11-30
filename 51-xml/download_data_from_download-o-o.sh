@@ -7,6 +7,9 @@ set -o nounset
 # Basically if fetches ARCHIVES.gz (~2.5GB extracted) from currently developed Leap,
 # and filters translatable files. Fetches binary rpms from the Leap oss repo, extracts individual files 
 # and reconstructs tar.bz2 archives which were genrated in OBS.
+# 
+# Right now we only extract mime and desktop files.
+# appstream/polkit is disabled in the matched_files.txt section
 #
 # WARNING: Runtime can take a few hours (mostly downloading and later cpio extraction)
 # and will consume around 10.2GB in `pwd`/download in total !!!
@@ -36,7 +39,10 @@ fi
 
 if [ ! -f "matched_files.txt" ]; then
     echo "Looking up translatable file entries"
-    egrep "\.desktop$|\.appdata\.xml$|usr/share/mime/*/.*xml$|polkit.*.policy$" filtered_arches.txt > matched_files.txt
+
+    egrep "\.desktop$|usr/share/mime/*/.*xml$" filtered_arches.txt > matched_files.txt
+# Disable line above and uncomment the line bellow to enable translation of polkit policies, and appstream / appdata manifests
+#    egrep "\.desktop$|\.appdata\.xml$|usr/share/mime/*/.*xml$|polkit.*.policy$" filtered_arches.txt > matched_files.txt
 fi
 
 declare -A filelists
