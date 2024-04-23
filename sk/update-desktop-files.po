@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2023-11-30 12:39+0000\n"
-"PO-Revision-Date: 2024-04-22 19:43+0000\n"
+"PO-Revision-Date: 2024-04-23 18:43+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/"
 "desktop-file-translations/update-desktop-files-master/sk/>\n"
@@ -26362,9 +26362,6 @@ msgid "Configure the Smart Common Input Method platform"
 msgstr "Konfigurácia platformy Smart Common Input Method"
 
 #: /usr/share/sddm/themes/elarun/metadata.desktop:2
-#, fuzzy
-#| msgctxt "Name(metadata.desktop)"
-#| msgid "Elarun"
 msgctxt "SddmGreeterTheme-Name(metadata.desktop)"
 msgid "Elarun"
 msgstr "Elarun"
@@ -26630,7 +26627,7 @@ msgstr ""
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob-ofx.desktop:5
 msgctxt "Name(org.kde.skrooge-import-backend-woob-ofx.desktop)"
 msgid "Woob backend (OFX)"
-msgstr ""
+msgstr "Podporný program Woob (OFX)"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob-ofx.desktop:20
 msgctxt "Comment(org.kde.skrooge-import-backend-woob-ofx.desktop)"
@@ -26644,6 +26641,20 @@ msgid ""
 "have to specify the first one too but it could be blank.\\n "
 "Example: ,2017-09-25\\n 3-The woob additional options (example: --nss)"
 msgstr ""
+"Podporný program importu pre Skrooge využívajúci woob.\\n"
+" Pred použitím tohto podporného programu je potrebné nainštalovať woob a "
+"správne nakonfigurovať modul bank.\\n"
+"\\n"
+" Parametre:\\n"
+" 1-Zoznam účtov, ktoré sa majú importovať, oddelený '|'. Ak neuvediete "
+"parameter, budú importované všetky účty.\\n"
+" Príklad: 123@ca|456@bp\\n"
+" 2-Prvý dátum importovaných operácií vo formáte RRRR-MM-DD.\\n"
+" Príklad: 2017-09-25\\n"
+"Upozornenie:Ak chcete zadať tento parameter, musíte zadať aj prvý parameter, "
+"ktorý však môže byť prázdny.\\n"
+" Príklad: ,2017-09-25\\n"
+" 3-Dodatočné voľby woob (príklad: --nss)"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob.desktop:5
 msgctxt "Name(org.kde.skrooge-import-backend-woob.desktop)"
@@ -26749,20 +26760,14 @@ msgid "A Skrooge plugin to import KMY files"
 msgstr "Skrooge plugin na import KMY súborov"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-ledger.desktop:5
-#, fuzzy
-#| msgctxt "Name(org.kde.skrooge-import-backend.desktop)"
-#| msgid "Skrooge import backend plugin"
 msgctxt "Name(org.kde.skrooge-import-ledger.desktop)"
 msgid "Skrooge import ledger plugin"
-msgstr "Plugin backendu importu Skrooge"
+msgstr "Zásuvný modul Skrooge pre import účtovnej knihy"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-ledger.desktop:23
-#, fuzzy
-#| msgctxt "Comment(org.kde.skrooge-import-csv.desktop)"
-#| msgid "A Skrooge plugin to import CSV files"
 msgctxt "Comment(org.kde.skrooge-import-ledger.desktop)"
 msgid "A Skrooge plugin to import ledger files"
-msgstr "Skrooge plugin na import CSV súborov"
+msgstr "Zásuvný modul Skrooge na import súborov účtovnej knihy"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-mmb.desktop:5
 msgctxt "Name(org.kde.skrooge-import-mmb.desktop)"
@@ -27038,12 +27043,9 @@ msgid ""
 msgstr ""
 
 #: /usr/share/kservices5/sources/org.kde.skrooge-source-msn.desktop:5
-#, fuzzy
-#| msgctxt "Name(collection.desktop)"
-#| msgid "MSE"
 msgctxt "Name(org.kde.skrooge-source-msn.desktop)"
 msgid "MSN"
-msgstr "MSE"
+msgstr "MSN"
 
 #: /usr/share/kservices5/sources/org.kde.skrooge-source-msn.desktop:27
 msgctxt "Comment(org.kde.skrooge-source-msn.desktop)"
@@ -27115,12 +27117,9 @@ msgid "SKG GUI plugin"
 msgstr "Zásuvný modul SKG GUI"
 
 #: /usr/share/kservicetypes5/org.kde.skrooge-import-backend-type.desktop:5
-#, fuzzy
-#| msgctxt "Name(org.kde.skrooge-import-backend.desktop)"
-#| msgid "Skrooge import backend plugin"
 msgctxt "Name(org.kde.skrooge-import-backend-type.desktop)"
 msgid "Skrooge Import Backend"
-msgstr "Plugin backendu importu Skrooge"
+msgstr "Podporný program importu Skrooge"
 
 #: /usr/share/kservicetypes5/org.kde.skrooge-import-plugin.desktop:5
 msgctxt "Name(org.kde.skrooge-import-plugin.desktop)"
@@ -27133,20 +27132,14 @@ msgid "Service type for import module of Skrooge"
 msgstr "Typ služby pre importný modul pre Skrooge"
 
 #: /usr/share/kservicetypes5/org.kde.skrooge-source-plugin.desktop:5
-#, fuzzy
-#| msgctxt "Name(org.kde.plasma-runner-skrooge-add-operation.desktop)"
-#| msgid "Skrooge"
 msgctxt "Name(org.kde.skrooge-source-plugin.desktop)"
 msgid "Skrooge Source"
-msgstr "Skrooge"
+msgstr "Zdroj Skrooge"
 
 #: /usr/share/kservicetypes5/org.kde.skrooge-source-plugin.desktop:27
-#, fuzzy
-#| msgctxt "Comment(org.kde.skrooge-import-plugin.desktop)"
-#| msgid "Service type for import module of Skrooge"
 msgctxt "Comment(org.kde.skrooge-source-plugin.desktop)"
 msgid "Service type for sources of quote for Skrooge"
-msgstr "Typ služby pre importný modul pre Skrooge"
+msgstr "Typ služby pre zdroje cenovej ponuky pre Skrooge"
 
 #: /usr/share/xgreeters/slick-greeter.desktop:2
 msgctxt "Name(slick-greeter.desktop)"
@@ -27164,12 +27157,9 @@ msgid "soundKonverter Aften Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_faac.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteplugin.desktop)"
-#| msgid "Kopete Plugin"
 msgctxt "Name(soundkonverter_codec_faac.desktop)"
 msgid "soundKonverter FAAC Plugin"
-msgstr "Modul Kopete"
+msgstr "Zásuvný modul soundKonverter FAAC"
 
 #: /usr/share/kservices5/soundkonverter_codec_ffmpeg.desktop:4
 msgctxt "Name(soundkonverter_codec_ffmpeg.desktop)"
@@ -27177,12 +27167,9 @@ msgid "soundKonverter FFmpeg Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_flac.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteplugin.desktop)"
-#| msgid "Kopete Plugin"
 msgctxt "Name(soundkonverter_codec_flac.desktop)"
 msgid "soundKonverter Flac Plugin"
-msgstr "Modul Kopete"
+msgstr "Zásuvný modul soundKonverter Flac"
 
 #: /usr/share/kservices5/soundkonverter_codec_flake.desktop:4
 msgctxt "Name(soundkonverter_codec_flake.desktop)"
@@ -27195,12 +27182,9 @@ msgid "soundKonverter Fluidsynth Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_lame.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteplugin.desktop)"
-#| msgid "Kopete Plugin"
 msgctxt "Name(soundkonverter_codec_lame.desktop)"
 msgid "soundKonverter Lame Plugin"
-msgstr "Modul Kopete"
+msgstr "Zásuvný modul soundKonverter Lame"
 
 #: /usr/share/kservices5/soundkonverter_codec_libav.desktop:4
 msgctxt "Name(soundkonverter_codec_libav.desktop)"
