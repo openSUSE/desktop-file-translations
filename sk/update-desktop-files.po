@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: collect-desktop-files 9.0.1\n"
 "POT-Creation-Date: 2023-11-30 12:39+0000\n"
-"PO-Revision-Date: 2024-04-23 18:43+0000\n"
+"PO-Revision-Date: 2024-04-24 18:43+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/"
 "desktop-file-translations/update-desktop-files-master/sk/>\n"
@@ -26659,7 +26659,7 @@ msgstr ""
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob.desktop:5
 msgctxt "Name(org.kde.skrooge-import-backend-woob.desktop)"
 msgid "Woob backend"
-msgstr ""
+msgstr "Podporný program Woob"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob.desktop:23
 msgctxt "Comment(org.kde.skrooge-import-backend-woob.desktop)"
@@ -26673,11 +26673,25 @@ msgid ""
 "have to specify the first one too but it could be blank.\\n "
 "Example: ,2017-09-25\\n 3-The woob additional options (example: --nss)"
 msgstr ""
+"Podporný program importu pre Skrooge využívajúci woob.\\n"
+" Pred použitím tohto podporného programu je potrebné nainštalovať woob a "
+"správne nakonfigurovať modul bank.\\n"
+"\\n"
+" Parametre:\\n"
+" 1-Zoznam účtov, ktoré sa majú importovať, oddelený '|'. Ak neuvediete "
+"parameter, budú importované všetky účty.\\n"
+" Príklad: 123@ca|456@bp\\n"
+" 2-Prvý dátum importovaných operácií vo formáte RRRR-MM-DD.\\n"
+" Príklad: 2017-09-25\\n"
+"Upozornenie:Ak chcete zadať tento parameter, musíte zadať aj prvý parameter, "
+"ktorý však môže byť prázdny.\\n"
+" Príklad: ,2017-09-25\\n"
+" 3-Dodatočné voľby woob (príklad: --nss)"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob_coming.desktop:5
 msgctxt "Name(org.kde.skrooge-import-backend-woob_coming.desktop)"
 msgid "Woob coming backend"
-msgstr ""
+msgstr "Prichádzajúci podporný program Woob"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend-woob_coming.desktop:19
 msgctxt "Comment(org.kde.skrooge-import-backend-woob_coming.desktop)"
@@ -26688,6 +26702,15 @@ msgid ""
 "Parameter:\\n The list of accounts to import separated by '|'. If you don't "
 "pass parameter then all accounts will be imported.\\n Example: 123@ca|456@bp"
 msgstr ""
+"Podporný program importu pre Skrooge využívajúci woob pre prichádzajúce "
+"operácie. Tento zásuvný modul možno použiť pre kartu s odloženým dlhom.\\n"
+" Pred použitím tohto podporného programu je potrebné nainštalovať woob a "
+"správne nakonfigurovať modul bank.\\n"
+"\\n"
+" Parameter:\\n"
+" Zoznam účtov, ktoré sa majú importovať, oddelený '|'. Ak neuvediete "
+"parameter, budú importované všetky účty.\\n"
+" Príklad: 123@ca|456@bp"
 
 #: /usr/share/kservices5/org.kde.skrooge-import-backend.desktop:5
 msgctxt "Name(org.kde.skrooge-import-backend.desktop)"
@@ -27192,20 +27215,14 @@ msgid "soundKonverter libav Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_mac.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteplugin.desktop)"
-#| msgid "Kopete Plugin"
 msgctxt "Name(soundkonverter_codec_mac.desktop)"
 msgid "soundKonverter Mac Plugin"
-msgstr "Modul Kopete"
+msgstr "Zásuvný modul soundKonverter Mac"
 
 #: /usr/share/kservices5/soundkonverter_codec_mplayer.desktop:4
-#, fuzzy
-#| msgctxt "Xfce Panel-Name(power-manager-plugin.desktop)"
-#| msgid "Power Manager Plugin"
 msgctxt "Name(soundkonverter_codec_mplayer.desktop)"
 msgid "soundKonverter MPlayer Plugin"
-msgstr "Zás. modul Správcu napájania"
+msgstr "Zásuvný modul soundKonverter MPlayer"
 
 #: /usr/share/kservices5/soundkonverter_codec_musepack.desktop:4
 msgctxt "Name(soundkonverter_codec_musepack.desktop)"
@@ -27228,12 +27245,9 @@ msgid "soundKonverter Shorten Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_speex.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteprotocol.desktop)"
-#| msgid "Kopete Protocol Plugin"
 msgctxt "Name(soundkonverter_codec_speex.desktop)"
 msgid "soundKonverter Vorbis Tools Plugin"
-msgstr "Modul protokolu Kopete"
+msgstr "Zásuvný modul soundKonverter Vorbis Tools"
 
 #: /usr/share/kservices5/soundkonverter_codec_timidity.desktop:4
 msgctxt "Name(soundkonverter_codec_timidity.desktop)"
@@ -27251,12 +27265,9 @@ msgid "soundKonverter TwoLame Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_codec_vorbistools.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteprotocol.desktop)"
-#| msgid "Kopete Protocol Plugin"
 msgctxt "Name(soundkonverter_codec_vorbistools.desktop)"
 msgid "soundKonverter Vorbis Tools Plugin"
-msgstr "Modul protokolu Kopete"
+msgstr "Zásuvný modul soundKonverter Vorbis Tools"
 
 #: /usr/share/kservices5/soundkonverter_codec_wavpack.desktop:4
 msgctxt "Name(soundkonverter_codec_wavpack.desktop)"
@@ -27269,12 +27280,9 @@ msgid "soundKonverter normalize Plugin"
 msgstr ""
 
 #: /usr/share/kservices5/soundkonverter_filter_sox.desktop:4
-#, fuzzy
-#| msgctxt "Comment(kopeteplugin.desktop)"
-#| msgid "Kopete Plugin"
 msgctxt "Name(soundkonverter_filter_sox.desktop)"
 msgid "soundKonverter sox Plugin"
-msgstr "Modul Kopete"
+msgstr "Zásuvný modul soundKonverter sox"
 
 #: /usr/share/kservices5/soundkonverter_replaygain_aacgain.desktop:4
 msgctxt "Name(soundkonverter_replaygain_aacgain.desktop)"
@@ -27317,12 +27325,9 @@ msgid "soundKonverter icedax plugin"
 msgstr ""
 
 #: /usr/share/kservicetypes5/soundkonverter_codecplugin.desktop:5
-#, fuzzy
-#| msgctxt "Name(org.kde.skg-plugin-undoredo.desktop)"
-#| msgid "Undo redo plugin"
 msgctxt "Comment(soundkonverter_codecplugin.desktop)"
 msgid "soundKonverter codec plugin"
-msgstr "Plugin Vrátiť naspäť"
+msgstr "Zásuvný modul soundKonverter codec"
 
 #: /usr/share/kservicetypes5/soundkonverter_filterplugin.desktop:5
 msgctxt "Comment(soundkonverter_filterplugin.desktop)"
@@ -27340,12 +27345,9 @@ msgid "soundKonverter ripper plugin"
 msgstr ""
 
 #: /usr/share/solid/actions/soundkonverter-rip-audiocd.desktop:8
-#, fuzzy
-#| msgctxt "Desktop Action PlayAudioCd-Name(kaffeine_play_audiocd.desktop)"
-#| msgid "Play Audio CD with Kaffeine"
 msgctxt "Desktop Action Rip-Name(soundkonverter-rip-audiocd.desktop)"
 msgid "Rip Audio CD with soundKonverter"
-msgstr "Prehrať Audio CD v Kaffeine"
+msgstr "Ripovanie zvukových CD pomocou soundKonverter"
 
 #: /usr/share/speech-dispatcher/conf/desktop/speechd.desktop:5
 msgctxt "Name(speechd.desktop)"
@@ -27413,12 +27415,9 @@ msgid "An i3-compatible Wayland compositor"
 msgstr ""
 
 #: /usr/lib/syncplay/syncplay/resources/syncplay-server.desktop:2
-#, fuzzy
-#| msgctxt "Name(unity_server.desktop)"
-#| msgid "Unity server"
 msgctxt "Name(syncplay-server.desktop)"
 msgid "Syncplay server"
-msgstr "Unity server"
+msgstr "Server Syncplay"
 
 #: /usr/lib/syncplay/syncplay/resources/syncplay-server.desktop:3
 msgctxt "Comment(syncplay-server.desktop)"
@@ -27456,12 +27455,9 @@ msgid "System tray icon for managing print jobs"
 msgstr "Ikona na paneli úloh pre správu tlačových úloh"
 
 #: /usr/lib/systemd/tests/integration-tests/fuzz/fuzz-xdg-desktop/full.desktop:3
-#, fuzzy
-#| msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
-#| msgid "GNOME Settings Daemon's power plugin"
 msgctxt "Name(full.desktop)"
 msgid "GNOME Settings Daemon's power plugin"
-msgstr "Plugin napájania démona nastavení GNOME"
+msgstr "Zásuvný modul napájania démona nastavení GNOME"
 
 #: /usr/lib/systemd/tests/integration-tests/fuzz/fuzz-xdg-desktop/org.gnome.SettingsDaemon.Power.desktop:3
 msgctxt "Name(org.gnome.SettingsDaemon.Power.desktop)"
@@ -27489,12 +27485,9 @@ msgid "System Settings External Application"
 msgstr "Externá aplikácia systémových nastavení"
 
 #: /usr/share/systemsettings/categories/settings-appearance-color.desktop:8
-#, fuzzy
-#| msgctxt "Name(metadata.desktop)"
-#| msgid "Colorful Cups"
 msgctxt "Name(settings-appearance-color.desktop)"
 msgid "Colors"
-msgstr "Farebné šálky"
+msgstr "Farby"
 
 #: /usr/share/systemsettings/categories/settings-appearance-font.desktop:8
 msgctxt "Name(settings-appearance-font.desktop)"
